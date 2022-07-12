@@ -337,6 +337,7 @@ class LogParser:
         if "<*>" not in template_regex: return []
         template_regex = re.sub(r'([^A-Za-z0-9])', r'\\\1', template_regex)
         
+        ## ALTERAR LINHA ABAIXO
         #template_regex = re.sub(r'\\ +', r'\s+', template_regex)
         template_regex = re.sub(r'\\\s+', '\\\s+', template_regex)
 

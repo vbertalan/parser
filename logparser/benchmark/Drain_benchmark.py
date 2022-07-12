@@ -6,12 +6,11 @@ from logparser.logparser.utils import evaluator
 from logparser.logparser.Drain import Drain
 import os
 import pandas as pd
+from pathlib import Path
 
 input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
-#output_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/results/Drain" # The output directory of parsing results
 output_dir = 'Drain_result/'  # The output directory of parsing results
 
-'''
 benchmark_settings = {
     'HDFS': {
         'log_file': 'HDFS/HDFS_2k.log',
@@ -141,31 +140,12 @@ benchmark_settings = {
         'depth': 6   
         },
 }
-'''
-
-benchmark_settings = {
-    'Apache': {
-        'log_file': 'Apache\\Apache_2k.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-        'regex': [r'(\d+\.){3}\d+'],
-        'st': 0.5,
-        'depth': 4        
-        },
-    'Andriod': {
-        'log_file': 'Andriod\\Andriod_2k.log',
-        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-        'st': 0.2,
-        'depth': 6   
-        },
-}
 
 bechmark_result = []
 #for dataset, setting in benchmark_settings.iteritems():
 for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
-    ##indir = os.path.join(input_dir, os.sep, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
     parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
@@ -182,4 +162,7 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-df_result.T.to_csv('Drain_bechmark_result.csv')
+filepath = Path('Drain_result/Drain_bechmark_result.csv') 
+#df_result.T.to_csv('Drain_bechmark_result.csv')
+df_result.T.to_csv(filepath)
+
