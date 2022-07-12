@@ -1,0 +1,5 @@
+$ docker run --name logparser_py3 -it -v logparser:/logparser logpai/logparser:py3 bash
+
+$ git clone https://github.com/logpai/logparser.git /logparser/
+$ cd /logparser/demo/
+$ python Drain_demo.py
