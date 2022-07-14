@@ -7,14 +7,13 @@ License: MIT
 import sys
 import os
 import gc
-import re
+import regex as re
 import hashlib
 import math
 import pandas as pd
 import numpy as np
 from collections import defaultdict
 from datetime import datetime
-
 
 class LogParser(object):
     def __init__(self, indir, outdir, log_format, rex=[]):
@@ -78,6 +77,8 @@ class LogParser(object):
         print('Second pass done.')
 
         self.df_log['EventId'] = map(lambda x: self.templates[x]['id'], templatel)
+        ## LINHA COM ERRO
+        #self.df_log['EventId'] = map(lambda x: self.templates[x]['id'], templatel)
         self.df_log['EventTemplate'] = templatel
         self.dump_results()
 
@@ -118,7 +119,7 @@ class LogParser(object):
         regex = ''
         for k in range(len(splitters)):
             if k % 2 == 0:
-                splitter = re.sub(' +', '\s+', splitters[k])
+                splitter = re.sub(' +', '\\\s+', splitters[k])
                 regex += splitter
             else:
                 header = splitters[k].strip('<').strip('>')
