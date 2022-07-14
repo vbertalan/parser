@@ -191,6 +191,7 @@ if __name__ == '__main__':
     import datetime
     import sys
 
+    ##  ERRO AQUI - ARQUIVO AUSENTE
     from templateminer.basic_line_parser import BasicLineParser as LP
 
     parser = LP()
