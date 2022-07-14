@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('../')
-from logparser import IPLoM, evaluator
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+from logparser.logparser.utils import evaluator
+from logparser.logparser.IPLoM import IPLoM
 import os
 import pandas as pd
+from pathlib import Path
 
 
-input_dir = '../logs/'  # The input directory of log file
-output_dir = 'IPLoM_result/'  # The output directory of parsing results
+input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
+output_dir = 'logparser/results/IPLoM_result/'  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
@@ -141,7 +143,7 @@ benchmark_settings = {
 }
 
 bechmark_result = []
-for dataset, setting in benchmark_settings.iteritems():
+for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
@@ -161,4 +163,6 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-df_result.T.to_csv('IPLoM_bechmark_result.csv')
+#df_result.T.to_csv('IPLoM_bechmark_result.csv')
+filepath = Path('logparser/results/IPLoM_result/IPLoM_bechmark_result.csv') 
+df_result.T.to_csv(filepath)

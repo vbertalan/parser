@@ -9,7 +9,7 @@ import sys
 from datetime import datetime
 import os
 import gc
-import re
+import regex as re
 import pandas as pd
 import hashlib
 import string
@@ -106,7 +106,7 @@ class LogParser:
                 for currentRex in self.para.rex:
                     line = re.sub(currentRex, '', line)
 
-            wordSeq = list(filter(lambda x: x != '', re.split(r'[\s=:,]', line)))
+            wordSeq = list(filter(lambda x: x != '', re.split(r'[\\\s=:,]', line)))
             if not wordSeq:
                 wordSeq = [' ']
 
@@ -614,7 +614,7 @@ class LogParser:
         regex = ''
         for k in range(len(splitters)):
             if k % 2 == 0:
-                splitter = re.sub(' +', '\s+', splitters[k])
+                splitter = re.sub(' +', '\\\s+', splitters[k])
                 regex += splitter
             else:
                 header = splitters[k].strip('<').strip('>')
@@ -624,7 +624,7 @@ class LogParser:
         return headers, regex
 
     def get_parameter_list(self, row):
-        template_regex = re.sub(r"\s<.{1,5}>\s", "<*>", row["EventTemplate"])
+        template_regex = re.sub(r"\\\s<.{1,5}>\\\s", "<*>", row["EventTemplate"])
         if "<*>" not in template_regex: return []
         template_regex = re.sub(r'([^A-Za-z0-9])', r'\\\1', template_regex)
         template_regex = re.sub(r'\\ +', r'[^A-Za-z0-9]+', template_regex)
