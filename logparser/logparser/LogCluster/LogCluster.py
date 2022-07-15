@@ -6,7 +6,7 @@ License     : MIT
 
 import os
 import pandas as pd
-import re
+import regex as re
 import hashlib
 from datetime import datetime
 import subprocess
@@ -162,7 +162,7 @@ class LogParser():
         regex = ''
         for k in range(len(splitters)):
             if k % 2 == 0:
-                splitter = re.sub(' +', '\s+', splitters[k])
+                splitter = re.sub(' +', '\\\s+', splitters[k])
                 regex += splitter
             else:
                 header = splitters[k].strip('<').strip('>')
