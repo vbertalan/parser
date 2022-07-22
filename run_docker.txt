@@ -1,0 +1,4 @@
+docker run --name logparser_py3 -it -v logparser:/logparser logpai/logparser:py3 bash
+
+docker start -a logparser_py3
+docker run -a logparser_py3
