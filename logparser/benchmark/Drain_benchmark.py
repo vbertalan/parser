@@ -19,7 +19,8 @@ benchmark_settings = {
         'st': 0.5,
         'depth': 4
         },
-
+}
+'''
     'Hadoop': {
         'log_file': 'Hadoop/Hadoop_2k.log',
         'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
@@ -139,7 +140,9 @@ benchmark_settings = {
         'st': 0.7,
         'depth': 6   
         },
-}
+'''
+
+
 
 bechmark_result = []
 #for dataset, setting in benchmark_settings.iteritems():
