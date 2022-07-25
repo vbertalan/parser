@@ -162,6 +162,7 @@ class LogParser:
         ## CARREGA OS DADOS EM UM DATAFRAME
         self.load_data()
         count = 0
+        
         self.transform_dataset(self.df_log["Content"])
         
         ## Sem pre-processamento
