@@ -35,6 +35,7 @@ class LogParser:
         self.cluster_num = None
         self.cluster_labels = None
         self.parsed_sentences = None
+        self.word_dict = None
 
     ## Transforma o dataset
     def transform_dataset(self, raw_content):
@@ -57,6 +58,35 @@ class LogParser:
         self.cluster_num = clusterer.labels_.max()
         self.cluster_labels = clusterer.labels_
 
+    def create_dict_pd(self, df_sentences):
+    
+        from nltk.tokenize import word_tokenize
+
+        ## Cria dataframe
+        values = pd.DataFrame(columns=['Token', 'Cluster', 'Frequence', 'Type'])
+
+        ## Varre os tokens de cada frase
+        for id, row in df_sentences.iterrows():
+            sentence_tokens = word_tokenize(row.item())
+            sentence_cluster = self.cluster_labels[id]
+            
+            for token in sentence_tokens:
+                query = values.query("Token == @token")
+                ## Caso o token já exista no dict
+                for index, result in query.iterrows():
+                    ## Verifica se o cluster é o mesmo da frase. Se for, aumenta frequência
+                    if (result['Cluster'] == sentence_cluster):
+                        new_frequence = result['Frequence'] + 1
+                        values.at[index,'Frequence'] = new_frequence
+                        break
+                ## Se o token não existir no dict, insere-o no fim
+                else:
+                    new_val = pd.DataFrame([[token, sentence_cluster, 1, ""]], columns = ['Token', 'Cluster', 'Frequence', 'Type'])
+                    values = pd.concat([values,new_val], ignore_index = True)
+        
+        ### Retorna dicionário de clusters e frequências
+        self.word_dict = values    
+
     ## Carrega os arquivos
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
@@ -67,6 +97,7 @@ class LogParser:
         for currentRex in self.rex:
             line = re.sub(currentRex, '<*>', line)
         return line
+        
 
     ## Carrega dataframe de logs
     def log_to_dataframe(self, log_file, regex, headers, logformat):
@@ -127,16 +158,14 @@ class LogParser:
         print('Parsing file: ' + os.path.join(self.path, logName))
         start_time = datetime.now()
         self.logName = logName
-        
+
         ## CARREGA OS DADOS EM UM DATAFRAME
         self.load_data()
-
-        print(self.df_log)
-
         count = 0
-
         self.transform_dataset(self.df_log["Content"])
-        print(self.vectors)
+        
+        ## Sem pre-processamento
+        self.create_dict_pd(self.df_log["Content"])
 
 
 
