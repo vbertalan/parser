@@ -12,23 +12,18 @@ import hashlib
 from datetime import datetime
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4, 
-                 maxChild=100, rex=[], keep_para=True):
+    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], keep_para=True):
         """
         Attributes
         ----------
             rex : regular expressions used in preprocessing (step1)
             path : the input path stores the input log file name
-            depth : depth of all leaf nodes
             st : similarity threshold
-            maxChild : max number of children of an internal node
             logName : the name of the input file containing raw log messages
             savePath : the output path stores the file containing structured logs
         """
         self.path = indir
-        self.depth = depth - 2
         self.st = st
-        self.maxChild = maxChild
         self.logName = None
         self.savePath = outdir
         self.df_log = None
@@ -36,6 +31,10 @@ class LogParser:
         self.log_format = log_format
         self.rex = rex
         self.keep_para = keep_para
+        self.clusters = None
+        self.cluster_num = None
+        self.cluster_labels = None
+        self.parsed_sentences = None
 
     ## Transforma o dataset
     def transform_dataset(self, raw_content):
@@ -44,6 +43,19 @@ class LogParser:
         model = SentenceTransformer('all-mpnet-base-v2')
 
         self.vectors = model.encode(raw_content)
+
+    def cluster_vectors(self):
+        import hdbscan
+        import umap
+
+        clusterer = hdbscan.HDBSCAN(min_cluster_size=2,min_samples=1,metric='euclidean',
+                                    allow_single_cluster=False,cluster_selection_method='eom')
+        reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
+
+        umap_data = reducer.fit_transform(self.vectors)
+        self.clusters = clusterer.fit(umap_data)
+        self.cluster_num = clusterer.labels_.max()
+        self.cluster_labels = clusterer.labels_
 
     ## Carrega os arquivos
     def load_data(self):
@@ -125,6 +137,10 @@ class LogParser:
 
         self.transform_dataset(self.df_log["Content"])
         print(self.vectors)
+
+
+
+
 
         for idx, line in self.df_log.iterrows():
             #print(idx)

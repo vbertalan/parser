@@ -151,7 +151,7 @@ for dataset, setting in benchmark_settings.items():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
+    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], st=setting['st'])
     parser.parse(log_file)
     
     '''
