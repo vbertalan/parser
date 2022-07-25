@@ -32,22 +32,18 @@ class LogParser:
         self.logName = None
         self.savePath = outdir
         self.df_log = None
+        self.vectors = None
         self.log_format = log_format
         self.rex = rex
         self.keep_para = keep_para
 
     ## Transforma o dataset
-    def transform_dataset(raw_logs):
-        ## First step - import SentenceTransformers
+    def transform_dataset(self, raw_content):
         from sentence_transformers import SentenceTransformer
         #model = SentenceTransformer('all-MiniLM-L6-v2')
         model = SentenceTransformer('all-mpnet-base-v2')
 
-        ## Junta as frases
-        #sentences = [log1, log2, log3, log4, log5, log6]
-
-        ## Faz encode nas frases
-        embeddings = model.encode(raw_logs)
+        self.vectors = model.encode(raw_content)
 
     ## Carrega os arquivos
     def load_data(self):
@@ -126,7 +122,13 @@ class LogParser:
         print(self.df_log)
 
         count = 0
+
+        self.transform_dataset(self.df_log["Content"])
+        print(self.vectors)
+
         for idx, line in self.df_log.iterrows():
+            #print(idx)
+            #print(line)            
             #logID = line['LineId']
             #logmessageL = self.preprocess(line['Content']).strip().split()
 
