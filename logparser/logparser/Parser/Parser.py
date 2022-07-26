@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 import hashlib
 from datetime import datetime
+from pathlib import Path
 
 class LogParser:
     def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], keep_para=True):
@@ -66,8 +67,8 @@ class LogParser:
         values = pd.DataFrame(columns=['Token', 'Cluster', 'Frequence', 'Type'])
 
         ## Varre os tokens de cada frase
-        for id, row in df_sentences.iterrows():
-            sentence_tokens = word_tokenize(row.item())
+        for id, row in df_sentences.iteritems():
+            sentence_tokens = word_tokenize(row)
             sentence_cluster = self.cluster_labels[id]
             
             for token in sentence_tokens:
@@ -87,17 +88,45 @@ class LogParser:
         ### Retorna dicionário de clusters e frequências
         self.word_dict = values    
 
+    def set_types(self, token_dict, cluster_labels, percentage):
+    
+        ## Para cada cluster, executa o código abaixo
+        for label in cluster_labels:
+            
+            ## Filtra somente os tokens com o cluster processado
+            query = token_dict.query("Cluster == @label")
+            ## Acha a maior frequência do cluster
+            max_frequence = query['Frequence'].max()
+
+            ## Para cada token, verifica se a frequência é maior que a porcentagem
+            for index, result in query.iterrows():
+                current_frequence = result['Frequence']
+                current_threshold = current_frequence / max_frequence
+                ## Se for menor, é variável
+                if (current_threshold < percentage):
+                    token_dict.at[index,'Type'] = "VARIABLE"
+                ## Se for maior, é campo estático
+                else:
+                    token_dict.at[index,'Type'] = "STATIC"
+        
+        self.word_dict = token_dict
+
     ## Carrega os arquivos
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logName), regex, headers, self.log_format)
 
-    ## Preprocessa os arquivos
+    ## Preprocessa linha a linha
     def preprocess(self, line):
         for currentRex in self.rex:
             line = re.sub(currentRex, '<*>', line)
         return line
         
+    ## Preprocessa o dataset inteiro
+    def preprocess_df(self):
+        for idx, content in self.df_log["Content"].iteritems():
+            for currentRex in self.rex:
+                self.df_log.at[idx,'Content'] = re.sub(currentRex, '<*>', content)
 
     ## Carrega dataframe de logs
     def log_to_dataframe(self, log_file, regex, headers, logformat):
@@ -161,16 +190,26 @@ class LogParser:
 
         ## CARREGA OS DADOS EM UM DATAFRAME
         self.load_data()
-        count = 0
         
+        ## Limpa arquivos com regex
+        self.preprocess_df()
+
+        ## Transforma dataset com vetorização
         self.transform_dataset(self.df_log["Content"])
+
+        ## Clusteriza valores
+        self.cluster_vectors()
         
         ## Sem pre-processamento
         self.create_dict_pd(self.df_log["Content"])
 
+        ## Define tipos
+        self.set_types(self.word_dict, self.cluster_labels, 0.4)
 
+        filepath = Path('logparser/results/Parser_result/Dataframe_regex.csv') 
+        self.word_dict.to_csv(filepath)
 
-
+        count = 0
 
         for idx, line in self.df_log.iterrows():
             #print(idx)
