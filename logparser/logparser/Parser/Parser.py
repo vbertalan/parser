@@ -14,7 +14,7 @@ from pathlib import Path
 from nltk.tokenize import word_tokenize
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[]):
+    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], threshold):
         """
         Attributes
         ----------
@@ -37,6 +37,7 @@ class LogParser:
         self.cluster_labels = None
         self.parsed_sentences = None
         self.word_dict = None
+        self.threshold = threshold
 
     ## Transforma o dataset
     def transform_dataset(self, raw_content):
@@ -186,7 +187,7 @@ class LogParser:
         self.create_dict(self.df_log["Content"])
 
         ## Define tipos
-        self.set_types(self.word_dict, self.cluster_labels, 0.4)
+        self.set_types(self.word_dict, self.cluster_labels, self.threshold)
 
         log_templates = []
         log_templateids = []
