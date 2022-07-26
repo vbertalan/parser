@@ -14,7 +14,7 @@ from pathlib import Path
 from nltk.tokenize import word_tokenize
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], threshold):
+    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], threshold = 0.4):
         """
         Attributes
         ----------
@@ -25,7 +25,6 @@ class LogParser:
             savePath : the output path stores the file containing structured logs
         """
         self.path = indir
-        self.st = st
         self.logName = None
         self.savePath = outdir
         self.df_log = None
