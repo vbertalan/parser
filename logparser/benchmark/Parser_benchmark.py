@@ -150,7 +150,7 @@ for dataset, setting in benchmark_settings.items():
     log_file = os.path.basename(setting['log_file'])
 
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, rex=setting['regex'], threshold = 0.2)
+                                outdir=output_dir, rex=setting['regex'], threshold = 0.7 )
     parser.parse(log_file)    
     
     F1_measure, accuracy = evaluator.evaluate(
