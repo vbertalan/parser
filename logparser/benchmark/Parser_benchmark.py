@@ -13,7 +13,7 @@ output_dir = 'logparser/results/Parser_result/'  # The output directory of parsi
 
 benchmark_settings = {
     'HDFS': {
-        'log_file': 'HDFS/HDFS_2kmini.log',
+        'log_file': 'HDFS/HDFS_2k.log',
         'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
         'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
         'st': 0.5,
@@ -142,8 +142,6 @@ benchmark_settings = {
         },
 '''
 
-
-
 bechmark_result = []
 
 for dataset, setting in benchmark_settings.items():
@@ -152,15 +150,14 @@ for dataset, setting in benchmark_settings.items():
     log_file = os.path.basename(setting['log_file'])
 
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], st=setting['st'])
-    parser.parse(log_file)
+    parser.parse(log_file)    
     
-    '''
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
     bechmark_result.append([dataset, F1_measure, accuracy])
-    '''
+    
 
 print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
