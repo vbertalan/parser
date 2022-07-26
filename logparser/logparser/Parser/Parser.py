@@ -11,9 +11,10 @@ import pandas as pd
 import hashlib
 from datetime import datetime
 from pathlib import Path
+from nltk.tokenize import word_tokenize
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], keep_para=True):
+    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[]):
         """
         Attributes
         ----------
@@ -31,7 +32,6 @@ class LogParser:
         self.vectors = None
         self.log_format = log_format
         self.rex = rex
-        self.keep_para = keep_para
         self.clusters = None
         self.cluster_num = None
         self.cluster_labels = None
@@ -59,9 +59,7 @@ class LogParser:
         self.cluster_num = clusterer.labels_.max()
         self.cluster_labels = clusterer.labels_
 
-    def create_dict_pd(self, df_sentences):
-    
-        from nltk.tokenize import word_tokenize
+    def create_dict(self, df_sentences):        
 
         ## Cria dataframe
         values = pd.DataFrame(columns=['Token', 'Cluster', 'Frequence', 'Type'])
@@ -166,22 +164,6 @@ class LogParser:
         regex = re.compile('^' + regex + '$')
         return headers, regex
 
-    ## Pega lista de parâmetros
-    def get_parameter_list(self, row):
-        template_regex = re.sub(r"<.{1,5}>", "<*>", row["EventTemplate"])
-        if "<*>" not in template_regex: return []
-        template_regex = re.sub(r'([^A-Za-z0-9])', r'\\\1', template_regex)
-            
-        ## ALTERAR LINHA ABAIXO
-        #template_regex = re.sub(r'\\ +', r'\s+', template_regex)
-        template_regex = re.sub(r'\\\s+', '\\\s+', template_regex)
-
-        template_regex = "^" + template_regex.replace("\<\*\>", "(.*?)") + "$"
-        parameter_list = re.findall(template_regex, row["Content"])
-        parameter_list = parameter_list[0] if parameter_list else ()
-        parameter_list = list(parameter_list) if isinstance(parameter_list, tuple) else [parameter_list]
-        return parameter_list
-
     ## Parseador
     def parse(self, logName):
         print('Parsing file: ' + os.path.join(self.path, logName))
@@ -201,37 +183,48 @@ class LogParser:
         self.cluster_vectors()
         
         ## Sem pre-processamento
-        self.create_dict_pd(self.df_log["Content"])
+        self.create_dict(self.df_log["Content"])
 
         ## Define tipos
         self.set_types(self.word_dict, self.cluster_labels, 0.4)
 
-        filepath = Path('logparser/results/Parser_result/Dataframe_regex.csv') 
-        self.word_dict.to_csv(filepath)
+        log_templates = []
+        log_templateids = []
 
         count = 0
 
         for idx, line in self.df_log.iterrows():
-            #print(idx)
-            #print(line)            
-            #logID = line['LineId']
-            #logmessageL = self.preprocess(line['Content']).strip().split()
+            sentence_cluster = self.cluster_labels[idx]
+            sentence_tokens = word_tokenize(line["Content"])
+            new_sentence = ""
 
-            ## CONTEÚDO DO PARSER        
-            ## CONTEÚDO DO PARSER        
-            ## CONTEÚDO DO PARSER        
-            ## CONTEÚDO DO PARSER        
-            ## CONTEÚDO DO PARSER
+            for token in sentence_tokens:
+                query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token
+                new_sentence += new_token
+                new_sentence += " "
+            
+            log_templates.append(new_sentence)
+            log_templateids.append(hashlib.md5(new_sentence.encode('utf-8')).hexdigest()[0:8])
 
             # Contador de progresso
             count += 1
             if count % 1000 == 0 or count == len(self.df_log):
                 print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
 
-
             if not os.path.exists(self.savePath):
                 os.makedirs(self.savePath)
 
-            #self.outputResult(logCluL)
-
             print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+        
+        self.df_log['EventId'] = log_templateids
+        self.df_log['EventTemplate'] = log_templates
+
+        self.df_log.to_csv(os.path.join(self.savePath, self.logName + '_structured.csv'), index=False)
+
+        occ_dict = dict(self.df_log['EventTemplate'].value_counts())
+        df_event = pd.DataFrame()
+        df_event['EventTemplate'] = self.df_log['EventTemplate'].unique()
+        df_event['EventId'] = df_event['EventTemplate'].map(lambda x: hashlib.md5(x.encode('utf-8')).hexdigest()[0:8])
+        df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
+        df_event.to_csv(os.path.join(self.savePath, self.logName + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"])
