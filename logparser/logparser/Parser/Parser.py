@@ -4,6 +4,7 @@ Author      : LogPAI team
 License     : MIT
 """
 
+from fileinput import filename
 import regex as re
 import os
 import numpy as np
@@ -12,9 +13,10 @@ import hashlib
 from datetime import datetime
 from pathlib import Path
 from nltk.tokenize import word_tokenize
+import pickle
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], threshold = 0.4):
+    def __init__(self, log_format, indir='./', outdir='./result/', st=0.4, rex=[], threshold = 0.4, filename=""):
         """
         Attributes
         ----------
@@ -37,14 +39,28 @@ class LogParser:
         self.parsed_sentences = None
         self.word_dict = None
         self.threshold = threshold
+        self.outdir = outdir
+        self.filename = filename
 
     ## Transforma o dataset
     def transform_dataset(self, raw_content):
-        from sentence_transformers import SentenceTransformer
-        #model = SentenceTransformer('all-MiniLM-L6-v2')
-        model = SentenceTransformer('all-mpnet-base-v2')
 
-        self.vectors = model.encode(raw_content)
+        from pathlib import Path
+        path_to_file = os.path.join(self.outdir, self.filename + '_vectors.vec')
+        path = Path(path_to_file)
+
+        if (path.is_file()):
+            self.vectors = pickle.load(open(path_to_file, 'rb'))
+        else:
+            from sentence_transformers import SentenceTransformer
+            #model = SentenceTransformer('all-MiniLM-L6-v2')
+            model = SentenceTransformer('all-mpnet-base-v2')
+            #self.vectors = model.encode(raw_content)
+            vectors = model.encode(raw_content)
+            self.vectors = vectors
+            pickle.dump(vectors, open(path_to_file, 'wb'))
+
+
 
     def cluster_vectors(self):
         import hdbscan
@@ -171,21 +187,27 @@ class LogParser:
         self.logName = logName
 
         ## CARREGA OS DADOS EM UM DATAFRAME
+        print('\n=== Loading dataset ===')
         self.load_data()
         
         ## Limpa arquivos com regex
+        print('\n=== Cleaning files with regex ===')
         self.preprocess_df()
 
         ## Transforma dataset com vetorização
+        print('\n=== Transforming dataset ===')
         self.transform_dataset(self.df_log["Content"])
 
         ## Clusteriza valores
+        print('\n=== Clustering values ===')
         self.cluster_vectors()
         
         ## Sem pre-processamento
+        print('\n=== Creating dictionary token ===')
         self.create_dict(self.df_log["Content"])
 
         ## Define tipos
+        print('\n=== Uploading dictionary with labels ===')
         self.set_types(self.word_dict, self.cluster_labels, self.threshold)
 
         log_templates = []
@@ -193,6 +215,7 @@ class LogParser:
 
         count = 0
 
+        print('\n=== Parsing dataset ===')
         for idx, line in self.df_log.iterrows():
             sentence_cluster = self.cluster_labels[idx]
             sentence_tokens = word_tokenize(line["Content"])
