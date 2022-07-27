@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from fileinput import filename
 import sys
 sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 from logparser.logparser.utils import evaluator
@@ -8,7 +9,7 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
+input_dir = "logparser/logs"
 output_dir = 'logparser/results/Parser_result/'  # The output directory of parsing results
 
 benchmark_settings = {
@@ -150,7 +151,7 @@ for dataset, setting in benchmark_settings.items():
     log_file = os.path.basename(setting['log_file'])
 
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, rex=setting['regex'], threshold = 0.7 )
+                                outdir=output_dir, rex=setting['regex'], threshold = 0.4, filename=log_file)
     parser.parse(log_file)    
     
     F1_measure, accuracy = evaluator.evaluate(
@@ -164,6 +165,8 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-filepath = Path('logparser/results/Parser_result/Parser_bechmark_result.csv') 
+
+path_to_file = os.path.join(output_dir, 'Parser_bechmark_result.csv')
+filepath = Path(path_to_file)
 df_result.T.to_csv(filepath)
 
