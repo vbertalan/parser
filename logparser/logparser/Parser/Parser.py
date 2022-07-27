@@ -60,8 +60,6 @@ class LogParser:
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
 
-
-
     def cluster_vectors(self):
         import hdbscan
         import umap
@@ -240,6 +238,8 @@ class LogParser:
 
             print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
         
+        print(len(self.word_dict))
+
         self.df_log['EventId'] = log_templateids
         self.df_log['EventTemplate'] = log_templates
 
