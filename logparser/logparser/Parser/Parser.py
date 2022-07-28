@@ -60,6 +60,16 @@ class LogParser:
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
 
+    def check_english_word(self, wordset):
+        ## Detecting English words
+
+        with open("create.txt") as word_file:
+            english_words = {word.strip().lower() for word in word_file}
+
+    def is_english_word(self, word, wordset):
+        return word.lower() in wordset
+
+
     def cluster_vectors(self):
         import hdbscan
         import umap
@@ -185,33 +195,32 @@ class LogParser:
         self.logName = logName
 
         ## CARREGA OS DADOS EM UM DATAFRAME
-        print('\n=== Loading dataset ===')
         self.load_data()
         
         ## Limpa arquivos com regex
-        print('\n=== Cleaning files with regex ===')
         self.preprocess_df()
 
         ## Transforma dataset com vetorização
-        print('\n=== Transforming dataset ===')
         self.transform_dataset(self.df_log["Content"])
 
         ## Clusteriza valores
-        print('\n=== Clustering values ===')
         self.cluster_vectors()
         
         ## Sem pre-processamento
-        print('\n=== Creating dictionary token ===')
         self.create_dict(self.df_log["Content"])
 
         ## Define tipos
-        print('\n=== Uploading dictionary with labels ===')
         self.set_types(self.word_dict, self.cluster_labels, self.threshold)
 
         log_templates = []
         log_templateids = []
 
         count = 0
+
+        ## Carrega dicionário de inglês
+        with open("create.txt") as word_file:
+            english_words = {word.strip().lower() for word in word_file}
+
 
         print('\n=== Parsing dataset ===')
         for idx, line in self.df_log.iterrows():
