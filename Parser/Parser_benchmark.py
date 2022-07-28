@@ -1,17 +1,22 @@
 #!/usr/bin/env python
 
-from fileinput import filename
 import sys
+# Path - Windows
 sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
-from logparser.logparser.utils import evaluator
-from logparser.logparser.Parser import Parser
+# Path - Linux
+#sys.path.append('../')
+from fileinput import filename
+import evaluator
+import Parser
 import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "logparser/logs"
-output_dir = 'logparser/results/Parser_result/'  # The output directory of parsing results
+input_dir = "Parser/logs" # The directory to get the logs
+output_dir = "Parser/results"  # The output directory of parsing results
+vector_dir = "Parser/vectors" # The directory to save the vectorized files
 
+# Dictionary to load files
 benchmark_settings = {
     'HDFS': {
         'log_file': 'HDFS/HDFS_2k.log',
@@ -143,7 +148,7 @@ benchmark_settings = {
         },
 '''
 
-bechmark_result = []
+benchmark_result = []
 
 for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
@@ -151,22 +156,22 @@ for dataset, setting in benchmark_settings.items():
     log_file = os.path.basename(setting['log_file'])
 
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, rex=setting['regex'], threshold = 0.4, filename=log_file)
+                                outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.4, filename=log_file)
     parser.parse(log_file)    
     
     F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
-    bechmark_result.append([dataset, F1_measure, accuracy])
+    benchmark_result.append([dataset, F1_measure, accuracy])
     
 
 print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
+df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
 
-path_to_file = os.path.join(output_dir, 'Parser_bechmark_result.csv')
+path_to_file = os.path.join(output_dir, 'Parser_benchmark_result.csv')
 filepath = Path(path_to_file)
 df_result.T.to_csv(filepath)
 
