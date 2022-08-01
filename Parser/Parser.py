@@ -16,6 +16,7 @@ from datetime import datetime
 from pathlib import Path
 from nltk.tokenize import word_tokenize
 import pickle
+import wordninja
 
 class LogParser:
     def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', st=0.4, rex=None, threshold = 0.4, filename=""):
@@ -62,15 +63,11 @@ class LogParser:
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
 
-    def is_english_word(self, word, wordset):
-        return word.lower() in wordset
-
-
     def cluster_vectors(self):
         import hdbscan
         import umap
 
-        clusterer = hdbscan.HDBSCAN(min_cluster_size=2,min_samples=1,metric='euclidean',
+        clusterer = hdbscan.HDBSCAN(min_cluster_size=5,min_samples=1,metric='euclidean',
                                     allow_single_cluster=False,cluster_selection_method='eom')
         reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
 
@@ -116,6 +113,26 @@ class LogParser:
                     token_dict.at[index,'Type'] = "STATIC"
         
         self.word_dict = token_dict
+
+
+    def split_words(self, sentence):
+
+        with open("create.txt") as word_file:
+            english_words = {word.strip().lower() for word in word_file}
+
+            tokenized_words = word_tokenize(sentence)
+            new_sentence = []
+
+            for tokens in tokenized_words:
+                splits = wordninja.split(tokens)
+                for word in splits:
+                    if word.lower() not in english_words:
+                        new_sentence.append("<*>")
+                        break
+                else:
+                    new_sentence.append(tokens)
+
+            return new_sentence
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
@@ -172,38 +189,38 @@ class LogParser:
         self.create_dict(self.df_log["Content"])
         self.set_types(self.word_dict, self.cluster_labels, self.threshold)
 
+        self.word_dict.to_csv('out.csv', index=False)
+
         log_templates = []
         log_templateids = []
 
-        #with open("create.txt") as word_file:
-        #    english_words = {word.strip().lower() for word in word_file}
+        with open("create.txt") as word_file:
+            english_words = {word.strip().lower() for word in word_file}
 
-        #self.is_english_word("Dog", word_file)
+            print('\n=== Parsing dataset ===')
+            for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
+                sentence_cluster = self.cluster_labels[idx]
+                sentence_tokens = word_tokenize(line["Content"])
+                #sentence_tokens = self.split_words(line["Content"])
+                new_sentence = ""
 
+                for token in sentence_tokens:
+                    query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
+                    new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
+                    new_sentence += new_token
+                    new_sentence += " "
 
-        print('\n=== Parsing dataset ===')
-        for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
-            sentence_cluster = self.cluster_labels[idx]
-            sentence_tokens = word_tokenize(line["Content"])
-            new_sentence = ""
-
-            for token in sentence_tokens:
-                query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
-                new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token
-                new_sentence += new_token
-                new_sentence += " "
-
-            log_templates.append(new_sentence)
-            log_templateids.append(hashlib.md5(new_sentence.encode('utf-8')).hexdigest()[:8])
+                log_templates.append(new_sentence)
+                log_templateids.append(hashlib.md5(new_sentence.encode('utf-8')).hexdigest()[:8])
 
 
-            if count % 1000 == 0 or count == len(self.df_log):
-                print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
+                if count % 1000 == 0 or count == len(self.df_log):
+                    print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
 
-            if not os.path.exists(self.savePath):
-                os.makedirs(self.savePath)
+                if not os.path.exists(self.savePath):
+                    os.makedirs(self.savePath)
 
-            print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+                print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
         print(len(self.word_dict))
 
