@@ -4,7 +4,6 @@ Author      : LogPAI team
 License     : MIT
 """
 
-
 import contextlib
 from fileinput import filename
 import regex as re
