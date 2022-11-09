@@ -113,7 +113,7 @@ class LogParser:
         
         self.word_dict = token_dict
 
-
+    ## Method to split words and verify if they are in the English language
     def split_words(self, sentence):
 
         with open("create.txt") as word_file:

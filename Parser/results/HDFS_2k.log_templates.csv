@@ -1,75 +1,208 @@
 EventId,EventTemplate,Occurrences
-9ad13899,PacketResponder 1 for block <*> terminating ,81
-1cf899d0,PacketResponder 0 for block <*> terminating ,76
-a842d6a9,<*> * <*> : <*> <*> : < * > <*> <*> to <*> <*> <*> ,27
-3df7112b,PacketResponder 2 for block <*> terminating ,86
-7dd4462f,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to <*> size 67108864 ,163
-023eb188,<*> * <*> : <*> <*> : < * > <*> <*> <*> <*> size 67108864 ,12
-38bf4de2,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to <*> size <*> ,32
-7c2baee0,<*> block <*> <*> <*> <*> <*> / < * > ,48
-f9bbe959,<*> block <*> <*> <*> <*> <*> <*> <*> <*> <*> ,9
-e66b9c10,Receiving block <*> src : / < * > dest : / < * > ,175
-83f87be8,<*> <*> <*> <*> : / < * > <*> : / < * > ,39
-4a14a277,<*> * <*> : <*> <*> <*> ,26
-52cb4e3f,Received block <*> of size 67108864 from / < * > ,187
-696be2e5,<*> * <*> : <*> <*> : < * > <*> <*> <*> <*> <*> <*> ,38
+9ad13899,PacketResponder 1 for block <*> terminating ,87
+1cf899d0,PacketResponder 0 for block <*> terminating ,88
+7dd4462f,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to <*> size 67108864 ,250
+3df7112b,PacketResponder 2 for block <*> terminating ,77
+cbcf9a99,PacketResponder 2 for block blk_-6670958622368987959 terminating ,1
+52cb4e3f,Received block <*> of size 67108864 from / < * > ,227
+91a00656,<*> <*> <*> of <*> <*> <*> <*> < * > ,2
+e66b9c10,Receiving block <*> src : / < * > dest : / < * > ,273
+c4814b5d,BLOCK * NameSystem.allocateBlock : <*> . <*> ,82
+4c1ecd5c,Received block blk_8291449241650212794 of size 67108864 from / < * > ,1
 b5f6193c,<*> <*> <*> <*> ,2
-91a00656,<*> <*> <*> of <*> <*> <*> <*> < * > ,8
-aaeb84fc,<*> <*> <*> <*> : <*> < * > <*> : <*> < * > ,13
-0427d08f,BLOCK * <*> : <*> <*> : <*> * <*> <*> <*> <*> <*> <*> <*> ,3
-3e37ceeb,<*> * <*> : <*> <*> : <*> * <*> <*> <*> <*> <*> <*> <*> ,2
-eb658f87,<*> block <*> <*> <*> <*> <*> <*> <*> * <*> ,5
-a47b62c8,<*> <*> <*> block <*> <*> ,56
-413fbf19,BLOCK * <*> : <*> <*> <*> ,18
-86dd1f9b,<*> block <*> <*> size 67108864 <*> / < * > ,5
+c8e7dddc,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_5165786360127153975 size 67108864 ,1
+d66eda44,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_8181993091797661153 size 67108864 ,1
+a9a0d277,Received block <*> of size <*> from / < * > ,9
+a842d6a9,<*> * <*> : <*> <*> : < * > <*> <*> to <*> <*> <*> ,6
+38bf4de2,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to <*> size <*> ,22
+07dcece8,PacketResponder 1 for block blk_4886940526690879848 terminating ,1
+413fbf19,BLOCK * <*> : <*> <*> <*> ,15
+b3b035af,Received block blk_8408125361497769001 of size 67108864 from / < * > ,1
+7c2baee0,<*> block <*> <*> <*> <*> <*> / < * > ,2
 be1aa44d,Verification succeeded for <*> ,18
-a56cb794,Deleting block <*> file <*> ,186
-51ef41a0,< * > Served block <*> to / < * > ,46
-33340e65,< * > <*> block <*> to <*> < * > ,4
-f143da98,< * > <*> <*> <*> to <*> < * > ,16
-d419dc6c,< * > : Got exception while serving <*> to / < * > : ,46
-27941c1a,< * > : <*> <*> <*> <*> <*> <*> / < * > : ,24
-f27fce08,< * > : <*> <*> <*> <*> <*> to <*> < * > : ,10
-d9d25c25,< * > <*> <*> <*> <*> / < * > ,9
-8867f531,<*> <*> <*> <*> <*> <*> <*> / < * > ,5
-82f6ebcb,<*> block <*> <*> : / < * > <*> : / < * > ,56
-a9a0d277,Received block <*> of size <*> from / < * > ,10
-36a003eb,PacketResponder <*> for block <*> terminating ,6
-e7deb8d4,<*> block <*> <*> size <*> <*> <*> < * > ,2
-c4814b5d,BLOCK * NameSystem.allocateBlock : <*> . <*> ,67
-df40d2c7,<*> <*> <*> <*> size 67108864 <*> <*> < * > ,6
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,6
-47548e7e,<*> * <*> <*> <*> <*> <*> < * > <*> <*> to <*> <*> <*> ,2
-c8995266,BLOCK * <*> : <*> <*> : < * > <*> <*> <*> <*> size 67108864 ,7
-1f1862d8,BLOCK * <*> : <*> <*> : < * > is added to <*> <*> <*> ,21
-3188252a,BLOCK * NameSystem.delete : <*> is added to invalidSet of < * > ,136
-dd41e9d2,< * > <*> block <*> <*> / < * > ,3
-f64478d6,< * > <*> block <*> <*> <*> < * > ,2
-c91767e3,<*> * <*> : <*> <*> <*> <*> <*> <*> < * > ,39
-6099ecdc,<*> * <*> <*> <*> <*> <*> to <*> <*> < * > ,3
-c6fd75a8,BLOCK * <*> : <*> <*> <*> <*> <*> <*> <*> * <*> ,6
-9303a1f4,BLOCK * <*> : <*> <*> <*> <*> <*> <*> < * > ,2
-a1748f4f,<*> * <*> <*> <*> <*> <*> <*> <*> <*> <*> * <*> ,2
-83d95437,BLOCK * <*> : <*> is added to <*> of < * > ,19
-8f8ef8d9,BLOCK * <*> : <*> <*> <*> to <*> <*> < * > ,2
-347334c7,<*> <*> <*> <*> <*> ,26
-d0e074b9,BLOCK * <*> <*> <*> <*> <*> ,4
-6873ed84,<*> block <*> <*> <*> ,51
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-8ca0525e,<*> <*> <*> <*> <*> <*> <*> <*> <*> * <*> ,2
-4acc9fea,<*> block <*> <*> : <*> < * > <*> : <*> < * > ,5
-36413541,<*> * <*> <*> <*> <*> <*> <*> * <*> <*> <*> <*> <*> <*> <*> ,2
-47e33466,BLOCK * <*> : <*> is added to <*> <*> < * > ,13
-06254fe9,<*> * <*> <*> <*> <*> <*> <*> <*> of < * > ,2
-5402dbf4,< * > <*> <*> <*> <*> block <*> <*> < * > ,1
-58f674c1,BLOCK * <*> <*> * <*> <*> <*> <*> ,2
-256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-e3e06b3b,BLOCK * <*> : <*> <*> : < * > <*> <*> <*> <*> <*> <*> ,2
-d2a6a7d0,<*> block <*> of <*> <*> <*> <*> < * > ,2
-fd6ed621,<*> block <*> <*> <*> <*> <*> * <*> <*> <*> <*> <*> * <*> ,3
-7a440df6,<*> block <*> <*> : / < * > <*> : / < * > <*> <*> <*> ,2
-74536842,<*> * <*> : <*> <*> : < * > <*> <*> <*> <*> size <*> ,1
-81421ff9,<*> block <*> <*> <*> / < * > <*> <*> / < * > ,1
-b7ca0e20,<*> * <*> <*> * <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-661fa724,BLOCK * <*> <*> * <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> * <*> ,1
-33bd3411,<*> * <*> <*> * <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+2c192951,PacketResponder 0 for block blk_9093049293972551787 terminating ,1
+a56cb794,Deleting block <*> file <*> ,205
+51ef41a0,< * > Served block <*> to / < * > ,66
+6054269e,< * > <*> block <*> to / < * > ,6
+d419dc6c,< * > : Got exception while serving <*> to / < * > : ,67
+e5dcc00d,< * > : <*> <*> <*> <*> <*> to / < * > : ,6
+f143da98,< * > <*> <*> <*> to <*> < * > ,5
+27941c1a,< * > : <*> <*> <*> <*> <*> <*> / < * > : ,2
+f27fce08,< * > : <*> <*> <*> <*> <*> to <*> < * > : ,2
+33ae1f48,Receiving block blk_8692428775973608797 src : / < * > dest : / < * > ,1
+82f6ebcb,<*> block <*> <*> : / < * > <*> : / < * > ,9
+beaf8fbd,PacketResponder 1 for block blk_-8108913101671416218 terminating ,1
+395b9cc6,PacketResponder 2 for block blk_-6766351519628312408 terminating ,1
+36a003eb,PacketResponder <*> for block <*> terminating ,1
+4a14a277,<*> * <*> : <*> <*> <*> ,2
+a47b62c8,<*> <*> <*> block <*> <*> ,13
+3dffb8e1,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_5114010683183383297 size 67108864 ,1
+f161129d,PacketResponder 2 for block blk_-1148756466197125339 terminating ,1
+29d677e9,Received block blk_-4067446915270471579 of size 25933924 from / < * > ,1
+460d254b,PacketResponder 1 for block blk_5963816136267066159 terminating ,1
+b25baea2,BLOCK * NameSystem.allocateBlock : /user/root/randtxt/_temporary/_task_200811092030_0003_m_000382_0/part-00382 . blk_8935202950442998446 ,1
+7aff144f,PacketResponder 2 for block blk_-5215520749152394224 terminating ,1
+3c8f1e8a,Received block blk_-5124326558394984439 of size 67108864 from / < * > ,1
+d601b8d4,Received block blk_3852281952649038166 of size 67108864 from / < * > ,1
+6b89eef4,PacketResponder 2 for block blk_-5442040196315589272 terminating ,1
+3084e8fb,Received block blk_7736147489540456118 of size 67108864 from / < * > ,1
+c5f251b8,Received block blk_-3677956642639780952 of size 67108864 from / < * > ,1
+58361f78,BLOCK * <*> : <*> <*> : < * > is added to <*> size 67108864 ,14
+12c6f0a3,BLOCK * NameSystem.allocateBlock : /user/root/randtxt/_temporary/_task_200811092030_0003_m_001365_0/part-01365 . blk_4841101867353115844 ,1
+f083d6fc,PacketResponder 2 for block blk_-653434419514937486 terminating ,1
+fde32f32,BLOCK * NameSystem.allocateBlock : /user/root/randtxt/_temporary/_task_200811092030_0003_m_001506_0/part-01506 . blk_1104376461837247304 ,1
+b80ba238,PacketResponder 1 for block blk_703046261120042821 terminating ,1
+56583b5c,PacketResponder 0 for block blk_9107849594802857322 terminating ,1
+aaeb84fc,<*> <*> <*> <*> : <*> < * > <*> : <*> < * > ,2
+3188252a,BLOCK * NameSystem.delete : <*> is added to invalidSet of < * > ,200
+efe64586,< * > <*> <*> <*> to / < * > ,3
+d0554883,<*> * <*> : <*> <*> <*> to <*> of < * > ,2
+19e3c29b,BLOCK * NameSystem.delete : blk_-5368528328022648701 is added to invalidSet of < * > ,1
+47e33466,BLOCK * <*> : <*> is added to <*> <*> < * > ,18
+6873ed84,<*> block <*> <*> <*> ,26
+ac300866,Received block blk_-9188933731705791676 of size 67108864 from / < * > ,1
+94b78091,Deleting block blk_-8898274302731129139 file /mnt/hadoop/dfs/data/current/subdir18/blk_-8898274302731129139 ,1
+b3d51c73,Deleting block blk_-8775602795571523802 file /mnt/hadoop/dfs/data/current/subdir29/blk_-8775602795571523802 ,1
+cd339d22,Deleting block blk_-9038475355621289969 file /mnt/hadoop/dfs/data/current/subdir41/blk_-9038475355621289969 ,1
+c74c1fd1,PacketResponder 2 for block blk_-6997219177553478996 terminating ,1
+65a6c627,Deleting block blk_-7515058933811567980 file /mnt/hadoop/dfs/data/current/subdir1/blk_-7515058933811567980 ,1
+fa9be759,Deleting block blk_-8796256534683400159 file /mnt/hadoop/dfs/data/current/subdir18/blk_-8796256534683400159 ,1
+b55d5337,Deleting block blk_-8775602795571523802 file /mnt/hadoop/dfs/data/current/subdir41/blk_-8775602795571523802 ,1
+1ea6f0d9,Received block blk_4098532420907418423 of size 67108864 from / < * > ,1
+38fbff1f,Deleting block blk_-4368236874477798428 file /mnt/hadoop/dfs/data/current/subdir33/blk_-4368236874477798428 ,1
+8538aa05,Deleting block blk_-6400421658804613208 file /mnt/hadoop/dfs/data/current/subdir29/blk_-6400421658804613208 ,1
+be74a22a,Deleting block blk_-7096508472270520039 file /mnt/hadoop/dfs/data/current/subdir20/blk_-7096508472270520039 ,1
+755cbf83,Deleting block blk_-1581605246928123722 file /mnt/hadoop/dfs/data/current/subdir13/blk_-1581605246928123722 ,1
+4f9cb1c1,Deleting block blk_2756799797410851893 file /mnt/hadoop/dfs/data/current/subdir24/blk_2756799797410851893 ,1
+1eac5326,Deleting block blk_6828263829429857572 file /mnt/hadoop/dfs/data/current/subdir26/blk_6828263829429857572 ,1
+2d866eb9,Received block blk_-5668584889663038916 of size 67108864 from / < * > ,1
+52c1825f,PacketResponder 2 for block blk_-6991853982611346454 terminating ,1
+6bb4f784,Received block blk_-4034227974316905164 of size 67108864 from / < * > ,1
+90dc15c8,Received block blk_7224257732880626802 of size 67108864 from / < * > ,1
+696be2e5,<*> * <*> : <*> <*> : < * > <*> <*> <*> <*> <*> <*> ,4
+86dd1f9b,<*> block <*> <*> size 67108864 <*> / < * > ,4
+2ccc59e4,PacketResponder 2 for block blk_-1485317050914225917 terminating ,1
+a5779f80,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_5176855630425795751 size 67108864 ,1
+94d4c08e,Received block blk_-4433556521525567493 of size 28492032 from / < * > ,1
+1646952a,PacketResponder 2 for block blk_-5321676321043683563 terminating ,1
+1aa5d0da,PacketResponder 1 for block blk_1279439901767890758 terminating ,1
+ea8c3fce,PacketResponder 2 for block blk_-1680563440028826904 terminating ,1
+a154e6f9,Received block blk_-5671206752084326639 of size 67108864 from / < * > ,1
+023eb188,<*> * <*> : <*> <*> : < * > <*> <*> <*> <*> size 67108864 ,4
+afb2bcb1,Received block blk_-9089815063425241739 of size 67108864 from / < * > ,1
+04350437,PacketResponder 1 for block blk_-8939321760994370713 terminating ,1
+338eb12f,< * > : Got exception while serving blk_-8082428389627750477 to / < * > : ,1
+9b019522,< * > : Got exception while serving blk_8059204889272489644 to / < * > : ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,2
+f3de86b9,Received block blk_7227035060836018780 of size 67108864 from / < * > ,1
+229f2d93,Received block blk_-3620767662957963389 of size 67108864 from / < * > ,1
+81fe2cba,Received block blk_-5633587983998853189 of size 67108864 from / < * > ,1
+d196d0f8,Received block blk_-6168484338203583997 of size 67108864 from / < * > ,1
+e48643b0,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_8188837227311063557 size 67108864 ,1
+b101d92d,BLOCK * NameSystem.delete : blk_7048740572660501729 is added to invalidSet of < * > ,1
+8cb66d21,Deleting block blk_-8949548167466276130 file /mnt/hadoop/dfs/data/current/subdir2/blk_-8949548167466276130 ,1
+e655d519,Deleting block blk_-7548149518969960333 file /mnt/hadoop/dfs/data/current/subdir8/blk_-7548149518969960333 ,1
+e8234677,Received block blk_-3734839878416656496 of size 67108864 from / < * > ,1
+e6d15647,Deleting block blk_-1750007847201154657 file /mnt/hadoop/dfs/data/current/subdir1/blk_-1750007847201154657 ,1
+0838d69c,Deleting block blk_-1535908830476495455 file /mnt/hadoop/dfs/data/current/subdir10/blk_-1535908830476495455 ,1
+2143efce,Deleting block blk_4939101994162863442 file /mnt/hadoop/dfs/data/current/subdir24/blk_4939101994162863442 ,1
+19bfb790,Received block blk_3960527526103274525 of size 67108864 from / < * > ,1
+52653c69,< * > <*> <*> to <*> block <*> to < * > ,1
+ab29ea54,PacketResponder 1 for block blk_4884219613602801814 terminating ,1
+912949a9,Deleting block blk_-468830939205980722 file /mnt/hadoop/dfs/data/current/subdir10/blk_-468830939205980722 ,1
+b04e5c5a,BLOCK * ask < * > to delete <*> ,2
+ee5ab049,PacketResponder 2 for block blk_-6773301007994789531 terminating ,1
+f77831f3,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_-5159573936338473350 size 67108864 ,1
+4d7a0bfb,Receiving block blk_8574493302165689212 src : / < * > dest : / < * > ,1
+1f9c154f,Received block blk_8302956190102508375 of size 67108864 from / < * > ,1
+c853dba8,PacketResponder 2 for block blk_-5908283405801966540 terminating ,1
+dde226bb,Received block blk_-8923698979247229952 of size 67108864 from / < * > ,1
+9443acdf,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_-2321016155994168744 size 67108864 ,1
+212a7aaf,Deleting block blk_-8294986551316947211 file /mnt/hadoop/dfs/data/current/subdir34/blk_-8294986551316947211 ,1
+b4ffcaa9,Deleting block blk_-1263913006422225885 file /mnt/hadoop/dfs/data/current/subdir2/blk_-1263913006422225885 ,1
+ad4b77e5,PacketResponder 2 for block blk_-7159695919045792245 terminating ,1
+88f8177d,Received block blk_5174461779237739025 of size 67108864 from / < * > ,1
+83f87be8,<*> <*> <*> <*> : / < * > <*> : / < * > ,3
+34277d91,PacketResponder 1 for block blk_-9120005470237070778 terminating ,1
+0d77e130,PacketResponder 1 for block blk_5912213716795619450 terminating ,1
+8d2a4da8,PacketResponder 2 for block blk_2691304991047255190 terminating ,1
+0fd13c2c,BLOCK * <*> : <*> <*> : < * > <*> <*> to <*> <*> <*> ,2
+44e2f013,< * > : Got exception while serving blk_-8083036675630459841 to / < * > : ,1
+5abe8f8a,BLOCK * NameSystem.delete : blk_-5362598472846558076 is added to invalidSet of < * > ,1
+a0d2a40c,Deleting block blk_-5429479049793046826 file /mnt/hadoop/dfs/data/current/subdir34/blk_-5429479049793046826 ,1
+2342b3e4,Deleting block blk_6675564098604634452 file /mnt/hadoop/dfs/data/current/subdir1/blk_6675564098604634452 ,1
+00b8ccd7,Deleting block blk_5209577451013188921 file /mnt/hadoop/dfs/data/current/subdir24/blk_5209577451013188921 ,1
+c430eb44,BLOCK * NameSystem.allocateBlock : /user/root/rand4/_temporary/_task_200811101024_0009_m_000176_0/part-00176 . blk_8924207394547472950 ,1
+bf921941,PacketResponder 1 for block blk_4628975089896927394 terminating ,1
+f74ac525,BLOCK * NameSystem.allocateBlock : /user/root/rand4/_temporary/_task_200811101024_0009_m_001281_0/part-01281 . blk_2084123600915946046 ,1
+c2116b34,BLOCK * NameSystem.allocateBlock : /user/root/rand4/_temporary/_task_200811101024_0009_m_001611_0/part-01611 . blk_285336326661214154 ,1
+96778fa4,Received block blk_-3491385689517593364 of size 67108864 from / < * > ,1
+9c84a3c9,PacketResponder 2 for block blk_-6695620358347030339 terminating ,1
+ed018485,PacketResponder 2 for block blk_-1957299792594627113 terminating ,1
+96b10f76,PacketResponder 1 for block blk_6745520736924802462 terminating ,1
+9b89a0cb,BLOCK * NameSystem.delete : blk_7045475543362904558 is added to invalidSet of < * > ,1
+d8c32b75,PacketResponder 2 for block blk_-1649239999940418046 terminating ,1
+10935780,Received block blk_-290874442865281380 of size 28497700 from / < * > ,1
+fca5f452,PacketResponder 1 for block blk_4638603954320058978 terminating ,1
+f91746e7,Received block blk_3813891701916249413 of size 67108864 from / < * > ,1
+9eb67da8,Received block blk_-8965508153794244104 of size 28494398 from / < * > ,1
+f87fbf04,PacketResponder 2 for block blk_2111886617384066018 terminating ,1
+b7015a81,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_-524128780228307052 size 67108864 ,1
+8f71a598,Received block blk_5118390778403008591 of size 67108864 from / < * > ,1
+eb49ae57,Received block blk_-9013487557842539661 of size 28485342 from / < * > ,1
+a1cc8f94,Deleting block blk_-5429042599096020592 file /mnt/hadoop/dfs/data/current/subdir34/blk_-5429042599096020592 ,1
+580febbb,Received block blk_3924177422736829493 of size 67108864 from / < * > ,1
+6ca1e0cc,Received block <*> src : / < * > dest : / < * > of size 67108864 ,2
+1f1862d8,BLOCK * <*> : <*> <*> : < * > is added to <*> <*> <*> ,2
+df7f8b6e,Received block blk_49420377461855719 of size 67108864 from / < * > ,1
+27e9b835,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_-2281067667503210140 size 67108864 ,1
+c506569c,Receiving block blk_-7228803354694123939 src : / < * > dest : / < * > ,1
+2610ad0c,Received block blk_4989329877491629543 of size 67108864 from / < * > ,1
+1a4150bd,Received block blk_-997605125898553536 of size 67108864 from / < * > ,1
+253fa9e2,Received block blk_4967370797322420259 of size 67108864 from / < * > ,1
+dbd0aec9,Received block blk_7213990003235926706 of size 67108864 from / < * > ,1
+862b5ae5,<*> block <*> <*> size 67108864 <*> <*> < * > ,2
+cf9f8fad,PacketResponder 1 for block blk_-9098645110390099509 terminating ,1
+280c54e7,Received block blk_3961831045048378097 of size 67108864 from / < * > ,1
+b1875c54,PacketResponder 2 for block blk_-6220821375880228145 terminating ,1
+f24a5306,Received block blk_-9211699406261033878 of size 67108864 from / < * > ,1
+e7c56fcf,BLOCK * NameSystem.addStoredBlock : blockMap updated : < * > is added to blk_-3955287039966096707 size 67108864 ,1
+9c6e54bb,BLOCK * ask < * > to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+e7ae86a9,PacketResponder 1 for block blk_2016964533702776852 terminating ,1
+10da32fb,Deleting block blk_4367982328407767477 file /mnt/hadoop/dfs/data/current/subdir28/blk_4367982328407767477 ,1
+beab66c4,Receiving block blk_8596624696139957935 src : / < * > dest : / < * > ,1
+18b899a8,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_000153_0/part-00153 . blk_8596624696139957935 ,1
+d18b0693,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_000451_0/part-00451 . blk_-8744988583359134013 ,1
+1afb65e5,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_000079_0/part-00079 . blk_4225726256421431188 ,1
+fbf5b16e,Received block blk_1060814796407897179 of size 67108864 from / < * > ,1
+b956df74,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_000077_0/part-00077 . blk_608957629753483727 ,1
+e94aa221,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_000523_0/part-00523 . blk_-4801855948459616884 ,1
+5a43ceac,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_000997_0/part-00997 . blk_-500534246236005335 ,1
+176ecdb9,Received block blk_8474920544984206742 of size 67108864 from / < * > ,1
+ee26d03a,Receiving block blk_-7238035741206373733 src : / < * > dest : / < * > ,1
+682d1105,PacketResponder 1 for block blk_7078766226078740026 terminating ,1
+080ab48f,PacketResponder 2 for block blk_-5722491454804415982 terminating ,1
+706c5c05,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_001850_0/part-01850 . blk_-4312777901444596370 ,1
+39ccdfd1,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_001835_0/part-01835 . blk_6178964531181542074 ,1
+c4a8ef2d,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_001983_0/part-01983 . blk_8861349372992394289 ,1
+d1b5c3ba,PacketResponder 1 for block blk_703049809255765647 terminating ,1
+74511953,BLOCK * NameSystem.allocateBlock : /user/root/rand6/_temporary/_task_200811101024_0013_m_002009_1/part-02009 . blk_-7367386750462511488 ,1
+e7deb8d4,<*> block <*> <*> size <*> <*> <*> < * > ,1
+38c8edf0,Deleting block blk_6888300867578983331 file /mnt/hadoop/dfs/data/current/subdir46/blk_6888300867578983331 ,1
+ea8ca049,Deleting block blk_5453150794205420798 file /mnt/hadoop/dfs/data/current/subdir24/blk_5453150794205420798 ,1
+32b67250,Received block blk_-3693786175267111588 of size 67108864 from / < * > ,1
+4f0e873c,BLOCK * ask < * > to <*> <*> to <*> <*> <*> <*> < * > ,1
+4b1b69e5,Deleting block blk_-7606467001548719462 file /mnt/hadoop/dfs/data/current/subdir2/blk_-7606467001548719462 ,1
+75c05c3c,PacketResponder 2 for block blk_-7319442762668598889 terminating ,1
+6dc269f0,PacketResponder 2 for block blk_215466486430758887 terminating ,1
+6417c6b9,Received block blk_4031738712701565209 of size 67108864 from / < * > ,1
+4a2caaba,PacketResponder 1 for block blk_-8969188698416564850 terminating ,1
+b7f326ab,Deleting block blk_5701964561533648583 file /mnt/hadoop/dfs/data/current/subdir10/blk_5701964561533648583 ,1
+71bfe967,Deleting block blk_4007982883396598426 file /mnt/hadoop/dfs/data/current/subdir13/blk_4007982883396598426 ,1
+07bcfcb0,Received block blk_7330803663603700184 of size 67108864 from / < * > ,1
+dfd8b1ea,BLOCK * ask < * > to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+024b8c37,Deleting block blk_-2808875502459981198 file /mnt/hadoop/dfs/data/current/subdir3/blk_-2808875502459981198 ,1
+6fdaa573,Deleting block blk_9173199815015538212 file /mnt/hadoop/dfs/data/current/subdir24/blk_9173199815015538212 ,1
+1967b44f,PacketResponder 2 for block blk_-5799866343936729403 terminating ,1
+9dee6d1a,Received block blk_-9167880724995702718 of size 67108864 from / < * > ,1
+be9b428c,Received block blk_7679838117000095334 of size 67108864 from / < * > ,1

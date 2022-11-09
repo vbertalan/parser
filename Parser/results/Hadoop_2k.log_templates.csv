@@ -1,0 +1,249 @@
+EventId,EventTemplate,Occurrences
+57a72c4d,<*> MRAppMaster <*> <*> <*> ,1
+48d5ce60,Executing with tokens : ,1
+3fc39226,"<*> : <*> , <*> : , <*> : ( <*> { <*> { <*> : <*> <*> : <*> } <*> : <*> } <*> : <*> ) ",1
+bc66e6e5,Using mapred newApiCommitter . ,1
+f2a51a07,OutputCommitter <*> <*> <*> <*> ,1
+a21fbd32,OutputCommitter is <*> ,1
+784ed797,Registering class <*> for class <*> ,2
+eb3296fe,Registering class <*> for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ <*> ,1
+7666c825,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ TaskEventDispatcher ,1
+45fff5f3,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ TaskAttemptEventDispatcher ,1
+67960008,Registering class <*> $ EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ <*> ,3
+10e09a8b,Default file system [ hdfs : //msra-sa-41:9000 ] ,3
+60cb8d3b,<*> <*> <*> <*> to the <*> server is not <*> ,1
+f84a430a,Registering class <*> $ <*> for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ <*> ,1
+b5f6193c,<*> <*> <*> <*> ,7
+58790209,<*> <*> <*> <*> <*> <*> <*> <*> <*> . ,1
+829691ae,MRAppMaster <*> <*> <*> ,1
+19045a00,<*> job <*> for job_1445144423722_0020 to <*> ,1
+5a86434b,<*> <*> <*> <*> <*> <*> <*> ; <*> <*> maps ; <*> <*> <*> ; ,1
+4085db01,<*> <*> for job job_1445144423722_0020 = <*> . Number of <*> = <*> ,1
+c56a07a6,Number of <*> for job job_1445144423722_0020 = <*> ,1
+5bf3b691,job_1445144423722_0020Job Transitioned from <*> to INITED ,1
+450e8307,"<*> <*> <*> , <*> , <*> <*> <*> . ",1
+15d40c86,Using callQueue class java.util.concurrent.LinkedBlockingQueue ,2
+7cef203e,Starting Socket Reader # 1 for port 62260 ,1
+6108cd40,<*> <*> <*> to the server ,1
+0022abf8,<*> <*> <*> <*> < <*> > <*> ,1
+c40927d5,IPC Server Responder : starting ,2
+9692d3c4,IPC Server listener on <*> : starting ,2
+e181db18,<*> to <*> <*> <*> <*> <*> <*> ,1
+33f5b335,<*> <*> <*> for <*> is not <*> ,1
+991cb71e,Added <*> filter <*> <*> ( <*> <*> <*> ) ,1
+98b9d18d,Added filter AM_PROXY_FILTER ( class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context <*> ,2
+bc758d05,adding path spec : /mapreduce/ * ,1
+cb5ad7a1,adding path spec : /ws/ * ,1
+2f97fd60,Jetty bound to port 62267 ,1
+3e299cec,jetty-6.1.26 ,1
+8638778d,<*> <*> : file : <*> : <*> <*> <*> to <*> : <*> ,1
+68578c3b,Started HttpServer2 $ SelectChannelConnectorWithSafeStartup @ < * > :62267 ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
+c088ca7f,<*> job_1445144423722_0020 ,1
+b71b3bfe,<*> : <*> ,3
+8b6d6c34,maxTaskFailuresPerNode is 3 ,1
+31a7e4be,<*> is <*> ,1
+27ddf35e,Starting Socket Reader # 1 for port 62270 ,1
+ff9afba7,<*> to <*> <*> msra-sa-41/ < * > :8030 ,1
+06829067,"maxContainerCapability : < memory:8192 , vCores:32 > ",1
+f5aa5708,Upper limit on the thread pool size is 500 ,1
+bd93a64f,job_1445144423722_0020Job Transitioned from INITED to SETUP ,1
+07293edd,<*> the <*> EventType : <*> ,1
+496a769d,job_1445144423722_0020Job Transitioned from SETUP to <*> ,1
+e2475fb5,Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack ,15
+5afe8566,Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack ,18
+ec5bd6a0,<*> Task Transitioned from NEW to SCHEDULED ,11
+574aca2a,<*> TaskAttempt Transitioned from NEW to UNASSIGNED ,8
+6e328cd8,attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+10df6f05,attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+2eaa4c46,attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+ac1f7c7c,"mapResourceRequest : < memory:1024 , vCores:1 > ",1
+415db342,Event <*> <*> for <*> : <*> <*> <*> : <*> : <*> ,1
+1c9d2a8c,"reduceResourceRequest : < memory:1024 , vCores:1 > ",1
+60423723,Before Scheduling : PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> <*> <*> <*> ,1
+c1868647,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit= < <*> , vCores : <*> > knownNMs=4 ",3
+26544cf1,"Recalculating schedule , headroom= < memory:10240 , vCores : -17 > ",2
+2fc873d8,Reduce slow start threshold not met . completedMapsForReduceSlowstart 1 ,116
+f7b53a40,Got allocated containers 1 ,9
+4f4e6dc8,Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack ,2
+bfbc46fe,Assigned container <*> to <*> ,5
+909d0075,"Recalculating schedule , headroom= < <*> , vCores : <*> > ",5
+cad78007,After Scheduling : PendingReds:1 ScheduledMaps:9 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:0 RackLocal:1 ,1
+750433c4,The <*> file on the remote FS is <*> : <*> ,1
+6b2b257f,The <*> file on the remote FS is <*> ,1
+fa213701,Adding # 0 tokens and # 1 secret keys for NM use for launching container ,1
+3dbe69c5,<*> <*> <*> <*> 1 ,1
+347334c7,<*> <*> <*> <*> <*> ,2
+3c62decf,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,7
+82edc8e7,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> ,7
+4e82a656,Launching <*> ,10
+24c8d8a6,Opening proxy : <*> ,1
+bfb0db44,Shuffle port returned by ContainerManager for <*> : 13562 ,8
+27e7c443,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ <*> ] ,1
+7e65b000,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING ,7
+9d41d2df,ATTEMPT_START <*> ,10
+7b3bd79a,<*> Task Transitioned from SCHEDULED to RUNNING ,10
+fa614f6a,Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack ,4
+3ccebbc5,Assigned container <*> to attempt_1445144423722_0020_m_000001_0 ,1
+af347179,After Scheduling : PendingReds:1 ScheduledMaps:8 ScheduledReds:0 AssignedMaps:2 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:0 RackLocal:2 ,1
+451a3187,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0 ,1
+07b77e98,<*> <*> : <*> ,2
+053753b6,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000001_0 : 13562 ,1
+081d2288,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ MININT-FNANLI5.fareast.corp.microsoft.com:52368 ] ,2
+53ac12dc,After Scheduling : PendingReds:1 ScheduledMaps:7 ScheduledReds:0 AssignedMaps:3 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:0 RackLocal:3 ,1
+301fe861,Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368 ,2
+dd1fdda5,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000002_0 : 13562 ,1
+1c54d681,<*> TaskAttempt <*> <*> <*> to <*> ,8
+8ccc9b30,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit= < memory:1024 , vCores : -26 > knownNMs=4 ",1
+d88d7dc1,"Recalculating schedule , headroom= < memory:1024 , vCores : -26 > ",3
+351566b9,Auth successful for job_1445144423722_0020 ( auth : SIMPLE ) ,10
+cd27dc8c,JVM with ID : <*> asked for a task ,4
+6726166a,JVM with ID : <*> given task : <*> ,7
+4a7adf2e,"Recalculating schedule , headroom= < memory:0 , vCores : -27 > ",121
+691eead8,JVM with ID : <*> given task : attempt_1445144423722_0020_m_000001_0 ,1
+ba80185e,JVM with ID : jvm_1445144423722_0020_m_000004 asked for a task ,1
+d3c57150,<*> <*> <*> <*> <*> <*> . <*> <*> ,14
+7b37db97,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.023958297 ,1
+f2fbe3b5,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.065791264 ,1
+51d56caf,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.05713628 ,1
+7a65c0f6,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : <*> ,2
+58522ba1,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.079464614 ,1
+caf4d1e6,<*> <*> TaskAttempt <*> <*> : <*> ,11
+0841edd0,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664 ,10
+bb08736d,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10501281 ,1
+8d320a0d,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : <*> ,5
+43d0fa6a,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108 ,7
+661a59fd,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437 ,8
+6158fa56,Assigned container <*> to attempt_1445144423722_0020_m_000003_0 ,1
+de045b89,After Scheduling : PendingReds:1 ScheduledMaps:6 ScheduledReds:0 AssignedMaps:4 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:1 RackLocal:3 ,1
+bca5eafa,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0 ,1
+96a94cdf,Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109 ,6
+15463732,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ MSRA-SA-41.fareast.corp.microsoft.com:7109 ] ,5
+5dbb8f7c,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit= < memory:0 , vCores : -27 > knownNMs=4 ",3
+19b475da,JVM with ID : jvm_1445144423722_0020_m_000005 asked for a task ,1
+911862d7,JVM with ID : <*> given task : attempt_1445144423722_0020_m_000003_0 ,1
+ba05635d,Progress of TaskAttempt <*> is : <*> ,33
+e8efa757,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.106493875 ,3
+23597171,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : <*> ,9
+4ac895b5,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523 ,8
+2f1e71f7,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553 ,9
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
+ea3e5f52,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794 ,9
+d2a9f0d9,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.27765483 ,3
+76d5dbbb,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.4486067 ,3
+0fc94b67,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19716828 ,1
+7feffac9,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006 ,8
+aa0a4efc,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525 ,8
+475f0cb2,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857 ,9
+31c75b44,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5343203 ,3
+5182ebe1,Got allocated containers <*> ,1
+5f650f97,Assigned container container_1445144423722_0020_01_000007 to attempt_1445144423722_0020_m_000005_0 ,1
+db805bc7,After Scheduling : PendingReds:1 ScheduledMaps:4 ScheduledReds:0 AssignedMaps:6 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:6 ContRel:0 HostLocal:3 RackLocal:3 ,1
+50cccbc6,attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+76a7334a,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt attempt_1445144423722_0020_m_000005_0 ,1
+5133f7c4,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=1 finishedContainers=0 resourcelimit= < memory:0 , vCores : -27 > knownNMs=4 ",3
+31399daf,After Scheduling : PendingReds:1 ScheduledMaps:3 ScheduledReds:0 AssignedMaps:7 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:7 ContRel:0 HostLocal:4 RackLocal:3 ,1
+1abfd808,attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+7a61135f,JVM with ID : jvm_1445144423722_0020_m_000007 asked for a task ,1
+f3998bfc,JVM with ID : <*> given task : attempt_1445144423722_0020_m_000005_0 ,1
+2449f868,JVM with ID : jvm_1445144423722_0020_m_000008 asked for a task ,1
+0f8cafbc,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.10685723 ,3
+43c6275b,Assigned container container_1445144423722_0020_01_000009 to attempt_1445144423722_0020_m_000007_0 ,1
+4d927254,After Scheduling : PendingReds:1 ScheduledMaps:2 ScheduledReds:0 AssignedMaps:8 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:8 ContRel:0 HostLocal:5 RackLocal:3 ,1
+bce1f42c,attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+0b5f56a9,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.10680563 ,3
+1e8de124,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6199081 ,4
+ba8e5eff,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.106964506 ,3
+9ba81ab0,After Scheduling : PendingReds:1 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:9 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
+43e70eda,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ MSRA-SA-39.fareast.corp.microsoft.com:28345 ] ,2
+f43b04db,Assigned container container_1445144423722_0020_01_000011 to attempt_1445144423722_0020_m_000009_0 ,1
+31934106,After Scheduling : PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:7 RackLocal:3 ,1
+ca079908,"<*> <*> <*> container Container : [ <*> : <*> , <*> : <*> , <*> : <*> , <*> : < memory:1024 , vCores:1 > , <*> : <*> , Token : Token <*> <*> : <*> , <*> : < <*> > <*> <*> , ] for <*> map <*> <*> container <*> <*> <*> <*> < memory:1024 , vCores:1 > <*> <*> <*> map <*> <*> <*> ",1
+8c7da313,After Scheduling : PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+388161f5,"getResources ( ) for application_1445144423722_0020 : <*> release= <*> newContainers=0 <*> resourcelimit= < memory:1024 , vCores : -26 > knownNMs=4 ",1
+a0a7e012,<*> <*> <*> for <*> <*> <*> <*> ,1
+05751bc3,JVM with ID : jvm_1445144423722_0020_m_000010 asked for a task ,1
+f2d18086,JVM with ID : jvm_1445144423722_0020_m_000011 asked for a task ,1
+66031ce8,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705 ,4
+332b96c2,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.667 ,3
+c41f7f29,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446 ,4
+701ec2e7,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.19242907 ,3
+573d724a,Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365 ,5
+872ede52,Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472 ,5
+7a0e3e0e,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363 ,8
+e29b5b2d,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : <*> ,7
+8bf7d7cc,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977 ,8
+a1028922,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.27813601 ,3
+7feaf1f0,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.19255035 ,3
+363dc8ab,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.2781602 ,3
+8f0581d4,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.2783809 ,2
+cbcf57ab,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012 ,8
+742279e4,Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.19258286 ,3
+ee677e09,Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.5323719 ,4
+b24d94c5,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.36390656 ,3
+656e4f4f,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.27825075 ,3
+421cc69a,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.36388028 ,4
+8a4e084e,Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.27811313 ,3
+0e6f95d9,Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.667 ,3
+09c43543,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 1.0 ,1
+335039cc,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP ,1
+b1076b23,<*> <*> <*> <*> : <*> for <*> <*> <*> <*> ,3
+c3d08e3f,KILLING <*> ,3
+a368841f,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED ,1
+0128d242,<*> <*> <*> <*> <*> to <*> ,3
+53df4f1d,Num completed Tasks : 1 ,1
+f0fed1b2,Before Scheduling : PendingReds:1 <*> ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+09c48f9e,Reduce slow start threshold <*> . <*> <*> . ,1
+1980c145,<*> maps <*> . <*> <*> <*> <*> <*> ,1
+edf4cc75,After Scheduling : PendingReds:0 ScheduledMaps:0 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+1943a850,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.3638923 ,2
+495a7f74,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.44968578 ,2
+f78ea20c,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_1445144423722_0020_m_000000 ,1
+eba72b0f,We launched 1 speculations . Sleeping 15000 milliseconds . ,1
+5c15fcd7,<*> <*> <*> <*> for <*> <*> ,1
+12f256a0,Before Scheduling : <*> <*> <*> AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+66574878,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.44980705 ,2
+86c1a9cb,"getResources ( ) for application_1445144423722_0020 : <*> release= 0 <*> <*> resourcelimit= < memory:0 , vCores : -27 > knownNMs=4 ",1
+db99f9b9,After Scheduling : PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+f1d09b3d,<*> <*> <*> <*> : Container <*> <*> <*> <*> . ,1
+d2eaff02,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183 ,11
+0e3ce9c8,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424 ,11
+08e0a04f,Address change detected . Old : msra-sa-41/ < * > :9000 New : msra-sa-41:9000 ,330
+ae806624,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for <*> seconds . Will retry shortly ... ,304
+c8bfd83c,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> status : <*> status : <*> <*> : <*> , <*> : <*> < * > :50010 , < * > :50010 <*> ",1
+07f1f293,<*> <*> <*> for <*> <*> < * > <*> : <*> ,1
+3e3a7d68,"<*> <*> for <*> <*> < * > <*> : <*> <*> <*> < * > <*> , < * > <*> : <*> <*> < * > <*> ",1
+b5f8f0ab,<*> <*> ,1
+3f5633f6,ERROR IN CONTACTING RM . ,147
+9ccadee9,Address change detected . Old : msra-sa-41/ < * > :8030 New : msra-sa-41:8030 ,146
+851957ed,"Retrying connect to server : msra-sa-41:8030 . Already tried 0 time ( s ) ; retry policy is RetryUpToMaximumCountWithFixedSleep ( maxRetries=10 , sleepTime=1000 MILLISECONDS ) ",142
+bbb0f9de,"<*> <*> to <*> : msra-sa-41:8030 . <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> ",4
+123a7594,<*> : <*> <*> <*> : java.net.NoRouteToHostException : No <*> to <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> : java.net.NoRouteToHostException : No <*> to <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> ,2
+352d234e,<*> <*> from <*> : <*> : java.net.NoRouteToHostException : No <*> to <*> from <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> : java.net.NoRouteToHostException : No <*> to <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> ,2
+723ffafc,<*> <*> <*> <*> : <*> ,2
+3a4ace98,Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0 ,1
+a0c0459e,<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED ,1
+70553c38,<*> <*> <*> Event : <*> <*> <*> ,1
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+8f0f18b7,1 failures on node MININT-FNANLI5.fareast.corp.microsoft.com ,1
+a0e3b8fc,<*> <*> to <*> <*> <*> maps ,2
+0f4764a5,Before Scheduling : PendingReds:0 ScheduledMaps:2 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+969782b1,<*> <*> <*> <*> : <*> : <*> : <*> <*> to <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> : <*> : <*> <*> to <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> ,2
+3b2d506a,Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0 ,1
+f3e2e4e5,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED ,1
+eb655079,2 failures on node MININT-FNANLI5.fareast.corp.microsoft.com ,1
+bfa616ed,Before Scheduling : PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+21ea51ad,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 113 seconds . Will retry shortly ... ,1
+fbc99c05,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 114 seconds . Will retry shortly ... ,1
+99527c4e,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 151 seconds . Will retry shortly ... ,1
+ff41aabd,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 152 seconds . Will retry shortly ... ,1
+0f6a8f69,<*> to <*> <*> for <*> <*> <*> for <*> <*> . <*> <*> <*> <*> ,8
+9624ce30,<*> to <*> <*> for <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> ,2
+c6aa6797,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 277 seconds . Will retry shortly ... ,1
+d5443b02,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 278 seconds . Will retry shortly ... ,1
+441d76ab,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 279 seconds . Will retry shortly ... ,1
+f6292521,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 346 seconds . Will retry shortly ... ,1
+a7feadbc,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 347 seconds . Will retry shortly ... ,1
+769106dd,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 354 seconds . Will retry shortly ... ,1
+040d982c,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 355 seconds . Will retry shortly ... ,1
+122faeaa,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 356 seconds . Will retry shortly ... ,1

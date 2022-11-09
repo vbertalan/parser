@@ -1,0 +1,19 @@
+=== Overall evaluation results ===
+             F1_measure  Accuracy
+Dataset
+HDFS           0.753955    0.0020
+Hadoop         0.747238    0.1370
+Spark          0.197868    0.0080
+Zookeeper      0.910971    0.6060
+BGL            0.931056    0.5100
+HPC            0.973282    0.5795
+Thunderbird    0.530907    0.0990
+Windows        0.719523    0.3000
+Linux          0.097766    0.0905
+Andriod        0.936757    0.4530
+HealthApp      0.644789    0.0740
+Apache         0.587692    0.2905
+Proxifier      0.247359    0.0010
+OpenSSH        0.829980    0.0715
+OpenStack      0.649594    0.0495
+Mac            0.776885    0.4195

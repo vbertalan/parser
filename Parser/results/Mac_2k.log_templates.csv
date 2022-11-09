@@ -1,0 +1,465 @@
+EventId,EventTemplate,Occurrences
+0f7f6ea6,IOThunderboltSwitch < 0 > ( 0x0 ) : :listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0 ,17
+898d7c70,Thermal pressure state : 1 Memory pressure state : 0 ,16
+347334c7,<*> <*> <*> <*> <*> ,3
+a7060d93,ARPT : <*> : AirPort_Brcm43xx : :syncPowerState : WWEN [ enabled ] ,10
+cab65aa8,ARPT : <*> : AirPort_Brcm43xx : :platformWoWEnable : WWEN [ disable ] ,14
+13b6f5bf,<*> : <*> <*> <*> <*> <*> ( <*> : <*> : <*> ) ,6
+6d858767,"ARPT : <*> : IOPMPowerSource Information : onSleep , SleepType : Normal Sleep , 'ExternalConnected ' : Yes , 'TimeRemaining ' : 0 , ",7
+2e34c71e,"<*> : <*> : <*> : <*> : <*> <*> : <*> , <*> : <*> , <*> <*> : <*> ",6
+42e39ed6,ARPT : <*> : ARPT : Wake Reason : Wake on Scan offload ,9
+1166c0d0,__73- [ NetworkAnalyticsEngine observeValueForKeyPath : ofObject : change : context : ] _block_invoke unexpected switch value 2 ,16
+c3d72416,IO80211AWDLPeerManager : :setAwdlAutoMode Resuming AWDL ,15
+6e50ab4a,"ARPT : <*> : wl0 : MDNS : 0 SRV Recs , 0 TXT Recs ",9
+2e2aa2e6,AppleCamIn : :systemWakeCall - messageType = 0xE0000340 ,40
+ce9596d8,setting hostname to `` authorMacBook-Pro.local '' ,5
+cf9a2efa,"< * > : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for <*> seconds . Ignoring . ",132
+bbc21f3a,CCIOReporterFormatter : :addRegistryChildToChannelDictionary streams 7 ,7
+0c4bb44e,[ <*> ] < < < < <*> > > > > <*> : [ <*> ] <*> <*> <*> <*> <*> <*> <*> ,3
+14299b6b,<*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> . ,4
+5d537216,AirPort : Link Down on awdl0 . Reason 1 ( Unspecified ) . ,7
+17759c51,"<*> <*> <*> <*> ms <*> <*> , <*> <*> ",6
+b02b4b53,"<*> : <*> : <*> : <*> <*> <*> <*> , <*> <*> <*> , <*> <*> , <*> <*> <*> ",1
+e5a06e10,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000 ,7
+9829e41e,"IO80211AWDLPeerManager : :setAwdlSuspendedMode ( ) Suspending AWDL , enterQuietMode ( true ) ",11
+b9c5a1b2,<*> : <*> is not <*> <*> <*> is <*> <*> ,1
+cdbae04b,CCFile : :captureLogRun ( ) Exiting CCFile : :captureLogRun ,22
+4e7a6b45,< * > ( <*> ) deny network-outbound /private/var/run/mDNSResponder ,21
+d5b88ea4,<*> : <*> : <*> : <*> : <*> <*> : <*> : <*> : <*> : <*> ,12
+376c08c6,AirPort : Link Up on en0 ,4
+9b8fbd9c,< * > : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> <*> . <*> . ,2
+d22d53a3,Sandbox : < * > ( <*> ) deny ( 1 ) network-outbound /private/var/run/mDNSResponder ,25
+deb92e50,ARPT : <*> : AirPort_Brcm43xx : :platformWoWEnable : WWEN [ enable ] ,10
+6d9a6e94,AirPort : Link Up on awdl0 ,9
+e0276e71,AppleThunderboltGenericHAL : :earlyWake - complete - took 0 milliseconds ,8
+5c9f5d71,mDNS_DeregisterInterface : Frequent transitions for interface en0 ( <*> : <*> : <*> : <*> ) ,1
+f9da347c,AppleThunderboltNHIType2 : :waitForOk2Go2Sx - retries = 7 ,3
+7f181cc7,"<*> : <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> , <*> <*> , <*> <*> <*> ",7
+e74a33ae,<*> : <*> : <*> : <*> : <*> <*> <*> <*> ,4
+4e86bd3e,en0 : :IO80211Interface : :postMessage bssid changed ,10
+6397d01e,Thermal pressure state : 0 Memory pressure state : 0 ,20
+398f6297,AppleThunderboltNHIType2 : :waitForOk2Go2Sx - intel_rp = 1 dlla_reporting_supported = 0 ,6
+61d49d81,AppleCamIn : :wakeEventHandlerThread ,20
+3e7e02a3,<*> <*> <*> : <*> <*> <*> <*> : 0 ,3
+44db4343,"ARPT : <*> : wl0 : setup_keepalive : Local port : <*> , Remote port : 443 ",5
+ecabca4b,<*> <*> <*> <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> ( null ) <*> ( null ) / ( null ) <*> ( null ) <*> <*> <*> <*> <*> ( null ) / ( null ) ( <*> <*> <*> ) ,10
+b695bbbc,en0 : channel changed to 1 ,11
+ac43b03c,ARPT : <*> : AQM agg results 0x8001 len hi/lo : 0x0 0x26 BAbitmap ( 0-3 ) 0 0 0 0 ,4
+8762e36b,"CCFile : <*> <*> <*> <*> <*> : <*> , <*> <*> <*> : <*> ",2
+71487069,IO80211AWDLPeerManager : :setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED ,14
+773d6d23,Unrecognized attribute value : t : AbchPersonItemType ,8
+ad972109,SOSAccountThisDeviceCanSyncWithCircle sync with device failure : Error Domain= < * > Code=1035 `` Account identity not set '' UserInfo= { NSDescription=Account identity not set } ,12
+c589c0f0,"CFPasteboardRef CFPasteboardCreate ( CFAllocatorRef , CFStringRef ) : failed to create global data ",2
+ac7ba4a2,<*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+d23fc7d7,IOThunderboltSwitch < 0 > ( 0x0 ) : :listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0 ,16
+5053028d,<*> : BTLE scanner Powered On ,2
+bfea7b70,button report : 0x8002be0 ,7
+9888c7c3,<*> : BTLE <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+dd90c563,securityd_xpc_dictionary_handler cloudd [ 326 ] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 `` query missing class name '' ( paramErr : error in user parameter list ) UserInfo= { NSDescription=query missing class name } ,4
+8fa29121,Location icon should now be in state 'Inactive ' ,20
+e55bf75c,"<*> : <*> : <*> : <*> : <*> <*> , <*> <*> , <*> <*> ",6
+6ea5a083,<*> : <*> : <*> : <*> : <*> <*> : < * > ,4
+ac101322,<*> [ <*> <*> ] <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+c39e3975,"Setting BTCoex Config : enable_2G:1 , profile_2g:0 , enable_5G:1 , profile_5G:0 ",7
+7aa0e25c,<*> : [ <*> ] <*> : <*> <*> ' <*> <*> <*> ( <*> <*> network <*> <*> ) ,3
+51fc39b0,IO80211AWDLPeerManager : :setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO ,6
+d6234955,<*> <*> <*> <*> : <*> : key : <*> : <*> : <*> : <*> : <*> <*> <*> the <*> key <*> . <*> the <*> <*> . ,17
+3b198f2a,<*> : <*> <*> <*> ,5
+ad5c24db,Captive : CNPluginHandler en0 : Evaluating ,4
+7f11626d,"PM response took 1938 ms ( 54 , powerd ) ",1
+bd4a6537,tcp_connection_destination_perform_socket_connect 19110 connectx to < * > :80 @ 0 failed : [ 50 ] Network is down ,1
+c7a7fdbe,AirPort : Link Down on en0 . Reason 8 ( Disassociated because station leaving ) . ,5
+70558095,"USBMSC Identifier ( non-unique ) : 000000000820 0x5ac 0x8406 0x820 , 3 ",12
+c989a0ca,<*> : :setStreamEventHandler <*> for <*> <*> . ,2
+991a9fbe,[ <*> : WARNING : dns_config_service_posix.cc ( 306 ) ] Failed to read DnsConfig . ,4
+4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) ,2
+cccae1b8,[ HID ] [ ATC ] AppleDeviceManagementHIDEventService : :processWakeReason Wake reason : Host ( 0x01 ) ,8
+c637ad2f,en0 : BSSID changed to 5c:50:15:36 : bc:03 ,3
+7841df67,dnssd_clientstub ConnectToServer : connect ( ) - > No of tries : 1 ,15
+e7f47a6e,- [ NETClientConnection effectiveBundleID ] using process name apsd as bundle ID ( this is expected for daemons without bundle ID ,9
+4d8acfac,"RTC : Maintenance 2017/7/1 <*> , sleep 2017/7/1 <*> ",2
+d68c4ed4,"en0 : channel changed to 132 , +1 ",4
+32862c57,13:20:12.402 : BTLE scanner Powered On ,1
+7d07e07f,RTC : PowerByCalendarDate setting ignored ,10
+b1de8be7,Location icon should now be in state 'Active ' ,17
+10d9cdc6,dnssd_clientstub ConnectToServer : connect ( ) - > No of tries : 2 ,15
+e0f1d2f5,en0 : 802.11d country code set to 'X3 ' . ,3
+572efd46,<*> : <*> <*> <*> <*> ,12
+2f72fa71,"<*> : <*> : <*> : <*> : <*> : <*> , <*> : <*> , <*> <*> : <*> ",8
+6d240d44,QQ ( 10018 ) deny mach-lookup < * > ,6
+3107d0a2,[ HID ] [ MT ] AppleMultitouchDevice : :willTerminate entered ,3
+85fe77a6,[ BluetoothHIDDeviceController ] EventServiceDisconnectedCallback ,1
+97eb4003,<*> : <*> <*> took <*> ms ,1
+62f6fa6d,dnssd_clientstub ConnectToServer : connect ( ) failed path : /var/run/mDNSResponder Socket:4 Err : -1 Errno:1 Operation not permitted ,13
+4defedf2,"<*> <*> , <*> <*> , <*> <*> , <*> <*> , <*> 0 <*> <*> , <*> <*> , <*> 0 , <*> <*> , <*> 40000 ",2
+253071e8,"<*> : <*> <*> <*> ( <*> ) , <*> <*> <*> <*> <*> <*> <*> <*> ( <*> <*> ( <*> ) <*> ) ",1
+0fb776a6,<*> : <*> authw <*> ( <*> ) ( <*> <*> : <*> ) ,1
+07b77e98,<*> <*> : <*> ,10
+345f7bac,<*> <*> <*> [ <*> ] [ <*> ] - [ <*> ( <*> ) <*> : ] <*> <*> <*> <*> : < <*> <*> < <*> <*> < <*> path= '' <*> '' <*> < <*> path= '' <*> < * > '' <*> > > > <*> < <*> delegate= < <*> > <*> <*> <*> errors=0 <*> <*> <*> <*> ( ) > delegate= ( <*> ) <*> < <*> path= '' <*> '' > errors=0 > ,1
+de29be63,- [ ISGenerateImageOp generateImageWithCompletion : ] Failed to composit image for descriptor < ISBindingImageDescriptor : 0x7f9950712080 > . ,7
+9f6992df,- [ ISGenerateImageOp generateImageWithCompletion : ] Failed to composit image for descriptor < ISBindingImageDescriptor : <*> > . ,3
+caf8e514,Error returned from iconservicesagent : ( null ) ,13
+fcd80a5e,tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 ,4
+14f8cda8,- [ <*> <*> : ] <*> <*> <*> <*> <*> <*> < <*> : <*> > . ,3
+1fb6cd50,SecOSStatusWith error : [ -50 ] Error Domain=NSOSStatusErrorDomain Code=-50 `` query missing class name '' ( paramErr : error in user parameter list ) UserInfo= { NSDescription=query missing class name } ,5
+002b66db,send_datagram_available_ping : pid 445 failed to act on a ping it dequeued before timing out . ,26
+b728f7c2,<*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+f799c15f,- [ ISGenerateImageOp generateImageWithCompletion : ] Failed to composit image for descriptor < ISBindingImageDescriptor : 0x7f9950606790 > . ,3
+46523d5b,"< * > : <*> : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for <*> seconds . Ignoring . ",1
+2c628640,"<*> : <*> <*> ( <*> ) , <*> <*> ( <*> ) ",3
+15c04090,[ < * > ] [ Refusing to parse response to PROPPATCH because of content-type : [ text/html ; charset=UTF-8 ] . ] ,5
+add27700,"<*> : <*> , 0 , 0 , 0 , 0 , <*> , <*> , <*> , 0 , <*> , <*> ",11
+c5fa1af0,Previous sleep cause : 5 ,15
+f2fa8657,Wake reason : RTC ( Alarm ) ,5
+03d34b89,AppleThunderboltNHIType2 : :prePCIWake - power up complete - took 2 us ,4
+480d9bbb,<*> <*> : <*> ( <*> : <*> <*> <*> ) <*> ( <*> : <*> : <*> : <*> ) <*> <*> <*> <*> ,5
+b4e01034,hibernate_page_list_setall found pageCount <*> ,2
+3b6c745b,[ <*> ] [ <*> ] [ <*> ] <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+cd494993,en0 : BSSID changed to <*> ,1
+5ba2d6f5,[ IOBluetoothFamily ] [ staticBluetoothTransportShowsUp ] -- Received Bluetooth Controller register service notification -- 0x7000 ,1
+e01d929f,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x8000000000000000 to 0x4 ,8
+16cce9c7,FA||Url||taskID [ <*> ] dealloc ,10
+4478368c,<*> <*> <*> [ <*> ] [ <*> ] - [ <*> <*> : <*> : ] <*> for <*> for <*> < * > '' <*> <*> < <*> <*> < <*> <*> < <*> path= '' <*> '' <*> < <*> path= '' <*> < * > '' <*> > > > <*> < <*> delegate= < <*> > <*> <*> <*> errors=0 <*> <*> <*> <*> ( ) > delegate= ( <*> ) <*> < <*> path= '' <*> '' > errors=0 > ,1
+09aa46a1,<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400 : Close | close video chat . llFriendUIN = * * * * * * <*> . ,1
+543cba40,"ARPT : <*> : <*> <*> : <*> , <*> : <*> <*> , <*> ' : <*> , <*> ' : <*> , ",4
+d7042077,Bluetooth -- LE is supported - Disable LE meta event ,11
+d8b8eb50,<*> : <*> <*> <*> to <*> ,2
+c297a6c9,tcp_connection_handle_connect_conditions_bad <*> failed : 3 - No network route ,12
+eb7b31ef,Captive : CNPluginHandler en0 : Authenticated ,7
+eeb49cd7,ARPT : <*> : <*> : <*> : <*> <*> : < * > ,4
+2b489566,AppleThunderboltNHIType2 : :waitForOk2Go2Sx - retries = <*> ,3
+62834881,TBT W ( 2 ) : 0x0040 [ x ] ,4
+57327b2b,network changed : DNS * Proxy ,3
+123b979e,AppleThunderboltNHIType2 : :prePCIWake - power up complete - took 1 us ,10
+fb155fd3,tcp_connection_tls_session_error_callback_imp 2044 __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 ,1
+6bdfcbb9,ASL Sender Statistics ,9
+f9bb1a68,AppleCamIn : :systemWakeCall - messageType = <*> ,3
+1f40b4e1,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ <*> <*> <*> <*> <*> : <*> : ] <*> <*> <*> ' <*> <*> <*> : <*> ,1
+90726b5b,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ KSUpdateEngine <*> : ] KSUpdateEngine <*> <*> <*> <*> <*> <*> : ' <*> <*> <*> ' . ,2
+0ab7699a,<*> <*> ksfetch [ <*> ] [ <*> ] <*> ( ) ksfetch <*> URL ( < <*> : <*> > <*> URL : <*> : <*> < * > <*> <*> <*> <*> <*> <*> ) <*> <*> : <*> ,2
+5fc884aa,"Path not allowed in target domain : type = pid , path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/ < * > /Contents/MacOS/ < * > error = 147 : The specified service did not ship in the requestor 's bundle , origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/ < * > ",15
+99ce65d2,tcp_connection_tls_session_error_callback_imp 2068 __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 ,1
+0e065ad6,[ <*> ] < < < < <*> > > > > <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> - <*> <*> <*> <*> <*> to <*> ,4
+84cbef1d,<*> <*> <*> <*> <*> <*> ( <*> ) ( <*> ) <*> <*> < * > <*> < * > <*> <*> <*> ,3
+6343b0d5,KeychainGetICDPStatus : keychain : -25300 ,14
+b2d3f7db,<*> connection < <*> : <*> > connection <*> <*> <*> <*> ,1
+80768c28,<*> <*> <*> : <*> ,2
+6b5fbfea,<*> : <*> : <*> : <*> : <*> <*> <*> <*> . ,4
+ad18d6fb,"<*> : <*> : <*> <*> : <*> , <*> : <*> <*> , <*> ' : <*> , <*> ' : 0 , ",3
+2400d946,<*> : <*> - <*> = <*> ,13
+33d450d0,"<*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ",3
+c4051755,<*> : <*> : <*> : <*> : <*> <*> : <*> : <*> : <*> ,10
+ff66d5ce,Captive : CNPluginHandler en0 : Inactive ,4
+f6521707,in6_unlink_ifa : IPv6 address <*> has no prefix ,5
+5d4cc0d0,network changed : v4 ( en0 : < * > ) <*> ( <*> : <*> : <*> : <*> ) <*> ! <*> SMB ,2
+87e54d30,"<*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> . ",3
+ab05a7c2,dnssd_clientstub ConnectToServer : connect ( ) - > No of tries : 3 ,14
+3a3b1450,<*> : <*> : <*> : <*> : <*> <*> : <*> : <*> : <*> : <*> : <*> ,5
+cee5aece,"< * > : <*> <*> <*> to <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> . ",8
+e77fc6ec,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> , <*> : <*> <*> <*> <*> <*> , <*> , <*> , <*> <*> <*> <*> <*> <*> <*> , <*> : <*> <*> <*> <*> <*> , <*> : <*> <*> <*> <*> <*> , <*> , <*> , <*> <*> <*> <*> <*> <*> ",2
+0f1de032,"< * > : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for 106 seconds . Ignoring . ",2
+e28ac295,AppleThunderboltNHIType2 : :waitForOk2Go2Sx - retries = 5 ,3
+32325a10,"<*> : authw <*> ( <*> ) [ 0 , 0 , <*> , <*> ] <*> <*> ( <*> ) , <*> [ <*> ] ",2
+04a185d2,<*> <*> <*> [ <*> ] [ <*> ] <*> ( ) <*> <*> <*> <*> <*> <*> <*> ,3
+e40638f8,[ <*> ] FigAgglomeratorSetObjectForKey signalled err=-16020 ( kFigStringConformerError_ParamErr ) ( NULL key ) at /Library/Caches/ < * > /Sources/CoreMedia/ < * > /Prototypes/LegibleOutput/FigAgglomerator.c line 92 ,11
+61cd5be4,tcp_connection_tls_session_error_callback_imp 2103 __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 ,1
+4bda1d89,"<*> <*> <*> Error Error <*> <*> <*> <*> Internet connection appears to be offline . <*> <*> { <*> { Error <*> <*> <*> <*> Internet connection appears to be offline . <*> <*> { <*> : // < * > /dispatcher.arpc , <*> : // < * > /dispatcher.arpc , <*> , <*> , <*> Internet connection appears to be offline . } } , <*> : // < * > /dispatcher.arpc , <*> : // < * > /dispatcher.arpc , <*> , <*> , <*> Internet connection appears to be offline . } ",2
+00531d12,ARPT : <*> : AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0 ,5
+830e5374,Received Capture Event ,15
+f8679e38,Sandbox : QQ ( 10018 ) deny ( 1 ) mach-lookup < * > ,3
+dd816d61,[ <*> ] < < < < Boss > > > > figPlaybackBossPrerollCompleted : unexpected preroll-complete notification ,19
+856620c3,AppleThunderboltGenericHAL : :earlyWake - complete - took 1 milliseconds ,14
+05e1f412,tcp_connection_tls_session_error_callback_imp 2115 __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 ,1
+9baf17ad,<*> : <*> <*> = 0 ,2
+9b1ff98b,# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # <*> ,10
+13c96860,Configuration Notice : ASL Module `` < * > '' claims selected messages . Those messages may not appear in standard system log files or in the ASL database . ,2
+1e3c38c1,"<*> : <*> : <*> <*> : <*> , <*> : <*> <*> , <*> ' : <*> , <*> ' : <*> , ",4
+6ed93d6a,<*> : Scanning mode Contacts Only ,4
+de4dfecd,"<*> : <*> : <*> : <*> : <*> port : <*> , <*> port : <*> ",3
+568879f9,wake time set <*> s ,3
+52ac8f68,"ARPT : <*> : wl0 : setup_keepalive : interval 258 , retry_interval 30 , retry_count 10 ",2
+0ce38544,[ HID ] [ MT ] MTActuatorManagement : :getActuatorRef Calling MTActuatorOpen ( ) outside of MTTrackpadHIDManager . ,1
+be9374c2,"<*> <*> <*> , 0 , 0 , 0 , 0 , <*> , <*> , <*> , 0 , <*> , <*> ",4
+7f50bcdb,mDNS_DeregisterInterface : Frequent transitions for interface en0 ( < * > ) ,2
+d8671152,button report : 0x80039B7 ,6
+9b05cc22,AppleCamIn : :handleWakeEvent_gated ,15
+7652d840,ARPT : <*> : wl0 : leaveModulePoweredForOffloads : Wi-Fi will stay on . ,3
+a4279fc1,<*> : <*> <*> <*> <*> <*> ,4
+778478e0,<*> : Purged contact hashes ,2
+9d576733,< * > ( 33139 ) deny network-outbound /private/var/run/mDNSResponder ,2
+b70e1a4f,<*> : <*> : <*> : <*> : <*> [ <*> ] ,2
+33deb4dc,"ARPT : <*> : wl0 : wl_update_tcpkeep_seq : Updated seq/ack/win from UserClient Seq <*> , Ack <*> , Win size <*> ",3
+6b931521,<*> : BTLE <*> <*> ,2
+373f4404,"IOPMrootDomain : idle cancel , state 1 ",3
+b4e721ef,"PM response took 1857 ms ( 54 , powerd ) ",1
+8bb59d6e,<*> : <*> : <*> : <*> <*> : <*> <*> <*> <*> ,2
+b7fc3f1d,"<*> <*> <*> , <*> <*> , <*> <*> , <*> 0 , <*> <*> , <*> <*> , <*> <*> ",2
+5da0f80d,<*> done : last_valid_compact_indx <*> ,3
+df4aee43,"PM response took 1936 ms ( 54 , powerd ) ",1
+a7ffc185,sigio_handler : sigio_handler_active ! = 1 ,3
+b7d43833,<*> <*> for <*> < * > ( <*> <*> <*> <*> < * > ,1
+3d1d16b1,FA||Url||taskID [ 2019353296 ] dealloc ,1
+7b9409a0,<*> <*> <*> [ <*> ] [ <*> ] - [ <*> <*> : ] <*> for <*> <*> <*> <*> : < <*> <*> < <*> <*> < <*> path= '' <*> '' <*> < <*> path= '' <*> < * > '' <*> > > > <*> < <*> delegate= < <*> > <*> <*> <*> errors=0 <*> <*> <*> <*> ( ) > delegate= ( <*> ) <*> < <*> path= '' <*> '' > errors=0 > ,1
+c81a2e9c,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ <*> <*> : <*> : <*> : <*> : <*> : <*> : <*> : ] <*> <*> <*> <*> . ,1
+cc972ab9,FA||Url||taskID [ 2019353306 ] dealloc ,1
+cbdbc0f0,[ <*> ] itemasync_CopyProperty signalled err=-12785 ( kFigBaseObjectError_Invalidated ) ( invalidated ) at /Library/Caches/ < * > /Sources/CoreMedia/ < * > /Prototypes/Player/FigPlayer_Async.c line 2092 ,4
+888b29ec,[ <*> ] itemasync_SetProperty signalled err=-12785 ( kFigBaseObjectError_Invalidated ) ( invalidated ) at /Library/Caches/ < * > /Sources/CoreMedia/ < * > /Prototypes/Player/FigPlayer_Async.c line 2306 ,2
+b0ddeebc,"Opened file /var/log/SleepWakeStacks.bin , size 172032 , extents 1 , maxio 2000000 ssd 1 ",2
+011f8fc8,"<*> : <*> <*> <*> <*> , <*> , <*> , <*> , <*> ",4
+9a0ecb7d,"Unexpected payload found for message 9 , dataLen 0 ",2
+c400a3ef,CCFile : :captureLog ,17
+6cf78f9f,en0 : Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 ,2
+feeea2dd,ARPT : <*> : AirPort_Brcm43xx : :powerChange : System Wake - Full Wake/ Dark Wake / Maintenance wake ,7
+4e282511,<*> name <*> not <*> to <*> <*> <*> ,1
+095471cd,<*> <*> <*> <*> <*> : <*> ,1
+1bcc03b4,<*> manager is not powered on ,1
+0652c3ce,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-03_13,48,39.362458 ] -CCIOReporter-002.xml , Current File [ 2017-07-03_13,48,39.362458 ] -CCIOReporter-002.xml ",1
+adcc3217,"CCFile : :copyFile fileName is [ 2017-07-03_13,48,39.308188 ] -io80211Family-002.pcapng , source path : /var/log/CoreCapture/ < * > /IO80211AWDLPeerManager// [ 2017-07-03_13,48,39.308188 ] -io80211Family-002.pcapng , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] =AssocFail : sts:2_rsn:0/IO80211AWDLPeerManager// [ 2017-07-03_13,48,39.308188 ] -io80211Family-002.pcapng ",1
+3635bea8,ARPT : <*> : framerdy 0x0 bmccmd <*> framecnt 1024 ,1
+f0bb6a91,<*> <*> : <*> <*> : <*> <*> : <*> ,3
+47e8e9a2,<*> : <*> <*> <*> <*> <*> <*> <*> <*> ,2
+694e0129,ARPT : <*> : wl0 : setup_keepalive : Remote IP : < * > ,8
+a9fdc185,"RTC : Maintenance <*> <*> , sleep <*> <*> ",3
+5ec33984,<*> : <*> : <*> : <*> : <*> <*> <*> on <*> ,2
+f4459d72,"< < < < FigByteStream > > > > FigByteStreamStatsLogOneRead : ByteStream read of <*> bytes @ <*> took <*> <*> . to complete , <*> reads > = <*> sec . ",1
+0dfd48de,ARPT : <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+3f744f2c,network changed : v4 ( en0 : < * > ) <*> ( en0 ! <*> : <*> : <*> : <*> ) <*> <*> SMB ,1
+a9019a28,"CCFile : :captureLog Received Capture notice id : <*> , reason = AuthFail : sts:5_rsn:0 ",13
+4d1687cb,CCIOReporterFormatter : :refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions ,9
+9f7e66f6,"CCFile : :copyFile fileName is [ <*> ] <*> , source path : /var/log/CoreCapture/ < * > /DriverLogs// [ <*> ] <*> , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] <*> : <*> [ <*> ] <*> ",4
+c521cbad,"CCLogTap : :profileRemoved , Owner : < * > , Name : <*> ",3
+e74217d9,"< < < < FigByteStream > > > > FigByteStreamStatsLogOneRead : ByteStream read of <*> bytes @ <*> took <*> sec . to complete , <*> reads > = <*> sec . ",2
+3b50d467,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-03_16,05,51.031703 ] -AirPortBrcm4360_Logs-003.txt , Current File [ 2017-07-03_16,05,51.031703 ] -AirPortBrcm4360_Logs-003.txt ",1
+bde7ebbd,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-03_16,05,51.075268 ] -AirPortBrcm4360_Logs-005.txt , Current File [ 2017-07-03_16,05,51.075268 ] -AirPortBrcm4360_Logs-005.txt ",1
+c6f8c245,"CCFile : :captureLogRun Skipping current file Dir file [ <*> ] <*> , Current File [ <*> ] <*> ",19
+6da59ec8,network <*> : <*> ( <*> : <*> : <*> : <*> ) <*> <*> ,2
+1ade06d5,"CCFile : :copyFile fileName is [ <*> ] <*> , source path : /var/log/CoreCapture/ < * > /OneStats// [ <*> ] <*> , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] =AuthFail : sts:5_rsn:0/OneStats// [ <*> ] <*> ",5
+b396ae4b,ARPT : <*> : framerdy 0x0 bmccmd 3 framecnt 1024 ,7
+badd81f7,"CCFile : :copyFile fileName is [ <*> ] <*> , source path : /var/log/CoreCapture/ < * > /IO80211AWDLPeerManager// [ <*> ] <*> , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] =AuthFail : sts:5_rsn:0/IO80211AWDLPeerManager// [ <*> ] <*> ",6
+74c9a581,<*> : <*> : <*> : ,2
+13f00109,ARPT : <*> : AQM agg results 0x8001 len hi/lo : 0x0 <*> BAbitmap ( 0-3 ) 0 0 0 0 ,1
+67f38eb8,[ <*> ] < < < < <*> > > > > <*> : [ <*> ] <*> <*> <*> <*> <*> . ,2
+70ebe7d3,doSaveChannels @ 286 : Will write to : /Library/Logs/CrashReporter/CoreCapture/IOReporters/ [ <*> ] - AuthFail : sts:5_rsn:0.xml ,4
+f2d78a41,tcp_connection_destination_perform_socket_connect 21152 connectx to < * > :8080 @ 0 failed : [ 51 ] Network is unreachable ,1
+afca48f2,"[ <*> ] <*> : [ <*> <*> : <*> : <*> <*> <*> <*> < * > <*> ] <*> <*> <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> : <*> <*> <*> <*> < * > <*> , <*> : <*> <*> <*> <*> < * > <*> , <*> , <*> , <*> <*> <*> <*> . <*> <*> , <*> : <*> <*> <*> <*> < * > <*> , <*> : <*> <*> <*> <*> < * > <*> , <*> , <*> , <*> <*> <*> <*> . <*> ",1
+64cbca0e,hibernate image path : /var/vm/sleepimage ,2
+e6713643,<*> : <*> <*> <*> <*> <*> <*> ,4
+c3693693,<*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> : <*> <*> <*> <*> <*> <*> <*> : <*> <*> : <*> <*> <*> <*> ,1
+f130446b,<*> <*> : <*> <*> <*> ( ( <*> <*> ) <*> ) <*> [ <*> <*> : ] <*> : <*> ,4
+8bc823c7,hibernate_machine_init reading ,2
+2dad4a12,<*> <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> ,3
+48747fa9,<*> [ <*> <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : ] ( null ) <*> ( null ) / ( null ) <*> ( null ) <*> <*> <*> <*> <*> ( null ) / ( null ) ( <*> <*> <*> ) ,2
+5c999386,jemmytest ,10
+c55b61d3,hibernate_setup ( 0 ) took <*> ms ,2
+12b00134,* * * * [ IOBluetoothFamily ] [ <*> ] -- <*> IOBluetoothFamily <*> <*> <*> <*> -- <*> -- <*> -- <*> * * * * ,2
+55cf2665,* * * * [ IOBluetoothFamily ] [ <*> ] -- <*> <*> <*> <*> <*> -- <*> -- <*> -- <*> * * * * ,1
+c4d1cc26,<*> ; <*> <*> <*> 0 ,1
+fccd1f53,<*> <*> Host controller <*> <*> ,2
+62a26140,"polled file major 1 , minor 0 , blocksize 4096 , pollers 5 ",3
+3a7785a3,BuildActDeviceEntry exit ,2
+83fe310d,"<*> : <*> : <*> <*> : <*> , <*> : <*> , <*> ' : <*> , <*> ' : <*> , ",1
+b6440450,Wake reason : ARPT ( Network ) ,3
+37100897,AppleActuatorHIDEventDriver : message service is terminated ,1
+063a5b7c,en0 : BSSID changed to <*> : <*> : <*> ,4
+a0c62eb0,"CCFile : :captureLog Received Capture notice id : <*> , reason = <*> : <*> ",1
+47d81cf0,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-03_18,57,12.221233 ] -AirPortBrcm4360_Logs-005.txt , Current File [ 2017-07-03_18,57,12.221233 ] -AirPortBrcm4360_Logs-005.txt ",1
+646a079e,payload <*> <*> <*> ,1
+c93288d7,en0 : 802.11d country code set to 'US ' . ,2
+d3834c43,"<*> : <*> <*> , <*> <*> , <*> <*> , <*> 0 , <*> 0 , <*> 0 , <*> <*> ",1
+a65746e2,"<*> <*> , <*> <*> , <*> 40000 , <*> 0 , <*> 0 <*> 0 , <*> 0 , <*> 0 , <*> <*> , <*> 40000 ",1
+17ec1df8,[ BluetoothHIDDeviceController ] EventServiceConnectedCallback ,2
+8469a06c,"CCFile : :copyFile fileName is [ <*> ] <*> , source path : /var/log/CoreCapture/ < * > /IO80211AWDLPeerManager// [ <*> ] <*> , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] =AuthFail : <*> [ <*> ] <*> ",1
+b5f8f0ab,<*> <*> ,3
+5afec823,( <*> ) <*> <*> <*> <*> <*> ,1
+6125326a,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ KSUpdateCheckAction <*> ] KSUpdateCheckAction <*> <*> <*> for <*> ( <*> ) : <*> ( < <*> <*> < * > <*> < * > <*> < <*> <*> > <*> : <*> < * > <*> <*> <*> <*> > ) <*> <*> <*> : < <*> <*> < <*> > > ,1
+00c80cf4,FA||Url||taskID [ 2019353376 ] dealloc ,1
+94632def,KeychainGetICDPStatus : status : off ,8
+931aa77d,<*> <*> <*> : <*> <*> <*> <*> <*> ,4
+00af6af0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+04466e34,"<*> : <*> , 0 , 0 , 0 , 0 , <*> , <*> , <*> , 1 , <*> , <*> ",2
+fc0bdb81,ARPT : <*> : AirPort_Brcm43xx : :powerChange : System Sleep ,13
+67c8755e,tcp_connection_tls_session_error_callback_imp <*> <*> error <*> ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+37bffcd1,AppleThunderboltNHIType2 : :prePCIWake - power up complete - took <*> us ,1
+94a1aa35,<*> : < * > ( <*> ) <*> ( <*> ) <*> <*> ,2
+d7b28114,ARPT : <*> : <*> : <*> : <*> Wake <*> <*> <*> <*> Wake <*> <*> <*> ,3
+dc1c06a6,network <*> : <*> ( <*> : <*> <*> <*> ) <*> ( <*> : <*> : <*> : <*> ) <*> <*> ,1
+e7070026,"< * > : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for 215 seconds . Ignoring . ",2
+2d273526,< * > : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> . ,3
+589a615f,network changed : DNS * ,1
+f23216ba,<*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+a527e22e,en0 : BSSID changed to 5c:50:15:4c:18:13 ,5
+d6f9ff3e,"< * > : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for 183327 seconds . Ignoring . ",2
+b320117f,<*> <*> <*> : <*> - <*> <*> <*> ,2
+062ad7d7,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] <*> [ <*> <*> : <*> : <*> : ] <*> <*> <*> <*> for <*> ' <*> <*> <*> <*> <*> <*> and <*> <*> [ < * > ] <*> and <*> <*> [ < * > ] <*> and <*> <*> [ <*> ] <*> '' <*> '' and ( <*> '' < * > '' ) ' ,1
+748b7c58,<*> <*> <*> [ <*> ] [ <*> ] <*> <*> <*> <*> <*> <*> <*> ,1
+ed1bb1d8,network changed : v4 ( en0 ! : < * > ) <*> <*> SMB ,1
+d3c6a10d,<*> <*> <*> <*> : <*> : <*> : <*> : <*> : <*> <*> not <*> in <*> for ExchangePersonIdGuid ( <*> : ExchangePersonIdGuid ) ,2
+bb6fcddb,"<*> : <*> <*> <*> <*> <*> : <*> , <*> = <*> : <*> ",4
+7ed3a327,<*> <*> <*> < < < < <*> > > > > <*> : <*> <*> <*> ,2
+a537b695,<*> < * > <*> > <*> <*> <*> ,1
+a5e77ba2,<*> <*> <*> <*> : <*> : <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> ,2
+189fcac5,"<*> <*> <*> <*> connection , < <*> : <*> > connection <*> <*> <*> , <*> <*> <*> <*> <*> <*> ",2
+cc30e8ba,"[ <*> ] <*> <*> <*> <*> <*> <*> <*> , <*> : <*> <*> <*> <*> ( <*> ) <*> ",2
+25363e06,Session 101921 created ,1
+065dfb40,<*> <*> <*> [ <*> ] [ <*> ] <*> [ KSOutOfProcessFetcher ( <*> ) <*> : ] KSOutOfProcessFetcher <*> <*> <*> <*> : <*> <*> : <*> < * > <*> <*> <*> <*> <*> <*> ,3
+d118a5c1,- [ <*> <*> : ] <*> <*> <*> <*> for <*> < <*> : <*> > . ,2
+b5f6193c,<*> <*> <*> <*> ,3
+3e7543bc,<*> <*> <*> <*> : <*> <*> ,4
+beaf9119,Peripheral manager is not powered on ,3
+9d354526,<*> <*> <*> <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> ( null ) <*> ( null ) <*> ( null ) <*> ( null ) <*> <*> <*> <*> <*> ( null ) <*> ( null ) ( <*> <*> <*> ) ,2
+686658e7,20:54:03.455 : BTLE scanner Powered On ,1
+2b8b9268,<*> <*> <*> <*> <*> <*> <*> - <*> <*> <*> <*> <*> <*> <*> <*> > <*> ,2
+bc9bfda3,22:29:26.099 : BTLE scanner Powered On ,1
+d51fd52d,"PM response took 113 ms ( 24144 , WeChat ) ",1
+6e7136ab,Cocoa scripting error for <*> ' : four character codes must be four characters long . ,64
+ffaa6f43,<*> <*> <*> for <*> <*> : four <*> <*> <*> <*> four <*> <*> . ,3
+6b955bd2,<*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> . ,2
+9bfe4d1b,<*> <*> <*> for <*> ' : four <*> <*> <*> <*> four <*> <*> . ,2
+d6b2ba64,<*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> ' in <*> <*> <*> <*> ' : <*> ' <*> not <*> <*> <*> <*> . ,1
+13c3ee83,<*> [ <*> ] : <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> . ,2
+d74570e7,<*> <*> <*> . ,1
+22b74822,button report : <*> ,1
+17126f04,<*> <*> <*> for <*> . <*> <*> <*> . ,2
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
+7bf9714f,[ <*> ] < < < < <*> > > > > <*> : [ <*> ] <*> <*> <*> - <*> <*> <*> <*> <*> ,1
+49ce3f43,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> on : <*> ,1
+c9f565e0,ARPT : <*> : <*> : <*> : <*> <*> ,2
+7df1647c,Wake reason : <*> ( <*> ) ,1
+955038f8,* * * * [ <*> ] [ <*> ] <*> <*> <*> <*> <*> <*> <*> <*> <*> * * * * ,3
+9ab6496c,"<*> time : 0 <*> , <*> <*> <*> , <*> 0 ",2
+b223cdb4,"<*> <*> <*> <*> <*> , time : <*> ms , <*> <*> <*> <*> <*> Mb/s , <*> <*> : <*> time : <*> ms <*> Mb/s , <*> <*> : <*> time : <*> ms <*> Mb/s ",1
+507e6480,vm_compressor_fastwake_warmup <*> <*> - <*> <*> - <*> ,1
+25d6bb45,"< <*> : <*> > : <*> <*> : <*> ( <*> : ( `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' , `` < * > '' ) ) ",1
+ee78db59,<*> <*> ksfetch [ <*> ] [ <*> ] <*> ( ) <*> <*> <*> <*> : < <*> : <*> > <*> URL : <*> : <*> < * > <*> <*> <*> <*> <*> <*> ,1
+0b7fa1e0,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ <*> <*> ] <*> <*> <*> <*> <*> . ,1
+f966c803,<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400 : Close | close video chat . llFriendUIN = <*> . ,3
+f0920272,< <*> : <*> > : notification <*> : < <*> > notification : <*> <*> <*> <*> <*> <*> <*> ,1
+d90fc654,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-05_11,01,55.983179 ] -AirPortBrcm4360_Logs-006.txt , Current File [ 2017-07-05_11,01,55.983179 ] -AirPortBrcm4360_Logs-006.txt ",1
+9c8d00af,<*> : <*> <*> ,3
+3b0a959c,"<*> : <*> <*> <*> [ <*> ] -CCIOReporter-001.xml , <*> path : <*> < * > <*> [ <*> ] -CCIOReporter-001.xml , <*> path : <*> < * > <*> [ <*> ] <*> : <*> [ <*> ] -CCIOReporter-001.xml ",2
+f180c073,tcp_connection_destination_perform_socket_connect 44073 connectx to < * > :143 @ 0 failed : [ 50 ] Network is down ,1
+09971698,< IMMacNotificationCenterManager : 0x7ff1b2d17980 > : NC Disabled : NO ,3
+a548a94e,en0 : BSSID changed to 88:75:56 : a0:95 : ed ,3
+66525eb2,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-05_14,04,25.118445 ] -AirPortBrcm4360_Logs-040.txt , Current File [ 2017-07-05_14,04,25.118445 ] -AirPortBrcm4360_Logs-040.txt ",1
+12031b49,doSaveChannels @ 286 : Will write to : /Library/Logs/CrashReporter/CoreCapture/IOReporters/ [ <*> ] - AssocFail : <*> ,2
+16ee1947,IOHibernatePollerOpen ( 0 ) ,2
+a7691a15,"<*> : <*> <*> , <*> <*> <*> , <*> <*> <*> , <*> <*> , <*> <*> , <*> <*> , <*> <*> ",1
+13d0b410,<*> <*> - <*> <*> <*> ,1
+512a184f,<*> : :stop Entered ,2
+065ceafc,<*> : <*> : <*> : <*> : <*> <*> ,2
+1fa0ce12,"<*> <*> , <*> <*> , <*> <*> <*> <*> <*> ",2
+3b839af8,"CCFile : :captureLogRun Skipping current file Dir file [ <*> ] -io80211Family-008.pcapng , Current File [ <*> ] -io80211Family-008.pcapng ",2
+08655b96,Saw change in network reachability ( isReachable=0 ) ,2
+b49cc403,en0 : <*> <*> <*> <*> ,1
+cdb649da,DB Error : 1 `` no such table : <*> '' ,3
+45b19e2a,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ KSOutOfProcessFetcher beginFetchWithDelegate : ] KSOutOfProcessFetcher <*> from URL : `` https : // < * > /service/update2 ? <*> & <*> '' ,1
+fa42a73f,< <*> : <*> > : <*> <*> : <*> ( <*> : ( ) ) ,1
+b2ba656d,"<*> : authw <*> ( <*> ) [ 0 , 0 , 0 , 0 ] <*> <*> ( <*> ) , <*> [ <*> ] ",1
+d84d23fb,"ARPT : <*> : wl0 : setup_keepalive : interval 900 , retry_interval 30 , retry_count 10 ",3
+941d4ae1,<*> <*> <*> <*> < * > <*> ,2
+f6b819fb,"arp_client_transmit ( en0 ) failed , Network is down ( 50 ) ",1
+9215b391,- [ NETClientConnection evaluateCrazyIvan46 ] CI46 - Perform CrazyIvan46 ! QQ.10018 <*> < * > :80 ,4
+a816f40e,- [ NETClientConnection effectiveBundleID ] using process name CalendarAgent as bundle ID ( this is expected for daemons without bundle ID ,4
+2897a1d3,"<*> : <*> <*> <*> file <*> file [ <*> ] -CCIOReporter-007.xml , <*> <*> [ <*> ] -CCIOReporter-007.xml ",2
+67997879,could discard act <*> inact <*> purgeable <*> spec <*> cleaned 0 ,2
+b23ab8ae,"<*> <*> <*> <*> ms <*> 0 ms , <*> <*> , 0 , 0 <*> <*> <*> ms , <*> 0 , 0 ms , <*> <*> ms ",1
+32f3516c,"hostControllerOnline - Number of Paired devices = 1 , List of Paired devices = ( `` 84-41-67-32-db-e1 '' ) ",1
+6e359fc6,"<*> <*> , <*> <*> , <*> <*> , <*> 0 , <*> 0 <*> <*> , <*> <*> , <*> 0 , <*> <*> , <*> 40000 ",1
+d69ff5d4,* * * * [ <*> ] [ <*> ] <*> <*> <*> <*> <*> <*> * * * * ,1
+87f7db5f,FA||Url||taskID [ 2019353593 ] dealloc ,1
+d6b180bc,AppleActuatorHIDEventDriver : stop ,2
+545745e0,* * * * <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> * * * * ,2
+7f4b1a61,<*> <*> <*> [ <*> ] [ <*> ] <*> <*> <*> <*> is <*> <*> ,1
+70eb9815,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ",1
+152f6dc8,< * > ( 36461 ) deny network-outbound /private/var/run/mDNSResponder ,2
+a206d7dc,hibernate_page_list_setall <*> <*> <*> <*> <*> ,1
+e0e61c09,hibernate_page_list_setall <*> : <*> <*> ,1
+bf5aec39,IOPolledFilePollersOpen ( 0 ) 6 ms ,1
+305f7dfd,"Opened file <*> , size <*> , extents <*> , maxio 2000000 ssd 1 ",1
+1381bddf,[ <*> <*> <*> ] <*> <*> ,1
+02a7cd6b,[ HID ] [ MT ] AppleMultitouchDevice : <*> entered ,1
+e9e93735,"[ <*> ] <*> : [ <*> <*> : <*> : <*> <*> <*> <*> < * > <*> ] <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> . <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> . <*> <*> <*> <*> : <*> <*> <*> <*> < * > <*> , <*> : <*> <*> <*> <*> < * > <*> , <*> , <*> , <*> <*> <*> <*> to <*> <*> . <*> <*> , <*> : <*> <*> <*> <*> < * > <*> , <*> : <*> <*> <*> <*> < * > <*> , <*> , <*> , <*> <*> <*> <*> to <*> <*> . <*> ",1
+c3d78bac,Unable to start NetBIOS name service : ,2
+58b050b9,<*> [ <*> <*> <*> <*> <*> : <*> : ] <*> <*> <*> <*> <*> <*> <*> <*> < <*> > ,1
+32e63419,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ <*> <*> ] <*> <*> <*> <*> <*> <*> . ,1
+2c2035dd,no sleep images for WillPowerOffWithImages ,1
+c100badf,ChromeExistion main isUndetectWithCommand = 1 ,2
+151816a5,<*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+6c006617,"ChromeExistion main strSendMsg = { `` websitekey '' : false , '' commandkey '' : true , '' browserkey '' : true } ",1
+194865b7,<*> <*> <*> < * > ,1
+702fda90,<*> <*> <*> <*> : <*> <*> <*> <*> <*> % <*> % <*> % <*> % <*> % <*> % <*> % <*> % <*> % <*> <*> <*> ,1
+56f3cceb,"en0 : channel changed to 36 , +1 ",2
+c044a59d,[ < * > ] [ <*> [ < <*> : <*> <*> <*> : 0 > ] <*> <*> <*> <*> ] ,3
+465b6ca0,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-06_12,00,58.629029 ] -AirPortBrcm4360_Logs-007.txt , Current File [ 2017-07-06_12,00,58.629029 ] -AirPortBrcm4360_Logs-007.txt ",1
+b76cd082,ARPT : <*> : wlc_dump_aggfifo : ,4
+af4ce016,<*> : <*> : <*> <*> <*> <*> <*> <*> : <*> <*> <*> ( <*> ) 0 0 0 0 ,2
+2514cdb2,"<*> : <*> : <*> : <*> <*> <*> <*> , <*> <*> <*> , <*> <*> : <*> : <*> , <*> <*> <*> ",1
+3e3b5893,in6_unlink_ifa : IPv6 address 0x77c911454f1523ab has no prefix ,2
+2c3739d1,tcp_connection_destination_perform_socket_connect 45238 connectx to < * > :993 @ 0 failed : [ 50 ] Network is down ,1
+937bd6d2,<*> <*> < * > <*> <*> to <*> <*> <*> < * > <*> <*> <*> : < * > ,3
+6b60c273,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> : <*> ,2
+d4b0d527,<*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> ,2
+2915071e,Sandbox : < * > ( <*> ) deny ( 1 ) <*> <*> ,1
+d275eef0,<*> <*> <*> [ <*> ] <*> : <*> ,1
+3a8dc661,full wake <*> ( reason <*> ) <*> ms ,2
+1a5a7647,<*> < 0 > <*> <*> <*> : <*> - <*> <*> <*> <*> <*> = <*> <*> = <*> <*> = 0 ,3
+eaef4be6,<*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> . ,1
+9c4537ee,"PM response took 129 ms ( 10018 , QQ ) ",1
+701707e7,FA||Url||taskID [ 2019353677 ] dealloc ,1
+c35bc018,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ KSOutOfProcessFetcher beginFetchWithDelegate : ] KSOutOfProcessFetcher start <*> from URL : `` https : // < * > /service/update2 ? <*> & <*> '' ,2
+932b78cf,"<*> <*> { { 0 , 0 } , { 400 , 400 } } ",2
+b870a0fa,<*> to <*> ( <*> ) <*> <*> ( <*> ) to ( <*> ) : <*> <*> <*> <*> <*> ,2
+c1781947,[ < * > ] [ <*> <*> <*> <*> <*> <*> : <*> < * > <*> <*> <*> <*> <*> <*> <*> <*> : < <*> : <*> <*> <*> : 0 > ] ,1
+698ae9cd,"[ < * > ] [ <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> , <*> < <*> <*> [ <*> ] > <*> <*> = <*> <*> , <*> = <*> , <*> = > 0 : <*> = < <*> <*> [ <*> ] > <*> <*> = <*> <*> <*> <*> <*> : <*> = <*> <*> : <*> = <*> <*> : <*> = <*> <*> : <*> = < <*> <*> [ <*> ] > <*> <*> = <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> <*> ] ",1
+2d5c7519,Sandbox : <*> ( <*> ) deny ( 1 ) <*> <*> : ,1
+e89e81a8,"<*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> ",1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
+53bbcf4c,"<*> to <*> <*> <*> : ( `` < <*> H : [ <*> ( <*> ) ] > '' , `` < <*> H : <*> ( <*> ) - [ <*> ] ( Names : <*> , '| ' : <*> ) > '' , `` < <*> <*> ' H : [ <*> ( <*> ) ] ( Names : <*> ) > '' , `` < <*> H : [ <*> ] - ( <*> ) - [ <*> ] > '' , `` < <*> H : [ <*> ] - ( <*> ) <*> ( Names : <*> , '| ' : <*> ) > '' , `` < <*> H : [ <*> ] - ( > <*> ( <*> ) ) - [ <*> ] > '' ) <*> <*> to <*> <*> <*> <*> < <*> H : [ <*> ( <*> ) ] > <*> <*> <*> <*> to <*> to <*> - [ <*> <*> : ] <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> to <*> <*> <*> <*> <*> <*> ",2
+7e324ea7,Configuration Notice : ASL Module `` < * > '' <*> <*> <*> `` <*> '' <*> ASL Module `` < * > '' . <*> <*> <*> ASL Module `` < * > '' <*> <*> <*> in ASL Module `` < * > '' . ,1
+2f65f79c,< <*> : <*> > : <*> <*> : <*> ,2
+a0bfc226,( <*> ) <*> <*> ,1
+5fcf8db7,< * > ( 37725 ) deny network-outbound /private/var/run/mDNSResponder ,1
+53f16578,"< * > : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for 1002 seconds . Ignoring . ",2
+5e9d3a99,< * > ( 37745 ) deny network-outbound /private/var/run/mDNSResponder ,1
+367af283,<*> : <*> : <*> : <*> : <*> <*> : <*> : <*> ,1
+d624c426,"<*> : <*> , <*> : < * > , <*> : <*> ",2
+675cba09,"< * > : scheduler_evaluate_activity told me to run this job ; however , but the start time is n't for 10028 seconds . Ignoring . ",1
+df1185b0,DB <*> : <*> <*> <*> <*> <*> ,1
+7f76f70c,<*> <*> <*> <*> <*> for <*> : <*> <*> <*> <*> : <*> : <*> for <*> <*> ,1
+32a4da11,<*> <*> GoogleSoftwareUpdateAgent [ <*> ] [ lvl=2 ] - [ KSUpdateCheckAction <*> ] KSUpdateCheckAction <*> <*> <*> for <*> ( <*> ) : <*> ( < <*> <*> < * > <*> < * > <*> < <*> <*> <*> > <*> <*> : <*> < * > <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> > ) <*> <*> <*> : < <*> <*> < <*> > > ,1
+544f08e9,Session 101800 destroyed ,1
+57dbc243,ARPT : <*> : <*> <*> <*> <*> <*> <*> 0x0 <*> <*> 0x0 <*> 0x0 ,2
+cf01675d,"CCFile : :captureLogRun Skipping current file Dir file [ 2017-07-07_13,38,24.371339 ] -CCIOReporter-019.xml , Current File [ 2017-07-07_13,38,24.371339 ] -CCIOReporter-019.xml ",1
+63a5509d,<*> [ <*> <*> ] <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+a121db24,[ <*> ] < < < < <*> > > > > <*> : <*> <*> <*> ,2
+22d4cfa1,< * > ( 38210 ) deny network-outbound /private/var/run/mDNSResponder ,2
+44779877,"<*> : <*> : <*> : <*> <*> <*> <*> , <*> <*> <*> , <*> <*> : <*> : <*> : <*> : <*> , <*> <*> <*> ",1
+da01562f,"<*> <*> <*> Error Error <*> <*> <*> <*> Internet connection appears to be offline . <*> <*> { <*> { Error <*> <*> <*> <*> Internet connection appears to be offline . <*> <*> { <*> : // < * > <*> , <*> : // < * > <*> , <*> , <*> , <*> Internet connection appears to be offline . } } , <*> : // < * > <*> , <*> : // < * > <*> , <*> , <*> , <*> Internet connection appears to be offline . } ",1
+94ac13a4,Session 102106 destroyed ,1
+4ed7a0f9,Sandbox : <*> ( <*> ) deny ( 1 ) mach-lookup < * > ,1
+8da01021,<*> <*> failed <*> <*> <*> : [ <*> ] < * > <*> <*> <*> <*> + <*> <*> <*> <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> 3 libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> <*> <*> <*> + <*> <*> <*> <*> <*> + <*> ,1
+61b23078,CoreAnimation : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+6d5ad439,"<*> <*> <*> <*> <*> <*> , <*> <*> ",1
+7eb37a13,"[ <*> ] <*> <*> <*> <*> <*> < <*> <*> > , <*> <*> <*> <*> ",1
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+d2a422e6,[ <*> ] <*> signalled <*> ( <*> ) ( <*> codec <*> ) at line <*> ,1
+8be37801,< < < < <*> > > > > <*> : <*> codec <*> ,1
+e90f3b72,< < < < <*> > > > > <*> : <*> codec <*> ( <*> ) <*> <*> codec <*> <*> <*> ,1
+d672b244,CoreAnimation : <*> <*> <*> <*> ,1
+8d696a9b,<*> <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+497563ce,22:24:31.135 : BTLE scanner Powered On ,1
+e0afaf2b,<*> <*> <*> ,2
+2b380e05,"CCFile : :copyFile fileName is [ <*> ] <*> , source path : /var/log/CoreCapture/ < * > /OneStats// [ <*> ] <*> , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] <*> : <*> [ <*> ] <*> ",1
+1dfd71e7,<*> discard act <*> inact <*> purgeable <*> spec <*> cleaned 0 ,1
+669ac2ef,"<*> : <*> : <*> : <*> <*> <*> <*> , <*> <*> <*> , <*> <*> : <*> , <*> <*> <*> ",1
+b7b2cef2,Host controller <*> ,1
+082c0c0d,[ HID ] [ MT ] AppleActuatorHIDEventDriver : :start entered ,1
+593bd160,[ BluetoothHIDDeviceController ] ERROR : Could not find the disconnected object ,2
+b93975c4,vm_compressor_fastwake_warmup <*> - <*> <*> <*> ,1
+8ae02cf3,"CCFile : :copyFile fileName is [ 2017-07-08_05,55,23.694116 ] -io80211Family-002.pcapng , source path : /var/log/CoreCapture/ < * > /IO80211AWDLPeerManager// [ 2017-07-08_05,55,23.694116 ] -io80211Family-002.pcapng , dest path : /Library/Logs/CrashReporter/CoreCapture/ < * > / [ <*> ] =AssocFail : sts:2_rsn:0/IO80211AWDLPeerManager// [ 2017-07-08_05,55,23.694116 ] -io80211Family-002.pcapng ",1
+4502c51c,"<*> to <*> <*> <*> : ( `` < <*> <*> & - <*> & - <*> : [ <*> ] - ( <*> ) <*> ( Names : '| ' : <*> ) > '' , `` < <*> <*> & - <*> & - <*> : <*> ( <*> ) - [ <*> ] ( Names : '| ' : <*> ) > '' , `` < <*> <*> & - <*> <*> & <*> : [ <*> ( <*> ) ] > '' , `` < <*> <*> & - <*> & - <*> : <*> ( <*> ) - [ <*> ] ( Names : '| ' : <*> ) > '' , `` < <*> <*> & - <*> & - <*> : [ <*> ] - ( <*> ) <*> ( Names : '| ' : <*> ) > '' ) <*> <*> to <*> <*> <*> <*> < <*> <*> & - <*> & - <*> : <*> ( <*> ) - [ <*> ] ( Names : '| ' : <*> ) > <*> <*> <*> <*> to <*> to <*> - [ <*> <*> : ] <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> to <*> <*> <*> <*> <*> <*> ",1
+6b99c90f,<*> <*> <*> [ <*> ] [ <*> ] - [ <*> ( <*> ) <*> : ] <*> <*> <*> <*> for <*> <*> <*> . ,1
+c3d08469,"<*> <*> <*> : <*> <*> <*> , <*> <*> , <*> <*> , <*> <*> <*> ",1
+b4c049e0,<*> : :setStreamEventHandler ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,1

@@ -1,0 +1,158 @@
+EventId,EventTemplate,Occurrences
+2fad1bd8,Component State Change : Component <*> is in the unavailable state ( HWID < * > ) ,1
+9c45b704,Component State Change : Component \042alt0\042 is in the unavailable state ( HWID < * > ) ,11
+ecf5ca93,<*> ( command <*> ) ,11
+d0a995db,risBoot ( command 1903 ) ,1
+3619a535,boot ( command <*> ) ,37
+97f1ba48,wait ( command 1975 ) ,1
+fc34d004,halt ( command <*> ) ,3
+efced2b6,wait ( command 1973 ) ,1
+d38036d1,wait ( command <*> ) ,32
+d148da96,boot ( command 2152 ) ,1
+c5b87394,boot ( command 2141 ) ,1
+bcefd760,boot ( command 2110 ) ,1
+9b381868,boot ( command 2160 ) ,1
+9251e000,wait ( command 2217 ) ,2
+7376260d,boot ( command 2183 ) ,1
+ffc90dab,boot ( command 2316 ) ,2
+9dcf0be4,boot ( command 2392 ) ,1
+39943250,boot ( command 2406 ) ,1
+1d9ac749,boot ( command 2464 ) ,1
+3d87b065,boot ( command 2625 ) ,1
+a54f11f7,boot ( command 2616 ) ,3
+fdb16a0b,boot ( command 2619 ) ,1
+9601d232,boot ( command 2602 ) ,1
+4f2e5e8e,wait ( command 2582 ) ,1
+0a29d555,wait ( command 2683 ) ,1
+235ac7ce,wait ( command 2682 ) ,1
+3822ec9c,wait ( command 2763 ) ,1
+1f15ed37,boot ( command 2790 ) ,1
+f59ce8bb,wait ( command 2817 ) ,2
+c91c3e14,wait ( command 2823 ) ,1
+0112ee81,wait ( command 2963 ) ,1
+77318ebf,boot ( command 2999 ) ,1
+7e37eb35,boot ( command 3194 ) ,1
+88cbc679,wait ( command 3319 ) ,1
+8565a605,wait ( command 3334 ) ,1
+d719fc3c,boot ( command 3579 ) ,1
+53874f19,boot ( command 3572 ) ,1
+1475a7c3,wait ( command 3612 ) ,1
+6934a4ed,wait ( command 3609 ) ,1
+7990ed0f,wait ( command 3649 ) ,1
+5ea00926,wait ( command 3690 ) ,1
+7d23e158,wait ( command 3698 ) ,1
+ff2dcee4,wait ( command 3709 ) ,1
+a08eccec,wait ( command 3837 ) ,1
+e72ba9cc,wait ( command 3847 ) ,1
+661908d3,wait ( command 3981 ) ,2
+41fbe36f,boot ( command 4024 ) ,1
+dac108b4,wait ( command 4061 ) ,1
+fef09f7f,boot ( command 4118 ) ,1
+fd53cab4,boot ( command 4109 ) ,1
+279cb9f7,wait ( command 4145 ) ,1
+f0e3b405,boot ( command 4176 ) ,1
+8251a2fd,boot ( command 4170 ) ,1
+37eb0039,wait ( command 4176 ) ,2
+f7784791,boot ( command 4223 ) ,1
+1f1fa95b,wait ( command 4221 ) ,1
+344bf56d,wait ( command 4219 ) ,1
+9aecb16e,Command has completed successfully ,10
+016439b6,Targeting domains : <*> and nodes : node- [ <*> ] child of command <*> ,2
+36303c5c,Targeting domains : <*> and nodes : node- [ <*> <*> <*> ] ,1
+02ba9063,Targeting domains : node-D4 and nodes : node- [ 128-135 ] child of command 2401 ,1
+33712cbf,Targeting domains : node-D0 and nodes : node- [ 8-31 ] child of command 2489 ,1
+f2820d11,Targeting domains : <*> and nodes : <*> ,2
+6c3bf569,Targeting domains : <*> [ <*> <*> ] and nodes : node- [ <*> <*> ] ,1
+8c3a364b,Targeting domains : node-D2 and nodes : node- [ 64-95 ] child of command 3488 ,1
+c2f5aac5,psu failure\ ambient < * > ,5
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,2
+57c9c7c0,ClusterFileSystem : There is no server for ServerFileSystem domain storage234 ,1
+f7d3d4d3,ClusterFileSystem : There is no server for ServerFileSystem domain <*> ,12
+05653148,ClusterFileSystem : <*> is no <*> <*> ServerFileSystem domain <*> ,2
+a2c8d65f,ClusterFileSystem : There is no server for ServerFileSystem domain storage1231 ,2
+f3f33a18,ClusterFileSystem : There is no server for ServerFileSystem domain storage934 ,1
+e15ec638,ClusterFileSystem : There is no server for ServerFileSystem domain storage131 ,1
+9e239793,ClusterFileSystem : There is no server for ServerFileSystem domain storage1144 ,1
+745a7a59,ClusterFileSystem : There is no server for ServerFileSystem domain storage1622 ,2
+120ce53d,ClusterFileSystem : There is no server for ServerFileSystem domain storage242 ,1
+af19d81b,ClusterFileSystem : There is no server for ServerFileSystem domain storage1331 ,1
+ba949961,<*> : <*> is <*> <*> <*> <*> <*> <*> ,2
+edc213b0,ClusterFileSystem : There is no server for ServerFileSystem domain storage221 ,1
+07f43714,ClusterFileSystem : There is no server for ServerFileSystem domain storage112 ,1
+50520564,ClusterFileSystem : There is no server for ServerFileSystem domain storage1311 ,1
+79b0fbaa,ClusterFileSystem : There is no server for ServerFileSystem domain storage411 ,1
+c0cb19b1,ClusterFileSystem : There is no server for ServerFileSystem domain storage132 ,1
+e5f6955c,ClusterFileSystem : There is no server for ServerFileSystem domain storage531 ,1
+3766ef81,<*> : node <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+d8197680,ServerFileSystem : <*> ServerFileSystem domain <*> <*> <*> <*> <*> ,1
+cd8d1d6e,Fan speeds ( 3552 3534 3375 * * * * 3515 3479 ) ,47
+3dcb3a16,<*> <*> ( <*> <*> <*> * * * * <*> <*> ) ,5
+d82c8b81,Fan speeds ( 3552 3534 3375 4245 3515 3479 ) ,2
+220962e9,Fan speeds ( 3552 3534 3375 <*> 3515 3479 ) ,3
+67fde663,Fan speeds ( 3552 3534 3375 4470 3515 3479 ) ,1
+f0bbcec7,Fan speeds ( 3552 3534 3375 4192 3515 3479 ) ,1
+5fc350f5,Fan speeds ( 3552 3534 3391 * * * * 3515 3479 ) ,15
+5da126e4,Fan speeds ( 3552 3534 3391 4299 3515 3479 ) ,1
+f6514657,Fan speeds ( 3552 3552 3391 * * * * 3515 3497 ) ,2
+f23326bc,Fan speeds ( 3534 3534 3375 * * * * 3497 3479 ) ,10
+9110a3a3,Fan speeds ( 3534 3534 3375 <*> 3497 3479 ) ,3
+2d48b5e8,Command has been aborted ,1
+c293b754,power/control problem ,1
+c393ab1d,Link error ,13
+a5882550,Link in reset ,9
+47bf867e,Link ok ,13
+4521d2a6,Link error on broadcast tree <*> ,2
+3224cf30,Link error on broadcast tree Interconnect-1T00:00:2:0 ,2
+0e552d04,ServerFileSystem : ServerFileSystem domain <*> is full ,9
+b8c14e4d,ServerFileSystem : ServerFileSystem domain root22_local is full ,3
+117657d1,ClusterFileSystem : ServerFileSystem domain <*> is no longer served by node node-96 ,3
+0497bdad,ClusterFileSystem : ServerFileSystem domain root_domain is no longer served by node <*> ,1
+573c683d,ClusterFileSystem : ServerFileSystem domain <*> is no longer served by node node-128 ,1
+dc80dcc6,ClusterFileSystem : ServerFileSystem domain <*> is no <*> <*> <*> node <*> ,8
+b3b486dd,ClusterFileSystem : ServerFileSystem domain root28_domain is no longer served by node node-96 ,1
+77b976ad,ClusterFileSystem : ServerFileSystem domain root30_domain is no longer served by node node-0 ,1
+0937bbff,ClusterFileSystem : ServerFileSystem domain <*> is no longer served by node <*> ,16
+ab4ff5a7,ClusterFileSystem : ServerFileSystem domain root5_domain is no longer served by node node-196 ,1
+1f92c832,ClusterFileSystem : ServerFileSystem domain root28_domain is no longer served by node node-187 ,1
+d731b468,ClusterFileSystem : ServerFileSystem domain root_domain is no longer served by node node-128 ,1
+df1b21da,ClusterFileSystem : ServerFileSystem domain root17_domain is no longer served by node node-240 ,1
+bfde4efd,ClusterFileSystem : ServerFileSystem domain root28_domain is no longer served by node node-219 ,1
+b3be2b82,running ,162
+42e29531,blocked ,15
+e2b5b958,not responding ,54
+b5f8f0ab,<*> <*> ,14
+fe1280e2,configured out ,83
+bd344c77,inconsistent nodesets <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > ,2
+a12ddb12,active ,5
+9e08cdfc,<*> ,11
+93bdf128,inconsistent nodesets <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > ,1
+80bed782,inconsistent nodesets <*> <*> < ok > <*> 0xfffffffe < ok > <*> 0xfffffffe < ok > <*> 0xfffffffe < ok > <*> 0xfffffffe < ok > ,1
+eb4ff194,normal ,198
+92362443,warning ,205
+7e4dc96c,ambient < * > ,292
+c35aec7c,critical ,20
+fa68cf3f,Linkerror event interval expired ,394
+1fde44af,risBoot ( command 1903 ) <*> : <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> ,1
+99bbbde7,boot ( command 2092 ) Error : HALT asserted\ can not continue ,1
+b5e0d4c3,Failed subcommands 3406 ,1
+8dc164b1,link errors remain current ,53
+b5f6193c,<*> <*> <*> <*> ,3
+58da6eee,NIFF : node <*> has detected an available network connection on network 10.128.0.0 via interface ee0 ,31
+26794229,NIFF : node <*> has detected an available network connection on network 5.5.226.0 via interface alt0 ,6
+b7a7683e,NIFF : node node-17 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+6562a085,NIFF : node <*> has detected an available network connection on network 0.0.0.0 via interface alt0 ,8
+b4832e38,NIFF : node <*> has detected an available network connection on network <*> via interface alt0 ,4
+ffaa02de,NIFF : node node-173 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+c15a92fe,NIFF : node node-84 has detected an available network connection on network 10.128.0.0 via interface ee0 ,2
+c60797dc,<*> : node <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+9af0c6e3,NIFF : node node-30 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+c321c748,NIFF : node <*> has detected an available network connection on network 10.96.0.0 via interface scip0 ,2
+94fb56e9,NIFF : node <*> has detected an available network connection on network 5.5.224.0 via interface alt0 ,21
+c2bde511,NIFF : node node-44 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+87c72d16,<*> <*> <*> <*> <*> <*> <*> <*> network <*> <*> network <*> <*> <*> <*> ,3
+6356657b,NIFF : node node-45 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+4676f102,NIFF : node node-29 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+6d527ec2,NIFF : node node-42 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+5642d37f,NIFF : node node-44 has detected an available network connection on network 5.5.224.0 via interface alt0 ,2
+cce6a17a,NIFF : node node-176 has detected an available network connection on network 10.128.0.0 via interface ee0 ,2
+fbca2250,NIFF : node node-171 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
