@@ -1,0 +1,220 @@
+EventId,EventTemplate,Occurrences
+3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 ,12
+003257e2,check pass ; user unknown ,117
+2700d1e1,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net user=root ,10
+97891953,session opened for user cyrus by ( uid=0 ) ,43
+5821dde8,session closed for user cyrus ,40
+33d78ac7,ALERT exited abnormally with [ 1 ] ,43
+c445f05b,session opened for user news by ( uid=0 ) ,43
+8ff7d7b9,session closed for user news ,38
+ec133ff2,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> ,2
+4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com ,10
+84bd98ef,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net ,5
+0bcf89fc,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fri Jun 17 < * > 2005 ,8
+099df829,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.46.224.253 user=guest ,1
+c5e7ee82,session opened for user test by ( uid=509 ) ,36
+58e532f7,session closed for user test ,36
+92dbf4b8,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Fri Jun 17 < * > 2005 ,7
+9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net ,10
+ff6a2610,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 < * > 2005 ,15
+1dd089ff,<*> <*> <*> <*> <*> <*> <*> at Sat Jun <*> < * > 2005 ,1
+ad3464aa,cupsd shutdown succeeded ,6
+4253878e,cupsd startup succeeded ,6
+58166ca2,restart . ,7
+541effd3,connection from 222.33.90.199 ( ) at Mon Jun 20 < * > 2005 ,12
+34437324,<*> <*> <*> ( <*> ) from <*> ,1
+3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 ,10
+cb8551f9,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66 user=guest ,6
+30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root ,22
+74b6e2d8,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=root ,5
+2fb7920a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net ,10
+e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 ,22
+8b4a5426,connection from <*> ( ) at Wed Jun <*> < * > 2005 ,1
+6b7c7ceb,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249 user=guest ,10
+9bce0a89,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201 ,1
+ec0a4ca5,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51 user=root ,9
+01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 ,13
+3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org ,10
+27dd1f55,connection from 210.118.170.95 ( ) at Sat Jun 25 < * > 2005 ,17
+d694cc62,connection from <*> ( ) at <*> Jun <*> < * > 2005 ,1
+db08814d,connection from 211.167.68.59 ( ) at Sat Jun 25 < * > 2005 ,13
+aec179ef,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=troi.bluesky-technologies.com user=root ,5
+c4a284e8,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93 user=root ,9
+ba30f47e,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl user=root ,10
+81f3bb8b,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.115.206.155 ,5
+70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 ,21
+2127d77c,connection from <*> ( ) at Wed Jun 29 < * > 2005 ,7
+baf9aeb5,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu user=root ,10
+2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 ,18
+4bcafc8a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h64-187-1-131.gtconnect.net user=root ,13
+dcadd220,connection from 210.223.97.117 ( ) at Wed Jun 29 < * > 2005 ,7
+c020ca54,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=biblioteka.wsi.edu.pl ,8
+16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root ,19
+46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root ,13
+8f53f862,Authentication failed from 163.27.187.39 ( 163.27.187.39 ) : Permission denied in replay cache code ,8
+c4147e80,Kerberos authentication failed ,23
+d2ba2271,Authentication failed from 163.27.187.39 ( 163.27.187.39 ) : Software caused connection abort ,15
+d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 ,20
+3cebafba,connection from <*> ( ) at <*> Jul 1 < * > 2005 ,3
+7e0cd2a6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com ,10
+ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 ,23
+cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 ,2
+87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 ,21
+63e528b8,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29 user=root ,7
+eaae1e81,connection from 63.197.98.106 ( adsl-63-197-98-106.dsl.mtry01.pacbell.net ) at Mon Jul 4 < * > 2005 ,23
+358bbed7,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87 user=root ,13
+7ccc350c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228 ,5
+b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 ,21
+fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 ,14
+47063d6b,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.16.122.48 user=root ,5
+113bd753,session closed for user <*> ,8
+ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 ,22
+1504e000,connection from <*> ( ) at Wed Jul <*> < * > 2005 ,2
+3a4b7dee,* * * <*> [ <*> ( <*> ) ] <*> ,1
+3b198f2a,<*> : <*> <*> <*> ,2
+bcec5b99,session opened for user root by LOGIN ( uid=0 ) ,1
+bf9daaf3,ROOT LOGIN ON tty2 ,1
+44d5e863,session closed for user root ,1
+347334c7,<*> <*> <*> <*> <*> ,5
+6a89a168,removing device node '/udev/vcs2 ' ,2
+30004992,creating device node '/udev/vcs2 ' ,2
+39534e7a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br ,4
+307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 ,12
+44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 ,18
+584818b3,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20 user=test ,4
+8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 ,23
+c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 ,18
+a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 ,19
+f13ada06,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info user=root ,10
+08eddf74,connection from 206.196.21.129 ( host129.206.196.21.maximumasp.com ) at Sat Jul 9 < * > 2005 ,23
+4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 ,20
+0dd9a0b8,connection from <*> ( ) at Sun Jul 10 < * > 2005 ,7
+5b258856,connection from 82.83.227.67 ( dsl-082-083-227-067.arcor-ip.net ) at Sun Jul 10 < * > 2005 ,23
+c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 ,19
+1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root ,80
+1b8b760d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141 user=root ,10
+6efaab70,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128 user=root ,10
+ce927728,authentication failure ; logname= uid=0 euid=0 tty=:0 ruser= rhost= ,1
+47f93439,<*> <*> <*> user ,1
+c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root ,10
+aab4e5aa,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net user=root ,10
+f1b7b13d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202-132-40-29.adsl.ttn.net user=root ,8
+bd0aeab0,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl user=root ,10
+e7431529,connection from 211.107.232.1 ( ) at Fri Jul 15 < * > 2005 ,22
+1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 ,23
+59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 ,28
+d8b46057,connection from <*> ( <*> ) at Sun Jul 17 < * > 2005 ,7
+63ed9b25,connection from 218.146.61.230 ( ) at Sun Jul 17 < * > 2005 ,22
+2e72010d,connection from <*> ( ) at Sun Jul 17 < * > 2005 ,1
+16d90868,connection from 210.245.165.136 ( ) at Sun Jul 17 < * > 2005 ,9
+5d3b7044,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-220-159-99.hinet-ip.hinet.net user=root ,3
+3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 ,45
+27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 ,23
+425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 ,21
+623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 ,23
+63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 ,21
+e4e22950,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw ,10
+d498be03,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180 user=root ,10
+34f5cf7e,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102 ,5
+d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 ,21
+c4b4ffff,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11 user=root ,2
+3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 ,20
+937da5f8,connection from 67.95.49.172 ( ) at Fri Jul 22 < * > 2005 ,23
+46d286e3,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217 user=root ,10
+084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 ,19
+41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 ,4
+c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) ,2
+4343b8f2,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=203.251.225.101 user=root ,5
+86cb1ca8,connection from 211.107.232.1 ( ) at Sun Jul 24 < * > 2005 ,19
+1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 ,21
+12bbe65d,notify question section contains no SOA ,16
+9ab9b4cd,getpeername ( ftpd ) : Transport endpoint is not connected ,4
+4fabd12c,warning : ca n't get client address : Connection reset by peer ,2
+5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 ,19
+ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 ,23
+38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root ,23
+e0afaf2b,<*> <*> <*> ,4
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+3f96e74a,Linux version <*> ( <*> <*> <*> ) ( <*> version <*> <*> ( <*> <*> Linux <*> ) ) <*> <*> <*> <*> <*> < * > <*> <*> ,1
+bdfa84f7,BIOS-provided physical RAM map : ,1
+4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) ,2
+43dc60b3,BIOS-e820 : 00000000000f0000 - 0000000000100000 ( reserved ) ,1
+a5429660,BIOS-e820 : 0000000007eae000 - 0000000008000000 ( reserved ) ,1
+8f659173,BIOS-e820 : 00000000ffb00000 - 0000000100000000 ( reserved ) ,1
+0ecf96d0,0MB HIGHMEM available . ,1
+c561e115,126MB LOWMEM available . ,1
+49e19e61,zapping low mappings . ,1
+3f8a556f,On node 0 totalpages : 32430 ,1
+92e6c363,"DMA zone : 4096 pages , LIFO batch:1 ",1
+696464f0,"Normal zone : 28334 pages , LIFO batch:6 ",1
+711d7fff,irqbalance startup succeeded ,1
+701ed9ce,"HighMem zone : 0 pages , LIFO batch:1 ",1
+3159614a,DMI 2.3 present . ,1
+806e7a94,ACPI disabled because your bios is from 2000 and too old ,1
+3987760a,You can enable it with acpi=force ,1
+3ca099d2,Built 1 zonelists ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
+c1eb035b,mapped 4G/4G trampoline to ffff3000 . ,1
+4fc3f2f1,Initializing CPU # 0 ,1
+6dff0aba,"CPU 0 irqstacks , hard=02345000 soft=02344000 ",1
+5b53ada4,portmap startup succeeded ,1
+80be882a,<*> hash table entries : 512 ( order <*> : 4096 bytes ) ,1
+27655a09,Detected 731.219 MHz processor . ,1
+6b3a62ce,Version 1.0.6 Starting ,1
+97ed7085,Using tsc for high-res timesource ,1
+5c0c0bea,rpc.statd startup succeeded ,1
+9012da7c,Console : colour VGA+ 80x25 ,1
+53021f99,"Memory : 125312k/129720k available ( 1540k kernel code , 3860k reserved , 599k data , 144k init , 0k highmem ) ",1
+23966452,Calibrating delay loop ... 1445.88 BogoMIPS ,1
+b5f6193c,<*> <*> <*> <*> ,2
+d0e41557,SELinux : Initializing . ,1
+fab20e3e,SELinux : Starting in permissive mode ,1
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+f6c001ce,Failure registering capabilities with the kernel ,1
+c58699ba,selinux_register_security : Registering secondary module capability ,1
+269bf089,Capability LSM initialized ,1
+4a40d7bd,rpc.idmapd startup succeeded ,1
+b05064f6,"<*> <*> hash table entries : <*> ( order : <*> , <*> bytes ) ",1
+6b35c3c4,"<*> hash table entries : <*> ( order : <*> , <*> bytes ) ",1
+6d7d7b9c,"<*> hash table entries : 512 ( order : 0 , 4096 bytes ) ",1
+8ede68ac,"CPU : L1 I cache : 16K , L1 D cache : 16K ",1
+bd2f0510,CPU : L2 cache : 256K ,1
+c0e7c6cc,Intel machine check architecture supported . ,1
+1be94ca3,Intel machine check reporting enabled on CPU # 0 . ,1
+3a919a4e,CPU : Intel Pentium III ( Coppermine ) stepping 06 ,1
+c8f8d4a6,Enabling <*> FPU <*> <*> <*> ... done . ,1
+b3d66ac4,Enabling <*> <*> FPU <*> <*> ... done . ,1
+a8c77460,Checking 'hlt ' instruction ... OK . ,1
+7e9b3182,Initializing random number generator : succeeded ,1
+2d74ae89,POSIX conformance testing by UNIFIX ,1
+f70fb500,NET : Registered protocol family 16 ,1
+cb1c86f1,"PCI : PCI BIOS revision 2.10 entry at 0xfc0ce , last bus=1 ",1
+89a6927a,PCI : Using configuration type 1 ,1
+f291912b,<*> <*> <*> ( <*> ) ,1
+06306496,ACPI : Subsystem revision 20040326 ,1
+f1a537f4,ACPI : Interpreter disabled . ,1
+52993850,Linux Plug and Play Support v0.97 ( c ) Adam Belay ,1
+fae9c320,Starting pcmcia : succeeded ,1
+2c8d51fe,usbcore : registered new driver usbfs ,1
+8b0e0c63,usbcore : registered new driver hub ,1
+60a7c836,ACPI : ACPI <*> <*> <*> PCI IRQ routing <*> ,1
+d00bd2a1,PCI : <*> <*> IRQ routing <*> ,1
+91fff106,PCI : Probing PCI hardware ,1
+abf44494,PCI : Probing PCI hardware ( bus 00 ) ,1
+c993fd6b,PCI : <*> IRQ <*> <*> <*> <*> <*> <*> <*> ,1
+d2839161,apm : BIOS version 1.2 Flags 0x03 ( Driver version 1.16ac ) ,1
+fd515ec9,audit : initializing netlink socket ( disabled ) ,1
+cfd65337,audit ( 1122475266.4294965305:0 ) : initialized ,1
+233b303c,Setting network parameters : succeeded ,1
+5bd00b94,sdpd startup succeeded ,1
+08454fc5,sdpd v1.5 started ,1
+3da78e0b,"Total HugeTLB memory allocated , 0 ",1
+01595319,Bringing up loopback interface : succeeded ,1
+d77bc745,"<*> hash table entries : <*> ( order 0 , 4096 bytes ) ",1
+978fdbd1,SELinux : Registering netfilter hooks ,1
+bf516fd3,Initializing Cryptographic API ,1
+d734a536,pci_hotplug : PCI Hot Plug PCI Core version : 0.5 ,1
+3b85f884,isapnp : <*> <*> <*> <*> <*> ,1
+73344b8e,isapnp : <*> <*> <*> <*> <*> <*> ,1
+273a93e3,Real Time Clock Driver v1.12 ,1
+5c96b528,Linux agpgart interface v0.100 ( c ) Dave Jones ,1

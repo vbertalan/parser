@@ -1,0 +1,186 @@
+EventId,EventTemplate,Occurrences
+f08bc471,Notification time out : <*> ,1
+8c7b70ab,Received connection request < * > ,299
+c802547c,Send worker leaving thread ,262
+685f2871,Interrupted while waiting for message on queue ,314
+94b96569,"Connection broken for id 188978561024 , my id = 1 , error = ",91
+1a7cc417,Interrupting SendWorker ,266
+54f33829,"Connection broken for id 188978561024 , my id = <*> , error = ",3
+188f6f31,Closed socket connection for client < * > which had sessionid 0x14ed93111f20005 ,1
+c33a72cc,caught end of stream exception ,37
+c398aa70,Closed socket connection for client < * > which had sessionid 0x14ed93111f20002 ,1
+d22645cd,Client attempting to renew session <*> at < * > ,3
+782cd494,Closed socket connection for client < * > which had sessionid 0x14ed93111f20010 ,1
+5fb006b1,Client attempting to establish new session at < * > ,41
+ff7935eb,Established session 0x14ed93111f20027 with negotiated timeout 10000 for client < * > ,1
+fd22c0b6,Established session 0x14ed93111f2002b with negotiated timeout 10000 for client < * > ,1
+21c98646,Accepted socket connection from < * > ,44
+6782df48,Closed socket connection for client < * > which had sessionid 0x14ed93111f20048 ,1
+e0afaf2b,<*> <*> <*> ,3
+d9649ca7,Established session 0x14ed93111f2005b with negotiated timeout 10000 for client < * > ,1
+faa2b1b6,<*> <*> connection <*> < * > ,4
+6473532e,Established session 0x14ed93111f2005f with negotiated timeout 10000 for client < * > ,1
+8bef8b06,Established session 0x14ed93111f20079 with negotiated timeout 20000 for client < * > ,1
+8f3fc001,Closed socket connection for client < * > which had sessionid 0x14ed93111f2005d ,1
+c3c09285,Established session 0x14ed93111f2007c with negotiated timeout 10000 for client < * > ,1
+bf98b4bd,Established session 0x14ed93111f20082 with negotiated timeout 10000 for client < * > ,1
+ee95cd82,Closed socket connection for client < * > which had sessionid 0x14ed93111f20099 ,1
+5eee2179,Closed socket connection for client < * > which had sessionid 0x14ed93111f2009b ,1
+5a6dbb46,Connection request from old client < * > ; will be dropped if server is in r-o mode ,39
+28b5da64,Closed socket connection for client < * > which had sessionid 0x14ed93111f200cd ,1
+6276200f,Closed socket connection for client < * > which had sessionid 0x14ed93111f200d6 ,1
+19e8a0b6,Established session 0x14ed93111f200df with negotiated timeout 10000 for client < * > ,1
+97053d53,Closed socket connection for client < * > which had sessionid 0x14ed93111f200f0 ,1
+cc6d5d0e,Server environment : user.dir=/ ,1
+043a7c1c,Can not open channel to 2 at election address < * > ,48
+ab2360d7,Processed session termination for sessionid : <*> ,18
+5e5ebbd5,"Expiring session 0x24ede63a01b003b , timeout of 10000ms exceeded ",1
+62f8efd8,Processed session termination for sessionid : 0x24ede63a01b003b ,1
+efdab64a,"<*> <*> <*> , <*> <*> <*> <*> ",2
+f784dc09,Closed socket connection for client < * > which had sessionid 0x14ede63a5a70048 ,1
+5f3ce2a5,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> * <*> ,4
+3bd617ae,Closed socket connection for client < * > which had sessionid 0x14ede63a5a70053 ,1
+173f0267,"Expiring session 0x24ede63a01b0062 , timeout of 10000ms exceeded ",1
+c53d4763,* * * * * * * <*> <*> * <*> * * * * * * * * ,19
+30045eee,LOOKING ,4
+ab73a858,<*> <*> <*> <*> to 3 at <*> <*> < * > ,4
+a050cf7d,Notification time out : 60000 ,36
+cc44c528,Established session 0x14edfaa86f60013 with negotiated timeout 10000 for client < * > ,1
+40da62c9,Closed socket connection for client < * > which had sessionid 0x14edfaa86f60021 ,1
+d1685c93,<*> election <*> <*> <*> < * > < * > ,1
+fe14180d,"<*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> , 1 <*> ",1
+c05ab85e,FOLLOWING ,2
+c3d36317,"New election . My id = 1 , proposed zxid=0x700000000 ",1
+b5f6193c,<*> <*> <*> <*> ,3
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,2
+9038c894,Established session 0x14ee3e057ed000c with negotiated timeout 10000 for client < * > ,1
+fbe3cab9,Established session 0x14ee3e057ed002c with negotiated timeout 10000 for client < * > ,1
+62b8aa26,Closed socket connection for client < * > which had sessionid 0x14ee3e057ed0027 ,1
+09217cf6,"Notification : 3 ( n.leader ) , <*> ( n.zxid ) , 0x1 ( n.round ) , <*> ( n.state ) , 3 ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state ) ",1
+0190b74d,Established session 0x14f05578bd80002 with negotiated timeout 10000 for client < * > ,1
+ffbd582e,Closed socket connection for client < * > which had sessionid 0x14f05578bd8000d ,1
+3c2f2afc,Established session 0x14f05578bd80020 with negotiated timeout 10000 for client < * > ,1
+dbcef350,autopurge.snapRetainCount set to 3 ,1
+e4facd25,Server environment : <*> <*> ,2
+554ae875,<*> client <*> <*> ,3
+65d45223,Established session 0x14f05578bd80016 with negotiated timeout 10000 for client < * > ,1
+018d80d3,Established session 0x14f05578bd80013 with negotiated timeout 10000 for client < * > ,1
+addecd83,Server environment : <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+c2e1427b,Server environment : user.name=zookeeper ,2
+035829bc,Closed socket connection for client < * > which had sessionid 0x14f1724a6e80004 ,1
+893b1fcd,Closed socket connection for client < * > ( no session established for client ) ,4
+c9eb455e,Exception causing close of session 0x0 due to java.io.IOException : ZooKeeperServer not running ,3
+4df617ed,"Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state ) ",1
+d0e916c5,"Notification : 3 ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , <*> ( n.state ) , 3 ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state ) ",1
+a9e995e4,Closed socket connection for client < * > which had sessionid 0x14f4a6318b80024 ,1
+ebeb8abf,Closed socket connection for client < * > which had sessionid 0x14f4a6318b80018 ,1
+2ce4dcb4,tickTime set to 2000 ,1
+e83a829f,Can not open channel to 3 at election address < * > ,34
+9cacf73c,"Connection broken for id 3 , my id = 1 , error = ",1
+669e7400,Unexpected exception causing shutdown while sock still open ,12
+a25c32ac,"Connection broken for id 188978561024 , my id = 2 , error = ",96
+d1719a42,<*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> : <*> <*> : <*> Error <*> : /home/curi/.zookeeper Error : <*> <*> <*> for /home/curi/.zookeeper ,1
+3eddbded,Processed session termination for sessionid : 0x14ed93111f20005 ,1
+bd71d308,Processed session termination for sessionid : 0x14ed93111f20000 ,1
+78f95579,"Notification : <*> ( n.leader ) , <*> ( n.zxid ) , 0x2 ( n.round ) , LOOKING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state ) ",1
+ec115408,"Expiring session 0x14ed93111f20020 , timeout of 10000ms exceeded ",1
+98db4aa4,"Expiring session <*> , timeout of 10000ms exceeded ",16
+f92d042e,Processed session termination for sessionid : 0x14ed93111f2003f ,1
+912dde73,Closed socket connection for client < * > which had sessionid 0x24ed9311942004f ,1
+268059e4,Processed session termination for sessionid : 0x34ed9ac1c1e0021 ,1
+805863fa,Processed session termination for sessionid : 0x14ed93111f20046 ,1
+fc4da47a,Processed session termination for sessionid : 0x34ed9ac1c1e0030 ,1
+e947e49d,Processed session termination for sessionid : 0x14ed93111f2004f ,1
+94263e0b,Processed session termination for sessionid : 0x14ed93111f20050 ,1
+4ad9570e,"Expiring session 0x14ed93111f20068 , timeout of 20000ms exceeded ",1
+2ab206fa,Closed socket connection for client < * > which had sessionid <*> ,8
+a9d378eb,Closed socket connection for client < * > which had sessionid 0x24ed9311942005f ,1
+9412e8a4,Processed session termination for sessionid : 0x34ed9ac1c1e005e ,1
+ce6250ac,Established session 0x24ed9311942007e with negotiated timeout 10000 for client < * > ,1
+eef72009,"Expiring session <*> , timeout of <*> exceeded ",1
+d6999f36,Established session 0x24ed9311942008c with negotiated timeout 10000 for client < * > ,1
+a449f48e,Established session 0x24ed93119420091 with negotiated timeout 10000 for client < * > ,1
+66caaf37,Processed session termination for sessionid : 0x34ed9ac1c1e0080 ,1
+a88d9603,Processed session termination for sessionid : 0x34ed9ac1c1e007a ,1
+c78fc227,Established session 0x24ed931194200a4 with negotiated timeout 10000 for client < * > ,1
+9185042b,Established session 0x24ed931194200a7 with negotiated timeout 10000 for client < * > ,1
+33ec204e,Processed session termination for sessionid : 0x34ed9ac1c1e0085 ,1
+64d32287,Closed socket connection for client < * > which had sessionid 0x24ed931194200a0 ,1
+67fc24ff,Processed session termination for sessionid : 0x14ed93111f200a7 ,1
+05dfeab8,"Expiring session 0x14ed93111f2009f , timeout of 10000ms exceeded ",1
+21f0d99e,Established session 0x24ed931194200af with negotiated timeout 10000 for client < * > ,1
+3e8dadfd,"Expiring session 0x14ed93111f200d2 , timeout of 10000ms exceeded ",1
+b412523f,Processed session termination for sessionid : 0x34ed9ac1c1e00ae ,1
+9b470ec9,Established session 0x24ede63a01b000a with negotiated timeout 10000 for client < * > ,1
+99410206,Closed socket connection for client < * > which had sessionid 0x24ede63a01b000e ,1
+3920f8f0,Established session 0x24ede63a01b0027 with negotiated timeout 10000 for client < * > ,1
+d913e45d,Established session 0x24ede63a01b002a with negotiated timeout 20000 for client < * > ,1
+0de6ce51,Established session 0x24ede63a01b006c with negotiated timeout 10000 for client < * > ,1
+8b94c1b7,Snapshotting : <*> to <*> ,2
+51e0ce89,"Expiring session 0x24edfaa87170002 , timeout of 10000ms exceeded ",1
+f5cb7ac3,Established session 0x24edfaa87170018 with negotiated timeout 10000 for client < * > ,1
+a94fe239,"Expiring session 0x24edfaa87170010 , timeout of 10000ms exceeded ",1
+3f7264f9,Processed session termination for sessionid : 0x14edfaa86f60019 ,1
+0d3dc2b6,Processed session termination for sessionid : 0x14edfaa86f6002d ,1
+5a0471e8,Processed session termination for sessionid : 0x24edfaa8717002d ,1
+7844ca92,"Expiring session 0x14edfaa86f6002a , timeout of 10000ms exceeded ",1
+69495a23,"Expiring session 0x14edfaa86f60031 , timeout of 10000ms exceeded ",1
+9c4bd013,Processed session termination for sessionid : 0x14edfaa86f60047 ,1
+9a058e14,autopurge.purgeInterval set to 0 ,3
+658fa00d,<*> <*> : <*> : <*> : <*> <*> <*> <*> <*> ,1
+be54966a,Closed socket connection for client < * > which had sessionid 0x24ee30a54f5000e ,1
+f78b46fd,Established session 0x24ee30a54f5001c with negotiated timeout 10000 for client < * > ,1
+4f2d31ba,"Expiring session 0x24ee30a54f50017 , timeout of 10000ms exceeded ",1
+24aea46b,"Expiring session 0x24ee30a54f5001d , timeout of 10000ms exceeded ",1
+8a02b5f7,Processed session termination for sessionid : 0x24ee30a54f50019 ,1
+17a39b1e,Processed session termination for sessionid : 0x24ee30a54f5001a ,1
+8663bcda,Established session 0x24ee30a54f5001e with negotiated timeout 20000 for client < * > ,1
+1750c256,Established session 0x24ee30a54f5001f with negotiated timeout 10000 for client < * > ,1
+4f898e92,"Expiring session 0x24ee30a54f50025 , timeout of 10000ms exceeded ",1
+395452ee,"Expiring session 0x24ee30a54f50027 , timeout of 10000ms exceeded ",1
+18b4622e,Established session <*> with negotiated timeout 10000 for client < * > ,13
+6811abc0,maxSessionTimeout set to -1 ,1
+dc8d249c,Closed socket connection for client < * > which had sessionid 0x24f0557806a001b ,1
+baefa9ff,Server environment : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> ,1
+0e08c4e9,Have quorum of supporters ; starting up and setting last processed zxid : 0xb00000000 ,1
+0571e35b,"Notification : <*> ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , <*> ( n.sid ) , <*> ( n.peerEPoch ) , <*> ( my state ) ",1
+1a3026a0,Processed session termination for sessionid : 0x14f1724a6e8000d ,1
+f8511247,"Expiring session 0x14f3fdae8ba0002 , timeout of 10000ms exceeded ",1
+c1c1fe94,Processed session termination for sessionid : 0x14f3fdae8ba0001 ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,2
+d5c28601,shutdown of request processor complete ,1
+54d49714,<*> <*> 0x0 ,1
+017c4283,"Notification : 1 ( n.leader ) , <*> ( n.zxid ) , 0x2 ( n.round ) , LOOKING ( n.state ) , 1 ( n.sid ) , <*> ( n.peerEPoch ) , LEADING ( my state ) ",2
+b22dabd3,"Expiring session 0x14f3fdae8ba0017 , timeout of 10000ms exceeded ",1
+d99c398a,"Expiring session 0x14f3fdae8ba000c , timeout of 10000ms exceeded ",1
+6ad2fad7,Closed socket connection for client < * > which had sessionid 0x24f4a631df90002 ,1
+43d44735,"Expiring session 0x24f4a631df90002 , timeout of 10000ms exceeded ",1
+5fd96c3e,Processed session termination for sessionid : 0x34f4a63146b000f ,1
+ef7e2279,Processed session termination for sessionid : 0x14f4a6318b80004 ,1
+8d5690e0,Closed socket connection for client < * > which had sessionid 0x24f4a631df9000a ,1
+3a2b8b71,Closed socket connection for client < * > which had sessionid 0x24f4a631df9000b ,1
+365ef204,Closed socket connection for client < * > which had sessionid 0x24f4a631df9001d ,1
+761b9e17,Processed session termination for sessionid : 0x14f4a6318b80019 ,1
+37522af7,Sending DIFF ,1
+cd7d710b,"Expiring session 0x24f4a631df90029 , timeout of 10000ms exceeded ",1
+053a7fea,Processed session termination for sessionid : 0x34f4a63146b003c ,1
+1f41ed05,Processed session termination for sessionid : 0x14f4a6318b8002f ,1
+32d6d61e,Getting a snapshot from leader ,2
+a8a220a8,"Notification : 3 ( n.leader ) , 0x0 ( n.zxid ) , 0x1 ( n.round ) , LOOKING ( n.state ) , 3 ( n.sid ) , 0x0 ( n.peerEPoch ) , LOOKING ( my state ) ",2
+8822b662,"Connection broken for id 188978561024 , my id = 3 , error = ",99
+834ba81a,"Notification : 3 ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , LOOKING ( n.state ) , 3 ( n.sid ) , 0x1 ( n.peerEPoch ) , LOOKING ( my state ) ",1
+f00e8b28,Closed socket connection for client < * > which had sessionid 0x34ed9ac1c1e0059 ,1
+06a86954,Closed socket connection for client < * > which had sessionid 0x34ed9ac1c1e0086 ,1
+288e7b5b,Closed socket connection for client < * > which had sessionid 0x34ed9ac1c1e0093 ,1
+64102118,Closed socket connection for client < * > which had sessionid 0x34ed9ac1c1e00a9 ,1
+b581e136,"Connection broken for id 1 , my id = 3 , error = ",1
+d8c70d1c,"Notification : 3 ( n.leader ) , <*> ( n.zxid ) , <*> ( n.round ) , FOLLOWING ( n.state ) , 3 ( n.sid ) , <*> ( n.peerEPoch ) , FOLLOWING ( my state ) ",1
+371d51fd,<*> session <*> <*> <*> timeout <*> for client < * > ,2
+b2aa829b,Established session <*> with negotiated timeout 20000 for client < * > ,2
+1174ad74,minSessionTimeout set to -1 ,2
+191a1930,<*> <*> connection for client < * > <*> <*> <*> <*> ,2
+db47e5f0,Server environment : <*> ,1
+95dd74a5,Closed socket connection for client < * > which had sessionid 0x34ee30a5c530018 ,1
+e2f45ed6,"Notification : 3 ( n.leader ) , <*> ( n.zxid ) , 0x1 ( n.round ) , LOOKING ( n.state ) , 3 ( n.sid ) , <*> ( n.peerEPoch ) , LOOKING ( my state ) ",1
+ef7262dd,Closed socket connection for client < * > which had sessionid 0x34f0557885e0002 ,1
+e059f71c,Processed session termination for sessionid : 0x24f0557806a0010 ,1

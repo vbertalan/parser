@@ -4,7 +4,6 @@ Author      : LogPAI team
 License     : MIT
 """
 
-
 import contextlib
 from fileinput import filename
 import regex as re
@@ -114,7 +113,7 @@ class LogParser:
         
         self.word_dict = token_dict
 
-
+    ## Method to split words and verify if they are in the English language
     def split_words(self, sentence):
 
         with open("create.txt") as word_file:
@@ -220,9 +219,9 @@ class LogParser:
                 if not os.path.exists(self.savePath):
                     os.makedirs(self.savePath)
 
-                print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+                #print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
-        print(len(self.word_dict))
+        #print(len(self.word_dict))
 
         self.df_log['EventId'] = log_templateids
         self.df_log['EventTemplate'] = log_templates
