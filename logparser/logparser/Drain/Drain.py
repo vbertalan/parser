@@ -284,14 +284,10 @@ class LogParser:
             os.makedirs(self.savePath)
 
         ## PRINTANDO LOGCLUL
-
         with open(r'C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/LOGCLUL.txt', 'w') as fp:
             for item in logCluL:
                 # write each item on a new line
                 fp.write("%s\n" % item)
-        print('TERMINOU DE PRINTAR LOGCLUL')
-        #print(logCluL)
-        #print(type(logCluL))
 
         self.outputResult(logCluL)
 

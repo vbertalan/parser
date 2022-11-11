@@ -1,26 +1,27 @@
 EventId,EventTemplate,Occurrences
-78f10049,instruction cache parity error corrected ,42
-c5c0dd84,<*> double-hummer alignment exceptions ,38
-b5f6193c,<*> <*> <*> <*> ,19
-79df7ce9,"CE sym <*> , at <*> , mask <*> ",9
+347334c7,<*> <*> <*> <*> <*> ,13
+78f10049,instruction cache parity error corrected ,39
+c5c0dd84,<*> double-hummer alignment exceptions ,58
+90341a61,"<*> <*> 2 , <*> <*> , <*> <*> ",2
 41ede028,ciod : failed to read message prefix on control stream ( CioStream socket to <*> ,3
-7887d5f3,"CE sym 20 , at 0x1438f9e0 , mask 0x40 ",1
+f4328b8b,"CE sym 20 , at <*> , mask <*> ",2
 61a15c0c,generating < * > ,721
-0467c4d6,force load/store alignment ............... 0 ,2
-dc4cafb0,"CE sym 20 , at 0x01228120 , mask 0x10 ",1
+662afefe,<*> <*> <*> <*> 0 ,6
 f89516c5,"CE sym 5 , at <*> , mask 0x04 ",3
-11fd2ccc,ciod : cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff ,1
-ac746c9c,ciod : LOGIN chdir ( <*> ) failed : No such file or directory ,10
+4538489d,<*> : <*> 0 <*> <*> <*> <*> <*> <*> <*> ,1
+ac746c9c,ciod : LOGIN chdir ( <*> ) failed : No such file or directory ,12
 7ae84ac7,"CE sym 28 , at <*> , mask <*> ",3
-861fcec9,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 25 , bit 1 ",1
+1aef2058,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 1 ",2
 80bd4afa,"CE sym 14 , at <*> , mask <*> ",4
-b0ff73d4,"CE sym 2 , at <*> , mask 0x02 ",2
-b9b29cfb,data TLB error interrupt ,52
-55451d26,<*> <*> error <*> ,8
-428ee8bd,"CE sym 10 , at <*> , mask 0x08 ",2
-f0c359d9,ciod : Message code 0 is not 51 or 4294967295 ,1
-a15cb5bb,data storage interrupt ,30
-d502e336,instruction address : 0x00004ed8 ,20
+2c051d4d,"CE sym 2 , at <*> , mask <*> ",4
+e664b5e8,data <*> <*> interrupt ,11
+b9b29cfb,data TLB error interrupt ,49
+ab193ef2,"<*> <*> <*> , <*> <*> , <*> <*> ",24
+ce348a2e,<*> : <*> <*> 0 <*> <*> <*> <*> <*> ,1
+a2bbaa7d,data <*> interrupt ,6
+a15cb5bb,data storage interrupt ,24
+d502e336,instruction address : 0x00004ed8 ,16
+07b77e98,<*> <*> : <*> ,4
 0b2ffc52,data address : 0x00000002 ,8
 22de4b00,machine check : i-fetch ...................... 0 ,5
 47385cf1,program interrupt : illegal instruction ...... 0 ,5
@@ -29,6 +30,7 @@ c6a68169,data store interrupt caused by dcbf ......... 0 ,5
 a1e71bfb,program interrupt : privileged instruction ... 0 ,5
 0a790d02,program interrupt : <*> instruction <*> 0 ,1
 78b4cdc9,program interrupt : imprecise exception ...... 0 ,5
+b5f6193c,<*> <*> <*> <*> ,34
 97886426,machine state register : 0x00002000 ,4
 898930cf,data store interrupt caused by icbi ......... 0 ,5
 2be055e3,"problem state ( 0=sup,1=usr ) ....... 0 ",3
@@ -36,345 +38,211 @@ e770e688,floating point instr . enabled ..... 1 ,4
 ba7223a7,auxiliary processor ......................... 0 ,5
 56895c18,machine check enable .............. 0 ,2
 c621844e,floating pt ex mode 0 enable ...... 0 ,3
-dabdc470,program interrupt : unimplemented operation .. 0 ,2
-d3e0f2ff,debug interrupt enable ............ 0 ,1
-463a83ab,floating pt ex mode 1 enable ...... 0 ,2
+296feef9,<*> interrupt : <*> <*> <*> <*> ,2
+e1e73fda,<*> interrupt enable <*> 0 ,1
+1a5feaab,<*> <*> <*> <*> <*> <*> <*> 0 ,2
 f3b91a59,byte ordering exception ..................... 0 ,2
 e9aa979f,data address space ................ 0 ,5
 33ded3f9,core configuration register : 0x00002000 ,7
 5bc573ce,program interrupt : fp cr <*> ............. 0 ,1
-6d5bf409,guaranteed instruction cache block touch.0 ,2
 9401b172,program interrupt : fp cr field ............. 0 ,4
-83dc6da5,guaranteed data cache block touch ........ 1 ,1
-662afefe,<*> <*> <*> <*> 0 ,7
-fa016573,wait <*> enable ................. 0 ,1
-a32b5403,critical input interrupt enable ... 0 ,1
-89ae1997,special purpose registers : ,1
-48ce98cd,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000 ,1
-8ca1a795,rts internal error ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,1
+509b9036,wait state enable ................. 0 ,1
+bb0f923d,<*> <*> interrupt enable <*> 0 ,1
+3553369e,<*> <*> <*> : ,1
+4a3b59c1,rts <*> <*> ,1
 91b50cd3,debug wait enable ................. 0 ,2
-38201538,<*> address space ......... 0 ,1
+c00cc6be,<*> address space <*> 0 ,1
+229937c2,disable store gathering .................. 0 ,3
 0e3acb52,total of 1 ddr error ( s ) detected and corrected ,9
 356edb65,"ciod : Error loading <*> : invalid or missing program image , <*> <*> <*> or <*> ",2
 140a1394,ciod : Error creating node map from file <*> : <*> <*> <*> ,2
-73a800c8,"CE sym 0 , at 0x1b858280 , mask 0x40 ",2
-d1760a94,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 17 , bit 1 ",1
+f3c683cf,"<*> <*> 0 , <*> <*> , <*> <*> ",2
+92b90aef,"<*> <*> <*> <*> <*> <*> <*> <*> <*> on <*> 0 , <*> <*> , <*> <*> ",2
 0ddcf9fb,2576000 double-hummer alignment exceptions ,2
 e72e2dff,6182400 double-hummer alignment exceptions ,3
 1ac624cb,3091200 double-hummer alignment exceptions ,3
 0db0493a,"CE sym 12 , at <*> , mask 0x04 ",1
-d0268f38,"CE sym 0 , at <*> , mask <*> ",2
-9e0e5f52,"CE sym 23 , at <*> , mask 0x10 ",2
-c6ad8a8a,"ciod : Error loading /home/glosli/src/ddcMD/ddcMD/1.1.13/ddcMDbglV : invalid or missing program image , No such file or directory ",1
+180034b7,"CE sym 23 , at 0x03f89c00 , mask 0x10 ",2
+47fcd75e,"ciod : Error loading <*> : invalid or missing program image , No such file or directory ",14
 e41db344,program interrupt ,3
 ecb7a2b0,program interrupt : illegal instruction ...... 1 ,3
 f2e9e0ec,instruction address : <*> ,1
 3d42ec13,exception syndrome register : <*> ,1
-46cbde3f,"CE sym 0 , at <*> , mask 0x40 ",2
 f516f42d,Node card is not fully functional ,6
-b62b7789,344040 double-hummer alignment exceptions ,3
+81d8f6a5,<*> <*> alignment exceptions ,3
 ad099ee9,ciod : Error creating node map from file <*> : <*> file <*> ,1
-a6a11ee7,Ido chip status changed : FF : <*> : <*> : <*> : <*> <*> <*> <*> status=M <*> <*> <*> <*> PDT 2005 ,1
+79df7ce9,"CE sym <*> , at <*> , mask <*> ",15
+baf62baa,<*> <*> <*> <*> : <*> : <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
 703d3f80,Can not get assembly information for node card ,6
-3aed4609,1146800 double-hummer alignment exceptions ,27
+3aed4609,1146800 double-hummer alignment exceptions ,26
 87014ef2,458720 double-hummer alignment exceptions ,8
-e995971f,ciod : Missing or invalid fields on line 1 of node map file /home/auselton/bgl/64mps.sequential.mapfile ,1
-c7dfa664,1 torus receiver z+ input pipe error ( s ) ( dcr 0x02f0 ) detected and corrected ,1
-69ac29d4,ciod : <*> <*> <*> <*> <*> <*> <*> at line <*> of node map file <*> ,1
-2c051d4d,"CE sym 2 , at <*> , mask <*> ",1
-47fcd75e,"ciod : Error loading <*> : invalid or missing program image , No such file or directory ",10
+dcc8ed6a,<*> : <*> <*> <*> <*> on <*> <*> <*> node <*> <*> <*> ,2
+9a9f6423,<*> <*> <*> <*> input <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+09c0050f,ciod : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> node map file <*> ,2
+44534be1,"<*> : <*> <*> <*> : <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> ",4
 980b8675,rts panic ! - stopping execution ,2
-5afe859c,113170696 double-hummer alignment exceptions ,1
-ceb082bb,116130784 double-hummer alignment exceptions ,1
-d04f1874,113622512 double-hummer alignment exceptions ,1
-e8cbe419,113982272 double-hummer alignment exceptions ,1
-c4c58cfc,113355952 double-hummer alignment exceptions ,1
 b9ba6f98,"CE sym 16 , at <*> , mask <*> ",1
 f8b97825,ciod : Error creating node map from file <*> : <*> <*> ,1
-a21f74a6,ciod : <*> <*> 32 <*> <*> <*> 32 at line <*> of node map file <*> ,1
-8d07f125,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 7 ",2
+c0525678,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit <*> ",4
 1d8e6615,"rts : kernel terminated for reason <*> : <*> <*> <*> : <*> <*> , <*> , <*> , <*> , <*> ",1
-d2ecf8f0,8 floating point alignment exceptions ,35
-347334c7,<*> <*> <*> <*> <*> ,7
+d2ecf8f0,8 floating point alignment exceptions ,34
 3931c6a4,15 floating point alignment exceptions ,14
-4fe6ca66,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 20 , bit 3 ",1
-63a17420,<*> of <*> ddr error <*> <*> <*> <*> <*> <*> ,3
-c20f9db9,5 floating point alignment exceptions ,22
-50a7e0e9,1005 floating point alignment exceptions ,5
+92e92f11,total of <*> ddr error ( s ) detected and corrected ,3
+c20f9db9,5 floating point alignment exceptions ,20
+0dc89533,685 floating point alignment exceptions ,4
+329a7d46,<*> <*> <*> alignment exceptions ,5
 0b891d5a,"CE sym 25 , at <*> , mask <*> ",2
-081b1bff,"<*> ddr <*> <*> <*> <*> <*> <*> <*> <*> <*> 0 , <*> <*> , <*> <*> ",2
-f7ece7a7,New ido chip inserted into the database : FF : <*> : <*> : <*> <*> <*> <*> ,1
-99543418,New ido chip inserted into the database : FF : F2:9F:16 : <*> : <*> <*> v=13 t=4 ,1
+70b4946b,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> , <*> <*> ",2
+a633015a,<*> <*> <*> <*> <*> <*> <*> : <*> : <*> : <*> : <*> <*> <*> <*> ,2
 cc6e7a09,<*> is not fully functional ,1
-ff96c869,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> active . Clock <*> is <*> . Clock <*> is <*> . <*> JTAG Reset is asserted . <*> JTAG Reset is <*> asserted . Temperature <*> is <*> active . <*> <*> <*> . Temperature <*> <*> <*> is <*> . PGOOD is asserted . PGOOD <*> <*> is <*> . MPGOOD is <*> MPGOOD <*> <*> is <*> . The <*> volt rail is OK . The <*> volt rail is OK . ,1
-97519939,"Node card VPD check : U11 node in processor card slot <*> do not match . VPD ecid <*> , found <*> ",3
-71b259fb,New ido chip inserted into the database : FF : F2:9F:16 : <*> : <*> : <*> <*> v=13 t=4 ,1
+144343cc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> . <*> <*> is <*> . <*> <*> is <*> . <*> <*> <*> is <*> . <*> <*> <*> is <*> <*> . <*> <*> is <*> <*> . <*> <*> <*> . <*> <*> <*> <*> is <*> . <*> is <*> . <*> <*> <*> is <*> . <*> is <*> <*> <*> <*> is <*> . <*> <*> <*> <*> is <*> . <*> <*> <*> <*> is <*> . ,1
+897c3ea2,"<*> card VPD <*> : <*> node in <*> card <*> <*> <*> <*> <*> . VPD <*> <*> , <*> <*> ",3
+8c638887,<*> <*> <*> <*> <*> <*> <*> : <*> : <*> : <*> : <*> : <*> <*> <*> <*> ,1
 d66f0fa1,"idoproxydb hit ASSERT condition : ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr : :SendPacket ( IdoUdpMgr * , BglCtlPavTrace * ) ",30
-e63e1d5f,<*> <*> <*> <*> <*> <*> <*> active . Clock <*> is <*> . Clock <*> is <*> . <*> JTAG Reset is asserted . <*> JTAG Reset is asserted . Temperature <*> is <*> active . <*> <*> <*> . Temperature <*> <*> <*> is <*> . PGOOD IS <*> <*> . PGOOD <*> <*> IS <*> . MPGOOD IS <*> <*> MPGOOD <*> <*> IS <*> . The <*> volt rail is OK . The <*> volt rail is OK . ,5
+21ad4e71,"<*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> ( <*> * , <*> * ) ",5
+e82da523,<*> <*> <*> <*> <*> <*> <*> <*> . <*> <*> is <*> . <*> <*> is <*> . <*> <*> <*> is <*> . <*> <*> <*> is <*> . <*> <*> is <*> <*> . <*> <*> <*> . <*> <*> <*> <*> is <*> . <*> <*> <*> <*> . <*> <*> <*> <*> <*> . <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> is <*> . <*> <*> <*> <*> is <*> . ,5
 b7039f75,"Node card VPD check : U01 node in processor card slot <*> do not match . VPD ecid <*> , found <*> ",4
-66184e4f,Ido chip status changed : FF : <*> : <*> : <*> : <*> <*> v=13 <*> status=M <*> <*> <*> <*> PDT 2005 ,1
-dcc69f31,Ido chip status changed : FF : <*> : <*> <*> v=13 <*> status=M <*> <*> <*> <*> PDT 2005 ,1
-90ec87f3,"CE sym 27 , at 0x11b3f3c0 , mask 0x10 ",1
-edfe7553,"PrepareForService shutting down <*> ( mLctn ( <*> ) , mCardSernum ( <*> ) , mLp ( FF : F2:9F:16 : <*> : <*> : <*> ) , mIp ( <*> ) , mType ( 4 ) ) as part of Service Action <*> ",1
-6ef199b2,Ido chip status changed : FF : <*> : <*> : <*> <*> v=13 <*> status=M <*> <*> <*> <*> PDT 2005 ,2
-a3ea0c00,rts tree/torus link training failed : wanted : B C X+ X- Y+ Y- Z+ Z- got : B C X- Y- Z+ Z- ,1
-71911a58,1 tree receiver 2 in re-synch state event ( s ) ( dcr 0x019a ) detected ,1
+60882a02,<*> <*> <*> <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+8a9fa509,"<*> <*> <*> <*> ( <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> : <*> : <*> : <*> : <*> ) , <*> ( <*> ) , <*> ( <*> ) ) <*> <*> <*> <*> <*> <*> ",1
+6bb19bbe,<*> <*> <*> <*> : <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+b3b6433e,rts <*> <*> <*> <*> : <*> : B C <*> X- <*> Y- Z+ Z- <*> : B C X- Y- Z+ Z- ,1
+d9d23f3e,<*> tree receiver 2 in re-synch state event ( s ) ( dcr 0x019a ) detected ,3
 0dafd82f,"CE sym 8 , at 0x0a2ae600 , mask 0x10 ",2
 59c22e6e,"CE sym 25 , at <*> , mask 0x10 ",3
 012beabd,"ciod : Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts : invalid or missing program image , Exec format error ",15
-dc0317e4,"ciod : Error loading /bgl/apps/scaletest/stability/MDCASK/WORK/65576/inferno : invalid or missing program image , No such file or directory ",1
-2a2fac9a,ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> : Link has been severed ,6
-37e88e6d,ciod : Missing or invalid fields on line 1 of node map file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map ,1
+e7a065a8,ciod : <*> <*> <*> : <*> <*> <*> program <*> <*> <*> <*> <*> <*> <*> ,1
+9013cd7e,<*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> ,7
 c569db19,rts : kernel terminated for reason <*> ,1
 503e4441,rts : kernel terminated for reason 1004 ,5
 99bdd9fe,ciod : generated 64 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm ,4
 9eb2bbc8,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 0 ",2
 3d78f1ec,ciod : generated <*> core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm ,1
-e53f91cc,"CE sym <*> , at <*> , mask 0x08 ",1
-2689cfb5,"CE sym 20 , at <*> , mask 0x02 ",2
 b726ad1e,ciod : generated 128 core files for program /home/germann2/BGL-demo/SPaSM_mpi ,8
-58d16234,iar 003a90fc dear 00b360e8 ,1
-5f5ab780,iar 003a90dc dear 00b35148 ,1
-19647987,iar 003a90fc dear 00b35db8 ,1
-15493d9e,iar <*> dear <*> ,31
-b5226242,2201500 double-hummer alignment exceptions ,2
-a0bd4d33,iar 003a92a0 dear 00b36898 ,1
+77a007cb,iar 003a90fc dear <*> ,2
+15493d9e,iar <*> dear <*> ,64
 173fc9db,iar 003a9260 dear <*> ,12
-43323069,iar 003a9260 dear 00efcbc8 ,1
-7a0e032f,iar 003a929c dear <*> ,2
-08a0fa4f,iar 003a9254 dear <*> ,2
-9945a0d9,3095040 double-hummer alignment exceptions ,1
-41c7f07d,iar 003a929c dear 01291228 ,1
-3b0f5dc8,iar 003a929c dear 01291708 ,1
+7a0e032f,iar 003a929c dear <*> ,3
 39777851,iar 003a92a0 dear 013611f8 ,1
 bdd721b4,iar 003a92a0 dear 012902f8 ,1
-ac476d8f,iar 003a9260 dear 00ef83b8 ,1
-8df891d9,iar 003a9258 dear 0136bd38 ,1
-9f2316df,1524480 double-hummer alignment exceptions ,3
-e784c5de,iar 003a929c dear 0136b2d8 ,1
 081be044,iar 003a92a0 dear 0129a488 ,1
-c0525678,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit <*> ",1
-1856e058,"CE sym 10 , at <*> , mask <*> ",1
-87b2a7ec,156055738 double-hummer alignment exceptions ,1
-2eb23631,155918940 double-hummer alignment exceptions ,1
-b946b951,iar 0014a150 dear <*> ,10
-09a6b46d,23768676 double-hummer alignment exceptions ,1
-99e94924,35050330 double-hummer alignment exceptions ,1
-8ea8ffd5,36833864 double-hummer alignment exceptions ,1
-a4949639,24669022 double-hummer alignment exceptions ,1
-b1031c41,iar 0014a150 dear 00991c88 ,2
-f86c3f6a,iar 00149ee0 dear 009a2788 ,1
-759ce304,iar 00149f88 dear 0099be48 ,1
-e9d7dcf9,iar 0014a150 dear 0098cdc8 ,1
-b78d6789,iar 00149ee0 dear 0099e5e8 ,1
-5e366b65,iar 00149f88 dear 00996f88 ,1
-6a550a28,"NFS Mount failed on <*> , slept 15 seconds , retrying ( 1 ) ",2
-c1185555,"CE sym 26 , at <*> , mask <*> ",3
-9154b60b,"<*> ddr errors ( s ) detected and corrected on rank 0 , symbol 18 , bit 0 ",1
-44d105ee,ciod : generated 64 core files for program <*> ,2
+b946b951,iar 0014a150 dear <*> ,11
+ab943850,"<*> <*> failed <*> <*> , <*> <*> <*> , <*> ( <*> ) ",2
+83810793,"<*> <*> <*> ( <*> ) <*> <*> <*> <*> <*> 0 , <*> <*> , <*> 0 ",1
+c2014f49,ciod : generated <*> core files for program <*> ,3
 6752dad8,"CE sym <*> , at <*> , mask 0x10 ",1
 8a03c6be,<*> <*> <*> : <*> : <*> <*> ,2
 04873f76,Lustre mount FAILED : <*> : point /p/gb1 ,7
-929373dc,"4 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 4 ",1
+7b0d83bb,"4 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> , <*> 4 ",1
 7695c496,"<*> <*> <*> <*> : <*> <*> in <*> <*> <*> <*> <*> <*> <*> . <*> <*> <*> , <*> <*> ",2
-27d9eaa3,1 torus receiver x+ input pipe error ( s ) ( dcr 0x02ec ) detected and corrected ,1
-0ea7901a,"CE sym 33 , at <*> , mask 0x80 ",1
-f93eab3a,"CE sym 21 , at <*> , mask <*> ",3
+9b2d1d4e,1 torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected ,2
 8be3b208,ciod : pollControlDescriptors : Detected the debugger died . ,3
-bbb78d74,ciod : <*> <*> <*> <*> <*> ( <*> : <*> ) <*> message <*> <*> <*> <*> <*> or <*> ( <*> <*> <*> <*> ) ,1
-e0948b5d,1 torus receiver y+ input pipe error ( s ) ( dcr 0x02ee ) detected and corrected ,1
-ab193ef2,"<*> <*> <*> , <*> <*> , <*> <*> ",6
+b8b98d4e,"ciod : <*> <*> <*> <*> <*> ( <*> : <*> ) , message <*> <*> <*> <*> <*> <*> <*> ( <*> <*> <*> <*> ) ",1
 62d29a4a,suppressing further interrupts of same type ,2
-90295b39,ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:37916 : Link has been severed ,1
 aa9f9cfa,"CE sym 9 , at <*> , mask <*> ",5
-380e119c,ciod : LOGIN chdir ( /home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST ) failed : No such file or directory ,2
-121accf3,"<*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> * , <*> * <*> ",5
-0434e4e6,"ciod : Error loading /home/yates//torus-latency.rts : invalid or missing program image , No such file or directory ",3
-c78d504f,rts : bad message header : expecting type 57 instead of type 3 ( softheader=00131db8 81aa0003 00000002 00000000 ) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007 ,1
-31537ac0,ciod : LOGIN chdir ( /bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.05 ) failed : No such file or directory ,2
-c59291f0,ciod : LOGIN chdir ( /bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01 ) failed : No such file or directory ,2
-dd2967f7,"CE sym 29 , at 0x14123c20 , mask 0x08 ",1
-7ee45b64,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 35 , bit 1 ",1
-bc78b7f6,"CE sym 27 , at 0x166a9f20 , mask 0x02 ",1
-1073f61c,"CE sym 15 , at 0x0bde77e0 , mask 0x04 ",1
+be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+81abd0a1,rts : <*> <*> <*> : <*> type <*> <*> <*> type <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+8e94d4db,<*> : <*> <*> ( <*> ) failed : <*> <*> <*> <*> <*> ,2
+2ed446ff,"CE sym 29 , at <*> , mask <*> ",3
+23612c3d,"CE sym 15 , at <*> , mask 0x04 ",2
 bf10d105,"CE sym 16 , at <*> , mask 0x80 ",2
-6fbbf8f2,ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:34903 : Link has been severed ,1
-afaa8485,<*> : <*> <*> <*> <*> for <*> <*> ,3
-b3dc44a2,"CE sym 2 , at <*> , mask 0x08 ",1
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-51e77beb,critical input interrupt ( unit=0x0b bit=0x06 ) : warning for torus y+ wire ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+4165b6b6,critical input interrupt ( unit=0x0b <*> ) : warning for torus <*> wire ,2
 2cf9e5b9,"CE sym 5 , at <*> , mask <*> ",1
-25d9da4a,"CE sym 4 , at <*> , mask <*> ",2
-2ed00a63,"ciod : Error loading <*> : invalid or missing program image , Permission denied ",12
-81a22c32,ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:53591 : Link has been severed ,1
-92e92f11,total of <*> ddr error ( s ) detected and corrected ,1
+73effb77,"ciod : Error loading <*> : invalid or missing program image , <*> <*> ",7
+4d34cee3,total of 2 ddr error ( s ) detected and corrected ,1
+2f83c2ec,ciod : Error <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> ,2
 b2e056ec,"ciod : Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/vnm.rts : invalid or missing program image , Permission denied ",3
-1b570c03,"4 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit <*> ",2
-f3bf9d68,4 tree receiver 2 in re-synch state event ( s ) ( dcr 0x019a ) detected ,1
+517dede2,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> ",2
+1ab1a25a,"4 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> , <*> <*> ",2
 362002c1,"CE sym 23 , at <*> , mask <*> ",1
 9f1199a9,data cache search parity error detected . attempting to correct ,6
 d030766d,"CE sym 12 , at 0x18e33e80 , mask 0x04 ",2
 b5f8f0ab,<*> <*> ,1
-dd027acf,"ciod : Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace : invalid or missing program image , Exec format error ",2
-2d46797b,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 17 , bit 7 ",1
-29cba22e,critical input interrupt ( unit=0x0b bit=0x0b ) : warning for torus z- wire ,1
-d9d23f3e,<*> tree receiver 2 in re-synch state event ( s ) ( dcr 0x019a ) detected ,1
-962e1d8c,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( <*> <*> 00000002 00000000 ) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007 ",2
-91649fc4,"CE sym 29 , at 0x1b719940 , mask 0x02 ",1
+a638070a,"<*> : <*> <*> <*> : <*> <*> <*> <*> <*> , <*> <*> <*> ",2
+962e1d8c,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( <*> <*> 00000002 00000000 ) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007 ",3
 6c287946,"CE sym 27 , at 0x1b70b860 , mask 0x80 ",2
-bac62821,"CE sym 30 , at <*> , mask 0x04 ",1
-9e682643,"ciod : Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDGbglV : invalid or missing program image , No such file or directory ",1
-6e727f4e,"ciod : Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDGbglV : invalid or missing program image , No such file or directory ",1
-21b26d63,iar 00106210 dear 0244c1dc ,4
+2ed00a63,"ciod : Error loading <*> : invalid or missing program image , Permission denied ",2
 cef15203,640404 floating point alignment exceptions ,5
 3ebae4d9,iar 00106210 dear 0244c20c ,5
 1d41555e,iar 00106228 dear 0244c1ec ,5
 4e00d344,iar 00106228 dear 0244c21c ,3
 51c7dfb8,iar 001061dc dear 0244c22c ,6
 b1bf9749,iar 001061dc dear 0244c28c ,3
-c91691ab,640764 floating point alignment exceptions ,1
-8644081e,iar 00106210 dear 0244c23c ,2
-3e20b7c6,iar 00106210 dear <*> ,1
+368430a9,<*> floating point alignment exceptions ,13
+3e20b7c6,iar 00106210 dear <*> ,3
 85d4c70c,iar 00106228 dear <*> ,1
 448462f7,iar 00106228 dear 0244c27c ,3
-5f6bcf45,iar 00106568 dear 02494bbc ,2
-64ef34d0,487476 floating point alignment exceptions ,2
-b31bc70a,iar 00106580 dear 02494bcc ,2
 e8d23226,iar 00106534 dear 02494c0c ,2
-685af7eb,iar 00106580 dear 02494bfc ,2
 6bbddb6f,iar 00106568 dear 02494bec ,2
 668a2161,iar 00106534 dear 02494c3c ,3
-7ae8804e,iar 00106580 dear 02494c2c ,2
 bfcf1a32,2354412 floating point alignment exceptions ,15
 00a9d631,iar 00106580 dear 045e141c ,3
-e5466c8f,iar 00106534 dear 045e145c ,1
-a4dcc054,iar 00106580 dear 045e148c ,1
+fd238c88,iar 00106580 dear <*> ,1
 1d17f4af,62500 floating point alignment exceptions ,3
-424850a7,iar <*> dear 0245ccfc ,4
-a45cdeb9,iar 00106bd8 dear <*> ,6
-d1d5ff96,iar 00106b8c dear 0245ce8c ,1
-d9ef1279,iar 00106bc0 dear <*> ,2
-96062e25,iar 00106b8c dear 0245cf5c ,1
+a45cdeb9,iar 00106bd8 dear <*> ,5
+424850a7,iar <*> dear 0245ccfc ,2
 f0ebe862,iar 0010686c dear <*> ,2
-368430a9,<*> floating point alignment exceptions ,7
 19b28ef9,iar 00106704 dear <*> ,5
-08f50b67,iar 001063a0 dear 02f67e4c ,1
-92711610,iar 001064fc dear 0245b64c ,2
-1ea9b5fa,16604010 floating point alignment exceptions ,1
-c011b07e,16469355 floating point alignment exceptions ,1
-dfc65297,16736445 floating point alignment exceptions ,1
+51cac38c,iar <*> dear 0245b64c ,3
 c87dedff,iar 00105fd4 dear 0245a09c ,2
 19768bc1,iar <*> dear 0245a09c ,1
 fb1b4677,iar 001061ec dear 02f6668c ,2
-893416b4,74350836 floating point alignment exceptions ,1
-2e2dc9bf,iar 0010650c dear 0246a95c ,1
-89cdaf4f,iar 001069a8 dear 02f7bd7c ,1
-751c74f5,iar 001066ac dear 0252524c ,1
-97def4f2,iar 001066c4 dear 0252528c ,1
-d1f85239,iar 001066c4 dear 025251fc ,1
-d4ddfa32,iar 001007b8 dear 065b4c7c ,1
-bb23a2be,iar 001007a8 dear 065b4cac ,1
-92e7db1d,ciod : generated 128 core files for program /g/g20/valone1/SPaSM-shock/SPaSM_mpi ,1
-9e45c8b8,iar 001066ac dear 0252523c ,1
-10b9d8fa,iar 001066c4 dear 0252527c ,1
-308003eb,iar 001066c4 dear 0252523c ,1
-5a76de7b,iar 001066ac dear 025252bc ,1
-dbad9d28,iar 001066c4 dear 0252529c ,1
-48ceb658,iar 00106570 dear 0245a5bc ,1
-3522afba,iar 00106570 dear 0245a5ec ,1
-34b63f7f,iar 0010653c dear 0245a63c ,1
-9fd8ed87,iar 001061d4 dear 024696cc ,1
-e941d102,"CE sym <*> , at <*> , mask 0x80 ",1
-dd6dd1bd,"<*> ddr errors ( s ) detected and corrected on rank 0 , symbol 18 , bit <*> ",1
-336ceeaf,"ciod : Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1 : invalid or missing program image , Permission denied ",2
-d36b30b4,"CE sym 30 , at 0x042358a0 , mask 0x20 ",2
-be9259ee,ciod : generated 128 core files for program /g/g24/germann2/BGL-demo/SPaSM_mpi ,1
-a35cb19c,iar 001061e8 dear 0247012c ,2
+1f904271,iar 001066ac dear <*> ,3
+e3566c1d,iar 001066c4 dear <*> ,5
+c5f61906,<*> : <*> <*> <*> <*> <*> <*> <*> ,4
+97b2a363,"<*> <*> <*> ( <*> ) <*> <*> <*> <*> <*> 0 , <*> <*> , <*> <*> ",1
+fdb4853a,"ciod : <*> <*> <*> : <*> or <*> <*> <*> , <*> <*> ",2
 29b2520c,iar 001061e8 dear 0247015c ,5
 945c175a,iar 00106200 dear <*> ,1
-999d7476,iar 001061b4 dear <*> ,2
 4975dfb2,iar 00106200 dear 0247019c ,3
 5099151a,iar 001061e8 dear <*> ,1
 797e73ae,iar 001061b4 dear 0247017c ,3
-9ee0df2a,iar 00106c0c dear 0246de1c ,1
 2eb49ada,iar 00106448 dear <*> ,4
 8427aeb0,iar 00113898 dear 0fee9c4c ,2
-ba33586d,5 torus receiver z+ input pipe error ( s ) ( dcr 0x02f0 ) detected and corrected ,1
-425f9fb5,<*> L3 EDRAM error ( s ) ( dcr 0x0157 ) detected and corrected ,1
-07d61d2a,"<*> ddr errors ( s ) detected and corrected on rank 0 , symbol 4 , bit 4 ",1
-a081fee9,"CE sym 15 , at 0x1bb2fe80 , mask 0x02 ",1
-8570473b,488205 floating point alignment exceptions ,1
-4216158b,ciod : generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.new_comp ,1
-2921c0e8,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( softheader=00ce22e8 e6200003 00000002 00000000 ) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007 ",1
-5a8238d8,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( softheader=00ce22e8 e6200003 00000002 00000000 ) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007 ",1
-c5a4454f,"critical input interrupt ( unit=0x0b bit=0x0a ) : warning for torus z+ wire , suppressing further interrupts of same type ",2
-d87c2d6a,ciod : generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.rel2 ,1
-8a4b0c94,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( <*> <*> 00000002 00000000 ) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007 ",1
-7c8c2ae3,18507114 torus sender z- retransmission error ( s ) ( dcr 0x02f9 ) detected and corrected over 198 seconds ,1
-288b12f9,26741629 torus sender z- retransmission error ( s ) ( dcr 0x02f9 ) detected and corrected over 268 seconds ,1
-6b7706d2,"ciod : Received signal 15 , code=0 , errno=0 , address=0x000001b0 ",4
+592f7614,<*> L3 <*> <*> ( <*> ) ( <*> <*> ) <*> <*> <*> ,1
+181980f9,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> , <*> 4 , <*> 4 ",1
+c97c88a2,"CE sym 15 , at <*> , mask <*> ",1
+86514809,ciod : <*> <*> <*> <*> <*> <*> <*> ,2
+ab764590,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( <*> <*> 00000002 00000000 ) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007 ",2
+c911f591,"critical input interrupt ( unit=0x0b <*> ) : warning for torus <*> wire , suppressing further interrupts of same type ",2
+457bca63,ciod : generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111 ,2
+c1c237c5,"<*> : <*> <*> <*> : <*> <*> <*> <*> <*> , <*> <*> ",2
+571e714d,<*> torus sender z- retransmission error ( s ) ( dcr 0x02f9 ) detected and corrected over <*> seconds ,2
+f3b22578,"ciod : Received signal 15 , code=0 , errno=0 , <*> ",11
 c1937d90,ciod : generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV ,2
-faa95ec0,Lustre mount FAILED : bglio78 : block_id : location ,1
+b0cc03c2,<*> <*> <*> : <*> : <*> : <*> ,2
 61c03007,MACHINE CHECK DCR read timeout ( mc=e08x iar 0x00000000 lr 0xc00045a4 ) ,7
-f3b22578,"ciod : Received signal 15 , code=0 , errno=0 , <*> ",3
-64837ff9,"ciod : Error reading message prefix on CioStream socket to 172.16.96.116:41554 , Connection timed out ",1
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
 703bdeea,"ciod : Error reading message prefix on CioStream socket to <*> , Connection reset by peer ",4
-46ea78b7,"<*> <*> <*> <*> <*> , <*> , <*> , <*> ",2
-6e5a3cf2,"ciod : Error reading message prefix on CioStream socket to 172.16.96.116:41060 , Connection timed out ",1
-0f19dbfa,dbcr0=0x00000000 dbsr=0x00000000 ccr0=0x40002000 ,1
+46ea78b7,"<*> <*> <*> <*> <*> , <*> , <*> , <*> ",5
+e0afaf2b,<*> <*> <*> ,1
 bc519fb1,"ciod : Error reading message prefix on CioStream socket to <*> , Link has been severed ",8
-9491defd,"ciod : Received signal 15 , code=0 , errno=0 , address=0x000001f5 ",3
-c92825a2,"ciod : Received signal 15 , code=0 , errno=0 , address=0x000001f2 ",4
-e6e4d409,r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000 ,1
-019f5c45,13 tree receiver 1 in re-synch state event ( s ) ( dcr 0x0185 ) detected over 4562 seconds ,1
-cce5ae74,"CE sym <*> , at <*> , mask 0x02 ",1
-aece074c,<*> <*> <*> <*> ( <*> ) <*> <*> <*> <*> <*> <*> <*> ,2
-f4a9c7e9,0 microseconds spent in the rbs signal handler during 0 calls . 0 microseconds was the maximum time for a single instance of a correctable ddr . ,51
-9858510d,"10722 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",6
-4c66a48f,"10740 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",3
-074b7a87,"<*> total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",30
-24dbc560,"10732 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",2
-1e6311eb,"10686 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",2
-0baf826d,"10730 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",2
+a2d33c5f,<*> <*> <*> 1 in <*> <*> <*> ( <*> ) ( <*> <*> ) <*> <*> <*> <*> ,1
+390ff9d2,ciod : <*> <*> <*> <*> <*> <*> : No such file or directory ,2
+eecb63e5,0 microseconds <*> <*> the <*> <*> <*> <*> 0 <*> . 0 microseconds <*> the <*> <*> <*> a <*> <*> <*> a <*> <*> . ,13
+f4a9c7e9,0 microseconds spent in the rbs signal handler during 0 calls . 0 microseconds was the maximum time for a single instance of a correctable ddr . ,38
+9858510d,"10722 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",7
+074b7a87,"<*> total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",43
+386eef54,"<*> total interrupts . 0 critical input interrupts . 0 microseconds total <*> <*> critical input interrupts , 0 microseconds <*> <*> <*> <*> critical input <*> . ",8
 ead3028e,"10752 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",3
-5da562b0,"10676 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",4
-a5650b59,<*> total interrupts . 0 critical input interrupts . 0 microseconds total <*> <*> critical input interrupts <*> 0 microseconds <*> <*> <*> <*> critical input <*> . ,5
-dd36abca,"10718 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",2
-1316f675,"10738 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",3
-bc0e152a,"10698 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",3
+5f66a5dc,"<*> total interrupts . 0 critical input interrupts . 0 microseconds total <*> on critical input interrupts , 0 microseconds <*> <*> <*> <*> critical input <*> . ",4
 14cd092a,"10684 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",3
-423ac514,"<*> <*> <*> . 0 <*> <*> <*> . 0 microseconds <*> spent <*> <*> <*> <*> , 0 microseconds <*> time in a <*> <*> <*> . ",1
-7079b079,"720 total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",2
-9a11746c,"CE sym 27 , at 0x00284720 , mask 0x11 ",1
-eac761fe,"CE sym 15 , at 0x06a72120 , mask 0x04 ",1
-230f6547,"1 ddr error ( s ) detected and corrected on rank 0 , symbol 24 over 335 seconds ",1
-985d168c,"PrepareForService shutting down <*> <*> ( mLctn ( <*> ) , mCardSernum ( <*> ) , mLp ( FF : F2:9F:16 : <*> : <*> : <*> ) , mIp ( <*> ) , mType ( 4 ) ) as part of Service Action <*> ",1
-d9bcf4d2,"<*> <*> <*> <*> <*> <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ",1
-23160aef,1 tree receiver 1 in re-synch state event ( s ) ( dcr 0x0185 ) detected over 244 seconds ,1
-ff7de711,"CE sym 33 , at <*> , mask 0x04 ",1
-97106c03,"159 ddr error ( s ) detected and corrected on rank 0 , symbol 29 over 2486 seconds ",1
-8c0eb39a,"CE sym 29 , at 0x0ea9fd60 , mask 0x40 ",1
-360de6a7,total of 1 ddr error ( s ) detected and corrected over 2487 seconds ,1
-388054e8,Lustre mount FAILED : bglio617 : block_id : location ,1
+615e9806,"<*> total interrupts . 0 critical input interrupts . 0 microseconds total <*> on critical input interrupts , 0 microseconds <*> <*> in <*> critical input <*> . ",3
+e0b696df,"1 ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",2
+599dd3a6,"<*> <*> <*> <*> <*> ( <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> : <*> : <*> : <*> : <*> ) , <*> ( <*> ) , <*> ( <*> ) ) <*> <*> <*> <*> <*> <*> ",1
+d9bcf4d2,"<*> <*> <*> <*> <*> <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ",9
+ece44c43,1 <*> <*> 1 in <*> <*> <*> ( <*> ) ( <*> <*> ) <*> <*> <*> <*> ,1
+c5049686,"<*> ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",2
+8f18ddf1,total of <*> ddr error ( s ) detected and corrected over <*> seconds ,4
 997b99d2,<*> <*> <*> 0 ,1
-a07cf3e9,"critical input interrupt ( unit=0x0b bit=0x17 ) : warning for tree C1 wire , suppressing further interrupts of same type ",1
-79544b95,<*> of <*> <*> of <*> ......... 0 <*> <*> <*> ,1
-1f05344d,"<*> <*> <*> <*> <*> <*> ( <*> ) iar 0x00544ea8 , dear <*> ( <*> ) iar 0x00544eb8 , dear <*> ( <*> ) iar 0x00544ea8 , dear <*> ( <*> ) iar 0x00544eb8 , dear <*> ( <*> ) iar 0x00544ee0 , dear <*> ( <*> ) iar 0x00544ef0 , dear <*> ( <*> ) iar 0x00544ee0 , dear <*> ( <*> ) iar 0x00544ef0 , dear <*> ",8
-4cf30d78,"<*> : <*> <*> <*> : <*> or <*> <*> <*> , <*> <*> <*> or <*> ",2
-3f93565f,"1 ddr error ( s ) detected and corrected on rank 0 , symbol 9 over 986 seconds ",1
-ee3af3dc,total of 5 ddr error ( s ) detected and corrected over 9108 seconds ,1
-8bf4f034,"ciod : Error loading /bgl/apps/SWL/stability/MDCASK/WORK/1383/inferno : invalid or missing program image , Permission denied ",1
-73effb77,"ciod : Error loading <*> : invalid or missing program image , <*> <*> ",1
-e94f67b9,"28 ddr error ( s ) detected and corrected on rank 0 , symbol 21 over 11562 seconds ",1
+8a0b439b,"critical input interrupt ( unit=0x0b <*> ) : warning for <*> <*> wire , suppressing further interrupts of same type ",1
+2bd97ac6,<*> <*> <*> <*> <*> L3 <*> 0 ( <*> ) ,1
+d6e340bd,ciod : <*> <*> <*> : <*> <*> <*> program <*> <*> <*> <*> ,1
+9a750e8b,"28 ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",1
 0bdbb445,ciod : LOGIN chdir ( <*> ) failed : <*> <*> ,1
-19e5a426,"2 ddr error ( s ) detected and corrected on rank 0 , symbol 28 over 3365 seconds ",1
-68ef1654,"2 ddr error ( s ) detected and corrected on rank 0 , symbol 34 over 2738 seconds ",1
-92ee00a3,"5 ddr error ( s ) detected and corrected on rank 0 , symbol 28 over 2946 seconds ",1
-c5810c2e,total of 20 ddr error ( s ) detected and corrected over 22070 seconds ,1
-79e1ff38,<*> L3 EDRAM error ( s ) ( dcr 0x0157 ) detected and corrected <*> <*> <*> ,1
-336bbe80,total of 3 ddr error ( s ) detected and corrected over 8732 seconds ,1
-54434c5f,ciod : generated 128 core files for program /g/g24/germann2/SPaSM_static/SPaSM_mpi ,1
+f94c5e30,"<*> ddr error ( s ) detected and corrected on rank 0 , symbol 28 over <*> seconds ",2
+ea5728b6,<*> L3 <*> <*> ( <*> ) ( <*> <*> ) <*> <*> <*> <*> <*> <*> ,1
 bcac4c77,"ciod : Error loading <*> : program image <*> <*> , <*> <*> <*> ",1
-4c1599e6,fpr29=0xffffffff ffffffff ffffffff ffffffff ,1
-98cd2ae6,Machine State Register : 0x0002f900 ,1
-b003db08,ciod : generated 128 core files for program /g/g24/germann2/SPaSM_mini/MEAM/r13 ,1
+eaed9db0,<*> ffffffff ffffffff ffffffff ,1
+80768c28,<*> <*> <*> : <*> ,1

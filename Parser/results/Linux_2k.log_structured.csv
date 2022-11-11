@@ -23,13 +23,13 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 22,Jun,15,12:12:34,combo,sshd(pam_unix),23395,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
 23,Jun,15,12:12:34,combo,sshd(pam_unix),23404,check pass; user unknown,003257e2,check pass ; user unknown 
 24,Jun,15,12:12:34,combo,sshd(pam_unix),23404,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
-25,Jun,15,12:12:34,combo,sshd(pam_unix),23399,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+25,Jun,15,12:12:34,combo,sshd(pam_unix),23399,check pass; user unknown,003257e2,check pass ; user unknown 
 26,Jun,15,12:12:34,combo,sshd(pam_unix),23399,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
-27,Jun,15,12:12:34,combo,sshd(pam_unix),23406,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+27,Jun,15,12:12:34,combo,sshd(pam_unix),23406,check pass; user unknown,003257e2,check pass ; user unknown 
 28,Jun,15,12:12:34,combo,sshd(pam_unix),23406,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
 29,Jun,15,12:12:34,combo,sshd(pam_unix),23396,check pass; user unknown,003257e2,check pass ; user unknown 
 30,Jun,15,12:12:34,combo,sshd(pam_unix),23394,check pass; user unknown,003257e2,check pass ; user unknown 
-31,Jun,15,12:12:34,combo,sshd(pam_unix),23407,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+31,Jun,15,12:12:34,combo,sshd(pam_unix),23407,check pass; user unknown,003257e2,check pass ; user unknown 
 32,Jun,15,12:12:34,combo,sshd(pam_unix),23394,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
 33,Jun,15,12:12:34,combo,sshd(pam_unix),23403,check pass; user unknown,003257e2,check pass ; user unknown 
 34,Jun,15,12:12:34,combo,sshd(pam_unix),23396,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
@@ -51,13 +51,13 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 50,Jun,15,14:53:33,combo,sshd(pam_unix),23665,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
 51,Jun,15,14:53:34,combo,sshd(pam_unix),23669,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 52,Jun,15,14:53:34,combo,sshd(pam_unix),23669,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
-53,Jun,15,14:53:35,combo,sshd(pam_unix),23671,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+53,Jun,15,14:53:35,combo,sshd(pam_unix),23671,check pass; user unknown,003257e2,check pass ; user unknown 
 54,Jun,15,14:53:35,combo,sshd(pam_unix),23671,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
-55,Jun,15,14:53:35,combo,sshd(pam_unix),23673,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+55,Jun,15,14:53:35,combo,sshd(pam_unix),23673,check pass; user unknown,003257e2,check pass ; user unknown 
 56,Jun,15,14:53:35,combo,sshd(pam_unix),23673,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
-57,Jun,15,14:53:35,combo,sshd(pam_unix),23674,check pass; user unknown,003257e2,check pass ; user unknown 
+57,Jun,15,14:53:35,combo,sshd(pam_unix),23674,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 58,Jun,15,14:53:35,combo,sshd(pam_unix),23674,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
-59,Jun,15,14:53:36,combo,sshd(pam_unix),23678,check pass; user unknown,003257e2,check pass ; user unknown 
+59,Jun,15,14:53:36,combo,sshd(pam_unix),23678,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 60,Jun,15,14:53:36,combo,sshd(pam_unix),23678,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
 61,Jun,15,14:53:36,combo,sshd(pam_unix),23677,check pass; user unknown,003257e2,check pass ; user unknown 
 62,Jun,15,14:53:36,combo,sshd(pam_unix),23677,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
@@ -80,7 +80,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 79,Jun,17,04:03:34,combo,su(pam_unix),27953,session closed for user cyrus,5821dde8,session closed for user cyrus 
 80,Jun,17,04:03:36,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 81,Jun,17,04:09:43,combo,su(pam_unix),29190,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
-82,Jun,17,04:09:45,combo,su(pam_unix),29190,session closed for user news,8ff7d7b9,session closed for user news 
+82,Jun,17,04:09:45,combo,su(pam_unix),29190,session closed for user news,09a6b4af,session <*> for user <*> 
 83,Jun,17,07:07:00,combo,ftpd,29504,connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 <*> 2005,0bcf89fc,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fri Jun 17 < * > 2005 
 84,Jun,17,07:07:00,combo,ftpd,29508,connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 <*> 2005,0bcf89fc,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fri Jun 17 < * > 2005 
 85,Jun,17,07:07:00,combo,ftpd,29507,connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 <*> 2005,0bcf89fc,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fri Jun 17 < * > 2005 
@@ -100,8 +100,8 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 99,Jun,17,20:55:07,combo,ftpd,30758,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 <*> 2005,92dbf4b8,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Fri Jun 17 < * > 2005 
 100,Jun,17,20:55:07,combo,ftpd,30759,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 <*> 2005,92dbf4b8,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Fri Jun 17 < * > 2005 
 101,Jun,18,01:30:59,combo,sshd(pam_unix),31201,check pass; user unknown,003257e2,check pass ; user unknown 
-102,Jun,18,01:30:59,combo,sshd(pam_unix),31201,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
-103,Jun,18,01:30:59,combo,sshd(pam_unix),31199,check pass; user unknown,003257e2,check pass ; user unknown 
+102,Jun,18,01:30:59,combo,sshd(pam_unix),31201,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,8d0d7996,<*> <*> ; <*> <*> <*> <*> <*> <*> 
+103,Jun,18,01:30:59,combo,sshd(pam_unix),31199,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 104,Jun,18,01:30:59,combo,sshd(pam_unix),31199,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
 105,Jun,18,01:30:59,combo,sshd(pam_unix),31198,check pass; user unknown,003257e2,check pass ; user unknown 
 106,Jun,18,01:30:59,combo,sshd(pam_unix),31198,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
@@ -109,7 +109,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 108,Jun,18,01:30:59,combo,sshd(pam_unix),31202,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
 109,Jun,18,01:30:59,combo,sshd(pam_unix),31205,check pass; user unknown,003257e2,check pass ; user unknown 
 110,Jun,18,01:30:59,combo,sshd(pam_unix),31205,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
-111,Jun,18,01:30:59,combo,sshd(pam_unix),31200,check pass; user unknown,003257e2,check pass ; user unknown 
+111,Jun,18,01:30:59,combo,sshd(pam_unix),31200,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 112,Jun,18,01:30:59,combo,sshd(pam_unix),31200,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
 113,Jun,18,01:30:59,combo,sshd(pam_unix),31206,check pass; user unknown,003257e2,check pass ; user unknown 
 114,Jun,18,01:30:59,combo,sshd(pam_unix),31206,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
@@ -134,7 +134,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 133,Jun,18,02:08:12,combo,ftpd,31284,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 <*> 2005,ff6a2610,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 < * > 2005 
 134,Jun,18,02:08:12,combo,ftpd,31285,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 <*> 2005,ff6a2610,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 < * > 2005 
 135,Jun,18,02:08:12,combo,ftpd,31286,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 <*> 2005,ff6a2610,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 < * > 2005 
-136,Jun,18,02:23:10,combo,ftpd,31277,User unknown timed out after 900 seconds at Sat Jun 18 <*> 2005,1dd089ff,<*> <*> <*> <*> <*> <*> <*> at Sat Jun <*> < * > 2005 
+136,Jun,18,02:23:10,combo,ftpd,31277,User unknown timed out after 900 seconds at Sat Jun 18 <*> 2005,af66da99,<*> <*> <*> <*> <*> <*> <*> at <*> Jun <*> < * > 2005 
 137,Jun,18,04:07:05,combo,su(pam_unix),31791,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 138,Jun,18,04:07:06,combo,su(pam_unix),31791,session closed for user cyrus,5821dde8,session closed for user cyrus 
 139,Jun,18,04:07:06,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
@@ -168,19 +168,19 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 167,Jun,20,04:44:39,combo,snmpd,2318,Received SNMP packet(s) from 67.170.148.126,34437324,<*> <*> <*> ( <*> ) from <*> 
 168,Jun,20,09:20:05,combo,sshd(pam_unix),10035,check pass; user unknown,003257e2,check pass ; user unknown 
 169,Jun,20,09:20:05,combo,sshd(pam_unix),10035,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
-170,Jun,20,09:20:05,combo,sshd(pam_unix),10037,check pass; user unknown,003257e2,check pass ; user unknown 
+170,Jun,20,09:20:05,combo,sshd(pam_unix),10037,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 171,Jun,20,09:20:05,combo,sshd(pam_unix),10037,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
 172,Jun,20,09:20:05,combo,sshd(pam_unix),10039,check pass; user unknown,003257e2,check pass ; user unknown 
 173,Jun,20,09:20:05,combo,sshd(pam_unix),10039,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
-174,Jun,20,09:20:06,combo,sshd(pam_unix),10041,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+174,Jun,20,09:20:06,combo,sshd(pam_unix),10041,check pass; user unknown,003257e2,check pass ; user unknown 
 175,Jun,20,09:20:06,combo,sshd(pam_unix),10041,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
 176,Jun,20,09:20:07,combo,sshd(pam_unix),10043,check pass; user unknown,003257e2,check pass ; user unknown 
 177,Jun,20,09:20:07,combo,sshd(pam_unix),10043,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
 178,Jun,20,09:20:07,combo,sshd(pam_unix),10045,check pass; user unknown,003257e2,check pass ; user unknown 
 179,Jun,20,09:20:07,combo,sshd(pam_unix),10045,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
-180,Jun,20,09:20:07,combo,sshd(pam_unix),10047,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+180,Jun,20,09:20:07,combo,sshd(pam_unix),10047,check pass; user unknown,003257e2,check pass ; user unknown 
 181,Jun,20,09:20:07,combo,sshd(pam_unix),10047,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
-182,Jun,20,09:20:07,combo,sshd(pam_unix),10049,check pass; user unknown,003257e2,check pass ; user unknown 
+182,Jun,20,09:20:07,combo,sshd(pam_unix),10049,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 183,Jun,20,09:20:07,combo,sshd(pam_unix),10049,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
 184,Jun,20,09:20:08,combo,sshd(pam_unix),10051,check pass; user unknown,003257e2,check pass ; user unknown 
 185,Jun,20,09:20:08,combo,sshd(pam_unix),10051,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,3cd46985,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14 
@@ -190,7 +190,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 189,Jun,21,04:06:58,combo,su(pam_unix),12098,session closed for user cyrus,5821dde8,session closed for user cyrus 
 190,Jun,21,04:06:59,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 191,Jun,21,04:13:03,combo,su(pam_unix),13327,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
-192,Jun,21,04:13:04,combo,su(pam_unix),13327,session closed for user news,8ff7d7b9,session closed for user news 
+192,Jun,21,04:13:04,combo,su(pam_unix),13327,session closed for user news,09a6b4af,session <*> for user <*> 
 193,Jun,21,08:56:36,combo,sshd(pam_unix),14281,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,cb8551f9,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66 user=guest 
 194,Jun,21,08:56:36,combo,sshd(pam_unix),14279,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,cb8551f9,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66 user=guest 
 195,Jun,21,08:56:36,combo,sshd(pam_unix),14282,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,cb8551f9,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66 user=guest 
@@ -207,7 +207,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 206,Jun,22,03:17:46,combo,sshd(pam_unix),16219,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 207,Jun,22,03:17:52,combo,sshd(pam_unix),16222,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 208,Jun,22,03:17:55,combo,sshd(pam_unix),16224,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
-209,Jun,22,03:17:56,combo,sshd(pam_unix),16226,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+209,Jun,22,03:17:56,combo,sshd(pam_unix),16226,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 210,Jun,22,03:17:56,combo,sshd(pam_unix),16227,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 211,Jun,22,03:18:02,combo,sshd(pam_unix),16230,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 212,Jun,22,03:18:05,combo,sshd(pam_unix),16232,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
@@ -215,7 +215,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 214,Jun,22,03:18:06,combo,sshd(pam_unix),16235,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 215,Jun,22,03:18:10,combo,sshd(pam_unix),16238,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 216,Jun,22,03:18:12,combo,sshd(pam_unix),16240,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
-217,Jun,22,03:18:15,combo,sshd(pam_unix),16242,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+217,Jun,22,03:18:15,combo,sshd(pam_unix),16242,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 218,Jun,22,03:18:16,combo,sshd(pam_unix),16244,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 219,Jun,22,03:18:16,combo,sshd(pam_unix),16245,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
 220,Jun,22,03:18:20,combo,sshd(pam_unix),16248,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root 
@@ -245,14 +245,14 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 244,Jun,22,04:30:56,combo,sshd(pam_unix),17139,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net,2fb7920a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
 245,Jun,22,04:30:56,combo,sshd(pam_unix),17140,check pass; user unknown,003257e2,check pass ; user unknown 
 246,Jun,22,04:30:56,combo,sshd(pam_unix),17140,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net,2fb7920a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
-247,Jun,22,13:16:30,combo,ftpd,17886,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
+247,Jun,22,13:16:30,combo,ftpd,17886,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 248,Jun,22,13:16:30,combo,ftpd,17889,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 249,Jun,22,13:16:30,combo,ftpd,17887,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 250,Jun,22,13:16:30,combo,ftpd,17888,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 251,Jun,22,13:16:30,combo,ftpd,17890,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 252,Jun,22,13:16:30,combo,ftpd,17893,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 253,Jun,22,13:16:30,combo,ftpd,17879,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
-254,Jun,22,13:16:30,combo,ftpd,17892,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
+254,Jun,22,13:16:30,combo,ftpd,17892,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 255,Jun,22,13:16:30,combo,ftpd,17876,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 256,Jun,22,13:16:30,combo,ftpd,17875,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
 257,Jun,22,13:16:30,combo,ftpd,17877,connection from 210.245.165.136 () at Wed Jun 22 <*> 2005,e5c3af47,connection from 210.245.165.136 ( ) at Wed Jun 22 < * > 2005 
@@ -279,8 +279,8 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 278,Jun,23,01:41:30,combo,sshd(pam_unix),18976,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,6b7c7ceb,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249 user=guest 
 279,Jun,23,01:41:32,combo,sshd(pam_unix),18967,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,6b7c7ceb,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249 user=guest 
 280,Jun,23,02:55:14,combo,sshd(pam_unix),19085,check pass; user unknown,003257e2,check pass ; user unknown 
-281,Jun,23,02:55:14,combo,sshd(pam_unix),19085,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201,9bce0a89,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201 
-282,Jun,23,04:05:28,combo,su(pam_unix),19534,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
+281,Jun,23,02:55:14,combo,sshd(pam_unix),19085,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201,ec133ff2,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> 
+282,Jun,23,04:05:28,combo,su(pam_unix),19534,session opened for user cyrus by (uid=0),8658a593,session <*> for user <*> <*> ( <*> ) 
 283,Jun,23,04:05:29,combo,su(pam_unix),19534,session closed for user cyrus,5821dde8,session closed for user cyrus 
 284,Jun,23,04:05:30,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 285,Jun,23,04:13:08,combo,su(pam_unix),24180,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
@@ -296,18 +296,18 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 295,Jun,23,23:30:05,combo,sshd(pam_unix),26190,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root,ec0a4ca5,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51 user=root 
 296,Jun,24,04:05:34,combo,su(pam_unix),26938,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 297,Jun,24,04:05:35,combo,su(pam_unix),26938,session closed for user cyrus,5821dde8,session closed for user cyrus 
-298,Jun,24,04:05:35,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
+298,Jun,24,04:05:35,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 299,Jun,24,04:11:12,combo,su(pam_unix),27311,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 300,Jun,24,04:11:12,combo,su(pam_unix),27311,session closed for user news,8ff7d7b9,session closed for user news 
 301,Jun,24,18:55:11,combo,ftpd,28568,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
-302,Jun,24,18:55:11,combo,ftpd,28566,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
+302,Jun,24,18:55:11,combo,ftpd,28566,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,0bec7ea6,connection from <*> ( ) at <*> <*> <*> < * > 2005 
 303,Jun,24,18:55:11,combo,ftpd,28562,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 304,Jun,24,18:55:11,combo,ftpd,28563,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 305,Jun,24,18:55:11,combo,ftpd,28565,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 306,Jun,24,18:55:11,combo,ftpd,28564,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 307,Jun,24,18:55:11,combo,ftpd,28567,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 308,Jun,24,18:55:18,combo,ftpd,28570,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
-309,Jun,24,18:55:18,combo,ftpd,28571,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
+309,Jun,24,18:55:18,combo,ftpd,28571,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,0bec7ea6,connection from <*> ( ) at <*> <*> <*> < * > 2005 
 310,Jun,24,18:55:18,combo,ftpd,28569,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 311,Jun,24,18:55:18,combo,ftpd,28572,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
 312,Jun,24,18:55:18,combo,ftpd,28574,connection from 218.69.108.57 () at Fri Jun 24 <*> 2005,01cf6610,connection from 218.69.108.57 ( ) at Fri Jun 24 < * > 2005 
@@ -321,21 +321,21 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 320,Jun,25,04:41:49,combo,sshd(pam_unix),31031,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
 321,Jun,25,04:41:49,combo,sshd(pam_unix),31035,check pass; user unknown,003257e2,check pass ; user unknown 
 322,Jun,25,04:41:49,combo,sshd(pam_unix),31035,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
-323,Jun,25,04:41:49,combo,sshd(pam_unix),31034,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+323,Jun,25,04:41:49,combo,sshd(pam_unix),31034,check pass; user unknown,003257e2,check pass ; user unknown 
 324,Jun,25,04:41:49,combo,sshd(pam_unix),31034,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
 325,Jun,25,04:41:49,combo,sshd(pam_unix),31036,check pass; user unknown,003257e2,check pass ; user unknown 
 326,Jun,25,04:41:49,combo,sshd(pam_unix),31036,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
 327,Jun,25,04:41:51,combo,sshd(pam_unix),31025,check pass; user unknown,003257e2,check pass ; user unknown 
 328,Jun,25,04:41:51,combo,sshd(pam_unix),31025,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
-329,Jun,25,04:41:51,combo,sshd(pam_unix),31028,check pass; user unknown,003257e2,check pass ; user unknown 
+329,Jun,25,04:41:51,combo,sshd(pam_unix),31028,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 330,Jun,25,04:41:51,combo,sshd(pam_unix),31028,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
-331,Jun,25,04:41:51,combo,sshd(pam_unix),31020,check pass; user unknown,003257e2,check pass ; user unknown 
+331,Jun,25,04:41:51,combo,sshd(pam_unix),31020,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 332,Jun,25,04:41:51,combo,sshd(pam_unix),31020,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
 333,Jun,25,04:41:51,combo,sshd(pam_unix),31027,check pass; user unknown,003257e2,check pass ; user unknown 
 334,Jun,25,04:41:51,combo,sshd(pam_unix),31027,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
 335,Jun,25,04:41:51,combo,sshd(pam_unix),31021,check pass; user unknown,003257e2,check pass ; user unknown 
 336,Jun,25,04:41:51,combo,sshd(pam_unix),31021,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
-337,Jun,25,04:41:51,combo,sshd(pam_unix),31024,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
+337,Jun,25,04:41:51,combo,sshd(pam_unix),31024,check pass; user unknown,003257e2,check pass ; user unknown 
 338,Jun,25,04:41:51,combo,sshd(pam_unix),31024,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,3b338c31,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org 
 339,Jun,25,09:20:24,combo,ftpd,31475,connection from 210.118.170.95 () at Sat Jun 25 <*> 2005,27dd1f55,connection from 210.118.170.95 ( ) at Sat Jun 25 < * > 2005 
 340,Jun,25,09:20:24,combo,ftpd,31477,connection from 210.118.170.95 () at Sat Jun 25 <*> 2005,27dd1f55,connection from 210.118.170.95 ( ) at Sat Jun 25 < * > 2005 
@@ -388,7 +388,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 387,Jun,27,08:05:39,combo,sshd(pam_unix),8661,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=troi.bluesky-technologies.com  user=root,aec179ef,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=troi.bluesky-technologies.com user=root 
 388,Jun,28,04:03:15,combo,su(pam_unix),10735,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 389,Jun,28,04:03:16,combo,su(pam_unix),10735,session closed for user cyrus,5821dde8,session closed for user cyrus 
-390,Jun,28,04:03:17,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
+390,Jun,28,04:03:17,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
 391,Jun,28,04:09:00,combo,su(pam_unix),11106,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 392,Jun,28,04:09:01,combo,su(pam_unix),11106,session closed for user news,8ff7d7b9,session closed for user news 
 393,Jun,28,08:10:24,combo,sshd(pam_unix),11513,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93  user=root,c4a284e8,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93 user=root 
@@ -423,7 +423,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 422,Jun,29,03:22:22,combo,ftpd,13262,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 423,Jun,29,03:22:22,combo,ftpd,13257,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 424,Jun,29,03:22:22,combo,ftpd,13261,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
-425,Jun,29,03:22:22,combo,ftpd,13250,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
+425,Jun,29,03:22:22,combo,ftpd,13250,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 426,Jun,29,03:22:22,combo,ftpd,13252,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 427,Jun,29,03:22:22,combo,ftpd,13260,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 428,Jun,29,03:22:22,combo,ftpd,13259,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
@@ -431,7 +431,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 430,Jun,29,03:22:22,combo,ftpd,13258,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 431,Jun,29,03:22:22,combo,ftpd,13255,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 432,Jun,29,03:22:22,combo,ftpd,13254,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
-433,Jun,29,03:22:22,combo,ftpd,13264,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
+433,Jun,29,03:22:22,combo,ftpd,13264,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 434,Jun,29,03:22:22,combo,ftpd,13251,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 435,Jun,29,03:22:22,combo,ftpd,13263,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 436,Jun,29,03:22:22,combo,ftpd,13245,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
@@ -442,7 +442,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 441,Jun,29,03:22:22,combo,ftpd,13253,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 442,Jun,29,03:22:22,combo,ftpd,13247,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 443,Jun,29,03:22:22,combo,ftpd,13248,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
-444,Jun,29,03:22:23,combo,ftpd,13265,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
+444,Jun,29,03:22:23,combo,ftpd,13265,connection from 61.74.96.178 () at Wed Jun 29 <*> 2005,70f97faf,connection from 61.74.96.178 ( ) at Wed Jun 29 < * > 2005 
 445,Jun,29,04:03:10,combo,su(pam_unix),13665,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 446,Jun,29,04:03:11,combo,su(pam_unix),13665,session closed for user cyrus,5821dde8,session closed for user cyrus 
 447,Jun,29,04:03:12,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
@@ -461,8 +461,8 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 460,Jun,29,10:48:01,combo,ftpd,15547,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
 461,Jun,29,10:48:01,combo,ftpd,15543,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
 462,Jun,29,10:48:01,combo,ftpd,15546,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
-463,Jun,29,10:48:01,combo,ftpd,15542,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
-464,Jun,29,10:48:01,combo,ftpd,15544,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,ac11448d,connection from <*> ( ) at Wed <*> <*> < * > 2005 
+463,Jun,29,10:48:01,combo,ftpd,15542,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
+464,Jun,29,10:48:01,combo,ftpd,15544,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
 465,Jun,29,10:48:01,combo,ftpd,15545,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
 466,Jun,29,10:48:05,combo,ftpd,15548,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
 467,Jun,29,10:48:06,combo,ftpd,15549,connection from 208.62.55.75 () at Wed Jun 29 <*> 2005,2fb688e3,connection from 208.62.55.75 ( ) at Wed Jun 29 < * > 2005 
@@ -525,13 +525,13 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 524,Jun,30,19:03:00,combo,sshd(pam_unix),19088,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 525,Jun,30,19:03:00,combo,sshd(pam_unix),19094,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 526,Jun,30,19:03:00,combo,sshd(pam_unix),19087,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
-527,Jun,30,19:03:01,combo,sshd(pam_unix),19093,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+527,Jun,30,19:03:01,combo,sshd(pam_unix),19093,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 528,Jun,30,19:03:01,combo,sshd(pam_unix),19085,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 529,Jun,30,19:03:03,combo,sshd(pam_unix),19091,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 530,Jun,30,19:03:04,combo,sshd(pam_unix),19099,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 531,Jun,30,19:03:04,combo,sshd(pam_unix),19101,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 532,Jun,30,19:03:05,combo,sshd(pam_unix),19103,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
-533,Jun,30,19:03:07,combo,sshd(pam_unix),19097,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+533,Jun,30,19:03:07,combo,sshd(pam_unix),19097,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 534,Jun,30,20:16:17,combo,sshd(pam_unix),19202,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root 
 535,Jun,30,20:16:17,combo,sshd(pam_unix),19203,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root 
 536,Jun,30,20:16:26,combo,sshd(pam_unix),19209,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root 
@@ -584,22 +584,22 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 583,Jun,30,20:53:06,combo,klogind,19285,Kerberos authentication failed,c4147e80,Kerberos authentication failed 
 584,Jun,30,20:53:06,combo,klogind,19284,Kerberos authentication failed,c4147e80,Kerberos authentication failed 
 585,Jun,30,22:16:32,combo,sshd(pam_unix),19432,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-586,Jun,30,22:16:32,combo,sshd(pam_unix),19431,session opened for user test by (uid=509),a7c6b721,session opened for user <*> by ( <*> ) 
+586,Jun,30,22:16:32,combo,sshd(pam_unix),19431,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 587,Jun,30,22:16:32,combo,sshd(pam_unix),19433,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-588,Jun,30,22:16:32,combo,sshd(pam_unix),19434,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+588,Jun,30,22:16:32,combo,sshd(pam_unix),19434,session opened for user test by (uid=509),c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) 
 589,Jun,30,22:16:32,combo,sshd(pam_unix),19435,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-590,Jun,30,22:16:32,combo,sshd(pam_unix),19436,session opened for user test by (uid=509),a7c6b721,session opened for user <*> by ( <*> ) 
+590,Jun,30,22:16:32,combo,sshd(pam_unix),19436,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 591,Jun,30,22:16:32,combo,sshd(pam_unix),19438,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-592,Jun,30,22:16:32,combo,sshd(pam_unix),19437,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+592,Jun,30,22:16:32,combo,sshd(pam_unix),19437,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
 593,Jun,30,22:16:32,combo,sshd(pam_unix),19432,session closed for user test,58e532f7,session closed for user test 
 594,Jun,30,22:16:32,combo,sshd(pam_unix),19431,session closed for user test,58e532f7,session closed for user test 
-595,Jun,30,22:16:32,combo,sshd(pam_unix),19439,session opened for user test by (uid=509),a7c6b721,session opened for user <*> by ( <*> ) 
-596,Jun,30,22:16:32,combo,sshd(pam_unix),19440,session opened for user test by (uid=509),a7c6b721,session opened for user <*> by ( <*> ) 
-597,Jun,30,22:16:32,combo,sshd(pam_unix),19434,session closed for user test,58e532f7,session closed for user test 
-598,Jun,30,22:16:32,combo,sshd(pam_unix),19435,session closed for user test,58e532f7,session closed for user test 
+595,Jun,30,22:16:32,combo,sshd(pam_unix),19439,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+596,Jun,30,22:16:32,combo,sshd(pam_unix),19440,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+597,Jun,30,22:16:32,combo,sshd(pam_unix),19434,session closed for user test,09a6b4af,session <*> for user <*> 
+598,Jun,30,22:16:32,combo,sshd(pam_unix),19435,session closed for user test,09a6b4af,session <*> for user <*> 
 599,Jun,30,22:16:33,combo,sshd(pam_unix),19433,session closed for user test,58e532f7,session closed for user test 
-600,Jun,30,22:16:33,combo,sshd(pam_unix),19436,session closed for user test,58e532f7,session closed for user test 
-601,Jun,30,22:16:33,combo,sshd(pam_unix),19437,session closed for user test,58e532f7,session closed for user test 
+600,Jun,30,22:16:33,combo,sshd(pam_unix),19436,session closed for user test,09a6b4af,session <*> for user <*> 
+601,Jun,30,22:16:33,combo,sshd(pam_unix),19437,session closed for user test,09a6b4af,session <*> for user <*> 
 602,Jun,30,22:16:33,combo,sshd(pam_unix),19438,session closed for user test,58e532f7,session closed for user test 
 603,Jun,30,22:16:33,combo,sshd(pam_unix),19439,session closed for user test,58e532f7,session closed for user test 
 604,Jun,30,22:16:33,combo,sshd(pam_unix),19440,session closed for user test,58e532f7,session closed for user test 
@@ -612,7 +612,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 611,Jul,1,00:21:31,combo,sshd(pam_unix),19631,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 612,Jul,1,00:21:32,combo,sshd(pam_unix),19636,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 613,Jul,1,00:21:32,combo,sshd(pam_unix),19645,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
-614,Jul,1,00:21:35,combo,sshd(pam_unix),19637,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+614,Jul,1,00:21:35,combo,sshd(pam_unix),19637,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root 
 615,Jul,1,04:05:17,combo,su(pam_unix),20298,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 616,Jul,1,04:05:18,combo,su(pam_unix),20298,session closed for user cyrus,5821dde8,session closed for user cyrus 
 617,Jul,1,04:05:19,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
@@ -623,10 +623,10 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 622,Jul,1,05:02:26,combo,sshd(pam_unix),21691,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 623,Jul,1,05:02:26,combo,sshd(pam_unix),21691,session closed for user test,58e532f7,session closed for user test 
 624,Jul,1,05:02:26,combo,sshd(pam_unix),21692,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-625,Jul,1,05:02:26,combo,sshd(pam_unix),21692,session closed for user test,58e532f7,session closed for user test 
+625,Jul,1,05:02:26,combo,sshd(pam_unix),21692,session closed for user test,09a6b4af,session <*> for user <*> 
 626,Jul,1,05:02:27,combo,sshd(pam_unix),21693,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 627,Jul,1,05:02:27,combo,sshd(pam_unix),21693,session closed for user test,58e532f7,session closed for user test 
-628,Jul,1,07:57:30,combo,ftpd,21952,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
+628,Jul,1,07:57:30,combo,ftpd,21952,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 629,Jul,1,07:57:30,combo,ftpd,21951,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 630,Jul,1,07:57:30,combo,ftpd,21957,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 631,Jul,1,07:57:30,combo,ftpd,21953,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
@@ -640,10 +640,10 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 639,Jul,1,07:57:30,combo,ftpd,21940,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 640,Jul,1,07:57:30,combo,ftpd,21941,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 641,Jul,1,07:57:30,combo,ftpd,21946,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
-642,Jul,1,07:57:30,combo,ftpd,21937,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
-643,Jul,1,07:57:30,combo,ftpd,21943,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
-644,Jul,1,07:57:30,combo,ftpd,21944,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
-645,Jul,1,07:57:30,combo,ftpd,21948,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+642,Jul,1,07:57:30,combo,ftpd,21937,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
+643,Jul,1,07:57:30,combo,ftpd,21943,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
+644,Jul,1,07:57:30,combo,ftpd,21944,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
+645,Jul,1,07:57:30,combo,ftpd,21948,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 646,Jul,1,07:57:30,combo,ftpd,21947,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 647,Jul,1,07:57:30,combo,ftpd,21942,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
 648,Jul,1,07:57:30,combo,ftpd,21938,connection from 202.82.200.188 () at Fri Jul  1 <*> 2005,d079a42a,connection from 202.82.200.188 ( ) at Fri Jul 1 < * > 2005 
@@ -656,7 +656,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 655,Jul,1,09:14:44,combo,sshd(pam_unix),22099,session closed for user test,58e532f7,session closed for user test 
 656,Jul,1,09:14:44,combo,sshd(pam_unix),22112,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 657,Jul,1,09:14:44,combo,sshd(pam_unix),22106,session closed for user test,58e532f7,session closed for user test 
-658,Jul,1,09:14:44,combo,sshd(pam_unix),22112,session closed for user test,58e532f7,session closed for user test 
+658,Jul,1,09:14:44,combo,sshd(pam_unix),22112,session closed for user test,09a6b4af,session <*> for user <*> 
 659,Jul,1,10:56:41,combo,sshd(pam_unix),22272,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root 
 660,Jul,1,10:56:41,combo,sshd(pam_unix),22269,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root 
 661,Jul,1,10:56:41,combo,sshd(pam_unix),22277,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root 
@@ -671,21 +671,21 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 670,Jul,2,01:41:32,combo,sshd(pam_unix),23534,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 671,Jul,2,01:41:32,combo,sshd(pam_unix),23535,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 672,Jul,2,01:41:32,combo,sshd(pam_unix),23536,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-673,Jul,2,01:41:32,combo,sshd(pam_unix),23533,session closed for user test,58e532f7,session closed for user test 
+673,Jul,2,01:41:32,combo,sshd(pam_unix),23533,session closed for user test,09a6b4af,session <*> for user <*> 
 674,Jul,2,01:41:32,combo,sshd(pam_unix),23534,session closed for user test,58e532f7,session closed for user test 
-675,Jul,2,01:41:32,combo,sshd(pam_unix),23535,session closed for user test,58e532f7,session closed for user test 
+675,Jul,2,01:41:32,combo,sshd(pam_unix),23535,session closed for user test,09a6b4af,session <*> for user <*> 
 676,Jul,2,01:41:32,combo,sshd(pam_unix),23536,session closed for user test,58e532f7,session closed for user test 
 677,Jul,2,01:41:33,combo,sshd(pam_unix),23544,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 678,Jul,2,01:41:33,combo,sshd(pam_unix),23544,session closed for user test,58e532f7,session closed for user test 
-679,Jul,2,01:41:33,combo,sshd(pam_unix),23545,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-680,Jul,2,01:41:33,combo,sshd(pam_unix),23546,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-681,Jul,2,01:41:33,combo,sshd(pam_unix),23547,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+679,Jul,2,01:41:33,combo,sshd(pam_unix),23545,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
+680,Jul,2,01:41:33,combo,sshd(pam_unix),23546,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
+681,Jul,2,01:41:33,combo,sshd(pam_unix),23547,session opened for user test by (uid=509),c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) 
 682,Jul,2,01:41:33,combo,sshd(pam_unix),23545,session closed for user test,58e532f7,session closed for user test 
-683,Jul,2,01:41:33,combo,sshd(pam_unix),23546,session closed for user test,58e532f7,session closed for user test 
+683,Jul,2,01:41:33,combo,sshd(pam_unix),23546,session closed for user test,09a6b4af,session <*> for user <*> 
 684,Jul,2,01:41:33,combo,sshd(pam_unix),23547,session closed for user test,58e532f7,session closed for user test 
 685,Jul,2,04:04:02,combo,su(pam_unix),24117,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 686,Jul,2,04:04:02,combo,su(pam_unix),24117,session closed for user cyrus,5821dde8,session closed for user cyrus 
-687,Jul,2,04:04:03,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
+687,Jul,2,04:04:03,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
 688,Jul,2,04:09:53,combo,su(pam_unix),24511,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 689,Jul,2,04:09:54,combo,su(pam_unix),24511,session closed for user news,8ff7d7b9,session closed for user news 
 690,Jul,2,04:15:33,combo,sshd(pam_unix),24588,check pass; user unknown,003257e2,check pass ; user unknown 
@@ -726,10 +726,10 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 725,Jul,3,10:05:25,combo,ftpd,32062,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
 726,Jul,3,10:05:25,combo,ftpd,32063,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
 727,Jul,3,10:05:25,combo,ftpd,32059,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
-728,Jul,3,10:05:25,combo,ftpd,32060,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
+728,Jul,3,10:05:25,combo,ftpd,32060,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 729,Jul,3,10:05:25,combo,ftpd,32071,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
 730,Jul,3,10:05:25,combo,ftpd,32051,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
-731,Jul,3,10:05:25,combo,ftpd,32057,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+731,Jul,3,10:05:25,combo,ftpd,32057,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
 732,Jul,3,10:05:25,combo,ftpd,32050,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
 733,Jul,3,10:05:25,combo,ftpd,32056,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
 734,Jul,3,10:05:25,combo,ftpd,32058,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 <*> 2005,ba9cfa14,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 < * > 2005 
@@ -759,7 +759,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 758,Jul,3,23:16:09,combo,ftpd,774,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 
 759,Jul,3,23:16:09,combo,ftpd,775,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 
 760,Jul,3,23:16:09,combo,ftpd,771,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 
-761,Jul,3,23:16:09,combo,ftpd,776,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+761,Jul,3,23:16:09,combo,ftpd,776,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 
 762,Jul,3,23:16:09,combo,ftpd,777,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 
 763,Jul,3,23:16:09,combo,ftpd,778,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 <*> 2005,87047fd8,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 < * > 2005 
 764,Jul,4,04:03:06,combo,su(pam_unix),1583,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
@@ -806,9 +806,9 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 805,Jul,4,19:16:00,combo,sshd(pam_unix),3399,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,358bbed7,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87 user=root 
 806,Jul,4,19:16:00,combo,sshd(pam_unix),3398,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,358bbed7,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87 user=root 
 807,Jul,4,19:16:01,combo,sshd(pam_unix),3402,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,358bbed7,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87 user=root 
-808,Jul,5,04:03:16,combo,su(pam_unix),4474,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
+808,Jul,5,04:03:16,combo,su(pam_unix),4474,session opened for user cyrus by (uid=0),8658a593,session <*> for user <*> <*> ( <*> ) 
 809,Jul,5,04:03:17,combo,su(pam_unix),4474,session closed for user cyrus,5821dde8,session closed for user cyrus 
-810,Jul,5,04:03:18,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
+810,Jul,5,04:03:18,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 811,Jul,5,04:09:29,combo,su(pam_unix),5699,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 812,Jul,5,04:09:30,combo,su(pam_unix),5699,session closed for user news,8ff7d7b9,session closed for user news 
 813,Jul,5,13:36:28,combo,sshd(pam_unix),6552,check pass; user unknown,003257e2,check pass ; user unknown 
@@ -829,7 +829,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 828,Jul,5,13:52:21,combo,ftpd,6591,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
 829,Jul,5,13:52:21,combo,ftpd,6587,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
 830,Jul,5,13:52:21,combo,ftpd,6583,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
-831,Jul,5,13:52:21,combo,ftpd,6588,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+831,Jul,5,13:52:21,combo,ftpd,6588,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
 832,Jul,5,13:52:21,combo,ftpd,6581,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
 833,Jul,5,13:52:21,combo,ftpd,6585,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
 834,Jul,5,13:52:21,combo,ftpd,6592,connection from 211.72.2.106 () at Tue Jul  5 <*> 2005,b1a2c3a5,connection from 211.72.2.106 ( ) at Tue Jul 5 < * > 2005 
@@ -858,18 +858,18 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 857,Jul,6,18:00:56,combo,ftpd,9773,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 858,Jul,6,18:00:56,combo,ftpd,9777,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 859,Jul,6,18:00:56,combo,ftpd,9774,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
-860,Jul,6,18:00:56,combo,ftpd,9775,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,1504e000,connection from <*> ( ) at Wed Jul <*> < * > 2005 
+860,Jul,6,18:00:56,combo,ftpd,9775,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 861,Jul,6,18:00:56,combo,ftpd,9769,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 862,Jul,6,18:00:56,combo,ftpd,9776,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 863,Jul,6,18:00:56,combo,ftpd,9771,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 864,Jul,6,18:00:56,combo,ftpd,9770,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
-865,Jul,6,18:00:56,combo,ftpd,9765,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,1504e000,connection from <*> ( ) at Wed Jul <*> < * > 2005 
+865,Jul,6,18:00:56,combo,ftpd,9765,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 866,Jul,6,18:00:56,combo,ftpd,9764,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 867,Jul,6,18:00:56,combo,ftpd,9757,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 868,Jul,6,18:00:56,combo,ftpd,9766,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 869,Jul,6,18:00:56,combo,ftpd,9758,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 870,Jul,6,18:00:56,combo,ftpd,9759,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
-871,Jul,6,18:00:56,combo,ftpd,9760,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,1504e000,connection from <*> ( ) at Wed Jul <*> < * > 2005 
+871,Jul,6,18:00:56,combo,ftpd,9760,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 872,Jul,6,18:00:56,combo,ftpd,9761,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 873,Jul,6,18:00:56,combo,ftpd,9762,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
 874,Jul,6,18:00:56,combo,ftpd,9767,connection from 211.72.151.162 () at Wed Jul  6 <*> 2005,ad10aeaf,connection from 211.72.151.162 ( ) at Wed Jul 6 < * > 2005 
@@ -881,32 +881,32 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 880,Jul,7,04:04:32,combo,su(pam_unix),10961,session closed for user cyrus,5821dde8,session closed for user cyrus 
 881,Jul,7,04:04:33,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 882,Jul,7,04:10:44,combo,su(pam_unix),12193,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
-883,Jul,7,04:10:45,combo,su(pam_unix),12193,session closed for user news,8ff7d7b9,session closed for user news 
-884,Jul,7,07:18:12,combo,sshd(pam_unix),12518,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+883,Jul,7,04:10:45,combo,su(pam_unix),12193,session closed for user news,09a6b4af,session <*> for user <*> 
+884,Jul,7,07:18:12,combo,sshd(pam_unix),12518,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
 885,Jul,7,07:18:12,combo,sshd(pam_unix),12519,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 886,Jul,7,07:18:12,combo,sshd(pam_unix),12518,session closed for user test,58e532f7,session closed for user test 
-887,Jul,7,07:18:12,combo,sshd(pam_unix),12520,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+887,Jul,7,07:18:12,combo,sshd(pam_unix),12520,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
 888,Jul,7,07:18:12,combo,sshd(pam_unix),12520,session closed for user test,58e532f7,session closed for user test 
 889,Jul,7,07:18:12,combo,sshd(pam_unix),12519,session closed for user test,58e532f7,session closed for user test 
 890,Jul,7,07:18:13,combo,sshd(pam_unix),12524,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 891,Jul,7,07:18:13,combo,sshd(pam_unix),12525,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
 892,Jul,7,07:18:13,combo,sshd(pam_unix),12524,session closed for user test,58e532f7,session closed for user test 
-893,Jul,7,07:18:13,combo,sshd(pam_unix),12527,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+893,Jul,7,07:18:13,combo,sshd(pam_unix),12527,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
 894,Jul,7,07:18:14,combo,sshd(pam_unix),12525,session closed for user test,58e532f7,session closed for user test 
 895,Jul,7,07:18:14,combo,sshd(pam_unix),12527,session closed for user test,58e532f7,session closed for user test 
-896,Jul,7,08:06:12,combo,gpm,2094,*** info [mice.c(1766)]:,a4fdc6ea,* * * info [ mice.c ( 1766 ) ] : 
+896,Jul,7,08:06:12,combo,gpm,2094,*** info [mice.c(1766)]:,6dbe0715,* * * <*> <*> <*> ( <*> ) <*> <*> 
 897,Jul,7,08:06:12,combo,gpm,2094,imps2: Auto-detected intellimouse PS/2,347334c7,<*> <*> <*> <*> <*> 
-898,Jul,7,08:06:15,combo,login(pam_unix),2421,session opened for user root by LOGIN(uid=0),bcec5b99,session opened for user root by LOGIN ( uid=0 ) 
-899,Jul,7,08:06:15,combo,-- root,2421,ROOT LOGIN ON tty2,bf9daaf3,ROOT LOGIN ON tty2 
-900,Jul,7,08:09:10,combo,login(pam_unix),2421,session closed for user root,44d5e863,session closed for user root 
+898,Jul,7,08:06:15,combo,login(pam_unix),2421,session opened for user root by LOGIN(uid=0),b68e9216,<*> <*> <*> <*> <*> <*> <*> <*> uid=0 <*> 
+899,Jul,7,08:06:15,combo,-- root,2421,ROOT LOGIN ON tty2,b5f6193c,<*> <*> <*> <*> 
+900,Jul,7,08:09:10,combo,login(pam_unix),2421,session closed for user root,347334c7,<*> <*> <*> <*> <*> 
 901,Jul,7,08:09:11,combo,udev,12754,removing device node '/udev/vcsa2',347334c7,<*> <*> <*> <*> <*> 
 902,Jul,7,08:09:11,combo,udev,12753,removing device node '/udev/vcs2',347334c7,<*> <*> <*> <*> <*> 
-903,Jul,7,08:09:11,combo,udev,12777,creating device node '/udev/vcs2',30004992,creating device node '/udev/vcs2 ' 
-904,Jul,7,08:09:11,combo,udev,12778,creating device node '/udev/vcsa2',16f6e8c6,creating device node '/udev/vcsa2 ' 
+903,Jul,7,08:09:11,combo,udev,12777,creating device node '/udev/vcs2',347334c7,<*> <*> <*> <*> <*> 
+904,Jul,7,08:09:11,combo,udev,12778,creating device node '/udev/vcsa2',347334c7,<*> <*> <*> <*> <*> 
 905,Jul,7,08:09:11,combo,udev,12786,removing device node '/udev/vcs2',347334c7,<*> <*> <*> <*> <*> 
 906,Jul,7,08:09:11,combo,udev,12790,removing device node '/udev/vcsa2',347334c7,<*> <*> <*> <*> <*> 
-907,Jul,7,08:09:11,combo,udev,12795,creating device node '/udev/vcs2',30004992,creating device node '/udev/vcs2 ' 
-908,Jul,7,08:09:11,combo,udev,12798,creating device node '/udev/vcsa2',16f6e8c6,creating device node '/udev/vcsa2 ' 
+907,Jul,7,08:09:11,combo,udev,12795,creating device node '/udev/vcs2',347334c7,<*> <*> <*> <*> <*> 
+908,Jul,7,08:09:11,combo,udev,12798,creating device node '/udev/vcsa2',347334c7,<*> <*> <*> <*> <*> 
 909,Jul,7,14:18:55,combo,sshd(pam_unix),13317,check pass; user unknown,003257e2,check pass ; user unknown 
 910,Jul,7,14:18:55,combo,sshd(pam_unix),13317,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br,39534e7a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br 
 911,Jul,7,14:18:57,combo,sshd(pam_unix),13321,check pass; user unknown,003257e2,check pass ; user unknown 
@@ -915,7 +915,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 914,Jul,7,14:18:58,combo,sshd(pam_unix),13318,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br,39534e7a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br 
 915,Jul,7,14:18:59,combo,sshd(pam_unix),13323,check pass; user unknown,003257e2,check pass ; user unknown 
 916,Jul,7,14:18:59,combo,sshd(pam_unix),13323,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br,39534e7a,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br 
-917,Jul,7,16:33:52,combo,ftpd,13521,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
+917,Jul,7,16:33:52,combo,ftpd,13521,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 918,Jul,7,16:33:52,combo,ftpd,13513,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
 919,Jul,7,16:33:52,combo,ftpd,13511,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
 920,Jul,7,16:33:52,combo,ftpd,13512,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
@@ -927,34 +927,34 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 926,Jul,7,16:33:52,combo,ftpd,13520,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
 927,Jul,7,16:33:52,combo,ftpd,13519,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
 928,Jul,7,16:33:52,combo,ftpd,13514,connection from 202.82.200.188 () at Thu Jul  7 <*> 2005,307a9e64,connection from 202.82.200.188 ( ) at Thu Jul 7 < * > 2005 
-929,Jul,7,23:09:45,combo,ftpd,14105,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
-930,Jul,7,23:09:45,combo,ftpd,14106,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
-931,Jul,7,23:09:45,combo,ftpd,14103,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
+929,Jul,7,23:09:45,combo,ftpd,14105,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+930,Jul,7,23:09:45,combo,ftpd,14106,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+931,Jul,7,23:09:45,combo,ftpd,14103,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 932,Jul,7,23:09:45,combo,ftpd,14107,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
-933,Jul,7,23:09:45,combo,ftpd,14104,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
+933,Jul,7,23:09:45,combo,ftpd,14104,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 934,Jul,7,23:09:45,combo,ftpd,14108,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 935,Jul,7,23:09:45,combo,ftpd,14109,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
-936,Jul,7,23:09:45,combo,ftpd,14110,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
+936,Jul,7,23:09:45,combo,ftpd,14110,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 937,Jul,7,23:09:45,combo,ftpd,14111,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 938,Jul,7,23:09:45,combo,ftpd,14112,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 939,Jul,7,23:09:45,combo,ftpd,14113,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 940,Jul,7,23:09:45,combo,ftpd,14114,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 941,Jul,7,23:09:45,combo,ftpd,14115,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 942,Jul,7,23:09:45,combo,ftpd,14116,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
-943,Jul,7,23:09:45,combo,ftpd,14118,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
+943,Jul,7,23:09:45,combo,ftpd,14118,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 944,Jul,7,23:09:45,combo,ftpd,14119,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 945,Jul,7,23:09:45,combo,ftpd,14117,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
-946,Jul,7,23:09:47,combo,ftpd,14120,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
+946,Jul,7,23:09:47,combo,ftpd,14120,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 947,Jul,7,23:09:50,combo,ftpd,14121,connection from 221.4.102.93 () at Thu Jul  7 <*> 2005,44283383,connection from 221.4.102.93 ( ) at Thu Jul 7 < * > 2005 
 948,Jul,8,04:04:19,combo,su(pam_unix),14943,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 949,Jul,8,04:04:19,combo,su(pam_unix),14943,session closed for user cyrus,5821dde8,session closed for user cyrus 
 950,Jul,8,04:04:20,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 951,Jul,8,04:12:07,combo,su(pam_unix),19593,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 952,Jul,8,04:12:08,combo,su(pam_unix),19593,session closed for user news,8ff7d7b9,session closed for user news 
-953,Jul,8,20:14:55,combo,sshd(pam_unix),20963,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-954,Jul,8,20:14:56,combo,sshd(pam_unix),20969,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,584818b3,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20 user=test 
-955,Jul,8,20:14:56,combo,sshd(pam_unix),20968,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,584818b3,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20 user=test 
-956,Jul,8,20:14:56,combo,sshd(pam_unix),20964,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,584818b3,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20 user=test 
+953,Jul,8,20:14:55,combo,sshd(pam_unix),20963,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
+954,Jul,8,20:14:56,combo,sshd(pam_unix),20969,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
+955,Jul,8,20:14:56,combo,sshd(pam_unix),20968,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
+956,Jul,8,20:14:56,combo,sshd(pam_unix),20964,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
 957,Jul,9,04:04:23,combo,su(pam_unix),21991,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 958,Jul,9,04:04:24,combo,su(pam_unix),21991,session closed for user cyrus,5821dde8,session closed for user cyrus 
 959,Jul,9,04:04:25,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
@@ -979,13 +979,13 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 978,Jul,9,11:35:59,combo,ftpd,23044,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
 979,Jul,9,11:35:59,combo,ftpd,23039,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
 980,Jul,9,11:35:59,combo,ftpd,23041,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
-981,Jul,9,11:35:59,combo,ftpd,23047,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
+981,Jul,9,11:35:59,combo,ftpd,23047,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 982,Jul,9,11:35:59,combo,ftpd,23033,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
 983,Jul,9,11:35:59,combo,ftpd,23042,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
 984,Jul,9,11:35:59,combo,ftpd,23034,connection from 211.57.88.250 () at Sat Jul  9 <*> 2005,8e396438,connection from 211.57.88.250 ( ) at Sat Jul 9 < * > 2005 
 985,Jul,9,12:16:49,combo,ftpd,23140,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 986,Jul,9,12:16:49,combo,ftpd,23143,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
-987,Jul,9,12:16:49,combo,ftpd,23142,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+987,Jul,9,12:16:49,combo,ftpd,23142,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 988,Jul,9,12:16:49,combo,ftpd,23141,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 989,Jul,9,12:16:49,combo,ftpd,23144,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 990,Jul,9,12:16:49,combo,ftpd,23145,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
@@ -993,7 +993,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 992,Jul,9,12:16:49,combo,ftpd,23148,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 993,Jul,9,12:16:49,combo,ftpd,23149,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 994,Jul,9,12:16:49,combo,ftpd,23150,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
-995,Jul,9,12:16:49,combo,ftpd,23147,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+995,Jul,9,12:16:49,combo,ftpd,23147,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 996,Jul,9,12:16:51,combo,ftpd,23151,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 997,Jul,9,12:16:51,combo,ftpd,23152,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 998,Jul,9,12:16:51,combo,ftpd,23153,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
@@ -1001,14 +1001,14 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1000,Jul,9,12:16:51,combo,ftpd,23154,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 1001,Jul,9,12:16:52,combo,ftpd,23156,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
 1002,Jul,9,12:16:52,combo,ftpd,23157,connection from 211.167.68.59 () at Sat Jul  9 <*> 2005,c8908f29,connection from 211.167.68.59 ( ) at Sat Jul 9 < * > 2005 
-1003,Jul,9,12:59:44,combo,ftpd,23204,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1003,Jul,9,12:59:44,combo,ftpd,23204,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1004,Jul,9,12:59:44,combo,ftpd,23216,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1005,Jul,9,12:59:44,combo,ftpd,23215,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1006,Jul,9,12:59:44,combo,ftpd,23205,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1007,Jul,9,12:59:44,combo,ftpd,23217,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1008,Jul,9,12:59:44,combo,ftpd,23206,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1009,Jul,9,12:59:44,combo,ftpd,23207,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
-1010,Jul,9,12:59:44,combo,ftpd,23208,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1010,Jul,9,12:59:44,combo,ftpd,23208,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1011,Jul,9,12:59:44,combo,ftpd,23209,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1012,Jul,9,12:59:44,combo,ftpd,23219,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1013,Jul,9,12:59:44,combo,ftpd,23210,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
@@ -1016,7 +1016,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1015,Jul,9,12:59:44,combo,ftpd,23213,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1016,Jul,9,12:59:44,combo,ftpd,23212,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1017,Jul,9,12:59:44,combo,ftpd,23211,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
-1018,Jul,9,12:59:44,combo,ftpd,23220,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
+1018,Jul,9,12:59:44,combo,ftpd,23220,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1019,Jul,9,12:59:44,combo,ftpd,23214,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1020,Jul,9,12:59:44,combo,ftpd,23221,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
 1021,Jul,9,12:59:45,combo,ftpd,23222,connection from 81.171.220.226 () at Sat Jul  9 <*> 2005,a91a963d,connection from 81.171.220.226 ( ) at Sat Jul 9 < * > 2005 
@@ -1059,23 +1059,23 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1058,Jul,9,22:53:22,combo,ftpd,24073,connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 <*> 2005,08eddf74,connection from 206.196.21.129 ( host129.206.196.21.maximumasp.com ) at Sat Jul 9 < * > 2005 
 1059,Jul,10,03:55:15,combo,ftpd,24513,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1060,Jul,10,03:55:15,combo,ftpd,24512,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1061,Jul,10,03:55:15,combo,ftpd,24519,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
+1061,Jul,10,03:55:15,combo,ftpd,24519,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
 1062,Jul,10,03:55:15,combo,ftpd,24514,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1063,Jul,10,03:55:15,combo,ftpd,24515,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
+1063,Jul,10,03:55:15,combo,ftpd,24515,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
 1064,Jul,10,03:55:15,combo,ftpd,24516,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1065,Jul,10,03:55:15,combo,ftpd,24517,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
-1066,Jul,10,03:55:15,combo,ftpd,24521,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
+1065,Jul,10,03:55:15,combo,ftpd,24517,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
+1066,Jul,10,03:55:15,combo,ftpd,24521,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
 1067,Jul,10,03:55:15,combo,ftpd,24520,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1068,Jul,10,03:55:15,combo,ftpd,24522,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1069,Jul,10,03:55:15,combo,ftpd,24518,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1070,Jul,10,03:55:15,combo,ftpd,24523,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1071,Jul,10,03:55:15,combo,ftpd,24524,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1072,Jul,10,03:55:15,combo,ftpd,24525,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
+1072,Jul,10,03:55:15,combo,ftpd,24525,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1073,Jul,10,03:55:15,combo,ftpd,24526,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1074,Jul,10,03:55:15,combo,ftpd,24527,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1075,Jul,10,03:55:15,combo,ftpd,24528,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1076,Jul,10,03:55:15,combo,ftpd,24529,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
-1077,Jul,10,03:55:15,combo,ftpd,24530,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
+1075,Jul,10,03:55:15,combo,ftpd,24528,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
+1076,Jul,10,03:55:15,combo,ftpd,24529,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
+1077,Jul,10,03:55:15,combo,ftpd,24530,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
 1078,Jul,10,03:55:15,combo,ftpd,24531,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1079,Jul,10,03:55:15,combo,ftpd,24532,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
 1080,Jul,10,03:55:15,combo,ftpd,24533,connection from 217.187.83.139 () at Sun Jul 10 <*> 2005,4d6ffadf,connection from 217.187.83.139 ( ) at Sun Jul 10 < * > 2005 
@@ -1111,9 +1111,9 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1110,Jul,10,07:24:34,combo,ftpd,29739,connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 <*> 2005,5b258856,connection from 82.83.227.67 ( dsl-082-083-227-067.arcor-ip.net ) at Sun Jul 10 < * > 2005 
 1111,Jul,10,07:24:34,combo,ftpd,29735,connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 <*> 2005,5b258856,connection from 82.83.227.67 ( dsl-082-083-227-067.arcor-ip.net ) at Sun Jul 10 < * > 2005 
 1112,Jul,10,07:24:34,combo,ftpd,29736,connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 <*> 2005,5b258856,connection from 82.83.227.67 ( dsl-082-083-227-067.arcor-ip.net ) at Sun Jul 10 < * > 2005 
-1113,Jul,10,13:17:22,combo,ftpd,30278,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
+1113,Jul,10,13:17:22,combo,ftpd,30278,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
 1114,Jul,10,13:17:22,combo,ftpd,30276,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
-1115,Jul,10,13:17:22,combo,ftpd,30277,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
+1115,Jul,10,13:17:22,combo,ftpd,30277,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
 1116,Jul,10,13:17:22,combo,ftpd,30292,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
 1117,Jul,10,13:17:22,combo,ftpd,30293,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
 1118,Jul,10,13:17:22,combo,ftpd,30279,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
@@ -1130,10 +1130,10 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1129,Jul,10,13:17:22,combo,ftpd,30285,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
 1130,Jul,10,13:17:22,combo,ftpd,30289,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
 1131,Jul,10,13:17:22,combo,ftpd,30286,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,c4e216dc,connection from 220.94.205.45 ( ) at Sun Jul 10 < * > 2005 
-1132,Jul,10,13:17:22,combo,ftpd,30297,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
-1133,Jul,10,13:17:22,combo,ftpd,30287,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
-1134,Jul,10,13:17:22,combo,ftpd,30298,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
-1135,Jul,10,13:17:22,combo,ftpd,30291,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
+1132,Jul,10,13:17:22,combo,ftpd,30297,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,4864ee07,connection from <*> ( ) <*> <*> <*> <*> <*> <*> <*> <*> 
+1133,Jul,10,13:17:22,combo,ftpd,30287,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,4864ee07,connection from <*> ( ) <*> <*> <*> <*> <*> <*> <*> <*> 
+1134,Jul,10,13:17:22,combo,ftpd,30298,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,4864ee07,connection from <*> ( ) <*> <*> <*> <*> <*> <*> <*> <*> 
+1135,Jul,10,13:17:22,combo,ftpd,30291,connection from 220.94.205.45 () at Sun Jul 10 <*> 2005,4864ee07,connection from <*> ( ) <*> <*> <*> <*> <*> <*> <*> <*> 
 1136,Jul,10,16:01:43,combo,sshd(pam_unix),30530,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1137,Jul,10,16:01:44,combo,sshd(pam_unix),30532,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1138,Jul,10,16:01:45,combo,sshd(pam_unix),30534,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
@@ -1183,7 +1183,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1182,Jul,10,16:02:39,combo,sshd(pam_unix),30622,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1183,Jul,10,16:02:39,combo,sshd(pam_unix),30624,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1184,Jul,10,16:02:40,combo,sshd(pam_unix),30625,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
-1185,Jul,10,16:02:40,combo,sshd(pam_unix),30628,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+1185,Jul,10,16:02:40,combo,sshd(pam_unix),30628,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1186,Jul,10,16:02:45,combo,sshd(pam_unix),30630,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1187,Jul,10,16:02:46,combo,sshd(pam_unix),30632,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1188,Jul,10,16:02:47,combo,sshd(pam_unix),30634,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
@@ -1203,9 +1203,9 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1202,Jul,10,16:03:05,combo,sshd(pam_unix),30662,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1203,Jul,10,16:03:05,combo,sshd(pam_unix),30665,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1204,Jul,10,16:03:05,combo,sshd(pam_unix),30664,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
-1205,Jul,10,16:03:05,combo,sshd(pam_unix),30666,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+1205,Jul,10,16:03:05,combo,sshd(pam_unix),30666,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1206,Jul,10,16:03:10,combo,sshd(pam_unix),30670,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
-1207,Jul,10,16:03:11,combo,sshd(pam_unix),30672,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+1207,Jul,10,16:03:11,combo,sshd(pam_unix),30672,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1208,Jul,10,16:03:12,combo,sshd(pam_unix),30675,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1209,Jul,10,16:03:12,combo,sshd(pam_unix),30674,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
 1210,Jul,10,16:03:13,combo,sshd(pam_unix),30678,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root 
@@ -1240,18 +1240,18 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1239,Jul,11,04:08:37,combo,su(pam_unix),32608,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 1240,Jul,11,04:08:38,combo,su(pam_unix),32608,session closed for user news,8ff7d7b9,session closed for user news 
 1241,Jul,11,11:33:13,combo,gdm(pam_unix),2803,check pass; user unknown,003257e2,check pass ; user unknown 
-1242,Jul,11,11:33:13,combo,gdm(pam_unix),2803,authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,ce927728,authentication failure ; logname= uid=0 euid=0 tty=:0 ruser= rhost= 
+1242,Jul,11,11:33:13,combo,gdm(pam_unix),2803,authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,f92ea663,authentication failure ; logname= uid=0 euid=0 <*> ruser= <*> 
 1243,Jul,11,11:33:17,combo,gdm-binary,2803,Couldn't authenticate user,47f93439,<*> <*> <*> user 
 1244,Jul,11,17:58:16,combo,sshd(pam_unix),1325,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
 1245,Jul,11,17:58:16,combo,sshd(pam_unix),1329,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
 1246,Jul,11,17:58:16,combo,sshd(pam_unix),1327,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
 1247,Jul,11,17:58:19,combo,sshd(pam_unix),1331,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
 1248,Jul,11,17:58:20,combo,sshd(pam_unix),1333,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
-1249,Jul,11,17:58:21,combo,sshd(pam_unix),1335,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
-1250,Jul,11,17:58:21,combo,sshd(pam_unix),1337,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
-1251,Jul,11,17:58:21,combo,sshd(pam_unix),1338,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
+1249,Jul,11,17:58:21,combo,sshd(pam_unix),1335,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
+1250,Jul,11,17:58:21,combo,sshd(pam_unix),1337,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
+1251,Jul,11,17:58:21,combo,sshd(pam_unix),1338,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
 1252,Jul,11,17:58:22,combo,sshd(pam_unix),1341,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
-1253,Jul,11,17:58:23,combo,sshd(pam_unix),1343,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root 
+1253,Jul,11,17:58:23,combo,sshd(pam_unix),1343,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
 1254,Jul,12,04:03:40,combo,su(pam_unix),2605,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1255,Jul,12,04:03:41,combo,su(pam_unix),2605,session closed for user cyrus,5821dde8,session closed for user cyrus 
 1256,Jul,12,04:03:42,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
@@ -1269,14 +1269,14 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1268,Jul,12,06:09:45,combo,sshd(pam_unix),4065,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net  user=root,aab4e5aa,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net user=root 
 1269,Jul,13,04:04:44,combo,su(pam_unix),6486,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1270,Jul,13,04:04:45,combo,su(pam_unix),6486,session closed for user cyrus,5821dde8,session closed for user cyrus 
-1271,Jul,13,04:04:45,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
+1271,Jul,13,04:04:45,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 1272,Jul,13,04:10:41,combo,su(pam_unix),6863,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 1273,Jul,13,04:10:41,combo,su(pam_unix),6863,session closed for user news,8ff7d7b9,session closed for user news 
-1274,Jul,13,17:22:28,combo,sshd(pam_unix),8113,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
-1275,Jul,13,17:22:28,combo,sshd(pam_unix),8114,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+1274,Jul,13,17:22:28,combo,sshd(pam_unix),8113,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
+1275,Jul,13,17:22:28,combo,sshd(pam_unix),8114,session opened for user test by (uid=509),8658a593,session <*> for user <*> <*> ( <*> ) 
 1276,Jul,13,17:22:29,combo,sshd(pam_unix),8113,session closed for user test,58e532f7,session closed for user test 
 1277,Jul,13,17:22:29,combo,sshd(pam_unix),8114,session closed for user test,58e532f7,session closed for user test 
-1278,Jul,13,17:22:29,combo,sshd(pam_unix),8117,session opened for user test by (uid=509),c5e7ee82,session opened for user test by ( uid=509 ) 
+1278,Jul,13,17:22:29,combo,sshd(pam_unix),8117,session opened for user test by (uid=509),c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) 
 1279,Jul,13,17:22:29,combo,sshd(pam_unix),8117,session closed for user test,58e532f7,session closed for user test 
 1280,Jul,14,04:08:24,combo,su(pam_unix),9355,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1281,Jul,14,04:08:25,combo,su(pam_unix),9355,session closed for user cyrus,5821dde8,session closed for user cyrus 
@@ -1337,18 +1337,18 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1336,Jul,16,08:14:04,combo,ftpd,17670,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1337,Jul,16,08:14:04,combo,ftpd,17667,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1338,Jul,16,08:14:07,combo,ftpd,17673,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
-1339,Jul,16,08:14:07,combo,ftpd,17668,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1339,Jul,16,08:14:07,combo,ftpd,17668,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1340,Jul,16,08:14:07,combo,ftpd,17671,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1341,Jul,16,08:14:07,combo,ftpd,17681,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1342,Jul,16,08:14:07,combo,ftpd,17680,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1343,Jul,16,08:14:07,combo,ftpd,17672,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1344,Jul,16,08:14:07,combo,ftpd,17687,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
-1345,Jul,16,08:14:07,combo,ftpd,17678,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
+1345,Jul,16,08:14:07,combo,ftpd,17678,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1346,Jul,16,08:14:07,combo,ftpd,17675,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1347,Jul,16,08:14:07,combo,ftpd,17688,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1348,Jul,16,08:14:07,combo,ftpd,17677,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1349,Jul,16,08:14:07,combo,ftpd,17682,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
-1350,Jul,16,08:14:07,combo,ftpd,17683,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1350,Jul,16,08:14:07,combo,ftpd,17683,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1351,Jul,16,08:14:07,combo,ftpd,17684,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1352,Jul,16,08:14:07,combo,ftpd,17685,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1353,Jul,16,08:14:07,combo,ftpd,17686,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
@@ -1358,7 +1358,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1357,Jul,16,08:14:07,combo,ftpd,17679,connection from 212.65.68.82 () at Sat Jul 16 <*> 2005,1576fd3e,connection from 212.65.68.82 ( ) at Sat Jul 16 < * > 2005 
 1358,Jul,17,04:06:32,combo,ftpd,19675,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1359,Jul,17,04:06:32,combo,ftpd,19674,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1360,Jul,17,04:08:08,combo,su(pam_unix),19686,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
+1360,Jul,17,04:08:08,combo,su(pam_unix),19686,session opened for user cyrus by (uid=0),8658a593,session <*> for user <*> <*> ( <*> ) 
 1361,Jul,17,04:08:09,combo,su(pam_unix),19686,session closed for user cyrus,5821dde8,session closed for user cyrus 
 1362,Jul,17,04:08:10,combo,cups,,cupsd shutdown succeeded,ad3464aa,cupsd shutdown succeeded 
 1363,Jul,17,04:08:16,combo,cups,,cupsd startup succeeded,4253878e,cupsd startup succeeded 
@@ -1368,16 +1368,16 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1367,Jul,17,04:13:58,combo,su(pam_unix),20282,session closed for user news,8ff7d7b9,session closed for user news 
 1368,Jul,17,06:13:37,combo,ftpd,23574,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1369,Jul,17,06:13:37,combo,ftpd,23575,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1370,Jul,17,06:13:37,combo,ftpd,23573,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
+1370,Jul,17,06:13:37,combo,ftpd,23573,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1371,Jul,17,06:13:37,combo,ftpd,23572,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1372,Jul,17,06:13:37,combo,ftpd,23578,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
+1372,Jul,17,06:13:37,combo,ftpd,23578,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1373,Jul,17,06:13:37,combo,ftpd,23577,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1374,Jul,17,06:13:37,combo,ftpd,23571,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1375,Jul,17,06:13:37,combo,ftpd,23576,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
+1375,Jul,17,06:13:37,combo,ftpd,23576,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1376,Jul,17,06:13:37,combo,ftpd,23564,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1377,Jul,17,06:13:37,combo,ftpd,23560,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1378,Jul,17,06:13:37,combo,ftpd,23570,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1379,Jul,17,06:13:37,combo,ftpd,23568,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
+1379,Jul,17,06:13:37,combo,ftpd,23568,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1380,Jul,17,06:13:37,combo,ftpd,23565,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1381,Jul,17,06:13:37,combo,ftpd,23566,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1382,Jul,17,06:13:38,combo,ftpd,23562,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
@@ -1386,7 +1386,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1385,Jul,17,06:13:38,combo,ftpd,23561,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1386,Jul,17,06:13:38,combo,ftpd,23569,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1387,Jul,17,06:14:36,combo,ftpd,23579,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1388,Jul,17,06:14:36,combo,ftpd,23580,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
+1388,Jul,17,06:14:36,combo,ftpd,23580,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1389,Jul,17,06:14:36,combo,ftpd,23581,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1390,Jul,17,06:14:36,combo,ftpd,23582,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1391,Jul,17,06:14:36,combo,ftpd,23583,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
@@ -1395,7 +1395,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1394,Jul,17,06:14:36,combo,ftpd,23585,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1395,Jul,17,06:14:36,combo,ftpd,23587,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
 1396,Jul,17,06:14:36,combo,ftpd,23588,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
-1397,Jul,17,06:14:36,combo,ftpd,23589,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,59740130,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 < * > 2005 
+1397,Jul,17,06:14:36,combo,ftpd,23589,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1398,Jul,17,08:06:12,combo,ftpd,23777,connection from 218.146.61.230 () at Sun Jul 17 <*> 2005,63ed9b25,connection from 218.146.61.230 ( ) at Sun Jul 17 < * > 2005 
 1399,Jul,17,08:06:12,combo,ftpd,23779,connection from 218.146.61.230 () at Sun Jul 17 <*> 2005,63ed9b25,connection from 218.146.61.230 ( ) at Sun Jul 17 < * > 2005 
 1400,Jul,17,08:06:12,combo,ftpd,23778,connection from 218.146.61.230 () at Sun Jul 17 <*> 2005,63ed9b25,connection from 218.146.61.230 ( ) at Sun Jul 17 < * > 2005 
@@ -1433,7 +1433,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1432,Jul,17,10:45:07,combo,sshd(pam_unix),24030,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-220-159-99.hinet-ip.hinet.net  user=root,5d3b7044,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-220-159-99.hinet-ip.hinet.net user=root 
 1433,Jul,17,12:30:35,combo,ftpd,24192,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1434,Jul,17,12:30:37,combo,ftpd,24193,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
-1435,Jul,17,12:30:42,combo,ftpd,24194,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
+1435,Jul,17,12:30:42,combo,ftpd,24194,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1436,Jul,17,12:30:43,combo,ftpd,24195,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1437,Jul,17,12:30:43,combo,ftpd,24196,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1438,Jul,17,12:30:46,combo,ftpd,24197,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
@@ -1459,11 +1459,11 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1458,Jul,17,14:02:43,combo,ftpd,24358,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1459,Jul,17,14:02:44,combo,ftpd,24359,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1460,Jul,17,14:02:47,combo,ftpd,24360,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
-1461,Jul,17,14:02:48,combo,ftpd,24361,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1461,Jul,17,14:02:48,combo,ftpd,24361,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1462,Jul,17,14:02:49,combo,ftpd,24362,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1463,Jul,17,14:02:49,combo,ftpd,24363,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1464,Jul,17,14:02:49,combo,ftpd,24364,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
-1465,Jul,17,14:02:49,combo,ftpd,24365,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
+1465,Jul,17,14:02:49,combo,ftpd,24365,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1466,Jul,17,14:02:54,combo,ftpd,24366,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1467,Jul,17,14:02:54,combo,ftpd,24367,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1468,Jul,17,14:02:54,combo,ftpd,24368,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
@@ -1477,10 +1477,10 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1476,Jul,17,14:03:04,combo,ftpd,24376,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1477,Jul,17,14:03:04,combo,ftpd,24377,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
 1478,Jul,17,14:03:05,combo,ftpd,24378,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005,3dc85877,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 < * > 2005 
-1479,Jul,17,15:09:15,combo,ftpd,24465,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
-1480,Jul,17,15:09:15,combo,ftpd,24466,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
-1481,Jul,17,15:09:15,combo,ftpd,24467,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
-1482,Jul,17,15:09:15,combo,ftpd,24468,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1479,Jul,17,15:09:15,combo,ftpd,24465,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
+1480,Jul,17,15:09:15,combo,ftpd,24466,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1481,Jul,17,15:09:15,combo,ftpd,24467,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
+1482,Jul,17,15:09:15,combo,ftpd,24468,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1483,Jul,17,15:09:15,combo,ftpd,24469,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1484,Jul,17,15:09:15,combo,ftpd,24470,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1485,Jul,17,15:09:15,combo,ftpd,24471,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
@@ -1490,7 +1490,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1489,Jul,17,15:09:15,combo,ftpd,24472,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1490,Jul,17,15:09:15,combo,ftpd,24477,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1491,Jul,17,15:09:15,combo,ftpd,24478,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
-1492,Jul,17,15:09:15,combo,ftpd,24476,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
+1492,Jul,17,15:09:15,combo,ftpd,24476,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1493,Jul,17,15:09:15,combo,ftpd,24480,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1494,Jul,17,15:09:15,combo,ftpd,24479,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
 1495,Jul,17,15:09:15,combo,ftpd,24481,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005,27ad60c8,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 < * > 2005 
@@ -1516,7 +1516,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1515,Jul,17,21:23:20,combo,ftpd,25034,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1516,Jul,17,21:23:20,combo,ftpd,25036,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1517,Jul,17,21:23:20,combo,ftpd,25037,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
-1518,Jul,17,21:23:23,combo,ftpd,25044,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
+1518,Jul,17,21:23:23,combo,ftpd,25044,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1519,Jul,17,21:23:24,combo,ftpd,25045,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1520,Jul,17,21:23:24,combo,ftpd,25046,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1521,Jul,17,21:23:24,combo,ftpd,25047,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,425f4894,connection from 82.68.222.194 ( 82-68-222-194.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
@@ -1532,20 +1532,20 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1531,Jul,17,23:21:54,combo,ftpd,25223,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1532,Jul,17,23:21:54,combo,ftpd,25225,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1533,Jul,17,23:21:54,combo,ftpd,25224,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
-1534,Jul,17,23:21:54,combo,ftpd,25226,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1534,Jul,17,23:21:54,combo,ftpd,25226,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1535,Jul,17,23:21:54,combo,ftpd,25227,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1536,Jul,17,23:21:54,combo,ftpd,25228,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1537,Jul,17,23:21:54,combo,ftpd,25229,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
-1538,Jul,17,23:21:54,combo,ftpd,25230,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1538,Jul,17,23:21:54,combo,ftpd,25230,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1539,Jul,17,23:21:54,combo,ftpd,25231,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
-1540,Jul,17,23:21:54,combo,ftpd,25232,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
-1541,Jul,17,23:21:54,combo,ftpd,25233,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1540,Jul,17,23:21:54,combo,ftpd,25232,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
+1541,Jul,17,23:21:54,combo,ftpd,25233,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1542,Jul,17,23:21:54,combo,ftpd,25234,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1543,Jul,17,23:21:54,combo,ftpd,25235,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
-1544,Jul,17,23:21:54,combo,ftpd,25236,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
+1544,Jul,17,23:21:54,combo,ftpd,25236,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1545,Jul,17,23:21:54,combo,ftpd,25237,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
 1546,Jul,17,23:21:54,combo,ftpd,25238,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
-1547,Jul,17,23:21:54,combo,ftpd,25239,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,623decaa,connection from 82.68.222.195 ( 82-68-222-195.dsl.in-addr.zen.co.uk ) at Sun Jul 17 < * > 2005 
+1547,Jul,17,23:21:54,combo,ftpd,25239,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005,cda429b3,connection from <*> ( <*> ) at Sun Jul <*> < * > 2005 
 1548,Jul,18,03:26:48,combo,ftpd,25628,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1549,Jul,18,03:26:48,combo,ftpd,25629,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1550,Jul,18,03:26:48,combo,ftpd,25630,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
@@ -1559,7 +1559,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1558,Jul,18,03:26:49,combo,ftpd,25637,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1559,Jul,18,03:26:49,combo,ftpd,25639,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1560,Jul,18,03:26:49,combo,ftpd,25640,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
-1561,Jul,18,03:26:49,combo,ftpd,25641,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1561,Jul,18,03:26:49,combo,ftpd,25641,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1562,Jul,18,03:26:49,combo,ftpd,25643,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1563,Jul,18,03:26:49,combo,ftpd,25644,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
 1564,Jul,18,03:26:49,combo,ftpd,25645,connection from 211.72.151.162 () at Mon Jul 18 <*> 2005,63673fd0,connection from 211.72.151.162 ( ) at Mon Jul 18 < * > 2005 
@@ -1590,7 +1590,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1589,Jul,18,23:01:27,combo,sshd(pam_unix),28987,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,e4e22950,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw 
 1590,Jul,18,23:01:27,combo,sshd(pam_unix),28988,check pass; user unknown,003257e2,check pass ; user unknown 
 1591,Jul,18,23:01:27,combo,sshd(pam_unix),28988,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,e4e22950,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw 
-1592,Jul,18,23:01:27,combo,sshd(pam_unix),28991,check pass; user unknown,003257e2,check pass ; user unknown 
+1592,Jul,18,23:01:27,combo,sshd(pam_unix),28991,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 1593,Jul,18,23:01:27,combo,sshd(pam_unix),28991,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,e4e22950,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw 
 1594,Jul,19,04:03:43,combo,su(pam_unix),29758,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1595,Jul,19,04:03:44,combo,su(pam_unix),29758,session closed for user cyrus,5821dde8,session closed for user cyrus 
@@ -1614,7 +1614,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1613,Jul,20,04:11:28,combo,su(pam_unix),1595,session closed for user news,8ff7d7b9,session closed for user news 
 1614,Jul,20,23:37:40,combo,sshd(pam_unix),3307,check pass; user unknown,003257e2,check pass ; user unknown 
 1615,Jul,20,23:37:40,combo,sshd(pam_unix),3307,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102,34f5cf7e,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102 
-1616,Jul,20,23:37:40,combo,sshd(pam_unix),3306,check pass; user unknown,003257e2,check pass ; user unknown 
+1616,Jul,20,23:37:40,combo,sshd(pam_unix),3306,check pass; user unknown,2cc1f5f4,<*> <*> ; user <*> 
 1617,Jul,20,23:37:40,combo,sshd(pam_unix),3306,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102,34f5cf7e,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102 
 1618,Jul,20,23:37:40,combo,sshd(pam_unix),3308,check pass; user unknown,003257e2,check pass ; user unknown 
 1619,Jul,20,23:37:40,combo,sshd(pam_unix),3308,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102,34f5cf7e,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102 
@@ -1632,12 +1632,12 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1631,Jul,21,04:16:55,combo,su(pam_unix),4540,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 1632,Jul,21,04:16:55,combo,su(pam_unix),4540,session closed for user news,8ff7d7b9,session closed for user news 
 1633,Jul,21,09:04:41,combo,ftpd,5033,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
-1634,Jul,21,09:04:41,combo,ftpd,5032,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
+1634,Jul,21,09:04:41,combo,ftpd,5032,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1635,Jul,21,09:04:41,combo,ftpd,5030,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1636,Jul,21,09:04:41,combo,ftpd,5029,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1637,Jul,21,09:04:41,combo,ftpd,5018,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1638,Jul,21,09:04:41,combo,ftpd,5017,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
-1639,Jul,21,09:04:41,combo,ftpd,5016,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
+1639,Jul,21,09:04:41,combo,ftpd,5016,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1640,Jul,21,09:04:41,combo,ftpd,5019,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1641,Jul,21,09:04:41,combo,ftpd,5022,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1642,Jul,21,09:04:41,combo,ftpd,5023,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
@@ -1647,20 +1647,20 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1646,Jul,21,09:04:41,combo,ftpd,5031,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1647,Jul,21,09:04:41,combo,ftpd,5020,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1648,Jul,21,09:04:41,combo,ftpd,5021,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
-1649,Jul,21,09:04:41,combo,ftpd,5027,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
+1649,Jul,21,09:04:41,combo,ftpd,5027,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1650,Jul,21,09:04:41,combo,ftpd,5026,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1651,Jul,21,09:04:41,combo,ftpd,5035,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1652,Jul,21,09:04:41,combo,ftpd,5037,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1653,Jul,21,09:04:41,combo,ftpd,5034,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1654,Jul,21,09:04:41,combo,ftpd,5036,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
 1655,Jul,21,09:04:43,combo,ftpd,5038,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005,d5bdcda7,connection from 216.12.111.241 ( ) at Thu Jul 21 < * > 2005 
-1656,Jul,21,15:18:30,combo,sshd(pam_unix),5587,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,b3b2e88f,<*> <*> <*> <*> uid=0 <*> <*> <*> <*> <*> 
-1657,Jul,21,15:18:30,combo,sshd(pam_unix),5586,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,b3b2e88f,<*> <*> <*> <*> uid=0 <*> <*> <*> <*> <*> 
+1656,Jul,21,15:18:30,combo,sshd(pam_unix),5587,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
+1657,Jul,21,15:18:30,combo,sshd(pam_unix),5586,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,0976235e,<*> <*> ; <*> <*> <*> <*> <*> <*> <*> 
 1658,Jul,22,04:07:46,combo,su(pam_unix),7106,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1659,Jul,22,04:07:47,combo,su(pam_unix),7106,session closed for user cyrus,5821dde8,session closed for user cyrus 
-1660,Jul,22,04:07:47,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
+1660,Jul,22,04:07:47,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
 1661,Jul,22,04:15:14,combo,su(pam_unix),11756,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
-1662,Jul,22,04:15:14,combo,su(pam_unix),11756,session closed for user news,8ff7d7b9,session closed for user news 
+1662,Jul,22,04:15:14,combo,su(pam_unix),11756,session closed for user news,09a6b4af,session <*> for user <*> 
 1663,Jul,22,09:27:24,combo,ftpd,12294,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
 1664,Jul,22,09:27:24,combo,ftpd,12290,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
 1665,Jul,22,09:27:24,combo,ftpd,12296,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
@@ -1678,8 +1678,8 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1677,Jul,22,09:27:24,combo,ftpd,12278,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
 1678,Jul,22,09:27:24,combo,ftpd,12277,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
 1679,Jul,22,09:27:24,combo,ftpd,12280,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
-1680,Jul,22,09:27:24,combo,ftpd,12289,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
-1681,Jul,22,09:27:24,combo,ftpd,12281,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
+1680,Jul,22,09:27:24,combo,ftpd,12289,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
+1681,Jul,22,09:27:24,combo,ftpd,12281,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1682,Jul,22,09:27:24,combo,ftpd,12283,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
 1683,Jul,22,09:27:24,combo,ftpd,12287,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
 1684,Jul,22,09:27:24,combo,ftpd,12298,connection from 211.42.188.206 () at Fri Jul 22 <*> 2005,3b92cb88,connection from 211.42.188.206 ( ) at Fri Jul 22 < * > 2005 
@@ -1726,7 +1726,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1725,Jul,24,02:38:22,combo,ftpd,16773,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1726,Jul,24,02:38:22,combo,ftpd,16789,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1727,Jul,24,02:38:22,combo,ftpd,16783,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
-1728,Jul,24,02:38:22,combo,ftpd,16792,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,41944c5a,connection from <*> ( ) at Sun Jul <*> < * > 2005 
+1728,Jul,24,02:38:22,combo,ftpd,16792,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1729,Jul,24,02:38:22,combo,ftpd,16784,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1730,Jul,24,02:38:22,combo,ftpd,16781,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1731,Jul,24,02:38:22,combo,ftpd,16786,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
@@ -1746,8 +1746,8 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1745,Jul,24,02:38:22,combo,ftpd,16791,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1746,Jul,24,02:38:22,combo,ftpd,16793,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
 1747,Jul,24,02:38:22,combo,ftpd,16794,connection from 84.102.20.2 () at Sun Jul 24 <*> 2005,084c9430,connection from 84.102.20.2 ( ) at Sun Jul 24 < * > 2005 
-1748,Jul,24,02:38:23,combo,ftpd,16781,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) 
-1749,Jul,24,02:38:23,combo,ftpd,16782,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) 
+1748,Jul,24,02:38:23,combo,ftpd,16781,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",c402c72e,<*> <*> <*> <*> 84.102.20.2 <*> ( <*> ) 
+1749,Jul,24,02:38:23,combo,ftpd,16782,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",c402c72e,<*> <*> <*> <*> 84.102.20.2 <*> ( <*> ) 
 1750,Jul,24,04:20:19,combo,su(pam_unix),17283,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1751,Jul,24,04:20:19,combo,su(pam_unix),17283,session closed for user cyrus,5821dde8,session closed for user cyrus 
 1752,Jul,24,04:20:21,combo,cups,,cupsd shutdown succeeded,ad3464aa,cupsd shutdown succeeded 
@@ -1800,7 +1800,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1799,Jul,25,06:39:18,combo,ftpd,24968,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
 1800,Jul,25,06:39:18,combo,ftpd,24965,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
 1801,Jul,25,06:39:18,combo,ftpd,24964,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
-1802,Jul,25,06:39:18,combo,ftpd,24958,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1802,Jul,25,06:39:18,combo,ftpd,24958,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
 1803,Jul,25,06:39:18,combo,ftpd,24956,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
 1804,Jul,25,06:39:18,combo,ftpd,24957,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
 1805,Jul,25,06:39:18,combo,ftpd,24959,connection from 206.47.209.10 () at Mon Jul 25 <*> 2005,1f6541d3,connection from 206.47.209.10 ( ) at Mon Jul 25 < * > 2005 
@@ -1824,34 +1824,34 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1823,Jul,25,14:56:13,combo,named,2306,notify question section contains no SOA,12bbe65d,notify question section contains no SOA 
 1824,Jul,25,15:50:04,combo,named,2306,notify question section contains no SOA,12bbe65d,notify question section contains no SOA 
 1825,Jul,25,16:29:20,combo,named,2306,notify question section contains no SOA,12bbe65d,notify question section contains no SOA 
-1826,Jul,25,23:23:13,combo,ftpd,26463,getpeername (ftpd): Transport endpoint is not connected,9ab9b4cd,getpeername ( ftpd ) : Transport endpoint is not connected 
-1827,Jul,25,23:23:13,combo,ftpd,26466,getpeername (ftpd): Transport endpoint is not connected,9ab9b4cd,getpeername ( ftpd ) : Transport endpoint is not connected 
-1828,Jul,25,23:23:13,combo,xinetd,26482,warning: can't get client address: Connection reset by peer,4fabd12c,warning : ca n't get client address : Connection reset by peer 
-1829,Jul,25,23:23:13,combo,ftpd,26482,getpeername (ftpd): Transport endpoint is not connected,9ab9b4cd,getpeername ( ftpd ) : Transport endpoint is not connected 
-1830,Jul,25,23:23:13,combo,xinetd,26484,warning: can't get client address: Connection reset by peer,4fabd12c,warning : ca n't get client address : Connection reset by peer 
-1831,Jul,25,23:23:13,combo,ftpd,26484,getpeername (ftpd): Transport endpoint is not connected,9ab9b4cd,getpeername ( ftpd ) : Transport endpoint is not connected 
+1826,Jul,25,23:23:13,combo,ftpd,26463,getpeername (ftpd): Transport endpoint is not connected,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1827,Jul,25,23:23:13,combo,ftpd,26466,getpeername (ftpd): Transport endpoint is not connected,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1828,Jul,25,23:23:13,combo,xinetd,26482,warning: can't get client address: Connection reset by peer,e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1829,Jul,25,23:23:13,combo,ftpd,26482,getpeername (ftpd): Transport endpoint is not connected,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1830,Jul,25,23:23:13,combo,xinetd,26484,warning: can't get client address: Connection reset by peer,e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1831,Jul,25,23:23:13,combo,ftpd,26484,getpeername (ftpd): Transport endpoint is not connected,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1832,Jul,25,23:24:09,combo,ftpd,26479,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1833,Jul,25,23:24:09,combo,ftpd,26478,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1834,Jul,25,23:24:09,combo,ftpd,26477,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1835,Jul,25,23:24:09,combo,ftpd,26476,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1836,Jul,25,23:24:09,combo,ftpd,26475,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
-1837,Jul,25,23:24:09,combo,ftpd,26474,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1837,Jul,25,23:24:09,combo,ftpd,26474,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1838,Jul,25,23:24:09,combo,ftpd,26473,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1839,Jul,25,23:24:09,combo,ftpd,26467,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1840,Jul,25,23:24:09,combo,ftpd,26471,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1841,Jul,25,23:24:09,combo,ftpd,26472,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1842,Jul,25,23:24:09,combo,ftpd,26468,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1843,Jul,25,23:24:09,combo,ftpd,26470,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
-1844,Jul,25,23:24:09,combo,ftpd,26469,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
+1844,Jul,25,23:24:09,combo,ftpd,26469,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1845,Jul,25,23:24:09,combo,ftpd,26464,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1846,Jul,25,23:24:09,combo,ftpd,26465,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
-1847,Jul,25,23:24:09,combo,ftpd,26480,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
-1848,Jul,25,23:24:09,combo,ftpd,26481,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
-1849,Jul,25,23:24:09,combo,ftpd,26483,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
+1847,Jul,25,23:24:09,combo,ftpd,26480,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
+1848,Jul,25,23:24:09,combo,ftpd,26481,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
+1849,Jul,25,23:24:09,combo,ftpd,26483,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1850,Jul,25,23:24:09,combo,ftpd,26485,connection from 217.187.83.50 () at Mon Jul 25 <*> 2005,5866e833,connection from 217.187.83.50 ( ) at Mon Jul 25 < * > 2005 
 1851,Jul,26,04:05:22,combo,su(pam_unix),27285,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
 1852,Jul,26,04:05:23,combo,su(pam_unix),27285,session closed for user cyrus,5821dde8,session closed for user cyrus 
-1853,Jul,26,04:05:24,combo,logrotate,,ALERT exited abnormally with [1],3908b381,<*> <*> <*> <*> <*> <*> <*> 
+1853,Jul,26,04:05:24,combo,logrotate,,ALERT exited abnormally with [1],33d78ac7,ALERT exited abnormally with [ 1 ] 
 1854,Jul,26,04:11:23,combo,su(pam_unix),28514,session opened for user news by (uid=0),c445f05b,session opened for user news by ( uid=0 ) 
 1855,Jul,26,04:11:23,combo,su(pam_unix),28514,session closed for user news,8ff7d7b9,session closed for user news 
 1856,Jul,26,05:47:42,combo,ftpd,28699,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
@@ -1865,7 +1865,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1864,Jul,26,05:47:42,combo,ftpd,28697,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
 1865,Jul,26,05:47:42,combo,ftpd,28698,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1866,Jul,26,05:47:42,combo,ftpd,28693,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
-1867,Jul,26,05:47:42,combo,ftpd,28689,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
+1867,Jul,26,05:47:42,combo,ftpd,28689,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,fa85fb97,connection from <*> ( ) at <*> Jul <*> < * > 2005 
 1868,Jul,26,05:47:42,combo,ftpd,28690,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
 1869,Jul,26,05:47:42,combo,ftpd,28691,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
 1870,Jul,26,05:47:42,combo,ftpd,28686,connection from 172.181.208.156 () at Tue Jul 26 <*> 2005,ce3b88ff,connection from 172.181.208.156 ( ) at Tue Jul 26 < * > 2005 
@@ -1889,7 +1889,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1888,Jul,26,07:03:15,combo,sshd(pam_unix),28860,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1889,Jul,26,07:03:17,combo,sshd(pam_unix),28862,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1890,Jul,26,07:03:26,combo,sshd(pam_unix),28864,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
-1891,Jul,26,07:03:27,combo,sshd(pam_unix),28866,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+1891,Jul,26,07:03:27,combo,sshd(pam_unix),28866,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1892,Jul,26,07:03:35,combo,sshd(pam_unix),28868,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1893,Jul,26,07:03:37,combo,sshd(pam_unix),28870,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1894,Jul,26,07:03:45,combo,sshd(pam_unix),28872,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
@@ -1897,7 +1897,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1896,Jul,26,07:03:55,combo,sshd(pam_unix),28876,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1897,Jul,26,07:03:57,combo,sshd(pam_unix),28878,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1898,Jul,26,07:04:02,combo,sshd(pam_unix),28880,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
-1899,Jul,26,07:04:05,combo,sshd(pam_unix),28882,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,e7a80d55,<*> <*> ; <*> uid=0 <*> <*> <*> <*> <*> 
+1899,Jul,26,07:04:05,combo,sshd(pam_unix),28882,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1900,Jul,26,07:04:07,combo,sshd(pam_unix),28884,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1901,Jul,26,07:04:12,combo,sshd(pam_unix),28886,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root 
 1902,Jul,27,04:16:07,combo,su(pam_unix),30999,session opened for user cyrus by (uid=0),97891953,session opened for user cyrus by ( uid=0 ) 
@@ -1907,95 +1907,95 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1906,Jul,27,04:21:40,combo,su(pam_unix),31373,session closed for user news,8ff7d7b9,session closed for user news 
 1907,Jul,27,10:59:53,combo,ftpd,31985,connection from 218.38.58.3 () at Wed Jul 27 <*> 2005,1504e000,connection from <*> ( ) at Wed Jul <*> < * > 2005 
 1908,Jul,27,14:41:57,combo,syslogd 1.4.1,,restart.,58166ca2,restart . 
-1909,Jul,27,14:41:57,combo,syslog,,syslogd startup succeeded,2bb55441,<*> startup succeeded 
-1910,Jul,27,14:41:57,combo,kernel,,"klogd 1.4.1, log source = /proc/kmsg started.",91b19ef7,"klogd <*> , <*> <*> <*> <*> <*> <*> "
+1909,Jul,27,14:41:57,combo,syslog,,syslogd startup succeeded,e0afaf2b,<*> <*> <*> 
+1910,Jul,27,14:41:57,combo,kernel,,"klogd 1.4.1, log source = /proc/kmsg started.",1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1911,Jul,27,14:41:57,combo,kernel,,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 <*> EDT 2004,0b9efdbb,<*> <*> <*> ( <*> <*> <*> ) ( <*> <*> <*> <*> ( <*> <*> <*> <*> ) ) <*> <*> <*> <*> <*> < * > <*> <*> 
-1912,Jul,27,14:41:57,combo,kernel,,BIOS-provided physical RAM map:,bdfa84f7,BIOS-provided physical RAM map : 
+1912,Jul,27,14:41:57,combo,kernel,,BIOS-provided physical RAM map:,ba9dc17f,<*> <*> <*> <*> : 
 1913,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000000000000 - 00000000000a0000 (usable),4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) 
-1914,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved),56d7aa0a,BIOS-e820 : <*> - <*> ( reserved ) 
+1914,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved),4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) 
 1915,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000000100000 - 0000000007eae000 (usable),4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) 
-1916,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved),56d7aa0a,BIOS-e820 : <*> - <*> ( reserved ) 
-1917,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved),56d7aa0a,BIOS-e820 : <*> - <*> ( reserved ) 
-1918,Jul,27,14:41:57,combo,kernel,,0MB HIGHMEM available.,0ecf96d0,0MB HIGHMEM available . 
-1919,Jul,27,14:41:57,combo,kernel,,126MB LOWMEM available.,c561e115,126MB LOWMEM available . 
-1920,Jul,27,14:41:57,combo,kernel,,zapping low mappings.,49e19e61,zapping low mappings . 
-1921,Jul,27,14:41:57,combo,syslog,,klogd startup succeeded,c799037d,klogd startup succeeded 
-1922,Jul,27,14:41:57,combo,kernel,,On node 0 totalpages: 32430,3f8a556f,On node 0 totalpages : 32430 
-1923,Jul,27,14:41:57,combo,kernel,,"DMA zone: 4096 pages, LIFO batch:1",92e6c363,"DMA zone : 4096 pages , LIFO batch:1 "
-1924,Jul,27,14:41:57,combo,kernel,,"Normal zone: 28334 pages, LIFO batch:6",696464f0,"Normal zone : 28334 pages , LIFO batch:6 "
-1925,Jul,27,14:41:57,combo,irqbalance,,irqbalance startup succeeded,711d7fff,irqbalance startup succeeded 
-1926,Jul,27,14:41:57,combo,kernel,,"HighMem zone: 0 pages, LIFO batch:1",701ed9ce,"HighMem zone : 0 pages , LIFO batch:1 "
-1927,Jul,27,14:41:57,combo,kernel,,DMI 2.3 present.,3159614a,DMI 2.3 present . 
-1928,Jul,27,14:41:57,combo,kernel,,ACPI disabled because your bios is from 2000 and too old,806e7a94,ACPI disabled because your bios is from 2000 and too old 
-1929,Jul,27,14:41:57,combo,kernel,,You can enable it with acpi=force,3987760a,You can enable it with acpi=force 
-1930,Jul,27,14:41:57,combo,kernel,,Built 1 zonelists,3ca099d2,Built 1 zonelists 
-1931,Jul,27,14:41:57,combo,kernel,,Kernel command line: ro root=LABEL=/ rhgb quiet,d519bf21,Kernel command line : ro root=LABEL=/ rhgb quiet 
-1932,Jul,27,14:41:57,combo,kernel,,mapped 4G/4G trampoline to ffff3000.,c1eb035b,mapped 4G/4G trampoline to ffff3000 . 
-1933,Jul,27,14:41:57,combo,kernel,,Initializing CPU#0,4fc3f2f1,Initializing CPU # 0 
-1934,Jul,27,14:41:57,combo,kernel,,"CPU 0 irqstacks, hard=02345000 soft=02344000",6dff0aba,"CPU 0 irqstacks , hard=02345000 soft=02344000 "
-1935,Jul,27,14:41:57,combo,portmap,,portmap startup succeeded,5b53ada4,portmap startup succeeded 
-1936,Jul,27,14:41:57,combo,kernel,,PID hash table entries: 512 (order 9: 4096 bytes),80be882a,<*> hash table entries : 512 ( order <*> : 4096 bytes ) 
-1937,Jul,27,14:41:57,combo,kernel,,Detected 731.219 MHz processor.,27655a09,Detected 731.219 MHz processor . 
-1938,Jul,27,14:41:57,combo,rpc.statd,1618,Version 1.0.6 Starting,e0afaf2b,<*> <*> <*> 
+1916,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved),4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) 
+1917,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved),4bde1bf3,<*> <*> <*> <*> <*> ( <*> ) 
+1918,Jul,27,14:41:57,combo,kernel,,0MB HIGHMEM available.,6435abcb,<*> <*> available . 
+1919,Jul,27,14:41:57,combo,kernel,,126MB LOWMEM available.,6435abcb,<*> <*> available . 
+1920,Jul,27,14:41:57,combo,kernel,,zapping low mappings.,d74570e7,<*> <*> <*> . 
+1921,Jul,27,14:41:57,combo,syslog,,klogd startup succeeded,e0afaf2b,<*> <*> <*> 
+1922,Jul,27,14:41:57,combo,kernel,,On node 0 totalpages: 32430,c8b9921f,<*> <*> 0 <*> : <*> 
+1923,Jul,27,14:41:57,combo,kernel,,"DMA zone: 4096 pages, LIFO batch:1",015d673f,"<*> zone : <*> pages , LIFO batch:1 "
+1924,Jul,27,14:41:57,combo,kernel,,"Normal zone: 28334 pages, LIFO batch:6",cf2b56be,"<*> zone : <*> pages , LIFO <*> "
+1925,Jul,27,14:41:57,combo,irqbalance,,irqbalance startup succeeded,e0afaf2b,<*> <*> <*> 
+1926,Jul,27,14:41:57,combo,kernel,,"HighMem zone: 0 pages, LIFO batch:1",c7563710,"<*> zone : 0 pages , LIFO batch:1 "
+1927,Jul,27,14:41:57,combo,kernel,,DMI 2.3 present.,d74570e7,<*> <*> <*> . 
+1928,Jul,27,14:41:57,combo,kernel,,ACPI disabled because your bios is from 2000 and too old,699d33b8,ACPI disabled <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1929,Jul,27,14:41:57,combo,kernel,,You can enable it with acpi=force,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1930,Jul,27,14:41:57,combo,kernel,,Built 1 zonelists,e0afaf2b,<*> <*> <*> 
+1931,Jul,27,14:41:57,combo,kernel,,Kernel command line: ro root=LABEL=/ rhgb quiet,f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> 
+1932,Jul,27,14:41:57,combo,kernel,,mapped 4G/4G trampoline to ffff3000.,55094c07,<*> <*> <*> <*> <*> . 
+1933,Jul,27,14:41:57,combo,kernel,,Initializing CPU#0,14912193,<*> CPU # 0 
+1934,Jul,27,14:41:57,combo,kernel,,"CPU 0 irqstacks, hard=02345000 soft=02344000",bc2f23df,CPU 0 <*> <*> <*> <*> 
+1935,Jul,27,14:41:57,combo,portmap,,portmap startup succeeded,2bb55441,<*> startup succeeded 
+1936,Jul,27,14:41:57,combo,kernel,,PID hash table entries: 512 (order 9: 4096 bytes),a7d3dc27,<*> hash table entries : <*> ( order <*> : 4096 bytes ) 
+1937,Jul,27,14:41:57,combo,kernel,,Detected 731.219 MHz processor.,89c14c4f,<*> <*> <*> <*> . 
+1938,Jul,27,14:41:57,combo,rpc.statd,1618,Version 1.0.6 Starting,6b3a62ce,Version 1.0.6 Starting 
 1939,Jul,27,14:41:57,combo,kernel,,Using tsc for high-res timesource,97ed7085,Using tsc for high-res timesource 
-1940,Jul,27,14:41:58,combo,nfslock,,rpc.statd startup succeeded,5c0c0bea,rpc.statd startup succeeded 
+1940,Jul,27,14:41:58,combo,nfslock,,rpc.statd startup succeeded,2bb55441,<*> startup succeeded 
 1941,Jul,27,14:41:58,combo,kernel,,Console: colour VGA+ 80x25,9012da7c,Console : colour VGA+ 80x25 
-1942,Jul,27,14:41:58,combo,kernel,,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",53021f99,"Memory : 125312k/129720k available ( 1540k kernel code , 3860k reserved , 599k data , 144k init , 0k highmem ) "
-1943,Jul,27,14:41:58,combo,kernel,,Calibrating delay loop... 1445.88 BogoMIPS,23966452,Calibrating delay loop ... 1445.88 BogoMIPS 
+1942,Jul,27,14:41:58,combo,kernel,,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",28b5109a,"<*> : <*> available <*> <*> <*> <*> , <*> <*> , <*> <*> , <*> <*> , <*> <*> <*> "
+1943,Jul,27,14:41:58,combo,kernel,,Calibrating delay loop... 1445.88 BogoMIPS,97978048,<*> <*> <*> ... <*> <*> 
 1944,Jul,27,14:41:58,combo,kernel,,Security Scaffold v1.0.0 initialized,b5f6193c,<*> <*> <*> <*> 
-1945,Jul,27,14:41:58,combo,kernel,,SELinux:  Initializing.,d0e41557,SELinux : Initializing . 
-1946,Jul,27,14:41:58,combo,kernel,,SELinux:  Starting in permissive mode,fab20e3e,SELinux : Starting in permissive mode 
+1945,Jul,27,14:41:58,combo,kernel,,SELinux:  Initializing.,e632ea5c,SELinux : <*> <*> 
+1946,Jul,27,14:41:58,combo,kernel,,SELinux:  Starting in permissive mode,68efb3a0,SELinux : <*> <*> <*> <*> 
 1947,Jul,27,14:41:58,combo,kernel,,"There is already a security framework initialized, register_security failed.",77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1948,Jul,27,14:41:58,combo,kernel,,Failure registering capabilities with the kernel,f6c001ce,Failure registering capabilities with the kernel 
-1949,Jul,27,14:41:58,combo,kernel,,selinux_register_security:  Registering secondary module capability,c58699ba,selinux_register_security : Registering secondary module capability 
-1950,Jul,27,14:41:58,combo,kernel,,Capability LSM initialized,269bf089,Capability LSM initialized 
-1951,Jul,27,14:41:58,combo,rpcidmapd,,rpc.idmapd startup succeeded,4a40d7bd,rpc.idmapd startup succeeded 
+1948,Jul,27,14:41:58,combo,kernel,,Failure registering capabilities with the kernel,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1949,Jul,27,14:41:58,combo,kernel,,selinux_register_security:  Registering secondary module capability,85ffd936,<*> : Registering <*> <*> <*> 
+1950,Jul,27,14:41:58,combo,kernel,,Capability LSM initialized,e0afaf2b,<*> <*> <*> 
+1951,Jul,27,14:41:58,combo,rpcidmapd,,rpc.idmapd startup succeeded,2bb55441,<*> startup succeeded 
 1952,Jul,27,14:41:58,combo,kernel,,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",b05064f6,"<*> <*> hash table entries : <*> ( order : <*> , <*> bytes ) "
 1953,Jul,27,14:41:58,combo,kernel,,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",6b35c3c4,"<*> hash table entries : <*> ( order : <*> , <*> bytes ) "
-1954,Jul,27,14:41:58,combo,kernel,,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",6d7d7b9c,"<*> hash table entries : 512 ( order : 0 , 4096 bytes ) "
-1955,Jul,27,14:41:58,combo,kernel,,"CPU: L1 I cache: 16K, L1 D cache: 16K",8ede68ac,"CPU : L1 I cache : 16K , L1 D cache : 16K "
-1956,Jul,27,14:41:58,combo,kernel,,CPU: L2 cache: 256K,bd2f0510,CPU : L2 cache : 256K 
-1957,Jul,27,14:41:58,combo,kernel,,Intel machine check architecture supported.,c0e7c6cc,Intel machine check architecture supported . 
-1958,Jul,27,14:41:58,combo,kernel,,Intel machine check reporting enabled on CPU#0.,1be94ca3,Intel machine check reporting enabled on CPU # 0 . 
-1959,Jul,27,14:41:58,combo,kernel,,CPU: Intel Pentium III (Coppermine) stepping 06,3a919a4e,CPU : Intel Pentium III ( Coppermine ) stepping 06 
-1960,Jul,27,14:41:58,combo,kernel,,Enabling fast FPU save and restore... done.,73d7f0e3,Enabling fast FPU save and restore ... done . 
-1961,Jul,27,14:41:58,combo,kernel,,Enabling unmasked SIMD FPU exception support... done.,93703ab0,Enabling unmasked SIMD FPU exception support ... done . 
-1962,Jul,27,14:41:58,combo,kernel,,Checking 'hlt' instruction... OK.,a8c77460,Checking 'hlt ' instruction ... OK . 
-1963,Jul,27,14:41:58,combo,random,,Initializing random number generator:  succeeded,7e9b3182,Initializing random number generator : succeeded 
-1964,Jul,27,14:41:58,combo,kernel,,POSIX conformance testing by UNIFIX,2d74ae89,POSIX conformance testing by UNIFIX 
+1954,Jul,27,14:41:58,combo,kernel,,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",db24cd93,"<*> hash table entries : <*> ( order : <*> , 4096 bytes ) "
+1955,Jul,27,14:41:58,combo,kernel,,"CPU: L1 I cache: 16K, L1 D cache: 16K",fb86fd31,CPU : L1 <*> cache : 16K <*> L1 <*> cache : 16K 
+1956,Jul,27,14:41:58,combo,kernel,,CPU: L2 cache: 256K,386f2858,CPU : <*> cache : <*> 
+1957,Jul,27,14:41:58,combo,kernel,,Intel machine check architecture supported.,cfb28e6c,Intel machine check <*> <*> . 
+1958,Jul,27,14:41:58,combo,kernel,,Intel machine check reporting enabled on CPU#0.,d9c371dd,Intel machine check <*> <*> <*> CPU # 0 . 
+1959,Jul,27,14:41:58,combo,kernel,,CPU: Intel Pentium III (Coppermine) stepping 06,43a1937e,CPU : <*> <*> <*> <*> <*> <*> <*> <*> 
+1960,Jul,27,14:41:58,combo,kernel,,Enabling fast FPU save and restore... done.,1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1961,Jul,27,14:41:58,combo,kernel,,Enabling unmasked SIMD FPU exception support... done.,1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1962,Jul,27,14:41:58,combo,kernel,,Checking 'hlt' instruction... OK.,89798fc7,<*> <*> <*> <*> ... <*> <*> 
+1963,Jul,27,14:41:58,combo,random,,Initializing random number generator:  succeeded,52c14d9c,Initializing <*> <*> <*> : succeeded 
+1964,Jul,27,14:41:58,combo,kernel,,POSIX conformance testing by UNIFIX,347334c7,<*> <*> <*> <*> <*> 
 1965,Jul,27,14:41:58,combo,kernel,,NET: Registered protocol family 16,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-1966,Jul,27,14:41:58,combo,kernel,,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",70b2a245,PCI : PCI BIOS <*> <*> <*> <*> <*> <*> <*> <*> 
+1966,Jul,27,14:41:58,combo,kernel,,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",bacdb2a4,PCI : PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1967,Jul,27,14:41:58,combo,kernel,,PCI: Using configuration type 1,9750756a,PCI : <*> <*> <*> <*> 
-1968,Jul,27,14:41:58,combo,kernel,,mtrr: v2.0 (20020519),0eb37363,mtrr : v2.0 ( 20020519 ) 
-1969,Jul,27,14:41:58,combo,kernel,,ACPI: Subsystem revision 20040326,06306496,ACPI : Subsystem revision 20040326 
-1970,Jul,27,14:41:58,combo,kernel,,ACPI: Interpreter disabled.,f1a537f4,ACPI : Interpreter disabled . 
+1968,Jul,27,14:41:58,combo,kernel,,mtrr: v2.0 (20020519),f291912b,<*> <*> <*> ( <*> ) 
+1969,Jul,27,14:41:58,combo,kernel,,ACPI: Subsystem revision 20040326,f14888a7,ACPI : <*> <*> <*> 
+1970,Jul,27,14:41:58,combo,kernel,,ACPI: Interpreter disabled.,bd76525f,ACPI : <*> disabled <*> 
 1971,Jul,27,14:41:58,combo,kernel,,Linux Plug and Play Support v0.97 (c) Adam Belay,52993850,Linux Plug and Play Support v0.97 ( c ) Adam Belay 
 1972,Jul,27,14:41:58,combo,rc,,Starting pcmcia:  succeeded,07b77e98,<*> <*> : <*> 
-1973,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver usbfs,0f3697a7,usbcore : registered new driver <*> 
-1974,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver hub,0f3697a7,usbcore : registered new driver <*> 
-1975,Jul,27,14:41:58,combo,kernel,,ACPI: ACPI tables contain no PCI IRQ routing entries,b66f4681,<*> : <*> <*> <*> <*> PCI IRQ <*> <*> 
-1976,Jul,27,14:41:59,combo,kernel,,PCI: Invalid ACPI-PCI IRQ routing table,f9dcdf29,PCI : <*> <*> IRQ <*> <*> 
-1977,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware,91fff106,PCI : Probing PCI hardware 
-1978,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware (bus 00),f6185946,PCI : Probing PCI hardware ( <*> <*> ) 
-1979,Jul,27,14:41:59,combo,kernel,,Transparent bridge - 0000:00:1e.0,a6cfb553,Transparent bridge - 0000:00:1e.0 
-1980,Jul,27,14:41:59,combo,kernel,,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,f683cbf4,PCI : <*> IRQ <*> <*> <*> <*> <*> at <*> 
-1981,Jul,27,14:41:59,combo,kernel,,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),abbc9341,<*> : BIOS version <*> <*> <*> ( <*> version <*> ) 
-1982,Jul,27,14:41:59,combo,kernel,,audit: initializing netlink socket (disabled),9c2ce019,<*> : <*> <*> <*> ( <*> ) 
-1983,Jul,27,14:41:54,combo,sysctl,,kernel.core_uses_pid = 1,a9cd06b3,kernel.core_uses_pid = 1 
+1973,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver usbfs,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1974,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver hub,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1975,Jul,27,14:41:58,combo,kernel,,ACPI: ACPI tables contain no PCI IRQ routing entries,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1976,Jul,27,14:41:59,combo,kernel,,PCI: Invalid ACPI-PCI IRQ routing table,3908b381,<*> <*> <*> <*> <*> <*> <*> 
+1977,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware,cc567ce0,PCI : <*> PCI <*> 
+1978,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware (bus 00),eedb48e4,PCI : <*> PCI <*> <*> <*> <*> <*> 
+1979,Jul,27,14:41:59,combo,kernel,,Transparent bridge - 0000:00:1e.0,b5f6193c,<*> <*> <*> <*> 
+1980,Jul,27,14:41:59,combo,kernel,,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,e390cefd,<*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> 
+1981,Jul,27,14:41:59,combo,kernel,,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),8a6c2b5e,<*> : <*> version <*> <*> <*> <*> <*> version <*> <*> 
+1982,Jul,27,14:41:59,combo,kernel,,audit: initializing netlink socket (disabled),e6713643,<*> : <*> <*> <*> <*> <*> <*> 
+1983,Jul,27,14:41:54,combo,sysctl,,kernel.core_uses_pid = 1,e0afaf2b,<*> <*> <*> 
 1984,Jul,27,14:41:59,combo,hcid,1690,HCI daemon ver 2.4 started,347334c7,<*> <*> <*> <*> <*> 
 1985,Jul,27,14:41:59,combo,bluetooth,,hcid startup succeeded,e0afaf2b,<*> <*> <*> 
-1986,Jul,27,14:41:59,combo,kernel,,audit(1122475266.4294965305:0): initialized,f7977a62,<*> ( <*> ) : <*> 
+1986,Jul,27,14:41:59,combo,kernel,,audit(1122475266.4294965305:0): initialized,723ffafc,<*> <*> <*> <*> : <*> 
 1987,Jul,27,14:41:54,combo,network,,Setting network parameters:  succeeded,80768c28,<*> <*> <*> : <*> 
-1988,Jul,27,14:41:59,combo,bluetooth,,sdpd startup succeeded,e0afaf2b,<*> <*> <*> 
-1989,Jul,27,14:41:59,combo,sdpd,1696,sdpd v1.5 started,e0afaf2b,<*> <*> <*> 
-1990,Jul,27,14:41:59,combo,kernel,,"Total HugeTLB memory allocated, 0",3da78e0b,"Total HugeTLB memory allocated , 0 "
+1988,Jul,27,14:41:59,combo,bluetooth,,sdpd startup succeeded,5bd00b94,sdpd startup succeeded 
+1989,Jul,27,14:41:59,combo,sdpd,1696,sdpd v1.5 started,08454fc5,sdpd v1.5 started 
+1990,Jul,27,14:41:59,combo,kernel,,"Total HugeTLB memory allocated, 0",863059d9,"<*> <*> <*> <*> , <*> "
 1991,Jul,27,14:41:54,combo,network,,Bringing up loopback interface:  succeeded,723ffafc,<*> <*> <*> <*> : <*> 
 1992,Jul,27,14:41:59,combo,kernel,,VFS: Disk quotas dquot_6.5.1,3b198f2a,<*> : <*> <*> <*> 
-1993,Jul,27,14:41:59,combo,kernel,,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",d77bc745,"<*> hash table entries : <*> ( order 0 , 4096 bytes ) "
-1994,Jul,27,14:41:59,combo,kernel,,SELinux:  Registering netfilter hooks,978fdbd1,SELinux : Registering netfilter hooks 
-1995,Jul,27,14:41:59,combo,kernel,,Initializing Cryptographic API,bf516fd3,Initializing Cryptographic API 
+1993,Jul,27,14:41:59,combo,kernel,,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",53423181,"<*> hash table entries : <*> ( order <*> , 4096 bytes ) "
+1994,Jul,27,14:41:59,combo,kernel,,SELinux:  Registering netfilter hooks,6c900edb,SELinux : Registering <*> <*> 
+1995,Jul,27,14:41:59,combo,kernel,,Initializing Cryptographic API,1bc62b10,Initializing <*> <*> 
 1996,Jul,27,14:41:59,combo,kernel,,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,b4b700cb,<*> : PCI <*> <*> PCI <*> version : <*> 
-1997,Jul,27,14:42:00,combo,kernel,,isapnp: Scanning for PnP cards...,5ac449d7,<*> <*> <*> for <*> <*> <*> 
+1997,Jul,27,14:42:00,combo,kernel,,isapnp: Scanning for PnP cards...,3908b381,<*> <*> <*> <*> <*> <*> <*> 
 1998,Jul,27,14:42:00,combo,kernel,,isapnp: No Plug & Play device found,f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> 
 1999,Jul,27,14:42:00,combo,kernel,,Real Time Clock Driver v1.12,273a93e3,Real Time Clock Driver v1.12 
 2000,Jul,27,14:42:00,combo,kernel,,Linux agpgart interface v0.100 (c) Dave Jones,5c96b528,Linux agpgart interface v0.100 ( c ) Dave Jones 

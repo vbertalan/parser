@@ -1,240 +1,61 @@
 EventId,EventTemplate,Occurrences
 7c1f3e8c,<*> <*> <*> <*> <*> <*> : <*> : <*> ,2
-3cd5cdbf,<*> @ <*> <*> ( <*> <*> <*> ) <*> ( <*> @ < * > @ < * > @ < * > @ < * > @ < * > @ <*> ) ,6
-a83178f0,Ending TrustedInstaller initialization . ,2
-177b89b7,Starting the TrustedInstaller main loop . ,2
+612e4bf3,<*> @ <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> @ < * > @ < * > @ < * > @ < * > @ < * > @ <*> <*> ,6
+d74570e7,<*> <*> <*> . ,3
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,5
 bff1fe6f,TrustedInstaller service starts successfully . ,2
-843d8b33,SQM : Initializing online with Windows opt-in : False ,2
-53720dac,<*> : <*> <*> <*> <*> <*> <*> <*> <*> . ,2
-b0ccae1c,SQM : Requesting upload of all unsent reports . ,2
-865d9cce,"<*> : <*> <*> <*> <*> <*> <*> <*> : <*> : <*> * <*> , <*> : < * > <*> <*> <*> < * > <*> <*> <*> ",2
-0b2a0fe4,SQM : Failed to start standard sample upload . [ HRESULT = < * > - E_FAIL ] ,2
-9a362430,"<*> : <*> 0 <*> <*> <*> <*> for <*> <*> <*> : <*> : <*> <*> <*> , <*> : <*> ",2
+e8b3e2ae,<*> : <*> <*> <*> <*> <*> : <*> ,2
+95118e79,SQM : <*> <*> <*> <*> <*> <*> <*> <*> . ,2
+a8cd2e4c,SQM : <*> <*> <*> <*> <*> <*> . ,2
+64fe1c4b,"<*> : <*> <*> <*> <*> <*> <*> <*> : <*> : <*> * <*> , <*> : <*> * <*> <*> <*> <*> <*> * <*> <*> <*> <*> ",2
+2a6a4585,<*> : <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+bd68f3a5,"<*> : <*> <*> <*> <*> <*> <*> for <*> <*> <*> : <*> : <*> <*> <*> , <*> : <*> ",2
 5ee82bfa,<*> : <*> : <*> <*> <*> <*> <*> <*> . <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-55283209,"No startup processing required , TrustedInstaller service was not set as autostart , or else a reboot is still pending . ",2
+924a8907,"<*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> . ",2
 f5d4a943,<*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-520932bc,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions ( call 1 ) ( flags = 00000004 , progress = NULL , phase = 0 , pdwDisposition = @ <*> ",2
-2db3fc6c,"<*> <*> <*> <*> ( <*> <*> ) , <*> <*> <*> <*> '' ( <*> ) '' ",2
-9b4c8d4b,00000006 Created NT transaction ( seq 1 ) result < * > handle @ <*> ,2
+b3c79f33,"00000004 <*> ( <*> <*> <*> ( <*> = 00000004 , <*> = <*> , <*> = <*> , <*> = <*> <*> ",2
+2db3fc6c,"<*> <*> <*> <*> ( <*> <*> ) , <*> <*> <*> <*> '' ( <*> ) '' ",3
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
 b93dacc9,<*> <*> <*> <*> <*> <*> : ,3
-f5dccd9c,"NonStart : Success , startup processing not required as expected . ",2
-aefbea77,Startup processing thread terminated normally ,2
-ff34f9f2,<*> CSI Store <*> ( < * > initialized ,3
-d406211c,Session : <*> initialized by client WindowsUpdateAgent . ,487
-1bd2e0ff,Warning : Unrecognized packageExtended attribute . ,280
-c226e7c8,Expecting attribute name [ HRESULT = < * > - CBS_E_MANIFEST_INVALID_ITEM ] ,224
-1075df25,Failed to get next element [ HRESULT = < * > - CBS_E_MANIFEST_INVALID_ITEM ] ,210
-1a750721,<*> <*> <*> <*> <*> [ HRESULT = < * > - CBS_E_MANIFEST_INVALID_ITEM ] ,14
-e049f545,Failed to internally open package . [ HRESULT = < * > - CBS_E_INVALID_PACKAGE ] ,18
-a99823f3,"Read out cached package applicability for package : Package_for_KB3121255~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-2be400fb,"Read out cached package applicability for package : <*> , ApplicableState : <*> , CurrentState:112 ",22
-caca4e05,"Read out cached package applicability for package : <*> , ApplicableState : 112 , CurrentState:112 ",265
-92b08be1,"Read out cached package applicability for package : <*> , ApplicableState : 80 , CurrentState:112 ",29
-6584a380,"Read out cached package applicability for package : Package_for_KB3127220~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-e68fae38,"Read out cached package applicability for package : Package_for_KB3006137~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-51285b7d,"Read out cached package applicability for package : Package_for_KB3067903~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-09719718,Session : 30546174_187017 initialized by client WindowsUpdateAgent . ,1
-4bd24e20,"Read out cached package applicability for package : Package_for_KB3182203~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-c8f54bc4,Session : 30546174_1767108 initialized by client WindowsUpdateAgent . ,1
-b685d989,"Read out cached package applicability for package : Package_for_KB3185319~31bf3856ad364e35~amd64~~11.2.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-d5e3b4a1,Session : 30546174_8087469 initialized by client WindowsUpdateAgent . ,1
-8daf3478,"Read out cached package applicability for package : Package_for_KB2978742~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-1fe0648f,"Read out cached package applicability for package : Package_for_KB3177186~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-3058f868,"Read out cached package applicability for package : Package_for_KB3055642~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-db63fd14,"Read out cached package applicability for package : Package_for_KB3147071~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-d086c263,"Read out cached package applicability for package : <*> , ApplicableState : <*> , <*> ",30
-83757d98,"Read out cached package applicability for package : Package_for_KB2563227~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-3fc4f940,Session : 30546174_11037638 initialized by client WindowsUpdateAgent . ,1
-0ade492b,"Read out cached package applicability for package : Package_for_KB2789645~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-e4018c0a,Session : 30546174_17668017 initialized by client WindowsUpdateAgent . ,1
-b08568e7,"Read out cached package applicability for package : Package_for_KB3138901~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-9320f22b,Session : 30546174_17818026 initialized by client WindowsUpdateAgent . ,1
-98325339,"Read out cached package applicability for package : <*> , ApplicableState : 0 , <*> ",2
-8711b169,Session : 30546174_18178046 initialized by client WindowsUpdateAgent . ,1
-61fe4234,Session : 30546174_18398059 initialized by client WindowsUpdateAgent . ,1
-dae2b8dd,"Read out cached package applicability for package : Package_for_KB3011780~31bf3856ad364e35~amd64~~6.1.1.5 , ApplicableState : 112 , CurrentState:112 ",2
-10f61731,"<*> <*> <*> package <*> <*> package : <*> , <*> : <*> , <*> ",14
-db0cb923,Session : 30546174_20328169 initialized by client WindowsUpdateAgent . ,1
-fb262eee,"Read out cached package applicability for package : Package_for_KB2560656~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-0c000f02,Session : 30546174_21518237 initialized by client WindowsUpdateAgent . ,1
-8107aa3d,"Read out cached package applicability for package : Package_for_KB2918077~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
+c2b007f4,"<*> : <*> , <*> <*> <*> <*> <*> <*> <*> ",2
+347334c7,<*> <*> <*> <*> <*> ,3
+c52533af,<*> <*> <*> <*> <*> <*> <*> <*> initialized ,3
+d406211c,Session : <*> initialized by client WindowsUpdateAgent . ,523
+1bd2e0ff,Warning : Unrecognized packageExtended attribute . ,260
+c226e7c8,Expecting attribute name [ HRESULT = < * > - CBS_E_MANIFEST_INVALID_ITEM ] ,213
+1075df25,Failed to get next element [ HRESULT = < * > - CBS_E_MANIFEST_INVALID_ITEM ] ,208
+be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,16
+8ff516c7,<*> : <*> <*> <*> . ,20
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,11
+e049f545,Failed to internally open package . [ HRESULT = < * > - CBS_E_INVALID_PACKAGE ] ,15
+612ee5fc,<*> <*> <*> <*> package . <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+2be400fb,"Read out cached package applicability for package : <*> , ApplicableState : <*> , CurrentState:112 ",138
 caf0a508,<*> : <*> <*> <*> <*> <*> . ,16
-590c37d6,"Read out cached package applicability for package : <*> , ApplicableState : 80 , <*> ",8
-99c92717,"Read out cached package applicability for package : Package_for_KB3138962~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-7c1142f2,"Read out cached package applicability for package : Package_for_KB2552343~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-361973b6,"Read out cached package applicability for package : Package_for_KB2973201~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-ae23d54d,Session : 30546174_22048268 initialized by client WindowsUpdateAgent . ,1
-955c874e,"Read out cached package applicability for package : Package_for_KB3072305~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-1f0f95f7,Session : 30546174_22448291 initialized by client WindowsUpdateAgent . ,1
-76ed2626,Session : 30546174_23648359 initialized by client WindowsUpdateAgent . ,1
-6d841a53,"Read out cached package applicability for package : Package_for_KB2620704~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-95da400e,"Read out cached package applicability for package : Package_for_KB2763523~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-da337230,"Read out cached package applicability for package : Package_for_KB3080446~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 80 , CurrentState:112 ",2
-7bada821,Session : 30546174_27518581 initialized by client WindowsUpdateAgent . ,1
-8f8bf95a,"Read out cached package applicability for package : Package_for_KB2515325~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-ae443592,Session : 30546174_27548582 initialized by client WindowsUpdateAgent . ,1
-2f71120e,Session : 30546174_27568583 initialized by client WindowsUpdateAgent . ,1
-67ce32e6,"Read out cached package applicability for package : Package_for_KB2479943~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-9c471988,"Read out cached package applicability for package : <*> , ApplicableState : 112 , <*> ",10
-e332e727,"Read out cached package applicability for package : Package_for_KB3107998~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-37077fcc,"Read out cached package applicability for package : Package_for_KB2631813~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-5758da64,Session : 30546174_35509038 initialized by client WindowsUpdateAgent . ,1
-5f658591,"Read out cached package applicability for package : Package_for_KB2894844~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-68ef995c,Session : 30546174_43049469 initialized by client WindowsUpdateAgent . ,1
-345a5651,"Read out cached package applicability for package : Package_for_KB2574819~31bf3856ad364e35~amd64~~6.1.2.0 , ApplicableState : 112 , CurrentState:112 ",4
-68b01a1f,Session : 30546174_43599500 initialized by client WindowsUpdateAgent . ,1
-d6b1e2c8,"Read out cached package applicability for package : Package_for_KB2857650~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-534a9e37,"Read out cached package applicability for package : Package_for_KB3118401~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-1eeff467,Session : 30546174_45239594 initialized by client WindowsUpdateAgent . ,1
-fd0ace81,"Read out cached package applicability for package : Package_for_KB2900986~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-dbdc2c4a,Session : 30546174_45309598 initialized by client WindowsUpdateAgent . ,1
-e2d3cb27,"Read out cached package applicability for package : Package_for_KB3035126~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-0ca1584b,"Read out cached package applicability for package : Package_for_KB3076895~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 80 , CurrentState:112 ",2
-1798941d,"Read out cached package applicability for package : <*> , ApplicableState : <*> , CurrentState:0 ",2
-0a7630da,Session : 30546174_84291828 initialized by client WindowsUpdateAgent . ,1
-4281c75a,Session : 30546174_84441836 initialized by client WindowsUpdateAgent . ,1
-94e09322,Session : 30546174_84491839 initialized by client WindowsUpdateAgent . ,1
-58ad4522,"Read out cached package applicability for package : <*> , ApplicableState : 80 , CurrentState:0 ",2
-0c9fb3db,"Read out cached package applicability for package : Package_for_KB2884256~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-233144de,"Read out cached package applicability for package : Package_for_KB3163245~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-75522c0b,Session : 30546174_89042099 initialized by client WindowsUpdateAgent . ,1
-2719f79c,Session : 30546174_89092102 initialized by client WindowsUpdateAgent . ,1
-cc0c5b78,"Read out cached package applicability for package : Package_for_KB2570947~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-77e35642,"Read out cached package applicability for package : Package_for_KB2972100~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-742ab005,"Read out cached package applicability for package : Package_for_KB2966583~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-917c9492,"Read out cached package applicability for package : Package_for_KB2685811~31bf3856ad364e35~amd64~~6.1.1.11 , ApplicableState : 112 , CurrentState:112 ",2
-1c2aee8a,Session : 30546174_90802200 initialized by client WindowsUpdateAgent . ,1
-f120dfc5,Session : 30546174_91382233 initialized by client WindowsUpdateAgent . ,1
-2eec64b2,"Read out cached package applicability for package : Package_for_KB3021917~31bf3856ad364e35~amd64~~6.1.1.3 , ApplicableState : 112 , CurrentState:112 ",2
-1e525444,Session : 30546174_91422236 initialized by client WindowsUpdateAgent . ,1
-8d435193,"Read out cached package applicability for package : Package_for_KB2510531~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-441c16c6,"Read out cached package applicability for package : Package_for_KB2871997~31bf3856ad364e35~amd64~~6.1.2.5 , ApplicableState : 112 , CurrentState:112 ",2
-adae98e7,"Read out cached package applicability for package : Package_for_KB3046269~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-bb50dd88,"Read out cached package applicability for package : Package_for_KB2807986~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-19d82e7d,"Read out cached package applicability for package : Package_for_KB2667402~31bf3856ad364e35~amd64~~6.1.2.0 , ApplicableState : 112 , CurrentState:112 ",2
-23da7798,"Read out cached package applicability for package : Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.18080 , ApplicableState : 112 , CurrentState:0 ",2
-93058fd1,"Read out cached package applicability for package : Package_for_KB2719033~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:0 ",2
-7ea1eddf,"Read out cached package applicability for package : Package_for_KB2864202~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-c9af4e6f,Session : 30546174_102442866 initialized by client WindowsUpdateAgent . ,1
-4291ceb0,"Read out cached package applicability for package : Package_for_KB3040272~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 80 , CurrentState:112 ",2
-b7eae197,"Read out cached package applicability for package : Package_for_KB3023215~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-0c9e3c4c,Session : 30546174_107003127 initialized by client WindowsUpdateAgent . ,1
-468a5a6a,"Read out cached package applicability for package : Package_for_KB2908783~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-56ba9ed7,"Read out cached package applicability for package : <*> , ApplicableState : 0 , CurrentState:0 ",4
-3727b752,Session : 30546174_108613219 initialized by client WindowsUpdateAgent . ,1
-a9c0aa65,"Read out cached package applicability for package : Package_for_KB2621146~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 0 , CurrentState:0 ",2
-e60a2d74,Session : 30546174_108903235 initialized by client WindowsUpdateAgent . ,1
-320f6432,"Read out cached package applicability for package : Package_for_KB2509553~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-b8317516,"Read out cached package applicability for package : Package_for_KB2758857~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-170daaab,Session : 30546174_110243312 initialized by client WindowsUpdateAgent . ,1
-f5e4f31e,"Read out cached package applicability for package : Package_for_KB2846960~31bf3856ad364e35~amd64~~6.1.1.3 , ApplicableState : 80 , CurrentState:112 ",2
-3504a276,Session : 30546174_110453324 initialized by client WindowsUpdateAgent . ,1
-fdbe1ad6,"Read out cached package applicability for package : Package_for_KB3123479~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-286eee32,"Read out cached package applicability for package : Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17903 , ApplicableState : 112 , CurrentState:0 ",2
-d0c07ab5,"Read out cached package applicability for package : Package_for_KB3149090~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-7377c08c,"Read out cached package applicability for package : Package_for_KB3097989~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-2842fb35,"Read out cached package applicability for package : Package_for_KB2984972~31bf3856ad364e35~amd64~~6.1.1.4 , ApplicableState : 112 , CurrentState:112 ",2
-bdafb26b,Session : 30546174_147585448 initialized by client WindowsUpdateAgent . ,1
-bf771476,"Read out cached package applicability for package : Package_for_KB2685939~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 80 , CurrentState:112 ",2
-1be75e81,"Read out cached package applicability for package : Package_for_KB3020388~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-110863cf,Session : 30546174_155085877 initialized by client WindowsUpdateAgent . ,1
-aebdc647,"Read out cached package applicability for package : Package_for_KB2685813~31bf3856ad364e35~amd64~~6.1.1.11 , ApplicableState : 112 , CurrentState:112 ",2
-cd6bf22b,"Read out cached package applicability for package : Package_for_KB3075249~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-3a20758b,"Read out cached package applicability for package : Package_for_KB2621440~31bf3856ad364e35~amd64~~6.1.1.5 , ApplicableState : 112 , CurrentState:112 ",2
-e6713643,<*> : <*> <*> <*> <*> <*> <*> ,13
-70f29e01,"Read out cached package applicability for package : Package_for_KB3042553~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-52856554,Session : 30546174_157105992 initialized by client WindowsUpdateAgent . ,1
-61967c5b,Session : 30546174_157135994 initialized by client WindowsUpdateAgent . ,1
-4ce648b0,Session : 30546174_157145995 initialized by client WindowsUpdateAgent . ,1
-1cc8e1ac,Session : 30546174_157205998 initialized by client WindowsUpdateAgent . ,1
-9523fb8f,Session : 30546174_157616022 initialized by client WindowsUpdateAgent . ,1
-7775237e,"Read out cached package applicability for package : Package_for_KB2992611~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-8b3d597c,"Read out cached package applicability for package : Package_for_KB3092627~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-11be048f,Session : 30546174_166396524 initialized by client WindowsUpdateAgent . ,1
-eadf6905,"Read out cached package applicability for package : Package_for_KB2813430~31bf3856ad364e35~amd64~~6.1.1.4 , ApplicableState : 112 , CurrentState:112 ",2
-b6d92e6b,"Read out cached package applicability for package : Package_for_KB3159398~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-488a9551,"Read out cached package applicability for package : Package_for_KB3035017~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:0 ",2
-f28bc91e,"Read out cached package applicability for package : Package_for_KB2993651~31bf3856ad364e35~amd64~~6.1.1.3 , ApplicableState : 80 , CurrentState:112 ",2
-f769b5d2,"Read out cached package applicability for package : Package_for_KB2835174~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 0 , CurrentState:0 ",2
-fb74613a,"Read out cached package applicability for package : Package_for_KB2808679~31bf3856ad364e35~amd64~~6.1.1.2 , ApplicableState : 112 , CurrentState:112 ",2
-afec4cde,"Read out cached package applicability for package : Package_for_KB3101722~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-be2c460e,"Read out cached package applicability for package : Package_for_KB3140245~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-f72dac84,"Read out cached package applicability for package : Package_for_KB3010788~31bf3856ad364e35~amd64~~6.1.1.1 , ApplicableState : 112 , CurrentState:112 ",2
-45ef4dd8,Session : 30546174_176877123 initialized by client WindowsUpdateAgent . ,1
-7e13adee,Session : 30546174_176887124 initialized by client WindowsUpdateAgent . ,1
-1dfb9490,Session : 30546174_176917126 initialized by client WindowsUpdateAgent . ,1
-890b970f,Session : 30546174_176947127 initialized by client WindowsUpdateAgent . ,1
-4b95e745,Session : 30546174_176967128 initialized by client WindowsUpdateAgent . ,1
-c8966e59,"Read out cached package applicability for package : Package_for_KB3108371~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-e3c39592,"Read out cached package applicability for package : Package_for_KB2892074~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-865d763d,"Read out cached package applicability for package : Package_for_KB2729094~31bf3856ad364e35~amd64~~6.1.2.0 , ApplicableState : 112 , CurrentState:112 ",2
-abd27891,Session : 30546174_179737287 initialized by client WindowsUpdateAgent . ,1
-f35f4623,"Read out cached package applicability for package : Package_for_KB2511455~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 112 , CurrentState:112 ",2
-33a6032c,Session : 30546174_180077306 initialized by client WindowsUpdateAgent . ,1
-2a141e42,"Read out cached package applicability for package : Package_for_KB3031432~31bf3856ad364e35~amd64~~6.1.1.0 , ApplicableState : 80 , CurrentState:112 ",2
-e7ac573c,"Read out cached package applicability for package : Package_for_KB3004375~31bf3856ad364e35~amd64~~6.1.3.1 , ApplicableState : 112 , CurrentState:112 ",2
-32fd6ecd,Session : 30546174_185287604 initialized by client WindowsUpdateAgent . ,1
-017feb11,Session : 30546174_185317606 initialized by client WindowsUpdateAgent . ,1
+caca4e05,"Read out cached package applicability for package : <*> , ApplicableState : 112 , CurrentState:112 ",243
+10f61731,"<*> <*> <*> package <*> <*> package : <*> , <*> : <*> , <*> ",73
+94a50471,<*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> : <*> <*> <*> ,6
+d086c263,"Read out cached package applicability for package : <*> , ApplicableState : <*> , <*> ",76
+e6713643,<*> : <*> <*> <*> <*> <*> <*> ,65
+9c471988,"Read out cached package applicability for package : <*> , ApplicableState : 112 , <*> ",12
+92b08be1,"Read out cached package applicability for package : <*> , ApplicableState : 80 , CurrentState:112 ",2
+44cf4505,"<*> <*> <*> <*> <*> <*> <*> : <*> , <*> : <*> , <*> ",2
+ed939df3,"<*> <*> <*> package <*> for package : <*> , <*> : <*> , <*> ",4
+590c37d6,"Read out cached package applicability for package : <*> , ApplicableState : 80 , <*> ",2
 256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-2f3ad3c3,Reboot mark refs <*> <*> : <*> ,1
-c814b8a0,Scavenge : <*> ,1
-6193c795,<*> @ <*> CSI Transaction @ < * > <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> '' <*> '' ,1
-c26ba0ab,Scavenge : <*> <*> Store ,1
-c9f3d07e,<*> <*> 1 <*> <*> 1 <*> <*> <*> <*> <*> : ,1
-682ad9ce,"<*> Store <*> cookie <*> <*> scavenge cookie , <*> scavenge . ",1
+095471cd,<*> <*> <*> <*> <*> : <*> ,1
+b71b3bfe,<*> : <*> ,1
+2738e011,<*> @ <*> <*> <*> @ <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+3b198f2a,<*> : <*> <*> <*> ,1
+c90cbb43,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : ,1
+42bd4ae3,"<*> <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> ",1
 9b9422b7,<*> <*> : <*> <*> <*> : <*> <*> <*> <*> ,1
-48f8c09f,"<*> <*> <*> <*> <*> <*> <*> <*> , <*> [ <*> ] <*> <*> <*> <*> <*> ",1
-6e95a989,<*> Created NT transaction ( seq <*> ) result < * > handle @ <*> ,1
-7b10e4b1,"Scavenge : <*> , <*> : <*> ",1
-10b06d66,<*> @ <*> CSI Transaction @ < * > <*> ,1
-3779fe54,Reboot mark refs : <*> ,1
-58c1b1d5,Idle processing thread terminated normally ,1
-2b879fa7,<*> the TrustedInstaller main loop . ,1
-20b00ad2,Starting TrustedInstaller <*> . ,2
-f48f8483,Ending TrustedInstaller <*> . ,1
-322c44c7,"Loading offline registry hive : <*> , into registry key ' { bf1a281b-ad7b-4476-ac95-f47682990ce7 } <*> ' from path '\\ ? <*> ' . ",8
-80768c28,<*> <*> <*> : <*> ,1
-806c61fe,"<*> <*> <*> , <*> <*> <*> <*> <*> <*> . ",1
-c656cd07,<*> @ <*> PopulateComponentFamiliesKey - <*> ,2
-09e2fb13,Session : 11152_142416105 initialized by client SPP . ,1
+2e92ea94,"<*> : <*> , <*> : <*> ",1
+4d2fb647,<*> @ <*> <*> <*> @ <*> <*> <*> <*> ,1
+80768c28,<*> <*> <*> : <*> ,2
+b5f6193c,<*> <*> <*> <*> ,2
+d02370ad,<*> offline registry hive : <*> <*> <*> registry <*> ' { bf1a281b-ad7b-4476-ac95-f47682990ce7 } <*> ' <*> <*> <*> <*> <*> ' <*> ,5
+011db864,"<*> <*> registry <*> : <*> , <*> registry <*> ' <*> <*> <*> <*> ' <*> <*> <*> <*> <*> ' <*> ",3
+9bea244a,"<*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> ",1
+2f4d0cf3,Session : <*> initialized by client <*> . ,1
 9acb1ad9,Unloading offline registry hive : { bf1a281b-ad7b-4476-ac95-f47682990ce7 } <*> ,8
-2a911b9c,Session : 30546354_2833204231 initialized by client WindowsUpdateAgent . ,1
-2b86724e,Session : 30546354_2879516879 initialized by client WindowsUpdateAgent . ,1
-825d575f,Session : 30546354_2932399904 initialized by client WindowsUpdateAgent . ,1
-5c181366,Session : 30546354_2937490195 initialized by client WindowsUpdateAgent . ,1
-0c9a2128,Session : 30546354_2939830329 initialized by client WindowsUpdateAgent . ,1
-3cbbf898,Session : 30546354_2966751869 initialized by client WindowsUpdateAgent . ,1
-4cf0c6ed,Session : 30546354_2966921879 initialized by client WindowsUpdateAgent . ,1
-d2bddbc4,Session : 30546354_2968971996 initialized by client WindowsUpdateAgent . ,1
-55f5a7c2,Session : 30546354_2983612833 initialized by client WindowsUpdateAgent . ,1
-cedf23d9,Session : 30546354_2984902907 initialized by client WindowsUpdateAgent . ,1
-faab4db3,Session : 30546354_3008284245 initialized by client WindowsUpdateAgent . ,1
-080258f9,Session : 30546354_3008494257 initialized by client WindowsUpdateAgent . ,1
-6be7db69,Session : 30546354_3050066634 initialized by client WindowsUpdateAgent . ,1
-f4d8007c,Session : 30546354_3072147897 initialized by client WindowsUpdateAgent . ,1
-8c15990b,Session : 30546354_3072677928 initialized by client WindowsUpdateAgent . ,1
-c287ce22,Session : 30546354_3077138183 initialized by client WindowsUpdateAgent . ,1
-873bd34a,Session : 30546354_3191224708 initialized by client WindowsUpdateAgent . ,1
-6405a092,Session : 30546354_3191924748 initialized by client WindowsUpdateAgent . ,1
-006bb71e,Session : 30546354_3193214822 initialized by client WindowsUpdateAgent . ,1
-4c29ae29,Session : 30546354_3195614959 initialized by client WindowsUpdateAgent . ,1
-a1aa9d29,Session : 30546354_3200035212 initialized by client WindowsUpdateAgent . ,1
-12d6c15b,Session : 30546354_3202615360 initialized by client WindowsUpdateAgent . ,1
-7bf15d77,Session : 30546354_3207045613 initialized by client WindowsUpdateAgent . ,1
-301bba52,Session : 30546354_3215566100 initialized by client WindowsUpdateAgent . ,1
-35716108,Session : 30546354_3217316200 initialized by client WindowsUpdateAgent . ,1
-216c0611,Session : 30546354_3229346889 initialized by client WindowsUpdateAgent . ,1
-f9b8df66,Session : 30546354_3273319404 initialized by client WindowsUpdateAgent . ,1
-f69209f8,Session : 30546354_3276819604 initialized by client WindowsUpdateAgent . ,1
-7a7b9909,Session : 30546354_3284880065 initialized by client WindowsUpdateAgent . ,1
-fe92db55,Session : 30546354_3307521360 initialized by client WindowsUpdateAgent . ,1
-2bfc6ac5,Session : 30546354_3332522790 initialized by client WindowsUpdateAgent . ,1
-ee86e371,Session : 30546354_3336463015 initialized by client WindowsUpdateAgent . ,1
-7a05c567,Session : 30546354_3337033048 initialized by client WindowsUpdateAgent . ,1
-6ef08298,Session : 30546354_3337223059 initialized by client WindowsUpdateAgent . ,1
-6b502006,Session : 30546354_3338053106 initialized by client WindowsUpdateAgent . ,1
-b1e531f0,Session : 30546354_3350523820 initialized by client WindowsUpdateAgent . ,1
-fff1b94f,Session : 30546354_3350783834 initialized by client WindowsUpdateAgent . ,1
-ae49002c,Session : 30546354_3351103853 initialized by client WindowsUpdateAgent . ,1
-640fa58d,Session : 30546354_3355304093 initialized by client WindowsUpdateAgent . ,1
-5ade12e9,Session : 30546354_3357084195 initialized by client WindowsUpdateAgent . ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,4

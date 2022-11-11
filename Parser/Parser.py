@@ -219,9 +219,9 @@ class LogParser:
                 if not os.path.exists(self.savePath):
                     os.makedirs(self.savePath)
 
-                print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+                #print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
-        print(len(self.word_dict))
+        #print(len(self.word_dict))
 
         self.df_log['EventId'] = log_templateids
         self.df_log['EventTemplate'] = log_templates

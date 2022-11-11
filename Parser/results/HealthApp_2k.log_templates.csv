@@ -1,224 +1,101 @@
 EventId,EventTemplate,Occurrences
-6e4d688e,onStandStepChanged 3579 ,3
-db6f4997,<*> 14 0 4 ,2
+b5f8f0ab,<*> <*> ,168
+b5f6193c,<*> <*> <*> <*> ,106
 1ce29865,onReceive action : android.intent.action.SCREEN_ON ,17
-08788150,processHandleBroadcastAction action : android.intent.action.SCREEN_ON ,17
 40b016a1,flush sensor data ,17
-947eef59,<*> <*> <*> # # <*> # # <*> # # <*> # # <*> # # <*> ,238
-520ef308,<*> # # <*> # # <*> # # <*> # # <*> # # <*> ,237
-a8185d1f,calculateCaloriesWithCache totalCalories=126775 ,1
-f21bc3dc,calculateAltitudeWithCache totalAltitude=240 ,193
-f4642ad8,REPORT : 7007 5002 150089 240 ,1
-5f9441e4,<*> 0 0 <*> ,9
-621ffb6e,onStandStepChanged <*> ,64
-882504b1,<*> 1 0 4 ,35
-f66ebaa4,calculateCaloriesWithCache <*> ,53
-08dd19e2,REPORT : 7008 5003 150111 240 ,1
-54982ede,onStandStepChanged 3581 ,1
-b5f6193c,<*> <*> <*> <*> ,59
-555d3f5a,calculateCaloriesWithCache totalCalories=126818 ,1
-12e435df,REPORT : 7009 5004 150132 240 ,1
-f10ad78b,<*> 2 0 4 ,6
-248b4b80,calculateCaloriesWithCache totalCalories=126861 ,1
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,32
-c57e8d3c,onExtend:1514038532000 1 0 4 ,1
-977a303c,calculateCaloriesWithCache totalCalories=126904 ,1
-3e7e6f46,calculateCaloriesWithCache totalCalories=126925 ,1
-878cbe86,calculateCaloriesWithCache totalCalories=126947 ,1
-f1fe9d2f,onExtend:1514038535000 1 0 4 ,2
+947eef59,<*> <*> <*> # # <*> # # <*> # # <*> # # <*> # # <*> ,235
+520ef308,<*> # # <*> # # <*> # # <*> # # <*> # # <*> ,241
+f66ebaa4,calculateCaloriesWithCache <*> ,61
+f21bc3dc,calculateAltitudeWithCache totalAltitude=240 ,198
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,77
+56b09f9a,<*> 0 0 4 ,5
+621ffb6e,onStandStepChanged <*> ,73
+4dc6acf4,<*> 1 <*> <*> ,4
+882504b1,<*> 1 0 4 ,15
+b27faebd,onExtend:1514038533000 1 0 4 ,2
 40eee022,onReceive action : android.intent.action.SCREEN_OFF ,17
 c58fe859,onStandStepChanged 3589 ,3
-b5f8f0ab,<*> <*> ,109
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,6
 5e886ed3,REPORT : 7017 5010 150304 240 ,2
-6a3fd452,onExtend:1514038536000 0 0 4 ,1
-3e8c9179,REPORT : 7018 5010 150325 240 ,1
-208bd7bf,onStandStepChanged 3591 ,1
-4ba9987f,calculateCaloriesWithCache totalCalories=127032 ,1
-9f8ec8ea,REPORT : 7019 5011 150346 240 ,1
-e3c6f56b,REPORT : <*> <*> <*> 240 ,49
-2e05288a,calculateCaloriesWithCache totalCalories=127097 ,1
-bc1ce6c4,calculateCaloriesWithCache totalCalories=127139 ,1
-10874107,REPORT : <*> 5015 <*> 240 ,2
-315d9a1e,calculateCaloriesWithCache totalCalories=127161 ,1
-e1653dc2,REPORT : 7026 5016 150496 240 ,1
-b8e2c29a,REPORT : 7027 5017 150518 240 ,1
+08788150,processHandleBroadcastAction action : android.intent.action.SCREEN_ON ,16
+9ac01f55,REPORT : <*> 5010 <*> 240 ,1
+ca0f5f4d,onExtend:1514038538000 1 0 4 ,2
+baa2169b,onExtend:1514038539000 1 0 4 ,2
 9fce51c4,onExtend:1514038542000 1 0 4 ,2
-4519f45d,REPORT : 7028 5017 150539 240 ,1
-7fbf61c2,REPORT : 7029 5018 150561 240 ,1
-068d7b16,onExtend:1514038544000 1 0 4 ,2
-19dbb3c1,REPORT : 7036 5023 150711 240 ,1
-0784a287,REPORT : 7037 5024 150732 240 ,1
+1d4e5663,<*> = <*> # # <*> # # <*> # # <*> # # <*> # # <*> ,7
+ea80c617,onExtend:1514038546000 1 0 4 ,2
+44706373,REPORT : 7035 5022 150689 240 ,1
+572efd46,<*> : <*> <*> <*> <*> ,2
+cc31af0a,onExtend:1514038549000 1 0 4 ,1
 68e27f9b,onExtend:1514038550000 1 0 4 ,2
-d9e5a5a7,REPORT : 7041 5027 150818 240 ,1
-33696950,REPORT : 7044 5029 150882 240 ,1
-4eed6b28,onStandStepChanged 3617 ,1
-5034d6a0,onStandStepChanged 3619 ,1
-0f9b343f,REPORT : 7047 5031 150946 240 ,1
-6a655553,onStandStepChanged 3620 ,1
-4021871b,onExtend:1514038556000 2 0 4 ,2
+2c7e5f81,REPORT : 7040 5026 150796 240 ,1
+9e690495,<*> <*> 0 <*> ,12
+f75d64aa,<*> <*> 0 4 ,3
+e3c6f56b,REPORT : <*> <*> <*> 240 ,33
 28a6c097,onStandStepChanged 3626 ,3
-bb904996,calculateCaloriesWithCache totalCalories=127782 ,3
-ff5c1e54,<*> 0 0 0 ,65
-febc44ea,processHandleBroadcastAction action : android.intent.action.TIME_TICK ,127
-a24d8a6a,onExtend:1514038641000 2 0 4 ,2
-5301ff53,onExtend:1514038642000 2 0 4 ,2
-08a06596,onStandStepChanged 3646 ,2
-de752385,<*> 3 0 4 ,9
-61f399f3,calculateCaloriesWithCache totalCalories=128210 ,2
-5ac47600,REPORT : 7075 5051 151546 240 ,1
+febc44ea,processHandleBroadcastAction action : android.intent.action.TIME_TICK ,119
+ff5c1e54,<*> 0 0 0 ,61
 90af1b9a,onExtend:1514038666000 2 0 4 ,2
-403ea598,calculateCaloriesWithCache totalCalories=128274 ,1
-fe362e1d,onStandStepChanged 3651 ,1
-feed43a0,onStandStepChanged 3653 ,1
-3fe94d5a,calculateCaloriesWithCache totalCalories=128360 ,1
-38acefa3,REPORT : 7081 5055 151675 240 ,1
-06e560b8,onStandStepChanged 3655 ,1
-d11254ca,calculateCaloriesWithCache totalCalories=128403 ,1
-6b79c5cf,onStandStepChanged 3656 ,1
-9a441e38,calculateCaloriesWithCache totalCalories=128424 ,1
-a4e009f3,onStandStepChanged 3658 ,1
 36e506ca,onExtend:1514038668000 2 0 4 ,1
-e19769f5,onStandStepChanged 3660 ,1
 56b33910,onExtend:1514038669000 2 0 4 ,2
-5cd0910b,calculateCaloriesWithCache totalCalories=128510 ,1
-4bc37dce,onStandStepChanged 3662 ,1
-8fc2712e,calculateCaloriesWithCache totalCalories=128553 ,1
-f10e89c8,onExtend:1514038670000 2 0 4 ,2
-7e8a8ab1,calculateCaloriesWithCache totalCalories=128595 ,1
-69982f92,onStandStepChanged 3667 ,1
-f4771a1a,calculateCaloriesWithCache totalCalories=128660 ,1
-5389b200,onStandStepChanged 3669 ,1
-b7f3d2ce,calculateCaloriesWithCache totalCalories=128703 ,1
-64b3dcf3,calculateCaloriesWithCache totalCalories=128745 ,1
-2dc50f05,onStandStepChanged 3673 ,1
-2ae3bbdb,onStandStepChanged 3674 ,1
-9e690495,<*> <*> 0 <*> ,4
-6b0d1248,REPORT : 7103 5071 152146 240 ,1
-4f310f8c,onStandStepChanged 3676 ,1
-c1229e8e,calculateCaloriesWithCache totalCalories=128853 ,1
-e39436d2,REPORT : 7104 5072 152167 240 ,1
-ccb5592d,onStandStepChanged 3677 ,1
-7c792c38,REPORT : 7105 5072 152189 240 ,1
-830d9453,onStandStepChanged 3678 ,1
-7cd8851f,REPORT : 7106 5073 152210 240 ,1
-cc44a8d7,onStandStepChanged 3679 ,1
-60cb7c15,REPORT : 7107 5074 152231 240 ,1
-b6930a63,calculateCaloriesWithCache totalCalories=128960 ,1
-39b9fe0b,REPORT : 7109 5075 152274 240 ,1
-141aa956,onStandStepChanged 3683 ,1
-31c6d685,REPORT : 7111 5077 152317 240 ,1
-f64aa0ba,REPORT : 7112 5077 152339 240 ,1
-732a527d,onStandStepChanged 3685 ,1
-806cdf02,REPORT : 7113 5078 152360 240 ,1
-d68cd0b0,REPORT : 7114 5079 152381 240 ,1
-a416ae41,onExtend:1514038749000 <*> 0 4 ,1
-4351b68e,calculateCaloriesWithCache totalCalories=129238 ,1
-02d162e0,onStandStepChanged 3696 ,1
-ec3d3411,onExtend:1514038749000 2 0 4 ,1
-61d4eada,onExtend:1514038750000 2 0 4 ,2
-a6ea655c,calculateCaloriesWithCache totalCalories=129324 ,1
-5197cc6b,calculateCaloriesWithCache totalCalories=129366 ,1
-559e3be4,onExtend:1514038751000 2 0 4 ,2
-f74d94ee,calculateCaloriesWithCache totalCalories=129409 ,1
+f10ad78b,<*> 2 0 4 ,6
+e49b8c04,REPORT : <*> 5070 <*> 240 ,2
+24329567,REPORT : <*> 5072 <*> 240 ,2
+1c3cb6c9,REPORT : <*> 5077 <*> 240 ,2
+7c334162,onStandStepChanged 3684 ,1
+ed24c954,onStandStepChanged 3686 ,2
+857d9f95,onStandStepChanged 3689 ,1
+e639d0a1,onStandStepChanged 3698 ,1
 3e19bd33,onExtend:1514038752000 3 0 4 ,1
-aa0c30cb,calculateCaloriesWithCache totalCalories=129516 ,1
 1aa6d156,onExtend:1514038752000 4 0 4 ,1
-a488afa9,REPORT : <*> 5097 <*> 240 ,2
 cfb0e88a,onStandStepChanged 3726 ,2
-b4e7ff97,REPORT : 7154 5107 153238 240 ,1
 3f4212be,onStandStepChanged 3732 ,4
-f75d64aa,<*> <*> 0 4 ,1
-220b97fa,onExtend:1514038798000 0 0 4 ,2
-0ad75759,onStandStepChanged 3735 ,1
-e0afaf2b,<*> <*> <*> ,8
-0805887d,Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112 ,1
-fd2ac0c6,"upLoadOneMinuteDataToEngine time=25233975,0,93,0,20002 ",1
-135bdb29,"upLoadOneMinuteDataToEngine time=25233977,0,55,0,20002 ",1
-770c7fef,"upLoadOneMinuteDataToEngine time=25233979,0,46,0,20002 ",1
+e0afaf2b,<*> <*> <*> ,12
 88f06ca2,getBinderPackageName packageName = com.huawei.health ,8
-5c339ab6,"getAppContext ( ) isAppValid health or wear , packageName = com.huawei.health ",2
-8ac0e266,insertHiHealthData ( ) checkAppType 0 appID = 1 ,2
-c99b58bd,"insertHiHealthData ( ) size = 4 , app = 1 , One Data Type = <*> , packageName = com.huawei.health , writeStatType = 0 ",1
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-df73c35c,"saveStatData ( ) type <*> , time = 1513958400000 , statClient = 2 , who is 1 ",4
-5b146397,"new date =20171223 , <*> , <*> ",9
-73d207e8,"new date =20171223 , type=40003,153367.0 , old=210654.54000000004 ",1
-adcbf64c,<*> <*> <*> <*> <*> <*> = <*> <*> <*> = <*> ,2
-f3eadbde,"new date =20171223 , <*> , old=330.0 ",2
-e35637d6,startListenerChange subscribeList = [ 1 ] ,2
-225d959c,"insertHiHealthData ( ) <*> <*> <*> = 4 , <*> = <*> ",1
-dac01083,<*> <*> <*> <*> <*> = <*> ,2
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,4
-cdf0eaef,"stepSyncOrNot appSynTimes is 0 , statsyncTimes is 0 ",2
-b01d3ddc,"checkFirstSyncByType no such data in db , type is 1 deviceCode is 0 ",2
-f97f75a8,<*> <*> <*> <*> sync <*> <*> <*> sync ,2
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,7
+a12923f3,<*> <*> <*> <*> = <*> <*> <*> = <*> <*> <*> <*> <*> = <*> <*> <*> = <*> <*> <*> = <*> ,2
+2fcab605,"saveHealthDetailData ( ) deviceID = 2 , clientID=1 , id=1 ",2
+d0754f06,"<*> <*> <*> <*> <*> , <*> = <*> , <*> = <*> , <*> <*> <*> ",4
+5b146397,"new date =20171223 , <*> , <*> ",12
+963f6f25,"new date =20171223 , <*> , old=210654.54000000004 ",2
+1dcaa3bc,"<*> <*> <*> <*> <*> <*> = <*> , <*> = <*> ",2
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+adcbf64c,<*> <*> <*> <*> <*> <*> = <*> <*> <*> = <*> ,1
+0a2a6531,checkInsertStatus stepSum or calorieSum is enough ,2
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+d04db4b4,"startInsertSportSync first 500 steps sync , do all sync ",2
 5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-88e59718,"insertHiHealthData ( ) size = <*> , app = 1 , One Data Type = <*> , packageName = com.huawei.health , writeStatType = 0 ",1
 e0c92aad,needAutoSync autoSyncSwitch is open ,5
 a2f380ae,"initDataPrivacy the dataPrivacy switch is open , start push health data ! ",5
-0a9eca61,initDataPrivacy the dataPrivacy is true ,5
+347334c7,<*> <*> <*> <*> <*> ,6
 db1d17b1,"initUserPrivacy the userPrivacy switch is open , start push user data ! ",5
 495aabdf,initUserPrivacy the userPrivacy is true ,5
 75b5308c,ifCanSync not ! no cloud version ,5
-9e08cdfc,<*> ,11
-bac37fee,"new date =20171223 , type=40004,4800.935999999999 , old=5112.0 ",1
-32dc4e38,"new date =20171223 , type=40003,214445.88000000006 , old=210654.54000000004 ",1
-33bf6e4f,<*> <*> <*> <*> = <*> <*> <*> = <*> ,1
-5bce36ce,REPORT : 7163 5114 153431 240 ,1
-52d581df,REPORT : 7165 5115 153474 240 ,1
-ffcf7fdf,calculateCaloriesWithCache totalCalories=130201 ,1
-418b0400,REPORT : 7170 5119 153581 240 ,1
-798578d4,calculateCaloriesWithCache totalCalories=130330 ,1
-539dd43c,onStandStepChanged 3746 ,1
-79ca8e3a,calculateCaloriesWithCache totalCalories=130351 ,1
-44606699,onExtend:1514038802000 3 0 4 ,1
+0bb7b96c,sendSyncFailedBroadcast ,5
+63025863,<*> <*> <*> <*> <*> <*> 0 <*> ,1
+9e08cdfc,<*> ,6
+de752385,<*> 3 0 4 ,1
 76ef7f3c,onExtend:1514038803000 2 0 4 ,2
-3cc34cf7,calculateCaloriesWithCache totalCalories=130501 ,1
-a14392db,REPORT : <*> 5130 <*> 240 ,2
-7e487a66,onStandStepChanged 3760 ,1
-ef459e95,calculateCaloriesWithCache totalCalories=130651 ,1
-ee758a6c,onStandStepChanged 3761 ,53
-e3c76edd,calculateCaloriesWithCache totalCalories=130673 ,37
+ee758a6c,onStandStepChanged 3761 ,55
 d16284e8,REPORT : 7189 5132 153988 240 ,16
-865a00ec,<*> 0 0 5 ,58
-10db7216,startTimer start autoSync ,3
-5abd67b4,"startSync hiSyncOption = HiSyncOption { syncAction=1 , syncMethod=2 , syncScope=0 , syncDataType=20000 , syncModel=2 , pushAction=0 } , app = 1 who = 1 ",3
+e3c76edd,calculateCaloriesWithCache totalCalories=130673 ,37
+865a00ec,<*> 0 0 5 ,48
+5f9441e4,<*> 0 0 <*> ,19
+ea4730c2,"timeStamp back , extendReportTimeStamp=1514039575000 ",1
+4c784c43,"<*> <*> = <*> <*> <*> , <*> , <*> , <*> , <*> , <*> <*> , <*> = 1 <*> = 1 ",3
 677e592a,stepSyncOrNot appSynTimes is 0 ,3
-2369b667,onExtend:1514040766000 0 0 5 ,2
-2b8cdc7c,onExtend:1514040772000 0 0 5 ,1
-4e8a4eea,onExtend:1514040956000 0 0 5 ,2
 c63dfc46,getTodaySportData mStepsRecordManager=com.huawei.health.g.c @ 8a2a501 ,6
-282d44d2,onExtend:1514041782000 0 0 5 ,1
-bf3cd229,onExtend:1514041962000 0 0 5 ,1
+ad2f0278,"timeStamp back , extendReportTimeStamp=1514042082000 ",1
 f4c015ab,<*> <*> 0 0 ,1
-8af799f7,onStandStepChanged 3764 ,1
-98a057b8,onStandStepChanged 3765 ,1
-48d99cb9,onExtend:1514042083000 1 0 4 ,1
-cdbfd6ec,onStandStepChanged 3770 ,1
-08930956,onExtend:1514042084000 2 0 4 ,2
-4a365fc7,onStandStepChanged 3772 ,1
-483d3cc4,REPORT : 7200 5140 154223 240 ,1
-f4b0a70f,REPORT : 7202 5142 154266 240 ,1
-6da7f57c,onStandStepChanged 3777 ,1
-dfcf60d2,REPORT : 7205 5144 154331 240 ,1
-23710257,onStandStepChanged 3780 ,1
-e319f446,REPORT : 7208 5146 154395 240 ,1
-4c5e35a0,onStandStepChanged 3783 ,1
-c1540581,onExtend:1514042087000 1 0 4 ,1
-74f02d22,onStandStepChanged 3786 ,61
-ad1d63c9,calculateCaloriesWithCache totalCalories=131208 ,47
-1d4e5663,<*> = <*> # # <*> # # <*> # # <*> # # <*> # # <*> ,2
-29cbbfd1,registersensorsuccess : true ,1
-9c8b7e9b,getTodayBasicStandardSteps= <*> # # 0 # # <*> ,1
-a2abd6a4,<*> <*> # # 0 ,2
-3ac6868f,getTodayBasicStandardSteps= <*> # # <*> # # 0 ,1
-c9f17db2,<*> <*> 3786 <*> <*> ,1
-c691cab0,calculateCaloriesWithCache totalCalories=0 ,21
+ad1d63c9,calculateCaloriesWithCache totalCalories=131208 ,45
+74f02d22,onStandStepChanged 3786 ,54
+54776cae,"timeStamp back , extendReportTimeStamp=1514042265000 ",1
+fb1c1457,<*> <*> true ,1
+9527b5c2,<*> <*> # # <*> # # <*> ,2
+1d91b6db,<*> <*> # # <*> ,2
+c691cab0,calculateCaloriesWithCache totalCalories=0 ,20
 ca0e2d9d,calculateAltitudeWithCache totalAltitude=0 ,24
 5537389b,REPORT : 0 0 0 0 ,1
-a484d5ae,<*> day <*> <*> ,1
-c2e2102c,setGoalNotifiShownRecord 1514044800237 false ,1
-f61ee8e3,<*> <*> <*> # # 0 # # <*> # # <*> # # <*> # # <*> ,2
-6c1cb6b3,<*> # # 0 # # <*> # # <*> # # <*> # # <*> ,4
-218b9e47,"<*> <*> <*> day <*> , <*> <*> , <*> is <*> <*> is <*> ",1
+0c79d1de,<*> ( ) ,1
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
