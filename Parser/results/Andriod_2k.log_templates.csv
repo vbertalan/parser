@@ -1,172 +1,201 @@
 EventId,EventTemplate,Occurrences
-cd7336fb,<*> <*> <*> <*> <*> { < * > <*> { < * > <*> { < * > <*> <*> <*> } } } <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+fc068c3c,"printFreezingDisplayLogsopening app wtoken = AppWindowToken { < * > token=Token { < * > ActivityRecord { < * > u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761 } } } , allDrawn= false , startingDisplayed = false , startingMoved = false , isRelaunching = false ",1
 70a2e653,"<*> <*> < * > , <*> < * > , <*> '' <*> <*> '' , <*> , <*> , <*> < * > , <*> < * > ",1
 8fc8e8fa,"<*> , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> , <*> , <*> , <*> , <*> < * > , <*> < * > , <*> < * > <*> < * > ",199
-ed04d494,<*> <*> { < * > <*> { < * > <*> { < * > <*> <*> <*> } } } <*> <*> <*> <*> ,4
-e7d98f02,visible is <*> ,3
+111adbcb,Skipping AppWindowToken { < * > token=Token { < * > ActivityRecord { < * > u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761 } } } -- going to hide ,2
+d58d51ea,visible is system.time.showampm ,1
 72c56c7b,mVisiblity.getValue is false ,5
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,6
-8a6e8349,"<*> <*> <*> < * > , <*> < * > , <*> '' <*> <*> '' , <*> '' , <*> , <*> < * > , <*> < * > ",1
-864b82d4,"<*> <*> <*> <*> , <*> < * > . < * > , <*> < * > . < * > ",56
-711fc95e,updateDimmedActivatedHideSensitive overlap : false ,42
-0ca74d1d,getRunningAppProcesses : caller < * > does not hold REAL_GET_TASKS ; limiting output ,71
-766b9444,"<*> <*> <*> < * > , <*> < * > , <*> '' * <*> * '' , <*> '' , <*> <*> < * > <*> , <*> < * > , <*> < * > ",8
-b490f30b,"<*> <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > , <*> <*> < * > , < * > <*> < * > , < * > <*> , <*> <*> < * > , < * > <*> < * > , < * > <*> ",200
+c289ac65,visible is system.charge.show ,1
+338f5b26,visible is <*> gt < * > ,2
+303877d9,visible is system.ownerinfo.show ,1
+1f9d497c,"<*> : <*> < * > , <*> < * > , <*> '' <*> <*> '' , <*> '' , <*> , <*> < * > , <*> < * > ",1
+5bddf7ba,"<*> <*> : <*> , <*> < * > <*> < * > , <*> < * > <*> < * > ",12
+711fc95e,updateDimmedActivatedHideSensitive overlap : false ,48
+bc13fb36,<*> : <*> < * > <*> <*> <*> <*> <*> <*> <*> ,15
+e5230952,"release : lock= < * > , flg= < * > , tag= '' * launch * '' , name=android '' , ws=WorkSource { < * > } , uid= < * > , pid= < * > ",8
+1a1ff3ca,"<*> <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > , <*> ( < * > , < * > - < * > , < * > ) , <*> ( < * > , < * > - < * > , < * > ) ",174
 d0e946a0,cancelAutohide ,15
-82e0861d,"notifyUiVisibilityChanged : vis= < * > , SystemUiVisibility= < * > ",17
-5693a6b1,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> <*> <*> : < * > <*> : < * > <*> : < * > < <*> <*> <*> <*> > < <*> <*> <*> <*> > ,1
-45ac7a6d,<*> <*> <*> <*> <*> <*> <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> <*> <*> : < * > <*> : < * > ,4
-2ab47365,"<*> <*> <*> < * > , <*> < * > , <*> '' <*> '' , <*> '' , <*> <*> < * > <*> , <*> < * > , <*> < * > ",1
-5bdb8c37,"<*> <*> <*> < * > , <*> < * > , <*> < * > , <*> < * > ",69
+82e0861d,"notifyUiVisibilityChanged : vis= < * > , SystemUiVisibility= < * > ",19
+20d1393b,<*> <*> <*> ( <*> <*> <*> ) <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> <*> <*> : < * > <*> : < * > <*> : < * > < <*> <*> <*> <*> > < <*> <*> <*> <*> > ,1
+d54e6a7e,<*> <*> <*> ( <*> ) <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> <*> <*> : < * > <*> : < * > ,1
+60216b25,"release : lock= < * > , flg= < * > , tag= '' <*> '' , name=android '' , ws=WorkSource { < * > } , uid= < * > , pid= < * > ",1
+b617ec31,"userActivityNoUpdateLocked : eventTime= < * > , event= < * > , flags= < * > , uid= < * > ",56
 52ebd060,"<*> <*> <*> <*> , <*> <*> ",1
-2fa00856,<*> <*> <*> <*> <*> <*> <*> <*> < * > <*> <*> <*> ,1
-b5f8f0ab,<*> <*> ,12
-42155964,"<*> <*> <*> < * > , <*> < * > , <*> '' <*> '' , <*> '' , <*> , <*> < * > , <*> < * > ",14
-35160a38,<*> <*> <*> { < * > : <*> { < * > <*> <*> } } <*> <*> <*> <*> <*> ,2
+5bdd0a61,Screen frozen for +1s0ms due to Window { < * > u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity } ,1
+f9063971,startAnimation begin ,1
+7c81b7a5,startAnimation end ,1
+15416aca,"<*> : <*> < * > , <*> < * > , <*> '' <*> '' , <*> '' , <*> , <*> < * > , <*> < * > ",2
+2991397e,remove ( PendingIntent { < * > : PendingIntentRecord { < * > com.tencent.qt.qtl broadcastIntent } } ) changed bounds ; rebatching ,1
 f7c8088f,"<*> <*> <*> < * > , <*> < * > <*> <*> <*> < * > <*> ",3
 40febe83,"Application requested orientation < * > , got rotation < * > which has compatible metrics ",2
-0e47085d,"<*> <*> < * > , <*> < * > , <*> <*> <*> <*> , <*> , <*> , <*> < * > , <*> < * > ",11
-4b9a6ca7,shouldBlockLocation running ... ,30
-b6ae6e73,shouldBlockLocation ret : false ,28
+8870067c,"acquire lock= < * > , flags= < * > , tag= '' RILJ_ACK_WL '' , name=com.android.phone , ws=null , uid= < * > , pid= < * > ",10
+4b9a6ca7,shouldBlockLocation running ... ,32
+b6ae6e73,shouldBlockLocation ret : false ,27
 0b1311bf,getNeighboringCellInfo calling app is com.amap.android.ams ,5
-e2b474b1,Releasing suspend blocker `` PowerManagerService.WakeLocks '' . ,30
-074236b4,HBM brightnessIn = < * > ,71
-61ba6d4d,HBM brightnessOut = < * > ,81
-008e59dc,"Animating brightness : target= < * > , rate= < * > ",82
-0dd400c2,suspendAutohide ,17
+07b77e98,<*> <*> : <*> ,13
+f004ee54,"release : lock= < * > , flg= < * > , tag= '' RILJ_ACK_WL '' , name=com.android.phone '' , ws=null , uid= < * > , pid= < * > ",7
+e0afaf2b,<*> <*> <*> ,5
+eaa3ca30,"release : lock= < * > , flg= < * > , tag= '' AudioMix '' , name=audioserver '' , ws=null , uid= < * > , pid= < * > ",6
+e2b474b1,Releasing suspend blocker `` PowerManagerService.WakeLocks '' . ,33
+074236b4,HBM brightnessIn = < * > ,73
+61ba6d4d,HBM brightnessOut = < * > ,71
+008e59dc,"Animating brightness : target= < * > , rate= < * > ",74
+0dd400c2,suspendAutohide ,22
 74c0405d,interceptKeyTq keycode= < * > interactive=true keyguardActive=false policyFlags= < * > down true canceled false ,7
-08117211,"interceptKeyBeforeQueueing : key < * > , result : < * > ",12
+08117211,"interceptKeyBeforeQueueing : key < * > , result : < * > ",14
 d782ef74,resumeSuspendedAutohide ,10
 5e207c16,interceptKeyTq keycode= < * > interactive=true keyguardActive=false policyFlags= < * > down false canceled false ,7
-e4a37e2b,"<*> : <*> < * > , <*> : < * > ",2
 7b9a4645,querySoundEffectsEnabled ... ,17
-85b2bc96,"<*> <*> < * > , <*> < * > , <*> '' * <*> * '' , <*> , <*> <*> < * > <*> , <*> < * > , <*> < * > ",8
-58875ff1,Acquiring suspend blocker `` PowerManagerService.WakeLocks '' . ,33
+fdf878b7,"acquire lock= < * > , flags= < * > , tag= '' * launch * '' , name=android , ws=WorkSource { < * > } , uid= < * > , pid= < * > ",8
+58875ff1,Acquiring suspend blocker `` PowerManagerService.WakeLocks '' . ,29
+e846b0fa,Skipping AppWindowToken { < * > token=Token { < * > ActivityRecord { < * > u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761 } } } -- going to hide ,2
 98c56aba,<*> <*> <*> : <*> <*> < * > ,1
 f5d4a943,<*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-a9fe010d,"<*> : : < * > , <*> < * > <*> < * > , <*> < * > <*> < * > ",2
-9e08cdfc,<*> ,11
-eb046938,disable : < expand <*> * alerts <*> * back home recent clock navigationbar search quick_settings > ,6
+8c693c79,"onTouchEvent : : < * > , x= < * > . < * > , y= < * > . < * > ",2
+9e08cdfc,<*> ,7
+96ae19ce,getRingtonePlayer ... ,2
+cbdc4c3a,disable : < expand ICONS * alerts SYSTEM_INFO * back home recent clock navigationbar search quick_settings > ,3
 e905b963,"updateLightsLocked , mInCall =false , mScreenOn = true , ledNotification == null ? true ",4
 0520b451,"updateLightsLocked , turn off notificationLight ",6
-f278b760,"<*> : < * > . < * > , <*> : < * > . < * > , <*> : <*> < * > . < * > , <*> : < * > , <*> : < * > , <*> : < * > . < * > , <*> <*> <*> : <*> < * > ",13
+1924e7bb,"<*> : < * > . < * > , <*> : < * > . < * > , <*> : - < * > . < * > , <*> : < * > , <*> : < * > , <*> : < * > . < * > , <*> <*> <*> : - < * > ",13
 c6a29151,"state.clipTopAmount : < * > , i : < * > ",12
-d48e9c24,updateDimmedActivatedHideSensitive overlap : true ,13
-5b6c34b5,onExpandingStarted ,2
-c43e570d,<*> <*> <*> <*> <*> <*> <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > ,4
+ee09774a,"updateClipping isOverlap : true , getTopPadding= < * > . < * > , Translation=- < * > . < * > ",13
+d48e9c24,updateDimmedActivatedHideSensitive overlap : true ,12
+0ca74d1d,getRunningAppProcesses : caller < * > does not hold REAL_GET_TASKS ; limiting output ,73
+d5a73ca7,Destroying surface Surface ( <*> ) called by com.android.server.wm.WindowStateAnimator.destroySurface : < * > com.android.server.wm.WindowStateAnimator.destroySurfaceLocked : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > ,4
 4bee350f,"state.clipTopAmount : <*> < * > , i : < * > ",1
-63e4e2b8,"<*> <*> <*> <*> , <*> < * > <*> < * > , <*> < * > <*> < * > ",9
-f3eb7c85,cancelPeek : false ,18
-81b8643f,"<*> <*> <*> < * > <*> < * > , <*> , <*> < * > <*> < * > , <*> < * > <*> < * > , <*> ",2
-e0afaf2b,<*> <*> <*> ,14
-b5f6193c,<*> <*> <*> <*> ,28
-9b271982,<*> <*> <*> <*> <*> <*> < * > : <*> <*> <*> ,2
+25f7a03c,"updateClipping isOverlap : false , getTopPadding= < * > . < * > , Translation=- < * > . < * > ",27
+f3eb7c85,cancelPeek : false ,20
+296b6338,"<*> : <*> < * > . < * > , <*> , <*> < * > . < * > , <*> < * > . < * > , <*> ",2
+b71b3bfe,<*> : <*> ,2
+6b301214,onExpandingFinished ,2
+c6a1656d,"updateClipping isOverlap : false , getTopPadding= < * > . < * > , Translation= < * > . < * > ",13
+70983a52,Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system < * > : com.android.systemui/u0a37 pkg com.android.systemui ,2
 814a1cad,logNotificationVisibilityChanges runInThread start ,6
 bb76166c,onNotificationVisibilityChanged called ,6
 cb3cd013,logNotificationVisibilityChanges runInThread over ,6
-324fdc6d,<*> <*> is <*> <*> <*> ,1
-40fa9f6f,<*> <*> in <*> <*> ,3
+3f3b2fb0,isSimPinSecure mSimDatas is null or empty ,1
+da4074cb,registerCallback not in UI . ,3
 ee40858c,android.util.AndroidRuntimeException : Must execute in UI ,3
 c93739ad,* * * <*> <*> <*> <*> <*> < * > ,2
-0b5d3f71,[ PhoneIntfMgr ] getDataEnabled : subId= < * > <*> < * > ,1
-086d45d8,[ PhoneIntfMgr ] getDataEnabled : subId= < * > <*> ,1
-1ee78b8e,"<*> <*> <*> <*> , <*> < * > , <*> <*> < * > <*> <*> < * > , <*> <*> < * > <*> <*> < * > <*> < * > , <*> <*> < * > <*> <*> < * > <*> < * > , <*> <*> < * > <*> <*> , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > <*> , <*> ",4
+03b80268,* * * <*> <*> <*> <*> ,1
+e9acf87e,<*> <*> <*> <*> : <*> < * > <*> < * > ,1
+d5aa9c39,<*> <*> <*> <*> : <*> < * > <*> ,1
+0892ded6,"<*> <*> <*> <*> , <*> < * > , <*> [ < * > ] = < * > , <*> [ < * > ] = < * > <*> < * > , <*> [ < * > ] = < * > <*> < * > , <*> [ < * > ] <*> , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > <*> , <*> ",2
+f11cc302,"<*> <*> <*> <*> , <*> < * > , <*> [ < * > ] = < * > , <*> [ < * > ] = < * > . < * > , <*> [ < * > ] = < * > . < * > , <*> [ < * > ] <*> , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > , <*> < * > <*> , <*> ",2
 28287c35,playSoundEffect effectType : < * > ,10
-7b3e9742,"<*> <*> <*> < * > , <*> , <*> , <*> ",2
-3f1d5a68,<*> <*> <*> <*> <*> < * > <*> <*> <*> <*> <*> <*> <*> <*> < * > <*> <*> < * > ,1
-450b2088,"<*> <*> : <*> <*> < * > <*> <*> , <*> : < * > ",4
-aaf1ea34,"<*> , <*> <*> < * > ",3
-b5e81e69,"<*> , <*> , <*> = < * > , <*> = < * > ",2
-8b2bc567,"<*> <*> , <*> <*> <*> , <*> <*> < * > ",2
+d70cadc8,"animateCollapsePanels : flags= < * > , force=true , delayed=true , mExpandedVisible=true ",2
+69e8556b,START u0 { <*> flg= < * > <*> <*> <*> <*> <*> } from uid < * > on display < * > ,1
+450b2088,"<*> <*> : <*> <*> < * > <*> <*> , <*> : < * > ",2
+586c057c,onNotificationClick called ,2
+493abcc8,"<*> , <*> : < * > ",3
+2b3bf9d4,"cancelNotification , cancelNotificationLocked , callingUid = < * > , callingPid = < * > ",2
+3016358e,"cancelNotificationLocked called , tell the app , reason = < * > ",2
 07d355da,<*> : < * > <*> < * > <*> < * > ,2
-02024650,"<*> , <*> <*> ",2
-d5d04f76,<*> : <*> <*> < * > ,2
-989ddf1c,"<*> <*> <*> <*> <*> <*> : [ <*> <*> < * > , < * > <*> < * > , < * > <*> ] , <*> : [ < * > ] , <*> : [ < * > ] , <*> : [ < * > ] , <*> : [ < * > ] , <*> : [ <*> ] , <*> : [ < * > ] ",4
-9b3e572f,<*> <*> < * > <*> < * > <*> < * > ,4
+57b01640,"cancelNotificationLocked , remove =com.tencent.mobileqq ",2
+4f06eac6,applyOptionsLocked : Unknown animationType= < * > ,2
+48755e6b,"<*> <*> <*> <*> <*> <*> : [ <*> ( < * > , < * > <*> < * > , < * > ) ] , <*> : [ < * > ] , <*> : [ < * > ] , <*> : [ < * > ] , <*> : [ < * > ] , <*> : [ false ] , <*> : [ < * > ] ",4
+63086b3c,removeNotification : < * > |com.tencent.mobileqq| < * > |null| < * > ,2
 caeb5386,"updateNotificationShade : total= < * > , active= < * > ",13
-dfa77db2,"animateCollapsePanels : flags= < * > , force=false , delayed=false , <*> ",6
+dfa77db2,"animateCollapsePanels : flags= < * > , force=false , delayed=false , <*> ",1
 a784cefe,The change in focus caused us to need to do a layout begin ,6
 46a31510,The change in focus caused us to need to do a layout end ,6
-3a911ce3,setLightsOn ( true ) ,168
+3a911ce3,setLightsOn ( true ) ,167
 5fb2700a,removeNotificationChildren ,12
-247ee564,"<*> , <*> : <*> , <*> : <*> <*> <*> < * > <*> <*> [ < * > , < * > ] [ < * > , < * > ] <*> ",14
+3c04883c,"Skipping , withExcluded : false , tr.intent : Intent { flg= < * > cmp=com.android.systemui/.recents.RecentsActivity bnds= [ < * > , < * > ] [ < * > , < * > ] } ",14
 23047581,"Skipping , withExcluded : false , tr.intent : Intent { act=android.intent.action.MAIN flg= < * > cmp=com.android.incallui/.InCallActivity ( has extras ) } ",14
 10337c74,"Skipping , withExcluded : false , tr.intent : Intent { flg= < * > cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity ( has extras ) } ",14
 8e42f60c,"Skipping , withExcluded : false , tr.intent : Intent { flg= < * > cmp=com.tencent.qqmusic/.business.lockscreen.LockScreenActivity ( has extras ) } ",7
-189e0560,"Skipping , withExcluded : false , tr.intent : Intent { <*> <*> : <*> flg= < * > <*> ( has extras ) } ",7
-aec6c600,"Skipping , withExcluded : false , tr.intent : Intent { <*> <*> : <*> < * > <*> <*> flg= < * > <*> ( has extras ) } ",4
-6302424c,"<*> <*> <*> < * > , <*> < * > , <*> < * > ",14
+fad867a6,"Skipping , withExcluded : false , tr.intent : Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel : xxxxxxxxxxx flg= < * > cmp=com.android.contacts/.ChooseSubActivity ( has extras ) } ",7
+81e7f347,"Skipping , withExcluded : false , tr.intent : Intent { act=android.intent.action.VIEW dat=file : ///storage/emulated/ < * > /Tencent/QQfile_recv/b.apk typ=application/vnd.android.package-archive flg= < * > cmp=com.android.packageinstaller/.PackageInstallerActivity ( has extras ) } ",4
+fe3ff1e7,"getRecentTasks : num= < * > , flags= < * > , totalTasks= < * > ",14
 ee29e8bf,getRecentTasks : topActivity=ComponentInfo { com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity } ,8
-725c41c2,"<*> <*> < * > , <*> = < * > , <*> = <*> , <*> <*> , <*> = < * > ",11
-b808311e,"cancelNotification , index : - < * > ",19
+56330359,"cancelNotificationWithTag pid < * > , uid = < * > , tag = null , pkg =com.tencent.mobileqq , id = < * > ",18
+b808311e,"cancelNotification , index : - < * > ",20
+ed3c274b,"<*> <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > <*> < * > , <*> ( < * > , < * > <*> < * > , < * > ) , <*> ( < * > , < * > <*> < * > , < * > ) ",26
 0639257f,makeExpandedInvisible : mExpandedVisible=true ,3
 716d058d,closeQs ,12
 b832668b,instantCollapse ,9
-45e66411,"<*> <*> < * > , <*> <*> < * > , <*> <*> <*> , <*> <*> , <*> <*> < * > ",9
-7ca7e142,"<*> , <*> <*> <*> < * > ",1
+f6bd94e2,disable : < expand icons * alerts system_info * back home recent clock navigationbar search quick_settings > ,3
+45e66411,"<*> <*> < * > , <*> <*> < * > , <*> <*> <*> , <*> <*> , <*> <*> < * > ",2
+3e5458cd,<*> ( <*> ) ,14
 136db11a,getTasks : caller < * > does not hold REAL_GET_TASKS ; limiting output ,30
-194865b7,<*> <*> <*> < * > ,24
-e4737f47,<*> <*> <*> < * > <*> <*> <*> <*> <*> <*> <*> ,17
 fa257d40,isMusicActive ... ,12
-4488bfee,"<*> <*> , <*> <*> : <*> < * > , <*> < * > ",1
-c23bc2a2,"<*> <*> < * > , <*> < * > , <*> '' <*> '' , <*> , <*> , <*> < * > , <*> < * > ",6
-18971667,<*> <*> : <*> < * > <*> : < * > ,1
-89f50ca5,<*> <*> : < * > <*> : < * > ,1
-15416aca,"<*> : <*> < * > , <*> < * > , <*> '' <*> '' , <*> '' , <*> , <*> < * > , <*> < * > ",1
-3a70bc71,"<*> , <*> , <*> <*> < * > ",4
-b699b4a9,"<*> : <*> < * > , <*> < * > , <*> <*> <*> <*> , <*> <*> , <*> , <*> < * > , <*> < * > ",1
+c06a7c0c,"Start dump , calling from : pid= < * > , uid= < * > ",1
+a6f84cc6,"<*> lock= < * > , <*> < * > , tag= '' WiredAccessoryManager '' , name=android , ws=null , uid= < * > , pid= < * > ",1
+b0c52a18,setWiredDeviceConnectionState type : - < * > state : < * > ,1
+c23bc2a2,"<*> <*> < * > , <*> < * > , <*> '' <*> '' , <*> , <*> , <*> < * > , <*> < * > ",1
+a3363364,setWiredDeviceConnectionState type : < * > state : < * > ,1
+aed376e9,"<*> <*> lock= < * > , <*> < * > , tag= '' WiredAccessoryManager '' , name=android '' , ws=null , uid= < * > , pid= < * > ",1
+b71ca4c8,"ActivityManagerService , attachApplication , callingPid = < * > ",4
+4ad91a45,"acquire lock= < * > , flags= < * > , tag= '' AudioMix '' , name=audioserver , ws=null , uid= < * > , pid= < * > ",5
+94eb57dc,<*> ... ,2
 41aba610,getLastAudibleStreamVolume treamType : < * > ,9
-531edbb5,<*> <*> < * > ,10
+9836ee10,<*> <*> : < * > ,5
+4e604b82,cleanUpApplicationRecord -- < * > ,6
 c03197b3,"cleanUpApplicationRecordLocked , pid : < * > , restart : false ",6
 8e270966,"cleanUpApplicationRecordLocked , reset pid : < * > , euid : < * > ",6
 3ec0b401,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false ,6
-3f7b1eb5,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount= < * > ,4
-94eb57dc,<*> ... ,1
-07b77e98,<*> <*> : <*> ,2
-7c8edac3,<*> <*> <*> { < * > <*> < * > <*> < * > <*> { < * > <*> <*> { < * > <*> <*> } } } <*> <*> <*> < * > <*> <*> <*> ,3
+3f7b1eb5,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount= < * > ,6
+4648262d,getMode ... ,1
+270453e5,"sending alarm Alarm { < * > type < * > when < * > PendingIntent { < * > : PendingIntentRecord { < * > android broadcastIntent } } } , repeatInterval = < * > , listenerTag =time_tick ",3
 347334c7,<*> <*> <*> <*> <*> ,3
+2e9f0277,scheduleTimeTickEvent triggerAtTime = < * > ,3
+c2310775,received broadcast android.intent.action.TIME_TICK ,3
 733da41c,handleTimeUpdate ,3
-d7035b16,<*> <*> <*> <*> <*> : < * > <*> <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > ,11
-1964f0bb,<*> <*> <*> <*> <*> <*> < * > <*> <*> <*> <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > ,3
+68d70782,"<*> : <*> < * > , <*> < * > , <*> < * > , <*> < * > ",13
+194865b7,<*> <*> <*> < * > ,26
+26f00885,Destroying surface Surface ( name=PopupWindow : < * > ) called by com.android.server.wm.WindowStateAnimator.destroySurface : < * > com.android.server.wm.WindowStateAnimator.destroySurfaceLocked : < * > com.android.server.wm.WindowState.removeLocked : < * > com.android.server.wm.WindowManagerService.removeWindowInnerLocked : < * > com.android.server.wm.WindowManagerService.removeWindowInnerLocked : < * > com.android.server.wm.WindowManagerService.removeWindowLocked : < * > com.android.server.wm.WindowManagerService.removeWindowLocked : < * > com.android.server.wm.WindowManagerService.removeWindow : < * > ,13
+6d5dce21,"<*> <*> : <*> < * > , <*> < * > ",11
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
 e154d551,"<*> <*> <*> { < * > <*> < * > <*> < * > <*> { < * > <*> <*> { < * > <*> <*> } } } , <*> <*> < * > , <*> <*> ",2
-fcd01e35,<*> < * > <*> <*> <*> <*> < * > <*> <*> <*> <*> <*> ,1
-397ef989,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> < * > : <*> <*> ,1
-d2129da0,"<*> <*> <*> <*> <*> <*> <*> < * > , <*> <*> < * > ",1
+a55194d0,<*> < * > : <*> <*> <*> < * > <*> : <*> <*> <*> ,1
+9fd034ad,remove ( PendingIntent { < * > : PendingIntentRecord { < * > com.android.phone broadcastIntent } } ) changed bounds ; rebatching ,1
+06fabbe0,Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U= < * > : not found ,1
+b5f8f0ab,<*> <*> ,1
+2d5f2847,"<*> <*> <*> <*> false <*> : < * > , <*> : < * > ",1
 a6d9bd11,<*> : < * > <*> <*> ,1
-83692236,<*> com.tencent.mobileqq : <*> <*> <*> < * > <*> <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
-419a7f51,"<*> <*> <*> <*> < * > < * > : com.tencent.mobileqq : <*> <*> , <*> : com.tencent.mobileqq : <*> , <*> : < * > ",1
-5bc0da5e,<*> <*> < * > : com.tencent.mobileqq : <*> <*> <*> <*> ,1
-ab97017a,<*> <*> <*> <*> < * > <*> <*> <*> < * > <*> <*> <*> < * > <*> <*> <*> <*> < * > <*> < * > <*> < * > <*> <*> ,1
-3827489c,<*> <*> <*> <*> < * > <*> < * > <*> < * > ,4
+cee77215,Process com.tencent.mobileqq : qzone ( pid < * > ) has died ,1
+d1a7eb89,Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms ,1
+4605e4ee,"new Process app=ProcessRecord { < * > < * > : com.tencent.mobileqq : qzone/u0a111 } , name : com.tencent.mobileqq : qzone , euid : < * > ",1
+681195d6,Start proc < * > : com.tencent.mobileqq : qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService ,1
+45ac7a6d,<*> <*> <*> <*> <*> <*> <*> <*> <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> <*> <*> : < * > <*> : < * > ,3
+6807d595,"animateCollapsePanels : flags= < * > , force=false , delayed=false , mExpandedVisible=false ",5
+08732094,<*> : <*> <*> < * > <*> ( <*> < * > <*> <*> <*> < * > <*> <*> <*> <*> < * > <*> < * > <*> < * > <*> ) ,1
+a4a193cc,enqueueNotificationInternal : n.getKey = < * > |com.tencent.mobileqq| < * > |null| < * > ,1
 1b43f2e3,getRingerMode ... ,3
 3d2e7ba4,"<*> , <*> <*> , <*> <*> <*> , <*> <*> <*> <*> <*> ",2
+9b3e572f,<*> <*> < * > <*> < * > <*> < * > ,2
 30034f6b,mHeadsUpExistenceChangedRunnable ,4
-df66e76f,"<*> <*> <*> <*> <*> <*> <*> <*> <*> < * > <*> <*> <*> < * > , < * > <*> <*> < * > , < * > <*> <*> <*> <*> < * > <*> <*> < * > ",2
+64200546,Marking notification as seen < * > |com.tencent.mobileqq| < * > |null| < * > ,1
+0fab524b,onNotificationExpansionChanged called ,2
+f7cf6db9,"START u0 { <*> <*> [ <*> ] flg= < * > <*> <*> [ < * > , < * > ] [ < * > , < * > ] } from uid < * > on display < * > ",2
+3ff7285d,"ActivityRecord info : ActivityInfo { < * > com.example.android.notepad.NotePadActivity } , euid : < * > ",1
 5d715943,"Application requested orientation <*> < * > , got rotation < * > which has compatible metrics ",1
 a34f8b55,getRecentTasks : topActivity=ComponentInfo { com.example.android.notepad/com.example.android.notepad.NoteEditor } ,4
-3ae63cb3,"<*> <*> <*> : <*> , <*> < * > ",2
-8b4e79e4,"<*> <*> <*> < * > , <*> < * > ",2
-c79270ea,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > <*> <*> < * > ,2
+a58a3e5c,"ACTIVITY check resid : com.example.android.notepad , size= < * > ",2
+5209e5d9,Destroying surface Surface ( name=PopupWindow : < * > ) called by com.android.server.wm.WindowStateAnimator.destroySurface : < * > com.android.server.wm.WindowStateAnimator.destroySurfaceLocked : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > <*> : < * > ,1
+47318b04,Destroying surface Surface ( name=com.example.android.notepad/com.example.android.notepad.NoteEditor ) called by com.android.server.wm.WindowStateAnimator.destroySurface : < * > com.android.server.wm.WindowStateAnimator.destroySurfaceLocked : < * > com.android.server.wm.WindowState.destroyOrSaveSurface : < * > com.android.server.wm.AppWindowToken.destroySurfaces : < * > com.android.server.wm.AppWindowToken.notifyAppStopped : < * > com.android.server.wm.WindowManagerService.notifyAppStopped : < * > com.android.server.am.ActivityStack.activityStoppedLocked : < * > com.android.server.am.ActivityManagerService.activityStopped : < * > ,2
 6243a054,"<*> , <*> : <*> , <*> : <*> <*> <*> <*> : <*> < * > <*> <*> <*> < * > <*> <*> <*> <*> <*> <*> ",3
 b6be9a5e,shouldBlockLocation ret : true ,4
-24bc83c3,<*> is blocked by permission manager <*> <*> <*> <*> ,1
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+191826f8,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq ,3
 313b8325,<*> is blocked by permission manager <*> : < * > <*> : < * > ,1
-9f11268b,"<*> <*> <*> <*> < * > , <*> < * > ",3
-6115c90c,"<*> <*> < * > , < * > , < * > <*> ",1
-bb7ac75e,<*> treamType : < * > ,1
-03368a50,<*> : <*> <*> <*> <*> <*> < * > <*> <*> < * > <*> <*> < * > ,1
-904acdcf,<*> <*> <*> < * > <*> <*> <*> < * > ,1
-b71b3bfe,<*> : <*> ,1
-bb2ffb3d,"<*> , <*> : <*> ",1
-ea5829d6,<*> <*> <*> <*> < * > ,1
-3e8b397e,RefreshBatteryInfo isBatteryLow : < * > ,2
-f3badbad,<*> <*> <*> <*> < * > <*> <*> < * > <*> > < * > ,1
-8c4e0d3b,handleBatteryUpdate ,1
-9b0a8c53,<*> <*> <*> <*> < * > <*> <*> <*> < * > <*> <*> <*> <*> <*> <*> <*> < * > <*> < * > <*> < * > <*> <*> <*> ,1
-fcc544ae,<*> <*> <*> <*> < * > <*> <*> <*> <*> <*> <*> <*> <*> < * > <*> <*> < * > ,1
+77680e9b,isWiredHeadsetOn ... ,1
+7d30e4bd,"setDataSource ( < * > , < * > , < * > ) ",1
+bc79644f,getStreamVolume treamType : < * > ,1
+8e677557,"<*> : <*> , <*> , <*> < * > , <*> < * > , <*> < * > ",1
+f2c1994f,<*> <*> android.intent.action.BATTERY_CHANGED ,1
+6349435b,<*> <*> : < * > <*> <*> : < * > ,1
+ecdd5a45,"<*> , <*> <*> android.intent.action.BATTERY_CHANGED ",1
+6fc92c85,ApStaDisabledState what= < * > ,1
+fbcc29a6,DefaultState what= < * > ,1
+681b12cc,<*> <*> <*> : < * > ,1
+66c47e6b,<*> <*> : <*> < * > <*> : < * > <*> > < * > ,1
+1533c542,<*> : <*> <*> < * > <*> ( <*> < * > <*> <*> <*> <*> <*> <*> <*> < * > <*> < * > <*> < * > <*> <*> ) ,1
+be1f8761,enqueueNotificationInternal : n.getKey = < * > |com.tencent.mm| < * > |null| < * > ,1
+7b249ed2,Marking notification as seen < * > |com.tencent.mm| < * > |null| < * > ,1
+17068c80,START u0 { flg= < * > <*> <*> <*> <*> <*> } from uid < * > on display < * > ,1
+b4e17af1,"<*> <*> : <*> { < * > <*> } , <*> : < * > ",1
 ba0f41ba,<*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> { <*> < * > <*> <*> <*> <*> <*> } ,1
 d718faae,makeExpandedInvisible : <*> ,1
-572efd46,<*> : <*> <*> <*> <*> ,1
-e52f18c7,<*> : <*> { <*> } ,1
+4fc01493,getRecentTasks : topActivity=ComponentInfo { com.tencent.mm/com.tencent.mm.ui.LauncherUI } ,2

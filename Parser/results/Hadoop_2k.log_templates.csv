@@ -1,177 +1,443 @@
 EventId,EventTemplate,Occurrences
-d646c3fc,<*> <*> for <*> <*> ,1
+a78a9737,<*> MRAppMaster for <*> <*> ,1
 f271d1d3,<*> <*> tokens : ,1
-844238ec,<*> : <*> <*> <*> : <*> <*> : ( <*> <*> <*> <*> <*> : <*> <*> : <*> <*> <*> : <*> <*> <*> : <*> ) ,1
+3fc39226,"<*> : <*> , <*> : , <*> : ( <*> { <*> { <*> : <*> <*> : <*> } <*> : <*> } <*> : <*> ) ",1
 bc66e6e5,Using mapred newApiCommitter . ,1
-f2a51a07,OutputCommitter <*> <*> <*> <*> ,1
-a21fbd32,OutputCommitter is <*> ,1
-784ed797,Registering class <*> for class <*> ,2
-eb3296fe,Registering class <*> for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ <*> ,1
-89e2b945,<*> class <*> for class <*> <*> <*> ,2
-f84a430a,Registering class <*> $ <*> for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ <*> ,2
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+38bb3cae,OutputCommitter set in config null ,1
+4f7eb203,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter ,1
+d91b2ac1,Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler ,1
+401e882e,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ JobEventDispatcher ,1
+7666c825,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ TaskEventDispatcher ,1
+45fff5f3,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ TaskAttemptEventDispatcher ,1
+28400c3a,Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler ,1
+8b521633,Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator $ EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ SpeculatorEventDispatcher ,1
+2647ae15,Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator $ EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ ContainerAllocatorRouter ,1
+cf9f0078,Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher $ EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ ContainerLauncherRouter ,1
 10e09a8b,Default file system [ hdfs : //msra-sa-41:9000 ] ,3
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-b5f6193c,<*> <*> <*> <*> ,10
-58790209,<*> <*> <*> <*> <*> <*> <*> <*> <*> . ,1
-19045a00,<*> job <*> for job_1445144423722_0020 to <*> ,1
-c7d95732,<*> <*> <*> <*> : <*> <*> ; <*> <*> maps ; <*> <*> <*> ; ,1
-b410b403,<*> <*> for job job_1445144423722_0020 = <*> <*> Number of <*> = <*> ,1
-c56a07a6,Number of <*> for job job_1445144423722_0020 = <*> ,1
-5bf3b691,job_1445144423722_0020Job Transitioned from <*> to INITED ,1
+67caf82e,Emitting job history data to the timeline server is not enabled ,1
+a534b338,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent $ Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster $ JobFinishEventHandler ,1
+b5f6193c,<*> <*> <*> <*> ,2
+f5cb0c10,Scheduled snapshot period at 10 second ( s ) . ,1
+829691ae,MRAppMaster <*> <*> <*> ,1
+7ad59a1e,Adding job token for job_1445144423722_0020 to jobTokenSecretManager ,1
+5eaed455,Not uberizing job_1445144423722_0020 because : not enabled ; too many maps ; too much input ; ,1
+e1e82711,Input size for job job_1445144423722_0020 = 1256521728 . Number of splits = 10 ,1
+3e58b124,Number of reduces for job job_1445144423722_0020 = 1 ,1
+cdfbbda7,job_1445144423722_0020Job Transitioned from NEW to INITED ,1
 450e8307,"<*> <*> <*> , <*> , <*> <*> <*> . ",1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,5
-f5337a3f,<*> <*> <*> to <*> <*> ,1
-80768c28,<*> <*> <*> : <*> ,3
-095471cd,<*> <*> <*> <*> <*> : <*> ,12
+15d40c86,Using callQueue class java.util.concurrent.LinkedBlockingQueue ,2
+7cef203e,Starting Socket Reader # 1 for port 62260 ,1
+de966153,Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
+c40927d5,IPC Server Responder : starting ,2
+095471cd,<*> <*> <*> <*> <*> : <*> ,2
+55280a52,Logging to org.slf4j.impl.Log4jLoggerAdapter ( org.mortbay.log ) via org.mortbay.log.Slf4jLog ,1
+96d533c3,Http request log for http.requests.mapreduce is not defined ,1
 991cb71e,Added <*> filter <*> <*> ( <*> <*> <*> ) ,1
-b7c3a86f,Added filter <*> ( <*> ) <*> <*> <*> ,2
-55e91b7b,<*> <*> <*> : <*> <*> ,2
-1a65aaed,<*> <*> to <*> <*> ,1
-9e08cdfc,<*> ,1
-1b46d494,<*> <*> : <*> : <*> : <*> <*> <*> <*> <*> : <*> ,1
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,4
-c088ca7f,<*> job_1445144423722_0020 ,1
-b71b3bfe,<*> : <*> ,3
-31a7e4be,<*> is <*> ,1
-e0afaf2b,<*> <*> <*> ,1
-f45769d2,<*> to <*> <*> <*> <*> <*> <*> <*> ,1
+98b9d18d,Added filter AM_PROXY_FILTER ( class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter ) to context <*> ,2
+bc758d05,adding path spec : /mapreduce/ * ,1
+cb5ad7a1,adding path spec : /ws/ * ,1
+2f97fd60,Jetty bound to port 62267 ,1
+3e299cec,jetty-6.1.26 ,1
+8638778d,<*> <*> : file : <*> : <*> <*> <*> to <*> : <*> ,1
+68578c3b,Started HttpServer2 $ SelectChannelConnectorWithSafeStartup @ < * > :62267 ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
+09276bc8,JOB_CREATE job_1445144423722_0020 ,1
+b71b3bfe,<*> : <*> ,2
+8b6d6c34,maxTaskFailuresPerNode is 3 ,1
+923d344d,blacklistDisablePercent is 33 ,1
+27ddf35e,Starting Socket Reader # 1 for port 62270 ,1
+820acfcb,Connecting to ResourceManager at msra-sa-41/ < * > :8030 ,1
 06829067,"maxContainerCapability : < memory:8192 , vCores:32 > ",1
+f0a5a06b,queue : default ,1
 f5aa5708,Upper limit on the thread pool size is 500 ,1
 bd93a64f,job_1445144423722_0020Job Transitioned from INITED to SETUP ,1
-723ffafc,<*> <*> <*> <*> : <*> ,3
+4aa7f1e6,Processing the event EventType : JOB_SETUP ,1
 db271dc1,job_1445144423722_0020Job Transitioned from SETUP to RUNNING ,1
 e2475fb5,Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack ,15
 5afe8566,Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack ,18
 ec5bd6a0,<*> Task Transitioned from NEW to SCHEDULED ,9
-0128d242,<*> <*> <*> <*> <*> to <*> ,12
-574aca2a,<*> TaskAttempt Transitioned from NEW to UNASSIGNED ,14
+425835b4,task_1445144423722_0020_m_000006 Task Transitioned from NEW to SCHEDULED ,1
+504c5e78,task_1445144423722_0020_m_000009 Task Transitioned from NEW to SCHEDULED ,1
+d6dd803a,attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+2186c393,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+a250f057,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+48140d00,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+3b065f72,attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+6e328cd8,attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+10df6f05,attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+2eaa4c46,attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+454a275a,attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+9d75f796,attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+02470c94,attempt_1445144423722_0020_r_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
 ac1f7c7c,"mapResourceRequest : < memory:1024 , vCores:1 > ",1
-5470ea83,<*> <*> <*> for <*> : <*> <*> <*> : <*> : <*> ,1
+d2a8f827,"Event Writer setup for JobId : job_1445144423722_0020 , File : hdfs : //msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist ",1
 1c9d2a8c,"reduceResourceRequest : < memory:1024 , vCores:1 > ",1
-60423723,Before Scheduling : PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> <*> <*> <*> ,1
-7e7fffa1,<*> <*> <*> for <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> ,3
+4cac9cfd,Before Scheduling : PendingReds:1 ScheduledMaps:10 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:0 ContRel:0 HostLocal:0 RackLocal:0 ,1
+bc984606,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit= < memory:10240 , vCores : -17 > knownNMs=4 ",1
 26544cf1,"Recalculating schedule , headroom= < memory:10240 , vCores : -17 > ",2
-2fc873d8,Reduce slow start threshold not met . completedMapsForReduceSlowstart 1 ,119
+2fc873d8,Reduce slow start threshold not met . completedMapsForReduceSlowstart 1 ,127
 f7b53a40,Got allocated containers 1 ,9
-9a957b44,<*> container <*> to <*> ,3
-5a7d0ebb,"<*> <*> , <*> < <*> , <*> : <*> > ",14
-73dbf7ee,After Scheduling : PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 <*> ,3
-9175d267,<*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> ,1
+4f4e6dc8,Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack ,2
+bfbc46fe,Assigned container <*> to <*> ,6
+df318b30,"Recalculating schedule , headroom= < memory:8192 , vCores : -19 > ",1
+cad78007,After Scheduling : PendingReds:1 ScheduledMaps:9 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:0 RackLocal:1 ,1
+221f4021,<*> <*> file <*> <*> <*> <*> <*> <*> : <*> ,1
+828526b9,<*> <*> file <*> <*> <*> <*> <*> <*> ,1
 97eef7f7,<*> # <*> tokens <*> # <*> <*> <*> for <*> <*> for <*> container ,1
-3dbe69c5,<*> <*> <*> <*> 1 ,1
-347334c7,<*> <*> <*> <*> <*> ,4
-3c62decf,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,7
-82edc8e7,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> ,10
-4e82a656,Launching <*> ,10
-07b77e98,<*> <*> : <*> ,13
-bfb0db44,Shuffle port returned by ContainerManager for <*> : 13562 ,8
-ba89bbfb,TaskAttempt : [ <*> ] <*> <*> : [ <*> <*> <*> : [ <*> ] ,6
+a56ac247,Size of containertokens_dob is 1 ,1
+62853e82,Putting shuffle token in serviceData ,1
+5665a260,attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+fd7fc16a,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000002 taskAttempt attempt_1445144423722_0020_m_000000_0 ,1
+ae4fec00,Launching attempt_1445144423722_0020_m_000000_0 ,1
+26ca8040,Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:54883 ,1
+ada31957,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000000_0 : 13562 ,1
+27e7c443,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ <*> ] ,1
 7e65b000,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING ,6
-9d41d2df,ATTEMPT_START <*> ,8
-7b3bd79a,<*> Task Transitioned from SCHEDULED to RUNNING ,8
-053c3b88,<*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> ,2
+40fe2af9,ATTEMPT_START task_1445144423722_0020_m_000000 ,1
+9363839e,task_1445144423722_0020_m_000000 Task Transitioned from SCHEDULED to RUNNING ,1
+c1868647,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit= < <*> , vCores : <*> > knownNMs=4 ",2
+44cc45dd,"Recalculating schedule , headroom= < memory:7168 , vCores : -20 > ",1
 fa614f6a,Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack ,4
-bfbc46fe,Assigned container <*> to <*> ,7
-909d0075,"Recalculating schedule , headroom= < <*> , vCores : <*> > ",1
-5596308d,<*> <*> <*> <*> <*> for <*> : <*> ,2
-7a0d5ee6,TaskAttempt : [ attempt_1445144423722_0020_m_000001_0 <*> <*> <*> : [ <*> <*> <*> : [ <*> <*> ,1
-b5f8f0ab,<*> <*> ,3
-d43e7abe,TaskAttempt : [ <*> <*> <*> <*> : [ <*> <*> <*> : [ <*> <*> ,1
+34c79b4f,Assigned container container_1445144423722_0020_01_000003 to attempt_1445144423722_0020_m_000001_0 ,1
+b8796510,"Recalculating schedule , headroom= < memory:5120 , vCores : -22 > ",1
+af347179,After Scheduling : PendingReds:1 ScheduledMaps:8 ScheduledReds:0 AssignedMaps:2 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:0 RackLocal:2 ,1
+9e6540ee,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+82edc8e7,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> ,2
+461aac59,Launching attempt_1445144423722_0020_m_000001_0 ,1
+07b77e98,<*> <*> : <*> ,2
+053753b6,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000001_0 : 13562 ,1
+608fcdc6,TaskAttempt : [ attempt_1445144423722_0020_m_000001_0 ] using containerId : [ <*> on NM : [ MININT-FNANLI5.fareast.corp.microsoft.com:52368 ] ,1
+9d41d2df,ATTEMPT_START <*> ,2
+f40c67f6,task_1445144423722_0020_m_000001 Task Transitioned from SCHEDULED to RUNNING ,1
+60ee2619,"Recalculating schedule , headroom= < memory:4096 , vCores : -23 > ",1
+5e98e752,Assigned container container_1445144423722_0020_01_000004 to attempt_1445144423722_0020_m_000002_0 ,1
+e956082a,"Recalculating schedule , headroom= < memory:3072 , vCores : -24 > ",1
+53ac12dc,After Scheduling : PendingReds:1 ScheduledMaps:7 ScheduledReds:0 AssignedMaps:3 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:0 RackLocal:3 ,1
+f95fd8d4,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+cc094274,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0 ,1
+3d406bf9,Launching attempt_1445144423722_0020_m_000002_0 ,1
+301fe861,Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368 ,2
+dd1fdda5,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000002_0 : 13562 ,1
+081d2288,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ MININT-FNANLI5.fareast.corp.microsoft.com:52368 ] ,1
+6348474f,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from ASSIGNED to RUNNING ,1
+541c0ee1,task_1445144423722_0020_m_000002 Task Transitioned from SCHEDULED to RUNNING ,1
+8ccc9b30,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit= < memory:1024 , vCores : -26 > knownNMs=4 ",1
 d88d7dc1,"Recalculating schedule , headroom= < memory:1024 , vCores : -26 > ",3
 351566b9,Auth successful for job_1445144423722_0020 ( auth : SIMPLE ) ,10
-cd27dc8c,JVM with ID : <*> asked for a task ,10
-6726166a,JVM with ID : <*> given task : <*> ,5
-4a7adf2e,"Recalculating schedule , headroom= < memory:0 , vCores : -27 > ",111
-187701a4,<*> <*> <*> : <*> <*> <*> : <*> ,5
-7a65c0f6,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : <*> ,4
-d3c57150,<*> <*> <*> <*> <*> <*> . <*> <*> ,11
-23597171,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : <*> ,10
+cd27dc8c,JVM with ID : <*> asked for a task ,8
+6726166a,JVM with ID : <*> given task : <*> ,4
+4a7adf2e,"Recalculating schedule , headroom= < memory:0 , vCores : -27 > ",116
+53f96eb6,JVM with ID : jvm_1445144423722_0020_m_000003 given task : attempt_1445144423722_0020_m_000001_0 ,1
+13d4dc20,JVM with ID : <*> given task : attempt_1445144423722_0020_m_000002_0 ,1
+7b37db97,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.023958297 ,1
+d3c57150,<*> <*> <*> <*> <*> <*> . <*> <*> ,3
+f2fbe3b5,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.065791264 ,1
+51d56caf,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.05713628 ,1
+7a65c0f6,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : <*> ,2
+58522ba1,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.079464614 ,1
 8d320a0d,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : <*> ,5
 0841edd0,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664 ,10
+bb08736d,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10501281 ,1
+b525c462,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.103304505 ,1
 43d0fa6a,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108 ,7
 661a59fd,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437 ,8
-d35d7cc6,After Scheduling : PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,4
-5f2bf204,"getResources ( ) for application_1445144423722_0020 : ask=4 release= 0 <*> finishedContainers=0 resourcelimit= < memory:0 , vCores : -27 > knownNMs=4 ",6
-ba05635d,Progress of TaskAttempt <*> is : <*> ,55
-e29b5b2d,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : <*> ,14
+5a7d0ebb,"<*> <*> , <*> < <*> , <*> : <*> > ",5
+c24232a0,Assigned container container_1445144423722_0020_01_000005 to attempt_1445144423722_0020_m_000003_0 ,1
+de045b89,After Scheduling : PendingReds:1 ScheduledMaps:6 ScheduledReds:0 AssignedMaps:4 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:1 RackLocal:3 ,1
+1a0e725f,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+5f666da9,Launching attempt_1445144423722_0020_m_000003_0 ,1
+96a94cdf,Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109 ,6
+3121b7ca,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000003_0 : 13562 ,1
+15463732,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ MSRA-SA-41.fareast.corp.microsoft.com:7109 ] ,5
+09c547bd,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from ASSIGNED to RUNNING ,1
+6c287722,ATTEMPT_START task_1445144423722_0020_m_000003 ,1
+b4f4ec95,task_1445144423722_0020_m_000003 Task Transitioned from SCHEDULED to RUNNING ,1
+6f0a7e8a,"<*> ( ) for <*> : <*> <*> 0 <*> <*> <*> < <*> , <*> : <*> > <*> ",7
+46db129a,JVM with ID : jvm_1445144423722_0020_m_000005 given task : attempt_1445144423722_0020_m_000003_0 ,1
+ba05635d,Progress of TaskAttempt <*> is : <*> ,14
+e8efa757,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.106493875 ,3
+de590b8d,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.14981231 ,1
+a4ba9e72,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19084874 ,1
+852be7f0,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.1795899 ,1
+9749f21c,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.17982168 ,1
 4ac895b5,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523 ,8
 2f1e71f7,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553 ,9
-54f41f20,<*> <*> <*> <*> is : <*> ,15
+6547e6d5,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.19209063 ,2
 ea3e5f52,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794 ,9
+d2a9f0d9,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.27765483 ,3
+e29b5b2d,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : <*> ,3
 1f409148,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.36323506 ,3
-caf4d1e6,<*> <*> TaskAttempt <*> <*> : <*> ,4
+439583c5,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.20757815 ,1
+23597171,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : <*> ,4
+8d7e633e,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.22765201 ,1
+54f41f20,<*> <*> <*> <*> is : <*> ,13
+f1d931de,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.26542902 ,1
+ede72e89,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.23859076 ,1
 7feffac9,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006 ,8
 aa0a4efc,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525 ,8
+42b65769,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.2754006 ,1
 475f0cb2,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857 ,9
 31c75b44,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5343203 ,3
-5182ebe1,Got allocated containers <*> ,1
-80620fd8,<*> TaskAttempt <*> <*> <*> <*> <*> ,3
+9b9a1043,Got allocated containers 2 ,1
+db805bc7,After Scheduling : PendingReds:1 ScheduledMaps:4 ScheduledReds:0 AssignedMaps:6 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:6 ContRel:0 HostLocal:3 RackLocal:3 ,1
+1fd32b61,attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+50cccbc6,attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+5f0805cf,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000006 taskAttempt attempt_1445144423722_0020_m_000004_0 ,1
+f434488a,Launching attempt_1445144423722_0020_m_000004_0 ,1
+361841be,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000007 taskAttempt attempt_1445144423722_0020_m_000005_0 ,1
+a3b0c676,Launching attempt_1445144423722_0020_m_000005_0 ,1
+ec28afa5,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000004_0 : 13562 ,1
+18ae3a01,ATTEMPT_START task_1445144423722_0020_m_000004 ,1
+939aa055,task_1445144423722_0020_m_000004 Task Transitioned from SCHEDULED to RUNNING ,1
+bfb0db44,Shuffle port returned by ContainerManager for <*> : 13562 ,3
+5bcd3af6,ATTEMPT_START task_1445144423722_0020_m_000005 ,1
+fea0203e,task_1445144423722_0020_m_000005 Task Transitioned from SCHEDULED to RUNNING ,1
+31399daf,After Scheduling : PendingReds:1 ScheduledMaps:3 ScheduledReds:0 AssignedMaps:7 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:7 ContRel:0 HostLocal:4 RackLocal:3 ,1
+1abfd808,attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+8627a4ce,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000008 taskAttempt attempt_1445144423722_0020_m_000006_0 ,1
+46a8e4e6,Launching attempt_1445144423722_0020_m_000006_0 ,1
+2aedd11d,ATTEMPT_START task_1445144423722_0020_m_000006 ,1
+4d435ddb,task_1445144423722_0020_m_000006 Task Transitioned from SCHEDULED to RUNNING ,1
+c51d23f8,JVM with ID : jvm_1445144423722_0020_m_000006 asked for a task ,1
+c467552a,JVM with ID : jvm_1445144423722_0020_m_000007 given task : attempt_1445144423722_0020_m_000005_0 ,1
 0f8cafbc,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.10685723 ,3
+4d927254,After Scheduling : PendingReds:1 ScheduledMaps:2 ScheduledReds:0 AssignedMaps:8 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:8 ContRel:0 HostLocal:5 RackLocal:3 ,1
+bce1f42c,attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
 0b5f56a9,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.10680563 ,3
+35276279,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000009 taskAttempt attempt_1445144423722_0020_m_000007_0 ,1
+7bedc202,Launching attempt_1445144423722_0020_m_000007_0 ,1
 1e8de124,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6199081 ,4
-9ba81ab0,After Scheduling : PendingReds:1 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:9 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
-43e70eda,TaskAttempt : [ <*> ] using containerId : [ <*> on NM : [ MSRA-SA-39.fareast.corp.microsoft.com:28345 ] ,2
+c3c98853,ATTEMPT_START task_1445144423722_0020_m_000007 ,1
+76c842c4,task_1445144423722_0020_m_000007 Task Transitioned from SCHEDULED to RUNNING ,1
+99e16b2c,JVM with ID : jvm_1445144423722_0020_m_000009 asked for a task ,1
+bab52576,JVM with ID : jvm_1445144423722_0020_m_000009 given task : attempt_1445144423722_0020_m_000007_0 ,1
+e4552785,Assigned container container_1445144423722_0020_01_000010 to attempt_1445144423722_0020_m_000008_0 ,1
+92e7c79f,After Scheduling : PendingReds:1 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:9 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:9 ContRel:0 HostLocal:6 RackLocal:3 ,1
+6fb68ea6,attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+d457c6cc,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000010 taskAttempt attempt_1445144423722_0020_m_000008_0 ,1
+5d84aeba,Launching attempt_1445144423722_0020_m_000008_0 ,1
+384cc85c,Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:28345 ,2
+6806ae69,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000008_0 : 13562 ,1
+ab94e03b,TaskAttempt : [ attempt_1445144423722_0020_m_000008_0 ] using containerId : [ container_1445144423722_0020_01_000010 on NM : [ MSRA-SA-39.fareast.corp.microsoft.com:28345 ] ,1
 c9b96b2e,attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from ASSIGNED to RUNNING ,1
-31934106,After Scheduling : PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:7 RackLocal:3 ,1
-07d0b030,"<*> <*> <*> container <*> : [ <*> : <*> , <*> : <*> , <*> : <*> , <*> : <*> <*> , <*> <*> , <*> : <*> , <*> : <*> <*> <*> : <*> , <*> : <*> <*> <*> <*> <*> , ] for <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> <*> <*> ",1
+bc085e5a,ATTEMPT_START task_1445144423722_0020_m_000008 ,1
+c0987c83,task_1445144423722_0020_m_000008 Task Transitioned from SCHEDULED to RUNNING ,1
+2808d5ae,After Scheduling : PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:10 ContRel:0 HostLocal:7 RackLocal:3 ,1
+d15172c7,attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+65d32a0d,Processing the event EventType : CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000011 taskAttempt attempt_1445144423722_0020_m_000009_0 ,1
+bcfb435c,Launching attempt_1445144423722_0020_m_000009_0 ,1
+a74d14d1,Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000009_0 : 13562 ,1
+c5023869,TaskAttempt : [ attempt_1445144423722_0020_m_000009_0 ] using containerId : [ container_1445144423722_0020_01_000011 on NM : [ MSRA-SA-39.fareast.corp.microsoft.com:28345 ] ,1
+9aee70ab,attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from ASSIGNED to RUNNING ,1
+d756f17f,ATTEMPT_START task_1445144423722_0020_m_000009 ,1
+02866a2d,task_1445144423722_0020_m_000009 Task Transitioned from SCHEDULED to RUNNING ,1
+a9ccd059,"<*> <*> <*> container Container : <*> <*> : <*> , <*> : <*> , <*> : <*> , <*> : < memory:1024 , vCores:1 > , <*> : <*> , Token : Token <*> <*> : <*> , <*> : < <*> > <*> <*> , <*> <*> <*> map <*> <*> container <*> <*> <*> <*> < memory:1024 , vCores:1 > <*> <*> <*> map <*> <*> <*> ",1
 8c7da313,After Scheduling : PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-9e3fd567,<*> <*> event for <*> container <*> <*> ,1
+5f17e787,"getResources ( ) for application_1445144423722_0020 : ask=0 release= 1 newContainers=0 finishedContainers=1 resourcelimit= < memory:1024 , vCores : -26 > knownNMs=4 ",1
+7ffdb858,Received completed container container_1445144423722_0020_01_000012 ,1
+daa12615,Container complete event for unknown container id container_1445144423722_0020_01_000012 ,1
+245ef5b3,JVM with ID : jvm_1445144423722_0020_m_000011 given task : attempt_1445144423722_0020_m_000009_0 ,1
+d87d17d4,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.29115766 ,1
 66031ce8,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705 ,4
+7cff139d,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.18529637 ,1
+cc350c35,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.10681946 ,3
 332b96c2,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.667 ,3
 c41f7f29,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446 ,4
+d6780fe7,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.31981927 ,1
+00ad9f5e,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.32958937 ,1
+701ec2e7,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.19242907 ,3
 573d724a,Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365 ,5
 872ede52,Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472 ,5
 7a0e3e0e,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363 ,8
+0f50ac00,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.1337379 ,1
+0abfabda,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6854124 ,1
 8bf7d7cc,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977 ,8
+a1028922,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.27813601 ,3
+fcd860bc,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.25258622 ,1
+7feaf1f0,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.19255035 ,3
+4a19d8d7,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.7198902 ,1
+0a4dd632,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.27613032 ,1
 363dc8ab,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.2781602 ,3
+9632d66f,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.7607953 ,1
+8f0581d4,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.2783809 ,2
 cbcf57ab,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012 ,8
+c9d6e58c,Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.4956123 ,1
+f7883848,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.32285523 ,1
+509e7707,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.25511068 ,1
+cc691913,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.83331466 ,1
+16504c21,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.29597813 ,1
 742279e4,Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.19258286 ,3
+b24d94c5,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.36390656 ,3
+656e4f4f,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.27825075 ,3
+421cc69a,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.36388028 ,4
+3b4801ea,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.36404583 ,3
+57bcc26d,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.9185183 ,1
+07af5ca1,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.9543898 ,1
 8a4e084e,Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.27811313 ,3
-0e6f95d9,Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.667 ,3
-899ffbf5,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from <*> to SUCCESS_CONTAINER_CLEANUP ,1
-08cf2dc0,Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container <*> taskAttempt <*> ,3
-c3d08e3f,KILLING <*> ,3
-0f0cc2ea,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to <*> ,1
-f0fed1b2,Before Scheduling : PendingReds:1 <*> ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+fc08efe4,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : <*> ,2
+da2e8f96,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.9854844 ,1
+09c43543,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 1.0 ,1
+dd441120,Done acknowledgement from attempt_1445144423722_0020_m_000003_0 ,1
+335039cc,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP ,1
+36b53412,Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0 ,1
+c391b3c4,KILLING attempt_1445144423722_0020_m_000003_0 ,1
+a368841f,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED ,1
+672d1d77,Task succeeded with attempt attempt_1445144423722_0020_m_000003_0 ,1
+230dea85,task_1445144423722_0020_m_000003 Task Transitioned from RUNNING to SUCCEEDED ,1
+53df4f1d,Num completed Tasks : 1 ,1
+1657d5b5,Before Scheduling : PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
 09c48f9e,Reduce slow start threshold <*> . <*> <*> . ,1
-b7182197,<*> maps <*> <*> <*> <*> <*> <*> <*> ,1
+33652a74,All maps assigned . Ramping up all remaining reduces:1 ,1
 edf4cc75,After Scheduling : PendingReds:0 ScheduledMaps:0 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
 1943a850,Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.3638923 ,2
-a9247f01,<*> <*> <*> <*> . <*> <*> <*> . ,1
-5c15fcd7,<*> <*> <*> <*> for <*> <*> ,1
-12f256a0,Before Scheduling : <*> <*> <*> AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-86c1a9cb,"getResources ( ) for application_1445144423722_0020 : <*> release= 0 <*> <*> resourcelimit= < memory:0 , vCores : -27 > knownNMs=4 ",1
+09cdd4fb,Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.44950968 ,2
+495a7f74,Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.44968578 ,2
+f78ea20c,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_1445144423722_0020_m_000000 ,1
+eba72b0f,We launched 1 speculations . Sleeping 15000 milliseconds . ,1
+78a6e480,Scheduling a redundant attempt for task task_1445144423722_0020_m_000000 ,1
+d9bdcaed,attempt_1445144423722_0020_m_000000_1 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+38b53e02,Before Scheduling : PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+66574878,Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.44980705 ,2
+a8c8fd4a,Received completed container container_1445144423722_0020_01_000005 ,1
 db99f9b9,After Scheduling : PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-176928aa,<*> <*> <*> <*> : <*> <*> <*> <*> <*> . ,1
+f1d09b3d,<*> <*> <*> <*> : Container <*> <*> <*> <*> . ,1
+aaf8976d,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38007197 ,1
 d2eaff02,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183 ,11
-0e3ce9c8,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424 ,10
-08e0a04f,Address change detected . Old : msra-sa-41/ < * > :9000 New : msra-sa-41:9000 ,309
-ae806624,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for <*> seconds . Will retry shortly ... ,270
-8a337b64,<*> <*> <*> . <*> : <*> < <*> > <*> <*> : <*> ,21
-5ed64837,<*> to <*> <*> for <*> <*> <*> for <*> <*> . <*> retry <*> <*> ,26
-374adc0b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> <*> : <*> <*> : <*> <*> : <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-daec8cc6,<*> <*> <*> <*> <*> <*> < * > <*> : <*> ,1
-6e2a1851,<*> <*> <*> <*> <*> < * > <*> : <*> <*> <*> < * > :50010 <*> < * > :50010 : <*> <*> < * > :50010 ,1
+0e3ce9c8,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424 ,11
+08e0a04f,Address change detected . Old : msra-sa-41/ < * > :9000 New : msra-sa-41:9000 ,329
+3bad082e,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 30 seconds . Will retry shortly ... ,1
+b8ec7331,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 31 seconds . Will retry shortly ... ,1
+270371d0,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 32 seconds . Will retry shortly ... ,1
+b45d75d7,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 33 seconds . Will retry shortly ... ,1
+9a481d74,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 34 seconds . Will retry shortly ... ,1
+ae806624,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for <*> seconds . Will retry shortly ... ,222
+8b6c97a3,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 36 seconds . Will retry shortly ... ,1
+df56137c,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 46 seconds . Will retry shortly ... ,1
+b1ed330f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 47 seconds . Will retry shortly ... ,1
+6a57759b,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 48 seconds . Will retry shortly ... ,1
+dea01e8c,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 49 seconds . Will retry shortly ... ,1
+0d10fa16,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 50 seconds . Will retry shortly ... ,1
+6c212bea,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 51 seconds . Will retry shortly ... ,1
+76904e8a,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 52 seconds . Will retry shortly ... ,1
+6615f543,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 53 seconds . Will retry shortly ... ,1
+7bb98025,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 54 seconds . Will retry shortly ... ,1
+93c0904a,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 55 seconds . Will retry shortly ... ,1
+f47375b2,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 56 seconds . Will retry shortly ... ,1
+d2b8f8e5,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 59 seconds . Will retry shortly ... ,1
+c8bfd83c,"<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> status : <*> status : <*> <*> : <*> , <*> : <*> < * > :50010 , < * > :50010 <*> ",1
+dd149cd4,<*> <*> <*> for block BP-1347369012- < * > -1444972147527 : blk_1073743512_2731 ,1
+16324b34,<*> <*> for block BP-1347369012- < * > -1444972147527 : blk_1073743512_2731 <*> <*> < * > :50010 <*> < * > :50010 : <*> <*> < * > :50010 ,1
+b5f8f0ab,<*> <*> ,1
+96425aff,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 60 seconds . Will retry shortly ... ,1
+510a7852,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 61 seconds . Will retry shortly ... ,1
+6d213146,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 62 seconds . Will retry shortly ... ,1
+88921606,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 63 seconds . Will retry shortly ... ,1
+4a64db1a,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 64 seconds . Will retry shortly ... ,1
 3f5633f6,ERROR IN CONTACTING RM . ,134
-9ccadee9,Address change detected . Old : msra-sa-41/ < * > :8030 New : msra-sa-41:8030 ,130
-851957ed,"Retrying connect to server : msra-sa-41:8030 . Already tried 0 time ( s ) ; retry policy is RetryUpToMaximumCountWithFixedSleep ( maxRetries=10 , sleepTime=1000 MILLISECONDS ) ",118
-2ee14bb0,"<*> <*> to <*> : msra-sa-41:8030 . <*> <*> <*> <*> ( <*> ) <*> retry <*> is <*> ( <*> , <*> <*> ) ",28
+e2772f10,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 65 seconds . Will retry shortly ... ,1
+9ccadee9,Address change detected . Old : msra-sa-41/ < * > :8030 New : msra-sa-41:8030 ,146
+851957ed,"Retrying connect to server : msra-sa-41:8030 . Already tried 0 time ( s ) ; retry policy is RetryUpToMaximumCountWithFixedSleep ( maxRetries=10 , sleepTime=1000 MILLISECONDS ) ",146
+208b3cfc,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 70 seconds . Will retry shortly ... ,1
+67162e0e,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 71 seconds . Will retry shortly ... ,1
+eba8e09d,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 72 seconds . Will retry shortly ... ,1
+ba533aee,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 73 seconds . Will retry shortly ... ,1
+e8ba54a8,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 74 seconds . Will retry shortly ... ,1
+c3f8e366,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 75 seconds . Will retry shortly ... ,1
+9c3e9557,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 76 seconds . Will retry shortly ... ,1
+bd4fbe37,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 77 seconds . Will retry shortly ... ,1
+b795675f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 78 seconds . Will retry shortly ... ,1
+6d1cbae6,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 79 seconds . Will retry shortly ... ,1
+00618b3f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 80 seconds . Will retry shortly ... ,1
+5b36227e,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 81 seconds . Will retry shortly ... ,1
+6de505ac,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 82 seconds . Will retry shortly ... ,1
+e4912217,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 83 seconds . Will retry shortly ... ,1
+6b1c4b66,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 84 seconds . Will retry shortly ... ,1
+0bf64d0b,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 85 seconds . Will retry shortly ... ,1
+f02bbb97,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 86 seconds . Will retry shortly ... ,1
+e30f8129,<*> : <*> <*> <*> : <*> : <*> <*> to <*> <*> <*> < * > to msra-sa-41:9000 <*> <*> <*> <*> <*> : <*> : <*> <*> to <*> : <*> <*> <*> ; <*> <*> <*> <*> : <*> : <*> ,2
+e912abde,Diagnostics report from attempt_1445144423722_0020_m_000002_0 : Error : java.net.NoRouteToHostException : No Route to Host from MININT-FNANLI5/ < * > to msra-sa-41:9000 failed on socket timeout exception : java.net.NoRouteToHostException : No route to host : no further information ; For more details see : http : //wiki.apache.org/hadoop/NoRouteToHost ,2
+95cdde1c,<*> TaskAttempt <*> from <*> to <*> ,1
+0e68f8a5,Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0 ,1
+540f33f9,KILLING attempt_1445144423722_0020_m_000002_0 ,1
+d9c9dd3e,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ,1
+4ed1e63c,Processing the event EventType : TASK_ABORT ,2
+3a4ace98,Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0 ,1
+f3edd4fe,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED ,1
+032c0823,attempt_1445144423722_0020_m_000002_1 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+706fbfe0,Error writing History Event : org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent @ 7317849d ,1
+cac80920,"Thread Thread [ eventHandlingThread,5 , main ] threw an Exception . ",1
+ea593bd0,<*> failures on node MININT-FNANLI5.fareast.corp.microsoft.com ,2
+b67208a8,Added attempt_1445144423722_0020_m_000002_1 to list of failed maps ,1
+0f4764a5,Before Scheduling : PendingReds:0 ScheduledMaps:2 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+4d704657,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 90 seconds . Will retry shortly ... ,1
+52fe16e5,<*> <*> from attempt_1445144423722_0020_m_000001_0 : <*> : java.net.NoRouteToHostException : No <*> to <*> from <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> : java.net.NoRouteToHostException : No <*> to <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> ,2
+bd6bb9b4,attempt_1445144423722_0020_m_000001_0 TaskAttempt <*> from <*> to <*> ,1
+0b066885,Processing the event EventType : CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0 ,1
+fdb20855,KILLING attempt_1445144423722_0020_m_000001_0 ,1
+519ef859,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ,1
+3b2d506a,Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0 ,1
+f3e2e4e5,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED ,1
+a6cf6d6a,attempt_1445144423722_0020_m_000001_1 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+9872a929,Added attempt_1445144423722_0020_m_000001_1 to list of failed maps ,1
+bfa616ed,Before Scheduling : PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+df86ed1d,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 116 seconds . Will retry shortly ... ,1
+add10c75,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 117 seconds . Will retry shortly ... ,1
+70da44db,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 127 seconds . Will retry shortly ... ,1
+727cccfb,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 128 seconds . Will retry shortly ... ,1
+67dd299f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 134 seconds . Will retry shortly ... ,1
+40bae6bb,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 136 seconds . Will retry shortly ... ,1
+cffedbf6,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 137 seconds . Will retry shortly ... ,1
+fe217a91,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 138 seconds . Will retry shortly ... ,1
+2e821fd8,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 139 seconds . Will retry shortly ... ,1
+ae72a6e0,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 141 seconds . Will retry shortly ... ,1
+fd973a8d,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 142 seconds . Will retry shortly ... ,1
+b5865454,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 145 seconds . Will retry shortly ... ,1
+e0572472,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 146 seconds . Will retry shortly ... ,1
+a32dfc55,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 147 seconds . Will retry shortly ... ,1
+ffae99c9,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 161 seconds . Will retry shortly ... ,1
+715283a4,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 162 seconds . Will retry shortly ... ,1
+757350e6,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 163 seconds . Will retry shortly ... ,1
+92255d2f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 164 seconds . Will retry shortly ... ,1
 89c14c4f,<*> <*> <*> <*> . ,13
-e53c8b8e,<*> : <*> <*> <*> : <*> : <*> <*> to <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> : <*> : <*> <*> to <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> ,2
-969782b1,<*> <*> <*> <*> : <*> : <*> : <*> <*> to <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> : <*> : <*> <*> to <*> : <*> <*> <*> <*> <*> <*> <*> <*> : <*> : <*> ,4
-324a153d,<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ,2
-5421d679,<*> <*> <*> <*> : <*> <*> <*> ,1
-8b26c655,"<*> <*> <*> <*> , <*> <*> <*> <*> <*> . ",1
-85566e5c,<*> <*> <*> <*> of <*> maps ,2
-607065e6,<*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-d6ac8a8a,<*> <*> <*> . <*> : <*> < <*> > <*> <*> : msra-sa-41:8030 ,13
-256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-0f6a8f69,<*> to <*> <*> for <*> <*> <*> for <*> <*> . <*> <*> <*> <*> ,8
-1f6a8981,<*> <*> <*> . <*> : <*> <*> <*> <*> <*> <*> : <*> ,3
-bc849092,<*> <*> <*> <*> for <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> ,6
-35cc99fd,<*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> . <*> retry <*> <*> ,1
-486c5e32,<*> to <*> <*> for [ <*> ] for <*> <*> . <*> <*> <*> <*> ,3
-88bb8267,<*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-9624ce30,<*> to <*> <*> for <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> ,8
+1a605d6a,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 168 seconds . Will retry shortly ... ,1
+b3dda25d,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 185 seconds . Will retry shortly ... ,1
+3bcf55a0,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 190 seconds . Will retry shortly ... ,1
+821c7583,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 196 seconds . Will retry shortly ... ,1
+ee7289fb,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 197 seconds . Will retry shortly ... ,1
+e84fd9fc,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 198 seconds . Will retry shortly ... ,1
+64f41748,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 199 seconds . Will retry shortly ... ,1
+2449f377,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 201 seconds . Will retry shortly ... ,1
+d2dee5f9,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 202 seconds . Will retry shortly ... ,1
+ec88aad0,<*> <*> <*> <*> <*> : <*> < * > <*> <*> : <*> ,1
+99bf807d,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 222 seconds . Will retry shortly ... ,1
+8bb96261,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 223 seconds . Will retry shortly ... ,1
+2de4389f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 224 seconds . Will retry shortly ... ,1
+7160d628,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 248 seconds . Will retry shortly ... ,1
+2a4421a9,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 251 seconds . Will retry shortly ... ,1
+0ff5e712,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 254 seconds . Will retry shortly ... ,1
+d50473ae,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 255 seconds . Will retry shortly ... ,1
+eabc17e6,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 256 seconds . Will retry shortly ... ,1
+afb6825f,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 258 seconds . Will retry shortly ... ,1
+30f29a43,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 259 seconds . Will retry shortly ... ,1
+1a113951,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 261 seconds . Will retry shortly ... ,1
+c045e3a4,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 262 seconds . Will retry shortly ... ,1
+f5f149ca,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 263 seconds . Will retry shortly ... ,1
+97f5897c,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 264 seconds . Will retry shortly ... ,1
+ef0c22aa,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 265 seconds . Will retry shortly ... ,1
+c6aa6797,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 277 seconds . Will retry shortly ... ,1
+d5443b02,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 278 seconds . Will retry shortly ... ,1
+441d76ab,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 279 seconds . Will retry shortly ... ,1
+bfdef766,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 281 seconds . Will retry shortly ... ,1
+2bd33a13,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 282 seconds . Will retry shortly ... ,1
+cc1bc3ef,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 283 seconds . Will retry shortly ... ,1
+1f37ca5e,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 284 seconds . Will retry shortly ... ,1
+00949693,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 286 seconds . Will retry shortly ... ,1
+25c2fbb2,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 287 seconds . Will retry shortly ... ,1
+0e94b320,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 288 seconds . Will retry shortly ... ,1
+dc46c12c,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 289 seconds . Will retry shortly ... ,1
+5ed64837,<*> to <*> <*> for <*> <*> <*> for <*> <*> . <*> retry <*> <*> ,5
+e5c79c22,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 342 seconds . Will retry shortly ... ,1
+465671a0,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 348 seconds . Will retry shortly ... ,1
+2fd7a6ef,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 349 seconds . Will retry shortly ... ,1
+fc3f2e2e,Failed to renew lease for [ DFSClient_NONMAPREDUCE_1537864556_1 ] for 353 seconds . Will retry shortly ... ,1
