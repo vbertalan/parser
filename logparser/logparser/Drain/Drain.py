@@ -289,7 +289,7 @@ class LogParser:
             for item in logCluL:
                 # write each item on a new line
                 fp.write("%s\n" % item)
-        print('TERMINOU DE PRINTAR LOGCLUL')
+        #print('TERMINOU DE PRINTAR LOGCLUL')
         #print(logCluL)
         #print(type(logCluL))
 
