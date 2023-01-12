@@ -149,6 +149,10 @@ for dataset, setting in benchmark_settings.items():
     log_file = os.path.basename(setting['log_file'])
 
     parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
+    
+    #empty_array = []
+    #parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex = empty_array, st=setting['st'])
+
     parser.parse(log_file)
     
     F1_measure, accuracy = evaluator.evaluate(

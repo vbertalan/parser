@@ -3,19 +3,19 @@ EventId,EventTemplate,Occurrences
 6af3d3b1,"Changing view acls to : yarn , curi ",2
 7b4b2aa1,"Changing modify acls to : yarn , curi ",2
 f1854752,"SecurityManager : authentication disabled ; ui acls disabled ; users with view permissions : Set ( yarn , curi ) ; users with modify permissions : Set ( yarn , curi ) ",2
-ef387f26,Slf4jLogger started ,1
+b5f8f0ab,<*> <*> ,1
 07da4dc6,Starting remoting ,1
 8ff29d38,Remoting started ; listening on addresses : [ akka.tcp : //sparkExecutorActorSystem @ mesos-slave-07:55904 ] ,1
 02c7055c,Successfully started service 'sparkExecutorActorSystem ' on port 55904 . ,1
 cf909642,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4 ,1
 00349e89,MemoryStore started with capacity 17.7 GB ,1
-cd694f43,Connecting to driver : spark : //CoarseGrainedScheduler @ < * > :48069 ,1
-6dc2f7a9,<*> <*> <*> driver ,1
+2db18c1b,Connecting to driver : spark : //CoarseGrainedScheduler @ 10.10.34.11:48069 ,1
+4b6620a4,Successfully registered with driver ,1
 735bc1b6,Starting executor ID 5 on host mesos-slave-07 ,1
-975bf599,Successfully started service ' < * > ' on port 40984 . ,1
+d652b163,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService ' on port 40984 . ,1
 cb6c8534,Server created on 40984 ,1
-63e65d01,<*> to <*> <*> ,1
-b5f8f0ab,<*> <*> ,1
+f879f45e,Trying to register BlockManager ,1
+f0913453,Registered BlockManager ,1
 25db0654,Got assigned task 0 ,1
 8a4a2dee,Got assigned task 1 ,1
 7443bfc6,Got assigned task 2 ,1
@@ -26,7 +26,7 @@ c10c6559,Running task 1.0 in stage 0.0 ( TID 1 ) ,1
 94a5e6f6,Running task 3.0 in stage 0.0 ( TID 3 ) ,1
 93af3bf9,Got assigned task 4 ,1
 fb3e81ca,Running task 4.0 in stage 0.0 ( TID 4 ) ,1
-bba20e69,Started reading broadcast variable 9 ,1
+0043260f,<*> <*> broadcast variable <*> ,3
 cb294245,"Block broadcast_9_piece0 stored as bytes in memory ( estimated size 5.2 KB , free 5.2 KB ) ",1
 47c65657,Reading broadcast variable 9 took 160 ms ,1
 900fdab4,"Block broadcast_9 stored as values in memory ( estimated size 8.8 KB , free 14.0 KB ) ",1
@@ -35,16 +35,19 @@ d3c16050,"Partition rdd_2_3 not found , computing it ",1
 c56b2672,"Partition rdd_2_0 not found , computing it ",1
 1f492a96,"Partition rdd_2_2 not found , computing it ",1
 9c86f049,"Partition rdd_2_4 not found , computing it ",1
-e0f02a02,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:21876+7292 ,2
-71d494c4,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:14584+7292 ,2
-5f1d9ec5,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:0+7292 ,2
-136fbf22,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:7292+7292 ,2
-30468ec8,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:29168+7292 ,2
-e2d21783,Started reading broadcast variable 8 ,1
+1a638007,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292 ,2
+28b16f9d,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292 ,2
+36110314,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292 ,2
+f9f916ea,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:7292+7292 ,2
+98700f5b,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:29168+7292 ,2
 29b560ed,"Block broadcast_8_piece0 stored as bytes in memory ( estimated size 21.4 KB , free 35.4 KB ) ",1
 ad40ffae,Reading broadcast variable 8 took 19 ms ,1
 f4451f50,"Block broadcast_8 stored as values in memory ( estimated size 281.6 KB , free 317.0 KB ) ",1
-c752ac1d,"< * > is deprecated . Instead , use < * > ",5
+6df3ce12,"mapred.tip.id is deprecated . Instead , use mapreduce.task.id ",1
+60ac3350,"mapred.task.id is deprecated . Instead , use mapreduce.task.attempt.id ",1
+378baf91,"mapred.task.is.map is deprecated . Instead , use mapreduce.task.ismap ",1
+d2bc203f,"mapred.job.id is deprecated . Instead , use mapreduce.job.id ",1
+bd2f5397,"mapred.task.partition is deprecated . Instead , use mapreduce.task.partition ",1
 309380c8,Started reading broadcast variable 0 ,1
 c4d213a1,"Block broadcast_0_piece0 stored as bytes in memory ( estimated size 93.0 B , free 317.1 KB ) ",1
 2175b56a,Reading broadcast variable 0 took 21 ms ,1
@@ -66,18 +69,16 @@ afa8b9b2,Started reading broadcast variable 2 ,1
 be2e8e0e,Reading broadcast variable 2 took 16 ms ,1
 532abe9a,"Block broadcast_2 stored as values in memory ( estimated size 384.0 B , free 319.4 KB ) ",1
 9a125187,"Times : total = 1072 , boot = 856 , init = 210 , finish = 6 ",1
-a113ccb3,"Times : total = 1114 , boot = 885 , init = 223 , finish = 6 ",1
-f113f441,"Times : total = 1074 , boot = 869 , init = 199 , finish = 6 ",1
-a5f9b1a7,"Times : total = 1078 , boot = 851 , init = 219 , finish = 8 ",1
-e6136866,"Times : total = 1077 , boot = 865 , init = 206 , finish = 6 ",1
+87392622,"Times : total = <*> , boot = <*> , init = <*> , finish = 6 ",3
+abf40a30,"Times : total = <*> , boot = <*> , init = <*> , finish = <*> ",4
 fe412845,"Block rdd_2_2 stored as bytes in memory ( estimated size 850.0 B , free 320.3 KB ) ",1
 54a8369c,"Block rdd_2_3 stored as bytes in memory ( estimated size 930.0 B , free 321.2 KB ) ",1
 32694ed7,"Block rdd_2_1 stored as bytes in memory ( estimated size 935.0 B , free 322.1 KB ) ",1
 2843fba6,"Block rdd_2_0 stored as bytes in memory ( estimated size 913.0 B , free 323.0 KB ) ",1
 e3534e10,"Block rdd_2_4 stored as bytes in memory ( estimated size 890.0 B , free 323.8 KB ) ",1
 82bc2647,"Times : total = 38 , boot = 11 , init = 27 , finish = 0 ",1
-852760b1,"Times : total = 42 , boot = <*> , init = <*> , finish = 0 ",8
-c57b6c9c,"Times : total = 41 , boot = 15 , init = 26 , finish = 0 ",1
+ef676bb7,"Times : total = 42 , boot = 12 , init = 30 , finish = 0 ",1
+db220ba6,"Times : total = 41 , boot = <*> , init = 26 , finish = 0 ",1
 ea43024c,"Times : total = 40 , boot = 7 , init = 33 , finish = 0 ",1
 af21a817,"Times : total = 42 , boot = 13 , init = 28 , finish = 1 ",4
 05dc5114,Finished task 3.0 in stage 0.0 ( TID 3 ) . 2703 bytes result sent to driver ,1
@@ -89,7 +90,7 @@ d25a0820,Finished task 0.0 in stage 0.0 ( TID 0 ) . 2703 bytes result sent to dr
 fb3e4192,Running task 0.0 in stage 1.0 ( TID 42 ) ,1
 125bc76d,Got assigned task 56 ,1
 eb4e77cb,Running task 1.0 in stage 1.0 ( TID 56 ) ,1
-315b9006,Got assigned task 69 ,1
+12fd741a,Got assigned task <*> ,9
 7cf0e277,Started reading broadcast variable 10 ,1
 bed64fa4,Running task 2.0 in stage 1.0 ( TID 69 ) ,1
 77e3cce2,Got assigned task 78 ,1
@@ -99,10 +100,10 @@ b3df6e80,Running task 4.0 in stage 1.0 ( TID 79 ) ,1
 8e2c7b96,"Block broadcast_10_piece0 stored as bytes in memory ( estimated size 5.8 KB , free 329.6 KB ) ",1
 d40ac5e5,Reading broadcast variable 10 took 17 ms ,1
 f19af484,"Block broadcast_10 stored as values in memory ( estimated size 9.6 KB , free 339.2 KB ) ",1
-38953fa8,Found block rdd_2_0 locally ,14
-15a35288,Found block rdd_2_3 locally ,16
-029a9d8b,Found block rdd_2_4 locally ,17
-2607f1fc,Found block rdd_2_2 locally ,13
+38953fa8,Found block rdd_2_0 locally ,17
+15a35288,Found block rdd_2_3 locally ,17
+029a9d8b,Found block rdd_2_4 locally ,14
+2607f1fc,Found block rdd_2_2 locally ,17
 415edaf1,Found block rdd_2_1 locally ,17
 16495011,"Times : total = 42 , boot = -4131 , init = 4172 , finish = 1 ",1
 525247bb,"Times : total = 41 , boot = -4122 , init = 4162 , finish = 1 ",1
@@ -121,18 +122,18 @@ c8b1db0b,Running task 1.0 in stage 2.0 ( TID 101 ) ,1
 83795495,Got assigned task 112 ,1
 b79c458c,Running task 2.0 in stage 2.0 ( TID 112 ) ,1
 3d538463,Got assigned task 118 ,1
-b938dc97,Running task 3.0 in stage 2.0 ( TID 118 ) ,1
+2fa0d117,Running task 3.0 in stage 2.0 ( TID <*> ) ,1
 690bff94,Started reading broadcast variable 11 ,1
 0f247ffa,Got assigned task 119 ,1
 a49f709d,Running task 4.0 in stage 2.0 ( TID 119 ) ,1
 fa239ed4,"Block broadcast_11_piece0 stored as bytes in memory ( estimated size 5.4 KB , free 344.7 KB ) ",1
 5e064c0c,Reading broadcast variable 11 took 15 ms ,1
 00fdaace,"Block broadcast_11 stored as values in memory ( estimated size 9.2 KB , free 353.9 KB ) ",1
-d62d2718,"Times : total = 39 , boot = -147 , init = 186 , finish = 0 ",2
-3f05015e,"Times : total = 41 , boot = <*> , init = <*> , finish = 1 ",11
-f3789cc0,"Times : total = 38 , boot = <*> , init = <*> , finish = 0 ",12
-59b7d410,"Times : total = 39 , boot = <*> , init = <*> , finish = 0 ",9
-e32bf447,Finished task 4.0 in stage 2.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+59b7d410,"Times : total = 39 , boot = <*> , init = <*> , finish = 0 ",11
+d62d2718,"Times : total = 39 , boot = -147 , init = 186 , finish = 0 ",1
+3f05015e,"Times : total = 41 , boot = <*> , init = <*> , finish = 1 ",3
+870bd9c2,"Times : total = 38 , boot = -156 , init = 194 , finish = 0 ",1
+2f3802cb,Finished task 4.0 in stage 2.0 ( TID 119 ) . 2087 bytes result sent to driver ,1
 ad3c6de7,Finished task 2.0 in stage 2.0 ( TID 112 ) . 2087 bytes result sent to driver ,1
 be2167b1,Finished task 3.0 in stage 2.0 ( TID 118 ) . 2087 bytes result sent to driver ,1
 27eadaba,Finished task 1.0 in stage 2.0 ( TID 101 ) . 2087 bytes result sent to driver ,1
@@ -142,22 +143,20 @@ c5072986,Running task 0.0 in stage 3.0 ( TID 122 ) ,1
 2a009ade,Got assigned task 136 ,1
 e6746f47,Running task 1.0 in stage 3.0 ( TID 136 ) ,1
 08ebc6d6,Got assigned task 150 ,1
-1b4e117d,Running task 2.0 in stage 3.0 ( TID 150 ) ,1
-12fd741a,Got assigned task <*> ,26
+7b6117c1,Running task 2.0 in stage 3.0 ( TID <*> ) ,1
+8e490766,Got assigned task 158 ,1
 6bff4290,Running task 3.0 in stage 3.0 ( TID 158 ) ,1
 c9082a28,Started reading broadcast variable 12 ,1
+2911f5ef,Got assigned task 159 ,1
 0a1a7a81,Running task 4.0 in stage 3.0 ( TID 159 ) ,1
 7bf37f12,"Block broadcast_12_piece0 stored as bytes in memory ( estimated size 5.6 KB , free 359.4 KB ) ",1
 1a4223e4,Reading broadcast variable 12 took 30 ms ,1
 12b7a122,"Block broadcast_12 stored as values in memory ( estimated size 9.8 KB , free 369.3 KB ) ",1
-aa36d882,"Partition rdd_6_4 not found , computing it ",1
-219133b6,"Partition rdd_6_3 not found , computing it ",1
-96aee149,"Partition rdd_6_0 not found , computing it ",1
-4a8029f7,"Partition rdd_6_1 not found , computing it ",1
-96df11a2,"Partition rdd_6_2 not found , computing it ",1
-3c8c5a3e,"Times : total = 41 , boot = <*> , init = <*> , finish = 0 ",7
-abf40a30,"Times : total = <*> , boot = <*> , init = <*> , finish = <*> ",4
-090eecca,"Times : total = 40 , boot = <*> , init = <*> , finish = 0 ",11
+f75f2172,"Partition <*> not found , computing it ",8
+73941643,"Times : total = 38 , boot = -170 , init = 208 , finish = 0 ",1
+3c8c5a3e,"Times : total = 41 , boot = <*> , init = <*> , finish = 0 ",9
+0fb659e1,"Times : total = 38 , boot = -172 , init = 210 , finish = 0 ",1
+090eecca,"Times : total = 40 , boot = <*> , init = <*> , finish = 0 ",17
 4df81db3,"Block rdd_6_4 stored as bytes in memory ( estimated size 287.0 B , free 369.5 KB ) ",1
 0d2461a6,"Block rdd_6_3 stored as bytes in memory ( estimated size 344.0 B , free 369.9 KB ) ",1
 0c740005,"Block rdd_6_1 stored as bytes in memory ( estimated size 330.0 B , free 370.2 KB ) ",1
@@ -166,12 +165,14 @@ abf40a30,"Times : total = <*> , boot = <*> , init = <*> , finish = <*> ",4
 b67de1e3,"Times : total = 38 , boot = 14 , init = 24 , finish = 0 ",2
 35db7c1e,"Times : total = 38 , boot = 12 , init = 26 , finish = 0 ",2
 30df5f78,"Times : total = 41 , boot = 19 , init = 22 , finish = 0 ",3
-3339faa6,Finished task 4.0 in stage 3.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+65b37b78,Finished task 4.0 in stage 3.0 ( TID 159 ) . 2667 bytes result sent to driver ,1
 9e62c3ac,"Times : total = 41 , boot = 16 , init = 25 , finish = 0 ",3
 2faa98ec,Finished task 3.0 in stage 3.0 ( TID 158 ) . 2667 bytes result sent to driver ,1
+2d4f0a87,"Times : total = 40 , boot = 5 , init = 35 , finish = 0 ",1
 46d87ee5,Finished task 1.0 in stage 3.0 ( TID 136 ) . 2667 bytes result sent to driver ,1
 774056c2,Finished task 2.0 in stage 3.0 ( TID 150 ) . 2667 bytes result sent to driver ,1
 c36e4d80,Finished task 0.0 in stage 3.0 ( TID 122 ) . 2667 bytes result sent to driver ,1
+5dd2506d,Got assigned task 171 ,1
 08ab0e79,Running task 0.0 in stage 4.0 ( TID 171 ) ,1
 2a3cae8f,Got assigned task 185 ,1
 4cf50cf4,Running task 1.0 in stage 4.0 ( TID 185 ) ,1
@@ -186,19 +187,18 @@ b2d69cc8,"Block broadcast_13_piece0 stored as bytes in memory ( estimated size 5
 02ceffc9,Reading broadcast variable 13 took 41 ms ,1
 2f6607a4,"Block broadcast_13 stored as values in memory ( estimated size 10.1 KB , free 386.5 KB ) ",1
 6cad96fa,Found block rdd_6_0 locally ,2
-978d5295,Found block rdd_6_4 locally ,2
+2b0c5524,Found block <*> locally ,21
 8d4eaada,Found block rdd_6_3 locally ,2
 3613d470,Found block rdd_6_2 locally ,2
 cd08dec2,Found block rdd_6_1 locally ,2
-916f752c,"Times : total = 39 , boot = -141 , init = 180 , finish = 0 ",1
 a012ecaf,"Times : total = 40 , boot = -129 , init = 169 , finish = 0 ",1
-7939cbf8,"Times : total = 39 , boot = -123 , init = 162 , finish = 0 ",1
-336e88d6,"Times : total = 42 , boot = <*> , init = <*> , finish = 1 ",8
+35b6a902,"Times : total = <*> , boot = -123 , init = <*> , finish = 0 ",2
+336e88d6,"Times : total = 42 , boot = <*> , init = <*> , finish = 1 ",5
 b1e3cc79,Finished task 0.0 in stage 4.0 ( TID 171 ) . 2099 bytes result sent to driver ,1
 8d0cadd1,Finished task 1.0 in stage 4.0 ( TID 185 ) . 2099 bytes result sent to driver ,1
 5b5f365c,Finished task 2.0 in stage 4.0 ( TID 195 ) . 2138 bytes result sent to driver ,1
-1fb46328,Finished task 3.0 in stage 4.0 ( TID <*> ) . <*> bytes result sent to driver ,1
-eec36808,Finished task 4.0 in stage 4.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+c68b6c98,Finished task 3.0 in stage 4.0 ( TID 198 ) . 2099 bytes result sent to driver ,1
+d1bfd856,Finished task 4.0 in stage 4.0 ( TID 199 ) . 2138 bytes result sent to driver ,1
 e3813f2b,Got assigned task 206 ,1
 2310fe59,Running task 0.0 in stage 5.0 ( TID 206 ) ,1
 5ae83386,Got assigned task 220 ,1
@@ -213,19 +213,21 @@ b83bbf5d,Running task 4.0 in stage 5.0 ( TID 239 ) ,1
 21d4ed0c,"Block broadcast_14_piece0 stored as bytes in memory ( estimated size 5.8 KB , free 392.3 KB ) ",1
 880fbf68,Reading broadcast variable 14 took 12 ms ,1
 3e8c4f5c,"Block broadcast_14 stored as values in memory ( estimated size 9.6 KB , free 401.9 KB ) ",1
-2b0c5524,Found block <*> locally ,19
-ac8f569d,"Times : total = 39 , boot = <*> , init = 123 , finish = 1 ",1
-09b71e1e,"Times : total = 39 , boot = -81 , init = 119 , finish = 1 ",1
-22339ba2,"Times : total = 40 , boot = <*> , init = <*> , finish = 1 ",4
+fe8c3d9b,"Times : total = 39 , boot = -85 , init = 123 , finish = 1 ",1
+867396d0,"Times : total = 39 , boot = <*> , init = <*> , finish = 1 ",7
+22339ba2,"Times : total = 40 , boot = <*> , init = <*> , finish = 1 ",8
+9180acad,"Times : total = 42 , boot = -79 , init = 120 , finish = 1 ",1
 3de40fc2,Finished task 0.0 in stage 5.0 ( TID 206 ) . 2198 bytes result sent to driver ,1
 d6385077,Finished task 3.0 in stage 5.0 ( TID 238 ) . 2198 bytes result sent to driver ,1
 2dfafb73,Finished task 2.0 in stage 5.0 ( TID 231 ) . 2198 bytes result sent to driver ,1
 e87c61a8,Finished task 4.0 in stage 5.0 ( TID 239 ) . 2198 bytes result sent to driver ,1
 13b5aef0,Finished task 1.0 in stage 5.0 ( TID 220 ) . 2272 bytes result sent to driver ,1
 0965ae53,Got assigned task 247 ,1
-6dd43d40,Running task <*> in stage 6.0 ( TID <*> ) ,3
+9dca1e75,Running task 0.0 in stage 6.0 ( TID 247 ) ,1
 56f21df3,Got assigned task 261 ,1
+d058ea94,Running task 1.0 in stage 6.0 ( TID 261 ) ,1
 be1e8a81,Got assigned task 273 ,1
+17e16646,Running task 2.0 in stage 6.0 ( TID 273 ) ,1
 c017a4cf,Started reading broadcast variable 15 ,1
 f1ee8542,Got assigned task 278 ,1
 2d431803,Running task 3.0 in stage 6.0 ( TID 278 ) ,1
@@ -238,6 +240,7 @@ c0fcf5ce,"Times : total = 39 , boot = -107 , init = 146 , finish = 0 ",1
 c6d0b544,"Times : total = <*> , boot = <*> , init = 141 , finish = 0 ",1
 875aad7e,"Times : total = 42 , boot = -99 , init = 141 , finish = 0 ",1
 86029b7c,"Times : total = 39 , boot = -103 , init = 142 , finish = 0 ",2
+e9a010ca,"Times : total = <*> , boot = <*> , init = <*> , finish = 0 ",8
 3a8dcdad,Finished task 0.0 in stage 6.0 ( TID 247 ) . 2087 bytes result sent to driver ,1
 5b42985d,Finished task 3.0 in stage 6.0 ( TID 278 ) . 2087 bytes result sent to driver ,1
 fe59f8dd,Finished task 2.0 in stage 6.0 ( TID 273 ) . 2087 bytes result sent to driver ,1
@@ -249,9 +252,7 @@ f429efeb,Got assigned task 285 ,1
 989d444b,Running task 1.0 in stage 7.0 ( TID 299 ) ,1
 26fea634,Got assigned task 312 ,1
 a6ff03e7,Running task 2.0 in stage 7.0 ( TID 312 ) ,1
-fc111c38,Got assigned task 318 ,1
 ec671bbd,Running task 3.0 in stage 7.0 ( TID 318 ) ,1
-52d7baae,Started reading broadcast variable 16 ,1
 f889bd36,Got assigned task 319 ,1
 6351ad91,Running task 4.0 in stage 7.0 ( TID 319 ) ,1
 0c693eb3,"Block broadcast_16_piece0 stored as bytes in memory ( estimated size 5.6 KB , free 422.1 KB ) ",1
@@ -271,16 +272,13 @@ c38690c3,"Block rdd_11_4 stored as bytes in memory ( estimated size 145.0 B , fr
 3b9fd320,"Block rdd_11_2 stored as bytes in memory ( estimated size 199.0 B , free 432.6 KB ) ",1
 9d0a6c3a,"Block rdd_11_1 stored as bytes in memory ( estimated size 160.0 B , free 432.7 KB ) ",1
 127260d1,"Times : total = 38 , boot = 17 , init = 21 , finish = 0 ",1
-5669f97f,"Times : total = 41 , boot = 28 , init = 13 , finish = 0 ",1
 98658c92,"Times : total = 38 , boot = 18 , init = 20 , finish = 0 ",5
-e396ae7d,"Times : total = 40 , boot = 19 , init = 21 , finish = 0 ",3
 00530915,"Times : total = 41 , boot = 17 , init = 24 , finish = 0 ",3
 fa47949c,Finished task 0.0 in stage 7.0 ( TID 285 ) . 2667 bytes result sent to driver ,1
 876578c6,Finished task 3.0 in stage 7.0 ( TID 318 ) . 2667 bytes result sent to driver ,1
 90f07dc0,Finished task 4.0 in stage 7.0 ( TID 319 ) . 2667 bytes result sent to driver ,1
 7836030a,Finished task 1.0 in stage 7.0 ( TID 299 ) . 2667 bytes result sent to driver ,1
 f562b440,Finished task 2.0 in stage 7.0 ( TID 312 ) . 2667 bytes result sent to driver ,1
-f209d639,Got assigned task 321 ,1
 c50ae005,Running task 0.0 in stage 8.0 ( TID 321 ) ,1
 633565c0,Got assigned task 335 ,1
 d234a3ce,Running task 1.0 in stage 8.0 ( TID 335 ) ,1
@@ -292,7 +290,7 @@ e564d36c,Running task 3.0 in stage 8.0 ( TID 358 ) ,1
 5a17b6ca,Got assigned task 359 ,1
 104ebd02,Running task 4.0 in stage 8.0 ( TID 359 ) ,1
 d106cf4b,"Block broadcast_17_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 438.5 KB ) ",1
-56542fa5,Reading broadcast variable 17 took 12 ms ,1
+3359b28e,<*> broadcast variable <*> <*> <*> <*> ,5
 a6434f69,"Block broadcast_17 stored as values in memory ( estimated size 10.1 KB , free 448.6 KB ) ",1
 20285f67,Found block rdd_11_0 locally ,2
 6a3786cc,Found block rdd_11_4 locally ,2
@@ -310,26 +308,25 @@ a019050b,Got assigned task 360 ,1
 4272ee84,Running task 0.0 in stage 9.0 ( TID 360 ) ,1
 437fca03,Got assigned task 374 ,1
 c509af65,Running task 1.0 in stage 9.0 ( TID 374 ) ,1
+acf01015,Got assigned task 388 ,1
 287284b6,Running task 2.0 in stage 9.0 ( TID 388 ) ,1
+ddab0074,Got assigned task 398 ,1
 fd707b79,Started reading broadcast variable 18 ,1
-2b0a502c,Running task 3.0 in stage <*> ( TID <*> ) ,5
+53c9aeb1,Running task 3.0 in stage 9.0 ( TID 398 ) ,1
+1e3439bf,Got assigned task 399 ,1
 2d17f04e,Running task 4.0 in stage 9.0 ( TID 399 ) ,1
 b7c8e504,"Block broadcast_18_piece0 stored as bytes in memory ( estimated size 5.8 KB , free 454.4 KB ) ",1
-f06f4084,Reading broadcast variable 18 took 12 ms ,1
 8b7590cf,"Block broadcast_18 stored as values in memory ( estimated size 9.6 KB , free 464.0 KB ) ",1
-80692090,"Times : total = <*> , boot = <*> , init = <*> , finish = 1 ",4
-468a4dec,"Times : total = 40 , boot = -75 , init = 114 , finish = 1 ",2
+0d53021d,"Times : total = 39 , boot = -73 , init = 111 , finish = 1 ",2
 f3f953e9,"Times : total = 41 , boot = -75 , init = 115 , finish = 1 ",1
 ab0239f2,Finished task 0.0 in stage 9.0 ( TID 360 ) . 2239 bytes result sent to driver ,1
 19f85099,Finished task 2.0 in stage 9.0 ( TID 388 ) . 2239 bytes result sent to driver ,1
-09bdda6c,Finished task 3.0 in stage 9.0 ( TID 398 ) . 2239 bytes result sent to driver ,1
+e9447854,Finished task <*> in stage <*> ( TID <*> ) . <*> bytes result sent to driver ,12
 f5fa487e,Finished task 1.0 in stage 9.0 ( TID 374 ) . 2298 bytes result sent to driver ,1
-67ad12c6,Finished task 4.0 in stage 9.0 ( TID 399 ) . 2239 bytes result sent to driver ,1
 fa5690cf,Got assigned task 402 ,1
 e40bb020,Running task 0.0 in stage 10.0 ( TID 402 ) ,1
 bfda7289,Got assigned task 416 ,1
 fecf2a38,Running task 1.0 in stage 10.0 ( TID 416 ) ,1
-27ba1815,Got assigned task 430 ,1
 7b91faf4,Running task 2.0 in stage 10.0 ( TID 430 ) ,1
 cd88c206,Got assigned task 438 ,1
 176ad723,Running task 3.0 in stage 10.0 ( TID 438 ) ,1
@@ -337,9 +334,8 @@ cd88c206,Got assigned task 438 ,1
 51be251d,Got assigned task 439 ,1
 e40e2090,Running task 4.0 in stage 10.0 ( TID 439 ) ,1
 ec048d08,"Block broadcast_19_piece0 stored as bytes in memory ( estimated size 5.4 KB , free 469.4 KB ) ",1
-20519ab3,Reading broadcast variable 19 took 12 ms ,1
 44cb4be1,"Block broadcast_19 stored as values in memory ( estimated size 9.2 KB , free 478.6 KB ) ",1
-f7b06185,"Times : total = 38 , boot = -123 , init = 161 , finish = 0 ",1
+5536ec3d,"Times : total = 39 , boot = -124 , init = 163 , finish = 0 ",1
 ee0633c0,"Times : total = 40 , boot = -127 , init = 167 , finish = 0 ",1
 884ef26b,"Times : total = 41 , boot = -115 , init = 155 , finish = 1 ",1
 baaa8350,Finished task 3.0 in stage 10.0 ( TID 438 ) . 2087 bytes result sent to driver ,1
@@ -347,11 +343,9 @@ baaa8350,Finished task 3.0 in stage 10.0 ( TID 438 ) . 2087 bytes result sent to
 053c6204,Finished task 4.0 in stage 10.0 ( TID 439 ) . 2087 bytes result sent to driver ,1
 8d895fd6,Finished task 2.0 in stage 10.0 ( TID 430 ) . 2087 bytes result sent to driver ,1
 e20f23a7,Finished task 1.0 in stage 10.0 ( TID 416 ) . 2087 bytes result sent to driver ,1
-67def1b6,Got assigned task 450 ,1
 2ecc6199,Running task 0.0 in stage 11.0 ( TID 450 ) ,1
 380449aa,Got assigned task 464 ,1
 6591740c,Running task 1.0 in stage 11.0 ( TID 464 ) ,1
-eed129ad,Got assigned task 475 ,1
 cca4a36b,Running task 2.0 in stage 11.0 ( TID 475 ) ,1
 4ec764b6,Got assigned task 478 ,1
 385b179d,Started reading broadcast variable 20 ,1
@@ -378,14 +372,12 @@ b9c693fa,"Block rdd_16_0 stored as bytes in memory ( estimated size 191.0 B , fr
 5a9b856f,"Block rdd_16_1 stored as bytes in memory ( estimated size 351.0 B , free 387.4 KB ) ",1
 889935ab,"Times : total = 39 , boot = 22 , init = 17 , finish = 0 ",1
 b199de66,"Times : total = 41 , boot = 20 , init = 21 , finish = 0 ",2
-f1dd2a0c,"Times : total = 40 , boot = 20 , init = 20 , finish = 0 ",3
 7a3346d2,Finished task 4.0 in stage 11.0 ( TID 479 ) . 2667 bytes result sent to driver ,1
 802b2bfc,"Times : total = 40 , boot = 26 , init = 14 , finish = 0 ",2
 fa22f18d,Finished task 0.0 in stage 11.0 ( TID 450 ) . 2667 bytes result sent to driver ,1
 1e793244,Finished task 3.0 in stage 11.0 ( TID 478 ) . 2667 bytes result sent to driver ,1
 cda47f94,Finished task 2.0 in stage 11.0 ( TID 475 ) . 2667 bytes result sent to driver ,1
 1217b454,Finished task 1.0 in stage 11.0 ( TID 464 ) . 2667 bytes result sent to driver ,1
-a5c898d5,Got assigned task 480 ,1
 a807a3fd,Running task 0.0 in stage 12.0 ( TID 480 ) ,1
 28f5c6ba,Got assigned task 494 ,1
 f0438a9c,Running task 1.0 in stage 12.0 ( TID 494 ) ,1
@@ -401,10 +393,9 @@ d3107c99,Reading broadcast variable 21 took 11 ms ,1
 4cfd2c3f,"Block broadcast_21 stored as values in memory ( estimated size 10.1 KB , free 403.2 KB ) ",1
 927b89b2,Found block rdd_16_0 locally ,2
 c2d4a678,Found block rdd_16_4 locally ,2
-8c61b1ef,Found block rdd_16_3 locally ,2
 c5dadac2,Found block rdd_16_2 locally ,2
 ee66c609,Found block rdd_16_1 locally ,2
-e9a010ca,"Times : total = <*> , boot = <*> , init = <*> , finish = 0 ",1
+f24126e8,"Times : total = 38 , boot = -146 , init = 184 , finish = 0 ",1
 53b141bc,Finished task 0.0 in stage 12.0 ( TID 480 ) . 2155 bytes result sent to driver ,1
 fb0c09f3,Finished task 3.0 in stage 12.0 ( TID 518 ) . 2155 bytes result sent to driver ,1
 32dba4bd,Finished task 4.0 in stage 12.0 ( TID 519 ) . 2155 bytes result sent to driver ,1
@@ -424,8 +415,8 @@ bec16c6e,Running task 3.0 in stage 13.0 ( TID 558 ) ,1
 92b2ba96,"Block broadcast_22_piece0 stored as bytes in memory ( estimated size 5.8 KB , free 409.0 KB ) ",1
 ea9ed6c7,Reading broadcast variable 22 took 11 ms ,1
 374d0258,"Block broadcast_22 stored as values in memory ( estimated size 9.6 KB , free 418.6 KB ) ",1
-6001bcd1,"Times : total = 39 , boot = -76 , init = 114 , finish = 1 ",1
-797f0f87,"Times : total = 42 , boot = -73 , init = 114 , finish = 1 ",2
+80692090,"Times : total = <*> , boot = <*> , init = <*> , finish = 1 ",7
+38dd931b,"Times : total = 41 , boot = -67 , init = 107 , finish = 1 ",2
 6dca7b7d,Finished task 0.0 in stage 13.0 ( TID 528 ) . 2256 bytes result sent to driver ,1
 7d1885d7,Finished task 4.0 in stage 13.0 ( TID 559 ) . 2241 bytes result sent to driver ,1
 e1474778,Finished task 2.0 in stage 13.0 ( TID 553 ) . 2241 bytes result sent to driver ,1
@@ -446,7 +437,7 @@ a42b518f,"Block broadcast_23_piece0 stored as bytes in memory ( estimated size 5
 1d523d7a,Reading broadcast variable 23 took 11 ms ,1
 46078051,"Block broadcast_23 stored as values in memory ( estimated size 9.2 KB , free 387.4 KB ) ",1
 571b84b9,"Times : total = 39 , boot = -90 , init = 129 , finish = 0 ",2
-5d86c4f3,"Times : total = 40 , boot = -93 , init = 133 , finish = 0 ",1
+f3789cc0,"Times : total = 38 , boot = <*> , init = <*> , finish = 0 ",8
 fe4ee064,"Times : total = 42 , boot = -92 , init = 133 , finish = 1 ",1
 d141b9cf,Finished task 3.0 in stage 14.0 ( TID 598 ) . 2087 bytes result sent to driver ,1
 266927e8,Finished task 2.0 in stage 14.0 ( TID 590 ) . 2087 bytes result sent to driver ,1
@@ -481,32 +472,30 @@ f0384b73,"Block rdd_21_2 stored as bytes in memory ( estimated size 163.0 B , fr
 a952e249,"Block rdd_21_0 stored as bytes in memory ( estimated size 244.0 B , free 403.8 KB ) ",1
 b90ed4ce,"Times : total = 38 , boot = 19 , init = 19 , finish = 0 ",2
 7b19b635,"Times : total = 39 , boot = 20 , init = 19 , finish = 0 ",2
-e0af82e9,"Times : total = 40 , boot = <*> , init = 23 , finish = 0 ",1
+4ba83e41,"Times : total = 40 , boot = 17 , init = 23 , finish = 0 ",1
 9e652271,Finished task 1.0 in stage 15.0 ( TID 626 ) . 2667 bytes result sent to driver ,1
-9e6ff369,"Times : total = 42 , boot = 18 , init = 24 , finish = 0 ",1
+852760b1,"Times : total = 42 , boot = <*> , init = <*> , finish = 0 ",4
 66abc50f,Finished task 3.0 in stage 15.0 ( TID 638 ) . 2667 bytes result sent to driver ,1
 3daa0772,Finished task 4.0 in stage 15.0 ( TID 639 ) . 2667 bytes result sent to driver ,1
 20c4aed1,Finished task 2.0 in stage 15.0 ( TID 636 ) . 2667 bytes result sent to driver ,1
 c27ae513,Finished task 0.0 in stage 15.0 ( TID 612 ) . 2667 bytes result sent to driver ,1
 63cf1260,Got assigned task 643 ,1
-c4a878db,Running task 0.0 in stage 16.0 ( TID 643 ) ,1
+cce0d247,Running task <*> in stage 16.0 ( TID <*> ) ,2
 6c787345,Got assigned task 657 ,1
-57902db7,Running task 1.0 in stage 16.0 ( TID 657 ) ,1
 3c306be0,Got assigned task 671 ,1
-ca03ac9e,Running task 2.0 in stage <*> ( TID <*> ) ,3
+9085c4e1,Running task 2.0 in stage 16.0 ( TID 671 ) ,1
 921b4263,Got assigned task 678 ,1
 bb982dbf,Started reading broadcast variable 25 ,1
 a230c23a,Running task 3.0 in stage 16.0 ( TID 678 ) ,1
 2e2d6474,Got assigned task 679 ,1
 6727c983,Running task 4.0 in stage 16.0 ( TID 679 ) ,1
-fa80292c,"Block broadcast_25_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 409.5 KB ) ",1
+cc47ef84,"Block <*> stored as bytes in memory ( estimated size 5.7 KB , free <*> KB ) ",2
 5f930f9d,Reading broadcast variable 25 took 11 ms ,1
 1d8bc0a6,"Block broadcast_25 stored as values in memory ( estimated size 10.1 KB , free 419.6 KB ) ",1
 16a6807a,Found block rdd_21_0 locally ,2
 67e7cf23,Found block rdd_21_4 locally ,2
 2064e707,Found block rdd_21_3 locally ,2
 cb64d3a8,Found block rdd_21_2 locally ,2
-3850be23,Found block rdd_21_1 locally ,2
 e750c151,"Times : total = 39 , boot = -106 , init = 145 , finish = 0 ",2
 4272b8aa,"Times : total = 43 , boot = -104 , init = <*> , finish = 1 ",1
 1ce0b8f9,Finished task 2.0 in stage 16.0 ( TID 671 ) . 2163 bytes result sent to driver ,1
@@ -514,21 +503,19 @@ a2430ade,Finished task 3.0 in stage 16.0 ( TID 678 ) . 2151 bytes result sent to
 a9475976,Finished task 4.0 in stage 16.0 ( TID 679 ) . 2163 bytes result sent to driver ,1
 13f6e1e2,Finished task 0.0 in stage 16.0 ( TID 643 ) . 2151 bytes result sent to driver ,1
 9f031b4c,Finished task 1.0 in stage 16.0 ( TID 657 ) . 2163 bytes result sent to driver ,1
-352d9677,Got assigned task 692 ,1
-d327d98f,Running task 0.0 in stage 17.0 ( TID <*> ) ,1
+942aa5ce,Running task 0.0 in stage 17.0 ( TID 692 ) ,1
 ed2dbd5c,Got assigned task 706 ,1
-49da9fa3,Running task 1.0 in stage 17.0 ( TID <*> ) ,1
+cd621bc2,Running task 1.0 in stage 17.0 ( TID 706 ) ,1
 ca944d59,Got assigned task 716 ,1
+1dc05dc6,Running task 2.0 in stage 17.0 ( TID 716 ) ,1
 20273a26,Got assigned task 718 ,1
 de680a49,Started reading broadcast variable 26 ,1
 ec959c8f,Running task 3.0 in stage 17.0 ( TID 718 ) ,1
 b7e910df,Got assigned task 719 ,1
 624122a8,Running task 4.0 in stage 17.0 ( TID 719 ) ,1
-95ea5b15,"Block broadcast_26_piece0 stored as bytes in memory ( estimated size 5.8 KB , free 379.9 KB ) ",1
+103e2e8e,"Block <*> stored as bytes in memory ( estimated size 5.8 KB , free <*> KB ) ",2
 781d9b11,Reading broadcast variable 26 took 10 ms ,1
 776b8495,"Block broadcast_26 stored as values in memory ( estimated size 9.7 KB , free 389.6 KB ) ",1
-96bb3b36,"Times : total = 42 , boot = -69 , init = 110 , finish = 1 ",1
-3a24a8ab,"Times : total = 40 , boot = -71 , init = 110 , finish = 1 ",1
 91963935,"Times : total = <*> , boot = <*> , init = 115 , finish = 1 ",1
 54212328,Finished task 4.0 in stage 17.0 ( TID 719 ) . 2156 bytes result sent to driver ,1
 b77366de,Finished task 0.0 in stage 17.0 ( TID 692 ) . 2156 bytes result sent to driver ,1
@@ -536,16 +523,20 @@ bc22100c,Finished task 2.0 in stage 17.0 ( TID 716 ) . 2156 bytes result sent to
 9c5d50ec,Finished task 3.0 in stage 17.0 ( TID 718 ) . 2156 bytes result sent to driver ,1
 7d69b34c,Finished task 1.0 in stage 17.0 ( TID 706 ) . 2156 bytes result sent to driver ,1
 4fe6b16a,Got assigned task 722 ,1
-71f8606f,Running task 0.0 in stage 18.0 ( TID <*> ) ,1
+d4cca11d,Running task 0.0 in stage 18.0 ( TID 722 ) ,1
 e5615066,Got assigned task 736 ,1
-581fde8d,Running task 1.0 in stage 18.0 ( TID <*> ) ,1
+845f2dab,Running task 1.0 in stage 18.0 ( TID 736 ) ,1
+ae406af5,Got assigned task 750 ,1
+0857bd76,Running task 2.0 in stage 18.0 ( TID 750 ) ,1
+661664e3,Got assigned task 758 ,1
 6703a0f2,Running task 3.0 in stage 18.0 ( TID 758 ) ,1
 481e8f72,Started reading broadcast variable 27 ,1
+53dedefc,Got assigned task 759 ,1
 d58ae394,Running task 4.0 in stage 18.0 ( TID 759 ) ,1
-7f49ccd2,"Block broadcast_27_piece0 stored as bytes in memory ( estimated size 5.4 KB , free 395.0 KB ) ",1
+22ac621d,"Block <*> stored as bytes in memory ( estimated size <*> KB , free <*> KB ) ",1
 eecf5f48,Reading broadcast variable 27 took 10 ms ,1
 f6dd1264,"Block broadcast_27 stored as values in memory ( estimated size 9.2 KB , free 404.2 KB ) ",1
-68028072,"Times : total = 40 , boot = -76 , init = 115 , finish = 1 ",1
+9957d16a,"Times : total = 40 , boot = -75 , init = 115 , finish = 0 ",1
 b6427bec,"Times : total = 42 , boot = -74 , init = 115 , finish = 1 ",3
 7ef7e41b,Finished task 4.0 in stage 18.0 ( TID 759 ) . 2087 bytes result sent to driver ,1
 8318ce8f,Finished task 0.0 in stage 18.0 ( TID 722 ) . 2087 bytes result sent to driver ,1
@@ -559,10 +550,11 @@ ca95834b,Finished task 2.0 in stage 18.0 ( TID 750 ) . 2087 bytes result sent to
 1d056f03,Got assigned task 789 ,1
 3b9f3a54,Running task 2.0 in stage 19.0 ( TID 789 ) ,1
 5b29055a,Got assigned task 798 ,1
+4b82c09e,Running task 3.0 in stage 19.0 ( TID 798 ) ,1
 99e24d45,Started reading broadcast variable 28 ,1
 9b065813,Got assigned task 799 ,1
 64399812,Running task 4.0 in stage 19.0 ( TID 799 ) ,1
-a90cd62c,"Block broadcast_28_piece0 stored as bytes in memory ( estimated size 5.6 KB , free 409.8 KB ) ",1
+321fb6d8,"Block <*> stored as bytes in memory ( estimated size 5.6 KB , free <*> KB ) ",2
 15226d9e,Reading broadcast variable 28 took 9 ms ,1
 d083f9b4,"Block broadcast_28 stored as values in memory ( estimated size 9.8 KB , free 419.6 KB ) ",1
 7ab4aee8,"Partition rdd_26_0 not found , computing it ",1
@@ -570,14 +562,12 @@ d083f9b4,"Block broadcast_28 stored as values in memory ( estimated size 9.8 KB 
 758587a1,"Partition rdd_26_3 not found , computing it ",1
 943b5d16,"Partition rdd_26_2 not found , computing it ",1
 849e980a,"Partition rdd_26_1 not found , computing it ",1
-916adcd8,"Times : total = 40 , boot = -79 , init = 119 , finish = <*> ",1
 8e2fb0e3,"Times : total = 41 , boot = -82 , init = 123 , finish = 0 ",2
 f1bb70ac,"Block rdd_26_0 stored as bytes in memory ( estimated size 16.0 B , free 419.6 KB ) ",1
 85ad8219,"Block <*> stored as bytes in memory ( estimated size 16.0 B , free 419.6 KB ) ",2
 786516da,"Times : total = 42 , boot = -66 , init = 107 , finish = 1 ",2
 b7b5ebe3,"Block rdd_26_2 stored as bytes in memory ( estimated size 16.0 B , free 419.7 KB ) ",1
 d85c56c8,"Block rdd_26_1 stored as bytes in memory ( estimated size 16.0 B , free 419.7 KB ) ",1
-58dfdde6,"Times : total = 38 , boot = 23 , init = 15 , finish = 0 ",3
 e65a6e89,Finished task 0.0 in stage 19.0 ( TID 762 ) . 2667 bytes result sent to driver ,1
 a45ece93,"Times : total = 41 , boot = 23 , init = 18 , finish = 0 ",2
 20a6f53d,Finished task 3.0 in stage 19.0 ( TID 798 ) . 2667 bytes result sent to driver ,1
@@ -593,39 +583,35 @@ b3bc38f5,Got assigned task 833 ,1
 36197c19,Running task 2.0 in stage 20.0 ( TID 833 ) ,1
 a6727d87,Got assigned task 838 ,1
 d5c9cf60,Started reading broadcast variable 29 ,1
-b3d7e6a6,Got assigned task 839 ,1
+5759402c,Running task 3.0 in stage 20.0 ( TID 838 ) ,1
 d3a74c5e,Running task 4.0 in stage 20.0 ( TID 839 ) ,1
-7dc40d35,"Block broadcast_29_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 379.5 KB ) ",1
 ce133b22,Reading broadcast variable 29 took 11 ms ,1
 f2961d85,"Block broadcast_29 stored as values in memory ( estimated size 10.1 KB , free 374.2 KB ) ",1
 15858eaa,Found block rdd_26_0 locally ,2
 d778b7b9,Found block rdd_26_4 locally ,2
-ab7abc21,Found block rdd_26_3 locally ,2
+ab7abc21,Found block rdd_26_3 locally ,1
 57b380b0,Found block rdd_26_2 locally ,2
 b1182486,Found block rdd_26_1 locally ,2
 b0b806d3,"Times : total = 38 , boot = -119 , init = 157 , finish = 0 ",2
-a14ffe09,"Times : total = 39 , boot = -126 , init = 165 , finish = 0 ",1
 c1459c4a,Finished task 4.0 in stage 20.0 ( TID 839 ) . 2076 bytes result sent to driver ,1
 8866b49c,Finished task 3.0 in stage 20.0 ( TID 838 ) . 2076 bytes result sent to driver ,1
 a435ae28,Finished task 0.0 in stage 20.0 ( TID 807 ) . 2076 bytes result sent to driver ,1
 03a5d64e,Finished task 1.0 in stage 20.0 ( TID 821 ) . 2076 bytes result sent to driver ,1
 37bf100c,Finished task 2.0 in stage 20.0 ( TID 833 ) . 2076 bytes result sent to driver ,1
 42ed61b2,Got assigned task 853 ,1
-5d437b45,Running task 0.0 in stage 21.0 ( TID 853 ) ,1
+7d3f403f,Running task <*> in stage 21.0 ( TID <*> ) ,2
 0b1eec22,Got assigned task 867 ,1
-a94a15b6,Running task 1.0 in stage 21.0 ( TID 867 ) ,1
 99749d0b,Got assigned task 877 ,1
 79501666,Running task 2.0 in stage 21.0 ( TID 877 ) ,1
 1f3c90a3,Got assigned task 878 ,1
+0d479b4f,Running task 3.0 in stage 21.0 ( TID 878 ) ,1
 eb67c633,Started reading broadcast variable 30 ,1
 8dd96ec2,Got assigned task 879 ,1
 e66b867a,Running task 4.0 in stage 21.0 ( TID 879 ) ,1
-8b4fef07,"Block broadcast_30_piece0 stored as bytes in memory ( estimated size 5.8 KB , free 380.0 KB ) ",1
 2887dabd,Reading broadcast variable 30 took 8 ms ,1
 877e0d9a,"Block broadcast_30 stored as values in memory ( estimated size 9.7 KB , free 389.7 KB ) ",1
 de5903eb,"Times : total = 38 , boot = -59 , init = 96 , finish = 1 ",1
-efbf073c,"Times : total = 41 , boot = -59 , init = 100 , finish = 0 ",1
-8645fbf9,"Times : total = 41 , boot = -59 , init = 99 , finish = 1 ",1
+f8099b1d,"Times : total = 39 , boot = -59 , init = 98 , finish = 0 ",1
 ee66a21f,Finished task 0.0 in stage 21.0 ( TID 853 ) . 2348 bytes result sent to driver ,1
 c003a363,"Times : total = 41 , boot = -58 , init = 98 , finish = 1 ",1
 1257e88f,Finished task 1.0 in stage 21.0 ( TID 867 ) . 2333 bytes result sent to driver ,1
@@ -634,24 +620,25 @@ c003a363,"Times : total = 41 , boot = -58 , init = 98 , finish = 1 ",1
 ebfd7bc5,Finished task 2.0 in stage 21.0 ( TID 877 ) . 2333 bytes result sent to driver ,1
 94d97b8a,Got assigned task 886 ,1
 98746b7e,Running task 0.0 in stage 22.0 ( TID 886 ) ,1
+81fe52c9,Got assigned task 900 ,1
 186b1343,Running task 1.0 in stage 22.0 ( TID 900 ) ,1
 6e40749f,Got assigned task 912 ,1
 10770308,Running task 2.0 in stage 22.0 ( TID 912 ) ,1
 7377f92a,Got assigned task 918 ,1
+4a6141b3,Running task 3.0 in stage 22.0 ( TID 918 ) ,1
 2f9a3781,Got assigned task 919 ,1
 4f2c8c11,Running task 4.0 in stage 22.0 ( TID 919 ) ,1
 8c17c376,Started reading broadcast variable 31 ,1
-78347958,"Block broadcast_31_piece0 stored as bytes in memory ( estimated size 5.6 KB , free 395.3 KB ) ",1
-6cbf43ae,Reading broadcast variable 31 took 8 ms ,1
 3263918e,"Block broadcast_31 stored as values in memory ( estimated size 9.8 KB , free 405.1 KB ) ",1
 da5a7477,"Partition rdd_30_0 not found , computing it ",1
 e9e382cd,"Partition rdd_30_4 not found , computing it ",1
 e9977e08,"Partition rdd_30_3 not found , computing it ",1
 421b4b88,"Partition rdd_30_2 not found , computing it ",1
 b7c8b3e6,"Partition rdd_30_1 not found , computing it ",1
-66e73b4e,"Times : total = 37 , boot = -88 , init = 125 , finish = 0 ",1
+1b0168f4,"Times : total = 37 , boot = <*> , init = <*> , finish = 0 ",4
 132326b3,"Times : total = 39 , boot = -86 , init = 125 , finish = 0 ",3
 c1c8563c,"Block rdd_30_0 stored as bytes in memory ( estimated size 324.0 B , free 405.4 KB ) ",1
+f55460c0,"Times : total = 40 , boot = -85 , init = 125 , finish = 0 ",1
 34e3caf6,"Block rdd_30_1 stored as bytes in memory ( estimated size 165.0 B , free 405.6 KB ) ",1
 ad072b9a,"Block rdd_30_2 stored as bytes in memory ( estimated size 250.0 B , free 405.8 KB ) ",1
 fade8f12,"Block rdd_30_4 stored as bytes in memory ( estimated size 226.0 B , free 406.0 KB ) ",1
@@ -660,8 +647,6 @@ bd082aa5,"Times : total = 39 , boot = 21 , init = 18 , finish = 0 ",1
 5b5849de,Finished task 0.0 in stage 22.0 ( TID 886 ) . 2667 bytes result sent to driver ,1
 3afc11f9,"Times : total = 41 , boot = 18 , init = 23 , finish = 0 ",2
 85da32da,"Times : total = 40 , boot = 18 , init = 22 , finish = 0 ",2
-cb9d3cd9,Finished task 1.0 in stage 22.0 ( TID 900 ) . 2667 bytes result sent to driver ,1
-83abfcff,Finished task 2.0 in stage 22.0 ( TID 912 ) . 2667 bytes result sent to driver ,1
 f14ee0bb,Finished task 4.0 in stage 22.0 ( TID 919 ) . 2667 bytes result sent to driver ,1
 925eb552,Finished task 3.0 in stage 22.0 ( TID 918 ) . 2667 bytes result sent to driver ,1
 7d9d4a79,Got assigned task 926 ,1
@@ -676,14 +661,13 @@ d853c4e6,Running task 3.0 in stage 23.0 ( TID 958 ) ,1
 22496c8c,Got assigned task 959 ,1
 082b4667,Running task 4.0 in stage 23.0 ( TID 959 ) ,1
 5fb73e7a,"Block broadcast_32_piece0 stored as bytes in memory ( estimated size 5.7 KB , free 406.3 KB ) ",1
-634c42f8,Reading broadcast variable 32 took 16 ms ,1
 b187d0dd,"Block broadcast_32 stored as values in memory ( estimated size 10.1 KB , free 400.4 KB ) ",1
 f28bb0fb,Found block rdd_30_0 locally ,2
 30333cd3,Found block rdd_30_3 locally ,2
-0b3fba92,Found block rdd_30_2 locally ,2
 a0456c39,Found block rdd_30_1 locally ,2
 7f506410,Found block rdd_30_4 locally ,2
 97f35198,"Times : total = 39 , boot = -134 , init = 173 , finish = 0 ",1
+d50cbb84,"Times : total = 40 , boot = -130 , init = 170 , finish = 0 ",1
 a63ae3a3,"Times : total = 40 , boot = -132 , init = 172 , finish = 0 ",1
 55bb8bf9,"Times : total = 42 , boot = -132 , init = 173 , finish = 1 ",1
 ca0084a5,"Times : total = 40 , boot = -129 , init = 168 , finish = 1 ",1
@@ -706,21 +690,20 @@ d4e101ee,Running task 4.0 in stage 24.0 ( TID 1026 ) ,1
 dbf07260,"Block broadcast_33_piece0 stored as bytes in memory ( estimated size 29.5 KB , free 404.8 KB ) ",1
 00bfef2e,Reading broadcast variable 33 took 9 ms ,1
 c09a1880,"Block broadcast_33 stored as values in memory ( estimated size 82.1 KB , free 486.9 KB ) ",1
-dc066c77,File Output Committer Algorithm version is 1 ,30
+dc066c77,File Output Committer Algorithm version is 1 ,29
 500c8d1d,"Times : total = 40 , boot = -340 , init = 380 , finish = 0 ",1
 b604ff5e,"Times : total = <*> , boot = -343 , init = 384 , finish = 1 ",1
 42449efa,"Times : total = 41 , boot = -343 , init = 384 , finish = 0 ",1
-514693c4,Saved output of task 'attempt_201706092018_0024_m_000003_1012 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000003 ,1
-6606b182,Saved output of task 'attempt_201706092018_0024_m_000004_1026 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000004 ,1
-88419418,Saved output of task 'attempt_201706092018_0024_m_000002_998 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000002 ,1
-f6897100,Saved output of task 'attempt_201706092018_0024_m_000000_970 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000000 ,1
-61765393,Saved output of task 'attempt_201706092018_0024_m_000001_984 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000001 ,1
+82b889ba,Saved output of task 'attempt_201706092018_0024_m_000003_1012 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000003 ,1
+dcbb0e8c,Saved output of task 'attempt_201706092018_0024_m_000004_1026 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000004 ,1
+19fe8782,Saved output of task 'attempt_201706092018_0024_m_000002_998 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000002 ,1
+1153d207,Saved output of task 'attempt_201706092018_0024_m_000000_970 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000000 ,1
+d72a3c6a,Saved output of task 'attempt_201706092018_0024_m_000001_984 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000001 ,1
 47f354f0,attempt_201706092018_0024_m_000004_1026 : Committed ,1
 21a4d946,attempt_201706092018_0024_m_000002_998 : Committed ,1
 5b3557df,attempt_201706092018_0024_m_000003_1012 : Committed ,1
 9e1ca252,attempt_201706092018_0024_m_000001_984 : Committed ,1
 4802cd0f,attempt_201706092018_0024_m_000000_970 : Committed ,1
-97b7fc74,Finished task 3.0 in stage 24.0 ( TID 1012 ) . 2364 bytes result sent to driver ,1
 ab85513b,Finished task 4.0 in stage 24.0 ( TID 1026 ) . 2364 bytes result sent to driver ,1
 d15d7db7,Finished task 1.0 in stage 24.0 ( TID 984 ) . 2364 bytes result sent to driver ,1
 f1a423b5,Finished task 2.0 in stage 24.0 ( TID 998 ) . 2364 bytes result sent to driver ,1
@@ -736,15 +719,15 @@ ae333695,Got assigned task 1127 ,1
 0cbabf8e,Got assigned task 1129 ,1
 02f6226f,Running task 44.0 in stage 24.0 ( TID 1129 ) ,1
 3cf982dd,"Times : total = 40 , boot = -400 , init = 440 , finish = 0 ",1
-3e89f81a,Saved output of task 'attempt_201706092018_0024_m_000044_1129 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000044 ,1
+2e589386,Saved output of task 'attempt_201706092018_0024_m_000044_1129 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000044 ,1
 c084edf7,attempt_201706092018_0024_m_000044_1129 : Committed ,1
-c7dbd4ac,Saved output of task 'attempt_201706092018_0024_m_000043_1128 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000043 ,1
-d727eb1a,Saved output of task 'attempt_201706092018_0024_m_000040_1125 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000040 ,1
+1664a408,Saved output of task 'attempt_201706092018_0024_m_000043_1128 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000043 ,1
+ac65d2b8,Saved output of task 'attempt_201706092018_0024_m_000040_1125 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000040 ,1
 47e658bc,attempt_201706092018_0024_m_000043_1128 : Committed ,1
 ecd4ce9e,attempt_201706092018_0024_m_000040_1125 : Committed ,1
-f765b4c0,Saved output of task 'attempt_201706092018_0024_m_000042_1127 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000042 ,1
+d39cf7ac,Saved output of task 'attempt_201706092018_0024_m_000042_1127 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000042 ,1
 788f4d8d,attempt_201706092018_0024_m_000042_1127 : Committed ,1
-3ba6b44e,Saved output of task 'attempt_201706092018_0024_m_000041_1126 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000041 ,1
+bf47e1f2,Saved output of task 'attempt_201706092018_0024_m_000041_1126 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000041 ,1
 4e74d8a5,attempt_201706092018_0024_m_000041_1126 : Committed ,1
 39b4b11f,Finished task 44.0 in stage 24.0 ( TID 1129 ) . 2364 bytes result sent to driver ,1
 54ed0102,Finished task 43.0 in stage 24.0 ( TID 1128 ) . 2364 bytes result sent to driver ,1
@@ -761,17 +744,18 @@ d413ccee,Got assigned task 1135 ,1
 6b43ef3c,Running task 83.0 in stage 24.0 ( TID 1138 ) ,1
 d188b7a5,Got assigned task 1141 ,1
 47cd8904,Running task 84.0 in stage 24.0 ( TID 1141 ) ,1
-592c77cb,"Times : total = 37 , boot = -87 , init = 124 , finish = 0 ",1
-8fe37eae,"Times : total = 41 , boot = <*> , init = 123 , finish = 1 ",1
-21873902,Saved output of task 'attempt_201706092018_0024_m_000083_1138 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000083 ,1
+fd275f74,"Times : total = 39 , boot = -79 , init = 118 , finish = 0 ",1
+85b5b4d7,"Times : total = 42 , boot = -81 , init = 122 , finish = 1 ",1
+7f0e7372,"Times : total = 41 , boot = -83 , init = 123 , finish = 1 ",1
+d8a7ca21,Saved output of task 'attempt_201706092018_0024_m_000083_1138 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000083 ,1
 c38069a6,attempt_201706092018_0024_m_000083_1138 : Committed ,1
-2174a03e,Saved output of task 'attempt_201706092018_0024_m_000084_1141 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000084 ,1
-08d153c7,Saved output of task 'attempt_201706092018_0024_m_000080_1135 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000080 ,1
+0eb08bb7,Saved output of task 'attempt_201706092018_0024_m_000084_1141 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000084 ,1
+25134752,Saved output of task 'attempt_201706092018_0024_m_000080_1135 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000080 ,1
 5967c2ed,attempt_201706092018_0024_m_000084_1141 : Committed ,1
 a64a2e63,attempt_201706092018_0024_m_000080_1135 : Committed ,1
-15b8e607,Saved output of task 'attempt_201706092018_0024_m_000082_1137 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000082 ,1
+bd03b463,Saved output of task 'attempt_201706092018_0024_m_000082_1137 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000082 ,1
 6fd359d0,attempt_201706092018_0024_m_000082_1137 : Committed ,1
-30001ccb,Saved output of task 'attempt_201706092018_0024_m_000081_1136 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000081 ,1
+f111de66,Saved output of task 'attempt_201706092018_0024_m_000081_1136 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000081 ,1
 78536688,attempt_201706092018_0024_m_000081_1136 : Committed ,1
 f121e112,Finished task 83.0 in stage 24.0 ( TID 1138 ) . 2364 bytes result sent to driver ,1
 e01a3a53,Finished task 84.0 in stage 24.0 ( TID 1141 ) . 2364 bytes result sent to driver ,1
@@ -779,24 +763,27 @@ e01a3a53,Finished task 84.0 in stage 24.0 ( TID 1141 ) . 2364 bytes result sent 
 1ea99b6a,Finished task 82.0 in stage 24.0 ( TID 1137 ) . 2364 bytes result sent to driver ,1
 5cd08731,Finished task 81.0 in stage 24.0 ( TID 1136 ) . 2364 bytes result sent to driver ,1
 9600fd22,Got assigned task 1145 ,1
-3db8df3f,Running task <*> in stage 24.0 ( TID <*> ) ,7
+79012b48,Running task 120.0 in stage 24.0 ( TID 1145 ) ,1
 79d63b4e,Got assigned task 1146 ,1
+edcb6ae3,Running task 121.0 in stage 24.0 ( TID 1146 ) ,1
 0bd69d0a,Got assigned task 1147 ,1
+305993fd,Running task 122.0 in stage 24.0 ( TID 1147 ) ,1
 c016cfd8,Got assigned task 1150 ,1
+c8e5e837,Running task 123.0 in stage 24.0 ( TID 1150 ) ,1
 5d622737,Got assigned task 1151 ,1
-21bdba50,"Times : total = 40 , boot = -82 , init = 122 , finish = 0 ",1
-b15f1c69,Saved output of task 'attempt_201706092018_0024_m_000124_1151 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000124 ,1
+4b4f6b0a,Running task 124.0 in stage 24.0 ( TID 1151 ) ,1
+2b27bb96,Saved output of task 'attempt_201706092018_0024_m_000124_1151 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000124 ,1
 cf5c29a7,attempt_201706092018_0024_m_000124_1151 : Committed ,1
 1b08b83d,Finished task 124.0 in stage 24.0 ( TID 1151 ) . 2364 bytes result sent to driver ,1
 929d87f8,Got assigned task 1155 ,1
 bfae4c82,Running task 160.0 in stage 24.0 ( TID 1155 ) ,1
 55bd59a7,"Times : total = 39 , boot = <*> , init = 141 , finish = 0 ",1
-b3304655,Saved output of task 'attempt_201706092018_0024_m_000120_1145 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000120 ,1
+0f83d72a,Saved output of task 'attempt_201706092018_0024_m_000120_1145 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000120 ,1
 15432a86,attempt_201706092018_0024_m_000120_1145 : Committed ,1
-7c335d9f,Saved output of task 'attempt_201706092018_0024_m_000122_1147 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000122 ,1
-90583d95,Saved output of task 'attempt_201706092018_0024_m_000121_1146 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000121 ,1
+a7a90321,Saved output of task 'attempt_201706092018_0024_m_000122_1147 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000122 ,1
+3045d2bc,Saved output of task 'attempt_201706092018_0024_m_000121_1146 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000121 ,1
 c49fbad3,attempt_201706092018_0024_m_000122_1147 : Committed ,1
-ef558ce1,Saved output of task 'attempt_201706092018_0024_m_000123_1150 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000123 ,1
+c906e94f,Saved output of task 'attempt_201706092018_0024_m_000123_1150 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000123 ,1
 04542b73,attempt_201706092018_0024_m_000121_1146 : Committed ,1
 b2d734cf,attempt_201706092018_0024_m_000123_1150 : Committed ,1
 0c5a5a70,Finished task 120.0 in stage 24.0 ( TID 1145 ) . 2364 bytes result sent to driver ,1
@@ -807,22 +794,23 @@ f5589951,Finished task 122.0 in stage 24.0 ( TID 1147 ) . 2364 bytes result sent
 334d9dba,Running task 161.0 in stage 24.0 ( TID 1156 ) ,1
 a5164807,Got assigned task 1157 ,1
 bf2b104d,Got assigned task 1158 ,1
+cb4266b1,Running task 162.0 in stage 24.0 ( TID 1157 ) ,1
 35de3f03,Running task 163.0 in stage 24.0 ( TID 1158 ) ,1
 b9f791b3,Got assigned task 1159 ,1
-82f167f1,Saved output of task 'attempt_201706092018_0024_m_000160_1155 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000160 ,1
+556b9af0,Running task 164.0 in stage 24.0 ( TID 1159 ) ,1
+9f5bb301,Saved output of task 'attempt_201706092018_0024_m_000160_1155 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000160 ,1
 78903e2d,attempt_201706092018_0024_m_000160_1155 : Committed ,1
 c7302be1,Finished task 160.0 in stage 24.0 ( TID 1155 ) . 2364 bytes result sent to driver ,1
-220214a0,Saved output of task 'attempt_201706092018_0024_m_000163_1158 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000163 ,1
+88074e27,Saved output of task 'attempt_201706092018_0024_m_000163_1158 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000163 ,1
 aafc7b62,attempt_201706092018_0024_m_000163_1158 : Committed ,1
-1c720bc9,Saved output of task 'attempt_201706092018_0024_m_000164_1159 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000164 ,1
+5fcb7717,Saved output of task 'attempt_201706092018_0024_m_000164_1159 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000164 ,1
 cc60c6ac,attempt_201706092018_0024_m_000164_1159 : Committed ,1
 110c382a,Finished task 163.0 in stage 24.0 ( TID 1158 ) . 2364 bytes result sent to driver ,1
 4507b097,Finished task 164.0 in stage 24.0 ( TID 1159 ) . 2364 bytes result sent to driver ,1
-fc548148,"Times : total = 37 , boot = -54 , init = 91 , finish = 0 ",1
-f29f0144,"Times : total = 37 , boot = -62 , init = 99 , finish = 0 ",1
-310cd560,Saved output of task 'attempt_201706092018_0024_m_000162_1157 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000162 ,1
+a38d59fd,<*> <*> <*> <*> <*> <*> 1 ,1
+03c465be,Saved output of task 'attempt_201706092018_0024_m_000162_1157 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000162 ,1
 04e774fa,attempt_201706092018_0024_m_000162_1157 : Committed ,1
-1ada6d5f,Saved output of task 'attempt_201706092018_0024_m_000161_1156 ' to hdfs : // < * > :9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000161 ,1
+daf20420,Saved output of task 'attempt_201706092018_0024_m_000161_1156 ' to hdfs : //10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000161 ,1
 0c748cd5,attempt_201706092018_0024_m_000161_1156 : Committed ,1
 51d76839,Finished task 162.0 in stage 24.0 ( TID 1157 ) . 2364 bytes result sent to driver ,1
 371d052a,Finished task 161.0 in stage 24.0 ( TID 1156 ) . 2364 bytes result sent to driver ,1
@@ -845,21 +833,21 @@ c89cd0a3,"Times : total = 38 , boot = -727 , init = 765 , finish = 0 ",1
 14a0eb77,"Times : total = 39 , boot = -700 , init = 739 , finish = 0 ",1
 3dfb344a,"Times : total = 39 , boot = -690 , init = 729 , finish = 0 ",1
 bc506629,"Times : total = 41 , boot = -699 , init = 740 , finish = 0 ",1
-a9b448fd,Saved output of task 'attempt_201706092018_0025_m_000004_1199 ' to hdfs : // < * > :9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000004 ,1
+d2d5c111,Saved output of task 'attempt_201706092018_0025_m_000004_1199 ' to hdfs : //10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000004 ,1
 19d4b201,attempt_201706092018_0025_m_000004_1199 : Committed ,1
 7b6b7f3e,Finished task 4.0 in stage 25.0 ( TID 1199 ) . 2364 bytes result sent to driver ,1
-87469041,Saved output of task 'attempt_201706092018_0025_m_000003_1198 ' to hdfs : // < * > :9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000003 ,1
+a0685ce8,Saved output of task 'attempt_201706092018_0025_m_000003_1198 ' to hdfs : //10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000003 ,1
 0ab57404,attempt_201706092018_0025_m_000003_1198 : Committed ,1
-cb467e2a,Saved output of task 'attempt_201706092018_0025_m_000000_1166 ' to hdfs : // < * > :9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000000 ,1
+ca1030fa,Saved output of task 'attempt_201706092018_0025_m_000000_1166 ' to hdfs : //10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000000 ,1
 500ca672,attempt_201706092018_0025_m_000000_1166 : Committed ,1
-d04d1a69,Saved output of task 'attempt_201706092018_0025_m_000002_1194 ' to hdfs : // < * > :9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000002 ,1
-0225c676,Saved output of task 'attempt_201706092018_0025_m_000001_1180 ' to hdfs : // < * > :9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000001 ,1
+d53a417f,Saved output of task 'attempt_201706092018_0025_m_000002_1194 ' to hdfs : //10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000002 ,1
+c4b9a471,Saved output of task 'attempt_201706092018_0025_m_000001_1180 ' to hdfs : //10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000001 ,1
 b1d36ee4,attempt_201706092018_0025_m_000002_1194 : Committed ,1
 583a12a0,attempt_201706092018_0025_m_000001_1180 : Committed ,1
-319be5a1,Finished task 3.0 in stage 25.0 ( TID 1198 ) . 2364 bytes result sent to driver ,1
 e3680a7f,Finished task 0.0 in stage 25.0 ( TID 1166 ) . 2364 bytes result sent to driver ,1
 0723b7e5,Finished task 2.0 in stage 25.0 ( TID 1194 ) . 2364 bytes result sent to driver ,1
 0f384764,Finished task 1.0 in stage 25.0 ( TID 1180 ) . 2364 bytes result sent to driver ,1
+763ce5bc,Got assigned task 1200 ,1
 18777741,Got assigned task 1201 ,1
 ec8ed188,Running task 0.0 in stage 26.0 ( TID 1200 ) ,1
 25ab7363,Running task 1.0 in stage 26.0 ( TID 1201 ) ,1
@@ -875,18 +863,17 @@ e3f07b96,Started reading broadcast variable 37 ,1
 0b6c5a7d,"Block broadcast_37 stored as values in memory ( estimated size 8.8 KB , free 500.9 KB ) ",1
 7372ae22,"Partition rdd_42_0 not found , computing it ",1
 94582904,Started reading broadcast variable 36 ,1
-2649df23,"Partition rdd_42_4 not found , computing it ",1
 3bbdf220,"Partition rdd_42_3 not found , computing it ",1
 33af28d1,"Partition rdd_42_2 not found , computing it ",1
 6b8437e3,"Partition rdd_42_1 not found , computing it ",1
 89db68f6,"Block broadcast_36_piece0 stored as bytes in memory ( estimated size 21.4 KB , free 522.3 KB ) ",1
 004fd78c,Reading broadcast variable 36 took 11 ms ,1
 4f2755f6,"Block broadcast_36 stored as values in memory ( estimated size 281.6 KB , free 803.9 KB ) ",1
-6aabf471,"Times : total = 47 , boot = -8758 , init = 8800 , finish = 5 ",1
+c65bbf7f,"Times : total = <*> , boot = <*> , init = <*> , finish = 5 ",3
 f7f2ba5d,"Block rdd_42_0 stored as bytes in memory ( estimated size 913.0 B , free 804.8 KB ) ",1
-1274ba14,"Times : total = 55 , boot = -8764 , init = 8814 , finish = 5 ",1
-d2200837,"Times : total = 55 , boot = -8768 , init = 8818 , finish = 5 ",1
-5c1fee7b,"Times : total = <*> , boot = -8772 , init = <*> , finish = 5 ",2
+7379e215,"Times : total = 55 , boot = <*> , init = <*> , finish = 5 ",2
+3f7e3295,"Times : total = 59 , boot = -8772 , init = 8826 , finish = 5 ",1
+4e47f69b,"Times : total = 60 , boot = -8772 , init = 8827 , finish = 5 ",1
 bf94b384,"Block rdd_42_4 stored as bytes in memory ( estimated size 890.0 B , free 805.7 KB ) ",1
 aea434e8,"Block rdd_42_2 stored as bytes in memory ( estimated size 850.0 B , free 806.5 KB ) ",1
 4331ceb7,"Block rdd_42_1 stored as bytes in memory ( estimated size 935.0 B , free 807.4 KB ) ",1
@@ -898,7 +885,7 @@ b6f732fa,Running task 5.0 in stage 26.0 ( TID 1205 ) ,1
 a1668c8b,"Times : total = 41 , boot = 21 , init = 20 , finish = 0 ",2
 0bf6c56a,"Times : total = 41 , boot = 20 , init = 20 , finish = 1 ",1
 1dc6b04b,"Partition rdd_42_5 not found , computing it ",1
-fbfdee6c,Input split : hdfs : // < * > <*> ,15
+f4392cf7,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:36460+7292 ,1
 da941689,"Times : total = 42 , boot = 20 , init = 21 , finish = 1 ",2
 eaa90ed6,Finished task 4.0 in stage 26.0 ( TID 1204 ) . 2703 bytes result sent to driver ,1
 8fcc9bfd,Finished task 2.0 in stage 26.0 ( TID 1202 ) . 2703 bytes result sent to driver ,1
@@ -907,56 +894,61 @@ eaa90ed6,Finished task 4.0 in stage 26.0 ( TID 1204 ) . 2703 bytes result sent t
 40fa7df8,Got assigned task 1206 ,1
 9e587b4b,Running task 6.0 in stage 26.0 ( TID 1206 ) ,1
 dbe1c04c,Got assigned task 1207 ,1
-150e6888,Running task <*> in stage 26.0 ( TID <*> ) ,5
+cbb19ba7,Running task 7.0 in stage 26.0 ( TID 1207 ) ,1
 4f49d0d9,Got assigned task 1208 ,1
-7411dbae,Running task 8.0 in stage 26.0 ( TID 1208 ) ,1
+3a2ef729,Running task <*> in stage <*> ( TID <*> ) ,10
 728b3022,Got assigned task 1209 ,1
+aec90bfe,Running task 9.0 in stage 26.0 ( TID 1209 ) ,1
 db6b26fc,"Partition rdd_42_6 not found , computing it ",1
+11b4c5cc,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:43752+7292 ,1
 a5535cdf,"Partition rdd_42_7 not found , computing it ",1
-f9d76b6b,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:51044+7292 ,1
+fb5e5347,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:51044+7292 ,1
 3fb8587d,"Partition rdd_42_8 not found , computing it ",1
-6344aca4,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:58336+7292 ,1
+dc104128,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:58336+7292 ,1
 572d0483,"Partition rdd_42_9 not found , computing it ",1
+35bba29c,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:65628+7292 ,1
 d6f1ddc6,"Times : total = 54 , boot = <*> , init = 28 , finish = 5 ",1
 56441583,"Block rdd_42_5 stored as bytes in memory ( estimated size 930.0 B , free 809.3 KB ) ",1
-b8bf902d,"Times : total = 57 , boot = 11 , init = 41 , finish = 5 ",1
-6d4531a2,"Times : total = 53 , boot = 7 , init = 41 , finish = 5 ",1
+36ed2ac7,"Times : total = <*> , boot = <*> , init = 41 , finish = 5 ",1
 db82f4a0,"Times : total = 58 , boot = 7 , init = 46 , finish = 5 ",1
 8e85e8a3,"Block rdd_42_6 stored as bytes in memory ( estimated size 559.0 B , free 809.8 KB ) ",1
 e22d743e,"Block rdd_42_9 stored as bytes in memory ( estimated size 950.0 B , free 810.7 KB ) ",1
+aa392046,"Times : total = <*> , boot = 10 , init = <*> , finish = 10 ",1
 eb2187cc,"Block rdd_42_8 stored as bytes in memory ( estimated size 869.0 B , free 811.6 KB ) ",1
 8340f565,"Block rdd_42_7 stored as bytes in memory ( estimated size 640.0 B , free 812.2 KB ) ",1
-74ebab14,"Times : total = 45 , boot = 19 , init = 26 , finish = 0 ",1
-15d331a0,Finished task 5.0 in stage 26.0 ( TID 1205 ) . 2705 bytes result sent to driver ,1
+5130235b,"Times : total = <*> , boot = <*> , init = 26 , finish = 0 ",1
+0e598aec,Finished task 5.0 in stage <*> ( TID <*> ) . <*> bytes result sent to driver ,2
 7701ad8e,Got assigned task 1210 ,1
 7a880df7,Running task 10.0 in stage 26.0 ( TID 1210 ) ,1
 848834f6,"Partition rdd_42_10 not found , computing it ",1
-329bb9d6,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:72920+7292 ,1
+12306479,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:72920+7292 ,1
 82062dd5,"Times : total = 41 , boot = 24 , init = 17 , finish = 0 ",1
 813b1a09,Finished task 6.0 in stage 26.0 ( TID 1206 ) . 2697 bytes result sent to driver ,1
 ff72cfe7,Finished task 9.0 in stage 26.0 ( TID 1209 ) . 2703 bytes result sent to driver ,1
 9c15ca8f,Finished task 8.0 in stage 26.0 ( TID 1208 ) . 2703 bytes result sent to driver ,1
 c0bc121e,"Times : total = 42 , boot = 22 , init = 19 , finish = 1 ",4
 b64123a2,Got assigned task 1211 ,1
-f0128e5e,Running task 11.0 in stage 26.0 ( TID 1211 ) ,1
+eb118f13,Running task 11.0 in stage <*> ( TID <*> ) ,3
 0c86b7b3,Got assigned task 1212 ,1
 672794c5,Running task 12.0 in stage 26.0 ( TID 1212 ) ,1
 15d26fc9,Finished task 7.0 in stage 26.0 ( TID 1207 ) . 2699 bytes result sent to driver ,1
 50677652,Got assigned task 1213 ,1
 12f902f0,Running task 13.0 in stage 26.0 ( TID 1213 ) ,1
 0709879c,"Partition rdd_42_11 not found , computing it ",1
+2bf50195,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:80212+7292 ,1
+ef545cf7,Got assigned task 1214 ,1
 e7f49ffb,Running task 14.0 in stage 26.0 ( TID 1214 ) ,1
 26c68b3f,"Partition rdd_42_12 not found , computing it ",1
-e560ced8,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:87504+7292 ,1
+d790e731,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:87504+7292 ,1
 c7aab3d7,"Partition rdd_42_13 not found , computing it ",1
-46fabfa4,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:94796+7292 ,1
-870b72c7,"Partition rdd_42_14 not found , computing it ",1
-fec94693,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:102088+7292 ,1
-cae8d9eb,"Times : total = 48 , boot = <*> , init = <*> , finish = 5 ",2
+45869f9d,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:94796+7292 ,1
+ee8aec16,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:102088+7292 ,1
+ee5288f6,"Times : total = 48 , boot = 8 , init = 35 , finish = 5 ",1
 8e74bc8f,"Block rdd_42_10 stored as bytes in memory ( estimated size 948.0 B , free 813.1 KB ) ",1
 d0e371ee,"Block rdd_42_11 stored as bytes in memory ( estimated size 920.0 B , free 814.0 KB ) ",1
 a2fad5e6,"Times : total = 51 , boot = 3 , init = 43 , finish = 5 ",1
 bf64439e,"Block rdd_42_13 stored as bytes in memory ( estimated size 912.0 B , free 814.9 KB ) ",1
+46c7c917,"Times : total = 56 , boot = 10 , init = <*> , finish = <*> ",1
 c60fb9ae,"Times : total = 58 , boot = 13 , init = 40 , finish = 5 ",1
 51005d2a,"Block rdd_42_12 stored as bytes in memory ( estimated size 852.0 B , free 815.8 KB ) ",1
 6f61962d,"Block rdd_42_14 stored as bytes in memory ( estimated size 834.0 B , free 816.6 KB ) ",1
@@ -964,35 +956,34 @@ c60fb9ae,"Times : total = 58 , boot = 13 , init = 40 , finish = 5 ",1
 01d49f86,Finished task 10.0 in stage 26.0 ( TID 1210 ) . 2703 bytes result sent to driver ,1
 c6be6d75,Got assigned task 1215 ,1
 7207d059,Running task 15.0 in stage 26.0 ( TID 1215 ) ,1
-54a21db2,"Partition rdd_42_15 not found , computing it ",1
-5de2687c,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:109380+7292 ,1
+31292bab,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:109380+7292 ,1
 babd0ca0,"Times : total = 39 , boot = 20 , init = 18 , finish = 1 ",2
 75f483bf,Finished task 11.0 in stage 26.0 ( TID 1211 ) . 2703 bytes result sent to driver ,1
 9349f79d,Finished task 13.0 in stage 26.0 ( TID 1213 ) . 2703 bytes result sent to driver ,1
 0dbcddb1,Got assigned task 1216 ,1
 6d10df70,Running task 16.0 in stage 26.0 ( TID 1216 ) ,1
 47c1b229,"Times : total = 40 , boot = 22 , init = 18 , finish = 0 ",1
-867396d0,"Times : total = 39 , boot = <*> , init = <*> , finish = 1 ",4
+c11146fa,Got assigned task 1217 ,1
 3d61d6f6,Running task 17.0 in stage 26.0 ( TID 1217 ) ,1
 bc185ba4,"Partition rdd_42_16 not found , computing it ",1
+901f778e,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:116672+7292 ,1
 7fa2d0c6,Finished task 12.0 in stage 26.0 ( TID 1212 ) . 2703 bytes result sent to driver ,1
 7424f462,Finished task 14.0 in stage 26.0 ( TID 1214 ) . 2703 bytes result sent to driver ,1
 8adab1c4,"Partition rdd_42_17 not found , computing it ",1
-9288d369,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:123964+7292 ,1
+85039ee4,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:123964+7292 ,1
 a54de120,Got assigned task 1218 ,1
+6c6841b8,Running task 18.0 in stage 26.0 ( TID 1218 ) ,1
 7c48449e,Got assigned task 1219 ,1
-25028414,Running task 19.0 in stage 26.0 ( TID 1219 ) ,1
 87803b5a,"Partition rdd_42_18 not found , computing it ",1
+5f619e9e,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:131256+7292 ,1
 274f7bdd,"Partition rdd_42_19 not found , computing it ",1
-ddadc2d7,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:138548+7292 ,1
-4308200f,"Times : total = <*> , boot = <*> , init = 28 , finish = 5 ",1
+a2592057,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:138548+7292 ,1
+8e7c6039,"Times : total = 49 , boot = 16 , init = 28 , finish = 5 ",1
 b943bee3,"Block rdd_42_15 stored as bytes in memory ( estimated size 913.0 B , free 817.5 KB ) ",1
-037805c6,"Times : total = 53 , boot = 14 , init = 34 , finish = 5 ",1
-c65bbf7f,"Times : total = <*> , boot = <*> , init = <*> , finish = 5 ",1
 34fd0f8f,"Block rdd_42_16 stored as bytes in memory ( estimated size 748.0 B , free 818.2 KB ) ",1
 77aacace,"Block rdd_42_17 stored as bytes in memory ( estimated size 836.0 B , free 819.0 KB ) ",1
-5bee2ea9,"Times : total = 50 , boot = <*> , init = <*> , finish = 5 ",1
-92880072,"Times : total = 52 , boot = <*> , init = <*> , finish = 5 ",1
+abb929a2,"Times : total = 50 , boot = 7 , init = 38 , finish = 5 ",1
+e53adb38,"Times : total = 52 , boot = 2 , init = 45 , finish = 5 ",1
 84a428e8,"Block rdd_42_19 stored as bytes in memory ( estimated size 920.0 B , free 819.9 KB ) ",1
 f0a6a08e,"Block rdd_42_18 stored as bytes in memory ( estimated size 955.0 B , free 820.8 KB ) ",1
 3f27ee9b,"Times : total = 38 , boot = 16 , init = 22 , finish = 0 ",1
@@ -1000,7 +991,7 @@ f0a6a08e,"Block rdd_42_18 stored as bytes in memory ( estimated size 955.0 B , f
 a69233c1,Got assigned task 1220 ,1
 8c326d0e,Running task 20.0 in stage 26.0 ( TID 1220 ) ,1
 a9265532,"Partition rdd_42_20 not found , computing it ",1
-e1a2e66f,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:145840+7292 ,1
+2e6f3118,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:145840+7292 ,1
 240eb301,"Times : total = 38 , boot = 24 , init = 14 , finish = 0 ",1
 1ad2114b,Finished task 16.0 in stage 26.0 ( TID 1216 ) . 2701 bytes result sent to driver ,1
 1ed55c01,Finished task 17.0 in stage 26.0 ( TID 1217 ) . 2701 bytes result sent to driver ,1
@@ -1009,27 +1000,28 @@ e1a2e66f,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:145840+7292 ,1
 56f4ef12,Got assigned task 1222 ,1
 4ad3965f,Running task 22.0 in stage 26.0 ( TID 1222 ) ,1
 a91c1b54,"Partition rdd_42_21 not found , computing it ",1
-88bb5808,<*> <*> : <*> : <*> <*> <*> <*> <*> ,4
+945c6600,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:153132+7292 ,1
 edb0f7ac,"Partition rdd_42_22 not found , computing it ",1
-6dce428e,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:160424+7292 ,1
+cc9482c5,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:160424+7292 ,1
 4dbe306a,"Times : total = 38 , boot = 20 , init = 18 , finish = 0 ",1
 f31b78f1,Finished task 18.0 in stage 26.0 ( TID 1218 ) . 2703 bytes result sent to driver ,1
-8feb7d50,Finished task <*> in stage 26.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+ed552365,Finished task 19.0 in stage <*> ( TID <*> ) . <*> bytes result sent to driver ,4
 25739de3,Got assigned task 1223 ,1
 42b7c835,Running task 23.0 in stage 26.0 ( TID 1223 ) ,1
 28ab803b,Got assigned task 1224 ,1
 1fbfc0bd,Running task 24.0 in stage 26.0 ( TID 1224 ) ,1
 a1c1094a,"Partition rdd_42_23 not found , computing it ",1
+54fce46e,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:167716+7292 ,1
 71cb850d,"Partition rdd_42_24 not found , computing it ",1
-9d50fbe6,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:175008+7292 ,1
-b881c379,"Times : total = <*> , boot = 5 , init = <*> , finish = 5 ",1
+f947dbf1,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:175008+7292 ,1
+b881c379,"Times : total = <*> , boot = 5 , init = <*> , finish = 5 ",2
 04d70208,"Block rdd_42_20 stored as bytes in memory ( estimated size 917.0 B , free 821.7 KB ) ",1
 5388274a,"Times : total = 53 , boot = 15 , init = 33 , finish = 5 ",1
-f4c10e4e,"Times : total = 54 , boot = 17 , init = <*> , finish = 5 ",1
+e094f9ad,"Times : total = 54 , boot = 17 , init = 32 , finish = 5 ",1
 9054708c,"Block rdd_42_22 stored as bytes in memory ( estimated size 737.0 B , free 822.5 KB ) ",1
 56675d4b,"Block rdd_42_21 stored as bytes in memory ( estimated size 922.0 B , free 823.4 KB ) ",1
 f89d8454,"Times : total = 50 , boot = 4 , init = 41 , finish = 5 ",1
-5f6b57d9,"Times : total = <*> , boot = <*> , init = 41 , finish = <*> ",1
+1faa74c2,"Times : total = 54 , boot = 8 , init = 41 , finish = 5 ",1
 18745664,"Block rdd_42_24 stored as bytes in memory ( estimated size 858.0 B , free 824.2 KB ) ",1
 cb190322,"Times : total = 40 , boot = 13 , init = 26 , finish = 1 ",1
 cc5efd6b,"Block rdd_42_23 stored as bytes in memory ( estimated size 914.0 B , free 825.1 KB ) ",1
@@ -1037,6 +1029,8 @@ cc5efd6b,"Block rdd_42_23 stored as bytes in memory ( estimated size 914.0 B , f
 005675e9,Got assigned task 1225 ,1
 e4642b24,Running task 25.0 in stage 26.0 ( TID 1225 ) ,1
 a9702cfc,"Partition rdd_42_25 not found , computing it ",1
+af8b9f1f,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:182300+7292 ,1
+6da0001c,"Times : total = 42 , boot = 26 , init = 16 , finish = 0 ",1
 6bc6ac04,"Times : total = 39 , boot = 23 , init = 16 , finish = 0 ",2
 d0070f88,Finished task 22.0 in stage 26.0 ( TID 1222 ) . 2703 bytes result sent to driver ,1
 a909faa9,Finished task 21.0 in stage 26.0 ( TID 1221 ) . 2705 bytes result sent to driver ,1
@@ -1045,40 +1039,45 @@ ad564909,Running task 26.0 in stage 26.0 ( TID 1226 ) ,1
 7255dd8e,Got assigned task 1227 ,1
 0a507de4,Running task 27.0 in stage 26.0 ( TID 1227 ) ,1
 6c4b5553,"Partition rdd_42_26 not found , computing it ",1
-05f1a736,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:189592+7292 ,1
+f0c99adc,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:189592+7292 ,1
 1afaf1c5,"Times : total = 38 , boot = 21 , init = 17 , finish = 0 ",1
 983f1d32,"Partition rdd_42_27 not found , computing it ",1
+c86976a6,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:196884+7292 ,1
 282f7910,Finished task 23.0 in stage 26.0 ( TID 1223 ) . 2703 bytes result sent to driver ,1
 04bd977c,Finished task 24.0 in stage 26.0 ( TID 1224 ) . 2703 bytes result sent to driver ,1
 84177470,Got assigned task 1228 ,1
 7dc48f17,Running task 28.0 in stage 26.0 ( TID 1228 ) ,1
 86c21a0c,Got assigned task 1229 ,1
-f7cdf647,Running task 29.0 in stage 26.0 ( TID <*> ) ,1
+59f75357,Running task 29.0 in stage 26.0 ( TID 1229 ) ,1
 aad6e1e4,"Partition rdd_42_28 not found , computing it ",1
-ac253c43,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:204176+7292 ,1
+500ca074,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:204176+7292 ,1
 ed342a4a,"Partition rdd_42_29 not found , computing it ",1
-331002d6,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:211468+7292 ,1
-58f59faa,"Times : total = 48 , boot = 5 , init = <*> , finish = 5 ",1
+db0691fb,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:211468+7292 ,1
 87397cc0,"Block rdd_42_25 stored as bytes in memory ( estimated size 950.0 B , free 826.0 KB ) ",1
 7671dd92,"Times : total = 52 , boot = 7 , init = 40 , finish = 5 ",2
+14813d96,"Times : total = 56 , boot = <*> , init = <*> , finish = 5 ",1
 77a33701,"Block rdd_42_27 stored as bytes in memory ( estimated size 790.0 B , free 826.8 KB ) ",1
 5940b6c7,"Block rdd_42_26 stored as bytes in memory ( estimated size 872.0 B , free 827.6 KB ) ",1
-f2d76a4a,"Times : total = 54 , boot = 5 , init = <*> , finish = <*> ",1
+7102ec83,"Times : total = 54 , boot = 5 , init = 41 , finish = 8 ",1
 46d4da7a,"Block rdd_42_28 stored as bytes in memory ( estimated size 901.0 B , free 828.5 KB ) ",1
 fb323e26,Finished task 25.0 in stage 26.0 ( TID 1225 ) . 2705 bytes result sent to driver ,1
 230a54b2,"Block rdd_42_29 stored as bytes in memory ( estimated size 901.0 B , free 829.4 KB ) ",1
 308f22bb,Got assigned task 1230 ,1
 c346abd1,Running task 30.0 in stage 26.0 ( TID 1230 ) ,1
 795c10a1,"Partition rdd_42_30 not found , computing it ",1
-ed9011b7,Input split : hdfs : // < * > :9000/pjhe/logs/2kSOSP.log:218760+7292 ,1
+d4f63d64,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:218760+7292 ,1
 f3338eb0,"Times : total = 38 , boot = 34 , init = 4 , finish = 0 ",1
 126b9d73,"Times : total = 42 , boot = 24 , init = 17 , finish = 1 ",3
 c15a70f9,Finished task 26.0 in stage 26.0 ( TID 1226 ) . 2705 bytes result sent to driver ,1
-7a06381c,Finished task 27.0 in stage 26.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+a7b3b85a,Finished task 27.0 in stage <*> ( TID <*> ) . <*> bytes result sent to driver ,1
 779842d6,Got assigned task 1231 ,1
+a9aed944,Running task 31.0 in stage 26.0 ( TID 1231 ) ,1
 f9979b8c,Got assigned task 1232 ,1
+bdeb15ef,Running task 32.0 in stage 26.0 ( TID 1232 ) ,1
 05a05b61,"Partition rdd_42_31 not found , computing it ",1
+6d67b6f4,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:226052+7292 ,1
 4ed05c7f,"Partition rdd_42_32 not found , computing it ",1
+94279515,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:233344+7292 ,1
 2732f483,Finished task 28.0 in stage 26.0 ( TID 1228 ) . 2705 bytes result sent to driver ,1
 223d4f1c,Finished task 29.0 in stage 26.0 ( TID 1229 ) . 2705 bytes result sent to driver ,1
 a212e594,Got assigned task 1233 ,1
@@ -1086,48 +1085,54 @@ ce5e6805,Running task 33.0 in stage 26.0 ( TID 1233 ) ,1
 58e782db,Got assigned task 1234 ,1
 0c7ea38b,Running task 34.0 in stage 26.0 ( TID 1234 ) ,1
 0ca7981c,"Partition rdd_42_34 not found , computing it ",1
+ac20dc9c,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:247928+7292 ,1
 818ef22d,"Partition rdd_42_33 not found , computing it ",1
-7f5937e9,"Times : total = <*> , boot = <*> , init = 25 , finish = 5 ",1
+0e571c8e,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:240636+7292 ,1
+f0129314,"Times : total = 46 , boot = 16 , init = 25 , finish = 5 ",1
 4d0e0986,"Block rdd_42_30 stored as bytes in memory ( estimated size 906.0 B , free 830.3 KB ) ",1
 db614b37,"Times : total = 51 , boot = 12 , init = 34 , finish = 5 ",1
 06457009,"Times : total = 50 , boot = 3 , init = 42 , finish = 5 ",1
 6104383c,"Block rdd_42_31 stored as bytes in memory ( estimated size 827.0 B , free 831.1 KB ) ",1
 cd205137,"Block rdd_42_32 stored as bytes in memory ( estimated size 993.0 B , free 832.1 KB ) ",1
 0c1a5e7a,Finished task 30.0 in stage 26.0 ( TID 1230 ) . 2703 bytes result sent to driver ,1
-13b8583d,"Times : total = 50 , boot = <*> , init = 39 , finish = 5 ",1
+a0d1f472,"Times : total = 50 , boot = 6 , init = 39 , finish = 5 ",1
 bc84e88d,Got assigned task 1235 ,1
 aa4c1407,Running task 35.0 in stage 26.0 ( TID 1235 ) ,1
 9ca80cbe,"Times : total = 50 , boot = 2 , init = 43 , finish = 5 ",1
 825eadfb,"Block rdd_42_34 stored as bytes in memory ( estimated size 842.0 B , free 832.9 KB ) ",1
 7456cd22,"Partition rdd_42_35 not found , computing it ",1
+01514d0b,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:255220+7292 ,1
 3049aeae,"Block rdd_42_33 stored as bytes in memory ( estimated size 869.0 B , free 833.7 KB ) ",1
-36d6ca17,"Times : total = 42 , boot = 24 , init = 18 , finish = 0 ",1
-76dd9ddc,Finished task 32.0 in stage 26.0 ( TID 1232 ) . 2703 bytes result sent to driver ,1
-d22bcccd,Finished task 31.0 in stage 26.0 ( TID 1231 ) . 2703 bytes result sent to driver ,1
 db2a4adb,Got assigned task 1236 ,1
 dd0ce4fc,Running task 36.0 in stage 26.0 ( TID 1236 ) ,1
 42e0cf6f,Got assigned task 1237 ,1
 d501ad77,Running task 37.0 in stage 26.0 ( TID 1237 ) ,1
 097983f5,"Partition rdd_42_36 not found , computing it ",1
+7eca5df3,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:262512+7292 ,1
 58afb727,"Partition rdd_42_37 not found , computing it ",1
 629140d2,"Times : total = 43 , boot = 17 , init = 25 , finish = 1 ",1
+acde7ec8,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:269804+7292 ,1
 a34e96a6,Finished task 34.0 in stage 26.0 ( TID 1234 ) . 2703 bytes result sent to driver ,1
 a0a207d9,Finished task 33.0 in stage 26.0 ( TID 1233 ) . 2703 bytes result sent to driver ,1
 63bda6e6,Got assigned task 1238 ,1
 4e57c61d,Running task 38.0 in stage 26.0 ( TID 1238 ) ,1
 e691b409,Got assigned task 1239 ,1
 ef7764cb,Running task 39.0 in stage 26.0 ( TID 1239 ) ,1
-d4783fc3,"Times : total = <*> , boot = 17 , init = <*> , finish = <*> ",1
+6dfa488f,"Times : total = 47 , boot = 17 , init = 23 , finish = 7 ",1
 baefd401,"Partition rdd_42_38 not found , computing it ",1
+6d48aeb4,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:277096+7292 ,1
 31ba6243,"Partition rdd_42_39 not found , computing it ",1
+343b18ea,Input split : hdfs : //10.10.34.11:9000/pjhe/logs/2kSOSP.log:284388+7303 ,1
 357224ac,"Block rdd_42_35 stored as bytes in memory ( estimated size 917.0 B , free 834.6 KB ) ",1
 6897f3a4,"Times : total = 53 , boot = 8 , init = 40 , finish = 5 ",1
 0f194cce,"Times : total = 53 , boot = 12 , init = 36 , finish = 5 ",1
-9e489e87,"Block <*> stored as bytes in memory ( estimated size <*> B , free <*> KB ) ",2
+0bf89efc,"Block rdd_42_37 stored as bytes in memory ( estimated size 939.0 B , free 835.5 KB ) ",1
 1f3df4d2,"Block rdd_42_36 stored as bytes in memory ( estimated size 912.0 B , free 836.4 KB ) ",1
+af5e6ccf,"Times : total = 41 , boot = 9 , init = 31 , finish = 1 ",1
 371b86f2,Finished task 35.0 in stage 26.0 ( TID 1235 ) . 2705 bytes result sent to driver ,1
-fd5097ad,"Times : total = 48 , boot = <*> , init = 25 , finish = <*> ",1
+48ec94c1,"Times : total = 48 , boot = 17 , init = 25 , finish = 6 ",1
 379601b4,"Times : total = 51 , boot = 8 , init = 38 , finish = 5 ",1
+d29dd4d7,"Block rdd_42_38 stored as bytes in memory ( estimated size 974.0 B , free 837.4 KB ) ",1
 4eaa1921,"Block rdd_42_39 stored as bytes in memory ( estimated size 877.0 B , free 838.2 KB ) ",1
 82b36ded,"Times : total = 40 , boot = 24 , init = 16 , finish = 0 ",1
 fda565e2,Finished task 36.0 in stage 26.0 ( TID 1236 ) . 2705 bytes result sent to driver ,1
@@ -1155,7 +1160,9 @@ bb392567,Found block rdd_42_2 locally ,3
 5826d7ac,Found block rdd_42_3 locally ,3
 e4f9f8a9,Found block rdd_42_1 locally ,3
 6a2a0983,"Times : total = 39 , boot = -108 , init = 146 , finish = 1 ",1
-c4f56889,Finished task <*> in stage 27.0 ( TID <*> ) . <*> bytes result sent to driver ,5
+e2a54b03,"Times : total = 42 , boot = -77 , init = 118 , finish = 1 ",1
+9b3a0b9e,Finished task 0.0 in stage 27.0 ( TID 1240 ) . 2474 bytes result sent to driver ,1
+e4162082,"Times : total = 41 , boot = -71 , init = 111 , finish = 1 ",1
 240dd6ab,Finished task 4.0 in stage 27.0 ( TID 1244 ) . 2685 bytes result sent to driver ,1
 2e403eb8,Finished task 2.0 in stage 27.0 ( TID 1242 ) . 2523 bytes result sent to driver ,1
 48bd20d3,Got assigned task 1245 ,1
@@ -1165,11 +1172,11 @@ c4f56889,Finished task <*> in stage 27.0 ( TID <*> ) . <*> bytes result sent to 
 1bb31654,Finished task 1.0 in stage 27.0 ( TID 1241 ) . 2428 bytes result sent to driver ,1
 7baabdcd,Running task 6.0 in stage 27.0 ( TID 1246 ) ,1
 78fc1c86,Got assigned task 1247 ,1
-3a2ef729,Running task <*> in stage <*> ( TID <*> ) ,3
+c294bf17,Running task 7.0 in stage 27.0 ( TID 1247 ) ,1
 d4c2430f,Found block rdd_42_5 locally ,3
 ba95c828,Got assigned task 1248 ,1
-293d2864,Running task 8.0 in stage 27.0 ( TID 1248 ) ,1
 bd67853e,Got assigned task 1249 ,1
+e95e4b6e,Running task 9.0 in stage 27.0 ( TID 1249 ) ,1
 5e1da211,Found block rdd_42_7 locally ,3
 b7201ea4,Found block rdd_42_6 locally ,3
 f8a679b4,Found block rdd_42_8 locally ,3
@@ -1177,14 +1184,17 @@ f8a679b4,Found block rdd_42_8 locally ,3
 cef685e7,"Times : total = 40 , boot = 26 , init = 13 , finish = 1 ",1
 dfcac00c,Finished task 5.0 in stage 27.0 ( TID 1245 ) . 2721 bytes result sent to driver ,1
 16707564,"Times : total = 40 , boot = 15 , init = 25 , finish = 0 ",3
+e5545c0e,Got assigned task 1250 ,1
 8bf5ac3a,Running task 10.0 in stage 27.0 ( TID 1250 ) ,1
 afca434a,Finished task 8.0 in stage 27.0 ( TID 1248 ) . 2263 bytes result sent to driver ,1
 b6261754,Finished task 6.0 in stage 27.0 ( TID 1246 ) . 2220 bytes result sent to driver ,1
 6bbc7228,Finished task 7.0 in stage 27.0 ( TID 1247 ) . 2171 bytes result sent to driver ,1
 7cbb3b4c,Found block rdd_42_10 locally ,3
 2919782b,Finished task 9.0 in stage 27.0 ( TID 1249 ) . 2427 bytes result sent to driver ,1
-56491e52,Running task 11.0 in stage 27.0 ( TID 1251 ) ,1
+f89e70c1,Got assigned task 1251 ,1
+7bd84374,Got assigned task 1252 ,1
 323c5994,Running task 12.0 in stage 27.0 ( TID 1252 ) ,1
+45e9ae65,Got assigned task 1253 ,1
 e26fcb8b,Running task 13.0 in stage 27.0 ( TID 1253 ) ,1
 583193fa,Got assigned task 1254 ,1
 d84ed1b0,Running task 14.0 in stage 27.0 ( TID 1254 ) ,1
@@ -1196,6 +1206,7 @@ dd4e0b1d,"Times : total = 40 , boot = 14 , init = 25 , finish = 1 ",2
 db85e0c2,Finished task 10.0 in stage 27.0 ( TID 1250 ) . 2667 bytes result sent to driver ,1
 fe762eee,Got assigned task 1255 ,1
 6060cad9,Running task 15.0 in stage 27.0 ( TID 1255 ) ,1
+d8c8bca9,"Times : total = 40 , boot = 10 , init = 29 , finish = 1 ",1
 14cb7081,Finished task 11.0 in stage 27.0 ( TID 1251 ) . 2402 bytes result sent to driver ,1
 70cd63b6,Finished task 12.0 in stage 27.0 ( TID 1252 ) . 2486 bytes result sent to driver ,1
 372997e3,"Times : total = 41 , boot = 11 , init = 29 , finish = 1 ",3
@@ -1207,44 +1218,51 @@ a5115f77,Got assigned task 1257 ,1
 626d8d58,Finished task 13.0 in stage 27.0 ( TID 1253 ) . 2522 bytes result sent to driver ,1
 93dd11a4,Running task 17.0 in stage 27.0 ( TID 1257 ) ,1
 3745c269,Got assigned task 1258 ,1
+0c2ef39c,Running task 18.0 in stage 27.0 ( TID 1258 ) ,1
 aa90a3fb,Got assigned task 1259 ,1
-f56075b0,Running task 19.0 in stage 27.0 ( TID 1259 ) ,1
-dc1eadd6,Found block rdd_42_16 locally ,3
 5c48025c,Found block rdd_42_17 locally ,3
-e39f0b21,Found block rdd_42_19 locally ,3
+d758821e,Found block rdd_42_18 locally ,3
 7504cc8d,"Times : total = 42 , boot = 19 , init = 22 , finish = 1 ",2
 fb3b0126,Finished task 15.0 in stage 27.0 ( TID 1255 ) . 2523 bytes result sent to driver ,1
 257ad3e4,"Times : total = 39 , boot = 15 , init = 24 , finish = 0 ",2
+3b0ca542,Got assigned task 1260 ,1
 0c2bf5e4,Running task 20.0 in stage 27.0 ( TID 1260 ) ,1
 d7be5754,Finished task 16.0 in stage 27.0 ( TID 1256 ) . 2171 bytes result sent to driver ,1
 d914bc49,"Times : total = 40 , boot = 14 , init = 26 , finish = 0 ",2
 25faab3c,"Times : total = 39 , boot = 13 , init = 25 , finish = 1 ",1
 7070e5c5,Found block rdd_42_20 locally ,3
+2265c093,Got assigned task 1261 ,1
 c42e4f86,Running task 21.0 in stage 27.0 ( TID 1261 ) ,1
-e9447854,Finished task <*> in stage <*> ( TID <*> ) . <*> bytes result sent to driver ,1
 8c142b5e,Finished task 17.0 in stage 27.0 ( TID 1257 ) . 2128 bytes result sent to driver ,1
 0b60c08f,"Times : total = 42 , boot = 16 , init = 25 , finish = 1 ",4
 0a2fea29,Finished task 18.0 in stage 27.0 ( TID 1258 ) . 2349 bytes result sent to driver ,1
+bd06e4de,Got assigned task 1262 ,1
 b1ad5b40,Running task 22.0 in stage 27.0 ( TID 1262 ) ,1
+c1353950,Got assigned task 1263 ,1
 c7517331,Found block rdd_42_21 locally ,3
 7711132f,Running task 23.0 in stage 27.0 ( TID 1263 ) ,1
 93c66e23,Got assigned task 1264 ,1
 cb038603,Running task 24.0 in stage 27.0 ( TID 1264 ) ,1
 a1a51ac3,Found block rdd_42_22 locally ,3
 41b39e83,Found block rdd_42_24 locally ,3
+3762b0d2,Found block rdd_42_23 locally ,3
+dfd46799,"Times : total = 40 , boot = 17 , init = 22 , finish = 1 ",1
 15e1d020,Finished task 20.0 in stage 27.0 ( TID 1260 ) . 2355 bytes result sent to driver ,1
 b01c083f,"Times : total = 41 , boot = 19 , init = 21 , finish = 1 ",3
 8454b4a7,Got assigned task 1265 ,1
 37652569,Running task 25.0 in stage 27.0 ( TID 1265 ) ,1
-163d3376,"Times : total = 41 , boot = <*> , init = <*> , finish = <*> ",1
+6ca06254,Finished task 21.0 in stage 27.0 ( TID 1261 ) . 2486 bytes result sent to driver ,1
+9a676ae2,"Times : total = 41 , boot = <*> , init = 25 , finish = <*> ",1
 8111e3be,Got assigned task 1266 ,1
 d0f7a0d6,Running task 26.0 in stage 27.0 ( TID 1266 ) ,1
+276ca182,Found block rdd_42_25 locally ,3
 ceb24def,Finished task 22.0 in stage 27.0 ( TID 1262 ) . 2171 bytes result sent to driver ,1
+ff219e2f,Finished task 24.0 in stage 27.0 ( TID 1264 ) . 2592 bytes result sent to driver ,1
+24b95aac,Finished task 23.0 in stage 27.0 ( TID 1263 ) . 2385 bytes result sent to driver ,1
 5d0cc079,Found block rdd_42_26 locally ,3
 c9f41364,Got assigned task 1267 ,1
 80fe712e,Running task 27.0 in stage 27.0 ( TID 1267 ) ,1
 a9757f7b,Got assigned task 1268 ,1
-7e0093c8,Running task 28.0 in stage 27.0 ( TID 1268 ) ,1
 59e70870,Got assigned task 1269 ,1
 0c553c59,Running task 29.0 in stage 27.0 ( TID 1269 ) ,1
 8353c608,Found block rdd_42_27 locally ,3
@@ -1254,7 +1272,8 @@ c36d423e,Found block rdd_42_28 locally ,3
 92a55b2f,"Times : total = 42 , boot = 34 , init = 7 , finish = 1 ",1
 cb903849,Finished task 27.0 in stage 27.0 ( TID <*> ) . <*> bytes result sent to driver ,1
 fde256f7,Finished task 28.0 in stage 27.0 ( TID 1268 ) . 2349 bytes result sent to driver ,1
-84a6a259,Finished task 26.0 in stage 27.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+c4f56889,Finished task <*> in stage 27.0 ( TID <*> ) . <*> bytes result sent to driver ,1
+f78f5aa0,Finished task 25.0 in stage 27.0 ( TID 1265 ) . 2355 bytes result sent to driver ,1
 78e74145,Got assigned task 1270 ,1
 fdd6edb2,Running task 30.0 in stage 27.0 ( TID 1270 ) ,1
 f2ea2488,Got assigned task 1271 ,1
@@ -1264,18 +1283,15 @@ ec280590,Running task 32.0 in stage 27.0 ( TID 1272 ) ,1
 93257da0,Got assigned task 1273 ,1
 726588b3,Running task 33.0 in stage 27.0 ( TID 1273 ) ,1
 c5da81c8,Found block rdd_42_31 locally ,2
-a2ef39fb,Found block rdd_42_32 locally ,3
 bf4f2b1f,Found block rdd_42_33 locally ,2
 568f3fa2,Found block rdd_42_30 locally ,3
-c16d9a65,"Times : total = 108 , boot = 28 , init = 79 , finish = 1 ",1
+d47210a6,"Times : total = <*> , boot = 28 , init = <*> , finish = <*> ",1
 d4547681,Finished task 29.0 in stage 27.0 ( TID 1269 ) . 2349 bytes result sent to driver ,1
 2797ef58,Got assigned task 1274 ,1
 e266dde9,Running task 34.0 in stage 27.0 ( TID 1274 ) ,1
 1ab8c24d,Found block rdd_42_34 locally ,2
 7b64646b,"Times : total = 40 , boot = -27 , init = 66 , finish = 1 ",1
-a4bfb813,Finished task 31.0 in stage 27.0 ( TID 1271 ) . 2128 bytes result sent to driver ,1
 728c3aa6,"Times : total = 41 , boot = -15 , init = 55 , finish = 1 ",1
-85c1014e,Finished task 32.0 in stage 27.0 ( TID 1272 ) . 2801 bytes result sent to driver ,1
 3b44cb97,Finished task 33.0 in stage 27.0 ( TID 1273 ) . 2592 bytes result sent to driver ,1
 f15c28b2,Got assigned task 1275 ,1
 412e1779,Running task 35.0 in stage 27.0 ( TID 1275 ) ,1
@@ -1289,10 +1305,12 @@ a5a7ed79,Got assigned task 1278 ,1
 64ab47c2,Found block rdd_42_35 locally ,2
 5f1899d0,Found block rdd_42_37 locally ,2
 1e6e1b1c,Found block rdd_42_38 locally ,2
+fdf9c1f7,Found block rdd_42_36 locally ,2
 0008fd8d,Finished task 34.0 in stage 27.0 ( TID 1274 ) . 2128 bytes result sent to driver ,1
 7b7c940e,Got assigned task 1279 ,1
 70573d5e,Running task 39.0 in stage 27.0 ( TID 1279 ) ,1
 4bea8d0a,Found block rdd_42_39 locally ,2
+c414f3d2,"Times : total = 41 , boot = 31 , init = 9 , finish = 1 ",1
 a23d0d97,Finished task 35.0 in stage 27.0 ( TID 1275 ) . 2430 bytes result sent to driver ,1
 da80fe37,"Times : total = 40 , boot = 20 , init = 19 , finish = 1 ",3
 e7366d5d,Finished task 38.0 in stage 27.0 ( TID 1278 ) . 2882 bytes result sent to driver ,1
@@ -1315,33 +1333,27 @@ e68e7df0,Started reading broadcast variable 39 ,1
 8dc4e848,"Block broadcast_39_piece0 stored as bytes in memory ( estimated size 5.4 KB , free 859.1 KB ) ",1
 094a3e24,Reading broadcast variable 39 took 716 ms ,1
 cd764d6f,"Block broadcast_39 stored as values in memory ( estimated size 9.2 KB , free 868.3 KB ) ",1
-df8b97a9,"Times : total = 39 , boot = -790 , init = 829 , finish = 0 ",1
-e2e3cd66,"Times : total = 38 , boot = -784 , init = 822 , finish = 0 ",1
-6b5f3fed,"Times : total = 39 , boot = -784 , init = 823 , finish = 0 ",1
 75c470c1,Finished task 4.0 in stage 28.0 ( TID 1284 ) . 2087 bytes result sent to driver ,1
 292ccc51,"Times : total = 41 , boot = -768 , init = 809 , finish = 0 ",1
-f4ea5d6d,Finished task 2.0 in stage 28.0 ( TID 1282 ) . 2087 bytes result sent to driver ,1
+33d8281a,Finished task <*> in stage 28.0 ( TID <*> ) . 2087 bytes result sent to driver ,7
 af1c1b70,Finished task 3.0 in stage 28.0 ( TID 1283 ) . 2087 bytes result sent to driver ,1
-a0ef6ece,"Times : total = 49 , boot = -793 , init = 841 , finish = 1 ",1
 196b1d26,Got assigned task 1285 ,1
 b7091af1,Running task 5.0 in stage 28.0 ( TID 1285 ) ,1
-a98eeb08,Finished task 0.0 in stage 28.0 ( TID 1280 ) . 2087 bytes result sent to driver ,1
 33960473,Got assigned task 1286 ,1
 c5ff56ee,Running task 6.0 in stage 28.0 ( TID 1286 ) ,1
 f1bd780c,Got assigned task 1287 ,1
-fa49680f,Finished task 1.0 in stage 28.0 ( TID 1281 ) . 2087 bytes result sent to driver ,1
-e23c9d68,Running task <*> in stage 28.0 ( TID <*> ) ,5
+74f20931,Running task 7.0 in stage 28.0 ( TID 1287 ) ,1
 aa7eee65,Got assigned task 1288 ,1
-b40f22b3,Running task 8.0 in stage 28.0 ( TID 1288 ) ,1
 c68d54f8,Got assigned task 1289 ,1
+0fba3261,Running task 9.0 in stage 28.0 ( TID 1289 ) ,1
 883bc864,"Times : total = 40 , boot = 16 , init = 24 , finish = 0 ",1
 a7182b9a,Finished task 6.0 in stage 28.0 ( TID 1286 ) . 2087 bytes result sent to driver ,1
-fb42cd9f,Finished task 5.0 in stage 28.0 ( TID 1285 ) . 2087 bytes result sent to driver ,1
+d095af52,"Times : total = 42 , boot = 13 , init = 29 , finish = 0 ",1
 e19a67f2,Finished task 7.0 in stage 28.0 ( TID 1287 ) . 2087 bytes result sent to driver ,1
 052f87cf,Got assigned task 1290 ,1
 ae9eeb23,Running task 10.0 in stage 28.0 ( TID 1290 ) ,1
 e0e70da1,Got assigned task 1291 ,1
-2259972a,Running task 11.0 in stage 28.0 ( TID 1291 ) ,1
+b2d7736e,Running task 11.0 in stage 28.0 ( TID <*> ) ,1
 6d6c171f,Got assigned task 1292 ,1
 090ff026,Finished task 9.0 in stage 28.0 ( TID 1289 ) . 2087 bytes result sent to driver ,1
 9865ffe1,Finished task 8.0 in stage 28.0 ( TID 1288 ) . 2087 bytes result sent to driver ,1
@@ -1350,7 +1362,6 @@ e0e70da1,Got assigned task 1291 ,1
 be82694c,Running task 13.0 in stage 28.0 ( TID 1293 ) ,1
 09f42c05,Got assigned task 1294 ,1
 3a412b10,Running task 14.0 in stage 28.0 ( TID 1294 ) ,1
-083d76ff,"Times : total = 40 , boot = 21 , init = 19 , finish = 0 ",1
 6f10637c,"Times : total = 39 , boot = 19 , init = 20 , finish = 0 ",1
 e39f4686,Finished task 10.0 in stage 28.0 ( TID 1290 ) . 2087 bytes result sent to driver ,1
 94fa25c3,Finished task 12.0 in stage 28.0 ( TID 1292 ) . 2087 bytes result sent to driver ,1
@@ -1359,27 +1370,30 @@ e39f4686,Finished task 10.0 in stage 28.0 ( TID 1290 ) . 2087 bytes result sent 
 3e2529bd,Finished task 11.0 in stage 28.0 ( TID 1291 ) . 2087 bytes result sent to driver ,1
 0df0da46,Got assigned task 1296 ,1
 a5cc664c,Running task 16.0 in stage 28.0 ( TID 1296 ) ,1
+005e8019,"Times : total = 41 , boot = 12 , init = 28 , finish = 1 ",1
 20ca5933,Got assigned task 1297 ,1
 56657237,Running task 17.0 in stage 28.0 ( TID 1297 ) ,1
 ec806bd6,Finished task 14.0 in stage 28.0 ( TID 1294 ) . 2087 bytes result sent to driver ,1
 9d896f44,Finished task 13.0 in stage 28.0 ( TID 1293 ) . 2087 bytes result sent to driver ,1
 4ba5e297,Got assigned task 1298 ,1
+33a05d87,Running task 18.0 in stage 28.0 ( TID 1298 ) ,1
 12318a01,Got assigned task 1299 ,1
-54319dc3,Running task 19.0 in stage 28.0 ( TID 1299 ) ,1
 1416de99,Finished task 15.0 in stage 28.0 ( TID 1295 ) . 2087 bytes result sent to driver ,1
 73a3f14c,Finished task 16.0 in stage 28.0 ( TID 1296 ) . 2087 bytes result sent to driver ,1
 e29f8a07,Finished task 17.0 in stage 28.0 ( TID 1297 ) . 2087 bytes result sent to driver ,1
+f3e78448,Got assigned task 1300 ,1
+562f1913,Running task 20.0 in stage 28.0 ( TID 1300 ) ,1
 4598fd6f,Got assigned task 1301 ,1
 f40aebf3,Running task 21.0 in stage 28.0 ( TID 1301 ) ,1
 116fe2c8,Got assigned task 1302 ,1
 c17f0aba,Running task 22.0 in stage 28.0 ( TID 1302 ) ,1
 7cb9a05a,Finished task 18.0 in stage 28.0 ( TID 1298 ) . 2087 bytes result sent to driver ,1
-33d8281a,Finished task <*> in stage 28.0 ( TID <*> ) . 2087 bytes result sent to driver ,5
 9ef3aab3,Got assigned task 1303 ,1
 c80cd944,Running task 23.0 in stage 28.0 ( TID 1303 ) ,1
 17637ae8,Got assigned task 1304 ,1
 4df6c401,Running task 24.0 in stage 28.0 ( TID 1304 ) ,1
 d6fea2f5,Finished task 21.0 in stage 28.0 ( TID 1301 ) . 2087 bytes result sent to driver ,1
+13b5f222,"Times : total = 42 , boot = 14 , init = 28 , finish = 0 ",1
 42b2ac0d,Got assigned task 1305 ,1
 d8c4d34c,Running task 25.0 in stage 28.0 ( TID 1305 ) ,1
 668f46f2,Got assigned task 1306 ,1
@@ -1387,7 +1401,6 @@ b3135f78,Finished task 22.0 in stage 28.0 ( TID 1302 ) . 2087 bytes result sent 
 1351f7f2,Running task 26.0 in stage 28.0 ( TID 1306 ) ,1
 ed1e787b,"Times : total = 39 , boot = 15 , init = 23 , finish = 1 ",2
 0917882c,Got assigned task 1307 ,1
-6240c68a,Running task 27.0 in stage 28.0 ( TID 1307 ) ,1
 7cb9c3f0,Finished task 24.0 in stage 28.0 ( TID 1304 ) . 2087 bytes result sent to driver ,1
 b027b472,"Times : total = 43 , boot = 15 , init = 27 , finish = 1 ",3
 be5cbe03,Finished task 23.0 in stage 28.0 ( TID 1303 ) . 2087 bytes result sent to driver ,1
@@ -1400,6 +1413,7 @@ b76e8c54,Finished task 25.0 in stage 28.0 ( TID 1305 ) . 2087 bytes result sent 
 191cd49e,Finished task 26.0 in stage 28.0 ( TID 1306 ) . 2087 bytes result sent to driver ,1
 0064a2b3,"Times : total = 40 , boot = 27 , init = 13 , finish = 0 ",1
 82868c73,Got assigned task 1310 ,1
+15141845,Running task 30.0 in stage 28.0 ( TID 1310 ) ,1
 69b98481,Got assigned task 1311 ,1
 574972f0,Running task 31.0 in stage 28.0 ( TID 1311 ) ,1
 11abfe68,Finished task 27.0 in stage 28.0 ( TID 1307 ) . 2087 bytes result sent to driver ,1
@@ -1415,15 +1429,18 @@ dc755b6d,Finished task 30.0 in stage 28.0 ( TID 1310 ) . 2087 bytes result sent 
 c3625821,Finished task 31.0 in stage 28.0 ( TID 1311 ) . 2087 bytes result sent to driver ,1
 6177cd3e,Got assigned task 1315 ,1
 52a8af0b,Running task 35.0 in stage 28.0 ( TID 1315 ) ,1
+9f67b815,Got assigned task 1316 ,1
 ab7fb935,Running task 36.0 in stage 28.0 ( TID 1316 ) ,1
 e2c8c05b,Finished task 32.0 in stage 28.0 ( TID 1312 ) . 2087 bytes result sent to driver ,1
-752b3401,Finished task 33.0 in stage 28.0 ( TID 1313 ) . 2087 bytes result sent to driver ,1
+e7d196e7,Got assigned task 1317 ,1
 2c55b460,Running task 37.0 in stage 28.0 ( TID 1317 ) ,1
-28c61e98,Finished task 34.0 in stage 28.0 ( TID 1314 ) . 2087 bytes result sent to driver ,1
+d118840a,Got assigned task 1318 ,1
 bdcd312d,Running task 38.0 in stage 28.0 ( TID 1318 ) ,1
+267875d3,Got assigned task 1319 ,1
 4dd801ec,Running task 39.0 in stage 28.0 ( TID 1319 ) ,1
-cde8da78,Finished task 35.0 in stage 28.0 ( TID 1315 ) . 2087 bytes result sent to driver ,1
-d4be961f,Finished task 36.0 in stage 28.0 ( TID 1316 ) . 2087 bytes result sent to driver ,1
+bc8c6fdc,Finished task 37.0 in stage 28.0 ( TID 1317 ) . 2087 bytes result sent to driver ,1
+465ec657,Finished task 38.0 in stage 28.0 ( TID 1318 ) . 2087 bytes result sent to driver ,1
+f06af8ff,Finished task 39.0 in stage 28.0 ( TID 1319 ) . 2087 bytes result sent to driver ,1
 cfa6bf0f,Got assigned task 1320 ,1
 cc7b5509,Got assigned task 1321 ,1
 b0ee72f9,Running task 0.0 in stage 29.0 ( TID 1320 ) ,1
@@ -1438,9 +1455,6 @@ bd649c4d,Got assigned task 1324 ,1
 6b2cde0b,"Block broadcast_40_piece0 stored as bytes in memory ( estimated size 6.0 KB , free 874.3 KB ) ",1
 6feb7bda,Reading broadcast variable 40 took 10 ms ,1
 03328cb8,"Block broadcast_40 stored as values in memory ( estimated size 9.9 KB , free 884.2 KB ) ",1
-77f2aa38,"Times : total = 40 , boot = -79 , init = <*> , finish = 1 ",1
-dbb3e333,"Times : total = 39 , boot = -75 , init = 113 , finish = 1 ",1
-604ba14f,"Times : total = 40 , boot = <*> , init = 119 , finish = 1 ",1
 08eb5753,"Times : total = 41 , boot = -85 , init = 125 , finish = 1 ",1
 3c4763fd,Finished task 3.0 in stage 29.0 ( TID 1323 ) . 2128 bytes result sent to driver ,1
 8e03fd49,Finished task 4.0 in stage 29.0 ( TID 1324 ) . 2128 bytes result sent to driver ,1
@@ -1452,10 +1466,10 @@ f76e93e1,Finished task 0.0 in stage 29.0 ( TID 1320 ) . 2128 bytes result sent t
 089cd966,Got assigned task 1326 ,1
 8a0f4bdd,Running task 6.0 in stage 29.0 ( TID 1326 ) ,1
 1ffac30d,Got assigned task 1327 ,1
-d65aea09,Running task <*> in stage 29.0 ( TID <*> ) ,5
+b16eff9a,Running task 7.0 in stage 29.0 ( TID 1327 ) ,1
 3528362c,Got assigned task 1328 ,1
-a7343af8,Running task 8.0 in stage 29.0 ( TID 1328 ) ,1
 8b6f6590,Got assigned task 1329 ,1
+fd2ed927,Running task 9.0 in stage 29.0 ( TID 1329 ) ,1
 eefa4319,"Times : total = 39 , boot = 18 , init = 20 , finish = 1 ",3
 ac1bc79f,"Times : total = 41 , boot = 16 , init = 24 , finish = 1 ",1
 51d2c03e,"Times : total = 43 , boot = 25 , init = 17 , finish = 1 ",1
@@ -1467,14 +1481,13 @@ c75c52e5,Finished task 8.0 in stage 29.0 ( TID 1328 ) . 2128 bytes result sent t
 a20902ef,Got assigned task 1330 ,1
 5754e10e,Running task 10.0 in stage 29.0 ( TID 1330 ) ,1
 b3809d34,Got assigned task 1331 ,1
-4dfd1c4c,Running task 11.0 in stage 29.0 ( TID 1331 ) ,1
 545181d8,Got assigned task 1332 ,1
 438f3f62,Running task 12.0 in stage 29.0 ( TID 1332 ) ,1
 0541655d,Got assigned task 1333 ,1
 5309444c,Running task 13.0 in stage 29.0 ( TID 1333 ) ,1
 66e73ed3,Got assigned task 1334 ,1
 ff805dab,Running task 14.0 in stage 29.0 ( TID 1334 ) ,1
-480f478f,"Times : total = 39 , boot = 19 , init = 19 , finish = <*> ",1
+c5ede2f6,"Times : total = 39 , boot = 19 , init = 19 , finish = 1 ",1
 c118fb6e,"Times : total = 41 , boot = 21 , init = 19 , finish = 1 ",1
 5ef18a54,Finished task 11.0 in stage 29.0 ( TID 1331 ) . 2128 bytes result sent to driver ,1
 e7a09c1d,"Times : total = 42 , boot = 18 , init = 23 , finish = 1 ",2
@@ -1489,17 +1502,17 @@ a0326fb6,Finished task 13.0 in stage 29.0 ( TID 1333 ) . 2171 bytes result sent 
 cd6bc12a,Got assigned task 1337 ,1
 a0e5ac5a,Running task 17.0 in stage 29.0 ( TID 1337 ) ,1
 b7f02fcd,Got assigned task 1338 ,1
+33975990,Running task 18.0 in stage 29.0 ( TID 1338 ) ,1
 e7dc4e73,Got assigned task 1339 ,1
-0d6583ea,Running task 19.0 in stage 29.0 ( TID 1339 ) ,1
-c8d5b939,"Times : total = 41 , boot = 27 , init = 14 , finish = 0 ",1
 60019b52,Finished task 15.0 in stage 29.0 ( TID 1335 ) . 2171 bytes result sent to driver ,1
 671a715b,Finished task 16.0 in stage 29.0 ( TID 1336 ) . 2171 bytes result sent to driver ,1
 bad81d13,Finished task 18.0 in stage 29.0 ( TID 1338 ) . 2128 bytes result sent to driver ,1
+80233330,"Times : total = 41 , boot = 15 , init = 25 , finish = 1 ",2
 a0c55146,Finished task 17.0 in stage 29.0 ( TID 1337 ) . 2128 bytes result sent to driver ,1
 aaa0513d,Got assigned task 1340 ,1
+5530138a,Running task 20.0 in stage 29.0 ( TID 1340 ) ,1
 999d02e1,Got assigned task 1341 ,1
 01c3488d,Running task 21.0 in stage 29.0 ( TID 1341 ) ,1
-3630b533,Finished task <*> in stage 29.0 ( TID <*> ) . <*> bytes result sent to driver ,2
 21b94aa9,Got assigned task 1342 ,1
 a6151cab,Running task 22.0 in stage 29.0 ( TID 1342 ) ,1
 7c45ee90,Got assigned task 1343 ,1
@@ -1515,7 +1528,7 @@ db792dd3,Finished task 22.0 in stage 29.0 ( TID 1342 ) . 2171 bytes result sent 
 1fdc4498,Running task 25.0 in stage 29.0 ( TID 1345 ) ,1
 e3de8e72,Finished task 24.0 in stage 29.0 ( TID 1344 ) . 2128 bytes result sent to driver ,1
 0b6ce42d,Got assigned task 1346 ,1
-5891edd2,Running task 26.0 in stage 29.0 ( TID <*> ) ,1
+b233df92,Running task 26.0 in stage 29.0 ( TID 1346 ) ,1
 87775feb,Got assigned task 1347 ,1
 07a26b6f,Running task 27.0 in stage 29.0 ( TID 1347 ) ,1
 d65e6377,Got assigned task 1348 ,1
@@ -1528,6 +1541,7 @@ c1859fc3,Finished task 28.0 in stage 29.0 ( TID 1348 ) . 2128 bytes result sent 
 5bbe4621,Finished task 27.0 in stage 29.0 ( TID 1347 ) . 2128 bytes result sent to driver ,1
 e745f2ee,Finished task 26.0 in stage 29.0 ( TID 1346 ) . 2128 bytes result sent to driver ,1
 6c588285,Got assigned task 1350 ,1
+896f7157,Running task 30.0 in stage 29.0 ( TID 1350 ) ,1
 ca24158d,Got assigned task 1351 ,1
 3debbe72,Running task 31.0 in stage 29.0 ( TID 1351 ) ,1
 a3bad01d,Got assigned task 1352 ,1

@@ -158,6 +158,10 @@ for dataset, setting in benchmark_settings.items():
 
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
                                 outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.05, filename=log_file)
+    empty_array = []
+    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
+                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.05, filename=log_file)
+
     parser.parse(log_file)    
     
     F1_measure, accuracy = evaluator.evaluate(
