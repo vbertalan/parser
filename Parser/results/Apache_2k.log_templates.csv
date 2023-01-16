@@ -6,17 +6,14 @@ e6dd0568,jk2_init ( ) Found child 6725 in scoreboard slot 10 ,1
 27ec7a58,jk2_init ( ) Found child 6728 in scoreboard slot 6 ,1
 9cf8ce36,jk2_init ( ) Found child 6736 in scoreboard slot 10 ,1
 7a31cd73,jk2_init ( ) Found child 6733 in scoreboard slot 7 ,1
-4673ef63,jk2_init ( ) Found child 6734 in scoreboard slot 9 ,1
+4bc1a741,jk2_init ( ) Found child <*> in scoreboard slot 9 ,19
 2423f888,jk2_init ( ) Found child 6738 in scoreboard slot 6 ,1
-d79de039,jk2_init ( ) Found child 6741 in scoreboard slot 9 ,1
-5bfc17d0,jk2_init ( ) Found child 6740 in scoreboard slot 7 ,2
+01855027,jk2_init ( ) Found child <*> in scoreboard slot 7 ,15
 17ea701c,jk2_init ( ) Found child 6737 in scoreboard slot 8 ,1
 bf631c35,mod_jk child workerEnv in error state 7 ,101
 009192e8,jk2_init ( ) Found child 6748 in scoreboard slot 6 ,1
 cd23837a,jk2_init ( ) Found child 6744 in scoreboard slot 10 ,1
 3b2ff41f,jk2_init ( ) Found child 6745 in scoreboard slot 8 ,1
-4f4e4403,jk2_init ( ) Found child 6750 in scoreboard slot 7 ,1
-a6e2eb0c,jk2_init ( ) Found child 6751 in scoreboard slot 9 ,1
 f95efef0,jk2_init ( ) Found child 6752 in scoreboard slot 10 ,1
 10a247cc,jk2_init ( ) Found child 6754 in scoreboard slot 8 ,1
 9c0e8ef2,jk2_init ( ) Found child 6755 in scoreboard slot 6 ,1
@@ -25,7 +22,6 @@ d3cb8c79,jk2_init ( ) Found child 6763 in scoreboard slot 10 ,1
 00b7c386,jk2_init ( ) Found child 6766 in scoreboard slot 6 ,1
 8db13426,jk2_init ( ) Found child 6767 in scoreboard slot 7 ,1
 edbc6a4f,jk2_init ( ) Found child 6765 in scoreboard slot 8 ,1
-7f961237,jk2_init ( ) Found child 6768 in scoreboard slot 9 ,1
 9bd71130,jk2_init ( ) Found child 8527 in scoreboard slot 10 ,1
 b13c70d9,jk2_init ( ) Found child 8533 in scoreboard slot 8 ,1
 5bdd7505,jk2_init ( ) Found child 8536 in scoreboard slot 6 ,1
@@ -78,26 +74,22 @@ fbf9177e,jk2_init ( ) Found child 32419 in scoreboard slot 6 ,1
 2bce150a,jk2_init ( ) Found child 32421 in scoreboard slot 11 ,1
 6e239c3e,jk2_init ( ) Found child 32420 in scoreboard slot 7 ,1
 bee2999d,jk2_init ( ) Found child 32424 in scoreboard slot 10 ,1
-90f57e44,jk2_init ( ) Found child 32425 in scoreboard slot 6 ,1
+972dede0,jk2_init ( ) Found child <*> in scoreboard slot 6 ,19
 6a59afda,jk2_init ( ) Found child 32432 in scoreboard slot 7 ,1
 94bd324e,jk2_init ( ) Found child 32434 in scoreboard slot 9 ,1
 0dc8447f,jk2_init ( ) Found child 32433 in scoreboard slot 8 ,1
 7442e29d,jk2_init ( ) Found child 32435 in scoreboard slot 10 ,1
-b14111fb,jk2_init ( ) Found child 32436 in scoreboard slot 6 ,1
 f855bf3f,jk2_init ( ) Found child 32437 in scoreboard slot 7 ,1
 baf17013,jk2_init ( ) Found child 32438 in scoreboard slot 8 ,1
-a8d9047c,jk2_init ( ) Found child 32440 in scoreboard slot 10 ,1
+f080bee6,jk2_init ( ) Found child <*> in scoreboard slot <*> ,2
 12b3812a,jk2_init ( ) Found child 32439 in scoreboard slot 9 ,1
-0228e047,jk2_init ( ) Found child 32441 in scoreboard slot 6 ,1
 18444bf5,jk2_init ( ) Found child 32442 in scoreboard slot 7 ,1
 5069ec65,jk2_init ( ) Found child 32443 in scoreboard slot 8 ,1
 32b341aa,jk2_init ( ) Found child 32444 in scoreboard slot 9 ,1
 6e6c42ac,jk2_init ( ) Found child 32445 in scoreboard slot 10 ,1
 b37ca180,jk2_init ( ) Found child 32447 in scoreboard slot 7 ,1
-b27a247a,jk2_init ( ) Found child 32446 in scoreboard slot 6 ,1
 7163b95d,jk2_init ( ) Found child 32448 in scoreboard slot 8 ,1
 fff8ffdd,jk2_init ( ) Found child 32449 in scoreboard slot 9 ,1
-cdbec4f6,jk2_init ( ) Found child 32450 in scoreboard slot 10 ,1
 c51d3cae,jk2_init ( ) Found child 32452 in scoreboard slot 7 ,1
 eb16b2c6,jk2_init ( ) Found child 32451 in scoreboard slot 6 ,1
 35b1af81,jk2_init ( ) Found child 32454 in scoreboard slot 7 ,1
@@ -131,7 +123,7 @@ f779feb8,jk2_init ( ) Found child 32554 in scoreboard slot 10 ,1
 a111b03f,jk2_init ( ) Found child 32556 in scoreboard slot 8 ,1
 4229a830,jk2_init ( ) Found child 32555 in scoreboard slot 6 ,1
 04b0df79,jk2_init ( ) Found child 32557 in scoreboard slot 7 ,1
-4bc1a741,jk2_init ( ) Found child <*> in scoreboard slot 9 ,10
+85c19816,jk2_init ( ) Found child 32558 in scoreboard slot 9 ,1
 1823cc51,jk2_init ( ) Found child 32560 in scoreboard slot 6 ,1
 a6e63764,jk2_init ( ) Found child 32561 in scoreboard slot 8 ,1
 e4ea1981,jk2_init ( ) Found child 32563 in scoreboard slot 9 ,1
@@ -177,7 +169,6 @@ b9d401ff,jk2_init ( ) Found child 32627 in scoreboard slot 9 ,1
 9e8c2fe9,jk2_init ( ) Found child 32634 in scoreboard slot 11 ,1
 7a168152,jk2_init ( ) Found child 32632 in scoreboard slot 7 ,1
 b437ef4d,jk2_init ( ) Found child 32636 in scoreboard slot 6 ,1
-04de1a66,jk2_init ( ) Found child 32637 in scoreboard slot 7 ,1
 0d4acdb0,jk2_init ( ) Found child 32638 in scoreboard slot 9 ,1
 831c969a,jk2_init ( ) Found child 32640 in scoreboard slot 8 ,1
 1969f1d9,jk2_init ( ) Found child 32641 in scoreboard slot 6 ,1
@@ -186,7 +177,6 @@ b437ef4d,jk2_init ( ) Found child 32636 in scoreboard slot 6 ,1
 fce9f774,jk2_init ( ) Found child 32648 in scoreboard slot 9 ,1
 4050c5ae,jk2_init ( ) Found child 32652 in scoreboard slot 7 ,1
 c8a134e3,jk2_init ( ) Found child 32649 in scoreboard slot 10 ,1
-972dede0,jk2_init ( ) Found child <*> in scoreboard slot 6 ,13
 d0ee04fb,jk2_init ( ) Found child 32650 in scoreboard slot 8 ,1
 8a1cbb1e,jk2_init ( ) Found child 32658 in scoreboard slot 10 ,1
 745ba83e,jk2_init ( ) Found child 32659 in scoreboard slot 8 ,1
@@ -199,13 +189,15 @@ d1b36ff4,jk2_init ( ) Found child 32668 in scoreboard slot 10 ,1
 2b418783,jk2_init ( ) Found child 32671 in scoreboard slot 7 ,1
 375cd9df,jk2_init ( ) Found child 32674 in scoreboard slot 8 ,1
 2ebb5aab,jk2_init ( ) Found child 32672 in scoreboard slot 9 ,1
-f080bee6,jk2_init ( ) Found child <*> in scoreboard slot <*> ,4
+a0665eed,jk2_init ( ) Found child 32673 in scoreboard slot 10 ,1
 5c7fe2af,jk2_init ( ) Found child 32675 in scoreboard slot 6 ,1
 10b25d06,jk2_init ( ) Found child 32677 in scoreboard slot 7 ,1
 2a4cee52,jk2_init ( ) Found child 32676 in scoreboard slot 9 ,1
+f9c90a00,jk2_init ( ) Found child 32678 in scoreboard slot 10 ,1
 7df21b61,jk2_init ( ) Found child 32679 in scoreboard slot 8 ,1
 7677d04c,jk2_init ( ) Found child 32681 in scoreboard slot 9 ,1
 118347e0,jk2_init ( ) Found child 32682 in scoreboard slot 7 ,1
+a4a669c9,jk2_init ( ) Found child 32683 in scoreboard slot 10 ,1
 f78d5313,jk2_init ( ) Found child 32685 in scoreboard slot 6 ,1
 c1d0a455,jk2_init ( ) Found child 32688 in scoreboard slot 11 ,1
 95c654b2,jk2_init ( ) Found child 32695 in scoreboard slot 8 ,1
@@ -234,43 +226,43 @@ b42e6df9,jk2_init ( ) Found child 32761 in scoreboard slot 6 ,1
 7fff04f0,jk2_init ( ) Found child 32762 in scoreboard slot 9 ,1
 2d6279df,jk2_init ( ) Found child 32763 in scoreboard slot 10 ,1
 64489974,jk2_init ( ) Found child 308 in scoreboard slot 8 ,1
+17042f5a,jk2_init ( ) Found child 310 in scoreboard slot 6 ,1
 9bedd272,jk2_init ( ) Found child 309 in scoreboard slot 7 ,1
-414ee01a,jk2_init ( ) Found child 311 in scoreboard slot 9 ,1
 d9de8654,jk2_init ( ) Found child 312 in scoreboard slot 10 ,1
 e115fe34,jk2_init ( ) Found child 313 in scoreboard slot 8 ,1
 45d0acd6,jk2_init ( ) Found child 314 in scoreboard slot 7 ,1
-2c74f18d,jk2_init ( ) Found child 316 in scoreboard slot 9 ,1
+fafb1ae0,jk2_init ( ) Found child 315 in scoreboard slot 6 ,1
 60eee820,jk2_init ( ) Found child 319 in scoreboard slot 7 ,1
 a5a8ab4a,jk2_init ( ) Found child 317 in scoreboard slot 10 ,1
 ec4202a2,jk2_init ( ) Found child 318 in scoreboard slot 8 ,1
-e42cc5cb,jk2_init ( ) Found child 321 in scoreboard slot 9 ,1
 b8b91f6c,jk2_init ( ) Found child 324 in scoreboard slot 11 ,1
 dd54578f,jk2_init ( ) Found child 323 in scoreboard slot 8 ,1
-63d9f92a,jk2_init ( ) Found child 350 in scoreboard slot 9 ,1
 2e8cdccd,jk2_init ( ) Found child 353 in scoreboard slot 12 ,1
 5a554d70,jk2_init ( ) Found child 352 in scoreboard slot 11 ,1
 78b8f167,jk2_init ( ) Found child 349 in scoreboard slot 8 ,1
 f0fc046d,jk2_init ( ) Found child 348 in scoreboard slot 7 ,1
 716ce2cf,jk2_init ( ) Found child 347 in scoreboard slot 6 ,1
 897a4459,jk2_init ( ) Found child 351 in scoreboard slot 10 ,1
-9d86a9e9,[ client <*> ] Directory index forbidden by rule : /var/www/html/ ,14
+1cd23e66,[ client 63.13.186.196 ] Directory index forbidden by rule : /var/www/html/ ,1
+1f502fc5,[ client 147.31.138.75 ] Directory index forbidden by rule : /var/www/html/ ,1
 e1714a44,[ client 207.203.80.15 ] Directory index forbidden by rule : /var/www/html/ ,1
-d1994f78,[ client 218.76.139.20 ] Directory index forbidden by rule : /var/www/html/ ,1
-8ecdddba,[ client 24.147.151.74 ] Directory index forbidden by rule : /var/www/html/ ,1
+9d86a9e9,[ client <*> ] Directory index forbidden by rule : /var/www/html/ ,15
+792526e3,[ client 211.141.93.88 ] Directory index forbidden by rule : /var/www/html/ ,1
 be8aa956,[ client 216.127.124.16 ] Directory index forbidden by rule : /var/www/html/ ,1
 0eba6cb5,[ client 208.51.151.210 ] Directory index forbidden by rule : /var/www/html/ ,1
 902670f8,[ client 65.68.235.27 ] Directory index forbidden by rule : /var/www/html/ ,1
-d05cf2fe,[ client 67.154.58.130 ] Directory index forbidden by rule : /var/www/html/ ,1
-ed8f8a12,[ client 24.83.37.136 ] Directory index forbidden by rule : /var/www/html/ ,1
+69346236,[ client 4.245.93.87 ] Directory index forbidden by rule : /var/www/html/ ,1
 da6c4632,jk2_init ( ) Found child 1219 in scoreboard slot 6 ,1
-c0a4a9c8,[ client 58.225.62.140 ] Directory index forbidden by rule : /var/www/html/ ,1
 b8bc7e0d,jk2_init ( ) Found child 1248 in scoreboard slot 7 ,1
+089ad05d,jk2_init ( ) Found child 1253 in scoreboard slot 9 ,1
 b2a61176,jk2_init ( ) Found child 1254 in scoreboard slot 7 ,1
 5e9642cc,jk2_init ( ) Found child 1256 in scoreboard slot 6 ,1
 6f22eaf0,jk2_init ( ) Found child 1255 in scoreboard slot 8 ,1
+98e55945,jk2_init ( ) Found child 1262 in scoreboard slot 9 ,1
 ddea4db9,jk2_init ( ) Found child 1275 in scoreboard slot 6 ,1
+90ea42c1,jk2_init ( ) Found child 1276 in scoreboard slot 9 ,1
 b0db4798,jk2_init ( ) Found child 1277 in scoreboard slot 7 ,1
-be2f7c5a,jk2_init ( ) Found child <*> in scoreboard slot 8 ,15
+dc9f7501,jk2_init ( ) Found child 1278 in scoreboard slot 8 ,1
 9227ebd5,jk2_init ( ) Found child 1283 in scoreboard slot 6 ,1
 af86cebb,jk2_init ( ) Found child 1284 in scoreboard slot 9 ,1
 16870743,jk2_init ( ) Found child 1288 in scoreboard slot 9 ,1
@@ -298,6 +290,7 @@ a4d73a87,jk2_init ( ) Found child 1336 in scoreboard slot 10 ,1
 f3ec6ec5,jk2_init ( ) Found child 1335 in scoreboard slot 9 ,1
 fc85075e,jk2_init ( ) Found child 1358 in scoreboard slot 8 ,1
 1a5a8f40,jk2_init ( ) Found child 1356 in scoreboard slot 6 ,1
+f6462afb,jk2_init ( ) Found child 1354 in scoreboard slot 9 ,1
 bda0be4d,jk2_init ( ) Found child 1357 in scoreboard slot 7 ,1
 ee817b2a,jk2_init ( ) Found child 1355 in scoreboard slot 10 ,1
 5f493a8e,jk2_init ( ) Found child 1375 in scoreboard slot 9 ,1
@@ -323,31 +316,32 @@ f8f44e83,jk2_init ( ) Found child 1441 in scoreboard slot 9 ,1
 471f5b90,jk2_init ( ) Found child 1440 in scoreboard slot 8 ,1
 93dca295,jk2_init ( ) Found child 1452 in scoreboard slot 7 ,1
 64793e58,jk2_init ( ) Found child 1461 in scoreboard slot 8 ,1
+5cd6c0bb,jk2_init ( ) Found child 1462 in scoreboard slot 6 ,1
 95a0e7e0,jk2_init ( ) Found child 1466 in scoreboard slot 8 ,1
 dd276492,jk2_init ( ) Found child 1470 in scoreboard slot 7 ,1
+a7a704d0,jk2_init ( ) Found child 1477 in scoreboard slot 6 ,1
 380077eb,jk2_init ( ) Found child 1476 in scoreboard slot 8 ,1
 d68c25c1,jk2_init ( ) Found child 1501 in scoreboard slot 7 ,1
+92df9663,jk2_init ( ) Found child 1502 in scoreboard slot 6 ,1
 92a40963,jk2_init ( ) Found child 1498 in scoreboard slot 8 ,1
 e55bd66c,jk2_init ( ) Found child 1499 in scoreboard slot 11 ,1
 345b5d81,jk2_init ( ) Found child 1503 in scoreboard slot 9 ,1
 a6f3d1a4,jk2_init ( ) Found child 1504 in scoreboard slot 8 ,1
 b6015808,jk2_init ( ) Found child 1507 in scoreboard slot 10 ,1
 ff482d35,[ client 61.138.216.82 ] Directory index forbidden by rule : /var/www/html/ ,1
-a7f0e6b6,jk2_init ( ) Found child 1512 in scoreboard slot 7 ,1
-5301f9f4,jk2_init ( ) Found child 1517 in scoreboard slot 7 ,1
-f34fd96d,jk2_init ( ) Found child 1520 in scoreboard slot 8 ,1
+c329635f,jk2_init ( ) Found child 1513 in scoreboard slot 6 ,1
+813eb565,jk2_init ( ) Found child 1518 in scoreboard slot 6 ,1
+be2f7c5a,jk2_init ( ) Found child <*> in scoreboard slot 8 ,8
 0e79fcfc,jk2_init ( ) Found child 1521 in scoreboard slot 10 ,1
-cbc707f4,jk2_init ( ) Found child 1529 in scoreboard slot 9 ,1
-8f69bff5,jk2_init ( ) Found child 1530 in scoreboard slot 8 ,1
-c525b8ac,jk2_init ( ) Found child 1528 in scoreboard slot 7 ,1
+b42b2308,jk2_init ( ) Found child 1527 in scoreboard slot 6 ,1
 ccf317c8,jk2_init ( ) Found child 1565 in scoreboard slot 9 ,1
 dc6a20d3,jk2_init ( ) Ca n't find child 1566 in scoreboard ,1
+ab2a159b,jk2_init ( ) Found child 1561 in scoreboard slot 6 ,1
 441e2834,jk2_init ( ) Found child 1563 in scoreboard slot 8 ,1
-01855027,jk2_init ( ) Found child <*> in scoreboard slot 7 ,13
+d9536f11,jk2_init ( ) Found child 1562 in scoreboard slot 7 ,1
 a5d0f1de,jk2_init ( ) Ca n't find child 1567 in scoreboard ,1
 f12189c3,jk2_init ( ) Found child 1568 in scoreboard slot 13 ,1
 7be07888,mod_jk child init 1 -2 ,12
-c7c74e3d,jk2_init ( ) Found child 1763 in scoreboard slot 6 ,1
 4ca6b541,jk2_init ( ) Found child 1786 in scoreboard slot 8 ,1
 b6b4cedf,jk2_init ( ) Found child 1787 in scoreboard slot 9 ,1
 6e62e8ef,jk2_init ( ) Found child 1788 in scoreboard slot 6 ,1
@@ -357,22 +351,26 @@ decc821b,jk2_init ( ) Found child 1797 in scoreboard slot 9 ,1
 7c9abe48,jk2_init ( ) Found child 1798 in scoreboard slot 6 ,1
 f04e5e7f,jk2_init ( ) Found child 1799 in scoreboard slot 7 ,1
 666e076c,jk2_init ( ) Found child 1800 in scoreboard slot 10 ,1
+4e62972f,jk2_init ( ) Found child 1801 in scoreboard slot 12 ,1
 747b8deb,jk2_init ( ) Found child 1816 in scoreboard slot 9 ,1
-4864977c,jk2_init ( ) Found child 1813 in scoreboard slot 6 ,1
+ac1ebccc,jk2_init ( ) Found child 1814 in scoreboard slot 7 ,1
 c27fdb8d,jk2_init ( ) Found child 1815 in scoreboard slot 8 ,1
-f58ecfaa,jk2_init ( ) Found child 1821 in scoreboard slot 6 ,1
+0c0f1199,jk2_init ( ) Found child 1822 in scoreboard slot 7 ,1
+d2b19373,jk2_init ( ) Found child 1823 in scoreboard slot 8 ,1
 787fedfd,jk2_init ( ) Found child 1824 in scoreboard slot 9 ,1
 093030a0,jk2_init ( ) Found child 1833 in scoreboard slot 7 ,1
 34b0f6b8,jk2_init ( ) Found child 1832 in scoreboard slot 6 ,1
-8a63b926,jk2_init ( ) Found child 1835 in scoreboard slot 9 ,1
+59c5eb0c,jk2_init ( ) Found child 1834 in scoreboard slot 8 ,1
 573ac036,jk2_init ( ) Found child 1836 in scoreboard slot 6 ,1
 6a823de7,jk2_init ( ) Found child 1837 in scoreboard slot 7 ,1
 a5c4d276,jk2_init ( ) Found child 1851 in scoreboard slot 6 ,1
-33ae448e,jk2_init ( ) Found child 1852 in scoreboard slot 9 ,1
-063e707f,jk2_init ( ) Found child 1853 in scoreboard slot 7 ,1
 9a146448,jk2_init ( ) Found child 1850 in scoreboard slot 8 ,1
+42877abe,jk2_init ( ) Found child 1861 in scoreboard slot 8 ,1
 81acd2c0,jk2_init ( ) Found child 1862 in scoreboard slot 6 ,1
+f1aacd80,jk2_init ( ) Found child 1867 in scoreboard slot 8 ,1
+a46ca34d,jk2_init ( ) Found child 1864 in scoreboard slot 7 ,1
 06be4305,jk2_init ( ) Found child 1868 in scoreboard slot 6 ,1
+8d154e32,jk2_init ( ) Found child 1863 in scoreboard slot 9 ,1
 84e83e73,jk2_init ( ) Found child 1887 in scoreboard slot 8 ,1
 77056217,jk2_init ( ) Found child 1885 in scoreboard slot 9 ,1
 405c9948,jk2_init ( ) Found child 1888 in scoreboard slot 6 ,1
@@ -381,11 +379,15 @@ b4e11984,jk2_init ( ) Found child 1899 in scoreboard slot 7 ,1
 dbbe90e8,jk2_init ( ) Found child 1900 in scoreboard slot 8 ,1
 a723f8c1,jk2_init ( ) Found child 1901 in scoreboard slot 6 ,1
 43a436f1,jk2_init ( ) Found child 1898 in scoreboard slot 9 ,1
+c07b9f46,jk2_init ( ) Found child 1912 in scoreboard slot 9 ,1
 255fa4f5,jk2_init ( ) Found child 1915 in scoreboard slot 6 ,1
+b9b8d6d8,jk2_init ( ) Found child 1913 in scoreboard slot 7 ,1
+f43a1e6a,jk2_init ( ) Found child 1914 in scoreboard slot 8 ,1
 2dcd9531,jk2_init ( ) Found child 1931 in scoreboard slot 7 ,1
 50460a0a,jk2_init ( ) Found child 1932 in scoreboard slot 8 ,1
 6c268d8c,jk2_init ( ) Found child 1933 in scoreboard slot 6 ,1
 b3573247,jk2_init ( ) Found child 1934 in scoreboard slot 9 ,1
+66f55e0d,jk2_init ( ) Found child 1936 in scoreboard slot 8 ,1
 1a93e76d,jk2_init ( ) Found child 1935 in scoreboard slot 7 ,1
 26c4c858,jk2_init ( ) Found child 1937 in scoreboard slot 6 ,1
 fe4b0c81,jk2_init ( ) Found child 1938 in scoreboard slot 9 ,1
@@ -393,9 +395,6 @@ fe4b0c81,jk2_init ( ) Found child 1938 in scoreboard slot 9 ,1
 ab335ab1,jk2_init ( ) Found child 1951 in scoreboard slot 7 ,1
 fae4537c,jk2_init ( ) Found child 1949 in scoreboard slot 6 ,1
 4af12df8,jk2_init ( ) Found child 1948 in scoreboard slot 8 ,1
-67b4e37a,jk2_init ( ) Found child 1957 in scoreboard slot 8 ,1
-dd081842,jk2_init ( ) Found child 1959 in scoreboard slot 9 ,1
-40e69f5c,jk2_init ( ) Found child 1958 in scoreboard slot 6 ,1
 7503a9c0,jk2_init ( ) Found child 1961 in scoreboard slot 8 ,1
 af588e1d,jk2_init ( ) Found child 1962 in scoreboard slot 6 ,1
 1e899798,jk2_init ( ) Found child 1963 in scoreboard slot 9 ,1
@@ -409,31 +408,25 @@ a84eab58,jk2_init ( ) Found child 1990 in scoreboard slot 9 ,1
 551900f2,jk2_init ( ) Found child 1999 in scoreboard slot 6 ,1
 e1cc3a34,jk2_init ( ) Found child 2000 in scoreboard slot 7 ,1
 f5c318b0,jk2_init ( ) Found child 1998 in scoreboard slot 9 ,1
-7e457080,jk2_init ( ) Found child 2002 in scoreboard slot 8 ,1
 27162778,jk2_init ( ) Found child 2001 in scoreboard slot 9 ,1
-cbdf622b,jk2_init ( ) Found child 2005 in scoreboard slot 7 ,1
-e8e86e29,jk2_init ( ) Found child 2004 in scoreboard slot 6 ,1
 caa8637f,jk2_init ( ) Found child 2007 in scoreboard slot 8 ,1
-b81e56ee,jk2_init ( ) Found child 2006 in scoreboard slot 9 ,1
 5c869d28,jk2_init ( ) Found child 2008 in scoreboard slot 6 ,1
 8a25bed5,jk2_init ( ) Found child 2028 in scoreboard slot 9 ,1
 32f6f099,jk2_init ( ) Found child 2027 in scoreboard slot 7 ,1
 c75d9b70,jk2_init ( ) Found child 2029 in scoreboard slot 8 ,1
 713c3bc1,jk2_init ( ) Found child 2030 in scoreboard slot 6 ,1
 32c5bde8,jk2_init ( ) Found child 2031 in scoreboard slot 7 ,1
+d7330315,jk2_init ( ) Found child 2032 in scoreboard slot 9 ,1
 e04a2bbe,jk2_init ( ) Found child 2042 in scoreboard slot 8 ,1
 9d07b5ce,jk2_init ( ) Found child 2045 in scoreboard slot 9 ,1
 c9283eed,jk2_init ( ) Found child 2051 in scoreboard slot 8 ,1
 a9a21106,jk2_init ( ) Found child 2059 in scoreboard slot 7 ,1
+6dbde18b,jk2_init ( ) Found child 2060 in scoreboard slot 9 ,1
 532f2ed7,jk2_init ( ) Found child 2061 in scoreboard slot 8 ,1
 5d69c085,jk2_init ( ) Found child 2081 in scoreboard slot 6 ,1
-8ccc9a7d,jk2_init ( ) Ca n't find child 2082 in scoreboard ,1
+8222359c,jk2_init ( ) <*> <*> <*> child <*> in scoreboard ,4
 e574e640,jk2_init ( ) Found child 2083 in scoreboard slot 8 ,1
-01ac19a6,jk2_init ( ) Ca n't find child 2085 in scoreboard ,1
-cb5df221,jk2_init ( ) Ca n't find child 2086 in scoreboard ,1
-c7a24def,jk2_init ( ) Ca n't find child 2087 in scoreboard ,1
-96acf56b,[ client 218.62.18.218 ] Directory index forbidden by rule : /var/www/html/ ,1
-a5b13929,[ client 211.62.201.48 ] Directory index forbidden by rule : /var/www/html/ ,1
+4e5c30ac,jk2_init ( ) Found child 2084 in scoreboard slot 9 ,1
 5046483a,jk2_init ( ) Found child 2760 in scoreboard slot 6 ,1
 f12a6dfe,jk2_init ( ) Found child 2763 in scoreboard slot 7 ,1
 a2b05c8c,[ client 218.207.61.7 ] Directory index forbidden by rule : /var/www/html/ ,1
@@ -447,21 +440,25 @@ b00583bb,jk2_init ( ) Found child 2824 in scoreboard slot 10 ,1
 0e65ac5b,jk2_init ( ) Found child 2838 in scoreboard slot 10 ,1
 e1ea1e56,jk2_init ( ) Found child 2836 in scoreboard slot 9 ,1
 de91cc00,jk2_init ( ) Found child 2837 in scoreboard slot 6 ,1
+8007ad5d,jk2_init ( ) Found child 2840 in scoreboard slot 8 ,1
 372a4f0a,jk2_init ( ) Found child 2841 in scoreboard slot 6 ,1
 43a8305a,jk2_init ( ) Found child 2842 in scoreboard slot 9 ,1
 c40ceae1,jk2_init ( ) Found child 2846 in scoreboard slot 9 ,1
 f4e86429,jk2_init ( ) Found child 2843 in scoreboard slot 7 ,1
+7d4a844c,jk2_init ( ) Found child 2844 in scoreboard slot 8 ,1
 710d848a,jk2_init ( ) Found child 2845 in scoreboard slot 6 ,1
 b91fe3de,jk2_init ( ) Found child 2857 in scoreboard slot 9 ,1
 c0baaa07,jk2_init ( ) Found child 2854 in scoreboard slot 7 ,1
 e8678cf0,jk2_init ( ) Found child 2855 in scoreboard slot 8 ,1
 9da36cfb,jk2_init ( ) Found child 2856 in scoreboard slot 6 ,1
 0d6c2825,jk2_init ( ) Found child 2866 in scoreboard slot 7 ,1
+8278a2f7,jk2_init ( ) Found child 2867 in scoreboard slot 8 ,1
 37308cb6,jk2_init ( ) Found child 2865 in scoreboard slot 9 ,1
 6d8573d3,jk2_init ( ) Found child 2864 in scoreboard slot 6 ,1
 01642594,jk2_init ( ) Found child 2877 in scoreboard slot 10 ,1
 652068f9,jk2_init ( ) Found child 2883 in scoreboard slot 9 ,1
 7a415ab4,jk2_init ( ) Found child 2878 in scoreboard slot 7 ,1
+37381903,jk2_init ( ) Found child 2880 in scoreboard slot 8 ,1
 bd4068fc,jk2_init ( ) Found child 2879 in scoreboard slot 6 ,1
 754e4d6d,jk2_init ( ) Found child 3667 in scoreboard slot 7 ,1
 e650c88b,jk2_init ( ) Found child 3669 in scoreboard slot 6 ,1
@@ -496,11 +493,9 @@ e49abe15,jk2_init ( ) Found child 4612 in scoreboard slot 6 ,1
 e4962726,jk2_init ( ) Found child 4615 in scoreboard slot 9 ,1
 57c53bfc,jk2_init ( ) Found child 4616 in scoreboard slot 6 ,1
 dec62772,jk2_init ( ) Found child 4617 in scoreboard slot 7 ,1
-30cbd265,jk2_init ( ) Found child 4618 in scoreboard slot 8 ,1
 f3d95792,jk2_init ( ) Found child 4634 in scoreboard slot 6 ,1
 775020a5,jk2_init ( ) Found child 4637 in scoreboard slot 7 ,1
 4de00c12,jk2_init ( ) Found child 4631 in scoreboard slot 9 ,1
-da0dd00a,jk2_init ( ) Found child 4630 in scoreboard slot 8 ,1
 92fe22e5,jk2_init ( ) Found child 4820 in scoreboard slot 8 ,1
 87648da2,jk2_init ( ) Found child 4821 in scoreboard slot 10 ,1
 e1bd963f,jk2_init ( ) Found child 4893 in scoreboard slot 7 ,1
@@ -536,10 +531,8 @@ eae78f3e,jk2_init ( ) Found child 4991 in scoreboard slot 6 ,1
 2993c88f,jk2_init ( ) Found child 4998 in scoreboard slot 8 ,1
 7e316d2e,jk2_init ( ) Found child 4999 in scoreboard slot 6 ,1
 b0cc5fc5,jk2_init ( ) Found child 5000 in scoreboard slot 7 ,1
-ff3f3dc9,jk2_init ( ) Found child 5001 in scoreboard slot 9 ,1
 ac2ac749,jk2_init ( ) Found child 5002 in scoreboard slot 8 ,1
 f4e33f31,jk2_init ( ) Found child 5003 in scoreboard slot 6 ,1
-0b316894,jk2_init ( ) Found child 5005 in scoreboard slot 9 ,1
 57bd4975,jk2_init ( ) Found child 5006 in scoreboard slot 8 ,1
 9f1ebf8c,jk2_init ( ) Found child 5007 in scoreboard slot 6 ,1
 1e48f3a7,jk2_init ( ) Found child 5008 in scoreboard slot 7 ,1
@@ -566,7 +559,6 @@ fbed45a8,jk2_init ( ) Found child 5036 in scoreboard slot 9 ,1
 30789ed9,jk2_init ( ) Ca n't find child 5053 in scoreboard ,1
 f9909447,jk2_init ( ) Ca n't find child 5054 in scoreboard ,1
 08352d40,jk2_init ( ) Found child 5052 in scoreboard slot 10 ,1
-80b7fa39,[ client 207.12.15.211 ] Directory index forbidden by rule : /var/www/html/ ,1
 0f7a983d,jk2_init ( ) Found child 5270 in scoreboard slot 6 ,1
 180ff2f5,jk2_init ( ) Found child 5295 in scoreboard slot 8 ,1
 bfc0f522,jk2_init ( ) Found child 5330 in scoreboard slot 9 ,1
@@ -602,19 +594,15 @@ ba91a14c,jk2_init ( ) Found child 5434 in scoreboard slot 6 ,1
 b15e2478,jk2_init ( ) Found child 5432 in scoreboard slot 8 ,1
 ba241f5f,jk2_init ( ) Found child 5470 in scoreboard slot 9 ,1
 fd724ead,jk2_init ( ) Found child 5469 in scoreboard slot 8 ,1
-e0a25e88,jk2_init ( ) Found child 5474 in scoreboard slot 9 ,1
 59d31fa0,jk2_init ( ) Found child 5475 in scoreboard slot 6 ,1
-efe02000,jk2_init ( ) Found child 5482 in scoreboard slot 9 ,1
 3139e55f,jk2_init ( ) Found child 5480 in scoreboard slot 7 ,1
 574e96a1,jk2_init ( ) Found child 5479 in scoreboard slot 6 ,1
 eb239d19,jk2_init ( ) Found child 5481 in scoreboard slot 8 ,1
 5c994e6d,jk2_init ( ) Found child 5484 in scoreboard slot 7 ,1
 88dd6fdd,jk2_init ( ) Found child 5483 in scoreboard slot 6 ,1
 14872bdc,jk2_init ( ) Found child 5497 in scoreboard slot 7 ,1
-006e2757,jk2_init ( ) Found child 5495 in scoreboard slot 9 ,1
 d1bf1150,jk2_init ( ) Found child 5494 in scoreboard slot 8 ,1
 b0a71f21,jk2_init ( ) Found child 5496 in scoreboard slot 6 ,1
-a28fb0ff,jk2_init ( ) Found child 5499 in scoreboard slot 9 ,1
 bdbc7276,jk2_init ( ) Found child 5498 in scoreboard slot 8 ,1
 2f7171e9,jk2_init ( ) Found child 5500 in scoreboard slot 6 ,1
 b60d464d,jk2_init ( ) Found child 5503 in scoreboard slot 10 ,1
@@ -638,7 +626,10 @@ d2502e3c,jk2_init ( ) Found child 5579 in scoreboard slot 6 ,1
 193c435d,jk2_init ( ) Found child 5616 in scoreboard slot 6 ,1
 0b857dd9,jk2_init ( ) Found child 5617 in scoreboard slot 7 ,1
 15a1cf36,jk2_init ( ) Found child 5618 in scoreboard slot 8 ,1
-8222359c,jk2_init ( ) <*> <*> <*> child <*> in scoreboard ,4
+9dc9d33b,jk2_init ( ) Ca n't find child 5619 in scoreboard ,1
+53eb1c8f,jk2_init ( ) Ca n't find child 5620 in scoreboard ,1
+8e7f3a85,jk2_init ( ) Ca n't find child 5621 in scoreboard ,1
+6dced94c,jk2_init ( ) Ca n't find child 5622 in scoreboard ,1
 9735fbca,jk2_init ( ) Found child 5785 in scoreboard slot 6 ,1
 745131d9,jk2_init ( ) Found child 5786 in scoreboard slot 7 ,1
 9eb6ef3e,jk2_init ( ) Found child 5790 in scoreboard slot 7 ,1
@@ -666,13 +657,10 @@ d91eba4c,jk2_init ( ) Found child 5900 in scoreboard slot 8 ,1
 fcaa0fc3,jk2_init ( ) Found child 5898 in scoreboard slot 6 ,1
 66c7e885,jk2_init ( ) Found child 5912 in scoreboard slot 7 ,1
 ae493b80,jk2_init ( ) Found child 5914 in scoreboard slot 9 ,1
-05c1a9f2,jk2_init ( ) Found child 5915 in scoreboard slot 6 ,1
 7b355d6b,jk2_init ( ) Found child 5917 in scoreboard slot 8 ,1
 e644926d,jk2_init ( ) Found child 5916 in scoreboard slot 7 ,1
-76a14db7,jk2_init ( ) Found child 5919 in scoreboard slot 6 ,1
 0fd34c69,jk2_init ( ) Found child 5918 in scoreboard slot 9 ,1
 09bcc688,jk2_init ( ) Found child 5925 in scoreboard slot 8 ,1
-d054cedb,jk2_init ( ) Found child 5923 in scoreboard slot 6 ,1
 a673299d,jk2_init ( ) Found child 5924 in scoreboard slot 7 ,1
 5e31da64,jk2_init ( ) Found child 5922 in scoreboard slot 9 ,1
 d319711b,jk2_init ( ) Found child 5935 in scoreboard slot 9 ,1
@@ -688,7 +676,6 @@ bf3b2550,jk2_init ( ) Found child 5941 in scoreboard slot 7 ,1
 fc67105f,jk2_init ( ) Found child 5956 in scoreboard slot 9 ,1
 88f0678c,jk2_init ( ) Found child 5957 in scoreboard slot 6 ,1
 dc986a92,jk2_init ( ) Found child 5955 in scoreboard slot 8 ,1
-b84e05fe,jk2_init ( ) Found child 5961 in scoreboard slot 6 ,1
 922b1ae4,jk2_init ( ) Found child 5960 in scoreboard slot 9 ,1
 62f1a37c,jk2_init ( ) Found child 5968 in scoreboard slot 9 ,1
 849c025c,jk2_init ( ) Found child 5965 in scoreboard slot 6 ,1
@@ -699,7 +686,6 @@ bd17adf5,jk2_init ( ) Found child 5966 in scoreboard slot 7 ,1
 a7ea7972,jk2_init ( ) Found child 5971 in scoreboard slot 7 ,1
 34c0ece7,jk2_init ( ) Found child 5972 in scoreboard slot 8 ,1
 aabbf136,jk2_init ( ) Found child 5981 in scoreboard slot 9 ,1
-6de2d720,jk2_init ( ) Found child 5982 in scoreboard slot 6 ,1
 32837835,jk2_init ( ) Found child 5984 in scoreboard slot 8 ,1
 6cbd620f,jk2_init ( ) Found child 5985 in scoreboard slot 9 ,1
 85cb186a,jk2_init ( ) Found child 5992 in scoreboard slot 8 ,1
@@ -709,7 +695,6 @@ fc9050ca,jk2_init ( ) Found child 5990 in scoreboard slot 6 ,1
 c95374c3,jk2_init ( ) Found child 5995 in scoreboard slot 7 ,1
 3cedd3e9,jk2_init ( ) Found child 5996 in scoreboard slot 8 ,1
 82d01d25,jk2_init ( ) Found child 5997 in scoreboard slot 9 ,1
-83f981c8,jk2_init ( ) Found child 5998 in scoreboard slot 6 ,1
 ae6ae331,jk2_init ( ) Found child 5999 in scoreboard slot 7 ,1
 147f41c7,jk2_init ( ) Found child 6007 in scoreboard slot 7 ,1
 1a9f216a,jk2_init ( ) Found child 6006 in scoreboard slot 6 ,1
@@ -781,27 +766,35 @@ c72f1403,jk2_init ( ) Found child 6399 in scoreboard slot 6 ,1
 b3cc68a4,jk2_init ( ) Found child 6420 in scoreboard slot 6 ,1
 e998942e,jk2_init ( ) Found child 6421 in scoreboard slot 7 ,1
 dbb784c6,jk2_init ( ) Found child 6422 in scoreboard slot 8 ,1
-3cf53a6d,jk2_init ( ) Found child 6434 in scoreboard slot 7 ,1
 acc04139,jk2_init ( ) Found child 6433 in scoreboard slot 6 ,1
 42bfa766,jk2_init ( ) Found child 6435 in scoreboard slot 8 ,1
-39ce9826,jk2_init ( ) Found child 6437 in scoreboard slot 7 ,1
 92043ec1,jk2_init ( ) Found child 6443 in scoreboard slot 7 ,1
 2858ff63,jk2_init ( ) Found child 6442 in scoreboard slot 6 ,1
 41092a35,jk2_init ( ) Found child 6453 in scoreboard slot 10 ,1
 61473abd,jk2_init ( ) Found child 6451 in scoreboard slot 7 ,1
 b6801749,jk2_init ( ) Found child 6452 in scoreboard slot 8 ,1
+70892c18,[ client 216.216.185.130 ] Directory index forbidden by rule : /var/www/html/ ,1
 64022c1a,jk2_init ( ) Found child 6561 in scoreboard slot 10 ,1
+f1a30b8b,[ client 218.75.106.250 ] Directory index forbidden by rule : /var/www/html/ ,1
 d870f7b5,jk2_init ( ) Found child 6569 in scoreboard slot 8 ,1
+3beb7c40,jk2_init ( ) Found child 6568 in scoreboard slot 7 ,1
+d409aa5c,jk2_init ( ) Found child 6577 in scoreboard slot 7 ,1
 1820adf2,jk2_init ( ) Found child 6578 in scoreboard slot 8 ,1
+91783ae1,jk2_init ( ) Found child 6585 in scoreboard slot 7 ,1
 55fb6872,jk2_init ( ) Found child 6586 in scoreboard slot 8 ,1
 c3635ac4,jk2_init ( ) Found child 6595 in scoreboard slot 8 ,1
+355c7293,jk2_init ( ) Found child 6594 in scoreboard slot 7 ,1
 3e94fe91,jk2_init ( ) Found child 6601 in scoreboard slot 8 ,1
 132d5b42,jk2_init ( ) Found child 6600 in scoreboard slot 7 ,1
 2a0d39ac,jk2_init ( ) Found child 6609 in scoreboard slot 7 ,1
 477a23a7,jk2_init ( ) Found child 6639 in scoreboard slot 7 ,1
+227917e4,jk2_init ( ) Found child 6638 in scoreboard slot 8 ,1
 bba5e10d,jk2_init ( ) Found child 6652 in scoreboard slot 7 ,1
+d0cf00de,jk2_init ( ) Found child 6651 in scoreboard slot 8 ,1
 a3acd400,jk2_init ( ) Found child 6670 in scoreboard slot 7 ,1
+6460a540,jk2_init ( ) Found child 6669 in scoreboard slot 8 ,1
 2fa63193,jk2_init ( ) Found child 6684 in scoreboard slot 7 ,1
+cec4f489,jk2_init ( ) Found child 6688 in scoreboard slot 8 ,1
 1943b8f8,jk2_init ( ) Found child 6689 in scoreboard slot 7 ,1
 09c95dd2,jk2_init ( ) Found child 6707 in scoreboard slot 8 ,1
 3c91cb38,jk2_init ( ) Found child 6708 in scoreboard slot 7 ,1
@@ -814,8 +807,7 @@ ab07cd42,jk2_init ( ) Found child 6741 in scoreboard slot 8 ,1
 601758b5,jk2_init ( ) Found child 6750 in scoreboard slot 8 ,1
 45eb718a,jk2_init ( ) Found child 6749 in scoreboard slot 7 ,1
 72fee4b1,jk2_init ( ) Found child 6751 in scoreboard slot 10 ,1
+52ccb9ae,[ client 68.228.3.15 ] Directory index forbidden by rule : /var/www/html/ ,1
 feb98942,jk2_init ( ) Found child 6780 in scoreboard slot 7 ,1
-353f1ac8,jk2_init ( ) Found child 6784 in scoreboard slot 8 ,1
 e46313f1,[ client 61.220.139.68 ] Directory index forbidden by rule : /var/www/html/ ,1
-331ce3e5,jk2_init ( ) Found child 6791 in scoreboard slot 8 ,1
 1cd2a5ae,jk2_init ( ) Found child 6790 in scoreboard slot 7 ,1
