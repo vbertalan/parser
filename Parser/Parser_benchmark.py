@@ -2,9 +2,9 @@
 
 import sys
 # Path - Windows
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 # Path - Linux
-#sys.path.append('../')
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from fileinput import filename
 import evaluator
 import Parser
