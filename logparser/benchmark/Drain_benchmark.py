@@ -9,8 +9,8 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
-output_dir = 'logparser/results/Drain_result/'  # The output directory of parsing results
+input_dir = "logparser/logs"
+output_dir = "logparser/results/Drain_result/"  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
