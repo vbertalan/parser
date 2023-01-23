@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from logparser.logparser.utils import evaluator
 from logparser.logparser.Drain import Drain
 import os
