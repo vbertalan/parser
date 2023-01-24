@@ -1,4 +1,5 @@
 EventId,EventTemplate,Occurrences
+<<<<<<< HEAD
 ae9e9877,Component State Change : Component \042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\042 is in the unavailable state ( HWID=1973 ) ,1
 00b0c45c,Component State Change : Component \042alt0\042 is in the unavailable state ( HWID=3180 ) ,1
 07acbe46,Component State Change : Component \042alt0\042 is in the unavailable state ( HWID=5089 ) ,1
@@ -188,18 +189,39 @@ d82c8b81,Fan speeds ( 3552 3534 3375 4245 3515 3479 ) ,2
 220962e9,Fan speeds ( 3552 3534 3375 <*> 3515 3479 ) ,3
 67fde663,Fan speeds ( 3552 3534 3375 4470 3515 3479 ) ,1
 f0bbcec7,Fan speeds ( 3552 3534 3375 4192 3515 3479 ) ,1
+=======
+3fdeeebe,Component State Change : Component <*> is in the unavailable state ( <*> ) ,1
+83d9937e,Component State Change : Component \042alt0\042 is in the unavailable state ( <*> ) ,11
+347334c7,<*> <*> <*> <*> <*> ,2
+d0a995db,risBoot ( command 1903 ) ,1
+ecf5ca93,<*> ( command <*> ) ,5
+3619a535,boot ( command <*> ) ,67
+d38036d1,wait ( command <*> ) ,66
+9aecb16e,Command has completed successfully ,10
+9eaf905a,<*> <*> : <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> ,5
+5beb7016,<*> <*> : <*> <*> <*> : <*> <*> <*> <*> <*> <*> ,1
+a9f4bea7,<*> <*> : <*> <*> <*> : <*> ,2
+f1218d9e,<*> <*> : <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> ,1
+212bd88a,psu failure\ ambient=28 ,4
+c6a4f69a,psu failure\ ambient=31 ,1
+1f255dff,<*> <*> <*> <*> <*> warning <*> ,2
+f7d3d4d3,ClusterFileSystem : There is no server for ServerFileSystem domain <*> ,32
+3fe96fa6,NIFF : node <*> detected <*> <*> network connection on network 5.5.224.0 via interface alt0 ,2
+d8197680,ServerFileSystem : <*> ServerFileSystem domain <*> <*> <*> <*> <*> ,1
+cd8d1d6e,Fan speeds ( 3552 3534 3375 * * * * 3515 3479 ) ,52
+220962e9,Fan speeds ( 3552 3534 3375 <*> 3515 3479 ) ,7
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 5fc350f5,Fan speeds ( 3552 3534 3391 * * * * 3515 3479 ) ,15
-5da126e4,Fan speeds ( 3552 3534 3391 4299 3515 3479 ) ,1
-f6514657,Fan speeds ( 3552 3552 3391 * * * * 3515 3497 ) ,2
-f23326bc,Fan speeds ( 3534 3534 3375 * * * * 3497 3479 ) ,10
-6e2d597d,Fan speeds ( 3534 3534 3375 4272 3497 3479 ) ,1
-376c88fa,Fan speeds ( 3534 3534 3375 4470 3497 3479 ) ,1
-b1630bc5,Fan speeds ( 3534 3534 3375 4115 3497 3479 ) ,1
-2d48b5e8,Command has been aborted ,1
-c293b754,power/control problem ,1
+578df3ca,Fan speeds ( 3552 3534 3391 <*> 3515 3479 ) ,1
+2b5b4ab5,Fan speeds ( 3552 3552 3391 * * * * 3515 <*> ) ,2
+9e49d44f,Fan speeds ( 3534 3534 3375 * * * * <*> 3479 ) ,10
+53a535a0,Fan speeds ( 3534 3534 3375 <*> <*> 3479 ) ,3
+4385a88a,Command has <*> <*> ,1
+b5f8f0ab,<*> <*> ,1
 c393ab1d,Link error ,13
 a5882550,Link in reset ,9
 47bf867e,Link ok ,13
+<<<<<<< HEAD
 4521d2a6,Link error on broadcast tree <*> ,2
 3224cf30,Link error on broadcast tree Interconnect-1T00:00:2:0 ,2
 ea88b595,ServerFileSystem : ServerFileSystem domain root14_local is full ,1
@@ -243,16 +265,28 @@ df1b21da,ClusterFileSystem : ServerFileSystem domain root17_domain is no longer 
 b2951640,ClusterFileSystem : ServerFileSystem domain cluster_usr_backup is no longer served by node node-192 ,1
 544fa160,ClusterFileSystem : ServerFileSystem domain cluster_var_backup is no longer served by node node-224 ,1
 bfde4efd,ClusterFileSystem : ServerFileSystem domain root28_domain is no longer served by node node-219 ,1
+=======
+605b6143,<*> <*> on <*> <*> <*> ,4
+0e552d04,ServerFileSystem : ServerFileSystem domain <*> is full ,12
+0937bbff,ClusterFileSystem : ServerFileSystem domain <*> is no longer served by node <*> ,36
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 b3be2b82,running ,162
 42e29531,blocked ,14
 e2b5b958,not responding ,60
 fe1280e2,configured out ,91
+<<<<<<< HEAD
 8ac29d47,inconsistent nodesets <*> <*> < ok > <*> 0x1001fdfe < ok > <*> 0x1001fdfe < ok > <*> 0x1001fdfe < ok > ,1
 a12ddb12,active ,5
 4e4fb217,inconsistent nodesets <*> <*> < ok > <*> 0x000001fe < ok > <*> 0x000001fe < ok > <*> 0x000001fe < ok > ,1
 9e08cdfc,<*> ,8
 5272796a,inconsistent nodesets node-1 0x000001fc < ok > node-2 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x000001fc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > <*> 0x0003fdfc < ok > ,1
 b2d6c1ee,inconsistent nodesets <*> <*> < ok > <*> 0xfffffffe < ok > node-1 0xfffffffe < ok > node-2 0xfffffffe < ok > <*> 0xfffffffe < ok > ,1
+=======
+2494297b,<*> <*> <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > ,2
+9e08cdfc,<*> ,10
+e742f763,<*> <*> <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > ,1
+78140a6b,<*> <*> <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > <*> <*> < ok > ,1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 eb4ff194,normal ,206
 92362443,warning ,205
 ae7a6ae4,ambient=30 ,41
@@ -260,9 +294,10 @@ c35aec7c,critical ,20
 8118df82,ambient=31 ,32
 979d67f0,ambient=29 ,34
 3580be76,ambient=26 ,19
-26ea98dc,ambient=32 ,15
+26ea98dc,ambient=32 ,16
 afa36772,ambient=33 ,34
 a57b7b31,ambient=28 ,30
+<<<<<<< HEAD
 609230eb,ambient=27 ,29
 f58e7c52,ambient=34 ,9
 8844f93e,ambient=35 ,11
@@ -271,11 +306,20 @@ c1ea2bb3,ambient=25 ,20
 5f2a7193,ambient=23 ,1
 b48340b4,ambient=24 ,3
 c3652515,ambient=37 ,1
+=======
+609230eb,ambient=27 ,30
+f58e7c52,ambient=34 ,9
+8844f93e,ambient=35 ,11
+44f71d71,ambient=36 ,10
+c1ea2bb3,ambient=25 ,20
+b48340b4,ambient=24 ,4
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 fa68cf3f,Linkerror event interval expired ,394
-a9e29638,risBoot ( command 1903 ) Error : Timed out while waiting for SRM prompt : < ABORT code completed > ,1
-99bbbde7,boot ( command 2092 ) Error : HALT asserted\ can not continue ,1
-b5e0d4c3,Failed subcommands 3406 ,1
+af6ee584,risBoot ( command 1903 ) <*> : <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> completed <*> ,1
+29dd26a3,boot ( command <*> ) <*> <*> <*> <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,1
 8dc164b1,link errors remain current ,56
+<<<<<<< HEAD
 9124c2a3,NIFF : node node-129 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
 8b851f8a,NIFF : node node-148 has detected an available network connection on network 5.5.226.0 via interface alt0 ,1
 8ef6d074,NIFF : node node-24 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
@@ -352,3 +396,10 @@ d5b1451a,NIFF : node node-178 has detected an available network connection on ne
 13e8ead2,NIFF : node node-161 has detected an available network connection on network 0.0.0.0 via interface alt0 ,1
 04639ac4,NIFF : node node-73 has detected an available network connection on network 0.0.0.0 via interface alt0 ,1
 fbca2250,NIFF : node node-171 has detected an available network connection on network 10.128.0.0 via interface ee0 ,1
+=======
+58da6eee,NIFF : node <*> has detected an available network connection on network 10.128.0.0 via interface ee0 ,45
+26794229,NIFF : node <*> has detected an available network connection on network 5.5.226.0 via interface alt0 ,10
+b4832e38,NIFF : node <*> has detected an available network connection on network <*> via interface alt0 ,8
+0658e065,NIFF : node <*> has detected an available network connection on network <*> via interface <*> ,2
+94fb56e9,NIFF : node <*> has detected an available network connection on network 5.5.224.0 via interface alt0 ,26
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

@@ -1,4 +1,5 @@
 EventId,EventTemplate,Occurrences
+<<<<<<< HEAD
 b281efbb,reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [ 173.234.31.186 ] failed - POSSIBLE BREAK-IN ATTEMPT ! ,1
 1b1a50b0,Invalid user webmaster from 173.234.31.186 ,2
 dbf47155,input_userauth_request : invalid user webmaster [ preauth ] ,2
@@ -160,10 +161,65 @@ eb12a720,PAM 4 more authentication failures ; logname= uid=0 euid=0 tty=ssh ruse
 6d4f79a6,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,35
 55118347,Failed password for invalid user admin from 103.99.0.122 port 55177 ssh2 ,1
 127c4cb6,error : Received disconnect from 103.99.0.122 : 14 : No more user authentication methods available . [ preauth ] ,37
+=======
+da2035ab,reverse mapping checking getaddrinfo for <*> [ <*> ] failed - POSSIBLE BREAK-IN ATTEMPT ! ,5
+6db91b72,Invalid user <*> from <*> ,15
+853de080,input_userauth_request : invalid user <*> [ preauth ] ,71
+ef536fc0,pam_unix ( sshd : auth ) : check pass ; user unknown ,135
+f4924b76,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= <*> ,46
+8328cea4,Failed password for invalid user <*> from <*> port <*> ssh2 ,14
+6b41fbbb,<*> <*> <*> <*> [ preauth ] ,34
+318060fd,Received disconnect from <*> : 11 : Bye Bye [ preauth ] ,48
+79661a0c,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= <*> user=root ,59
+0d21f0d3,Failed password for root from <*> port <*> ssh2 ,22
+ea29e1bd,<*> <*> <*> <*> <*> <*> Failed password for root from <*> port <*> ssh2 <*> ,2
+dc1ad672,<*> : <*> <*> <*> <*> <*> <*> [ preauth ] ,3
+7e957760,PAM 5 more authentication failures ; logname= uid=0 euid=0 tty=ssh ruser= <*> <*> ,2
+2d33c24b,PAM service ( sshd ) ignoring max retries ; <*> > 3 ,3
+133d7e1e,Failed password for root from 112.95.230.3 port <*> ssh2 ,24
+19ac90a5,Did not receive identification string from <*> ,10
+3700ec17,Invalid user support from <*> ,4
+3351a3e7,input_userauth_request : invalid user support [ preauth ] ,6
+498e94ef,Failed password for invalid user support from <*> port <*> ssh2 ,4
+5a1da6d8,<*> : Received disconnect from <*> : <*> : <*> : <*> <*> [ preauth ] ,2
+c9544faf,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= <*> user=uucp ,5
+4bb661a7,Failed password for uucp from <*> port <*> ssh2 ,3
+539d1489,Invalid user test from <*> ,1
+dcec755a,Received disconnect from <*> : 11 : <*> <*> <*> user <*> . [ preauth ] ,7
+60810847,Invalid user <*> from 5.188.10.180 ,4
+646e1253,Failed password for invalid user <*> from 5.188.10.180 port <*> ssh2 ,6
+e8deee72,Failed <*> for invalid user <*> from 5.188.10.180 port <*> ssh2 ,1
+40bf1a22,Invalid user admin from 5.188.10.180 ,4
+2e5b2561,input_userauth_request : invalid user admin [ preauth ] ,21
+5722204f,Failed <*> for invalid user admin from 5.188.10.180 port <*> ssh2 ,1
+c958c9b0,Failed password for invalid user admin from 5.188.10.180 port <*> ssh2 ,11
+f2ade40c,PAM 4 more authentication failures ; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,2
+1da8c634,PAM service ( sshd ) ignoring max retries ; 5 > 3 ,4
+fcace9a4,PAM <*> more authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,1
+e0da1504,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 <*> ,1
+35086edb,Failed password for <*> from <*> port <*> ssh2 ,4
+8ca690df,Invalid user admin from <*> ,3
+ed551bde,Failed password for invalid user admin from <*> port <*> ssh2 ,2
+801f3a09,Invalid user matlab from 52.80.34.196 ,3
+4fe1a5fb,input_userauth_request : invalid user matlab [ preauth ] ,3
+ca5c2d73,Failed password for invalid user matlab from 52.80.34.196 port <*> ssh2 ,3
+48c62756,Invalid user <*> from 185.190.58.151 ,3
+d1f118f7,Failed <*> for invalid user <*> from 185.190.58.151 port <*> ssh2 ,1
+b7a9b9c0,Failed password for invalid user <*> from 185.190.58.151 port <*> ssh2 ,2
+42688674,Invalid user admin from 185.190.58.151 ,4
+46485c4b,Failed password for invalid user admin from 185.190.58.151 port <*> ssh2 ,15
+a762a7db,PAM <*> more authentication failures ; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,1
+eb12a720,PAM 4 more authentication failures ; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,2
+74f3200b,Invalid user admin from 103.99.0.122 ,10
+6d4f79a6,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,35
+584700a6,Failed password for invalid user admin from 103.99.0.122 port <*> ssh2 ,10
+a423c08e,<*> : Received disconnect from <*> : <*> : <*> <*> user <*> <*> <*> . [ preauth ] ,45
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 3d14c8ba,Invalid user support from 103.99.0.122 ,2
-5c5bdb85,Failed password for invalid user support from 103.99.0.122 port 57317 ssh2 ,1
+e3f64b7f,Failed password for invalid user support from 103.99.0.122 port <*> ssh2 ,2
 8bc33344,Invalid user user from 103.99.0.122 ,4
 a479fde7,input_userauth_request : invalid user user [ preauth ] ,4
+<<<<<<< HEAD
 0a95cd2e,Failed password for invalid user user from 103.99.0.122 port 62581 ssh2 ,1
 abe5d0b0,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 user=root ,5
 a8eff56c,Failed password for root from 103.99.0.122 port 49486 ssh2 ,1
@@ -404,9 +460,53 @@ d73a2a2b,Failed password for root from 183.62.140.253 port 44590 ssh2 ,1
 688409e8,Failed password for root from 183.62.140.253 port 45902 ssh2 ,1
 66fb200a,Failed password for root from 183.62.140.253 port 46273 ssh2 ,1
 498d18b9,Failed password for root from 183.62.140.253 port 46626 ssh2 ,1
+=======
+6a8596c4,Failed password for invalid user user from 103.99.0.122 port <*> ssh2 ,4
+ac5b194c,Invalid user <*> from 103.99.0.122 ,15
+cd50a1d9,Failed password for invalid user <*> from 103.99.0.122 port <*> ssh2 ,17
+1292894c,Failed password for uucp from 103.99.0.122 port <*> ssh2 ,2
+f048e472,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 <*> ,2
+9e503422,Invalid user test from 103.99.0.122 ,2
+594ca20d,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= <*> <*> ,2
+ad618efc,Failed password for <*> from 103.99.0.122 port <*> ssh2 ,1
+e2c06810,PAM <*> more authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,1
+f11fd66d,Invalid user ftpuser from 103.99.0.122 ,2
+0b02ed93,input_userauth_request : invalid user ftpuser [ preauth ] ,2
+92fd0d8f,Failed password for invalid user ftpuser from 103.99.0.122 port <*> ssh2 ,2
+5d2ecf9b,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [ 187.141.143.180 ] failed - POSSIBLE BREAK-IN ATTEMPT ! ,80
+b7a0c0ca,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 user=root ,33
+37206dd2,Failed password for root from 187.141.143.180 port <*> ssh2 ,46
+a6bb6592,Received disconnect from 187.141.143.180 : 11 : Bye Bye [ preauth ] ,80
+f1bc715d,Invalid user <*> from 187.141.143.180 ,20
+da2e7583,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 ,29
+da4cbb22,Failed password for invalid user <*> from 187.141.143.180 port <*> ssh2 ,21
+9b4a9cb6,Invalid user oracle from 187.141.143.180 ,4
+65281271,input_userauth_request : invalid user oracle [ preauth ] ,6
+de0513b9,Failed password for invalid user oracle from 187.141.143.180 port <*> ssh2 ,4
+112e09b6,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 <*> ,5
+1988195a,Failed password for <*> from 187.141.143.180 port <*> ssh2 ,5
+cdc36e31,Invalid user test from 187.141.143.180 ,1
+6488133d,Invalid user deploy from 187.141.143.180 ,2
+29a9e5e7,Failed password for invalid user deploy from 187.141.143.180 port <*> ssh2 ,2
+1639bce4,Invalid user magnos from 187.141.143.180 ,2
+d2b3b007,Failed password for invalid user magnos from 187.141.143.180 port <*> ssh2 ,2
+edd580cb,<*> password for <*> from <*> port <*> ssh2 ,1
+82529781,pam_unix ( sshd : session ) : session <*> for user <*> <*> ( uid=0 ) ,1
+b98d88f8,Received disconnect from <*> : 11 : <*> <*> user ,1
+7e295bbb,pam_unix ( sshd : session ) : session <*> for user <*> ,1
+225557e7,Failed <*> for invalid user <*> from <*> port <*> ssh2 ,1
+b0181cdb,Failed password for invalid user admin from 119.4.203.64 port 2191 ssh2 ,6
+e52f6a63,PAM 5 more authentication failures ; logname= uid=0 euid=0 tty=ssh ruser= <*> ,1
+50708657,Invalid user <*> from 183.62.140.253 ,5
+20501d6b,Failed password for invalid user <*> from 183.62.140.253 port <*> ssh2 ,6
+8fd6fd8f,Received disconnect from 183.62.140.253 : 11 : Bye Bye [ preauth ] ,285
+6278d732,pam_unix ( sshd : auth ) : authentication failure ; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 user=root ,277
+f3e9d5dc,Failed password for root from 183.62.140.253 port <*> ssh2 ,276
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 a73ab2ad,Invalid user oracle from 183.62.140.253 ,2
-686483bf,Failed password for invalid user oracle from 183.62.140.253 port 47098 ssh2 ,1
+19712c0f,Failed password for invalid user oracle from 183.62.140.253 port <*> ssh2 ,2
 49864320,Invalid user test from 183.62.140.253 ,1
+<<<<<<< HEAD
 20501d6b,Failed password for invalid user <*> from 183.62.140.253 port <*> ssh2 ,1
 af4116db,Failed password for invalid user oracle from 183.62.140.253 port 47782 ssh2 ,1
 6ef3ba95,Invalid user ubuntu from 183.62.140.253 ,1
@@ -674,3 +774,6 @@ b67d111b,Failed password for root from 183.62.140.253 port 34642 ssh2 ,1
 0b16e694,Failed password for root from 183.62.140.253 port 36027 ssh2 ,1
 3ec4e4c0,Failed password for root from 183.62.140.253 port 36300 ssh2 ,1
 0d66c043,Failed password for invalid user user from 103.99.0.122 port 52683 ssh2 ,1
+=======
+9ebb6766,<*> : <*> <*> : <*> <*> <*> <*> [ preauth ] ,1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

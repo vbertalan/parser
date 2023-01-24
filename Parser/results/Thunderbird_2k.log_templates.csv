@@ -1,4 +1,5 @@
 EventId,EventTemplate,Occurrences
+<<<<<<< HEAD
 44d5e863,session closed for user root ,17
 39fd777e,session opened for user root by ( uid=0 ) ,18
 72d0e4c6,( root ) CMD ( run-parts /etc/cron.hourly ) ,14
@@ -59,9 +60,35 @@ c81f7a88,"<*> : to=root , ctladdr=root ( 0/0 ) , delay=00:00:03 , xdelay=00:00:0
 6cfc6caf,DHCPOFFER on 10.100.4.251 to 00:11:43 : e3 : ba : c3 via eth1 ,5
 ce500e5b,"jA9J1dQ7016560 : from=root , size=1595423 , class=0 , nrcpts=1 , msgid= < 200511091901.jA9J1dQ7016560 @ aadmin1 > , relay= # 7 # @ localhost ",1
 bcad4df8,"<*> : to=root , ctladdr=root ( 0/0 ) , delay=00:00:02 , xdelay=00:00:00 , mailer=relay , <*> , relay= [ 127.0.0.1 ] [ 127.0.0.1 ] , dsn=4.0.0 , stat=Deferred : Connection refused by [ 127.0.0.1 ] ",4
+=======
+44d5e863,session closed for user root ,24
+39fd777e,session opened for user root by ( uid=0 ) ,19
+72d0e4c6,( root ) CMD ( run-parts /etc/cron.hourly ) ,14
+7a5ba16b,data_thread ( ) got not answer from any [ <*> ] datasource ,819
+a5a4f345,"synchronized to 10.100.20.250 , stratum 3 ",188
+f777b7a9,"synchronized to 10.100.28.250 , stratum 3 ",35
+24148380,"synchronized to <*> , stratum 3 ",73
+bc59cd8b,"synchronized to 10.100.16.250 , stratum 3 ",84
+9a5bcfb8,"synchronized to 10.100.18.250 , stratum 3 ",86
+35690fe9,<*> <*> <*> <*> * * * * * * * * * * * * * * * * * * * * * * <*> <*> * * * * * * * * * * * * * * * * * * * * ,62
+7743bf43,"synchronized to 10.100.22.250 , stratum 3 ",100
+bddd55bf,[ ib_sm_sweep.c:1455 ] : No topology change ,62
+473e19a8,[ ib_sm_sweep.c:1482 ] : No configuration change required ,62
+1812e32c,<*> <*> : <*> closed . ,3
+b2626451,<*> <*> : <*> closed . <*> ,3
+f4ef17b3,unable to qualify my own domain name ( eadmin1 ) -- using short name ,2
+e626c731,"<*> : from=root , <*> , class=0 , nrcpts=1 , msgid= < <*> @ <*> > , relay= # 7 # @ localhost ",10
+0184dd81,"<*> : to=root , ctladdr=root ( 0/0 ) , <*> , xdelay=00:00:00 , mailer=relay , <*> , relay= [ 127.0.0.1 ] [ 127.0.0.1 ] , dsn=4.0.0 , stat=Deferred : Connection refused by [ 127.0.0.1 ] ",10
+20ece7a6,unable to qualify my own domain name ( badmin1 ) -- using short name ,2
+c1bd4391,unable to qualify my own domain name ( cadmin1 ) -- using short name ,2
+59d4c732,unable to qualify my own domain name ( dadmin1 ) -- using short name ,2
+c3d5d0e0,unable to qualify my own domain name ( aadmin1 ) -- using short name ,2
+3a761a8a,DHCPDISCOVER from 00:11:43 : e3 : ba : c3 via eth1 ,5
+7ad32ffe,<*> on 10.100.4.251 to 00:11:43 : e3 : ba : c3 via eth1 ,8
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 b40d9b54,DHCPDISCOVER from 00:11:43 : e3 : ba : c3 via eth1 : network A_net : no free leases ,15
-3be2b072,DHCPACK on 10.100.4.251 to 00:11:43 : e3 : ba : c3 via eth1 ,3
 6a11043b,DHCPREQUEST for 10.100.4.251 ( 10.100.0.250 ) from 00:11:43 : e3 : ba : c3 via eth1 ,3
+<<<<<<< HEAD
 e90e0bfa,START : tftp pid=16563 from=10.100.4.251 ,1
 ead9ffae,DHCPREQUEST for 10.100.4.251 ( 10.100.0.250 ) from 00:11:43 : e3 : ba : c3 via eth1 : unknown lease 10.100.4.251 . ,9
 ae2c48f0,"synchronized to 10.100.30.250 , stratum 3 ",10
@@ -87,11 +114,23 @@ f160316e,( root ) CMD ( /projects/tbird/temps/get_temps c ) ,1
 4f70a95c,( root ) CMD ( /projects/tbird/temps/get_temps d ) ,1
 3ea982d1,( root ) CMD ( /projects/tbird/temps/get_temps e ) ,1
 bc557b4a,RRD_update ( /var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd ) : illegal attempt to update using time 1131563412 when last update time is 1131563412 ( minimum one second step ) ,1
+=======
+3b198f2a,<*> : <*> <*> <*> ,1
+efe897cb,DHCPREQUEST for 10.100.4.251 ( 10.100.0.250 ) from 00:11:43 : e3 : ba : c3 via eth1 : <*> <*> 10.100.4.251 . ,9
+66f31eb2,RRD_update ( <*> <*> ) : illegal attempt to update using time <*> when last update time is <*> ( minimum one second step ) ,10
+347334c7,<*> <*> <*> <*> <*> ,2
+b5f6193c,<*> <*> <*> <*> ,19
+c6035d9f,<*> <*> <*> ( <*> ) from # <*> # ,1
+ddbe3f53,"synchronized to <*> <*> <*> <*> , stratum <*> ",1
+ffad1f25,"synchronized to <*> 3 <*> , stratum <*> ",1
+6d434e9d,( root ) CMD ( <*> <*> ) ,5
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 86ffc6cf,My unqualified host name ( eadmin1 ) unknown ; sleeping for retry ,1
 c6d3bc0c,My unqualified host name ( aadmin1 ) unknown ; sleeping for retry ,1
 1c71a63c,My unqualified host name ( badmin1 ) unknown ; sleeping for retry ,1
 4c73aca7,My unqualified host name ( cadmin1 ) unknown ; sleeping for retry ,1
 6ce47144,My unqualified host name ( dadmin1 ) unknown ; sleeping for retry ,1
+<<<<<<< HEAD
 8bcdd9d8,<*> ( <*> <*> <*> key ) ,1
 a5581d3b,( supports S0 S4 S5 ) ,1
 e20053d4,DSDT ( v001 DELL PE BKC 0x00000001 MSFT 0x0100000e ) @ 0x0000000000000000 ,1
@@ -321,3 +360,100 @@ c6fd762c,RRD_update ( /var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd ) : illeg
 ca9eef37,"jA9JBXgf022479 : from=root , size=1594553 , class=0 , nrcpts=1 , msgid= < 200511091911.jA9JBXgf022479 @ cadmin1 > , relay= # 7 # @ localhost ",1
 c0d12e25,"jA9JBXVI027337 : from=root , size=1597080 , class=0 , nrcpts=1 , msgid= < 200511091911.jA9JBXVI027337 @ dadmin1 > , relay= # 7 # @ localhost ",1
 874d5931,"Device : /dev/sda , Temperature changed -2 Celsius to 26 Celsius since last report ",1
+=======
+fc607191,<*> ( <*> <*> <*> <*> ) ,1
+f4e30409,( <*> <*> <*> <*> ) ,1
+eb543e60,<*> ( <*> DELL <*> <*> <*> <*> <*> ) @ <*> ,7
+26637b3a,<*> <*> : <*> <*> : <*> ,1
+4c6c0513,<*> ( <*> 0 <*> 0 <*> <*> <*> <*> ) ,1
+7730407b,<*> ( <*> 0 <*> <*> <*> <*> <*> level ) ,1
+43e76090,<*> ( <*> [ <*> ] <*> [ <*> ] <*> [ 0 ] ) ,1
+2264e18a,<*> ( <*> [ <*> ] <*> [ <*> ] <*> [ <*> ] ) ,2
+1170374f,<*> <*> by <*> . ,3
+b5f8f0ab,<*> <*> ,9
+3c044c86,<*> ( acpi_id [ <*> ] <*> [ <*> ] <*> ) ,4
+5b54355d,<*> ( acpi_id [ <*> ] <*> <*> <*> [ <*> ] ) ,4
+7ef7e492,PCI Interrupt Link [ <*> ] ( IRQs 3 4 5 6 7 10 11 12 ) * <*> ,2
+4e360711,PCI Interrupt Link [ <*> ] ( IRQs 3 4 5 6 7 10 * 11 12 ) ,1
+94a08b8b,"PCI Interrupt Link [ <*> ] ( IRQs 3 4 5 6 7 10 11 12 ) * 0 , <*> . ",5
+08ec7945,PCI Interrupt Routing Table [ <*> ] ,10
+9c43b28c,PCI <*> <*> [ <*> ] ( <*> ) ,1
+9a78dfcc,"PCI interrupt <*> [ A ] - > GSI <*> ( level , low ) - > IRQ <*> ",11
+4e1de492,<*> <*> ( <*> ) <*> <*> <*> ,1
+44421b7e,Processor [ <*> ] ( <*> <*> ) ,4
+e83cb58f,<*> ( <*> DELL ) @ <*> ,1
+e0afaf2b,<*> <*> <*> ,12
+a45f3145,<*> <*> <*> interrupt <*> ,1
+e7f40a1d,<*> ( <*> ) <*> ( <*> ) <*> <*> <*> <*> ,1
+6b7285cc,<*> cache : <*> ,5
+00d1cfc9,<*> Processor <*> : 0 ,3
+0881cee2,<*> Processor <*> : 3 ,2
+3518e235,"<*> cache : <*> <*> , <*> <*> cache : <*> ",5
+a1344e3b,<*> <*> <*> <*> <*> <*> . ,3
+1f32546e,"<*> , <*> <*> <*> <*> <*> <*> <*> ",1
+265247df,"<*> <*> , <*> <*> , <*> <*> , GSI <*> ",2
+97826cba,"<*> 10 , <*> <*> , <*> <*> , GSI <*> ",1
+c2202df3,"<*> cache <*> <*> <*> <*> <*> , <*> ",1
+af2d257e,PCI <*> <*> PCI <*> <*> : <*> ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,2
+b83ab4d9,<*> <*> <*> <*> for <*> ( <*> ) ,1
+be3d233c,<*> PCI <*> ( <*> <*> ) ,1
+feb4ff89,<*> <*> - <*> ,1
+c65bdfd8,<*> <*> <*> IRQ <*> ,1
+d74570e7,<*> <*> <*> . ,5
+7ae69d28,<*> . ,2
+33f26fa0,<*> <*> <*> ( <*> <*> <*> <*> ) ,1
+723ffafc,<*> <*> <*> <*> : <*> ,1
+29d66f74,Processor <*> <*> <*> : <*> ,1
+beda191d,<*> root ( <*> <*> ) . ,1
+7b242876,<*> <*> : <*> 0 <*> <*> <*> : <*> ,1
+85da5bf4,<*> <*> : <*> <*> <*> <*> : <*> ,1
+9e08cdfc,<*> ,3
+f291912b,<*> <*> <*> ( <*> ) ,1
+463d0959,<*> ( <*> ) <*> : # <*> # @ # <*> # ,1
+3fd680f5,<*> <*> for <*> ,1
+89b3f42c,<*> <*> for eth1 ,1
+5ac449d7,<*> <*> <*> for <*> <*> <*> ,2
+572efd46,<*> : <*> <*> <*> <*> ,1
+e996c896,<*> : <*> : <*> ( <*> ) <*> <*> Connection ,2
+6764084a,<*> : <*> : <*> Link <*> <*> <*> <*> <*> <*> ,1
+f7e3e378,no <*> <*> <*> ,1
+33cf3f00,<*> for <*> <*> <*> <*> <*> ,6
+f55c7304,<*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> ,1
+afb91099,<*> <*> <*> ( 5 ) <*> ( <*> ) <*> <*> <*> <*> ( <*> ) <*> <*> ,1
+87c9761d,( <*> ) <*> <*> <*> <*> ,4
+863059d9,"<*> <*> <*> <*> , <*> ",1
+96304e05,# <*> # <*> ( <*> <*> : <*> <*> <*> <*> <*> <*> ) ,1
+7da0a5fb,# <*> # ( <*> <*> : <*> <*> <*> <*> <*> <*> ) ,1
+be11fad5,<*> <*> : [ <*> ] <*> <*> : [ <*> ] ,1
+df6693f9,<*> <*> <*> <*> : <*> <*> : <*> <*> : <*> 0 ,1
+5c15fcd7,<*> <*> <*> <*> for <*> <*> ,1
+3e5458cd,<*> ( <*> ) ,1
+07b77e98,<*> <*> : <*> ,1
+496f406c,<*> <*> <*> 0 [ <*> 0 ] <*> <*> <*> ,1
+cba08995,<*> <*> <*> <*> [ <*> ] <*> <*> <*> ,1
+77c0bbe1,<*> for cache <*> <*> ,1
+f5760715,<*> <*> cache : <*> <*> ,1
+8016b485,<*> <*> <*> <*> <*> <*> 12 ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,2
+89c14c4f,<*> <*> <*> <*> . ,2
+55094c07,<*> <*> <*> <*> <*> . ,1
+ba9dc17f,<*> <*> <*> <*> : ,1
+816e60fc,<*> from <*> # <*> # <*> ,2
+5fddd583,"<*> # <*> # , <*> from # <*> # , <*> . ",2
+88ae46c8,<*> <*> on # <*> # <*> <*> . ,2
+80768c28,<*> <*> <*> : <*> ,2
+1087e172,Warning : we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,33
+a275b995,Warning : we failed to resolve data source name <*> <*> <*> ,1
+000a0894,RRD_update ( <*> ) : illegal attempt to update using time <*> when last update time is <*> ( minimum one second step ) ,1
+7d557b8b,Warning : we failed to resolve <*> host name <*> <*> ,1
+0f4a263f,<*> <*> on : : <*> <*> . ,1
+2e2ab18b,<*> : <*> to <*> <*> on <*> <*> : <*> <*> <*> <*> . ,1
+1c8d463f,<*> <*> <*> <*> <*> for <*> ( <*> <*> <*> <*> <*> ) ,1
+605b6143,<*> <*> on <*> <*> <*> ,1
+55dc8efa,Reading included configuration file : <*> [ <*> ] [ <*> ] ,17
+aab00110,<*> <*> : <*> <*> <*> ,1
+45b6eb48,removing <*> ,10
+edf368d3,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> . ,1
+f4f37844,"<*> : <*> , <*> <*> <*> <*> to <*> <*> <*> last <*> ",1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

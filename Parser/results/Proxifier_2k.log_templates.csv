@@ -1,6 +1,7 @@
 EventId,EventTemplate,Occurrences
 5556b1d7,proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,457
 969f9027,"proxy.cse.cuhk.edu.hk:5070 close , 0 bytes sent , 0 bytes received , lifetime 00:01 ",23
+<<<<<<< HEAD
 c1f32d49,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes received , lifetime < 1 sec ",5
 83bcab72,"proxy.cse.cuhk.edu.hk:5070 close , 451 bytes sent , 18846 bytes ( 18.4 KB ) received , lifetime < 1 sec ",1
 8f0bce44,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes ( <*> KB ) received , lifetime < 1 sec ",18
@@ -740,3 +741,47 @@ e6378994,fclick.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
 cc0c1d3e,q1.cnzz.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,1
 17d4c627,"t12.baidu.com:80 close , 0 bytes sent , 0 bytes received , lifetime 00:17 ",2
 a39760fb,"mhfm9.us.cdndm5.com:80 close , 0 bytes sent , 0 bytes received , lifetime 00:12 ",1
+=======
+c1f32d49,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes received , lifetime < 1 sec ",35
+8f0bce44,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes ( <*> KB ) received , lifetime < 1 sec ",23
+78ba3e2f,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> KB ) received , lifetime <*> ",83
+dcd2460c,"proxy.cse.cuhk.edu.hk:5070 close , 0 bytes sent , 0 bytes received , lifetime < 1 sec ",29
+b1a00a65,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> KB ) received , lifetime 00:01 ",20
+7d9ccfb2,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes received , lifetime < 1 sec ",29
+3fe0cdbf,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes ( <*> KB ) received , lifetime <*> ",21
+fc90aae1,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes received , lifetime <*> ",19
+916305ca,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes received , lifetime 00:01 ",18
+fa395956,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> KB ) received , lifetime < 1 sec ",25
+5ed2cb3c,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes ( <*> KB ) received , lifetime 00:01 ",16
+47fbc45c,"proxy.cse.cuhk.edu.hk:5070 close , 0 bytes sent , 0 bytes received , lifetime <*> ",54
+9a84974e,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes received , lifetime <*> ",38
+7953f411,<*> open through proxy <*> <*> ,2
+17dbe197,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> <*> ) received , lifetime <*> ",4
+af9025c9,"<*> close , <*> bytes sent , <*> bytes received , lifetime <*> <*> <*> ",33
+8a1725f8,"<*> close , <*> bytes sent , 0 bytes received , lifetime <*> <*> <*> ",1
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+222a6c70,<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy <*> the connection <*> . ,3
+22e1fdd7,"proxy.cse.cuhk.edu.hk:5070 close , <*> bytes sent , <*> bytes received , lifetime 00:01 ",14
+496e2dd5,"<*> close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> KB ) received , lifetime <*> ",162
+6761b144,<*> open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,439
+b137f975,"<*> close , 0 bytes sent , 0 bytes received , lifetime <*> <*> <*> ",22
+437a5ba3,"<*> close , <*> bytes sent , <*> bytes ( <*> KB ) received , lifetime <*> ",96
+8c181471,"<*> close , <*> bytes sent , <*> bytes ( <*> KB ) received , lifetime <*> <*> <*> ",12
+0e7d1eb0,"<*> close , <*> bytes sent , <*> bytes received , lifetime <*> ",65
+12c1575e,<*> error : A connection request was canceled before the completion . ,29
+33bb6ee4,"<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy <*> <*> not <*> <*> connection with the <*> , <*> <*> <*> ",17
+ee17dc63,"<*> close , <*> bytes sent , 0 bytes received , lifetime <*> ",2
+7719a814,"<*> close , 0 bytes sent , 0 bytes received , lifetime <*> ",56
+17fcce40,"<*> close , <*> bytes ( <*> KB ) sent , <*> bytes received , lifetime <*> ",35
+2a02fe28,"<*> <*> <*> close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> <*> ) received , lifetime <*> ",4
+58d25d64,t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,20
+4ff2dd72,"<*> close , <*> bytes ( <*> KB ) sent , <*> bytes received , lifetime <*> <*> <*> ",1
+c80aa73d,clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,12
+9d373183,www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,11
+4b298dcd,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001 ,20
+3c8ee3b8,<*> <*> <*> open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,15
+eff3cc5d,"<*> <*> <*> close , <*> bytes sent , <*> bytes received , lifetime <*> ",2
+2e908410,"<*> <*> <*> close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> KB ) received , lifetime <*> ",4
+70fdc955,"<*> close , <*> bytes ( <*> KB ) sent , <*> bytes ( <*> <*> ) received , lifetime <*> ",1
+450ddca3,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061 ,26
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

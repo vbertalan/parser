@@ -1,12 +1,16 @@
 EventId,EventTemplate,Occurrences
+<<<<<<< HEAD
 84dfb0fa,Notification time out : 3200 ,1
 3c467a8b,Received connection request /10.10.34.11:45307 ,1
+=======
+f08bc471,Notification time out : <*> ,1
+7b05832e,Received connection request <*> ,299
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 c802547c,Send worker leaving thread ,262
 685f2871,Interrupted while waiting for message on queue ,314
 94b96569,"Connection broken for id 188978561024 , my id = 1 , error = ",94
-e5a7f92e,Received connection request /10.10.34.13:57707 ,1
-1d2e99b0,Received connection request /10.10.34.11:45382 ,1
 1a7cc417,Interrupting SendWorker ,266
+<<<<<<< HEAD
 f24f36ba,Received connection request /10.10.34.11:45440 ,1
 9bca3aa3,Received connection request /10.10.34.13:57895 ,1
 ee621c9b,Received connection request /10.10.34.12:47727 ,1
@@ -427,9 +431,59 @@ bfe3e1ef,"Expiring session 0x34f4a63146b0048 , timeout of 10000ms exceeded ",1
 cd7d710b,"Expiring session 0x24f4a631df90029 , timeout of 10000ms exceeded ",1
 053a7fea,Processed session termination for sessionid : 0x34f4a63146b003c ,1
 1f41ed05,Processed session termination for sessionid : 0x14f4a6318b8002f ,1
+=======
+b0bf952d,Closed socket connection for client <*> which had sessionid <*> ,44
+c33a72cc,caught end of stream exception ,37
+1a5f78da,Client attempting to <*> session <*> at <*> ,3
+e333df48,Client attempting to establish new session at <*> ,41
+6e72d8e5,Established session <*> with negotiated timeout 10000 for client <*> ,45
+f7c16424,Accepted socket connection from <*> ,48
+3e835fb7,<*> <*> : ,1
+7c6d317a,Established session <*> with negotiated timeout <*> for client <*> ,5
+116b1b62,Connection request from old client <*> ; will be dropped if server is in r-o mode ,39
+07b77e98,<*> <*> : <*> ,7
+29597d00,Can not open channel to 2 at election address /10.10.34.12:3888 ,48
+ab2360d7,Processed session termination for sessionid : <*> ,47
+98db4aa4,"Expiring session <*> , timeout of 10000ms exceeded ",38
+4dca7339,* * * * * * * GOODBYE <*> * * * * * * * * ,19
+30045eee,LOOKING ,4
+3106f9aa,Can not open channel to 3 at election address /10.10.34.13:3888 ,38
+a050cf7d,Notification time out : 60000 ,36
+1f8afa3c,<*> election <*> <*> <*> <*> ,1
+544ab244,"<*> <*> server <*> , <*> <*> <*> <*> : ( <*> , <*> ) ",1
+9e08cdfc,<*> ,2
+85ccc42b,<*> election <*> <*> <*> <*> <*> <*> <*> <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,2
+798e581d,"Notification : 3 ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , 3 ( <*> ) , <*> ( <*> ) , LOOKING ( <*> <*> ) ",1
+4f107daf,<*> <*> <*> 3 ,1
+744188af,<*> <*> : <*> <*> ,2
+2ece1738,<*> client : <*> ,3
+ced34be4,"<*> <*> : <*> <*> <*> , <*> <*> <*> <*> <*> ",1
+baee2fd3,Closed socket connection for client <*> <*> <*> session <*> for client <*> ,4
+ae171b28,<*> causing <*> of <*> <*> <*> <*> <*> : <*> <*> <*> ,3
+c04b53db,"Notification : <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , LOOKING ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , LOOKING ( <*> <*> ) ",1
+b00ce619,"Notification : 3 ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , LOOKING ( <*> ) , 3 ( <*> ) , <*> ( <*> ) , <*> ( <*> <*> ) ",2
+b5f6193c,<*> <*> <*> <*> ,7
+cf944535,"Connection <*> <*> <*> 3 , <*> <*> <*> <*> , <*> <*> ",1
+4c83f25d,<*> exception causing <*> <*> <*> <*> <*> ,12
+a25c32ac,"Connection broken for id 188978561024 , my id = 2 , error = ",96
+5ff72b95,<*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> : <*> <*> : <*> <*> <*> : <*> <*> : <*> <*> <*> <*> <*> ,1
+eef72009,"Expiring session <*> , timeout of <*> exceeded ",2
+e0afaf2b,<*> <*> <*> ,2
+3b198f2a,<*> : <*> <*> <*> ,2
+b9e8bf04,<*> <*> : 3 : <*> : <*> <*> <*> <*> <*> ,1
+93a59339,<*> <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> ,1
+be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+1eaf1b45,"Notification : <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> <*> ) ",1
+7d8a4c56,<*> of request <*> <*> ,1
+31a7e4be,<*> is <*> ,1
+e4c65991,"Notification : <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , LOOKING ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> <*> ) ",2
+b5f8f0ab,<*> <*> ,1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 38ff61b3,<*> <*> <*> from <*> ,2
-a8a220a8,"Notification : 3 ( n.leader ) , 0x0 ( n.zxid ) , 0x1 ( n.round ) , LOOKING ( n.state ) , 3 ( n.sid ) , 0x0 ( n.peerEPoch ) , LOOKING ( my state ) ",2
+599dc2a8,"Notification : 3 ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , LOOKING ( <*> ) , 3 ( <*> ) , <*> ( <*> ) , LOOKING ( <*> <*> ) ",4
 8822b662,"Connection broken for id 188978561024 , my id = 3 , error = ",99
+<<<<<<< HEAD
 fd1040c1,Received connection request /10.10.34.13:44219 ,1
 66b8e80c,Received connection request /10.10.34.11:46538 ,1
 4ff204e4,Received connection request /10.10.34.13:44256 ,1
@@ -565,3 +619,7 @@ d885f16d,Accepted socket connection from /10.10.34.23:51828 ,1
 91dff9e9,"Expiring session 0x14f05578bd80006 , timeout of 10000ms exceeded ",1
 e8a2d917,"Expiring session 0x14f05578bd8000f , timeout of 10000ms exceeded ",1
 e059f71c,Processed session termination for sessionid : 0x24f0557806a0010 ,1
+=======
+1842da03,"Connection <*> <*> <*> <*> , <*> <*> <*> 3 , <*> <*> ",1
+99580a0a,"Notification : 3 ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , <*> ( <*> ) , 3 ( <*> ) , <*> ( <*> ) , <*> ( <*> <*> ) ",1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

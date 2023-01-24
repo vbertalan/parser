@@ -1,15 +1,18 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+# Path - Windows
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+# Path - Linux
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from logparser.logparser.utils import evaluator
 from logparser.logparser.Drain import Drain
 import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
-output_dir = 'logparser/results/Drain_result/'  # The output directory of parsing results
+input_dir = "logparser/logs"
+output_dir = "logparser/results/Drain_result/"  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {

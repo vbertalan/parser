@@ -1,7 +1,7 @@
 """
-Description : This file implements the Drain algorithm for log parsing
-Author      : LogPAI team
-License     : MIT
+Description : This file implements the my algorithm for log parsing
+Author      : Vithor Bertalan
+License     : n/a
 """
 
 from fileinput import filename

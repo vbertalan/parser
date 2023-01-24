@@ -1,6 +1,7 @@
 EventId,EventTemplate,Occurrences
 89aa2eba,workerEnv.init ( ) ok /etc/httpd/conf/workers2.properties ,569
 ba1ac85a,mod_jk child workerEnv in error state 6 ,369
+<<<<<<< HEAD
 e6dd0568,jk2_init ( ) Found child 6725 in scoreboard slot 10 ,1
 8d94f092,jk2_init ( ) Found child 6726 in scoreboard slot 8 ,1
 27ec7a58,jk2_init ( ) Found child 6728 in scoreboard slot 6 ,1
@@ -141,26 +142,20 @@ ece84efd,jk2_init ( ) Found child 32580 in scoreboard slot 6 ,1
 4bcf065f,jk2_init ( ) Found child 32582 in scoreboard slot 10 ,1
 6200c8c7,jk2_init ( ) Found child 32584 in scoreboard slot 9 ,1
 4ec3e0e0,jk2_init ( ) Found child 32583 in scoreboard slot 8 ,1
+=======
+b1a151e2,jk2_init ( ) Found child <*> in scoreboard slot 10 ,75
+be2f7c5a,jk2_init ( ) Found child <*> in scoreboard slot 8 ,194
+972dede0,jk2_init ( ) Found child <*> in scoreboard slot 6 ,189
+01855027,jk2_init ( ) Found child <*> in scoreboard slot 7 ,194
+4bc1a741,jk2_init ( ) Found child <*> in scoreboard slot 9 ,160
+bf631c35,mod_jk child workerEnv in error state 7 ,101
+f080bee6,jk2_init ( ) Found child <*> in scoreboard slot <*> ,24
+9d86a9e9,[ client <*> ] Directory index forbidden by rule : /var/www/html/ ,32
+6cc47f33,mod_jk child workerEnv in error state 8 ,44
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 3ce5f7d9,mod_jk child workerEnv in error state 10 ,5
-7044125f,jk2_init ( ) Found child 32585 in scoreboard slot 6 ,1
-4d656f64,jk2_init ( ) Found child 32587 in scoreboard slot 10 ,1
-9381b53b,jk2_init ( ) Found child 32586 in scoreboard slot 7 ,1
-70752d9e,jk2_init ( ) Found child 32588 in scoreboard slot 8 ,1
-b6af893c,jk2_init ( ) Found child 32592 in scoreboard slot 10 ,1
-5c02ce7b,jk2_init ( ) Found child 32591 in scoreboard slot 7 ,1
-f71a3247,jk2_init ( ) Found child 32594 in scoreboard slot 6 ,1
-c683d3fa,jk2_init ( ) Found child 32593 in scoreboard slot 8 ,1
-6acc24b9,jk2_init ( ) Found child 32597 in scoreboard slot 10 ,1
-472d04bf,jk2_init ( ) Found child 32600 in scoreboard slot 9 ,1
-8fe60b5d,jk2_init ( ) Found child 32601 in scoreboard slot 7 ,1
-b76732cd,jk2_init ( ) Found child 32605 in scoreboard slot 9 ,1
-421f0b97,jk2_init ( ) Found child 32604 in scoreboard slot 6 ,1
-26456e56,jk2_init ( ) Found child 32622 in scoreboard slot 7 ,1
-f3650979,jk2_init ( ) Found child 32623 in scoreboard slot 11 ,1
-ba0954df,jk2_init ( ) Found child 32624 in scoreboard slot 8 ,1
-d2314e53,jk2_init ( ) Found child 32621 in scoreboard slot 9 ,1
-65befc4f,jk2_init ( ) Found child 32626 in scoreboard slot 6 ,1
 5f28c7e6,mod_jk child workerEnv in error state 9 ,20
+<<<<<<< HEAD
 b9d401ff,jk2_init ( ) Found child 32627 in scoreboard slot 9 ,1
 67495980,jk2_init ( ) Found child 32628 in scoreboard slot 7 ,1
 30e26951,jk2_init ( ) Found child 32630 in scoreboard slot 8 ,1
@@ -811,3 +806,7 @@ ab07cd42,jk2_init ( ) Found child 6741 in scoreboard slot 8 ,1
 feb98942,jk2_init ( ) Found child 6780 in scoreboard slot 7 ,1
 e46313f1,[ client 61.220.139.68 ] Directory index forbidden by rule : /var/www/html/ ,1
 1cd2a5ae,jk2_init ( ) Found child 6790 in scoreboard slot 7 ,1
+=======
+8222359c,jk2_init ( ) <*> <*> <*> child <*> in scoreboard ,12
+7be07888,mod_jk child init 1 -2 ,12
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

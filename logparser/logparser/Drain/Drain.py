@@ -2,6 +2,7 @@
 Description : This file implements the Drain algorithm for log parsing
 Author      : LogPAI team
 License     : MIT
+
 """
 
 import regex as re
@@ -10,6 +11,9 @@ import numpy as np
 import pandas as pd
 import hashlib
 from datetime import datetime
+import sys
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 
 
 class Logcluster:
@@ -284,7 +288,7 @@ class LogParser:
             os.makedirs(self.savePath)
 
         ## PRINTANDO LOGCLUL
-        with open(r'C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/LOGCLUL.txt', 'w') as fp:
+        with open(r'logparser/LOGCLUL.txt', 'w') as fp:
             for item in logCluL:
                 # write each item on a new line
                 fp.write("%s\n" % item)

@@ -1,5 +1,6 @@
 EventId,EventTemplate,Occurrences
 78f10049,instruction cache parity error corrected ,42
+<<<<<<< HEAD
 ab3e0eb4,63543 double-hummer alignment exceptions ,1
 3127a3ff,162 double-hummer alignment exceptions ,1
 fc72052c,141 double-hummer alignment exceptions ,1
@@ -102,15 +103,37 @@ ba7a15ac,generating core.2522 ,1
 33790285,generating core.1521 ,1
 0b2ffc52,data address : 0x00000002 ,8
 22de4b00,machine check : i-fetch ...................... 0 ,5
+=======
+c5c0dd84,<*> double-hummer alignment exceptions ,74
+79df7ce9,"CE sym <*> , at <*> , mask <*> ",21
+7421ed71,ciod : <*> to <*> message prefix on <*> <*> ( CioStream socket to <*> ,3
+06c0a9ea,"CE sym <*> , at <*> , mask 0x40 ",11
+20ef6802,generating <*> ,721
+662afefe,<*> <*> <*> <*> 0 ,11
+6752dad8,"CE sym <*> , at <*> , mask 0x10 ",16
+af2002d7,"CE sym <*> , at <*> , mask 0x04 ",15
+ce0f6604,ciod : <*> <*> <*> <*> <*> <*> <*> message <*> ,1
+ac746c9c,ciod : LOGIN chdir ( <*> ) failed : No such file or directory ,18
+cce5ae74,"CE sym <*> , at <*> , mask 0x02 ",13
+1aef2058,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 1 ",3
+5901aff0,"CE sym <*> , at <*> , mask 0x20 ",10
+b9b29cfb,data TLB error interrupt ,60
+65490b34,ciod : <*> <*> <*> <*> <*> <*> or <*> ,1
+a15cb5bb,data storage interrupt ,30
+d502e336,instruction address : 0x00004ed8 ,20
+f58944ac,data address : <*> ,8
+5660accf,machine <*> : <*> <*> 0 ,5
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 47385cf1,program interrupt : illegal instruction ...... 0 ,5
-5c667bd2,exception syndrome register : 0x00800000 ,5
+90e13903,<*> <*> register : <*> ,6
 c6a68169,data store interrupt caused by dcbf ......... 0 ,5
 a1e71bfb,program interrupt : privileged instruction ... 0 ,5
-e72da126,program interrupt : trap instruction ......... 0 ,1
+a295f791,program interrupt : <*> instruction ......... 0 ,1
 78b4cdc9,program interrupt : imprecise exception ...... 0 ,5
-c7d13db5,store operation ............................. 1 ,2
-97886426,machine state register : 0x00002000 ,4
+ed2b6473,<*> <*> <*> 1 ,2
+e5b438db,machine <*> register : 0x00002000 ,4
 898930cf,data store interrupt caused by icbi ......... 0 ,5
+<<<<<<< HEAD
 2be055e3,"problem state ( 0=sup,1=usr ) ....... 0 ",3
 e770e688,floating point instr . enabled ..... 1 ,4
 ba7223a7,auxiliary processor ......................... 0 ,5
@@ -124,12 +147,25 @@ e9aa979f,data address space ................ 0 ,5
 33ded3f9,core configuration register : 0x00002000 ,7
 33868311,program interrupt : fp cr update ............. 0 ,1
 6d5bf409,guaranteed instruction cache block touch.0 ,2
+=======
+a80bea05,<*> <*> ( <*> ) <*> 0 ,3
+a86fb056,floating point <*> . <*> <*> 1 ,4
+2ac26d09,<*> processor <*> 0 ,5
+b44e6c7c,machine <*> <*> <*> 0 ,2
+683144d0,floating <*> <*> <*> 0 <*> <*> 0 ,3
+7f9019fb,program interrupt : <*> <*> <*> 0 ,2
+e1e73fda,<*> interrupt enable <*> 0 ,1
+df7c6354,floating <*> <*> <*> 1 <*> <*> 0 ,2
+48331155,data address <*> <*> 0 ,5
+f31b2ecf,<*> <*> register : 0x00002000 ,7
+5bc573ce,program interrupt : fp cr <*> ............. 0 ,1
+347334c7,<*> <*> <*> <*> <*> ,2
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 9401b172,program interrupt : fp cr field ............. 0 ,4
-83dc6da5,guaranteed data cache block touch ........ 1 ,1
-df3a17c9,icache prefetch depth .................... 0 ,1
-19c7cce1,icache prefetch threshold ................ 0 ,2
-509b9036,wait state enable ................. 0 ,1
+a38d59fd,<*> <*> <*> <*> <*> <*> 1 ,1
+2d68f014,<*> <*> enable <*> 0 ,3
 a32b5403,critical input interrupt enable ... 0 ,1
+<<<<<<< HEAD
 89ae1997,special purpose registers : ,1
 b5f6193c,<*> <*> <*> <*> ,6
 8ca1a795,rts internal error ,1
@@ -220,9 +256,20 @@ b18525a7,generating core.10752 ,1
 ce4517ef,generating core.323 ,1
 c6ad8a8a,"ciod : Error loading /home/glosli/src/ddcMD/ddcMD/1.1.13/ddcMDbglV : invalid or missing program image , No such file or directory ",1
 210315a1,generating core.21112 ,1
+=======
+3553369e,<*> <*> <*> : ,1
+b5f6193c,<*> <*> <*> <*> ,3
+122cc3cb,rts <*> error ,1
+e379849f,instruction address <*> <*> 0 ,1
+0e3acb52,total of 1 ddr error ( s ) detected and corrected ,9
+47fcd75e,"ciod : Error loading <*> : invalid or missing program image , No such file or directory ",21
+140a1394,ciod : Error creating node map from file <*> : <*> <*> <*> ,2
+46cbde3f,"CE sym 0 , at <*> , mask 0x40 ",4
+d0268f38,"CE sym 0 , at <*> , mask <*> ",2
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 e41db344,program interrupt ,3
-886e05d9,generating core.28370 ,1
 ecb7a2b0,program interrupt : illegal instruction ...... 1 ,3
+<<<<<<< HEAD
 af844629,generating core.14700 ,1
 f2e9e0ec,instruction address : <*> ,1
 3f321633,exception syndrome register : 0x08000000 ,1
@@ -1281,3 +1328,113 @@ c5810c2e,total of 20 ddr error ( s ) detected and corrected over 22070 seconds ,
 ff968c6e,"ciod : Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe : program image too big , 361544528 > 266076160 ",1
 98cd2ae6,Machine State Register : 0x0002f900 ,1
 b003db08,ciod : generated 128 core files for program /g/g24/germann2/SPaSM_mini/MEAM/r13 ,1
+=======
+f2e9e0ec,instruction address : <*> ,1
+6dafd125,Node card is not <*> <*> ,6
+ad099ee9,ciod : Error creating node map from file <*> : <*> file <*> ,1
+ca85ca86,<*> <*> status <*> : FF : <*> : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+ecc58138,<*> not <*> <*> <*> for node card ,6
+3aed4609,1146800 double-hummer alignment exceptions ,27
+87014ef2,458720 double-hummer alignment exceptions ,8
+16dfc613,ciod : <*> or <*> <*> on line <*> of node map file <*> ,2
+bf49c88c,1 torus receiver z+ input pipe error ( s ) ( dcr <*> ) detected and corrected ,1
+f4334b4d,ciod : <*> <*> <*> to <*> <*> <*> <*> line 3 of node map file <*> ,1
+174ae13c,rts <*> <*> <*> <*> <*> ,2
+f8b97825,ciod : Error creating node map from file <*> : <*> <*> ,1
+8c338474,ciod : <*> <*> <*> <*> <*> <*> <*> <*> line <*> of node map file <*> ,1
+c0525678,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit <*> ",4
+10b0718c,"rts : <*> <*> for <*> <*> : <*> <*> <*> : <*> <*> , <*> , <*> , <*> , <*> ",1
+d2ecf8f0,8 floating point alignment exceptions ,37
+3931c6a4,15 floating point alignment exceptions ,14
+4132fbc6,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 3 ",1
+92e92f11,total of <*> ddr error ( s ) detected and corrected ,2
+c20f9db9,5 floating point alignment exceptions ,22
+368430a9,<*> floating point alignment exceptions ,33
+266a5441,<*> <*> <*> <*> <*> <*> <*> : FF : <*> : <*> : <*> <*> <*> <*> ,2
+3e3305de,<*> is not <*> <*> ,1
+a77f3821,"Node card status : <*> 0 , <*> 1 , <*> <*> , <*> <*> is ( <*> ) active . Clock <*> is <*> . Clock <*> is <*> . <*> JTAG Reset is asserted . <*> JTAG Reset is not asserted . Temperature <*> is not active . <*> <*> error . Temperature <*> <*> <*> is <*> . PGOOD is asserted . PGOOD error <*> is <*> . MPGOOD is <*> MPGOOD error <*> is <*> . The <*> volt rail is OK . The <*> volt rail is OK . ",1
+c376c6a8,"Node card VPD check : <*> node in processor card slot <*> do not match . VPD ecid <*> , found <*> ",9
+53850c5e,<*> <*> <*> <*> <*> <*> <*> : FF : <*> : <*> : <*> : <*> <*> <*> <*> ,1
+d66f0fa1,"idoproxydb hit ASSERT condition : ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr : :SendPacket ( IdoUdpMgr * , BglCtlPavTrace * ) ",35
+c7c5fb2f,Node card status : <*> <*> <*> active . Clock <*> is <*> . Clock <*> is <*> . <*> JTAG Reset is asserted . <*> JTAG Reset is asserted . Temperature <*> is not active . <*> <*> error . Temperature <*> <*> <*> is <*> . PGOOD IS NOT <*> . PGOOD ERROR LATCH IS ACTIVE . MPGOOD IS NOT <*> MPGOOD ERROR LATCH IS ACTIVE . The <*> volt rail is OK . The <*> volt rail is OK . ,5
+98ee9e9b,<*> <*> status <*> : FF : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+8e587961,"<*> <*> <*> <*> ( <*> ( <*> ) , <*> ( <*> ) , <*> ( FF : <*> : <*> : <*> : <*> ) , <*> ( <*> ) , <*> ( <*> ) ) <*> <*> <*> <*> <*> <*> ",1
+414e798b,<*> <*> status <*> : FF : <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+f0b7d0fc,rts <*> <*> <*> <*> : <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> : <*> <*> <*> <*> <*> <*> ,1
+508f3740,1 <*> <*> <*> in <*> <*> <*> ( <*> ) ( <*> <*> ) <*> ,1
+012beabd,"ciod : Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts : invalid or missing program image , Exec format error ",15
+2a2fac9a,ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> : Link has been severed ,9
+c8ac5af8,rts : <*> <*> for <*> <*> ,6
+44d105ee,ciod : generated 64 core files for program <*> ,10
+9eb2bbc8,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 0 ",1
+c2014f49,ciod : generated <*> core files for program <*> ,3
+7947a8b1,ciod : generated 128 core files for program <*> ,17
+15493d9e,iar <*> dear <*> ,146
+173fc9db,iar 003a9260 dear <*> ,14
+218f8bce,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 28 , bit 3 ",1
+b946b951,iar 0014a150 dear <*> ,13
+49609086,"<*> <*> <*> <*> <*> , <*> <*> <*> , <*> ( 1 ) ",2
+f6a4af82,"3 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 0 ",1
+04873f76,Lustre mount FAILED : <*> : point /p/gb1 ,9
+929373dc,"4 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 4 ",1
+9b2d1d4e,1 torus receiver <*> input pipe error ( s ) ( dcr <*> ) detected and corrected ,2
+fa38b822,ciod : <*> : <*> <*> <*> <*> <*> ,3
+d9a6c2b7,"ciod : <*> packet from node <*> ( <*> : <*> ) , message <*> <*> <*> <*> 3 or <*> ( <*> <*> <*> 00000000 ) ",1
+92719316,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 3 , bit <*> ",1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,2
+4c5222ad,rts : <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> ( <*> <*> <*> <*> ) <*> <*> <*> <*> ,1
+0f3d9802,total of 4 ddr error ( s ) detected and corrected ,1
+4165b6b6,critical input interrupt ( unit=0x0b <*> ) : warning for torus <*> wire ,2
+2ed00a63,"ciod : Error loading <*> : invalid or missing program image , Permission denied ",19
+4d34cee3,total of 2 ddr error ( s ) detected and corrected ,1
+74ac8bdc,"1 ddr errors ( s ) detected and corrected on rank 0 , symbol 28 , bit 0 ",1
+1b570c03,"4 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit <*> ",1
+d1a0f2e5,<*> <*> <*> <*> in <*> <*> <*> ( <*> ) ( <*> <*> ) <*> ,2
+9f1199a9,data cache search parity error detected . attempting to correct ,6
+b5f8f0ab,<*> <*> ,1
+5c9d5c59,"ciod : Error loading <*> : invalid or missing program image , Exec format error ",2
+ab764590,"Error receiving packet on tree network , expecting type 57 instead of type 3 ( <*> <*> 00000002 00000000 ) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007 ",5
+2f521c60,"4 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit 1 ",1
+3e20b7c6,iar 00106210 dear <*> ,12
+85d4c70c,iar 00106228 dear <*> ,12
+184cb800,iar 001061dc dear <*> ,11
+bfcf1a32,2354412 floating point alignment exceptions ,15
+96976d02,"2 ddr errors ( s ) detected and corrected on rank 0 , symbol <*> , bit <*> ",1
+b0ff8677,<*> torus receiver z+ input pipe error ( s ) ( dcr <*> ) detected and corrected ,1
+b7621afe,3 <*> <*> error ( s ) ( <*> <*> ) detected and corrected ,1
+ef340600,"2 ddr errors ( s ) detected and corrected on rank 0 , symbol 4 , bit 4 ",1
+389fea90,critical input interrupt ( unit=0x0b <*> ) : warning for torus z+ wire <*> <*> <*> <*> <*> <*> <*> ,2
+e679dd38,<*> torus <*> <*> <*> error ( s ) ( dcr <*> ) detected and corrected <*> <*> <*> ,2
+6b7706d2,"ciod : Received signal 15 , code=0 , errno=0 , address=0x000001b0 ",4
+f0594c97,Lustre mount FAILED : <*> : <*> : <*> ,2
+8d1e2a94,<*> <*> <*> <*> <*> ( <*> <*> <*> <*> <*> ) ,7
+f3b22578,"ciod : Received signal 15 , code=0 , errno=0 , <*> ",8
+d348c215,"ciod : Error reading message prefix on CioStream socket to <*> , Connection <*> <*> ",2
+703bdeea,"ciod : Error reading message prefix on CioStream socket to <*> , Connection reset by peer ",4
+e0afaf2b,<*> <*> <*> ,1
+bc519fb1,"ciod : Error reading message prefix on CioStream socket to <*> , Link has been severed ",8
+c92825a2,"ciod : Received signal 15 , code=0 , errno=0 , address=0x000001f2 ",4
+a2d33c5f,<*> <*> <*> 1 in <*> <*> <*> ( <*> ) ( <*> <*> ) <*> <*> <*> <*> ,1
+f4a9c7e9,0 microseconds spent in the rbs signal handler during 0 calls . 0 microseconds was the maximum time for a single instance of a correctable ddr . ,51
+074b7a87,"<*> total interrupts . 0 critical input interrupts . 0 microseconds total spent on critical input interrupts , 0 microseconds max time in a critical input interrupt . ",71
+e0b696df,"1 ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",2
+9a43ceab,"<*> <*> <*> Node card ( <*> ( <*> ) , <*> ( <*> ) , <*> ( FF : <*> : <*> : <*> : <*> ) , <*> ( <*> ) , <*> ( <*> ) ) <*> <*> <*> <*> <*> <*> ",1
+1fe8338a,"Kernel detected <*> integer alignment exceptions ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ( <*> ) iar <*> , dear <*> ",1
+ece44c43,1 <*> <*> 1 in <*> <*> <*> ( <*> ) ( <*> <*> ) <*> <*> <*> <*> ,1
+c5049686,"<*> ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",1
+ed04eb64,total of 1 ddr error ( s ) detected and corrected over <*> seconds ,1
+997b99d2,<*> <*> <*> 0 ,1
+666ecc23,critical input interrupt ( unit=0x0b <*> ) : warning for <*> <*> wire <*> <*> <*> <*> <*> <*> <*> ,1
+98596edd,<*> <*> <*> <*> <*> <*> <*> 0 ( <*> ) ,1
+cb294bd3,"Kernel detected <*> integer alignment exceptions ( <*> ) iar 0x00544ea8 , dear <*> ( <*> ) iar 0x00544eb8 , dear <*> ( <*> ) iar 0x00544ea8 , dear <*> ( <*> ) iar 0x00544eb8 , dear <*> ( <*> ) iar 0x00544ee0 , dear <*> ( <*> ) iar 0x00544ef0 , dear <*> ( <*> ) iar 0x00544ee0 , dear <*> ( <*> ) iar 0x00544ef0 , dear <*> ",8
+8f18ddf1,total of <*> ddr error ( s ) detected and corrected over <*> seconds ,2
+9a750e8b,"28 ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",1
+b9cccc02,ciod : LOGIN chdir ( <*> ) failed : <*> error ,1
+e8c33c2c,"2 ddr error ( s ) detected and corrected on rank 0 , symbol 28 over <*> seconds ",1
+936aaaf6,"2 ddr error ( s ) detected and corrected on rank 0 , symbol <*> over <*> seconds ",1
+f94c5e30,"<*> ddr error ( s ) detected and corrected on rank 0 , symbol 28 over <*> seconds ",1
+0495f4cf,2 <*> <*> error ( s ) ( <*> <*> ) detected and corrected over <*> seconds ,1
+49fe55ec,total of 3 ddr error ( s ) detected and corrected over <*> seconds ,1
+bcac4c77,"ciod : Error loading <*> : program image <*> <*> , <*> <*> <*> ",1
+80768c28,<*> <*> <*> : <*> ,1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

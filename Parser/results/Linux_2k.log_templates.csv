@@ -1,12 +1,13 @@
 EventId,EventTemplate,Occurrences
-3ea85fa6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 ,14
+ec133ff2,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> ,117
 003257e2,check pass ; user unknown ,117
-2700d1e1,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net user=root ,10
+74b6e2d8,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=root ,138
 97891953,session opened for user cyrus by ( uid=0 ) ,43
 5821dde8,session closed for user cyrus ,43
 33d78ac7,ALERT exited abnormally with [ 1 ] ,43
 c445f05b,session opened for user news by ( uid=0 ) ,43
 8ff7d7b9,session closed for user news ,43
+<<<<<<< HEAD
 4b73bf41,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com ,10
 84bd98ef,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net ,5
 b45f65cf,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fri Jun 17 07:07:00 2005 ,6
@@ -14,16 +15,21 @@ b45f65cf,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fr
 45ffd5ff,connection from 24.54.76.216 ( 24-54-76-216.bflony.adelphia.net ) at Fri Jun 17 07:07:04 2005 ,1
 099df829,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.46.224.253 user=guest ,1
 c5e7ee82,session opened for user test by ( uid=509 ) ,33
+=======
+950e91d6,connection from <*> ( <*> ) at <*> <*> 17 <*> 2005 ,8
+521923da,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*> ,21
+c5e7ee82,session opened for user test by ( uid=509 ) ,36
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 58e532f7,session closed for user test ,36
 ce53619b,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Fri Jun 17 20:55:06 2005 ,5
-4a38f5c3,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Fri Jun 17 20:55:07 2005 ,2
-9c7287f6,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net ,10
+bc829157,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Fri Jun 17 <*> 2005 ,2
 8c511973,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 02:08:10 2005 ,7
 ccb9eaf7,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 02:08:11 2005 ,5
-18c1c212,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 02:08:12 2005 ,3
-b3742ef2,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005 ,1
+ab942a1c,connection from 82.252.162.81 ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun 18 <*> 2005 ,3
+c3703634,<*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> 2005 ,1
 ad3464aa,cupsd shutdown succeeded ,6
 4253878e,cupsd startup succeeded ,6
+<<<<<<< HEAD
 58166ca2,restart . ,7
 0746a957,connection from 222.33.90.199 ( ) at Mon Jun 20 03:40:59 2005 ,12
 bfdb37e0,Received SNMP packet ( s ) from 67.170.148.126 ,1
@@ -291,3 +297,124 @@ d734a536,pci_hotplug : PCI Hot Plug PCI Core version : 0.5 ,1
 e6713643,<*> : <*> <*> <*> <*> <*> <*> ,1
 273a93e3,Real Time Clock Driver v1.12 ,1
 5c96b528,Linux agpgart interface v0.100 ( c ) Dave Jones ,1
+=======
+b5f8f0ab,<*> <*> ,7
+2262aba7,connection from <*> ( ) at Mon Jun <*> <*> 2005 ,12
+34437324,<*> <*> <*> ( <*> ) from <*> ,1
+30c72430,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com user=root ,23
+8b06fc11,connection from <*> ( ) at Wed Jun 22 <*> 2005 ,23
+d90dd75a,connection from <*> ( ) at Fri Jun 24 <*> 2005 ,13
+8850f2ee,connection from <*> ( ) at Sat Jun 25 <*> 2005 ,31
+673bac22,connection from <*> ( ) at Wed Jun 29 <*> 2005 ,53
+16bfe89d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116 user=root ,20
+46c74702,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210 user=root ,15
+65246300,Authentication failed from 163.27.187.39 ( 163.27.187.39 ) : <*> <*> <*> <*> <*> <*> ,8
+c4147e80,Kerberos authentication failed ,23
+3d73ef88,Authentication failed from 163.27.187.39 ( 163.27.187.39 ) : <*> <*> connection <*> ,15
+3da3ab9a,connection from <*> ( ) at Fri Jul <*> <*> 2005 ,23
+130d7234,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 3 10:05:25 2005 ,23
+9486eb34,connection from 62.99.164.82 ( 62.99.164.82.sh.interxion.inode.at ) at Sun Jul 3 23:16:09 2005 ,23
+63e528b8,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29 user=root ,7
+82b3f905,connection from 63.197.98.106 ( adsl-63-197-98-106.dsl.mtry01.pacbell.net ) at Mon Jul 4 12:52:44 2005 ,23
+cbbb670f,connection from <*> ( ) at Tue Jul <*> <*> 2005 ,46
+a516de7d,connection from 211.72.151.162 ( ) at Wed Jul <*> <*> 2005 ,23
+96ffcb72,<*> <*> <*> <*> [ <*> ( <*> ) ] : ,1
+3b198f2a,<*> : <*> <*> <*> ,4
+03555af8,session opened for user <*> by <*> ( uid=0 ) ,1
+b5f6193c,<*> <*> <*> <*> ,6
+113bd753,session closed for user <*> ,1
+347334c7,<*> <*> <*> <*> <*> ,11
+15305f14,connection from <*> ( ) at Thu Jul <*> <*> 2005 ,54
+04f036a0,connection from <*> ( ) at Sat Jul 9 <*> 2005 ,64
+cbd897c7,connection from <*> ( <*> ) at Sat Jul 9 <*> 2005 ,23
+32778ade,connection from <*> ( ) at Sun Jul 10 <*> 2005 ,46
+1e57ac04,connection from 82.83.227.67 ( dsl-082-083-227-067.arcor-ip.net ) at Sun Jul 10 <*> 2005 ,23
+1c24e33f,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110 user=root ,80
+1b8b760d,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141 user=root ,10
+f92ea663,authentication failure ; logname= uid=0 euid=0 <*> ruser= <*> ,1
+c83a0655,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253 user=root ,10
+f16aa7b0,connection from 211.107.232.1 ( ) at Fri Jul <*> <*> 2005 ,22
+bdbad5c1,connection from <*> ( ) at Sat Jul <*> <*> 2005 ,23
+4a61377b,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 <*> 2005 ,2
+e68ca371,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 06:13:37 2005 ,14
+f0f9ff71,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 06:13:38 2005 ,5
+7a6d09f8,connection from 83.116.207.11 ( aml-sfh-3310b.adsl.wanadoo.nl ) at Sun Jul 17 06:14:36 2005 ,11
+f7ba493c,connection from <*> ( ) at Sun Jul 17 <*> 2005 ,32
+24f1f28b,connection from 207.30.238.8 ( host8.topspot.net ) at Sun Jul 17 <*> 2005 ,46
+d4dba79c,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 15:09:15 2005 ,18
+dbc5daad,connection from 203.101.45.59 ( dsl-Chn-static-059.45.101.203.touchtelindia.net ) at Sun Jul 17 <*> 2005 ,5
+46e0825f,connection from <*> ( <*> ) at Sun Jul 17 <*> 2005 ,46
+bd5bbe0f,connection from 211.72.151.162 ( ) at Mon Jul <*> <*> 2005 ,21
+d498be03,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180 user=root ,10
+b577a8e7,connection from <*> ( ) at Fri Jul 22 <*> 2005 ,46
+46d286e3,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217 user=root ,10
+5f7c9473,connection from <*> ( ) at Sun Jul 24 <*> 2005 ,23
+c58c6c56,<*> <*> <*> <*> <*> <*> ( <*> ) ,2
+4343b8f2,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=203.251.225.101 user=root ,5
+e0e3e3c1,connection from 211.107.232.1 ( ) at Sun Jul 24 <*> 2005 ,19
+0ebe47af,connection from <*> ( ) at Mon Jul 25 <*> 2005 ,42
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,19
+c4dad35d,<*> ( <*> ) : <*> <*> <*> <*> <*> ,4
+5a54ca5f,<*> : <*> <*> <*> <*> <*> : <*> <*> <*> <*> ,2
+38c4552c,authentication failure ; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114 user=root ,23
+d2b9388e,connection from <*> ( ) at Wed Jul <*> <*> 2005 ,1
+2bb55441,<*> startup succeeded ,8
+460fa0f6,"<*> <*> , <*> <*> <*> <*> started . ",1
+7d009b9f,<*> <*> <*> ( <*> <*> <*> ) ( <*> <*> <*> <*> ( <*> <*> <*> <*> ) ) <*> 1 <*> <*> <*> <*> <*> <*> ,1
+ba9dc17f,<*> <*> <*> <*> : ,1
+63ad75f4,BIOS-e820 : <*> - <*> ( <*> ) ,2
+56d7aa0a,BIOS-e820 : <*> - <*> ( reserved ) ,3
+6435abcb,<*> <*> available . ,2
+c8b9921f,<*> <*> 0 <*> : <*> ,1
+4387a994,"<*> zone : 4096 pages , LIFO <*> ",1
+cf2b56be,"<*> zone : <*> pages , LIFO <*> ",1
+f348919a,"<*> zone : 0 pages , LIFO <*> ",1
+699d33b8,ACPI disabled <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,4
+5668ba0e,<*> <*> <*> : <*> <*> <*> <*> ,1
+4b963d77,<*> CPU <*> 0 ,1
+3f651949,"CPU 0 <*> , <*> <*> ",1
+a7d3dc27,<*> hash table entries : <*> ( order <*> : 4096 bytes ) ,1
+89c14c4f,<*> <*> <*> <*> . ,1
+8b7fd723,"<*> : <*> available ( <*> <*> <*> , <*> reserved , <*> <*> , <*> <*> , <*> <*> ) ",1
+9c8d00af,<*> : <*> <*> ,1
+572efd46,<*> : <*> <*> <*> <*> ,5
+3ebff097,<*> <*> <*> <*> <*> <*> <*> <*> <*> failed <*> ,1
+f7c1d3c8,<*> <*> <*> with <*> <*> ,1
+2f8ccedd,"<*> cache hash table entries : <*> ( order : <*> , <*> bytes ) ",1
+6b35c3c4,"<*> hash table entries : <*> ( order : <*> , <*> bytes ) ",1
+f5efd12c,"<*> hash table entries : <*> ( order : 0 , 4096 bytes ) ",1
+4dd929a6,"CPU : <*> <*> cache : <*> , <*> <*> cache : <*> ",1
+386f2858,CPU : <*> cache : <*> ,1
+6e436cfa,Intel <*> <*> <*> <*> . ,1
+ea856358,Intel <*> <*> <*> <*> <*> CPU <*> 0 . ,1
+35e61c7c,CPU : Intel <*> <*> ( <*> ) <*> <*> ,1
+536f8ba0,<*> <*> <*> <*> <*> <*> ... <*> . ,2
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,1
+723ffafc,<*> <*> <*> <*> : <*> ,2
+9accdf21,"PCI : PCI <*> <*> <*> <*> <*> <*> , <*> <*> ",1
+9750756a,PCI : <*> <*> <*> <*> ,1
+419cacb9,<*> : <*> ( <*> ) ,1
+f14888a7,ACPI : <*> <*> <*> ,1
+680467a0,ACPI : <*> disabled . ,1
+398f7df3,<*> <*> <*> <*> <*> <*> ( <*> ) <*> <*> ,1
+1fefe7ef,<*> <*> : succeeded ,1
+f435d836,ACPI : ACPI <*> <*> <*> PCI IRQ <*> entries ,1
+4e0f0f17,PCI : <*> <*> IRQ <*> table ,1
+cc567ce0,PCI : <*> PCI <*> ,1
+ce3dc06f,PCI : <*> PCI <*> ( <*> <*> ) ,1
+c993fd6b,PCI : <*> IRQ <*> <*> <*> <*> <*> <*> <*> ,1
+5f1289b4,<*> : <*> version <*> <*> <*> ( <*> version <*> ) ,1
+d4089f79,<*> : <*> <*> <*> ( disabled ) ,1
+23594876,<*> <*> 1 ,1
+e321961d,<*> <*> <*> <*> started ,1
+f7977a62,<*> ( <*> ) : <*> ,1
+80768c28,<*> <*> <*> : <*> ,1
+b2676f31,<*> <*> started ,1
+40991570,"<*> <*> <*> <*> , 0 ",1
+d77bc745,"<*> hash table entries : <*> ( order 0 , 4096 bytes ) ",1
+b4b700cb,<*> : PCI <*> <*> PCI <*> version : <*> ,1
+34e1a9db,<*> : <*> <*> <*> <*> ... ,1
+e6713643,<*> : <*> <*> <*> <*> <*> <*> ,1
+150af11c,<*> <*> <*> <*> ( <*> ) <*> <*> ,1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

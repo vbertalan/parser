@@ -1,4 +1,5 @@
 EventId,EventTemplate,Occurrences
+<<<<<<< HEAD
 1349ce5a,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : 1893 time : <*> ,381
 6c4655fd,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : 1893 time : 0.2642131 ,1
 2ecefead,[ instance : b9000564-fe1a-409b-b8cc-1e88b294cd1d ] VM Started ( Lifecycle Event ) ,1
@@ -35,10 +36,43 @@ ff5b4460,[ instance : <*> ] Terminating instance ,15
 a6e72cd5,[ instance : b9000564-fe1a-409b-b8cc-1e88b294cd1d ] Took 1.03 seconds to destroy the instance on the hypervisor . ,1
 d93daea2,[ instance : b9000564-fe1a-409b-b8cc-1e88b294cd1d ] Took 0.48 seconds to deallocate network for instance . ,1
 a60b9c84,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : 211 time : 0.1072969 ,1
+=======
+1349ce5a,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : 1893 time : <*> ,503
+de5a888e,[ instance : <*> ] VM Started ( Lifecycle Event ) ,22
+f49a4002,[ instance : <*> ] VM Paused ( Lifecycle Event ) ,22
+0722c7d8,[ instance : <*> ] During sync_power_state the instance has a pending task ( spawning ) . Skip . ,43
+33d6ccd5,image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at ( /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ) : checking ,82
+d901d8a8,"image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at ( /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ) : in use : on this node 1 local , 0 on other nodes sharing this instance storage ",82
+ee103c35,Active base files : /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,82
+60bf6369,Creating event <*> : <*> for instance <*> ,9
+77739a96,10.11.10.1 `` <*> <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ,22
+41e4f4c6,[ instance : <*> ] VM Resumed ( Lifecycle Event ) ,44
+8a363d35,[ instance : <*> ] Instance spawned successfully . ,22
+29924acb,[ instance : <*> ] Took <*> seconds to spawn the instance on the hypervisor . ,22
+0d1a58dd,[ instance : <*> ] Took <*> seconds to build instance . ,22
+d1deef40,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : <*> time : <*> ,195
+3af6a170,Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us ,15
+300848f7,"Total <*> vcpus : 16 , <*> <*> vcpus : 1 ",9
+ac6d94d6,Final resource view : name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats= [ ] ,9
+7276084c,Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us : cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us ,15
+344880bc,<*> `` GET /openstack/2012-08-10/meta_data.json HTTP/1.1 '' status : 200 len : 264 time : <*> ,22
+4618bd35,<*> `` GET /openstack/2013-10-17 HTTP/1.1 '' status : 200 len : 157 time : <*> ,22
+2dd19e81,<*> `` GET /openstack/2013-10-17/vendor_data.json HTTP/1.1 '' status : 200 len : 124 time : <*> ,44
+9b4d9fc9,10.11.10.1 `` <*> <*> HTTP/1.1 '' status : <*> len : <*> time : <*> ,64
+47dc4b7e,<*> `` GET <*> HTTP/1.1 '' status : <*> len : <*> time : <*> ,20
+ff5b4460,[ instance : <*> ] Terminating instance ,22
+d785b27d,[ instance : <*> ] Instance destroyed successfully . ,22
+15709580,<*> `` GET /openstack/2013-10-17/meta_data.json HTTP/1.1 '' status : 200 len : 967 time : <*> ,35
+5d914a75,[ instance : <*> ] Deleting instance files <*> ,20
+be6bef38,[ instance : <*> ] Deletion of <*> complete ,20
+b9447af5,[ instance : <*> ] Took <*> seconds to destroy the instance on the hypervisor . ,21
+33a34964,[ instance : <*> ] Took <*> seconds to deallocate network for instance . ,21
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea
 4c95148c,Unknown base file : /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,30
 7e36bcbf,Removable base files : /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,21
 783e8772,Removing base or swap file : /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,21
 e44e2fcb,HTTP exception thrown : No instances found for any event ,21
+<<<<<<< HEAD
 a8193740,10.11.10.1 `` POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1 '' status : 404 len : 296 time : <*> ,13
 b91d2c8c,10.11.10.1 `` POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1 '' status : 202 len : 733 time : <*> ,21
 0a3e5057,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : 1583 time : 0.1901591 ,1
@@ -719,3 +753,41 @@ b5c2f2dd,"10.11.21.143,10.11.10.1 `` GET /openstack/2013-10-17/vendor_data.json 
 65fcf102,10.11.10.1 `` DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/faf974ea-cba5-4e1b-93f4-3a3bc606006f HTTP/1.1 '' status : 204 len : 203 time : 0.2727120 ,1
 d8bef166,[ instance : faf974ea-cba5-4e1b-93f4-3a3bc606006f ] Instance destroyed successfully . ,1
 81da46c8,10.11.10.1 `` GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 '' status : 200 len : 1916 time : 0.2717581 ,1
+=======
+dc55fe75,"[ instance : <*> ] Attempting claim : memory 2048 MB , disk 20 GB , vcpus 1 CPU ",21
+d883b45d,"[ instance : <*> ] Total memory : 64172 MB , used : 512.00 MB ",21
+791c51b3,"[ instance : <*> ] memory limit : 96258.00 MB , free : 95746.00 MB ",21
+e85cbaeb,"[ instance : <*> ] Total disk : 15 GB , used : 0.00 GB ",21
+da503406,"[ instance : <*> ] disk limit not specified , defaulting to unlimited ",21
+34c52a32,"[ instance : <*> ] Total vcpu : 16 VCPU , used : 0.00 VCPU ",21
+41de3967,"[ instance : <*> ] vcpu limit not specified , defaulting to unlimited ",21
+c08d44c0,[ instance : <*> ] Claim successful ,21
+d628cbf4,10.11.10.1 `` GET <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ,21
+dacc542f,[ instance : <*> ] Creating image ,21
+a3f04d3c,[ instance : <*> ] VM Stopped ( Lifecycle Event ) ,21
+a5f48d35,<*> <*> instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us ' . ,2
+b10cb10e,<*> `` GET /latest/meta-data/ HTTP/1.1 '' status : 200 len : 328 time : <*> ,10
+25d3a320,<*> `` GET /latest/meta-data/block-device-mapping/ HTTP/1.1 '' status : 200 len : 124 time : <*> ,8
+a1c93e09,<*> `` GET <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ,17
+d6f12f7d,<*> `` GET <*> HTTP/1.1 '' status : 200 len : 124 time : <*> ,6
+bec5eb18,<*> instance <*> <*> for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from <*> <*> <*> <*> <*> . <*> instances . ,1
+c868c4bd,Base or swap file too young to remove : /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,9
+99d68af5,Creating event <*> for instance <*> ,13
+1ce4be69,"Total <*> vcpus : 16 , <*> <*> vcpus : <*> ",6
+ed360e8a,Final resource view : name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=512MB phys_disk=15GB used_disk=0GB total_vcpus=16 used_vcpus=0 pci_stats= [ ] ,6
+b6da7fd7,10.11.10.1 `` GET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ,1
+24c58a33,The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us ' did not match . Re-created its InstanceList . ,5
+433fb817,<*> `` GET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ,1
+bfec8024,[ instance : <*> ] <*> instance <*> <*> ,1
+8512eabf,[ instance : <*> ] <*> <*> <*> <*> ,1
+11296265,"10.11.21.132,10.11.10.1 `` GET /latest/meta-data/ HTTP/1.1 '' status : 200 len : 328 time : <*> ",1
+a64f7a5f,"10.11.21.132,10.11.10.1 `` GET /latest/meta-data/block-device-mapping/ HTTP/1.1 '' status : 200 len : 124 time : <*> ",1
+ef9151d4,"10.11.21.132,10.11.10.1 `` GET <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ",10
+fb3c9561,"10.11.21.132,10.11.10.1 `` GET <*> HTTP/1.1 '' status : 200 len : 124 time : <*> ",1
+8fb4f176,<*> <*> <*> <*> <*> <*> <*> : <*> <*> : <*> <*> : <*> ,3
+29732eba,"<*> <*> instance <*> <*> , found 1 instances <*> the <*> <*> <*> instances <*> the <*> . ",1
+38afe2dc,"10.11.21.139,10.11.10.1 `` GET /latest/meta-data/ HTTP/1.1 '' status : 200 len : 328 time : <*> ",1
+2ea5a81d,"10.11.21.139,10.11.10.1 `` GET /latest/meta-data/block-device-mapping/ HTTP/1.1 '' status : 200 len : 124 time : <*> ",1
+61600ea2,"10.11.21.139,10.11.10.1 `` GET <*> HTTP/1.1 '' status : 200 len : <*> time : <*> ",7
+e62df5df,"10.11.21.139,10.11.10.1 `` GET <*> HTTP/1.1 '' status : 200 len : 124 time : <*> ",1
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

@@ -1,4 +1,5 @@
 EventId,EventTemplate,Occurrences
+<<<<<<< HEAD
 9c43ee9c,Loaded Servicing Stack v6.1.7601.23505 with Core : C : \Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll ,2
 d4ec1fb2,<*> @ <*> WcpInitialize ( wcp.dll version 0.0.0.6 ) called ( stack @ 0x7fed806eb5d @ <*> @ <*> @ 0xff83e97c @ 0xff83d799 @ 0xff83db2f ) ,1
 c51f3aa4,<*> @ 2016/9/27:20:30:31.458 WcpInitialize ( wcp.dll version 0.0.0.6 ) called ( stack @ 0x7fed806eb5d @ <*> @ <*> @ <*> @ 0xff83e97c @ 0xff83d799 ) ,1
@@ -874,3 +875,55 @@ c1a495e3,Session : 30546354_3356114139 initialized by client WindowsUpdateAgent 
 20ebe4ad,Session : 30546354_3356384155 initialized by client WindowsUpdateAgent . ,1
 a43ad6d5,Session : 30546354_3360174372 initialized by client WindowsUpdateAgent . ,1
 8a8b6a98,Session : 30546354_3363894584 initialized by client WindowsUpdateAgent . ,1
+=======
+7c1f3e8c,<*> <*> <*> <*> <*> <*> : <*> : <*> ,2
+391ad3db,<*> @ <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> @ <*> @ <*> @ <*> @ <*> @ <*> @ <*> <*> ,6
+d74570e7,<*> <*> <*> . ,5
+55094c07,<*> <*> <*> <*> <*> . ,3
+89c14c4f,<*> <*> <*> <*> . ,2
+e8b3e2ae,<*> : <*> <*> <*> <*> <*> : <*> ,2
+53720dac,<*> : <*> <*> <*> <*> <*> <*> <*> <*> . ,2
+f90cf706,<*> : <*> <*> <*> <*> <*> <*> . ,2
+70151023,"<*> : Failed to <*> <*> <*> <*> <*> : <*> : <*> <*> <*> , <*> : <*> [ HRESULT = <*> - <*> ] ",2
+50339001,<*> : Failed to <*> <*> <*> <*> . [ HRESULT = <*> - <*> ] ,2
+bd68f3a5,"<*> : <*> <*> <*> <*> <*> <*> for <*> <*> <*> : <*> : <*> <*> <*> , <*> : <*> ",2
+91c71fab,<*> : <*> : Failed to <*> <*> <*> <*> . [ HRESULT = <*> - <*> ] ,2
+924a8907,"<*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> , <*> <*> <*> <*> <*> <*> <*> . ",2
+5efea22c,<*> : <*> to <*> <*> <*> <*> <*> <*> . ,2
+be4b8a25,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> @ <*> ,2
+00af6af0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+9de34bb6,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> @ <*> ,3
+00f50891,<*> @ <*> <*> <*> <*> : ,3
+0a1742f0,"<*> : <*> , <*> <*> <*> <*> <*> <*> . ",2
+347334c7,<*> <*> <*> <*> <*> ,3
+058e5c04,<*> <*> <*> <*> <*> <*> <*> initialized ,3
+d406211c,Session : <*> initialized by client WindowsUpdateAgent . ,608
+1bd2e0ff,Warning : Unrecognized packageExtended attribute . ,280
+d6894390,Expecting attribute name [ HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM ] ,224
+0889d19b,Failed to get next element [ HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM ] ,224
+e86a4ee7,Failed to internally open package . [ HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE ] ,18
+caca4e05,"Read out cached package applicability for package : <*> , ApplicableState : 112 , CurrentState:112 ",409
+92b08be1,"Read out cached package applicability for package : <*> , ApplicableState : 80 , CurrentState:112 ",69
+2be400fb,"Read out cached package applicability for package : <*> , ApplicableState : <*> , CurrentState:112 ",12
+58ad4522,"Read out cached package applicability for package : <*> , ApplicableState : 80 , CurrentState:0 ",26
+1798941d,"Read out cached package applicability for package : <*> , ApplicableState : <*> , CurrentState:0 ",12
+d086c263,"Read out cached package applicability for package : <*> , ApplicableState : <*> , <*> ",4
+d1f50512,"Read out cached package applicability for package : <*> , ApplicableState : 112 , CurrentState:0 ",18
+56ba9ed7,"Read out cached package applicability for package : <*> , ApplicableState : 0 , CurrentState:0 ",8
+93e03e71,Failed to <*> <*> <*> <*> . [ HRESULT = <*> - <*> ] ,2
+4b8b29a6,<*> <*> <*> <*> to : <*> ,1
+b71b3bfe,<*> : <*> ,1
+86ad3616,<*> @ <*> <*> <*> @ <*> initialized <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> client <*> <*> <*> <*> <*> <*> <*> ,1
+3b198f2a,<*> : <*> <*> <*> ,1
+c90cbb43,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : ,1
+c5a2bc07,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> . ,1
+9b9422b7,<*> <*> : <*> <*> <*> : <*> <*> <*> <*> ,1
+3e4bfc5f,<*> : <*> <*> <*> : <*> ,1
+9d4b27aa,<*> @ <*> <*> <*> @ <*> <*> ,1
+80768c28,<*> <*> <*> : <*> ,2
+c262e59e,"<*> offline registry hive : <*> , <*> registry <*> ' { bf1a281b-ad7b-4476-ac95-f47682990ce7 } <*> ' <*> <*> <*> <*> <*> ' . ",8
+806c61fe,"<*> <*> <*> , <*> <*> <*> <*> <*> <*> . ",1
+a4196a77,<*> <*> <*> <*> - <*> ,2
+2f4d0cf3,Session : <*> initialized by client <*> . ,1
+e019212b,<*> offline registry hive : { bf1a281b-ad7b-4476-ac95-f47682990ce7 } <*> ,8
+>>>>>>> 17dbc0f44939c79a5e0f30850bdc8a9edfb42fea

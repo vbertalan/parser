@@ -1,7 +1,7 @@
 """
-Description : This file implements the Drain algorithm for log parsing
-Author      : LogPAI team
-License     : MIT
+Description : This file implements the my algorithm for log parsing
+Author      : Vithor Bertalan
+License     : n/a
 """
 
 import contextlib
@@ -18,7 +18,7 @@ import pickle
 import wordninja
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', st=0.4, rex=None, threshold = 0.4, filename=""):
+    def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', st=0.4, rex=None, threshold = 0, filename=""):
         """
         Attributes
         ----------
@@ -47,7 +47,7 @@ class LogParser:
 
     ## Transforma o dataset
     def transform_dataset(self, raw_content):
-
+        
         from pathlib import Path
         path_to_file = os.path.join(self.vecdir, self.filename + '_vectors.vec')
         path = Path(path_to_file)
@@ -65,13 +65,15 @@ class LogParser:
     def cluster_vectors(self):
         import hdbscan
         import umap
-
-        clusterer = hdbscan.HDBSCAN(min_cluster_size=5,min_samples=1,metric='euclidean',
+        
+        clusterer = hdbscan.HDBSCAN(min_cluster_size=50,min_samples=1,metric='euclidean',
                                     allow_single_cluster=False,cluster_selection_method='eom')
-        reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
+        #reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
 
-        umap_data = reducer.fit_transform(self.vectors)
-        self.clusters = clusterer.fit(umap_data)
+        #umap_data = reducer.fit_transform(self.vectors)
+        #self.clusters = clusterer.fit(umap_data)
+
+        self.cluster = clusterer.fit(self.vectors)
         self.cluster_num = clusterer.labels_.max()
         self.cluster_labels = clusterer.labels_
 
