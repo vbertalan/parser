@@ -2,7 +2,10 @@
 
 from fileinput import filename
 import sys
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+# Path - Windows
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+# Path - Linux
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from logparser.logparser.utils import evaluator
 from logparser.logparser.Parser import Parser
 import os
