@@ -18,13 +18,13 @@ vector_dir = "Parser/vectors" # The directory to save the vectorized files
 
 # Dictionary to load files
 benchmark_settings = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'st': 0.5, ## std 0.5
-        'depth': 4
-        },
+    # 'HDFS': {
+    #     'log_file': 'HDFS/HDFS_2k.log',
+    #     'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+    #     'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+    #     'st': 0.5, ## std 0.5
+    #     'depth': 4
+    #     },
 
     # 'Hadoop': {
     #     'log_file': 'Hadoop/Hadoop_2k.log',
@@ -82,13 +82,13 @@ benchmark_settings = {
     #     'depth': 5      
     #     },
 
-    # 'Linux': {
-    #     'log_file': 'Linux/Linux_2k.log',
-    #     'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
-    #     'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}'],
-    #     'st': 0.39,
-    #     'depth': 6        
-    #     },
+    'Linux': {
+        'log_file': 'Linux/Linux_2k.log',
+        'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
+        'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}'],
+        'st': 0.39,
+        'depth': 6        
+        },
 
     # 'Andriod': {
     #     'log_file': 'Andriod/Andriod_2k.log',
@@ -163,7 +163,8 @@ for dataset, setting in benchmark_settings.items():
 
     empty_array = []
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.05, filename=log_file)
+                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.70, filename=log_file)
+
 
     parser.parse(log_file)    
     
@@ -173,7 +174,7 @@ for dataset, setting in benchmark_settings.items():
                            )
     benchmark_result.append([dataset, F1_measure, accuracy])
     
-# ## Testing different thresholds
+## Testing different thresholds
 # for dataset, setting in benchmark_settings.items():
 #     print('\n=== Evaluation on %s ==='%dataset)
 #     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
