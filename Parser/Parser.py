@@ -135,6 +135,22 @@ class LogParser:
 
             return new_sentence
 
+    ## Method to check if a word is present in the English language, without splitting the tokens
+    def check_english(self, sentence):
+
+        with open("create.txt") as word_file:
+            english_words = {word.strip().lower() for word in word_file}
+
+            tokenized_words = word_tokenize(sentence)
+            new_sentence = []
+            for token in tokenized_words:
+                if token.lower() not in english_words:
+                    new_sentence.append("<*>")
+                else:
+                    new_sentence.append(token)       
+
+        return new_sentence
+
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logName), regex, headers, self.log_format)
@@ -198,30 +214,31 @@ class LogParser:
         with open("create.txt") as word_file:
             english_words = {word.strip().lower() for word in word_file}
 
-            print('\n=== Parsing dataset ===')
-            for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
-                sentence_cluster = self.cluster_labels[idx]
-                sentence_tokens = word_tokenize(line["Content"])
-                #sentence_tokens = self.split_words(line["Content"])
-                new_sentence = ""
+        print('\n=== Parsing dataset ===')
+        for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
+            sentence_cluster = self.cluster_labels[idx]
+            sentence_tokens = word_tokenize(line["Content"])
+            #sentence_tokens = self.check_english(line["Content"])
+            new_sentence = ""
 
-                for token in sentence_tokens:
-                    query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
-                    new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
-                    new_sentence += new_token
-                    new_sentence += " "
+            for token in sentence_tokens:
+                query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
+                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
+                new_sentence += new_token
+                new_sentence += " "
 
-                log_templates.append(new_sentence)
-                log_templateids.append(hashlib.md5(new_sentence.encode('utf-8')).hexdigest()[:8])
+            log_templates.append(new_sentence)
+            log_templateids.append(hashlib.md5(new_sentence.encode('utf-8')).hexdigest()[:8])
 
 
-                if count % 1000 == 0 or count == len(self.df_log):
-                    print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
+            if count % 1000 == 0 or count == len(self.df_log):
+                print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
 
-                if not os.path.exists(self.savePath):
-                    os.makedirs(self.savePath)
+            if not os.path.exists(self.savePath):
+                os.makedirs(self.savePath)
 
-                #print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
+            #print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
         #print(len(self.word_dict))
 

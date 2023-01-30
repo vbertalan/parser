@@ -151,57 +151,57 @@ benchmark_settings = {
 benchmark_result = []
 
 # ## Single threshold
-# for dataset, setting in benchmark_settings.items():
-#     print('\n=== Evaluation on %s ==='%dataset)
-#     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
-#     log_file = os.path.basename(setting['log_file'])
-
-#     '''
-#     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-#                                 outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.05, filename=log_file)
-#     '''
-
-#     empty_array = []
-#     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-#                                 outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.05, filename=log_file)
-
-#     parser.parse(log_file)    
-    
-#     F1_measure, accuracy = evaluator.evaluate(
-#                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
-#                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
-#                            )
-#     benchmark_result.append([dataset, F1_measure, accuracy])
-    
-## Testing different thresholds
 for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
-    threshold_list = [0.1, 0.2, 0.4, 0.7, 0.9]
-    best_F1_measure = 0
-    best_accuracy = 0
-    best_threshold = 0
+
+    '''
+    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
+                                outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.05, filename=log_file)
+    '''
 
     empty_array = []
-    for number in threshold_list:
-        parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = number, filename=log_file)
-        parser.parse(log_file)    
+    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
+                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.05, filename=log_file)
 
-        F1_measure, accuracy = evaluator.evaluate(
+    parser.parse(log_file)    
+    
+    F1_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
-        
-        if F1_measure > best_F1_measure:
-            best_F1_measure = F1_measure
-        if accuracy > best_accuracy:
-            best_accuracy = accuracy    
-            best_threshold = number
+    benchmark_result.append([dataset, F1_measure, accuracy])
     
-    print("On dataset {}, the best threshold is {}!".format(dataset, best_threshold))
-    benchmark_result.append([dataset, best_F1_measure, best_accuracy])
+# ## Testing different thresholds
+# for dataset, setting in benchmark_settings.items():
+#     print('\n=== Evaluation on %s ==='%dataset)
+#     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
+#     log_file = os.path.basename(setting['log_file'])
+#     threshold_list = [0.1, 0.2, 0.4, 0.7, 0.9]
+#     best_F1_measure = 0
+#     best_accuracy = 0
+#     best_threshold = 0
+
+#     empty_array = []
+#     for number in threshold_list:
+#         parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
+#                                 outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = number, filename=log_file)
+#         parser.parse(log_file)    
+
+#         F1_measure, accuracy = evaluator.evaluate(
+#                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
+#                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
+#                            )
+        
+#         if F1_measure > best_F1_measure:
+#             best_F1_measure = F1_measure
+#         if accuracy > best_accuracy:
+#             best_accuracy = accuracy    
+#             best_threshold = number
+    
+#     print("On dataset {}, the best threshold is {}!".format(dataset, best_threshold))
+#     benchmark_result.append([dataset, best_F1_measure, best_accuracy])
 
 
 

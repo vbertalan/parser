@@ -7,7 +7,7 @@ import sys
 # Path - Linux
 sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from logparser.logparser.utils import evaluator
-from logparser.logparser.Parser import Parser
+from logparser.logparser.Parser import Parser_old
 import os
 import pandas as pd
 from pathlib import Path
@@ -153,7 +153,7 @@ for dataset, setting in benchmark_settings.items():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
+    parser = Parser_old.LogParser(log_format=setting['log_format'], indir=indir, 
                                 outdir=output_dir, rex=setting['regex'], threshold = 0.4, filename=log_file)
     parser.parse(log_file)    
     
