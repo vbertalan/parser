@@ -13,7 +13,8 @@ import pandas as pd
 import hashlib
 from datetime import datetime
 from pathlib import Path
-from nltk.tokenize import word_tokenize
+#from nltk.tokenize import word_tokenize
+import py_stringmatching as sm
 import pickle
 import wordninja
 
@@ -66,7 +67,7 @@ class LogParser:
         import hdbscan
         import umap
         
-        clusterer = hdbscan.HDBSCAN(min_cluster_size=50,min_samples=1,metric='euclidean',
+        clusterer = hdbscan.HDBSCAN(min_cluster_size=200,min_samples=50,metric='euclidean',
                                     allow_single_cluster=False,cluster_selection_method='eom')
         #reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
 
@@ -80,9 +81,11 @@ class LogParser:
     def create_dict(self, df_sentences):        
 
         values = pd.DataFrame(columns=['Token', 'Cluster', 'Frequence', 'Type'])
+        tokenizer = sm.AlphanumericTokenizer()
 
         for id, row in df_sentences.iteritems():
-            sentence_tokens = word_tokenize(row)
+            #sentence_tokens = word_tokenize(row)
+            sentence_tokens = tokenizer.tokenize(row)
             sentence_cluster = self.cluster_labels[id]
             
             for token in sentence_tokens:
@@ -116,40 +119,40 @@ class LogParser:
         self.word_dict = token_dict
 
     ## Method to split words and verify if they are in the English language
-    def split_words(self, sentence):
+    # def split_words(self, sentence):
 
-        with open("create.txt") as word_file:
-            english_words = {word.strip().lower() for word in word_file}
+    #     with open("create.txt") as word_file:
+    #         english_words = {word.strip().lower() for word in word_file}
 
-            tokenized_words = word_tokenize(sentence)
-            new_sentence = []
+    #         tokenized_words = word_tokenize(sentence)
+    #         new_sentence = []
 
-            for tokens in tokenized_words:
-                splits = wordninja.split(tokens)
-                for word in splits:
-                    if word.lower() not in english_words:
-                        new_sentence.append("<*>")
-                        break
-                else:
-                    new_sentence.append(tokens)
+    #         for tokens in tokenized_words:
+    #             splits = wordninja.split(tokens)
+    #             for word in splits:
+    #                 if word.lower() not in english_words:
+    #                     new_sentence.append("<*>")
+    #                     break
+    #             else:
+    #                 new_sentence.append(tokens)
 
-            return new_sentence
+    #         return new_sentence
 
     ## Method to check if a word is present in the English language, without splitting the tokens
-    def check_english(self, sentence):
+    # def check_english(self, sentence):
 
-        with open("create.txt") as word_file:
-            english_words = {word.strip().lower() for word in word_file}
+    #     with open("create.txt") as word_file:
+    #         english_words = {word.strip().lower() for word in word_file}
 
-            tokenized_words = word_tokenize(sentence)
-            new_sentence = []
-            for token in tokenized_words:
-                if token.lower() not in english_words:
-                    new_sentence.append("<*>")
-                else:
-                    new_sentence.append(token)       
+    #         tokenized_words = word_tokenize(sentence)
+    #         new_sentence = []
+    #         for token in tokenized_words:
+    #             if token.lower() not in english_words:
+    #                 new_sentence.append("<*>")
+    #             else:
+    #                 new_sentence.append(token)       
 
-        return new_sentence
+    #     return new_sentence
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
@@ -211,20 +214,30 @@ class LogParser:
         log_templates = []
         log_templateids = []
 
+        tokenizer = sm.AlphanumericTokenizer()
+
         with open("create.txt") as word_file:
             english_words = {word.strip().lower() for word in word_file}
 
         print('\n=== Parsing dataset ===')
         for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
             sentence_cluster = self.cluster_labels[idx]
-            sentence_tokens = word_tokenize(line["Content"])
+            #sentence_tokens = word_tokenize(line["Content"])
+            sentence_tokens = tokenizer.tokenize(line["Content"])
             #sentence_tokens = self.check_english(line["Content"])
             new_sentence = ""
 
             for token in sentence_tokens:
                 query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
+                ## Checking variables only
                 #new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
-                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
+                
+                ## Checking English only
+                #new_token = "<*>" if (token.lower() not in english_words) else token
+                
+                ## Checking variables or English tokens - Mudei pra AND
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' and token.lower() not in english_words) else token                           
+                
                 new_sentence += new_token
                 new_sentence += " "
 
