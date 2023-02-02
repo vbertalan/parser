@@ -22,6 +22,8 @@ print(alnum_tok.tokenize(frase))
 
 #         new_sentence.append(new_word)
 
+#teste = "ALOOOO"
+#print(teste.lower())
 
 
 

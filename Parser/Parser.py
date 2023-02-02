@@ -85,7 +85,8 @@ class LogParser:
 
         for id, row in df_sentences.iteritems():
             #sentence_tokens = word_tokenize(row)
-            sentence_tokens = tokenizer.tokenize(row)
+            lowercase_row = row.lower()
+            sentence_tokens = tokenizer.tokenize(lowercase_row)
             sentence_cluster = self.cluster_labels[id]
             
             for token in sentence_tokens:
@@ -228,15 +229,16 @@ class LogParser:
             new_sentence = ""
 
             for token in sentence_tokens:
-                query = self.word_dict.query("Cluster == @sentence_cluster & Token == @token")
-                ## Checking variables only
-                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
+                lowercase_token = token.lower()
+                query = self.word_dict.query("Cluster == @sentence_cluster & Token == @lowercase_token")
+                ## Checking dictionary of variables only
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
                 
-                ## Checking English only
+                ## Checking English vocabulary only
                 #new_token = "<*>" if (token.lower() not in english_words) else token
                 
-                ## Checking variables or English tokens - Mudei pra AND
-                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' and token.lower() not in english_words) else token                           
+                ## Checking variables or English tokens
+                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
                 
                 new_sentence += new_token
                 new_sentence += " "

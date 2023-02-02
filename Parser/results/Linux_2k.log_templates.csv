@@ -1,154 +1,76 @@
 EventId,EventTemplate,Occurrences
-9cbedf6c,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> ,40
-7b89be98,check pass user unknown ,117
-92bca0e7,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> <*> ip <*> net user root ,13
+15b34ab1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> ,52
+325f8bc1,<*> <*> user <*> ,117
+467d90ce,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,13
 bd216051,session opened for user cyrus by uid <*> ,43
 5821dde8,session closed for user cyrus ,43
-bdab0ae3,ALERT exited abnormally with 1 ,43
+0ddcb59f,ALERT exited abnormally with <*> ,43
 73a099d7,session opened for user news by uid <*> ,43
 8ff7d7b9,session closed for user news ,43
-97056486,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> com ,10
-ac85c8ab,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> rev <*> net ,5
-12ba0fb1,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> adelphia net at Fri Jun <*> <*> <*> <*> 2005 ,8
-e16c1460,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> user guest ,17
+58ca59c1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> ,20
+dd0d8c84,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
+bd61116a,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,8
+b2fad6b0,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user <*> ,21
 90190954,session opened for user test by uid <*> ,36
 58e532f7,session closed for user test ,36
-4db72e31,connection from <*> <*> <*> <*> <*> <*> <*> tou <*> <*> <*> <*> <*> <*> net at Fri Jun <*> <*> <*> <*> 2005 ,7
-e2fba95c,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net ,10
-0d03728e,connection from <*> <*> <*> <*> <*> <*> <*> tou <*> <*> <*> <*> <*> <*> net at Sat Jun <*> <*> <*> <*> 2005 ,15
-8e388ab0,User unknown timed out after <*> seconds at Sat Jun <*> <*> <*> <*> <*> ,1
-b83e0c1a,<*> shutdown succeeded ,6
+a9f810ff,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,22
+fbfb0b8c,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+857302d1,<*> <*> succeeded ,7
 2bb55441,<*> startup succeeded ,12
-56173140,restart ,7
-0502abfb,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> 2005 ,12
-037f0361,Received SNMP packet s from <*> <*> <*> <*> ,1
-d317579d,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> com user root ,23
-c5032063,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> ip <*> <*> <*> <*> ip <*> net ,10
-8b0a0c78,connection from <*> <*> <*> <*> at Wed Jun <*> <*> <*> <*> 2005 ,76
-3f461527,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> user root ,239
-2fabc82a,connection from <*> <*> <*> <*> at Fri Jun <*> <*> <*> <*> 2005 ,13
-0c9cf3e1,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> massive <*> org ,10
-0bae9131,connection from <*> <*> <*> <*> at Sat Jun <*> <*> <*> <*> 2005 ,31
-0eafd7d3,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> technologies com user root ,5
-21bf5e1f,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> <*> <*> nl user root ,10
-2c59c189,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> user root ,10
-b731592f,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> <*> net user root ,13
-07bf9651,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> wsi <*> pl ,8
-95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code ,8
+9e08cdfc,<*> ,7
+85764afd,connection from <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,132
+58fef8f6,<*> <*> <*> <*> from <*> <*> <*> <*> ,1
+7a2642d5,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> user root ,43
+334dac52,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
+e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root ,254
+954770f6,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,28
+1982dd9d,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,13
+42e9c26b,Authentication failed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> cache <*> ,8
 c7dfd3e0,<*> authentication failed ,23
-e89a8683,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Software caused connection abort ,15
-81516432,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> 2005 ,91
-aa2d67f8,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> com ,10
-7ecb17e5,connection from <*> <*> <*> <*> <*> Chn static <*> <*> <*> <*> <*> net at Sun Jul <*> <*> <*> <*> 2005 ,46
-f8bda70f,connection from <*> <*> <*> <*> <*> <*> <*> <*> sh <*> <*> at at Sun Jul <*> <*> <*> <*> 2005 ,23
-3e84a5de,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> 2005 ,23
-1b001d75,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> 2005 ,46
-baf83073,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> 2005 ,24
-77ff2aac,info mice c <*> ,1
-1dc541d4,<*> Auto detected <*> PS <*> ,1
-44b1c480,session opened for user root by LOGIN uid <*> ,1
-63c45cb1,ROOT LOGIN ON <*> ,1
-44d5e863,session closed for user root ,1
-4514df1d,removing device node <*> <*> ,4
-bc6a1d72,creating device node <*> <*> ,4
-c92d8a30,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> com br ,4
-940bfbc8,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> 2005 ,54
-12852704,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> 0 <*> <*> user test ,4
-cc26cac2,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> 2005 ,87
-7366ced9,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> info user root ,10
-1df2266c,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> com at Sat Jul <*> <*> <*> <*> 2005 ,23
-afcf5b6a,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> 2005 ,120
-d3b02ad1,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ip net at Sun Jul <*> <*> <*> <*> 2005 ,23
-b710621c,authentication failure <*> uid 0 <*> 0 tty 0 <*> <*> ,1
-1608d972,Couldn t authenticate user ,1
-ef34edc7,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> nw <*> net user root ,10
-f0b9572c,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> <*> <*> net user root ,8
-7e730142,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> cable <*> nl user root ,10
-af16f1f9,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> nl at Sun Jul <*> <*> <*> <*> 2005 ,32
-06af7885,connection from <*> <*> <*> <*> <*> <*> net at Sun Jul <*> <*> <*> <*> 2005 ,46
-f2853b67,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> in addr zen co uk at Sun Jul <*> <*> <*> <*> 2005 ,46
-16ae841d,connection from <*> <*> <*> <*> at Mon Jul <*> <*> <*> <*> 2005 ,63
-4581846b,authentication failure <*> uid 0 <*> 0 tty <*> <*> <*> <*> <*> <*> <*> <*> net tw ,10
-440372fd,ANONYMOUS FTP LOGIN FROM <*> <*> <*> <*> anonymous ,2
+cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
+749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,365
+9f3fee03,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> ,10
+71c5cd15,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
+ea909337,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at at Sun Jul <*> <*> <*> <*> <*> ,23
+d9914cf1,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,23
+b5f6193c,<*> <*> <*> <*> ,9
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,8
+7610fe48,session opened for user <*> by <*> uid <*> ,1
+113bd753,session closed for user <*> ,1
+347334c7,<*> <*> <*> <*> <*> ,28
+3bda4dfa,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,23
+3fc5ebb3,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,120
+ae792983,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,23
+ede98f3c,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> ,1
+47f93439,<*> <*> <*> user ,1
+95ff9234,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,32
+290a3948,connection from <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
+69700e37,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
 885b8046,notify question section contains no <*> ,16
-396329d3,<*> <*> Transport endpoint is not connected ,4
-cc3550d9,warning can t get client address Connection reset by peer ,2
-04be6548,<*> 1 <*> 1 log source proc <*> started ,1
-6eb58100,Linux version <*> <*> <*> 1 <*> <*> bugs build <*> com gcc version <*> <*> <*> <*> Red Hat Linux <*> <*> <*> <*> 1 Sat May <*> <*> <*> <*> EDT <*> ,1
-717e8cbe,BIOS provided physical RAM map ,1
-b6da90e4,BIOS <*> <*> <*> usable ,2
-d0d1adb8,BIOS <*> <*> <*> reserved ,3
-48d2d567,<*> <*> available ,2
-7c1e6a66,zapping low mappings ,1
-13f9794c,On node <*> <*> <*> ,1
-b3935a16,DMA zone <*> pages LIFO batch 1 ,1
-7ff1c7b6,Normal zone <*> pages LIFO batch <*> ,1
-49d8c6cd,<*> zone <*> pages LIFO batch 1 ,1
-4e9f5f44,DMI <*> <*> present ,1
-7e118af3,<*> disabled because your bios is from <*> and too old ,1
-5107722d,You can enable it with <*> force ,1
-e638a48b,Built 1 <*> ,1
-f825b733,Kernel command line ro root LABEL <*> quiet ,1
-1c6ae997,mapped <*> <*> trampoline to <*> ,1
-6c126600,Initializing CPU <*> ,1
-5bcc35ec,CPU <*> <*> hard <*> soft <*> ,1
-fb31f283,PID hash table entries <*> order <*> <*> bytes ,1
-ed4eb6b5,Detected <*> <*> MHz processor ,1
-e55ff185,Version 1 <*> <*> Starting ,1
-612b157c,Using <*> for high res <*> ,1
-6ba949d7,rpc <*> startup succeeded ,2
-c9ed2f07,Console <*> VGA <*> ,1
-9786ae16,Memory <*> <*> available <*> kernel code <*> reserved <*> data <*> init <*> <*> ,1
-d5504558,Calibrating delay loop <*> <*> BogoMIPS ,1
-a05d68df,Security Scaffold <*> <*> <*> initialized ,1
-2a2e948b,<*> Initializing ,1
-5ffbcb6c,<*> Starting in permissive mode ,1
-4c51c3f2,There is already a security framework initialized register security failed ,1
-f6c001ce,Failure registering capabilities with the kernel ,1
-ee72b643,<*> register security Registering secondary module capability ,1
-269bf089,Capability LSM initialized ,1
-4c68286d,<*> cache hash table entries <*> order <*> <*> bytes ,3
-ebd37b1b,Mount cache hash table entries <*> order <*> <*> bytes ,1
-280daa32,CPU <*> I cache <*> <*> D cache <*> ,1
-26feb734,CPU <*> cache <*> ,1
-193fbb17,Intel machine check architecture supported ,1
-4db29150,Intel machine check reporting enabled on CPU <*> ,1
-2750bebc,CPU Intel Pentium III Coppermine stepping <*> ,1
-98abb6cb,Enabling fast FPU save and restore done ,1
-5e3d68c2,Enabling unmasked SIMD FPU exception support done ,1
-9e722edc,Checking <*> instruction OK ,1
-18cffb49,Initializing random number generator succeeded ,1
-1f90cf40,POSIX conformance testing by <*> ,1
-e1e7ada8,NET Registered protocol family <*> ,1
-1e80a521,PCI PCI BIOS revision <*> <*> entry at <*> last bus 1 ,1
-141d6d3a,PCI Using configuration type 1 ,1
-b5f6193c,<*> <*> <*> <*> ,1
-6df48fae,<*> Subsystem revision <*> ,1
-55140a22,<*> Interpreter disabled ,1
-0f5845e4,Linux Plug and Play Support <*> <*> c Adam Belay ,1
-0140e08d,Starting pcmcia succeeded ,1
-64330f92,<*> registered new driver <*> ,1
-3b95fb2b,<*> registered new driver hub ,1
-337ff054,<*> <*> tables contain no PCI IRQ routing entries ,1
-ddd1df84,PCI Invalid <*> PCI IRQ routing table ,1
-4a4c7334,PCI Probing PCI hardware ,1
-da7efeff,PCI Probing PCI hardware bus <*> ,1
-9f416f7a,Transparent bridge <*> <*> <*> <*> ,1
-f170059b,PCI Using IRQ router <*> ICH <*> <*> at <*> <*> <*> <*> ,1
-02ff44ec,apm BIOS version 1 <*> Flags <*> Driver version 1 <*> ,1
-ea954714,audit initializing <*> socket disabled ,1
-a6f615f4,kernel core uses pid 1 ,1
-ea3dd851,<*> daemon ver <*> <*> started ,1
-e30482ce,audit <*> <*> <*> initialized ,1
-a84726c3,Setting network parameters succeeded ,1
-d72de21b,<*> <*> <*> started ,1
-840b0d49,Total <*> memory allocated <*> ,1
-e313675e,Bringing up loopback interface succeeded ,1
-a63857d7,VFS Disk quotas <*> <*> <*> 1 ,1
-dde4a101,<*> Registering <*> hooks ,1
-bf516fd3,Initializing Cryptographic API ,1
-4256615c,pci <*> PCI Hot Plug PCI Core version <*> <*> ,1
-78e0295f,<*> Scanning for PnP cards ,1
-03406970,<*> No Plug Play device found ,1
-e380dae6,Real Time Clock Driver <*> <*> ,1
-dd4145e1,Linux <*> interface <*> <*> c Dave Jones ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,13
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+c62504c8,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,8
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+3c7170cb,<*> <*> <*> <*> with <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,3
+ab922256,<*> <*> startup succeeded ,2
+b5f8f0ab,<*> <*> ,1
+e58b81ca,<*> <*> <*> <*> <*> <*> <*> <*> <*> failed ,1
+f7c1d3c8,<*> <*> <*> with <*> <*> ,1
+c7f91f91,<*> cache <*> <*> <*> <*> <*> <*> <*> <*> ,4
+63f29089,<*> <*> <*> cache <*> <*> <*> cache <*> ,1
+208cd80d,<*> <*> cache <*> ,1
+37b79eeb,<*> <*> <*> <*> succeeded ,2
+887ab896,PCI PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+8d363427,PCI <*> <*> <*> <*> ,1
+9ea1b26a,<*> <*> <*> <*> no PCI <*> <*> <*> ,1
+837fabc6,PCI <*> <*> PCI <*> <*> <*> ,1
+7219d10d,PCI <*> PCI <*> ,1
+5afd6c98,PCI <*> PCI <*> <*> <*> ,1
+e5e4e575,PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+abee0f7b,<*> <*> <*> succeeded ,1
+e8df2c34,pci <*> PCI <*> <*> PCI <*> <*> <*> <*> ,1
+021e770f,<*> No <*> <*> <*> <*> ,1
