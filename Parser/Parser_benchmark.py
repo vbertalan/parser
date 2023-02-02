@@ -163,7 +163,7 @@ for dataset, setting in benchmark_settings.items():
 
     empty_array = []
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.20, filename=log_file)
+                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.10, filename=log_file)
 
 
     parser.parse(log_file)    

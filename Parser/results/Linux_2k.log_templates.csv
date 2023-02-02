@@ -1,76 +1,169 @@
 EventId,EventTemplate,Occurrences
-15b34ab1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> ,52
-325f8bc1,<*> <*> user <*> ,117
-467d90ce,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,13
-bd216051,session opened for user cyrus by uid <*> ,43
+ae8f2529,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> ,52
+7b89be98,check pass user unknown ,117
+4e4de2d7,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> <*> <*> <*> <*> user root ,13
+03d41cfc,session opened for user cyrus by uid 0 ,43
 5821dde8,session closed for user cyrus ,43
-0ddcb59f,ALERT exited abnormally with <*> ,43
-73a099d7,session opened for user news by uid <*> ,43
+bdab0ae3,ALERT exited abnormally with 1 ,43
+e94ecbee,session opened for user news by uid 0 ,43
 8ff7d7b9,session closed for user news ,43
-58ca59c1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> ,20
-dd0d8c84,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
-bd61116a,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,8
-b2fad6b0,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user <*> ,21
-90190954,session opened for user test by uid <*> ,36
+9da6e9fa,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> ,20
+5101f195,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> <*> <*> <*> ,15
+96ba1c2f,connection from 24 <*> <*> <*> 24 <*> <*> <*> <*> <*> net at Fri Jun 17 <*> <*> <*> 2005 ,8
+5d2479a3,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> user <*> ,17
+5c52af19,session opened for user test by uid 509 ,36
 58e532f7,session closed for user test ,36
-a9f810ff,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,22
-fbfb0b8c,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
-8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-857302d1,<*> <*> succeeded ,7
-2bb55441,<*> startup succeeded ,12
-9e08cdfc,<*> ,7
-85764afd,connection from <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,132
+b4c6f5ca,connection from 82 <*> <*> <*> <*> <*> 45 <*> 82 <*> <*> <*> <*> <*> net at Fri Jun 17 <*> <*> <*> 2005 ,7
+bcd4df94,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
+10cbfba1,connection from 82 <*> <*> <*> <*> <*> 45 <*> 82 <*> <*> <*> <*> <*> net at Sat Jun 18 <*> <*> 10 2005 ,7
+71923223,connection from 82 <*> <*> <*> <*> <*> 45 <*> 82 <*> <*> <*> <*> <*> net at Sat Jun 18 <*> <*> <*> 2005 ,5
+d0d80a13,connection from 82 <*> <*> <*> <*> <*> 45 <*> 82 <*> <*> <*> <*> <*> net at Sat Jun 18 <*> <*> 12 2005 ,3
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+ad3464aa,cupsd shutdown succeeded ,6
+4253878e,cupsd startup succeeded ,6
+56173140,restart ,7
+1ddd92e0,connection from 222 <*> <*> <*> at Mon Jun <*> <*> <*> 59 2005 ,12
 58fef8f6,<*> <*> <*> <*> from <*> <*> <*> <*> ,1
-7a2642d5,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> user root ,43
-334dac52,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
-e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root ,254
-954770f6,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,28
-1982dd9d,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,13
-42e9c26b,Authentication failed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> cache <*> ,8
-c7dfd3e0,<*> authentication failed ,23
+ea04c2a7,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> user root ,43
+9789c36e,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> <*> <*> <*> <*> ,10
+528b58d7,connection from <*> <*> <*> <*> at Wed Jun 22 13 16 30 2005 ,17
+0bbce224,connection from <*> <*> <*> <*> at Wed Jun 22 13 16 <*> 2005 ,6
+aac56d63,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> user root ,254
+39695872,connection from <*> <*> <*> <*> at Fri Jun 24 18 <*> <*> 2005 ,7
+8f79a71d,connection from <*> <*> <*> <*> at Fri Jun 24 18 <*> 18 2005 ,6
+93fbc6e5,connection from <*> <*> <*> <*> at Sat Jun 25 09 <*> 24 2005 ,18
+98034b9d,connection from 211 <*> 68 59 at Sat Jun 25 <*> 25 30 2005 ,9
+604f1a45,connection from 211 <*> 68 59 at Sat Jun 25 <*> 25 <*> 2005 ,4
+2f1d52b7,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> <*> <*> <*> user root ,28
+2290e7f6,connection from <*> <*> <*> <*> at Wed Jun <*> <*> 22 22 2005 ,22
+701d0db1,connection from <*> <*> <*> <*> at Wed Jun <*> <*> 22 23 2005 ,1
+b9b67c08,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> <*> 2005 ,15
+e3cc3fc4,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> 10 2005 ,1
+bde612a3,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> 12 2005 ,2
+a2a79046,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> 13 2005 ,1
+e937ea3e,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> 17 2005 ,2
+87a1af41,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> 18 2005 ,1
+53d30a9f,connection from <*> <*> <*> <*> at Wed Jun <*> 10 <*> 21 2005 ,1
+539ae9f3,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> <*> <*> <*> <*> user root ,13
+8b0a0c78,connection from <*> <*> <*> <*> at Wed Jun <*> <*> <*> <*> 2005 ,7
+af1e091e,Authentication failed from 163 27 187 39 163 27 187 39 Permission denied in replay cache code ,8
+c4147e80,Kerberos authentication failed ,23
 cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
-749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,365
-9f3fee03,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> ,10
-71c5cd15,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
-ea909337,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at at Sun Jul <*> <*> <*> <*> <*> ,23
-d9914cf1,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,23
-b5f6193c,<*> <*> <*> <*> ,9
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,8
-7610fe48,session opened for user <*> by <*> uid <*> ,1
+a3076296,connection from <*> 82 <*> <*> at Fri Jul <*> <*> <*> 30 2005 ,23
+c8ab5c64,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> <*> ,10
+953bba13,connection from <*> <*> 45 59 dsl <*> <*> <*> 45 <*> <*> <*> net at Sun Jul <*> 10 <*> 25 2005 ,23
+9e6a184b,connection from <*> <*> <*> 82 <*> <*> <*> 82 <*> <*> <*> at at Sun Jul <*> 23 16 09 2005 ,23
+3cc27dbf,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> dsl <*> <*> net at Mon Jul <*> 12 <*> <*> 2005 ,23
+8138bf0e,connection from 211 <*> <*> <*> at <*> Jul <*> 13 <*> 21 2005 ,13
+1d26972e,connection from 211 <*> <*> <*> at <*> Jul <*> 13 <*> 23 2005 ,10
+4b2ca3f5,connection from 211 <*> <*> <*> at Wed Jul <*> 18 <*> <*> 2005 ,23
+b5f6193c,<*> <*> <*> <*> ,6
+e178e70a,<*> <*> <*> <*> <*> 2 ,1
+b64ee597,session opened for user <*> by <*> uid 0 ,1
 113bd753,session closed for user <*> ,1
-347334c7,<*> <*> <*> <*> <*> ,28
-3bda4dfa,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,23
-3fc5ebb3,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,120
-ae792983,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,23
-ede98f3c,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> ,1
+40a86fd5,<*> device node udev <*> ,8
+9044036e,connection from <*> 82 <*> <*> at <*> Jul <*> 16 <*> <*> 2005 ,12
+d85770ef,connection from <*> <*> <*> <*> at <*> Jul <*> 23 09 45 2005 ,17
+185b12bc,connection from <*> <*> <*> <*> at <*> Jul <*> 23 09 <*> 2005 ,2
+761a54ed,authentication failure logname uid 0 euid 0 tty NODEVssh ruser rhost <*> 0 <*> <*> user <*> ,4
+a8d034fe,connection from 211 <*> <*> <*> at Sat Jul <*> <*> <*> 59 2005 ,23
+c6e3906c,connection from 211 <*> 68 59 at Sat Jul <*> 12 16 <*> 2005 ,18
+84932f8d,connection from <*> <*> <*> <*> at Sat Jul <*> 12 59 <*> 2005 ,18
+872c372e,connection from <*> <*> <*> <*> at Sat Jul <*> 12 59 45 2005 ,5
+9919ab6b,connection from <*> <*> 21 <*> <*> <*> <*> 21 <*> <*> at Sat Jul <*> 22 <*> <*> 2005 ,6
+550d1c28,connection from <*> <*> 21 <*> <*> <*> <*> 21 <*> <*> at Sat Jul <*> 22 <*> 22 2005 ,17
+e883069d,connection from <*> <*> 83 <*> at Sun Jul 10 <*> <*> <*> 2005 ,23
+e3a4ce5b,connection from 82 83 <*> <*> dsl <*> <*> <*> <*> <*> <*> net at Sun Jul 10 <*> 24 24 2005 ,11
+7699457b,connection from 82 83 <*> <*> dsl <*> <*> <*> <*> <*> <*> net at Sun Jul 10 <*> 24 <*> 2005 ,12
+f0752d97,connection from <*> <*> <*> 45 at Sun Jul 10 13 17 22 2005 ,23
+22b206c3,authentication failure logname uid 0 euid 0 tty 0 ruser rhost ,1
 47f93439,<*> <*> <*> user ,1
-95ff9234,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,32
-290a3948,connection from <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
-69700e37,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-885b8046,notify question section contains no <*> ,16
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,13
+6aba44fc,connection from 211 <*> <*> <*> at Fri Jul <*> 23 <*> <*> 2005 ,22
+234e39d6,connection from <*> <*> 68 82 at Sat Jul 16 <*> <*> <*> 2005 ,23
+33047f24,connection from 83 <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul 17 <*> <*> <*> 2005 ,13
+7b90ca86,connection from 83 <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul 17 <*> 13 <*> 2005 ,19
+66eda6ae,connection from <*> <*> <*> <*> at Sun Jul 17 <*> <*> 12 2005 ,22
+d0901871,connection from <*> <*> <*> <*> at Sun Jul 17 <*> <*> <*> 2005 ,1
+be6ef1d7,connection from <*> <*> <*> <*> at Sun Jul 17 09 <*> <*> 2005 ,9
+008589bb,connection from <*> 30 <*> <*> <*> <*> net at Sun Jul 17 12 30 <*> 2005 ,18
+e9781ca3,connection from <*> 30 <*> <*> <*> <*> net at Sun Jul 17 12 30 59 2005 ,3
+0db42f96,connection from <*> 30 <*> <*> <*> <*> net at Sun Jul 17 12 <*> <*> 2005 ,2
+ca019dc9,connection from <*> 30 <*> <*> <*> <*> net at Sun Jul 17 <*> <*> <*> 2005 ,21
+abe76c27,connection from <*> 30 <*> <*> <*> <*> net at Sun Jul 17 <*> <*> 59 2005 ,2
+16500467,connection from <*> <*> 45 59 dsl <*> <*> <*> 45 <*> <*> <*> net at Sun Jul 17 <*> 09 <*> 2005 ,18
+5a1b2cda,connection from <*> <*> 45 59 dsl <*> <*> <*> 45 <*> <*> <*> net at Sun Jul 17 <*> 09 16 2005 ,4
+5f1b4257,connection from <*> <*> 45 59 dsl <*> <*> <*> 45 <*> <*> <*> net at Sun Jul 17 <*> 09 17 2005 ,1
+f5de3570,connection from 82 68 222 <*> 82 68 222 <*> dsl <*> <*> <*> <*> <*> at Sun Jul 17 21 23 <*> 2005 ,16
+27e9a93b,connection from 82 68 222 <*> 82 68 222 <*> dsl <*> <*> <*> <*> <*> at Sun Jul 17 21 23 23 2005 ,1
+cb679302,connection from 82 68 222 <*> 82 68 222 <*> dsl <*> <*> <*> <*> <*> at Sun Jul 17 21 23 24 2005 ,6
+82518b78,connection from 82 68 222 <*> 82 68 222 <*> dsl <*> <*> <*> <*> <*> at Sun Jul 17 23 21 <*> 2005 ,23
+5ae7a9cc,connection from 211 <*> <*> <*> at Mon Jul 18 <*> <*> <*> 2005 ,21
+02263694,connection from <*> 12 <*> <*> at <*> Jul 21 09 <*> <*> 2005 ,23
+04cefc1a,connection from 211 <*> <*> <*> at Fri Jul 22 09 <*> 24 2005 ,23
+afd59b75,connection from <*> <*> <*> <*> at Fri Jul 22 <*> <*> 09 2005 ,22
+a31c5c3d,connection from <*> <*> <*> <*> at Fri Jul 22 <*> <*> 10 2005 ,1
+ae4af80a,connection from <*> <*> <*> <*> at Sun Jul 24 <*> <*> 22 2005 ,23
+8a15c97b,<*> <*> <*> FROM <*> <*> <*> 2 <*> ,2
+a8389f0d,connection from 211 <*> <*> <*> at Sun Jul 24 13 <*> <*> 2005 ,19
+a6769be0,connection from <*> <*> <*> 10 at Mon Jul 25 <*> <*> 18 2005 ,23
+12bbe65d,notify question section contains no SOA ,16
+28a863b1,<*> <*> <*> <*> is <*> <*> ,4
 70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-c62504c8,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-e0afaf2b,<*> <*> <*> ,8
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-3c7170cb,<*> <*> <*> <*> with <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,3
+36d51ee9,connection from <*> <*> 83 <*> at Mon Jul 25 23 24 09 2005 ,19
+57ff0de7,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> 2005 ,23
+3444e655,connection from <*> <*> <*> <*> at Wed Jul <*> 10 59 <*> 2005 ,1
+2bb55441,<*> startup succeeded ,6
+1cfeb650,<*> 1 <*> 1 <*> <*> <*> <*> <*> ,1
+369c34d9,<*> version 2 <*> <*> 1 <*> <*> <*> <*> <*> <*> <*> version 3 3 3 <*> <*> <*> <*> 3 3 3 <*> 1 <*> <*> <*> <*> <*> <*> <*> <*> ,1
+9120b078,BIOS <*> <*> <*> <*> ,6
+e0afaf2b,<*> <*> <*> ,5
+d54e0c18,<*> node 0 <*> <*> ,1
+a38d59fd,<*> <*> <*> <*> <*> <*> 1 ,2
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
+c3dca879,<*> <*> 0 <*> <*> <*> 1 ,1
+399ac2a5,<*> 2 3 <*> ,1
+35ca474c,ACPI <*> <*> <*> bios is from <*> <*> <*> <*> ,1
+f7b644b3,<*> <*> <*> <*> with acpi <*> ,1
+f0a677f1,<*> 1 <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,2
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,4
+56bfea5b,<*> CPU 0 ,1
+fcc59019,CPU 0 <*> <*> <*> <*> <*> ,1
+4a606f2e,<*> <*> table entries <*> <*> <*> <*> <*> ,1
+347334c7,<*> <*> <*> <*> <*> ,8
+724182c4,Version 1 0 <*> <*> ,1
 ab922256,<*> <*> startup succeeded ,2
+24c2e161,<*> <*> <*> <*> <*> <*> code <*> <*> <*> <*> <*> <*> <*> <*> ,1
+6c63b02d,<*> <*> <*> 0 0 <*> ,1
 b5f8f0ab,<*> <*> ,1
-e58b81ca,<*> <*> <*> <*> <*> <*> <*> <*> <*> failed ,1
+40fa9f6f,<*> <*> in <*> <*> ,1
+fd049b1d,<*> is <*> <*> <*> <*> <*> <*> <*> failed ,1
 f7c1d3c8,<*> <*> <*> with <*> <*> ,1
-c7f91f91,<*> cache <*> <*> <*> <*> <*> <*> <*> <*> ,4
-63f29089,<*> <*> <*> cache <*> <*> <*> cache <*> ,1
-208cd80d,<*> <*> cache <*> ,1
+bf52428d,<*> cache <*> table entries <*> <*> <*> <*> <*> ,1
+ab539a7f,<*> cache <*> table entries <*> <*> 3 <*> <*> ,1
+c2dc2f38,<*> cache <*> table entries <*> <*> 0 <*> <*> ,2
+b20ee6a4,CPU <*> <*> cache <*> <*> <*> cache <*> ,1
+26feb734,CPU <*> cache <*> ,1
+c581b533,<*> <*> <*> <*> <*> <*> CPU 0 ,1
+5fe6b70f,CPU <*> <*> <*> <*> <*> <*> ,1
 37b79eeb,<*> <*> <*> <*> succeeded ,2
-887ab896,PCI PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-8d363427,PCI <*> <*> <*> <*> ,1
-9ea1b26a,<*> <*> <*> <*> no PCI <*> <*> <*> ,1
-837fabc6,PCI <*> <*> PCI <*> <*> <*> ,1
+b904bae8,PCI PCI BIOS <*> 2 <*> <*> <*> <*> <*> <*> 1 ,1
+451f396c,PCI <*> <*> <*> 1 ,1
+9e690495,<*> <*> 0 <*> ,1
+3a73f8dc,ACPI <*> <*> <*> ,1
+334d75be,ACPI <*> <*> ,1
+857302d1,<*> <*> succeeded ,1
+f60beb81,ACPI ACPI <*> <*> no PCI <*> <*> entries ,1
+64b18216,PCI <*> ACPI PCI <*> <*> table ,1
 7219d10d,PCI <*> PCI <*> ,1
 5afd6c98,PCI <*> PCI <*> <*> <*> ,1
-e5e4e575,PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+529f69a4,<*> <*> <*> <*> <*> 0 ,1
+8e8bfa99,PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 0 ,1
+02fc38ad,<*> BIOS version 1 2 <*> <*> <*> version 1 <*> ,1
+3dbe69c5,<*> <*> <*> <*> 1 ,1
+cf2e208a,<*> <*> <*> 2 <*> <*> ,1
+fcf71841,<*> <*> <*> 0 <*> ,1
 abee0f7b,<*> <*> <*> succeeded ,1
-e8df2c34,pci <*> PCI <*> <*> PCI <*> <*> <*> <*> ,1
-021e770f,<*> No <*> <*> <*> <*> ,1
+662afefe,<*> <*> <*> <*> 0 ,1
+e15c6a59,pci <*> PCI <*> <*> PCI <*> version 0 <*> ,1
+e5bf6eb0,<*> No <*> <*> device <*> ,1
