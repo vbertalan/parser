@@ -1,7 +1,7 @@
 EventId,EventTemplate,Occurrences
-852d3cda,<*> <*> <*> ok <*> ,569
-aaadd073,<*> child <*> in error state <*> ,539
-49eee02f,<*> <*> <*> Found child <*> in scoreboard slot <*> ,836
-c39a04d3,<*> client <*> <*> Directory index forbidden by rule <*> <*> ,32
-525f89bb,<*> <*> <*> Ca n't find child <*> in scoreboard ,12
-3987fbae,<*> child init <*> <*> ,12
+91334cd0,<*> init ok etc <*> conf <*> properties ,569
+4e230f98,mod <*> child <*> in error state <*> ,539
+456cbfd2,<*> init Found child <*> in scoreboard slot <*> ,836
+d265fd51,client <*> <*> <*> <*> Directory index forbidden by rule var www html ,32
+6359e6f0,<*> init <*> <*> <*> child <*> in scoreboard ,12
+4bea92c1,mod <*> child <*> <*> <*> ,12

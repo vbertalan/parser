@@ -68,7 +68,7 @@ class LogParser:
         import umap
         
         clusterer = hdbscan.HDBSCAN(min_cluster_size=200,min_samples=50,metric='euclidean',
-                                    allow_single_cluster=False,cluster_selection_method='eom')
+                                    allow_single_cluster=False,cluster_selection_method='leaf')
         #reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
 
         #umap_data = reducer.fit_transform(self.vectors)
@@ -232,13 +232,13 @@ class LogParser:
                 lowercase_token = token.lower()
                 query = self.word_dict.query("Cluster == @sentence_cluster & Token == @lowercase_token")
                 ## Checking dictionary of variables only
-                new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
+                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
                 
                 ## Checking English vocabulary only
                 #new_token = "<*>" if (token.lower() not in english_words) else token
                 
                 ## Checking variables or English tokens
-                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
                 
                 new_sentence += new_token
                 new_sentence += " "

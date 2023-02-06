@@ -1,50 +1,48 @@
 EventId,EventTemplate,Occurrences
-c5a51dcb,Notification time out <*> <*> ,37
-7b05832e,Received connection request <*> ,299
+68d3716e,Notification <*> <*> <*> ,37
+40dd2457,Received connection request <*> <*> <*> <*> <*> ,299
 c802547c,Send worker leaving thread ,262
 685f2871,Interrupted while waiting for message on queue ,314
-52497a28,Connection broken for id <*> <*> my id <*> <*> <*> error <*> ,291
+90a894c5,Connection broken for id <*> my id <*> error ,291
 8cfeed43,Interrupting <*> ,266
-73eda035,Closed socket connection for client <*> which had <*> <*> ,44
-c33a72cc,caught end of stream exception ,37
-356162e2,Client attempting to renew session <*> at <*> ,3
-e333df48,Client attempting to establish new session at <*> ,41
-7c6d317a,Established session <*> with negotiated timeout <*> for client <*> ,50
-f7c16424,Accepted socket connection from <*> ,48
-bf35b230,Unexpected Exception <*> ,1
-51e0ad7f,Connection request from old client <*> <*> will be dropped if server is in <*> mode ,39
-64aefc01,Server environment <*> <*> ,7
-4328f233,Can not open channel to <*> at election address <*> ,86
-04205db9,Processed session termination for <*> <*> <*> ,47
-ba13b3c8,Expiring session <*> <*> timeout of <*> exceeded ,40
-cc14480c,<*> <*> <*> <*> <*> <*> <*> GOODBYE <*> <*> <*> <*> <*> <*> <*> <*> <*> ,19
-30045eee,LOOKING ,4
-1637ca4e,My election bind port <*> <*> ,1
-7fcd5306,Have smaller server identifier <*> so dropping the connection <*> <*> <*> <*> <*> <*> ,1
-c05ab85e,FOLLOWING ,2
-8eddc1b4,New election <*> My id <*> <*> <*> proposed <*> ,1
-94c3dae9,FOLLOWING <*> LEADER ELECTION TOOK <*> <*> ,2
-c2683945,Notification <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LEADING <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LOOKING <*> my state <*> ,1
-e0c47f7f,<*> set to <*> ,8
-b7c43931,Server environment <*> <*> Corporation ,2
-5ab4eed6,Revalidating client <*> <*> ,3
-5ee4c49d,Server environment <*> <*> <*> <*> <*> built on <*> <*> GMT ,1
-e195ccb2,Closed socket connection for client <*> <*> no session established for client <*> ,4
-58141cf3,Exception causing close of session <*> due to <*> <*> <*> not running ,3
-a7141eb7,Notification <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LOOKING <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LOOKING <*> my state <*> ,5
-b7b184c5,Notification <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LOOKING <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> FOLLOWING <*> my state <*> ,1
-669e7400,Unexpected exception causing shutdown while sock still open ,12
-8f438152,Got <*> <*> when processing <*> type <*> create <*> <*> <*> <*> <*> <*> <*> <*> Error Path <*> <*> Error <*> <*> <*> <*> for <*> ,1
-e8dd9001,Notification <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LOOKING <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LEADING <*> my state <*> ,3
-665ada7e,Starting quorum peer ,1
-79c90aa7,Snapshotting <*> <*> to <*> ,2
-64b180d5,Follower sid <*> <*> <*> info <*> <*> <*> <*> <*> <*> ,1
-8b5dd1f3,Server environment <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-aeefb705,Have quorum of supporters <*> starting up and setting last processed <*> <*> <*> ,1
-d90a0ccb,Notification <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> FOLLOWING <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> LEADING <*> my state <*> ,1
-d5c28601,shutdown of request processor complete ,1
-c5f099c9,First is <*> ,1
-d3a00dd9,Reading snapshot <*> ,1
-37522af7,Sending DIFF ,1
-32d6d61e,Getting a snapshot from leader ,2
-9dbc0449,Notification <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> FOLLOWING <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> FOLLOWING <*> my state <*> ,1
+89fe6910,Closed socket connection for client <*> <*> <*> <*> <*> which had <*> <*> ,44
+42946cb7,<*> <*> of <*> exception ,37
+a2a012f3,Client <*> <*> <*> session <*> <*> <*> <*> <*> <*> <*> ,3
+0afb8087,Client attempting to establish new session at <*> <*> <*> <*> <*> ,41
+7bda6300,Established session <*> with negotiated timeout <*> for client <*> <*> <*> <*> <*> ,50
+ff407f2f,Accepted socket connection from <*> <*> <*> <*> <*> ,48
+cb43f496,<*> Exception ,1
+157aa712,Connection request from old client <*> <*> <*> <*> <*> will be dropped if server is in r o mode ,39
+489cc563,Server <*> <*> <*> ,1
+cae81e1c,Cannot open channel to <*> at election address <*> <*> <*> <*> <*> ,86
+c41db7e0,Processed session termination for <*> <*> ,47
+f804196c,Expiring session <*> timeout of <*> exceeded ,40
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,19
+9e08cdfc,<*> ,6
+354f6fb5,<*> election <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+472fc492,<*> <*> <*> <*> <*> <*> <*> connection <*> <*> ,1
+d943c8f1,New election <*> <*> <*> <*> <*> <*> ,1
+ebbecbc2,Server <*> <*> <*> <*> <*> <*> ,1
+825331a5,<*> <*> ELECTION <*> <*> ,2
+167e1e8b,Notification <*> n <*> <*> n <*> <*> n <*> <*> n <*> <*> n <*> <*> n <*> <*> <*> <*> ,12
+d5eafef9,<*> <*> <*> to <*> ,4
+a2b4e5e4,Server <*> <*> <*> <*> <*> ,2
+6391fd5b,<*> client <*> ,3
+b03944b3,Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+754e5e63,Server <*> <*> <*> <*> ,4
+e2a2e392,Closed socket connection for client <*> <*> <*> <*> <*> <*> session established for client ,4
+62814cce,Exception <*> <*> of session <*> <*> to <*> <*> <*> <*> <*> <*> ,3
+fd867894,<*> <*> to <*> ,4
+fc566f04,<*> exception <*> <*> <*> <*> <*> open ,12
+1f195f35,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> n <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,1
+503d8b49,<*> <*> to <*> <*> <*> <*> <*> <*> <*> ,2
+f1d88634,<*> <*> <*> <*> <*> <*> <*> server <*> <*> <*> <*> ,1
+695ad5f4,Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+2c73fb78,<*> <*> of <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+7d8a4c56,<*> of request <*> <*> ,1
+31a7e4be,<*> is <*> ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+b5f8f0ab,<*> <*> ,1
+38ff61b3,<*> <*> <*> from <*> ,2
+80232ded,Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1

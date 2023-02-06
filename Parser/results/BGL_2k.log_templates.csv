@@ -1,122 +1,127 @@
 EventId,EventTemplate,Occurrences
 78f10049,instruction cache parity error corrected ,42
-81d8f6a5,<*> <*> alignment exceptions ,109
-b8dfc6b3,CE sym <*> <*> at <*> <*> mask <*> ,92
-fc1f7910,<*> <*> failed to read message prefix on control stream <*> <*> socket to <*> ,3
-20ef6802,generating <*> ,721
-43f363b5,force <*> alignment <*> <*> ,2
-85466b7e,<*> <*> cpu <*> at <*> <*> sent unrecognized message <*> ,1
-4ee9c963,<*> <*> LOGIN <*> <*> <*> <*> failed <*> No such file or directory ,16
-5538052b,<*> ddr errors <*> s <*> detected and corrected on rank <*> <*> symbol <*> <*> bit <*> ,18
+153b8fbe,<*> double hummer alignment exceptions ,109
+d7b272e0,CE sym <*> at <*> mask <*> ,92
+245c210f,<*> <*> <*> <*> <*> <*> on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+1343c014,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+0f501fd2,generating core <*> ,721
+347334c7,<*> <*> <*> <*> <*> ,12
+20e6f92f,<*> <*> <*> at <*> <*> <*> <*> <*> <*> ,1
+affb06f2,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> file <*> <*> ,1
+563df300,<*> ddr <*> s detected and corrected on <*> <*> <*> <*> <*> <*> ,18
 b9b29cfb,data TLB error interrupt ,60
-96c927ae,<*> <*> Message code <*> is not <*> or <*> ,1
-a15cb5bb,data storage interrupt ,30
-f0ec1ee1,instruction address <*> <*> ,21
-bf2aa122,data address <*> <*> ,8
-cb2c986c,machine check <*> <*> <*> <*> ,5
-66b315a9,program interrupt <*> illegal instruction <*> <*> ,8
-32b8657b,exception syndrome register <*> <*> ,6
-7e775fa8,data store interrupt caused by <*> <*> <*> ,10
-62fc9696,program interrupt <*> privileged instruction <*> <*> ,5
-b308d4e5,program interrupt <*> trap instruction <*> <*> ,1
-44d90945,program interrupt <*> imprecise exception <*> <*> ,5
-4ee0352f,store operation <*> <*> ,2
-b04d5194,machine state register <*> <*> ,4
-8cc7c37a,problem state <*> <*> <*> <*> <*> ,3
-4313a771,floating point instr <*> enabled <*> <*> ,4
-061739eb,auxiliary processor <*> <*> ,5
-b45dcb09,machine check enable <*> <*> ,2
-417df871,floating pt ex mode <*> enable <*> <*> ,5
-1505883e,program interrupt <*> unimplemented operation <*> <*> ,2
-e14d27ce,debug interrupt enable <*> <*> ,1
-d2ab2b1f,byte ordering exception <*> <*> ,2
-b6427992,data address space <*> <*> ,5
-6316f58a,core configuration register <*> <*> ,7
-d507427c,program interrupt <*> fp cr update <*> <*> ,1
-ecea7e63,guaranteed instruction cache block <*> ,2
-e3895bc7,program interrupt <*> fp cr field <*> <*> ,4
-4939fe68,guaranteed data cache block touch <*> <*> ,1
-6e3ff14e,<*> <*> depth <*> <*> ,1
-bff51208,<*> <*> threshold <*> <*> ,2
-300845f2,wait state enable <*> <*> ,1
-c70d67fb,critical input interrupt enable <*> <*> ,1
-4b7f5866,special purpose registers <*> ,1
-b5f6193c,<*> <*> <*> <*> ,3
-8ca1a795,rts internal error ,1
-dc3ad48f,debug wait enable <*> <*> ,2
-8c3148d9,instruction address space <*> <*> ,1
-0aa1f6b8,disable store gathering <*> <*> ,3
-231af196,total of <*> ddr error <*> s <*> detected and corrected ,13
-18db9a99,<*> <*> Error loading <*> <*> invalid or missing program image <*> No such file or directory ,21
-fb8433a0,<*> <*> Error creating node map from file <*> <*> No child processes ,1
+f769b14b,<*> <*> <*> <*> <*> <*> <*> or <*> ,1
+a2bbaa7d,data <*> interrupt ,30
+2b5fee77,instruction address <*> ,21
+f246a428,<*> address <*> ,8
+ee970f50,program interrupt <*> <*> <*> ,21
+b5f6193c,<*> <*> <*> <*> ,35
+ed17bb0e,data <*> interrupt <*> <*> <*> <*> ,10
+e0afaf2b,<*> <*> <*> ,9
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,19
+6c29c52e,<*> interrupt <*> <*> ,1
+123783d8,data <*> <*> <*> ,5
+469d73b1,program interrupt <*> <*> <*> <*> ,5
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
+65d3db35,<*> data <*> <*> <*> <*> ,1
+12a39901,critical input interrupt <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,3
+f161a834,<*> <*> error ,1
+38d59a83,total <*> <*> ddr error s detected and corrected ,13
+aa058c02,<*> Error loading <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,1
+72782ee3,<*> Error <*> node <*> <*> file <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e61f2e04,<*> Error loading <*> <*> invalid or missing program image No such file or directory ,1
+25c0e6ae,<*> Error loading <*> <*> <*> <*> <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,1
 e41db344,program interrupt ,3
-f516f42d,Node card is not fully functional ,6
-5223ffa3,<*> <*> Error creating node map from file <*> <*> Bad file descriptor ,1
-393a59b5,Ido chip status changed <*> FF <*> <*> <*> <*> <*> <*> <*> DC <*> <*> <*> <*> Fri Jul <*> <*> PDT <*> ,1
-703d3f80,Can not get assembly information for node card ,6
-110e73d4,<*> <*> Missing or invalid fields on line <*> of node map file <*> ,2
-6e77add0,<*> torus receiver <*> input pipe error <*> s <*> <*> <*> <*> <*> detected and corrected ,4
-306e24c0,<*> <*> duplicate <*> <*> to <*> <*> mapping at line <*> of node map file <*> ,1
-519eeed8,<*> <*> Error creating node map from file <*> <*> Block device required ,1
-a09d241e,rts panic <*> <*> stopping execution ,2
-f33f4ef4,<*> <*> Error creating node map from file <*> <*> Permission denied ,1
-1f7cb2f4,<*> <*> Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*> ,1
-9d035c8d,rts <*> kernel terminated for reason <*> <*> bad message header <*> invalid cpu <*> <*> <*> <*> <*> <*> <*> <*> ,1
+7aa368cb,Node <*> is not <*> <*> ,6
+74d5c33f,<*> Error <*> <*> <*> <*> file <*> <*> <*> <*> <*> <*> <*> <*> file <*> ,1
+a50f9960,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+76c213e5,<*> not <*> <*> <*> for node <*> ,6
+5099afa0,<*> <*> <*> <*> <*> on line <*> <*> node <*> file <*> <*> <*> <*> <*> <*> ,1
+3e65fc05,<*> <*> <*> <*> input <*> error s <*> <*> detected and corrected ,4
+3b00f1db,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> line <*> <*> node <*> file <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+7bc65ced,<*> Error <*> node <*> <*> file <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+d72e754c,<*> Error loading <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,1
+dfb387f2,<*> Error <*> node <*> <*> file <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e12987fa,<*> <*> <*> <*> <*> <*> <*> <*> <*> line <*> <*> node <*> file <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+da7663f5,<*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> total <*> ,1
 368430a9,<*> floating point alignment exceptions ,121
-0f4383b4,New ido chip inserted into the database <*> FF <*> <*> <*> EA <*> <*> <*> <*> <*> ,1
-695c9d9a,New ido chip inserted into the database <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-cc6e7a09,<*> is not fully functional ,1
-883b4631,Node card status <*> ALERT <*> <*> ALERT <*> <*> ALERT <*> <*> ALERT <*> is <*> are <*> active <*> Clock Mode is Low <*> Clock Select is Midplane <*> <*> <*> Reset is asserted <*> ASIC <*> Reset is not asserted <*> Temperature Mask is not active <*> No temperature error <*> Temperature Limit Error Latch is clear <*> <*> is asserted <*> <*> error latch is clear <*> <*> is <*> <*> error latch is clear <*> The <*> volt rail is OK <*> The <*> volt rail is OK <*> ,1
-cec476b8,Node card <*> check <*> <*> node in processor card slot <*> do not match <*> <*> <*> <*> <*> found <*> ,9
-8f47a6a2,New ido chip inserted into the database <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-1c6548ed,<*> hit ASSERT condition <*> ASSERT <*> Source <*> Source <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,35
-60566a11,Node card status <*> no ALERTs are active <*> Clock Mode is Low <*> Clock Select is Midplane <*> <*> <*> Reset is asserted <*> ASIC <*> Reset is asserted <*> Temperature Mask is not active <*> No temperature error <*> Temperature Limit Error Latch is clear <*> <*> IS NOT ASSERTED <*> <*> ERROR LATCH IS ACTIVE <*> <*> IS NOT <*> <*> ERROR LATCH IS ACTIVE <*> The <*> volt rail is OK <*> The <*> volt rail is OK <*> ,5
-72c06835,Ido chip status changed <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Thu Aug <*> <*> PDT <*> ,1
-ae8d09c0,Ido chip status changed <*> FF <*> <*> <*> <*> <*> <*> <*> <*> Thu Aug <*> <*> PDT <*> ,1
-1134dcbe,<*> shutting down <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> mIp <*> <*> <*> <*> <*> <*> <*> <*> <*> as part of Service Action <*> ,1
-b6f5e52c,Ido chip status changed <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Tue Aug <*> <*> PDT <*> ,1
-ccf553d5,rts <*> link training failed <*> wanted <*> B C <*> <*> <*> <*> <*> <*> got <*> B C <*> <*> <*> <*> ,1
-709183ee,<*> tree receiver <*> in <*> state event <*> s <*> <*> <*> <*> <*> detected ,3
-6e1db572,<*> <*> Error loading <*> <*> invalid or missing program image <*> Exec format error ,17
-1732bfab,<*> <*> LOGIN <*> <*> pwd <*> failed <*> No such file or directory ,2
-ecacb944,<*> <*> Error reading message prefix after <*> on <*> socket to <*> <*> Link has been severed ,9
-7cc21e79,rts <*> kernel terminated for reason <*> ,6
-bcfa7463,<*> <*> generated <*> core files for program <*> ,30
+97845ec9,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+3e3305de,<*> is not <*> <*> ,1
+3aefaa22,Node <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is not <*> <*> <*> is not <*> <*> <*> error <*> <*> Error <*> is <*> <*> is <*> <*> error <*> is <*> <*> is <*> <*> error <*> is <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*> is <*> ,1
+54bba8a3,Node <*> <*> <*> <*> node in <*> <*> <*> <*> <*> not <*> <*> <*> <*> <*> <*> ,9
+867493c2,<*> <*> ASSERT <*> ASSERT <*> <*> Source file <*> <*> Source line <*> <*> <*> <*> <*> <*> <*> ,35
+0bb6519c,Node <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> <*> is <*> <*> <*> is not <*> <*> <*> error <*> <*> Error <*> is <*> <*> IS NOT <*> <*> ERROR <*> IS <*> <*> IS NOT <*> <*> ERROR <*> IS <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*> is <*> ,5
+70ec6b28,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+9bdfad8f,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+4d56ad51,<*> <*> <*> <*> in <*> <*> <*> <*> s <*> <*> detected ,3
+53f67bc3,<*> Error loading <*> apps <*> performance <*> <*> <*> <*> <*> rts invalid or missing program image <*> <*> error ,15
+aeb0c15a,<*> <*> <*> <*> <*> <*> <*> file <*> <*> ,2
+f6cf76ed,<*> Error loading <*> apps <*> <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,1
+340583a5,<*> Error <*> <*> <*> <*> <*> <*> on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,9
+596d07cb,<*> <*> <*> <*> <*> on line <*> <*> node <*> file <*> <*> <*> <*> <*> <*> <*> <*> ,1
+39ba5c49,<*> <*> <*> for <*> <*> ,6
+85cf8666,<*> <*> <*> <*> <*> <*> <*> <*> <*> file <*> <*> ,2
+e9702dbc,<*> <*> <*> <*> <*> for program <*> apps <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+b3f5917d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> file <*> <*> ,2
+047143bb,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> <*> <*> ,9
 ae39ce9b,<*> <*> dear <*> ,208
-3e65e6f2,NFS Mount failed on <*> <*> slept <*> seconds <*> retrying <*> <*> <*> ,2
-a9295050,Lustre mount FAILED <*> <*> <*> point <*> ,9
-06e4692d,<*> <*> <*> <*> Detected the debugger died <*> ,3
-b1ea5d37,<*> <*> In packet from node <*> <*> <*> <*> <*> <*> <*> message code <*> is not <*> or <*> <*> <*> <*> <*> <*> <*> ,1
-62d29a4a,suppressing further interrupts of same type ,2
-2969d262,Ido chip status changed <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Sat Sep <*> <*> PDT <*> ,1
-7a5c2576,rts <*> bad message header <*> expecting type <*> instead of type <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-83553e7c,critical input interrupt <*> <*> <*> <*> <*> warning for torus <*> wire ,2
-dd39e424,<*> <*> Error loading <*> <*> invalid or missing program image <*> Permission denied ,19
-95087a16,data cache search parity error detected <*> attempting to correct ,6
-d4f4a995,shutdown complete ,1
-24d025c8,Error receiving packet on tree network <*> expecting type <*> instead of type <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
-30f0d70a,<*> <*> <*> error <*> s <*> <*> <*> <*> <*> detected and corrected ,1
-1c1d0a8e,critical input interrupt <*> <*> <*> <*> <*> warning for torus <*> wire <*> suppressing further interrupts of same type ,2
-19f57ccf,<*> torus sender <*> retransmission error <*> s <*> <*> <*> <*> <*> detected and corrected over <*> seconds ,2
-b8fe1c8f,<*> <*> Received signal <*> <*> <*> <*> <*> <*> <*> ,16
-2734d54c,Lustre mount FAILED <*> <*> <*> <*> <*> location ,2
-bf3ee523,MACHINE CHECK <*> read timeout <*> <*> <*> <*> lr <*> <*> ,7
-8487a77d,<*> <*> Error reading message prefix on <*> socket to <*> <*> Connection timed out ,2
-6b924fd7,<*> <*> Error reading message prefix on <*> socket to <*> <*> Connection reset by peer ,4
-e0afaf2b,<*> <*> <*> ,1
-ad07b67f,<*> <*> Error reading message prefix on <*> socket to <*> <*> Link has been severed ,8
-28dd2476,<*> tree receiver <*> in <*> state event <*> s <*> <*> <*> <*> <*> detected over <*> seconds ,2
-f82cbf5f,<*> microseconds spent in the <*> signal handler during <*> calls <*> <*> microseconds was the maximum time for a single instance of a correctable ddr <*> ,51
-3aaddfd2,<*> total interrupts <*> <*> critical input interrupts <*> <*> microseconds total spent on critical input interrupts <*> <*> microseconds max time in a critical input interrupt <*> ,71
-ad925935,<*> ddr error <*> s <*> detected and corrected on rank <*> <*> symbol <*> over <*> seconds ,7
-894300fa,<*> shutting down Node card <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> FF <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> mIp <*> <*> <*> <*> <*> <*> <*> <*> <*> as part of Service Action <*> ,1
-2c56fff4,Kernel detected <*> integer alignment exceptions <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> <*> <*> <*> <*> <*> <*> dear <*> ,9
-9ef938fa,total of <*> ddr error <*> s <*> detected and corrected over <*> seconds ,4
-a3c9ef4d,minus normalized number <*> <*> ,1
-9b6aed8c,fraction rounded <*> <*> ,1
-adc07379,critical input interrupt <*> <*> <*> <*> <*> warning for tree <*> wire <*> suppressing further interrupts of same type ,1
-8b3e823d,size of scratchpad portion of <*> <*> <*> <*> <*> <*> ,1
-09e65e80,<*> <*> LOGIN <*> <*> <*> <*> failed <*> <*> error ,1
-de04f851,<*> <*> <*> error <*> s <*> <*> <*> <*> <*> detected and corrected over <*> seconds ,1
-4c8d2945,<*> <*> Error loading <*> <*> program image too big <*> <*> <*> <*> ,1
-d72bbe74,Machine State Register <*> <*> ,1
+74f146c2,<*> <*> <*> on <*> <*> <*> <*> <*> <*> ,2
+824d80ea,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> ,2
+4031525d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> file <*> <*> ,1
+4c3cc7b3,<*> <*> Detected <*> <*> <*> ,3
+37d855f6,<*> In <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> or <*> <*> <*> <*> <*> <*> ,1
+8d0ba0f5,<*> Error loading <*> apps <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,1
+974b8203,<*> <*> interrupts <*> <*> <*> ,2
+379976e5,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> file <*> <*> ,2
+f87589b8,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> No such file or directory ,1
+81c2e011,<*> Error loading <*> <*> <*> rts invalid or missing program image No such file or directory ,3
+8d41fd17,<*> Error loading <*> <*> <*> <*> rts invalid or missing program image No such file or directory ,3
+5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+3337130b,<*> Error loading <*> apps <*> performance <*> <*> rts invalid or missing program image No such file or directory ,1
+39605f86,<*> Error loading <*> apps <*> performance <*> <*> <*> rts invalid or missing program image No such file or directory ,1
+ec69a265,<*> <*> <*> <*> apps <*> performance <*> <*> <*> <*> <*> <*> <*> <*> No such file or directory ,5
+876171e5,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+dc359cf6,critical input interrupt <*> <*> <*> <*> <*> for <*> <*> <*> ,2
+064761de,<*> Error loading <*> <*> <*> <*> <*> <*> <*> <*> rts invalid or missing program image <*> <*> ,5
+f4a2745e,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+9364e918,<*> Error loading <*> apps <*> <*> <*> <*> invalid or missing program image <*> <*> ,2
+054fbd7f,<*> Error loading <*> apps <*> <*> <*> <*> <*> <*> <*> rts invalid or missing program image No such file or directory ,1
+146c7225,data <*> <*> <*> error detected <*> <*> <*> ,6
+b5f8f0ab,<*> <*> ,1
+0144b0b5,<*> Error loading <*> apps <*> <*> <*> <*> <*> invalid or missing program image <*> <*> error ,2
+43bf9d24,Error <*> <*> on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+56957255,<*> Error <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> program <*> <*> <*> ,1
+e36fb570,<*> Error loading <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> rts invalid or missing program image <*> <*> ,1
+f2443295,<*> Error loading <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,2
+1980a231,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> <*> <*> <*> ,4
+209e6b46,<*> Error loading <*> apps <*> <*> <*> <*> <*> <*> <*> invalid or missing program image <*> <*> ,2
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+c7337c11,critical input interrupt <*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> interrupts <*> <*> <*> ,3
+0139c59b,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> <*> <*> <*> <*> ,1
+94c04166,<*> <*> <*> <*> <*> for program <*> apps <*> <*> a <*> <*> ,2
+b8b7763d,<*> Error loading <*> apps <*> <*> <*> <*> <*> <*> invalid or missing program image <*> <*> ,2
+9c7218f0,<*> <*> <*> <*> <*> error s <*> <*> detected and corrected <*> <*> <*> ,2
+6c2bc165,<*> <*> signal <*> <*> <*> <*> <*> address <*> ,16
+7427752f,<*> <*> <*> <*> <*> for program <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
+0fb22c85,<*> Error <*> <*> <*> on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+fe22e6fd,<*> Error <*> <*> <*> on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,12
+ae0d01c8,<*> <*> <*> <*> in <*> <*> <*> <*> s <*> <*> detected <*> <*> <*> ,2
+91ab1e97,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> file <*> <*> ,2
+c426a361,<*> microseconds spent in the <*> signal handler during <*> calls <*> microseconds was the maximum time for a single instance of a correctable ddr ,51
+2ef44aad,<*> total interrupts <*> critical input interrupts <*> microseconds total spent on critical input interrupts <*> microseconds max time in a critical input interrupt ,71
+3aaa007a,<*> ddr error s detected and corrected on <*> <*> <*> <*> <*> <*> <*> ,7
+bfcf78f6,<*> <*> <*> Node <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+796fd538,<*> <*> <*> <*> alignment exceptions <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> ,9
+61a92cda,<*> of <*> ddr error <*> <*> <*> corrected <*> <*> <*> ,1
+e9541ced,<*> Error <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> program <*> <*> <*> file <*> <*> ,2
+06841383,total <*> <*> ddr error s detected and corrected <*> <*> <*> ,3
+ed7a189f,<*> Error loading <*> <*> <*> <*> <*> <*> <*> invalid or missing program image <*> <*> ,2
+7b750798,<*> Error <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> program <*> <*> <*> ,2
+6da64e49,<*> Error loading <*> apps <*> <*> <*> <*> <*> invalid or missing program image <*> <*> ,1
+2ee95f8e,<*> Error loading <*> apps <*> <*> <*> <*> <*> <*> <*> invalid or missing program image No such file or directory ,2
+95ffdd35,<*> <*> <*> <*> <*> <*> <*> <*> <*> Input <*> error ,1
+6ed9ec99,<*> Error loading <*> <*> <*> <*> <*> <*> <*> <*> <*> invalid or missing program image <*> <*> ,1
+ef4a7e6c,<*> <*> <*> error <*> <*> <*> <*> <*> corrected <*> <*> <*> ,1
+8a22b816,<*> Error <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> program <*> <*> <*> <*> <*> ,1

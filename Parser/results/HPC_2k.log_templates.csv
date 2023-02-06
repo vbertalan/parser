@@ -1,46 +1,45 @@
 EventId,EventTemplate,Occurrences
-3ccf2a41,Component State Change <*> Component <*> is in the unavailable state <*> <*> <*> ,12
-b73787f3,<*> <*> command <*> <*> ,5
-c9336f23,boot <*> command <*> <*> ,67
-0a3e1b33,wait <*> command <*> <*> ,66
-20278538,halt <*> command <*> <*> ,3
-9aecb16e,Command has completed successfully ,10
-3aad28be,Targeting domains <*> <*> and nodes <*> <*> <*> <*> <*> child of command <*> ,5
-1682fb5c,Targeting domains <*> <*> and nodes <*> <*> <*> <*> <*> <*> <*> ,1
-f63b5ab1,Targeting domains <*> <*> and nodes <*> <*> ,2
-4ec5f525,Targeting domains <*> <*> <*> <*> <*> <*> and nodes <*> <*> <*> <*> <*> <*> ,1
-1fa55edb,psu <*> <*> ,5
-84403645,Temperature <*> <*> <*> exceeds warning threshold ,2
-6032bd0a,<*> <*> There is no server for <*> domain <*> ,32
-a2eb2713,NIFF <*> node <*> detected a failed network connection on network <*> via interface <*> ,2
-ece5cf5d,<*> <*> An <*> domain panic has occurred on <*> ,1
-847b5183,Fan speeds <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,79
-717b7bb2,Fan speeds <*> <*> <*> <*> <*> <*> <*> <*> ,11
-2d48b5e8,Command has been aborted ,1
-54ec7487,<*> problem ,1
-c393ab1d,Link error ,13
-a5882550,Link in reset ,9
-47bf867e,Link ok ,13
-4521d2a6,Link error on broadcast tree <*> ,4
-e6b7cea1,<*> <*> <*> domain <*> is full ,12
-be161a2d,<*> <*> <*> domain <*> is no longer served by node <*> ,36
+6d11bedf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*> ,1
+736de771,Component State <*> Component <*> <*> <*> <*> <*> <*> state <*> <*> ,11
+dab9f72a,<*> command <*> ,8
+ac0e0ac0,boot command <*> ,67
+2d5a8467,wait command <*> ,66
+4385a88a,Command has <*> <*> ,11
+a02d0496,<*> <*> node <*> <*> <*> node <*> <*> <*> <*> command <*> ,5
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+df42558c,<*> <*> node <*> <*> <*> node <*> ,1
+6b6165ad,<*> <*> ambient <*> ,5
+bcc60a21,<*> <*> <*> warning <*> ,2
+96047ed8,<*> <*> is no <*> <*> <*> domain <*> ,32
+12887502,NIFF node node <*> detected <*> <*> network connection on network <*> <*> <*> <*> via interface <*> ,2
+292fd32e,<*> An <*> domain <*> has <*> on <*> ,1
+5045c354,Fan speeds <*> <*> <*> <*> <*> ,79
+047362f0,Fan speeds <*> <*> <*> <*> <*> <*> ,11
+e0afaf2b,<*> <*> <*> ,2
+bab5ac0e,Link <*> ,13
+c1cd5f06,Link <*> <*> ,9
+b5f8f0ab,<*> <*> ,13
+5684aca9,Link <*> on <*> <*> <*> <*> <*> <*> <*> ,4
+a817f97b,<*> <*> domain <*> <*> is <*> ,12
+a7d063a2,<*> <*> domain <*> <*> <*> is no <*> <*> <*> node node <*> ,6
+028cea77,<*> <*> domain <*> domain is no <*> <*> <*> node node <*> ,16
+661898f7,<*> <*> domain <*> <*> is no <*> <*> <*> node node <*> ,9
+0ea52455,<*> <*> domain <*> is no <*> <*> <*> node node <*> ,4
+a08f0843,<*> <*> domain <*> domain <*> is no <*> <*> <*> node node <*> ,1
 b3be2b82,running ,162
-42e29531,blocked ,15
-e2b5b958,not responding ,60
+9e08cdfc,<*> ,42
+e2b5b958,not responding ,61
 fe1280e2,configured out ,91
-b5a79c00,inconsistent <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> ,2
-a12ddb12,active ,5
-9e08cdfc,<*> ,293
-d0483954,inconsistent <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> ,1
-f5940cca,starting ,1
-993164b3,closing ,1
-3a6eef94,inconsistent <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> <*> <*> <*> ok <*> ,1
+1af1b6db,<*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> ,2
+e9169949,<*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> ,1
+f662d1b9,<*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> ,1
 eb4ff194,normal ,206
 92362443,warning ,205
-c35aec7c,critical ,20
+7be267ac,ambient <*> ,292
 5a2e94cc,<*> event interval expired ,394
-ba8a64af,<*> <*> command <*> <*> Error <*> Timed out while waiting for SRM prompt <*> <*> ABORT code completed <*> ,1
-15f6ed3d,boot <*> command <*> <*> Error <*> HALT <*> can not continue ,1
-b8dfd000,Failed subcommands <*> ,1
+0661bd5f,<*> command <*> <*> <*> out <*> <*> <*> <*> <*> <*> <*> <*> ,1
+fe69cbea,boot command <*> <*> <*> <*> <*> <*> ,1
 8dc164b1,link errors remain current ,56
-d016ded3,NIFF <*> node <*> has detected an available network connection on network <*> via interface <*> ,91
+0f43005c,NIFF node node <*> has detected an available network connection on network <*> <*> <*> <*> via interface <*> ,91

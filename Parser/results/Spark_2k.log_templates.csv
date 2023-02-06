@@ -1,34 +1,33 @@
 EventId,EventTemplate,Occurrences
-5093fd58,Registered signal handlers for <*> TERM <*> HUP <*> INT <*> ,1
-b7e398b8,Changing view acls to <*> yarn <*> <*> ,2
-6a4e5970,Changing modify acls to <*> yarn <*> <*> ,2
-9dded946,<*> <*> authentication disabled <*> ui acls disabled <*> users with view permissions <*> Set <*> yarn <*> <*> <*> <*> users with modify permissions <*> Set <*> yarn <*> <*> <*> ,2
-91d6421e,<*> started ,1
-a92c907f,Starting <*> ,1
-202b3560,<*> started <*> listening on addresses <*> <*> <*> <*> <*> <*> <*> <*> ,1
-a12455f8,Successfully started service <*> <*> on port <*> <*> ,2
-8b7e4067,Created local directory at <*> ,1
-73db29ad,<*> started with capacity <*> GB ,1
-45982d60,Connecting to driver <*> spark <*> <*> <*> <*> ,1
-4b6620a4,Successfully registered with driver ,1
-31b92d9b,Starting executor ID <*> on host <*> ,1
-2fb81371,Server created on <*> ,1
-a4479384,Trying to register <*> ,1
-2cbce655,Registered <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,3
+f5337a3f,<*> <*> <*> to <*> <*> ,4
+4d9e8471,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+b5f8f0ab,<*> <*> ,3
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+464e2004,<*> to <*> <*> <*> <*> <*> <*> <*> <*> ,1
+b5f6193c,<*> <*> <*> <*> ,2
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+63e65d01,<*> to <*> <*> ,1
 12fd741a,Got assigned task <*> ,305
-d2b4452a,Running task <*> in stage <*> <*> TID <*> <*> ,305
-b3dbffba,Started reading broadcast variable <*> ,37
-43cdb23c,Block <*> stored as bytes in memory <*> estimated size <*> KB <*> free <*> KB <*> ,32
-1a372bdf,Reading broadcast variable <*> took <*> ms ,37
-41f2b3a1,Block <*> stored as values in memory <*> estimated size <*> KB <*> free <*> KB <*> ,32
-4539430a,Partition <*> not found <*> computing it ,75
-244a3ecb,Input split <*> <*> <*> <*> ,45
-22c4869e,<*> is deprecated <*> Instead <*> use <*> ,5
-1ffc7f00,Block <*> stored as bytes in memory <*> estimated size <*> B <*> free <*> KB <*> ,80
-b6295d64,Block <*> stored as values in memory <*> estimated size <*> B <*> free <*> KB <*> ,5
-52f66fe6,Times <*> total <*> <*> <*> boot <*> <*> <*> init <*> <*> <*> finish <*> <*> ,375
-e5291a5f,Finished task <*> in stage <*> <*> TID <*> <*> <*> <*> bytes result sent to driver ,300
-2b0c5524,Found block <*> locally ,257
+f3f7e8d2,Running task <*> <*> in stage <*> <*> TID <*> ,305
+ed79cd4b,<*> reading broadcast variable <*> ,37
+be7e1eb4,Block broadcast <*> <*> stored as bytes in memory estimated size <*> <*> KB free <*> <*> KB ,32
+32c07e25,Reading broadcast variable <*> <*> <*> <*> ,37
+8e652430,Block broadcast <*> stored as <*> in memory estimated size <*> <*> KB free <*> <*> KB ,32
+cabd7440,Partition <*> <*> <*> not found computing it ,75
+c269b005,Input split <*> <*> <*> <*> <*> <*> <*> logs <*> log <*> <*> ,45
+41bd5c26,<*> <*> <*> is <*> <*> <*> <*> task <*> ,1
+ec21f427,<*> task <*> is <*> <*> <*> <*> task attempt <*> ,1
+9a549bdc,<*> task is <*> is <*> <*> <*> <*> task <*> ,1
+d72bfdef,<*> <*> <*> is <*> <*> <*> <*> <*> <*> ,1
+4f893980,<*> task <*> is <*> <*> <*> <*> task <*> ,1
+c119572d,Block broadcast <*> <*> stored as bytes in memory estimated size <*> <*> B free <*> <*> KB ,5
+1d574383,Block broadcast <*> stored as <*> in memory estimated size <*> <*> B free <*> <*> KB ,5
+f6321088,Times total <*> boot <*> init <*> finish <*> ,375
+6cdfa19c,Block <*> <*> <*> stored as bytes in memory estimated size <*> <*> B free <*> <*> KB ,75
+3ed6a2f9,Finished task <*> <*> in stage <*> <*> TID <*> <*> bytes result sent to driver ,300
+61691c4e,Found block <*> <*> <*> locally ,257
 dd093e24,File Output Committer Algorithm version is <*> ,30
-f7ed25c1,Saved output of task <*> <*> to <*> <*> <*> ,30
-bbed180c,<*> <*> Committed ,30
+de720c0d,Saved output of task attempt <*> <*> m <*> <*> to <*> <*> <*> <*> <*> <*> <*> test <*> temporary <*> task <*> <*> m <*> ,30
+767769b8,attempt <*> <*> m <*> <*> Committed ,30

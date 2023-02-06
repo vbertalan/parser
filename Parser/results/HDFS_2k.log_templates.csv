@@ -1,17 +1,19 @@
 EventId,EventTemplate,Occurrences
-7dda9b21,<*> <*> for block <*> terminating ,311
-93d609ce,BLOCK <*> <*> <*> <*> updated <*> <*> is added to <*> size <*> ,314
-111e7c64,Received block <*> of size <*> from <*> ,292
-1566fb88,Receiving block <*> src <*> <*> <*> <*> <*> ,292
-7975d075,BLOCK <*> <*> <*> <*> <*> <*> ,115
-be1aa44d,Verification succeeded for <*> ,20
-a56cb794,Deleting block <*> file <*> ,263
-6c567c3a,<*> Served block <*> to <*> ,80
-2c837435,<*> <*> Got exception while serving <*> to <*> <*> ,80
-86c85b7e,BLOCK <*> <*> <*> <*> is added to <*> of <*> ,224
-82880419,<*> Starting thread to transfer block <*> to <*> ,1
-65a14d3f,BLOCK <*> ask <*> to delete <*> ,2
-4f9bae2e,Received block <*> src <*> <*> <*> <*> <*> of size <*> ,2
-b0eeb482,BLOCK <*> ask <*> to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-26b9c605,BLOCK <*> ask <*> to replicate <*> to <*> <*> s <*> <*> ,1
-de753b0b,BLOCK <*> ask <*> to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+517bb10b,<*> <*> for block blk <*> terminating ,311
+f1610b88,BLOCK <*> <*> <*> updated <*> <*> <*> <*> <*> is added to blk <*> size <*> ,314
+772e1852,Received block blk <*> of size <*> from <*> <*> <*> <*> ,292
+60eb49af,Receiving block blk <*> src <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,292
+0b3bcd24,BLOCK <*> <*> user root <*> temporary task <*> <*> m <*> <*> part <*> blk <*> ,102
+1043b034,<*> <*> <*> blk <*> ,20
+f3bc15ab,Deleting block blk <*> file <*> hadoop dfs data current <*> blk <*> ,248
+ffc7ba9a,<*> <*> <*> <*> <*> Served block blk <*> to <*> <*> <*> <*> ,80
+c1734df8,<*> <*> <*> <*> <*> Got exception while serving blk <*> to <*> <*> <*> <*> ,80
+5fcb2401,BLOCK <*> <*> user root <*> temporary task <*> <*> <*> <*> <*> part <*> blk <*> ,13
+6a18400b,BLOCK <*> delete blk <*> is added to <*> of <*> <*> <*> <*> <*> ,224
+4be9f890,Deleting block blk <*> file <*> hadoop dfs data current blk <*> ,15
+3025c938,<*> <*> <*> <*> <*> <*> <*> to <*> block blk <*> to <*> <*> <*> <*> <*> ,1
+5c9adf7e,BLOCK <*> <*> <*> <*> <*> <*> to <*> blk <*> ,2
+4a538bf1,Received block blk <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> of size <*> ,2
+2ab3a883,BLOCK <*> <*> <*> <*> <*> <*> to <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> ,2
+a9287caf,BLOCK <*> <*> <*> <*> <*> <*> to <*> blk <*> to <*> <*> <*> <*> <*> <*> <*> ,1
+1d413f9d,BLOCK <*> <*> <*> <*> <*> <*> to <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> ,1

@@ -1,159 +1,106 @@
 EventId,EventTemplate,Occurrences
 44d5e863,session closed for user root ,24
-0e69defc,session opened for user root by <*> <*> <*> ,19
-37263954,<*> root <*> CMD <*> <*> <*> <*> ,14
-bfe81809,<*> <*> <*> got not answer from any <*> <*> <*> <*> ,819
-f40209d9,synchronized to <*> <*> stratum <*> ,566
-d2e8ac98,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> NEW SWEEP <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,62
-7d360878,<*> <*> <*> <*> No topology change ,62
-2614958d,<*> <*> <*> <*> No configuration change required ,62
-877f7961,Local disconnected <*> Connection closed <*> ,3
-d1e52602,connection lost <*> <*> closed <*> <*> ,3
-427032d8,unable to qualify my own domain name <*> <*> <*> <*> using short name ,10
-7315b7db,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
-5aeb4f17,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Connection refused by <*> <*> <*> ,10
-67385af4,<*> from <*> <*> <*> <*> ba <*> <*> via <*> ,5
-77e24a11,<*> on <*> to <*> <*> <*> <*> ba <*> <*> via <*> ,8
-b83cee23,<*> from <*> <*> <*> <*> ba <*> <*> via <*> <*> network <*> <*> no free leases ,15
-e6d55767,<*> for <*> <*> <*> <*> from <*> <*> <*> <*> ba <*> <*> via <*> ,3
-cdfc74e6,START <*> tftp <*> <*> ,1
-60ca7943,<*> for <*> <*> <*> <*> from <*> <*> <*> <*> ba <*> <*> via <*> <*> unknown lease <*> <*> ,9
-ed4cdd0a,<*> <*> <*> <*> <*> <*> illegal attempt to update using time <*> when last update time is <*> <*> minimum one second step <*> ,10
-28d4a7ce,kernel time sync disabled <*> ,1
-9d1c8ad5,time reset <*> s ,1
-0451f9fa,Received SNMP packet <*> s <*> from <*> <*> <*> ,1
-c0fea04e,synchronized to LOCAL <*> <*> <*> <*> stratum <*> ,1
-4979fafd,kernel time sync enabled <*> ,1
-25b41830,synchronized to <*> <*> <*> <*> stratum <*> ,1
-436fb79b,<*> root <*> CMD <*> <*> a <*> ,1
-5dff5ed6,<*> root <*> CMD <*> <*> b <*> ,1
-ae25c511,<*> root <*> CMD <*> <*> c <*> ,1
-e1945c7f,<*> root <*> CMD <*> <*> d <*> ,1
-aa460d1b,<*> root <*> CMD <*> <*> e <*> ,1
-b338006d,My unqualified host name <*> <*> <*> unknown <*> sleeping for retry ,5
-f3377794,<*> <*> Kernel Module <*> key <*> ,1
-d25a3f06,<*> supports <*> <*> <*> <*> ,1
-3c126217,<*> <*> <*> DELL PE <*> <*> <*> <*> <*> <*> <*> ,7
-112222b0,<*> id <*> <*> base <*> <*> ,1
-ac038f44,<*> <*> bus <*> <*> <*> <*> <*> <*> <*> <*> ,1
-eb4fea90,<*> <*> bus <*> <*> <*> <*> <*> high level <*> ,1
-8b7a9db4,<*> <*> id <*> <*> <*> address <*> <*> <*> <*> <*> <*> <*> <*> ,3
-50366b02,<*> used by override <*> ,3
-331a934f,Interpreter enabled ,1
-56f7f0c5,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> enabled <*> ,4
-338d24b8,<*> <*> <*> <*> <*> <*> high edge lint <*> <*> <*> <*> ,4
-47bd3ca3,Local <*> address <*> ,1
-cc5a5ef0,PCI Interrupt Link <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-3b2bb3b5,PCI Interrupt Link <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-e567fd22,PCI Interrupt Link <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> disabled <*> ,5
-0968d34c,PCI Interrupt Routing Table <*> <*> <*> ,10
-e8f68212,PCI Root Bridge <*> <*> <*> <*> <*> <*> ,1
-8c54aefa,PCI interrupt <*> <*> A <*> <*> <*> <*> <*> <*> level <*> low <*> <*> <*> IRQ <*> ,11
-043df632,Power Button <*> FF <*> <*> <*> <*> ,1
-caf1ec6e,Processor <*> <*> <*> <*> supports <*> <*> ,4
-7b869599,<*> <*> <*> DELL <*> <*> <*> ,1
-e6ad81ec,Subsystem revision <*> ,1
+b685779f,session opened for user root by uid <*> ,19
+7a592b7a,root CMD run parts etc <*> hourly ,14
+b898ef78,data thread got not answer from any Thunderbird <*> <*> ,819
+25b41830,synchronized to <*> <*> <*> <*> stratum <*> ,566
+51fc693a,ib sm sweep c <*> NEW SWEEP ,62
+1924c429,ib sm sweep c <*> No topology change ,62
+e3fee4fb,ib sm sweep c <*> No configuration change required ,62
+8d08504d,<*> <*> Connection closed ,3
+acd3d501,connection <*> Connection closed ,3
+f00b7a60,<*> to <*> my <*> <*> name <*> using <*> name ,10
+eb004be4,<*> from root <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> relay <*> <*> ,10
+f508c9d3,<*> to root <*> root <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> relay <*> <*> relay <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Connection <*> by <*> <*> <*> <*> ,6
+3c2ed67f,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+8dffc1d8,<*> from <*> <*> <*> <*> ba <*> via <*> ,5
+7ddc5f07,<*> on <*> <*> <*> <*> to <*> <*> <*> <*> ba <*> via <*> ,8
+ca19fb1b,<*> from <*> <*> <*> <*> ba <*> via <*> network A net no free leases ,15
+864bca6a,<*> for <*> <*> <*> <*> <*> <*> <*> <*> from <*> <*> <*> <*> ba <*> via <*> ,3
+58fef8f6,<*> <*> <*> <*> from <*> <*> <*> <*> ,1
+e34574b0,<*> for <*> <*> <*> <*> <*> <*> <*> <*> from <*> <*> <*> <*> ba <*> via <*> unknown <*> <*> <*> <*> <*> ,9
+0e363ac7,<*> update <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to update using time <*> <*> <*> update time <*> <*> <*> <*> <*> <*> ,2
+2be5473e,<*> time <*> <*> <*> ,2
+5c9605bf,time <*> <*> <*> <*> ,1
+00f2f643,<*> update <*> <*> <*> <*> D <*> <*> <*> <*> <*> <*> <*> to update using time <*> <*> <*> update time <*> <*> <*> <*> <*> <*> ,8
+bcf1417f,<*> <*> <*> <*> from <*> ,1
+f40209d9,synchronized to <*> <*> stratum <*> ,1
+aed6cd7b,synchronized to <*> stratum <*> ,1
+2283ac77,root CMD <*> <*> <*> <*> <*> a ,1
+a0ba9ac4,root CMD <*> <*> <*> <*> <*> <*> ,3
+ad7411c8,root CMD <*> <*> <*> <*> <*> d ,1
+ead88aa3,My <*> <*> name <*> unknown <*> for <*> ,5
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,11
+b5f6193c,<*> <*> <*> <*> ,27
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,9
+347334c7,<*> <*> <*> <*> <*> ,5
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
+6ab27565,<*> id <*> <*> <*> <*> <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,5
+e6b9077f,<*> <*> by <*> ,3
+b5f8f0ab,<*> <*> ,3
+faa451a0,<*> <*> id <*> <*> id <*> <*> ,4
+e358b2f9,<*> <*> <*> id <*> <*> <*> <*> <*> ,4
+c9b73019,PCI Interrupt <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+08416a81,PCI Interrupt <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+1246cdeb,PCI Interrupt Routing <*> <*> <*> <*> <*> <*> ,4
+1f70c9f0,PCI Interrupt Routing <*> <*> <*> <*> <*> ,5
+f5ceab00,PCI Interrupt Routing <*> <*> <*> <*> ,1
+37e4f29e,PCI Root <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,12
 57de3c21,Using <*> for interrupt routing ,1
-2ad25bb5,Intel <*> R <*> <*> <*> TM <*> CPU <*> stepping <*> ,1
-54daeb1d,<*> cache <*> <*> ,5
-a4c9dbd0,Physical Processor ID <*> <*> ,5
-1e15521b,Trace cache <*> <*> <*> <*> <*> D cache <*> <*> ,5
-e0afaf2b,<*> <*> <*> ,1
-083608f7,mounted filesystem with ordered data mode <*> ,3
-fd6760c3,<*> <*> v <*> <*> <*> ak Exp <*> ,1
-b17f6384,<*> <*> <*> version <*> <*> address <*> <*> <*> <*> ,3
-ac3beab9,routing cache hash table of <*> buckets <*> <*> ,1
-c72d866a,PCI Hot Plug PCI Core version <*> <*> ,1
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
-05c66754,Registered protocol family <*> ,5
-398e67dc,Using software bounce buffering for IO <*> <*> <*> ,1
-d888f589,Probing PCI hardware <*> bus <*> <*> ,1
-94289a27,Transparent bridge <*> <*> ,1
-e685b7ed,Using <*> for IRQ routing ,1
-26e5d9f7,Using <*> at <*> ,1
-4158c1be,Using configuration type <*> ,1
-c4bae555,Compressed image found at block <*> ,1
-a26a26a8,Disabled at runtime <*> ,1
-fcb84f86,Initializing <*> ,1
-8a56fd24,Registering <*> hooks ,1
-f29b0c3b,Starting in permissive mode ,1
-4cf93d77,<*> <*> hooks ,1
-c555da43,Hash tables configured <*> established <*> bind <*> <*> ,1
-6619b5f4,<*> ANSI SCSI revision <*> <*> ,1
-fede9e01,Processor ANSI SCSI revision <*> <*> ,1
-f787a888,Disk quotas <*> ,1
-241ad14d,Mounted root <*> <*> filesystem <*> <*> ,1
-e27429bc,<*> Model <*> LD <*> <*> <*> Rev <*> <*> ,1
-cccd430d,<*> Model <*> <*> SCSI BP Rev <*> <*> ,1
-d203b94f,initialized ,1
-5b5f30cd,initializing <*> socket <*> disabled <*> ,1
-12513c10,passed <*> ,1
-99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-0002e447,allocating <*> for <*> ,2
-5f64b8ed,not allocating <*> for <*> device lo ,1
-e76165ec,<*> <*> USB HID core driver ,1
-0615fde3,<*> <*> <*> <*> Intel <*> R <*> <*> Network Connection ,2
-e3d9fd24,<*> <*> <*> <*> NIC Link is Up <*> Mbps Full Duplex ,1
-2b70c70f,no floppy controllers found ,1
-4106406c,<*> not detected ,1
-a9c2b964,Wait for ready failed before probe <*> ,6
-40e4a304,Assuming <*> system bus speed for PIO modes <*> override with <*> ,1
-b0b48b29,Unknown cmd fd <*> <*> <*> cmd <*> <*> <*> <*> <*> <*> arg <*> <*> <*> on <*> ,1
-a9b1ef62,<*> C <*> <*> <*> core team ,4
-f4ad6816,Installing public key data ,1
-cbd549d3,<*> <*> DONE <*> ,2
-bc69632f,<*> RAID arrays <*> ,2
-b5f8f0ab,<*> <*> ,2
-85e27de1,md driver <*> <*> <*> <*> ,1
-ab15a668,<*> <*> <*> <*> <*> Release Date <*> Fri Dec <*> <*> EST <*> <*> ,1
-f95cc783,<*> <*> <*> <*> Release Date <*> Mon Sep <*> <*> EDT <*> <*> ,1
-420b878e,fw version <*> <*> <*> <*> bios version <*> <*> <*> <*> ,1
-1caa7a59,probe new device <*> <*> bus <*> <*> slot <*> <*> <*> <*> ,1
-825c190d,<*> mouse device common for all mice ,1
-b5f6193c,<*> <*> <*> <*> ,2
-2bb55441,<*> startup succeeded ,5
-356d6f96,Starting <*> <*> succeeded ,1
-90bfe9f4,Version <*> Starting ,1
-e6e9b6d6,LSI Logic <*> driver ,1
-d4036ac6,scanning scsi channel <*> <*> <*> <*> <*> for <*> devices ,1
-eecb9a66,scanning scsi channel <*> <*> virtual <*> for logical drives ,1
-56f77f5b,asking for cache data failed ,1
-6e8ec747,assuming drive cache <*> write through ,1
-91cfea9b,Registering secondary module capability ,1
-1e23ecca,<*> AUX port at <*> irq <*> ,1
-7a4f0505,<*> <*> port at <*> irq <*> ,1
-429d684b,<*> version <*> starting ,1
-6751415a,Detected <*> MHz processor <*> ,1
-f23bffa0,Using <*> MHz <*> timer <*> ,1
-c8f3051d,Using <*> based timekeeping <*> ,1
-573a0191,Creating Topspin <*> entries <*> ,1
-cdf783b4,registered new driver <*> ,3
-8173d448,registered new driver hub ,1
-88b184e0,probe of <*> failed with error <*> ,1
-0a18c220,connection from <*> <*> <*> <*> <*> ,2
-c54318fd,User <*> <*> <*> <*> coming from <*> <*> <*> <*> authenticated <*> ,2
-2417de68,Now running on <*> <*> <*> <*> privileges <*> ,2
-a8ccffb4,Mounting NFS filesystems <*> succeeded ,1
-3953edee,Mounting other filesystems <*> failed ,1
-e8e29f35,Warning <*> we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,33
-b5894823,Warning <*> we failed to resolve data source name <*> <*> <*> ,1
-8a001ad9,<*> <*> <*> <*> <*> illegal attempt to update using time <*> when last update time is <*> <*> minimum one second step <*> ,1
-55f0e993,Warning <*> we failed to resolve trusted host name <*> <*> ,1
-c984cfde,not allocating <*> for <*> device <*> ,1
-10a828d8,succeeded ,2
-8445df0a,Server listening on <*> <*> port <*> <*> ,1
-b5509878,error <*> Bind to port <*> on <*> failed <*> Address already in use <*> ,1
-8de6ca72,Can not open file <*> for writing <*> No such file or directory <*> ,1
-d865e61f,Changing permissions on special file <*> ,1
-b9732328,Reading included configuration file <*> <*> <*> <*> <*> <*> <*> <*> ,17
-d8831b91,Started working <*> <*> available service ,1
-8fe10bc2,removing chargen ,2
-0d2fcc54,removing daytime ,2
-09b29def,removing echo ,2
-45b6eb48,removing <*> ,5
-27cc75e2,removing ftp ,1
-774cfc11,removing printer ,1
-4f5d84d5,removing telnet ,1
+deafd6bf,<*> cache <*> ,5
+8c1ab7d0,<*> <*> ID <*> ,5
+0893d111,<*> cache <*> <*> <*> D cache <*> ,5
+2f0833a0,<*> <*> <*> <*> data <*> ,3
+226d6ef1,<*> <*> c <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+9ef76a26,routing cache <*> <*> <*> <*> <*> <*> ,1
+0a1d22fd,PCI <*> <*> PCI <*> <*> <*> <*> ,1
+42f59cbc,root <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+2f5975d6,Using <*> <*> <*> for <*> <*> ,1
+52c4aca4,<*> PCI <*> <*> <*> ,1
+a1317829,Using <*> for <*> routing ,1
+09f73f5a,Using <*> <*> <*> ,2
+7470606e,Using configuration <*> <*> ,1
+9e08cdfc,<*> ,7
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,2
+5893d232,<*> root <*> <*> ,1
+6e867cd0,<*> <*> <*> for <*> ,2
+fe1179df,<*> <*> <*> <*> for <*> <*> <*> <*> ,2
+c2d2fd22,<*> <*> <*> <*> <*> <*> <*> Network Connection ,2
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+f7e3e378,no <*> <*> <*> ,1
+5b5807ad,<*> for <*> failed <*> <*> ,6
+f55c7304,<*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> ,1
+771e9f28,Unknown cmd <*> <*> cmd <*> <*> <*> <*> on <*> <*> ,1
+4c3ea8a7,<*> <*> <*> data ,1
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+f254d987,<*> new <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+323d862c,<*> <*> <*> <*> <*> for <*> <*> ,2
+c2888077,<*> <*> <*> <*> <*> <*> for <*> <*> <*> ,1
+2b4df3f7,<*> for cache data failed ,1
+068d6505,<*> <*> cache <*> <*> ,1
+74e23b30,Using <*> <*> <*> <*> <*> ,1
+08e171de,<*> <*> <*> failed <*> <*> <*> ,1
+b3c24971,connection from <*> ,2
+099cdd96,User <*> <*> from <*> <*> ,2
+605b6143,<*> <*> on <*> <*> <*> ,2
+659eac73,<*> <*> <*> failed ,1
+26df8ead,Warning we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,33
+4c27be69,Warning we failed to resolve data source name <*> <*> <*> ,1
+1c63f6c0,<*> update <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to update using time <*> <*> <*> update time <*> <*> <*> <*> <*> <*> ,1
+51e66e84,Warning we failed to resolve <*> <*> name <*> <*> ,1
+15ab85b5,<*> <*> on <*> <*> ,1
+15ddf3af,<*> <*> to <*> <*> on <*> <*> <*> <*> failed <*> <*> <*> <*> ,1
+05c40ce0,<*> <*> file <*> <*> for <*> No <*> file <*> <*> ,1
+4b673546,<*> <*> on <*> file <*> <*> ,1
+0be43649,Reading included configuration file etc <*> d <*> file etc <*> <*> line <*> ,1
+ddb4e097,Reading included configuration file etc <*> d <*> <*> file etc <*> d <*> <*> line <*> ,5
+4d15b2f4,Reading included configuration file etc <*> d <*> file etc <*> d <*> line <*> ,9
+6b382fca,Reading included configuration file etc <*> d time file etc <*> d time line <*> ,1
+36c4402d,Reading included configuration file etc <*> d time <*> file etc <*> d time <*> line <*> ,1
+45b6eb48,removing <*> ,14
 eb1342ed,removing time ,2
-9aef8829,<*> Version <*> started with <*> <*> options compiled in <*> ,1
-9f58282c,Device <*> <*> <*> Temperature changed <*> Celsius to <*> Celsius since last report ,1
+e0987230,<*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> ,1

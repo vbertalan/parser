@@ -1,127 +1,41 @@
 EventId,EventTemplate,Occurrences
-478961c8,reverse mapping checking <*> for <*> <*> <*> <*> failed <*> POSSIBLE <*> ATTEMPT <*> ,85
-ff3f28c7,Invalid user webmaster from <*> ,2
-8e27df8e,<*> <*> invalid user webmaster <*> <*> <*> ,2
-e8b54211,<*> <*> <*> <*> auth <*> <*> check pass <*> user unknown ,135
-6be79204,<*> <*> <*> <*> auth <*> <*> authentication failure <*> <*> <*> <*> <*> <*> <*> ,110
-d69fb62f,Failed password for invalid user webmaster from <*> port <*> <*> ,2
-f6822de3,Connection closed by <*> <*> <*> <*> ,34
-6db91b72,Invalid user <*> from <*> ,36
-9e18f229,<*> <*> invalid user <*> <*> <*> <*> ,36
-4fe30679,Failed password for invalid user <*> from <*> port <*> <*> ,34
-bda12573,Received disconnect from <*> <*> <*> <*> Bye Bye <*> <*> <*> ,413
-3377d901,Invalid user chen from <*> ,1
-2bf7a251,<*> <*> invalid user chen <*> <*> <*> ,1
-cbc28a0a,Failed password for invalid user chen from <*> port <*> <*> ,1
-56a9d2ae,<*> <*> <*> <*> auth <*> <*> authentication failure <*> <*> <*> <*> <*> <*> <*> <*> ,384
-f753cb8f,Failed password for root from <*> port <*> <*> ,368
-a0c9b26c,message repeated <*> times <*> <*> Failed password for root from <*> port <*> <*> <*> ,2
-483908d3,Disconnecting <*> Too many authentication failures for root <*> <*> <*> ,2
-0024bba2,PAM <*> more authentication failures <*> <*> <*> <*> <*> <*> <*> <*> ,2
-79650746,PAM service <*> <*> <*> ignoring max retries <*> <*> <*> <*> ,7
-19ac90a5,Did not receive identification string from <*> ,10
-3700ec17,Invalid user support from <*> ,6
-20475a66,<*> <*> invalid user support <*> <*> <*> ,6
-bbf3c8b6,Failed password for invalid user support from <*> port <*> <*> ,6
-de57cf24,error <*> Received disconnect from <*> <*> <*> <*> <*> <*> Auth fail <*> <*> <*> ,2
-1697ba29,Failed password for uucp from <*> port <*> <*> ,5
-539d1489,Invalid user test from <*> ,5
-266e4bbb,<*> <*> invalid user test <*> <*> <*> ,5
-8c17844d,Failed password for invalid user test from <*> port <*> <*> ,5
-73870eab,Received disconnect from <*> <*> <*> <*> Closed due to user request <*> <*> <*> <*> ,7
-6284f364,Failed none for invalid user <*> from <*> port <*> <*> ,3
-8ca690df,Invalid user admin from <*> ,21
-f1b46053,<*> <*> invalid user admin <*> <*> <*> ,21
-c1d8ca58,Failed none for invalid user admin from <*> port <*> <*> ,1
-77f39319,Failed password for invalid user admin from <*> port <*> <*> ,44
-ae132a78,PAM <*> more authentication failures <*> <*> <*> <*> <*> <*> <*> ,6
-6218473d,Invalid user default from <*> ,1
-85bd0349,<*> <*> invalid user default <*> <*> <*> ,1
-495c62e8,Failed password for invalid user default from <*> port <*> <*> ,2
-854c08d8,PAM <*> more authentication failure <*> <*> <*> <*> <*> <*> <*> ,2
-f5b3b396,Failed password for ftp from <*> port <*> <*> ,3
-57fb3dbc,Invalid user guest from <*> ,3
-3feaa4b1,<*> <*> invalid user guest <*> <*> <*> ,3
-a92ded19,Failed password for invalid user guest from <*> port <*> <*> ,3
-8d33386e,Invalid user matlab from <*> ,3
-2f0dbea5,<*> <*> invalid user matlab <*> <*> <*> ,3
-83fbf2b0,Failed password for invalid user matlab from <*> port <*> <*> ,3
-7b4f6a8f,error <*> Received disconnect from <*> <*> <*> <*> No more user authentication methods available <*> <*> <*> <*> ,45
-8f0a7dc4,Invalid user user from <*> ,4
-edcf9512,<*> <*> invalid user user <*> <*> <*> ,4
-2a47c3f8,Failed password for invalid user user from <*> port <*> <*> ,4
-cd65e021,Invalid user anonymous from <*> ,2
-5971d601,<*> <*> invalid user anonymous <*> <*> <*> ,2
-7c544f36,Failed password for invalid user anonymous from <*> port <*> <*> ,2
-ce56bcac,Failed password for <*> from <*> port <*> <*> ,2
-901622b6,Invalid user cisco from <*> ,2
-d50007e9,<*> <*> invalid user cisco <*> <*> <*> ,2
-e2af85bc,Failed password for invalid user cisco from <*> port <*> <*> ,2
-0a568da0,Invalid user operator from <*> ,1
-f23403ae,<*> <*> invalid user operator <*> <*> <*> ,1
-74e587b6,Failed password for invalid user operator from <*> port <*> <*> ,1
-d956f46f,Invalid user monitor from <*> ,1
-f764170a,<*> <*> invalid user monitor <*> <*> <*> ,1
-55698605,Failed password for invalid user monitor from <*> port <*> <*> ,1
-9d25edd0,Invalid user pi from <*> ,1
-31b6e0e4,<*> <*> invalid user pi <*> <*> <*> ,1
-38d567e0,Failed password for invalid user pi from <*> port <*> <*> ,1
-84633303,Invalid user Management from <*> ,1
-8ff549ed,<*> <*> invalid user Management <*> <*> <*> ,1
-5afb8ab6,Failed password for invalid user Management from <*> port <*> <*> ,1
-ab5ec2dd,Invalid user api from <*> ,1
-32015e90,<*> <*> invalid user api <*> <*> <*> ,1
-5450a9e1,Failed password for invalid user api from <*> port <*> <*> ,1
-e302a176,Invalid user butter from <*> ,1
-7a69d6fc,<*> <*> invalid user butter <*> <*> <*> ,1
-4b94c1cf,Failed password for invalid user butter from <*> port <*> <*> ,1
-69012569,Invalid user oracle from <*> ,6
-2f48b467,<*> <*> invalid user oracle <*> <*> <*> ,6
-947445e8,Failed password for invalid user oracle from <*> port <*> <*> ,6
-30e1f3e4,Invalid user www from <*> ,1
-e7e62caa,<*> <*> invalid user www <*> <*> <*> ,1
-da275c98,Failed password for invalid user www from <*> port <*> <*> ,1
-0c555f3b,Invalid user abc from <*> ,1
-262b2332,<*> <*> invalid user abc <*> <*> <*> ,1
-d9f209cc,Failed password for invalid user abc from <*> port <*> <*> ,1
-d49aabc8,Invalid user ted from <*> ,1
-46257ca5,<*> <*> invalid user ted <*> <*> <*> ,1
-a4ee3177,Failed password for invalid user ted from <*> port <*> <*> ,1
-53ec0663,Failed password for git from <*> port <*> <*> ,3
-b3f209c7,Invalid user ghost from <*> ,1
-cc640451,<*> <*> invalid user ghost <*> <*> <*> ,1
-c95325ee,Failed password for invalid user ghost from <*> port <*> <*> ,1
-f58a1fa3,Invalid user ubuntu from <*> ,2
-9671d8f6,<*> <*> invalid user ubuntu <*> <*> <*> ,2
-0f13cbb0,Failed password for invalid user ubuntu from <*> port <*> <*> ,2
-0964e94d,Invalid user deploy from <*> ,2
-011b630a,<*> <*> invalid user deploy <*> <*> <*> ,2
-914e05e1,Failed password for invalid user deploy from <*> port <*> <*> ,2
-97077d89,Failed password for mysql from <*> port <*> <*> ,2
-1269fdd8,Invalid user ingrid from <*> ,1
-2fd073ce,<*> <*> invalid user ingrid <*> <*> <*> ,1
-c104e4e1,Failed password for invalid user ingrid from <*> port <*> <*> ,1
-269ad426,Invalid user jay from <*> ,1
-1ea362e9,<*> <*> invalid user jay <*> <*> <*> ,1
-213858b7,Failed password for invalid user jay from <*> port <*> <*> ,1
-ac89e954,Invalid user cyrus from <*> ,1
-39beab74,<*> <*> invalid user cyrus <*> <*> <*> ,1
-398119b4,Failed password for invalid user cyrus from <*> port <*> <*> ,1
-25c95272,Invalid user FILTER from <*> ,1
-a1b3cb78,<*> <*> invalid user FILTER <*> <*> <*> ,1
-41c296ab,Failed password for invalid user FILTER from <*> port <*> <*> ,1
-7b0429b1,Accepted password for <*> from <*> port <*> <*> ,1
-1a17783e,<*> <*> <*> <*> session <*> <*> session opened for user <*> by <*> <*> <*> ,1
-7bdc6b65,Received disconnect from <*> <*> <*> <*> disconnected by user ,1
-627854b3,<*> <*> <*> <*> session <*> <*> session closed for user <*> ,1
-93a0d9ca,Disconnecting <*> Too many authentication failures for admin <*> <*> <*> ,1
-4867aacf,Invalid user cheng from <*> ,1
-a3e7cea0,<*> <*> invalid user cheng <*> <*> <*> ,1
-e25052bb,Failed password for invalid user cheng from <*> port <*> <*> ,1
-25adf982,Invalid user boot from <*> ,1
-dca2ca9e,<*> <*> invalid user boot <*> <*> <*> ,1
-8872c607,Failed password for invalid user boot from <*> port <*> <*> ,1
-33213b92,Invalid user sandeep from <*> ,1
-0f962b1d,<*> <*> invalid user sandeep <*> <*> <*> ,1
-dcffdce6,Failed password for invalid user sandeep from <*> port <*> <*> ,1
-ca2458f8,fatal <*> Write failed <*> Connection reset by peer <*> <*> <*> ,1
+728b803f,reverse mapping checking <*> for <*> <*> com <*> <*> <*> <*> failed POSSIBLE BREAK IN ATTEMPT ,2
+15ab6980,Invalid user <*> from <*> <*> <*> <*> ,88
+3044e400,input <*> request invalid user <*> <*> ,101
+a5bf4c85,pam unix <*> auth check pass user unknown ,135
+23e62987,pam unix <*> auth authentication failure <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> ,105
+229e50c7,Failed password for invalid user <*> from <*> <*> <*> <*> port <*> <*> ,124
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,44
+50d8fce5,pam unix <*> auth authentication failure <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+2f99dd5c,Received disconnect from <*> <*> <*> <*> <*> Bye Bye <*> ,413
+530663ed,pam unix <*> auth authentication failure <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,1
+9823145c,Failed password for root from <*> <*> <*> <*> port <*> <*> ,368
+30fd162a,<*> <*> <*> <*> Failed password for root from <*> <*> <*> <*> port <*> <*> ,2
+5a654dcf,PAM <*> <*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,1
+63f06799,pam unix <*> auth authentication failure <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> user root ,368
+abb0f24f,<*> <*> <*> <*> <*> from <*> <*> <*> <*> ,10
+9e5a3dc8,reverse mapping checking <*> for <*> <*> <*> <*> user <*> com <*> <*> <*> <*> <*> failed POSSIBLE BREAK IN ATTEMPT ,1
+c74d9528,reverse mapping checking <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> failed POSSIBLE BREAK IN ATTEMPT ,2
+6e4f187b,<*> Received disconnect from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+5ec628ed,pam unix <*> auth authentication failure <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> user <*> ,15
+98875381,Failed <*> for <*> from <*> <*> <*> <*> <*> <*> <*> ,13
+dd66fcff,Received disconnect from <*> <*> <*> <*> <*> <*> <*> <*> user request <*> ,7
+641668e3,Failed <*> for invalid user <*> from <*> <*> <*> <*> port <*> <*> ,4
+6a39a5e6,Invalid user admin from <*> <*> <*> <*> ,21
+1f207ae4,PAM <*> <*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> ,6
+9b81c47b,PAM <*> <*> authentication failure <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> ,2
+462ca907,PAM <*> <*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> <*> <*> <*> user root ,1
+7f6713b5,<*> <*> <*> invalid user <*> <*> ,8
+1e410a8f,Failed <*> for invalid user <*> from <*> <*> <*> <*> <*> <*> <*> ,6
+a26ea8de,<*> Received disconnect from <*> <*> <*> <*> <*> <*> <*> user <*> <*> <*> <*> ,45
+2c84e98b,Invalid user user from <*> <*> <*> <*> ,4
+e788fae5,input <*> request invalid user user <*> ,4
+f9db683b,Failed password for invalid user user from <*> <*> <*> <*> port <*> <*> ,4
+5338dd79,Failed password for <*> from <*> <*> <*> <*> port <*> <*> ,2
+71a94dfe,<*> <*> <*> <*> user <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+95f7e74c,reverse mapping checking <*> for customer <*> <*> <*> <*> sta <*> ide com mx <*> <*> <*> <*> failed POSSIBLE BREAK IN ATTEMPT ,80
+b45fbf60,<*> <*> for <*> from <*> <*> <*> <*> <*> <*> <*> ,1
+7ea11162,pam unix <*> <*> <*> <*> <*> user <*> <*> uid <*> ,1
+e25bb244,Received disconnect from <*> <*> <*> <*> <*> <*> <*> user ,1
+3e393b00,pam unix <*> <*> <*> <*> <*> user <*> ,1
+9c5172b7,<*> <*> failed <*> <*> <*> <*> <*> ,1

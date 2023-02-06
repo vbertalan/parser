@@ -1,118 +1,103 @@
 EventId,EventTemplate,Occurrences
-079ba312,<*> app <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false <*> <*> <*> false <*> <*> <*> false <*> <*> <*> false ,1
-42321a40,acquire <*> <*> <*> <*> <*> <*> View Lock <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-7315b7db,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,199
-726be590,Skipping <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> going to hide ,4
-e7d98f02,visible is <*> ,3
-c0215a7d,<*> is false ,5
-7ba58c77,visible is <*> gt <*> ,2
-ae43e760,release <*> <*> <*> <*> <*> <*> <*> View Lock <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-bcdafca1,<*> <*> <*> false <*> <*> <*> <*> ,52
-096adc75,<*> overlap <*> false ,52
-27491bd2,<*> <*> caller <*> does not hold <*> <*> limiting output ,118
-27354662,release <*> <*> <*> <*> <*> <*> <*> <*> launch <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,8
-621e2634,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,200
-9e08cdfc,<*> ,100
-347334c7,<*> <*> <*> <*> <*> ,35
-8874cb30,Destroying surface Surface <*> <*> <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> bottom of call stack <*> <*> bottom of call stack <*> ,1
-6dcc1b70,Destroying surface Surface <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-de418177,release <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,80
-ba410195,orientation change is complete <*> call <*> ,1
-e8bcec0d,Screen frozen for <*> due to Window <*> <*> <*> <*> <*> ,1
-0e550788,<*> begin ,1
-f24aed51,<*> end ,1
-362f8296,release <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,16
-cef1619b,remove <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> changed bounds <*> <*> ,2
-ea31b558,Application requested orientation <*> <*> got rotation <*> which has compatible metrics ,3
-4b14e70c,acquire <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,17
-f40c901d,<*> running <*> ,37
-0ac95192,<*> <*> <*> false ,33
-a2038a65,<*> calling app is <*> ,5
-01d8fb58,Releasing suspend blocker <*> <*> <*> <*> ,33
-51904032,HBM <*> <*> ,170
-e3a48175,Animating brightness <*> <*> <*> <*> ,85
-5c3dd0fa,<*> <*> <*> <*> <*> down true canceled false ,7
-f926b79b,<*> <*> key <*> <*> result <*> <*> ,14
-2424b341,<*> <*> <*> <*> <*> down false canceled false ,7
+98163a8a,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> false <*> false <*> false <*> false ,1
+19be9de3,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,1
+fb731d3f,ready true policy <*> wakefulness <*> <*> <*> <*> <*> <*> true <*> false <*> false mode false manual <*> auto <*> adj <*> <*> <*> ,199
+78d0d727,<*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+347334c7,<*> <*> <*> <*> <*> ,70
+0ac95192,<*> <*> <*> false ,11
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,19
+004da029,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,1
+97e04d58,<*> <*> false <*> <*> <*> Translation <*> <*> ,52
+e0afaf2b,<*> <*> <*> ,139
+b94f9ef1,<*> caller <*> does not hold REAL GET TASKS limiting output ,118
+850e1980,<*> <*> <*> <*> <*> <*> <*> name android <*> <*> <*> <*> <*> <*> <*> ,8
+109a644b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Rect <*> <*> <*> <*> <*> Rect <*> <*> <*> <*> ,200
+9e08cdfc,<*> ,135
+d5997c1b,<*> surface Surface name <*> com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> android <*> <*> <*> <*> <*> com android server wm <*> <*> <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+070ec3be,<*> surface Surface name com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> android <*> <*> <*> <*> <*> com android server wm <*> <*> <*> ,1
+f8b4254e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,2
+67ce1993,<*> <*> <*> event <*> flags <*> uid <*> ,69
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,12
+77e806ae,<*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> com <*> <*> <*> <*> <*> <*> ,1
 b5f8f0ab,<*> <*> ,55
-7917e13f,acquire <*> <*> <*> <*> <*> <*> <*> launch <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,8
-062cd90f,Acquiring suspend blocker <*> <*> <*> <*> ,33
-2f6b0df7,Bad activity token <*> <*> <*> <*> ,1
-f7b9a52a,<*> <*> <*> can not be cast to <*> <*> Token ,1
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,22
-cb5e19e9,disable <*> <*> expand ICONS <*> alerts <*> <*> back home recent clock <*> search <*> <*> ,3
-54cde2e8,<*> <*> <*> <*> <*> <*> <*> true <*> <*> <*> null <*> true ,4
-0868a58a,<*> <*> turn off <*> ,6
-87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,13
-e0afaf2b,<*> <*> <*> ,26
-d2564cab,<*> <*> <*> true <*> <*> <*> <*> ,13
-c7823d8f,<*> overlap <*> true ,13
-f8299fd2,Destroying surface Surface <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> ,18
-921c68bb,<*> <*> false ,20
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
-fb1c1457,<*> <*> true ,1
-9f3f47c1,Sending <*> broadcast <*> from system <*> <*> <*> pkg <*> ,2
-ca69a5dd,<*> <*> start ,6
-6e8ca25a,<*> called ,10
-bb6009b8,<*> <*> over ,6
-a8029ecd,<*> <*> is null or empty ,1
-2d461f9c,<*> not in UI <*> ,3
-40db73a5,<*> <*> Must execute in UI ,3
-bcf90255,<*> <*> <*> register callback for <*> <*> <*> ,1
-f104ca5a,<*> <*> <*> <*> callback for null ,1
-00d2cb81,<*> <*> <*> <*> <*> <*> <*> id <*> <*> <*> <*> <*> x <*> <*> <*> <*> <*> y <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-b5f6193c,<*> <*> <*> <*> ,28
-a6df636b,START <*> <*> <*> <*> <*> <*> has extras <*> <*> from uid <*> on display <*> ,1
-8b78778a,<*> info <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-aa80c895,<*> called <*> tell the app <*> reason <*> <*> ,2
-c8866307,<*> <*> remove <*> ,2
-c8f15d19,<*> <*> Unknown <*> ,2
-63efe1d4,Taking screenshot from Surface with crop <*> <*> Rect <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> width <*> <*> <*> <*> <*> height <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false <*> <*> rot <*> <*> <*> <*> ,4
-a784cefe,The change in focus caused us to need to do a layout begin ,6
-46a31510,The change in focus caused us to need to do a layout end ,6
-5653ebf0,<*> <*> true <*> ,181
-6219add9,Skipping <*> <*> <*> false <*> <*> <*> Intent <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
-20341f95,Skipping <*> <*> <*> false <*> <*> <*> Intent <*> <*> <*> <*> <*> has extras <*> <*> ,14
-f9bd0f29,Skipping <*> <*> <*> false <*> <*> <*> Intent <*> <*> <*> <*> has extras <*> <*> ,21
-33013b4d,Skipping <*> <*> <*> false <*> <*> <*> Intent <*> <*> <*> <*> <*> <*> <*> <*> has extras <*> <*> ,7
-7232d296,Skipping <*> <*> <*> false <*> <*> <*> Intent <*> <*> <*> <*> <*> <*> <*> <*> <*> has extras <*> <*> ,7
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,14
-7ddb13c1,<*> pid <*> <*> uid <*> <*> <*> tag <*> null <*> pkg <*> <*> id <*> ,20
-04c05c09,<*> <*> index <*> <*> ,20
-88f56710,disable <*> <*> expand icons <*> alerts <*> <*> back home recent clock <*> search <*> <*> ,3
-f4f6706f,<*> <*> <*> <*> callback for <*> <*> <*> ,1
-4ca1553b,Start dump <*> calling from <*> <*> <*> <*> ,1
-e2b37cf2,<*> type <*> <*> state <*> <*> ,2
-d7f60bfb,<*> <*> pid <*> <*> <*> restart <*> false ,6
-c267e958,<*> <*> reset pid <*> <*> <*> <*> <*> <*> ,6
-5c59d5f9,<*> on <*> true ,2
-9893059e,sending alarm Alarm <*> <*> type <*> when <*> <*> <*> <*> <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-1f65fabe,Received <*> alarm <*> rescheduling ,3
-a3aa7cb8,received broadcast <*> ,4
-44578736,Destroying surface Surface <*> <*> <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> ,2
-2f31d849,sending alarm Alarm <*> <*> type <*> when <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-9ef4a0fc,Killing <*> <*> <*> <*> adj <*> <*> <*> empty for <*> ,1
-2ed1e7f1,Unable to start service Intent <*> <*> <*> <*> <*> <*> not found ,1
-0d3a1eb3,<*> HSM <*> <*> false uid <*> <*> <*> pid <*> <*> ,1
-ba734b32,<*> <*> destructor ,1
-3eaeda22,Process <*> <*> <*> <*> pid <*> <*> has died ,1
-489bf0e4,Scheduling restart of crashed service <*> in <*> ,1
-a58e4b6a,new Process <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> name <*> <*> <*> <*> <*> <*> <*> <*> ,1
-c84dd1ee,Start proc <*> <*> <*> <*> <*> for service <*> ,1
-fb44d802,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> tick <*> <*> <*> <*> <*> ,1
-deb33d58,<*> <*> <*> <*> <*> <*> <*> true <*> <*> <*> null <*> false ,2
-6feeb491,Marking notification as seen <*> ,2
-05ecab9a,START <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> from uid <*> on display <*> ,2
-ea06cf98,ACTIVITY check resid <*> <*> <*> <*> ,2
-852b52d8,<*> <*> <*> true ,4
-24bc83c3,<*> is blocked by permission manager <*> <*> <*> <*> ,3
-c82103fe,<*> is blocked by permission manager <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
-d08de2b6,<*> AMP <*> <*> <*> Volt <*> <*> ,1
-28924e82,<*> <*> action <*> <*> ,1
-75d3cc11,battery changed <*> <*> <*> ,1
-c9e9dea6,<*> Wattage <*> <*> ST <*> <*> <*> <*> <*> ,1
-bd47c959,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> tick <*> <*> <*> <*> <*> <*> ,1
-7c21f057,START <*> <*> <*> <*> <*> has extras <*> <*> from uid <*> on display <*> ,1
-fba9b765,<*> called from <*> context <*> forcing <*> for <*> Intent <*> <*> <*> <*> has extras <*> <*> ,1
+08a18ede,<*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> ,1
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
+4060306b,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,10
+921c68bb,<*> <*> false ,34
+200af496,<*> <*> <*> <*> com <*> android <*> ,5
+722cb4e2,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,7
+8949213c,<*> <*> <*> <*> <*> <*> <*> name <*> <*> <*> <*> <*> <*> <*> ,11
+3e9f4e5f,<*> suspend blocker <*> <*> ,66
+51904032,HBM <*> <*> ,170
+eee15253,Animating brightness target <*> rate <*> ,85
+f37dfddc,<*> <*> <*> <*> true <*> false <*> <*> <*> true <*> false ,7
+f55dd443,<*> <*> <*> <*> true <*> false <*> <*> <*> false <*> false ,7
+a29b3eaf,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,8
+7726a014,<*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+b039a2b5,<*> <*> <*> android <*> <*> <*> ,1
+31856bf9,<*> <*> <*> android <*> <*> <*> <*> <*> <*> com android server <*> <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,7
+be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+f04d7c87,<*> <*> false <*> true <*> <*> true ,4
+b5f6193c,<*> <*> <*> <*> ,16
+00af6af0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,27
+0dbcf7f6,<*> <*> true <*> <*> <*> Translation <*> <*> ,13
+6fe5db1d,<*> surface Surface name com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> ,1
+87536ff2,<*> false ,20
+79b3ff45,<*> <*> <*> <*> <*> true <*> <*> <*> <*> <*> <*> <*> false ,1
+059443b0,<*> true ,182
+f7e71105,<*> <*> <*> <*> com android <*> <*> <*> <*> <*> <*> <*> com android <*> <*> <*> com android <*> ,2
+f850cf95,<*> not <*> <*> ,3
+252466ee,android <*> <*> <*> <*> <*> <*> ,3
+4419d4b3,<*> <*> <*> com android <*> <*> <*> <*> <*> ,2
+7587d1d7,<*> <*> <*> <*> <*> true ,1
+bf70b3b2,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false ,4
+8d87d878,<*> <*> <*> <*> true <*> true <*> true ,2
+ab281563,<*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+458bc788,<*> <*> <*> <*> <*> false <*> <*> <*> <*> <*> <*> <*> false ,1
+ac9ec8a7,<*> <*> <*> Surface <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false <*> <*> ,4
+be3753e6,<*> <*> <*> <*> false <*> false <*> true ,1
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,32
+87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
+4d9e8471,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
+1343c014,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
+600aa55c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
+c7543e5b,<*> <*> false <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> android <*> <*> <*> <*> <*> com android <*> <*> <*> <*> ,7
+a5969321,<*> <*> <*> com <*> <*> com <*> <*> <*> <*> ,10
+0cd58dcc,<*> surface Surface name com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server <*> <*> <*> <*> com android server <*> <*> <*> <*> ,1
+6901ad83,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,2
+d94d4b63,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,2
+df8ba77e,<*> <*> <*> <*> false ,6
+fb1c1457,<*> <*> true ,6
+d8443ae9,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> ,3
+f04f2a17,<*> <*> android <*> <*> <*> <*> ,5
+3bb34d30,<*> surface Surface name <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> ,14
+3d755abd,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> com android <*> <*> <*> <*> <*> <*> ,2
+49a1024a,<*> <*> com android <*> <*> <*> <*> <*> <*> <*> ,1
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+edf244c6,<*> <*> <*> <*> <*> <*> com <*> android <*> <*> <*> <*> com <*> <*> com <*> android <*> <*> <*> <*> <*> not <*> ,1
+b14682d9,<*> <*> false <*> <*> <*> <*> ,1
+7ce5c9a7,<*> com <*> <*> <*> <*> <*> <*> <*> ,1
+e658b9af,<*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+37d86ff7,<*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> name com <*> <*> <*> <*> <*> ,1
+c4dec2bc,<*> <*> <*> com <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> ,1
+68b1795a,<*> surface Surface name <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> <*> android <*> <*> <*> <*> ,3
+d5da9572,<*> <*> <*> <*> false <*> false <*> false ,5
+015bfb75,<*> surface Surface name com <*> <*> com <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server <*> <*> <*> <*> com android server <*> <*> <*> <*> ,2
+8b6794e1,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+65368943,<*> <*> <*> <*> com <*> <*> <*> <*> <*> ,2
+4ca23416,<*> <*> false <*> true <*> <*> false ,2
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+4991b3b1,<*> <*> <*> android <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> com <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+a8ddc107,<*> <*> <*> <*> com <*> android <*> <*> <*> <*> ,1
+d6e2dbe0,<*> <*> <*> com <*> android <*> com <*> android <*> <*> ,4
+cf4d9d0e,<*> <*> <*> com <*> android <*> <*> <*> ,2
+e06cdf2b,<*> surface Surface name com <*> android <*> com <*> android <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server <*> <*> <*> <*> com android server <*> <*> <*> <*> ,2
+094a3fec,<*> <*> <*> android <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+005df8b0,<*> <*> <*> <*> <*> <*> <*> com <*> <*> ,3
+b939b164,<*> <*> false <*> false <*> <*> <*> <*> <*> <*> ,1
+3e03cbc4,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+4afb4b06,<*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+71a25d93,<*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> ,1
+5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1

@@ -1,47 +1,57 @@
 EventId,EventTemplate,Occurrences
-f66667aa,<*> <*> GET <*> <*> <*> status <*> <*> len <*> <*> time <*> <*> ,929
-a534ec8c,<*> instance <*> <*> <*> VM Started <*> <*> Event <*> ,22
-baf0555d,<*> instance <*> <*> <*> VM Paused <*> <*> Event <*> ,22
-d96ade59,<*> instance <*> <*> <*> During <*> the instance has a pending task <*> spawning <*> <*> Skip <*> ,43
-5bcfab05,image <*> at <*> <*> <*> <*> checking ,82
-32605396,image <*> at <*> <*> <*> <*> in use <*> on this node <*> local <*> <*> on other nodes sharing this instance storage ,82
-a0b699ac,Active base files <*> <*> ,82
-030b8e83,Creating event <*> <*> <*> for instance <*> ,9
-4ea62f83,<*> <*> POST <*> <*> <*> status <*> <*> len <*> <*> time <*> <*> ,64
-af53fa06,<*> instance <*> <*> <*> VM Resumed <*> <*> Event <*> ,44
-5fc76023,<*> instance <*> <*> <*> Instance spawned successfully <*> ,22
-7cbbf1ae,<*> instance <*> <*> <*> Took <*> seconds to spawn the instance on the hypervisor <*> ,22
-40d85e76,<*> instance <*> <*> <*> Took <*> seconds to build instance <*> ,22
-10894a10,Auditing locally available compute resources for node <*> ,15
-a68fce1d,Total usable <*> <*> <*> <*> total allocated <*> <*> <*> ,15
-3bea3f19,Final resource view <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
-7b155bc8,<*> record updated for <*> <*> <*> ,15
-53f662cc,<*> <*> DELETE <*> <*> <*> status <*> <*> len <*> <*> time <*> <*> ,22
-0af96401,<*> instance <*> <*> <*> Terminating instance ,22
-7c88357c,<*> instance <*> <*> <*> Instance destroyed successfully <*> ,22
-620d812f,<*> instance <*> <*> <*> Deleting instance files <*> ,21
-cb0c2b8d,<*> instance <*> <*> <*> Deletion of <*> complete ,21
-6473a1f8,<*> instance <*> <*> <*> Took <*> seconds to destroy the instance on the hypervisor <*> ,21
-4990ce2f,<*> instance <*> <*> <*> Took <*> seconds to deallocate network for instance <*> ,21
-be4e9eee,Unknown base file <*> <*> ,30
-34733c85,Removable base files <*> <*> ,30
-773c7307,Removing base or swap file <*> <*> ,21
-c2630cb7,HTTP exception thrown <*> No instances found for any event ,21
-32cb28ce,<*> instance <*> <*> <*> Attempting claim <*> memory <*> MB <*> disk <*> GB <*> <*> <*> CPU ,21
-c3ab8de3,<*> instance <*> <*> <*> Total memory <*> <*> MB <*> used <*> <*> MB ,21
-e454586c,<*> instance <*> <*> <*> memory limit <*> <*> MB <*> free <*> <*> MB ,21
-70fa249d,<*> instance <*> <*> <*> Total disk <*> <*> GB <*> used <*> <*> GB ,21
-b327fdea,<*> instance <*> <*> <*> disk limit not specified <*> defaulting to unlimited ,21
-c3a827a9,<*> instance <*> <*> <*> Total <*> <*> <*> <*> <*> used <*> <*> <*> ,21
-7b715a29,<*> instance <*> <*> <*> <*> limit not specified <*> defaulting to unlimited ,21
-dcef8586,<*> instance <*> <*> <*> Claim successful ,21
-78473be0,<*> instance <*> <*> <*> Creating image ,21
-de6ae4b4,<*> instance <*> <*> <*> VM Stopped <*> <*> Event <*> ,21
-327b1000,Successfully synced instances from host <*> <*> <*> ,2
-5e59c7cf,Running instance usage audit for host <*> from <*> <*> to <*> <*> <*> <*> instances <*> ,1
-1016ab92,Base or swap file too young to remove <*> <*> ,9
-99d68af5,Creating event <*> for instance <*> ,13
-d5411ecf,<*> <*> GET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> status <*> <*> len <*> <*> time <*> <*> ,1
-009d6226,The instance sync for host <*> <*> did not match <*> <*> its <*> <*> ,5
-ab4d74fc,<*> <*> GET <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> status <*> <*> len <*> <*> time <*> <*> ,1
-3fb2703e,While synchronizing instance power states <*> found <*> instances in the database and <*> instances on the hypervisor <*> ,1
+71d7b285,<*> <*> <*> <*> GET <*> <*> servers detail HTTP <*> <*> status <*> len <*> time <*> <*> ,698
+b0393431,instance <*> <*> <*> <*> <*> VM <*> <*> Event ,65
+7917e9d3,instance <*> <*> <*> <*> <*> During sync power state the instance has a pending task spawning Skip ,43
+a055797c,image <*> <*> <*> <*> <*> at var lib nova instances base <*> checking ,82
+1244b497,image <*> <*> <*> <*> <*> at var lib nova instances base <*> in use on this node <*> local <*> on other nodes sharing this instance storage ,82
+02fd61f0,Active base files var lib nova instances base <*> ,82
+95b77b3d,Creating event network <*> <*> <*> <*> <*> <*> <*> for instance <*> <*> <*> <*> <*> ,22
+f78cb072,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,43
+1246aeb8,instance <*> <*> <*> <*> <*> VM Resumed <*> Event ,44
+ad9d5930,instance <*> <*> <*> <*> <*> Instance <*> successfully ,36
+65f5ad3c,instance <*> <*> <*> <*> <*> Took <*> <*> seconds to <*> the instance <*> the <*> ,43
+96ddf6c7,instance <*> <*> <*> <*> <*> Took <*> <*> seconds to <*> instance ,22
+553feb72,<*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
+2ce8109f,Total <*> <*> <*> total <*> <*> <*> ,15
+00cd4b9b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> disk <*> <*> disk <*> total <*> <*> <*> <*> <*> <*> <*> ,1
+c4f31088,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
+d4cf2ce1,<*> <*> <*> <*> <*> <*> <*> <*> GET <*> <*> <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,109
+b0282200,<*> <*> <*> <*> <*> <*> <*> <*> GET <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,30
+ca38c730,<*> <*> <*> <*> <*> <*> <*> servers <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,22
+ad95c7b2,<*> <*> <*> <*> <*> <*> <*> <*> GET <*> <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,36
+161b8ba1,instance <*> <*> <*> <*> <*> <*> instance ,22
+f53b219a,instance <*> <*> <*> <*> <*> <*> instance files var lib nova instances <*> <*> <*> <*> <*> <*> ,21
+9df30880,instance <*> <*> <*> <*> <*> <*> <*> var lib nova instances <*> <*> <*> <*> <*> <*> <*> ,21
+53019f1b,instance <*> <*> <*> <*> <*> Took <*> <*> seconds to <*> network for instance ,21
+51ec26a3,<*> base file var lib nova instances base <*> ,30
+977e71ed,<*> base files var lib nova instances base <*> ,30
+3258113b,<*> base <*> <*> file var lib nova instances base <*> ,21
+0fca90df,<*> <*> <*> <*> <*> <*> for <*> event ,21
+a2d81da1,<*> <*> <*> <*> <*> <*> <*> servers HTTP <*> <*> status <*> len <*> time <*> <*> ,21
+f24e10de,instance <*> <*> <*> <*> <*> <*> claim <*> <*> <*> disk <*> GB <*> <*> <*> ,21
+aceeb29d,instance <*> <*> <*> <*> <*> <*> memory <*> MB <*> <*> <*> MB ,21
+a5bfa862,instance <*> <*> <*> <*> <*> memory <*> <*> <*> MB <*> <*> <*> MB ,20
+8c01cc1a,instance <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,9
+4e65903d,instance <*> <*> <*> <*> <*> disk limit not specified defaulting to unlimited ,21
+3e577b03,instance <*> <*> <*> <*> <*> Total <*> <*> <*> <*> <*> <*> <*> ,20
+ba528754,instance <*> <*> <*> <*> <*> <*> limit not specified defaulting to unlimited ,21
+990676d0,instance <*> <*> <*> <*> <*> Claim <*> ,21
+a6e6661f,<*> <*> <*> <*> GET <*> <*> servers <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,21
+76dff26a,instance <*> <*> <*> <*> <*> Creating <*> ,21
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+eccb3761,<*> <*> <*> <*> <*> <*> <*> <*> GET <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,12
+8b6794e1,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,9
+621e2634,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+91ccbc3e,instance <*> <*> <*> <*> <*> Instance <*> <*> ,8
+2a4ffd57,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
+1410fc87,Base <*> <*> file <*> <*> <*> <*> var lib nova instances base <*> ,9
+0ff10e97,instance <*> <*> <*> <*> <*> Total disk <*> GB <*> <*> <*> GB ,13
+1a9ae1a4,<*> <*> <*> <*> GET <*> <*> servers detail <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,1
+933c3db2,The instance sync for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> not <*> <*> <*> <*> <*> ,5
+753ef378,<*> <*> <*> <*> GET <*> <*> servers detail <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,1
+228487e1,<*> <*> <*> <*> GET <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,1
+768596df,<*> <*> <*> <*> GET <*> <*> <*> <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,1
+1dd1e1f9,instance <*> <*> <*> <*> <*> <*> limit <*> <*> <*> <*> <*> <*> <*> ,1
+39551959,<*> <*> <*> <*> <*> <*> <*> <*> GET <*> <*> <*> <*> <*> HTTP <*> <*> status <*> len <*> time <*> <*> ,9
+5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+a9b92119,<*> <*> instance power <*> <*> <*> <*> <*> the <*> <*> <*> <*> <*> the <*> ,1

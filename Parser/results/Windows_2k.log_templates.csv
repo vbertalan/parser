@@ -1,57 +1,63 @@
 EventId,EventTemplate,Occurrences
-bc49f756,Loaded Servicing Stack <*> with Core <*> C <*> <*> ,2
-e36bbaad,<*> <*> <*> <*> <*> <*> version <*> <*> called <*> stack <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
-2a532d86,Ending <*> initialization <*> ,2
-f1ea8346,Starting the <*> main loop <*> ,2
-76575d89,<*> service starts successfully <*> ,2
-1f9f42ce,<*> <*> Initializing online with Windows <*> <*> False ,2
-792cafaa,<*> <*> Cleaning up report files older than <*> days <*> ,2
-bc741374,<*> <*> Requesting upload of all unsent reports <*> ,2
-eeedd145,<*> <*> Failed to start upload with file pattern <*> C <*> <*> <*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-0600d48b,<*> <*> Failed to start standard sample upload <*> <*> <*> <*> <*> <*> <*> <*> ,2
-4976750c,<*> <*> Queued <*> file <*> s <*> for upload with pattern <*> C <*> <*> <*> <*> <*> flags <*> <*> ,2
-0fd4c572,<*> <*> Warning <*> Failed to upload all unsent reports <*> <*> <*> <*> <*> <*> <*> <*> ,2
-1c11400d,No startup processing required <*> <*> service was not set as <*> <*> or else a reboot is still pending <*> ,2
-2a31162c,<*> <*> Checking to ensure startup processing was not required <*> ,2
-f36ff0ce,<*> <*> <*> call <*> <*> <*> flags <*> <*> <*> progress <*> NULL <*> phase <*> <*> <*> <*> <*> <*> <*> ,2
-edcecebf,<*> Creating NT transaction <*> seq <*> <*> <*> <*> <*> <*> <*> <*> <*> null <*> <*> ,3
-8574ce0c,<*> Created NT transaction <*> seq <*> <*> result <*> <*> handle <*> <*> ,3
-307c653f,<*> <*> <*> CSI perf trace <*> ,3
-126b37f6,<*> <*> Success <*> startup processing not required as expected <*> ,2
-aefbea77,Startup processing thread terminated normally ,2
-700d5623,<*> CSI Store <*> <*> <*> <*> initialized ,3
-ca59953e,Session <*> <*> initialized by client <*> <*> ,608
-0c632e5f,Warning <*> Unrecognized <*> attribute <*> ,280
-d4b958b2,Expecting attribute name <*> <*> <*> <*> <*> <*> <*> ,224
-aa97b74e,Failed to get next element <*> <*> <*> <*> <*> <*> <*> ,224
-bc653c79,Failed to internally open package <*> <*> <*> <*> <*> <*> <*> <*> ,18
-fdca3f14,Read out cached package applicability for package <*> <*> <*> <*> <*> <*> <*> <*> ,558
-9a18db9b,Failed to create backup log cab <*> <*> <*> <*> <*> <*> <*> <*> ,2
-270db424,Reboot mark refs incremented to <*> <*> ,1
-f0617ece,Scavenge <*> Starts ,1
-3fc49583,<*> <*> <*> CSI Transaction <*> <*> initialized for deployment engine <*> <*> <*> with flags <*> and client id <*> <*> <*> <*> <*> <*> ,1
-2fdc8a95,Scavenge <*> Begin CSI Store ,1
-2f18dc04,<*> Performing <*> operations <*> <*> are not <*> and follow <*> ,1
-41c7814c,<*> Store coherency cookie matches last scavenge cookie <*> skipping scavenge <*> ,1
-3d3cd590,<*> <*> <*> <*> calling <*> <*> <*> <*> <*> <*> ,1
-89201eeb,Scavenge <*> Completed <*> disposition <*> <*> ,1
-4c3d9de0,<*> <*> <*> CSI Transaction <*> <*> destroyed ,1
-df1010a3,Reboot mark refs <*> <*> ,1
-58c1b1d5,Idle processing thread terminated normally ,1
-1b65979c,Ending the <*> main loop <*> ,1
-9824f6ed,Starting <*> finalization <*> ,1
-6cfe11de,Ending <*> finalization <*> ,1
-89061178,Starting <*> initialization <*> ,1
-c9b8278e,Loading offline registry hive <*> SOFTWARE <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,1
-df4a01d6,Loading offline registry hive <*> SYSTEM <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,1
-0e82faf2,Loading offline registry hive <*> SECURITY <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,1
-1ce2dcd3,Loading offline registry hive <*> SAM <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,1
-63410932,Loading offline registry hive <*> COMPONENTS <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,1
-ddd6e2a6,Loading offline registry hive <*> DEFAULT <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,1
-606d2ecb,Loading offline registry hive <*> <*> <*> into registry key <*> <*> <*> <*> <*> <*> from path <*> <*> <*> <*> <*> ,2
-db3e4a01,Offline image is <*> <*> ,1
-b73affef,Disabling manifest caching <*> because the image is not writeable <*> ,1
-4878f9f1,<*> <*> <*> <*> <*> Begin ,1
-edd942d4,<*> <*> <*> <*> <*> End ,1
-6ead837f,Session <*> <*> initialized by client SPP <*> ,1
-c1e036ad,Unloading offline registry hive <*> <*> <*> <*> <*> ,8
+a496207c,<*> Servicing <*> <*> <*> <*> <*> with <*> C Windows <*> <*> <*> windows <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+d4636b47,Ending <*> <*> ,3
+068c07e1,Starting the <*> <*> <*> ,2
+12aff2aa,<*> service <*> <*> ,2
+b8dc53a6,<*> <*> <*> with Windows <*> <*> <*> ,2
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+147722d8,<*> <*> upload <*> all unsent reports ,2
+f2c4cd4d,<*> Failed to start upload with file pattern C Windows servicing <*> <*> <*> flags <*> <*> <*> E FAIL ,2
+a1298d3a,<*> Failed to start <*> <*> upload <*> <*> E FAIL ,2
+dbe6e729,<*> <*> <*> file <*> <*> upload with pattern C Windows servicing <*> all <*> flags <*> ,2
+8217a35f,<*> <*> Failed to upload all unsent reports <*> <*> E FAIL ,2
+8cff38db,<*> startup processing required <*> service was not <*> as <*> <*> <*> <*> reboot is <*> <*> ,2
+42f2a28d,<*> <*> to <*> startup processing was not required ,2
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+2b865a54,<*> <*> NT transaction seq <*> <*> <*> <*> ,3
+faa1efbd,<*> <*> NT transaction seq <*> <*> <*> <*> <*> ,3
+5c50b6c8,<*> <*> <*> <*> <*> <*> <*> <*> CSI <*> <*> ,3
+7d333f15,<*> <*> startup processing not required as <*> ,2
+209c5c9d,Startup processing <*> <*> <*> ,2
+d0989ed2,<*> CSI Store <*> <*> initialized ,3
+9336d106,Session <*> <*> initialized by client <*> ,609
+b26d53eb,Warning Unrecognized <*> attribute ,280
+b8f65317,Expecting attribute name <*> <*> CBS E MANIFEST INVALID ITEM ,224
+dd007c67,Failed to get next element <*> <*> CBS E MANIFEST INVALID ITEM ,224
+7fe16071,Failed to internally open package <*> <*> CBS E INVALID PACKAGE ,18
+86a39b53,Read out cached package applicability for package Package for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,542
+fa648ad3,Read out cached package applicability for package <*> <*> <*> <*> <*> Package <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+4889914f,Read out cached package applicability for package <*> <*> <*> <*> <*> Package <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,8
+a12dcfef,Read out cached package applicability for package <*> <*> <*> <*> Package <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+74061c9e,Failed to <*> <*> <*> <*> <*> <*> <*> INVALID <*> ,2
+d1425c1d,Reboot <*> <*> <*> to <*> ,1
+5502159f,Scavenge <*> ,1
+b21bdf68,<*> <*> <*> <*> <*> <*> <*> <*> CSI Transaction <*> initialized <*> <*> <*> <*> <*> <*> <*> <*> with flags <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+f9f82bca,Scavenge <*> CSI Store ,1
+f6627081,<*> <*> <*> <*> <*> <*> not <*> <*> <*> <*> ,1
+3237387f,<*> Store <*> <*> <*> <*> scavenge <*> <*> scavenge ,1
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+b1e63dd4,Scavenge <*> <*> <*> ,1
+775f1453,<*> <*> <*> <*> <*> <*> <*> <*> CSI Transaction <*> <*> ,1
+00513eee,Reboot <*> <*> <*> ,1
+afe3fdae,<*> processing <*> <*> <*> ,1
+8d87f0ad,Ending the <*> <*> <*> ,1
+f80a1c76,Starting <*> <*> ,2
+a1dab5ab,Loading offline registry hive SOFTWARE into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SOFTWARE from path <*> Device <*> Windows <*> <*> SOFTWARE ,1
+0e5768dd,Loading offline registry hive SYSTEM into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SYSTEM from path <*> Device <*> Windows <*> <*> SYSTEM ,1
+1272912a,Loading offline registry hive SECURITY into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SECURITY from path <*> Device <*> Windows <*> <*> SECURITY ,1
+bac18051,Loading offline registry hive SAM into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SAM from path <*> Device <*> Windows <*> <*> SAM ,1
+d9ef5df3,Loading offline registry hive COMPONENTS into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> COMPONENTS from path <*> Device <*> Windows <*> <*> COMPONENTS ,1
+76491ee8,Loading offline registry hive DEFAULT into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> DEFAULT from path <*> Device <*> Windows <*> <*> DEFAULT ,1
+e3bbae73,Loading offline registry hive <*> dat into registry key <*> <*> <*> <*> <*> <*> Device <*> <*> default <*> dat from path <*> Device <*> <*> default <*> dat ,1
+99abee62,Loading offline registry hive schema dat into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> store <*> schema dat from path <*> Device <*> Windows <*> <*> store <*> schema dat ,1
+f50e00b4,Offline <*> is <*> <*> ,1
+8eca4c64,<*> <*> <*> <*> the <*> is not <*> ,1
+ba6e094e,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SOFTWARE ,1
+74a9f207,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SYSTEM ,1
+65ccab24,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SECURITY ,1
+f853fff8,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SAM ,1
+46b3f116,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> COMPONENTS ,1
+20f2f725,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> DEFAULT ,1
+10248292,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> <*> default <*> dat ,1
+4b5ec1c5,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> store <*> schema dat ,1

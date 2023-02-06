@@ -1,111 +1,97 @@
 EventId,EventTemplate,Occurrences
-970b997f,Created <*> for application <*> ,1
-ba26116f,Executing with tokens <*> ,1
-616e3fe1,Kind <*> <*> <*> Service <*> <*> Ident <*> <*> <*> <*> <*> <*> id <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-09f73f5a,Using <*> <*> <*> ,1
-528e7a03,<*> set in <*> null ,1
-31a7e4be,<*> is <*> ,3
-784ed797,Registering class <*> for class <*> ,2
-f6c348d5,Registering class <*> for class <*> <*> <*> ,3
-a238d9e9,Registering class <*> <*> <*> for class <*> <*> <*> ,3
-66323d24,Default file system <*> <*> <*> <*> <*> ,3
-67caf82e,Emitting job history data to the timeline server is not enabled ,1
-08ef456a,Registering class <*> <*> Type for class <*> <*> <*> ,1
-3d4fdbb6,loaded properties from <*> ,1
-ae0f1b32,Scheduled snapshot period at <*> second <*> s <*> <*> ,1
-8f39c209,<*> metrics system started ,1
-8529ef02,Adding job token for <*> to <*> ,1
-75544c92,Not <*> <*> because <*> not enabled <*> too many maps <*> too much input <*> ,1
-d836c33c,Input size for job <*> <*> <*> <*> Number of splits <*> <*> ,1
-873027f1,Number of reduces for job <*> <*> <*> ,1
-3977555f,<*> Transitioned from NEW to <*> ,1
-59314ffe,<*> launching normal <*> <*> <*> <*> job <*> <*> ,1
-64d5eb2d,Using <*> class <*> ,2
-db8f5f03,Starting Socket Reader <*> <*> for port <*> ,2
-26e0757f,Adding protocol <*> to the server ,1
-47d4120e,Instantiated <*> at <*> ,1
-8ec8ef47,IPC Server Responder <*> starting ,2
-e12a5dec,IPC Server listener on <*> <*> starting ,2
-a610f830,Logging to <*> <*> <*> <*> via <*> ,1
-9b06d6e9,Http request log for <*> is not defined ,1
-87ddde24,Added global filter <*> <*> <*> <*> <*> <*> <*> ,1
-cf0fdb2d,Added filter <*> <*> <*> <*> to context <*> ,1
-2db8dd66,Added filter <*> <*> <*> <*> to context static ,1
-6f578dce,adding path spec <*> <*> <*> ,2
-ce6012ec,Jetty bound to port <*> ,1
-9e08cdfc,<*> ,1
-1a221b56,Extract jar <*> file <*> <*> <*> <*> <*> <*> to C <*> <*> ,1
-31b6d7fd,Started <*> <*> <*> <*> <*> ,1
-ba64949c,Web app <*> started at <*> ,1
-aae61ab5,Registered <*> <*> modules ,1
-b5f8f0ab,<*> <*> ,11
-fb1c1457,<*> <*> true ,1
-4562cc4b,Connecting to <*> at <*> ,1
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,3
-99d87496,queue <*> default ,1
-203928fc,Upper limit on the thread pool size is <*> ,1
-e0afaf2b,<*> <*> <*> ,1
-3bb52b6f,<*> Transitioned from <*> to SETUP ,1
-be6fcc8b,Processing the event <*> <*> <*> ,3
-eab52831,<*> Transitioned from SETUP to RUNNING ,1
-18a10580,Resolved <*> to <*> ,39
-ec5bd6a0,<*> Task Transitioned from NEW to SCHEDULED ,11
-3f155b55,<*> <*> Transitioned from NEW to UNASSIGNED ,14
-e54cfbe8,Event Writer setup for <*> <*> <*> <*> File <*> <*> <*> <*> ,1
-812cb1cc,Before Scheduling <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
-0636fe02,<*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,12
-cf749f30,Recalculating schedule <*> <*> <*> <*> <*> <*> <*> <*> <*> ,131
-8a69eac9,Reduce slow start threshold not met <*> <*> <*> ,130
-5182ebe1,Got allocated containers <*> ,10
-bfbc46fe,Assigned container <*> to <*> ,10
-0926314e,After Scheduling <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,12
-5ce7c387,The <*> file on the remote FS is <*> <*> <*> ,1
-6b2b257f,The <*> file on the remote FS is <*> ,1
-2d91dfdd,Adding <*> <*> tokens and <*> <*> secret keys for NM use for launching container ,1
-5b7569bd,Size of <*> is <*> ,1
-8b825c81,Putting shuffle token in <*> ,1
-f702ae24,<*> <*> Transitioned from UNASSIGNED to ASSIGNED ,10
-6c05c5fa,Processing the event <*> <*> <*> for container <*> <*> <*> ,13
-4e82a656,Launching <*> ,10
-be4e7b6c,Opening proxy <*> <*> ,13
-44ce823d,Shuffle port returned by <*> for <*> <*> <*> ,10
-be1f0e60,<*> <*> <*> <*> <*> using <*> <*> <*> <*> on NM <*> <*> <*> <*> ,10
-4ef5b151,<*> <*> Transitioned from ASSIGNED to RUNNING ,10
-7b3bd79a,<*> Task Transitioned from SCHEDULED to RUNNING ,10
-591b4fad,Auth successful for <*> <*> auth <*> SIMPLE <*> ,10
-a754ccb5,<*> with ID <*> <*> asked for a task ,10
-b2c2d02f,<*> with ID <*> <*> given task <*> <*> ,10
-d6b69686,Progress of <*> <*> is <*> <*> ,289
-6d188015,Can not assign container Container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Resource <*> <*> <*> <*> <*> <*> <*> Priority <*> <*> <*> Token <*> Token <*> kind <*> <*> <*> service <*> <*> <*> <*> <*> for a map as either container memory less than required <*> <*> <*> <*> <*> or no pending map tasks <*> <*> ,1
-3471c958,Received completed container <*> ,2
-ca05cdb9,Container complete event for unknown container id <*> ,1
-d5208c0e,Done acknowledgement from <*> ,1
-da26a1a0,<*> <*> Transitioned from RUNNING to <*> ,3
-c3d08e3f,KILLING <*> ,3
-c89c3cc0,<*> <*> Transitioned from <*> to SUCCEEDED ,1
-e804345c,Task succeeded with attempt <*> ,1
-e2528e08,<*> Task Transitioned from RUNNING to SUCCEEDED ,1
-233c5652,Num completed Tasks <*> <*> ,1
-f06cd33c,Reduce slow start threshold reached <*> Scheduling reduces <*> ,1
-71edc853,All maps assigned <*> Ramping up all remaining <*> ,1
-f2658acd,<*> <*> we are speculating <*> ,1
-4b859c3c,We launched <*> speculations <*> Sleeping <*> milliseconds <*> ,1
-9ecd9911,Scheduling a redundant attempt for task <*> ,1
-4c406291,Diagnostics report from <*> <*> Container killed by the <*> <*> ,1
-d3420163,Address change detected <*> Old <*> <*> New <*> <*> ,476
-2aac2245,Failed to renew lease for <*> <*> <*> for <*> seconds <*> Will retry shortly <*> ,326
-8d9f3e80,Slow <*> read fields took <*> <*> <*> <*> <*> ack <*> <*> <*> <*> status <*> SUCCESS status <*> ERROR <*> <*> <*> <*> targets <*> <*> <*> <*> <*> <*> ,1
-6e566318,<*> <*> exception for block <*> <*> <*> ,1
-655e6d37,Error Recovery for block <*> <*> <*> in pipeline <*> <*> <*> <*> bad <*> <*> ,1
-cb43f496,<*> Exception ,1
-c289bd40,ERROR IN CONTACTING RM <*> ,147
-bfcc7bf8,Retrying connect to server <*> <*> <*> Already tried <*> time <*> s <*> <*> retry policy is <*> <*> <*> <*> <*> MILLISECONDS <*> ,146
-a15a9802,Task <*> <*> <*> exited <*> <*> <*> No Route to Host from <*> to <*> failed on socket timeout exception <*> <*> <*> No route to host <*> no further information <*> For more details see <*> http <*> <*> ,2
-f6e0e62c,Diagnostics report from <*> <*> Error <*> <*> <*> No Route to Host from <*> to <*> failed on socket timeout exception <*> <*> <*> No route to host <*> no further information <*> For more details see <*> http <*> <*> ,4
-b74540a3,<*> <*> Transitioned from <*> to <*> ,2
-697a9f26,Task cleanup failed for attempt <*> ,2
-202ad17e,<*> <*> Transitioned from <*> to FAILED ,2
-08bed42f,Error writing History Event <*> <*> <*> <*> ,1
-6601ddfb,Thread Thread <*> <*> <*> main <*> threw an Exception <*> ,1
-0cf5cd4d,<*> failures on node <*> ,2
-973cabff,Added <*> to list of failed maps ,2
+9f80afc3,<*> <*> for <*> <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,3
+5386dfb6,<*> <*> <*> RM <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+40fa9f6f,<*> <*> in <*> <*> ,1
+88bdf145,<*> <*> org apache hadoop <*> <*> <*> <*> ,1
+5a464399,<*> <*> org apache hadoop <*> <*> <*> for <*> org apache hadoop <*> <*> <*> ,1
+16a6e156,<*> <*> org apache hadoop <*> <*> <*> job <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,3
+8ce68ee8,<*> <*> org apache hadoop <*> <*> <*> <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,1
+2348d95a,<*> <*> org apache hadoop <*> <*> <*> <*> <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,2
+cf62bb26,<*> <*> org apache hadoop <*> <*> <*> rm <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,7
+d4ab2c70,<*> job <*> <*> to <*> <*> <*> <*> <*> <*> ,1
+2a7102cc,<*> <*> org apache hadoop <*> <*> <*> job <*> <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,1
+de711b3d,<*> <*> <*> hadoop <*> <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,5
+b5f6193c,<*> <*> <*> <*> ,18
+cb0edc5d,<*> job <*> for job <*> <*> to <*> ,1
+a9cfcc02,<*> <*> job <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+6f02caf8,<*> <*> for job job <*> <*> <*> <*> <*> <*> <*> ,1
+5be0227f,<*> <*> <*> for job job <*> <*> <*> ,1
+6d04c7a3,job <*> <*> <*> <*> <*> to <*> ,2
+b625d61e,<*> <*> <*> <*> <*> <*> <*> job job <*> <*> ,1
+5c15fcd7,<*> <*> <*> <*> for <*> <*> ,2
+21b1812a,<*> <*> org apache hadoop <*> <*> <*> <*> to <*> <*> ,1
+be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,6
+74c47965,<*> to org <*> <*> <*> org <*> <*> <*> org <*> <*> <*> ,1
+7c802186,<*> <*> <*> for <*> <*> <*> <*> <*> <*> ,1
+5271c4b7,<*> <*> <*> <*> <*> org apache hadoop <*> <*> <*> ,1
+1e3a45ff,<*> <*> <*> <*> <*> <*> org apache hadoop <*> <*> <*> <*> <*> to <*> <*> ,2
+1a65aaed,<*> <*> to <*> <*> ,1
+b1a6ef42,<*> <*> <*> <*> hadoop <*> <*> <*> <*> <*> hadoop <*> hadoop <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+7bbcdf4d,JOB <*> job <*> <*> ,1
+b5f8f0ab,<*> <*> ,3
+31a7e4be,<*> is <*> ,1
+6a26fb22,<*> to <*> <*> <*> sa <*> <*> <*> <*> <*> <*> ,1
+67efe6f2,<*> memory <*> <*> <*> ,3
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+79c964b2,<*> <*> <*> <*> JOB <*> ,1
+30ce9523,<*> <*> <*> <*> <*> <*> to <*> ,1
+3c2dddc7,<*> <*> SA <*> <*> <*> <*> <*> to <*> <*> ,33
+1e1fdb00,<*> <*> <*> m <*> <*> <*> <*> <*> to <*> ,21
+2d870209,<*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,1
+af21af5c,attempt <*> <*> m <*> <*> <*> <*> <*> <*> to <*> ,33
+fceb2f54,attempt <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,1
+ac5a3084,<*> <*> <*> for <*> job <*> <*> <*> <*> <*> <*> <*> <*> <*> hadoop <*> <*> <*> <*> job <*> <*> job <*> <*> <*> <*> ,1
+5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,17
+b22ac606,<*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> memory <*> <*> <*> <*> <*> ,12
+7237e8de,Recalculating schedule headroom memory <*> <*> <*> ,131
+de52f663,Reduce slow start threshold not met <*> <*> ,130
+e5b86fa3,<*> <*> <*> <*> <*> <*> to <*> <*> ,2
+9011422d,<*> container container <*> <*> <*> <*> to attempt <*> <*> m <*> <*> ,10
+87da0f1a,<*> job <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> hadoop <*> <*> <*> <*> job <*> <*> job <*> ,1
+5a614a11,<*> job <*> <*> <*> <*> <*> <*> <*> <*> hadoop <*> <*> <*> <*> job <*> <*> job <*> ,1
+501e3b0a,<*> <*> <*> <*> <*> <*> <*> for <*> <*> for <*> <*> ,1
+5f357b09,<*> <*> <*> in <*> ,1
+67b7908f,<*> <*> <*> <*> CONTAINER <*> <*> <*> container container <*> <*> <*> <*> <*> attempt <*> <*> m <*> <*> ,13
+e8ff6c9b,<*> attempt <*> <*> m <*> <*> ,10
+ada71d94,<*> <*> <*> <*> <*> for <*> <*> <*> m <*> <*> <*> ,10
+f3d0d604,<*> attempt <*> <*> m <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+4ba2ccda,ATTEMPT START <*> <*> <*> m <*> ,10
+940b2296,<*> <*> <*> <*> <*> <*> <*> to <*> <*> ,4
+14346dcf,<*> attempt <*> <*> m <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+c988db7c,<*> <*> for job <*> <*> <*> <*> ,10
+1583c361,<*> <*> <*> <*> <*> <*> m <*> <*> for <*> <*> ,10
+4cccd43b,<*> <*> <*> <*> <*> <*> m <*> <*> <*> attempt <*> <*> m <*> <*> ,10
+516ada30,Progress of <*> attempt <*> <*> m <*> <*> is <*> <*> ,289
+d2a2425f,<*> <*> <*> SA <*> <*> <*> <*> <*> <*> ,8
+231bd924,<*> attempt <*> <*> m <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> SA <*> <*> <*> <*> <*> <*> ,7
+1f1c1bd8,<*> <*> container Container <*> container <*> <*> <*> <*> <*> <*> SA <*> <*> <*> <*> <*> <*> <*> <*> SA <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+844fcc1a,Container <*> <*> <*> <*> container <*> container <*> <*> <*> <*> ,1
+1de01adf,<*> <*> <*> <*> <*> <*> m <*> <*> ,1
+1d5ecfc9,attempt <*> <*> m <*> <*> <*> <*> <*> <*> to <*> CONTAINER <*> ,3
+1e768c46,<*> <*> <*> <*> m <*> <*> ,3
+f5274137,attempt <*> <*> m <*> <*> <*> <*> <*> <*> CONTAINER <*> to <*> ,1
+4d4c30b7,<*> <*> <*> attempt attempt <*> <*> m <*> <*> ,1
+8acef5a8,Reduce slow start threshold <*> <*> <*> ,1
+0afa1cbe,<*> <*> <*> <*> <*> <*> <*> <*> m <*> ,1
+c8dffa5f,<*> <*> <*> attempt <*> <*> <*> <*> <*> m <*> ,1
+f456e105,<*> <*> container container <*> <*> <*> <*> ,1
+d045a83b,<*> <*> <*> attempt <*> <*> m <*> <*> Container <*> <*> <*> <*> ,1
+26a57d51,Address change detected Old <*> sa <*> <*> <*> <*> <*> <*> New <*> sa <*> <*> ,476
+28c7180f,Failed to renew lease for <*> <*> <*> <*> for <*> seconds Will retry shortly ,326
+74d6a117,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ERROR <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+5e5005bb,<*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+b2e627e0,Error <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+b618b75b,ERROR IN CONTACTING RM ,147
+7549d782,Retrying connect to server <*> sa <*> <*> Already tried <*> time s retry policy is <*> <*> <*> <*> <*> MILLISECONDS ,146
+5927ae6b,<*> <*> <*> <*> m <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> For <*> <*> <*> <*> <*> apache org hadoop <*> ,2
+288ccfa4,<*> <*> <*> <*> <*> <*> m <*> <*> Error <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> For <*> <*> <*> <*> <*> apache org hadoop <*> ,4
+a4c09171,attempt <*> <*> m <*> <*> <*> <*> <*> <*> CONTAINER <*> to <*> <*> <*> ,2
+49d6d324,<*> <*> <*> <*> attempt attempt <*> <*> m <*> <*> ,2
+b175d714,attempt <*> <*> m <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,2
+c9e5aae8,Error <*> <*> <*> org apache hadoop <*> <*> <*> <*> ,1
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+3db794ab,<*> <*> <*> <*> m <*> <*> to <*> <*> <*> <*> ,2
