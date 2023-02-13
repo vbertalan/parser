@@ -134,7 +134,7 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 133,Jun,18,02:08:12,combo,ftpd,31284,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005,4f656034,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Sat Jun <*> <*> <*> <*> <*> 
 134,Jun,18,02:08:12,combo,ftpd,31285,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005,4f656034,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Sat Jun <*> <*> <*> <*> <*> 
 135,Jun,18,02:08:12,combo,ftpd,31286,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005,4f656034,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Sat Jun <*> <*> <*> <*> <*> 
-136,Jun,18,02:23:10,combo,ftpd,31277,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+136,Jun,18,02:23:10,combo,ftpd,31277,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,dd20a6c8,<*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> 
 137,Jun,18,04:07:05,combo,su(pam_unix),31791,session opened for user cyrus by (uid=0),bd216051,session opened for user cyrus by uid <*> 
 138,Jun,18,04:07:06,combo,su(pam_unix),31791,session closed for user cyrus,5821dde8,session closed for user cyrus 
 139,Jun,18,04:07:06,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
@@ -148,18 +148,18 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 147,Jun,19,04:09:11,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
 148,Jun,19,04:15:18,combo,su(pam_unix),3676,session opened for user news by (uid=0),73a099d7,session opened for user news by uid <*> 
 149,Jun,19,04:15:18,combo,su(pam_unix),3676,session closed for user news,8ff7d7b9,session closed for user news 
-150,Jun,20,03:40:59,combo,ftpd,8829,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-151,Jun,20,03:40:59,combo,ftpd,8824,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-152,Jun,20,03:40:59,combo,ftpd,8828,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-153,Jun,20,03:40:59,combo,ftpd,8822,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-154,Jun,20,03:40:59,combo,ftpd,8833,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-155,Jun,20,03:40:59,combo,ftpd,8827,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-156,Jun,20,03:40:59,combo,ftpd,8823,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-157,Jun,20,03:40:59,combo,ftpd,8825,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-158,Jun,20,03:40:59,combo,ftpd,8826,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-159,Jun,20,03:40:59,combo,ftpd,8832,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-160,Jun,20,03:40:59,combo,ftpd,8830,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
-161,Jun,20,03:40:59,combo,ftpd,8831,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> 
+150,Jun,20,03:40:59,combo,ftpd,8829,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+151,Jun,20,03:40:59,combo,ftpd,8824,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+152,Jun,20,03:40:59,combo,ftpd,8828,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+153,Jun,20,03:40:59,combo,ftpd,8822,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+154,Jun,20,03:40:59,combo,ftpd,8833,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+155,Jun,20,03:40:59,combo,ftpd,8827,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+156,Jun,20,03:40:59,combo,ftpd,8823,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+157,Jun,20,03:40:59,combo,ftpd,8825,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+158,Jun,20,03:40:59,combo,ftpd,8826,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+159,Jun,20,03:40:59,combo,ftpd,8832,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+160,Jun,20,03:40:59,combo,ftpd,8830,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
+161,Jun,20,03:40:59,combo,ftpd,8831,connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> 
 162,Jun,20,04:02:54,combo,su(pam_unix),9187,session opened for user cyrus by (uid=0),bd216051,session opened for user cyrus by uid <*> 
 163,Jun,20,04:02:54,combo,su(pam_unix),9187,session closed for user cyrus,5821dde8,session closed for user cyrus 
 164,Jun,20,04:02:55,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
@@ -537,52 +537,52 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 536,Jun,30,20:16:26,combo,sshd(pam_unix),19209,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 537,Jun,30,20:16:26,combo,sshd(pam_unix),19208,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 538,Jun,30,20:16:30,combo,sshd(pam_unix),19222,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
-539,Jun,30,20:53:04,combo,klogind,19272,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-540,Jun,30,20:53:04,combo,klogind,19272,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-541,Jun,30,20:53:04,combo,klogind,19287,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-542,Jun,30,20:53:04,combo,klogind,19287,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-543,Jun,30,20:53:04,combo,klogind,19286,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-544,Jun,30,20:53:04,combo,klogind,19286,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-545,Jun,30,20:53:04,combo,klogind,19271,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-546,Jun,30,20:53:04,combo,klogind,19271,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-547,Jun,30,20:53:04,combo,klogind,19270,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-548,Jun,30,20:53:04,combo,klogind,19270,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-549,Jun,30,20:53:04,combo,klogind,19269,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-550,Jun,30,20:53:04,combo,klogind,19269,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-551,Jun,30,20:53:04,combo,klogind,19268,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
-552,Jun,30,20:53:04,combo,klogind,19288,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code 
+539,Jun,30,20:53:04,combo,klogind,19272,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+540,Jun,30,20:53:04,combo,klogind,19272,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+541,Jun,30,20:53:04,combo,klogind,19287,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+542,Jun,30,20:53:04,combo,klogind,19287,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+543,Jun,30,20:53:04,combo,klogind,19286,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+544,Jun,30,20:53:04,combo,klogind,19286,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+545,Jun,30,20:53:04,combo,klogind,19271,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+546,Jun,30,20:53:04,combo,klogind,19271,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+547,Jun,30,20:53:04,combo,klogind,19270,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+548,Jun,30,20:53:04,combo,klogind,19270,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+549,Jun,30,20:53:04,combo,klogind,19269,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+550,Jun,30,20:53:04,combo,klogind,19269,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+551,Jun,30,20:53:04,combo,klogind,19268,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+552,Jun,30,20:53:04,combo,klogind,19288,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 553,Jun,30,20:53:04,combo,klogind,19274,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-554,Jun,30,20:53:04,combo,klogind,19268,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-555,Jun,30,20:53:04,combo,klogind,19288,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-556,Jun,30,20:53:04,combo,klogind,19274,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+554,Jun,30,20:53:04,combo,klogind,19268,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+555,Jun,30,20:53:04,combo,klogind,19288,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+556,Jun,30,20:53:04,combo,klogind,19274,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 557,Jun,30,20:53:06,combo,klogind,19266,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-558,Jun,30,20:53:06,combo,klogind,19266,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+558,Jun,30,20:53:06,combo,klogind,19266,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 559,Jun,30,20:53:06,combo,klogind,19267,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-560,Jun,30,20:53:06,combo,klogind,19267,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+560,Jun,30,20:53:06,combo,klogind,19267,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 561,Jun,30,20:53:06,combo,klogind,19278,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-562,Jun,30,20:53:06,combo,klogind,19278,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+562,Jun,30,20:53:06,combo,klogind,19278,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 563,Jun,30,20:53:06,combo,klogind,19273,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-564,Jun,30,20:53:06,combo,klogind,19273,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+564,Jun,30,20:53:06,combo,klogind,19273,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 565,Jun,30,20:53:06,combo,klogind,19276,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-566,Jun,30,20:53:06,combo,klogind,19276,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+566,Jun,30,20:53:06,combo,klogind,19276,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 567,Jun,30,20:53:06,combo,klogind,19275,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-568,Jun,30,20:53:06,combo,klogind,19275,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+568,Jun,30,20:53:06,combo,klogind,19275,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 569,Jun,30,20:53:06,combo,klogind,19277,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-570,Jun,30,20:53:06,combo,klogind,19277,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+570,Jun,30,20:53:06,combo,klogind,19277,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 571,Jun,30,20:53:06,combo,klogind,19279,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-572,Jun,30,20:53:06,combo,klogind,19279,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+572,Jun,30,20:53:06,combo,klogind,19279,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 573,Jun,30,20:53:06,combo,klogind,19280,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 574,Jun,30,20:53:06,combo,klogind,19281,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 575,Jun,30,20:53:06,combo,klogind,19282,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-576,Jun,30,20:53:06,combo,klogind,19280,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+576,Jun,30,20:53:06,combo,klogind,19280,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 577,Jun,30,20:53:06,combo,klogind,19283,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-578,Jun,30,20:53:06,combo,klogind,19281,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+578,Jun,30,20:53:06,combo,klogind,19281,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 579,Jun,30,20:53:06,combo,klogind,19285,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 580,Jun,30,20:53:06,combo,klogind,19284,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-581,Jun,30,20:53:06,combo,klogind,19282,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-582,Jun,30,20:53:06,combo,klogind,19283,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-583,Jun,30,20:53:06,combo,klogind,19285,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
-584,Jun,30,20:53:06,combo,klogind,19284,Kerberos authentication failed,c7dfd3e0,<*> authentication failed 
+581,Jun,30,20:53:06,combo,klogind,19282,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+582,Jun,30,20:53:06,combo,klogind,19283,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+583,Jun,30,20:53:06,combo,klogind,19285,Kerberos authentication failed,b563d78c,<*> authentication <*> 
+584,Jun,30,20:53:06,combo,klogind,19284,Kerberos authentication failed,b563d78c,<*> authentication <*> 
 585,Jun,30,22:16:32,combo,sshd(pam_unix),19432,session opened for user test by (uid=509),90190954,session opened for user test by uid <*> 
 586,Jun,30,22:16:32,combo,sshd(pam_unix),19431,session opened for user test by (uid=509),90190954,session opened for user test by uid <*> 
 587,Jun,30,22:16:32,combo,sshd(pam_unix),19433,session opened for user test by (uid=509),90190954,session opened for user test by uid <*> 
@@ -770,29 +770,29 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 769,Jul,4,09:33:09,combo,sshd(pam_unix),2543,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 770,Jul,4,09:33:10,combo,sshd(pam_unix),2544,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 771,Jul,4,09:33:14,combo,sshd(pam_unix),2547,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
-772,Jul,4,12:52:44,combo,ftpd,2839,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-773,Jul,4,12:52:44,combo,ftpd,2838,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-774,Jul,4,12:52:44,combo,ftpd,2841,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-775,Jul,4,12:52:44,combo,ftpd,2840,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-776,Jul,4,12:52:44,combo,ftpd,2831,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-777,Jul,4,12:52:44,combo,ftpd,2829,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-778,Jul,4,12:52:44,combo,ftpd,2835,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-779,Jul,4,12:52:44,combo,ftpd,2828,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-780,Jul,4,12:52:44,combo,ftpd,2832,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-781,Jul,4,12:52:44,combo,ftpd,2830,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-782,Jul,4,12:52:44,combo,ftpd,2837,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-783,Jul,4,12:52:44,combo,ftpd,2833,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-784,Jul,4,12:52:44,combo,ftpd,2834,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-785,Jul,4,12:52:44,combo,ftpd,2836,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-786,Jul,4,12:52:44,combo,ftpd,2824,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-787,Jul,4,12:52:44,combo,ftpd,2822,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-788,Jul,4,12:52:44,combo,ftpd,2821,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-789,Jul,4,12:52:44,combo,ftpd,2827,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-790,Jul,4,12:52:44,combo,ftpd,2823,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-791,Jul,4,12:52:44,combo,ftpd,2825,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-792,Jul,4,12:52:44,combo,ftpd,2842,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-793,Jul,4,12:52:44,combo,ftpd,2826,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
-794,Jul,4,12:52:44,combo,ftpd,2843,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> 
+772,Jul,4,12:52:44,combo,ftpd,2839,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+773,Jul,4,12:52:44,combo,ftpd,2838,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+774,Jul,4,12:52:44,combo,ftpd,2841,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+775,Jul,4,12:52:44,combo,ftpd,2840,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+776,Jul,4,12:52:44,combo,ftpd,2831,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+777,Jul,4,12:52:44,combo,ftpd,2829,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+778,Jul,4,12:52:44,combo,ftpd,2835,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+779,Jul,4,12:52:44,combo,ftpd,2828,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+780,Jul,4,12:52:44,combo,ftpd,2832,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+781,Jul,4,12:52:44,combo,ftpd,2830,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+782,Jul,4,12:52:44,combo,ftpd,2837,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+783,Jul,4,12:52:44,combo,ftpd,2833,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+784,Jul,4,12:52:44,combo,ftpd,2834,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+785,Jul,4,12:52:44,combo,ftpd,2836,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+786,Jul,4,12:52:44,combo,ftpd,2824,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+787,Jul,4,12:52:44,combo,ftpd,2822,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+788,Jul,4,12:52:44,combo,ftpd,2821,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+789,Jul,4,12:52:44,combo,ftpd,2827,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+790,Jul,4,12:52:44,combo,ftpd,2823,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+791,Jul,4,12:52:44,combo,ftpd,2825,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+792,Jul,4,12:52:44,combo,ftpd,2842,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+793,Jul,4,12:52:44,combo,ftpd,2826,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
+794,Jul,4,12:52:44,combo,ftpd,2843,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> 
 795,Jul,4,19:15:48,combo,sshd(pam_unix),3378,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 796,Jul,4,19:15:48,combo,sshd(pam_unix),3380,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 797,Jul,4,19:15:49,combo,sshd(pam_unix),3382,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
@@ -821,29 +821,29 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 820,Jul,5,13:36:36,combo,sshd(pam_unix),6558,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228,15b34ab1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> 
 821,Jul,5,13:36:37,combo,sshd(pam_unix),6560,check pass; user unknown,7b89be98,check pass user unknown 
 822,Jul,5,13:36:37,combo,sshd(pam_unix),6560,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228,15b34ab1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> 
-823,Jul,5,13:52:21,combo,ftpd,6590,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-824,Jul,5,13:52:21,combo,ftpd,6582,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-825,Jul,5,13:52:21,combo,ftpd,6580,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-826,Jul,5,13:52:21,combo,ftpd,6589,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-827,Jul,5,13:52:21,combo,ftpd,6586,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-828,Jul,5,13:52:21,combo,ftpd,6591,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-829,Jul,5,13:52:21,combo,ftpd,6587,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-830,Jul,5,13:52:21,combo,ftpd,6583,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-831,Jul,5,13:52:21,combo,ftpd,6588,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-832,Jul,5,13:52:21,combo,ftpd,6581,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-833,Jul,5,13:52:21,combo,ftpd,6585,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-834,Jul,5,13:52:21,combo,ftpd,6592,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-835,Jul,5,13:52:21,combo,ftpd,6584,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-836,Jul,5,13:52:23,combo,ftpd,6593,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-837,Jul,5,13:52:23,combo,ftpd,6595,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-838,Jul,5,13:52:23,combo,ftpd,6594,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-839,Jul,5,13:52:23,combo,ftpd,6596,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-840,Jul,5,13:52:23,combo,ftpd,6597,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-841,Jul,5,13:52:23,combo,ftpd,6598,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-842,Jul,5,13:52:23,combo,ftpd,6600,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-843,Jul,5,13:52:23,combo,ftpd,6601,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-844,Jul,5,13:52:23,combo,ftpd,6602,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-845,Jul,5,13:52:23,combo,ftpd,6599,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+823,Jul,5,13:52:21,combo,ftpd,6590,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+824,Jul,5,13:52:21,combo,ftpd,6582,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+825,Jul,5,13:52:21,combo,ftpd,6580,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+826,Jul,5,13:52:21,combo,ftpd,6589,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+827,Jul,5,13:52:21,combo,ftpd,6586,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+828,Jul,5,13:52:21,combo,ftpd,6591,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+829,Jul,5,13:52:21,combo,ftpd,6587,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+830,Jul,5,13:52:21,combo,ftpd,6583,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+831,Jul,5,13:52:21,combo,ftpd,6588,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+832,Jul,5,13:52:21,combo,ftpd,6581,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+833,Jul,5,13:52:21,combo,ftpd,6585,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+834,Jul,5,13:52:21,combo,ftpd,6592,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+835,Jul,5,13:52:21,combo,ftpd,6584,connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+836,Jul,5,13:52:23,combo,ftpd,6593,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+837,Jul,5,13:52:23,combo,ftpd,6595,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+838,Jul,5,13:52:23,combo,ftpd,6594,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+839,Jul,5,13:52:23,combo,ftpd,6596,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+840,Jul,5,13:52:23,combo,ftpd,6597,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+841,Jul,5,13:52:23,combo,ftpd,6598,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+842,Jul,5,13:52:23,combo,ftpd,6600,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+843,Jul,5,13:52:23,combo,ftpd,6601,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+844,Jul,5,13:52:23,combo,ftpd,6602,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+845,Jul,5,13:52:23,combo,ftpd,6599,connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
 846,Jul,6,02:22:31,combo,sshd(pam_unix),7694,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.16.122.48  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 847,Jul,6,02:22:32,combo,sshd(pam_unix),7702,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.16.122.48  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 848,Jul,6,02:22:32,combo,sshd(pam_unix),7697,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.16.122.48  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
@@ -854,29 +854,29 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 853,Jul,6,04:03:10,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
 854,Jul,6,04:08:43,combo,su(pam_unix),8565,session opened for user news by (uid=0),73a099d7,session opened for user news by uid <*> 
 855,Jul,6,04:08:44,combo,su(pam_unix),8565,session closed for user news,8ff7d7b9,session closed for user news 
-856,Jul,6,18:00:56,combo,ftpd,9772,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-857,Jul,6,18:00:56,combo,ftpd,9773,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-858,Jul,6,18:00:56,combo,ftpd,9777,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-859,Jul,6,18:00:56,combo,ftpd,9774,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-860,Jul,6,18:00:56,combo,ftpd,9775,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-861,Jul,6,18:00:56,combo,ftpd,9769,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-862,Jul,6,18:00:56,combo,ftpd,9776,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-863,Jul,6,18:00:56,combo,ftpd,9771,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-864,Jul,6,18:00:56,combo,ftpd,9770,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-865,Jul,6,18:00:56,combo,ftpd,9765,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-866,Jul,6,18:00:56,combo,ftpd,9764,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-867,Jul,6,18:00:56,combo,ftpd,9757,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-868,Jul,6,18:00:56,combo,ftpd,9766,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-869,Jul,6,18:00:56,combo,ftpd,9758,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-870,Jul,6,18:00:56,combo,ftpd,9759,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-871,Jul,6,18:00:56,combo,ftpd,9760,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-872,Jul,6,18:00:56,combo,ftpd,9761,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-873,Jul,6,18:00:56,combo,ftpd,9762,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-874,Jul,6,18:00:56,combo,ftpd,9767,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-875,Jul,6,18:00:56,combo,ftpd,9763,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-876,Jul,6,18:00:56,combo,ftpd,9768,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-877,Jul,6,18:00:57,combo,ftpd,9778,connection from 211.72.151.162 () at Wed Jul  6 18:00:57 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
-878,Jul,6,18:00:57,combo,ftpd,9779,connection from 211.72.151.162 () at Wed Jul  6 18:00:57 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
+856,Jul,6,18:00:56,combo,ftpd,9772,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+857,Jul,6,18:00:56,combo,ftpd,9773,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+858,Jul,6,18:00:56,combo,ftpd,9777,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+859,Jul,6,18:00:56,combo,ftpd,9774,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+860,Jul,6,18:00:56,combo,ftpd,9775,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+861,Jul,6,18:00:56,combo,ftpd,9769,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+862,Jul,6,18:00:56,combo,ftpd,9776,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+863,Jul,6,18:00:56,combo,ftpd,9771,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+864,Jul,6,18:00:56,combo,ftpd,9770,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+865,Jul,6,18:00:56,combo,ftpd,9765,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+866,Jul,6,18:00:56,combo,ftpd,9764,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+867,Jul,6,18:00:56,combo,ftpd,9757,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+868,Jul,6,18:00:56,combo,ftpd,9766,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+869,Jul,6,18:00:56,combo,ftpd,9758,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+870,Jul,6,18:00:56,combo,ftpd,9759,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+871,Jul,6,18:00:56,combo,ftpd,9760,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+872,Jul,6,18:00:56,combo,ftpd,9761,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+873,Jul,6,18:00:56,combo,ftpd,9762,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+874,Jul,6,18:00:56,combo,ftpd,9767,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+875,Jul,6,18:00:56,combo,ftpd,9763,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+876,Jul,6,18:00:56,combo,ftpd,9768,connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+877,Jul,6,18:00:57,combo,ftpd,9778,connection from 211.72.151.162 () at Wed Jul  6 18:00:57 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+878,Jul,6,18:00:57,combo,ftpd,9779,connection from 211.72.151.162 () at Wed Jul  6 18:00:57 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
 879,Jul,7,04:04:31,combo,su(pam_unix),10961,session opened for user cyrus by (uid=0),bd216051,session opened for user cyrus by uid <*> 
 880,Jul,7,04:04:32,combo,su(pam_unix),10961,session closed for user cyrus,5821dde8,session closed for user cyrus 
 881,Jul,7,04:04:33,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
@@ -894,19 +894,19 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 893,Jul,7,07:18:13,combo,sshd(pam_unix),12527,session opened for user test by (uid=509),90190954,session opened for user test by uid <*> 
 894,Jul,7,07:18:14,combo,sshd(pam_unix),12525,session closed for user test,58e532f7,session closed for user test 
 895,Jul,7,07:18:14,combo,sshd(pam_unix),12527,session closed for user test,58e532f7,session closed for user test 
-896,Jul,7,08:06:12,combo,gpm,2094,*** info [mice.c(1766)]:,b5f6193c,<*> <*> <*> <*> 
+896,Jul,7,08:06:12,combo,gpm,2094,*** info [mice.c(1766)]:,d937ffaf,<*> <*> c <*> 
 897,Jul,7,08:06:12,combo,gpm,2094,imps2: Auto-detected intellimouse PS/2,d9f54b8a,<*> <*> <*> <*> <*> <*> 
 898,Jul,7,08:06:15,combo,login(pam_unix),2421,session opened for user root by LOGIN(uid=0),7610fe48,session opened for user <*> by <*> uid <*> 
-899,Jul,7,08:06:15,combo,-- root,2421,ROOT LOGIN ON tty2,b5f6193c,<*> <*> <*> <*> 
+899,Jul,7,08:06:15,combo,-- root,2421,ROOT LOGIN ON tty2,88551ff7,<*> LOGIN ON <*> 
 900,Jul,7,08:09:10,combo,login(pam_unix),2421,session closed for user root,113bd753,session closed for user <*> 
-901,Jul,7,08:09:11,combo,udev,12754,removing device node '/udev/vcsa2',f61a3195,<*> device node <*> <*> 
-902,Jul,7,08:09:11,combo,udev,12753,removing device node '/udev/vcs2',f61a3195,<*> device node <*> <*> 
-903,Jul,7,08:09:11,combo,udev,12777,creating device node '/udev/vcs2',f61a3195,<*> device node <*> <*> 
-904,Jul,7,08:09:11,combo,udev,12778,creating device node '/udev/vcsa2',f61a3195,<*> device node <*> <*> 
-905,Jul,7,08:09:11,combo,udev,12786,removing device node '/udev/vcs2',f61a3195,<*> device node <*> <*> 
-906,Jul,7,08:09:11,combo,udev,12790,removing device node '/udev/vcsa2',f61a3195,<*> device node <*> <*> 
-907,Jul,7,08:09:11,combo,udev,12795,creating device node '/udev/vcs2',f61a3195,<*> device node <*> <*> 
-908,Jul,7,08:09:11,combo,udev,12798,creating device node '/udev/vcsa2',f61a3195,<*> device node <*> <*> 
+901,Jul,7,08:09:11,combo,udev,12754,removing device node '/udev/vcsa2',4514df1d,removing device node <*> <*> 
+902,Jul,7,08:09:11,combo,udev,12753,removing device node '/udev/vcs2',4514df1d,removing device node <*> <*> 
+903,Jul,7,08:09:11,combo,udev,12777,creating device node '/udev/vcs2',bc6a1d72,creating device node <*> <*> 
+904,Jul,7,08:09:11,combo,udev,12778,creating device node '/udev/vcsa2',bc6a1d72,creating device node <*> <*> 
+905,Jul,7,08:09:11,combo,udev,12786,removing device node '/udev/vcs2',4514df1d,removing device node <*> <*> 
+906,Jul,7,08:09:11,combo,udev,12790,removing device node '/udev/vcsa2',4514df1d,removing device node <*> <*> 
+907,Jul,7,08:09:11,combo,udev,12795,creating device node '/udev/vcs2',bc6a1d72,creating device node <*> <*> 
+908,Jul,7,08:09:11,combo,udev,12798,creating device node '/udev/vcsa2',bc6a1d72,creating device node <*> <*> 
 909,Jul,7,14:18:55,combo,sshd(pam_unix),13317,check pass; user unknown,7b89be98,check pass user unknown 
 910,Jul,7,14:18:55,combo,sshd(pam_unix),13317,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c9063558.virtua.com.br,15b34ab1,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> 
 911,Jul,7,14:18:57,combo,sshd(pam_unix),13321,check pass; user unknown,7b89be98,check pass user unknown 
@@ -927,25 +927,25 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 926,Jul,7,16:33:52,combo,ftpd,13520,connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
 927,Jul,7,16:33:52,combo,ftpd,13519,connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
 928,Jul,7,16:33:52,combo,ftpd,13514,connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-929,Jul,7,23:09:45,combo,ftpd,14105,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-930,Jul,7,23:09:45,combo,ftpd,14106,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-931,Jul,7,23:09:45,combo,ftpd,14103,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-932,Jul,7,23:09:45,combo,ftpd,14107,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-933,Jul,7,23:09:45,combo,ftpd,14104,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-934,Jul,7,23:09:45,combo,ftpd,14108,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-935,Jul,7,23:09:45,combo,ftpd,14109,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-936,Jul,7,23:09:45,combo,ftpd,14110,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-937,Jul,7,23:09:45,combo,ftpd,14111,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-938,Jul,7,23:09:45,combo,ftpd,14112,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-939,Jul,7,23:09:45,combo,ftpd,14113,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-940,Jul,7,23:09:45,combo,ftpd,14114,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-941,Jul,7,23:09:45,combo,ftpd,14115,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-942,Jul,7,23:09:45,combo,ftpd,14116,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-943,Jul,7,23:09:45,combo,ftpd,14118,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-944,Jul,7,23:09:45,combo,ftpd,14119,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-945,Jul,7,23:09:45,combo,ftpd,14117,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-946,Jul,7,23:09:47,combo,ftpd,14120,connection from 221.4.102.93 () at Thu Jul  7 23:09:47 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-947,Jul,7,23:09:50,combo,ftpd,14121,connection from 221.4.102.93 () at Thu Jul  7 23:09:50 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+929,Jul,7,23:09:45,combo,ftpd,14105,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+930,Jul,7,23:09:45,combo,ftpd,14106,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+931,Jul,7,23:09:45,combo,ftpd,14103,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+932,Jul,7,23:09:45,combo,ftpd,14107,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+933,Jul,7,23:09:45,combo,ftpd,14104,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+934,Jul,7,23:09:45,combo,ftpd,14108,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+935,Jul,7,23:09:45,combo,ftpd,14109,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+936,Jul,7,23:09:45,combo,ftpd,14110,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+937,Jul,7,23:09:45,combo,ftpd,14111,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+938,Jul,7,23:09:45,combo,ftpd,14112,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+939,Jul,7,23:09:45,combo,ftpd,14113,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+940,Jul,7,23:09:45,combo,ftpd,14114,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+941,Jul,7,23:09:45,combo,ftpd,14115,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+942,Jul,7,23:09:45,combo,ftpd,14116,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+943,Jul,7,23:09:45,combo,ftpd,14118,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+944,Jul,7,23:09:45,combo,ftpd,14119,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+945,Jul,7,23:09:45,combo,ftpd,14117,connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+946,Jul,7,23:09:47,combo,ftpd,14120,connection from 221.4.102.93 () at Thu Jul  7 23:09:47 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+947,Jul,7,23:09:50,combo,ftpd,14121,connection from 221.4.102.93 () at Thu Jul  7 23:09:50 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
 948,Jul,8,04:04:19,combo,su(pam_unix),14943,session opened for user cyrus by (uid=0),bd216051,session opened for user cyrus by uid <*> 
 949,Jul,8,04:04:19,combo,su(pam_unix),14943,session closed for user cyrus,5821dde8,session closed for user cyrus 
 950,Jul,8,04:04:20,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
@@ -983,24 +983,24 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 982,Jul,9,11:35:59,combo,ftpd,23033,connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
 983,Jul,9,11:35:59,combo,ftpd,23042,connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
 984,Jul,9,11:35:59,combo,ftpd,23034,connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-985,Jul,9,12:16:49,combo,ftpd,23140,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-986,Jul,9,12:16:49,combo,ftpd,23143,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-987,Jul,9,12:16:49,combo,ftpd,23142,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-988,Jul,9,12:16:49,combo,ftpd,23141,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-989,Jul,9,12:16:49,combo,ftpd,23144,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-990,Jul,9,12:16:49,combo,ftpd,23145,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-991,Jul,9,12:16:49,combo,ftpd,23146,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-992,Jul,9,12:16:49,combo,ftpd,23148,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-993,Jul,9,12:16:49,combo,ftpd,23149,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-994,Jul,9,12:16:49,combo,ftpd,23150,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-995,Jul,9,12:16:49,combo,ftpd,23147,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-996,Jul,9,12:16:51,combo,ftpd,23151,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-997,Jul,9,12:16:51,combo,ftpd,23152,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-998,Jul,9,12:16:51,combo,ftpd,23153,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-999,Jul,9,12:16:51,combo,ftpd,23155,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-1000,Jul,9,12:16:51,combo,ftpd,23154,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-1001,Jul,9,12:16:52,combo,ftpd,23156,connection from 211.167.68.59 () at Sat Jul  9 12:16:52 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
-1002,Jul,9,12:16:52,combo,ftpd,23157,connection from 211.167.68.59 () at Sat Jul  9 12:16:52 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
+985,Jul,9,12:16:49,combo,ftpd,23140,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+986,Jul,9,12:16:49,combo,ftpd,23143,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+987,Jul,9,12:16:49,combo,ftpd,23142,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+988,Jul,9,12:16:49,combo,ftpd,23141,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+989,Jul,9,12:16:49,combo,ftpd,23144,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+990,Jul,9,12:16:49,combo,ftpd,23145,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+991,Jul,9,12:16:49,combo,ftpd,23146,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+992,Jul,9,12:16:49,combo,ftpd,23148,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+993,Jul,9,12:16:49,combo,ftpd,23149,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+994,Jul,9,12:16:49,combo,ftpd,23150,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+995,Jul,9,12:16:49,combo,ftpd,23147,connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+996,Jul,9,12:16:51,combo,ftpd,23151,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+997,Jul,9,12:16:51,combo,ftpd,23152,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+998,Jul,9,12:16:51,combo,ftpd,23153,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+999,Jul,9,12:16:51,combo,ftpd,23155,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1000,Jul,9,12:16:51,combo,ftpd,23154,connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1001,Jul,9,12:16:52,combo,ftpd,23156,connection from 211.167.68.59 () at Sat Jul  9 12:16:52 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1002,Jul,9,12:16:52,combo,ftpd,23157,connection from 211.167.68.59 () at Sat Jul  9 12:16:52 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
 1003,Jul,9,12:59:44,combo,ftpd,23204,connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
 1004,Jul,9,12:59:44,combo,ftpd,23216,connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
 1005,Jul,9,12:59:44,combo,ftpd,23215,connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> 
@@ -1631,29 +1631,29 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1630,Jul,21,04:11:28,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
 1631,Jul,21,04:16:55,combo,su(pam_unix),4540,session opened for user news by (uid=0),73a099d7,session opened for user news by uid <*> 
 1632,Jul,21,04:16:55,combo,su(pam_unix),4540,session closed for user news,8ff7d7b9,session closed for user news 
-1633,Jul,21,09:04:41,combo,ftpd,5033,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1634,Jul,21,09:04:41,combo,ftpd,5032,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1635,Jul,21,09:04:41,combo,ftpd,5030,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1636,Jul,21,09:04:41,combo,ftpd,5029,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1637,Jul,21,09:04:41,combo,ftpd,5018,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1638,Jul,21,09:04:41,combo,ftpd,5017,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1639,Jul,21,09:04:41,combo,ftpd,5016,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1640,Jul,21,09:04:41,combo,ftpd,5019,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1641,Jul,21,09:04:41,combo,ftpd,5022,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1642,Jul,21,09:04:41,combo,ftpd,5023,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1643,Jul,21,09:04:41,combo,ftpd,5024,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1644,Jul,21,09:04:41,combo,ftpd,5025,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1645,Jul,21,09:04:41,combo,ftpd,5028,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1646,Jul,21,09:04:41,combo,ftpd,5031,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1647,Jul,21,09:04:41,combo,ftpd,5020,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1648,Jul,21,09:04:41,combo,ftpd,5021,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1649,Jul,21,09:04:41,combo,ftpd,5027,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1650,Jul,21,09:04:41,combo,ftpd,5026,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1651,Jul,21,09:04:41,combo,ftpd,5035,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1652,Jul,21,09:04:41,combo,ftpd,5037,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1653,Jul,21,09:04:41,combo,ftpd,5034,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1654,Jul,21,09:04:41,combo,ftpd,5036,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1655,Jul,21,09:04:43,combo,ftpd,5038,connection from 216.12.111.241 () at Thu Jul 21 09:04:43 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1633,Jul,21,09:04:41,combo,ftpd,5033,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1634,Jul,21,09:04:41,combo,ftpd,5032,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1635,Jul,21,09:04:41,combo,ftpd,5030,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1636,Jul,21,09:04:41,combo,ftpd,5029,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1637,Jul,21,09:04:41,combo,ftpd,5018,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1638,Jul,21,09:04:41,combo,ftpd,5017,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1639,Jul,21,09:04:41,combo,ftpd,5016,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1640,Jul,21,09:04:41,combo,ftpd,5019,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1641,Jul,21,09:04:41,combo,ftpd,5022,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1642,Jul,21,09:04:41,combo,ftpd,5023,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1643,Jul,21,09:04:41,combo,ftpd,5024,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1644,Jul,21,09:04:41,combo,ftpd,5025,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1645,Jul,21,09:04:41,combo,ftpd,5028,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1646,Jul,21,09:04:41,combo,ftpd,5031,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1647,Jul,21,09:04:41,combo,ftpd,5020,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1648,Jul,21,09:04:41,combo,ftpd,5021,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1649,Jul,21,09:04:41,combo,ftpd,5027,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1650,Jul,21,09:04:41,combo,ftpd,5026,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1651,Jul,21,09:04:41,combo,ftpd,5035,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1652,Jul,21,09:04:41,combo,ftpd,5037,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1653,Jul,21,09:04:41,combo,ftpd,5034,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1654,Jul,21,09:04:41,combo,ftpd,5036,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
+1655,Jul,21,09:04:43,combo,ftpd,5038,connection from 216.12.111.241 () at Thu Jul 21 09:04:43 2005,1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> 
 1656,Jul,21,15:18:30,combo,sshd(pam_unix),5587,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 1657,Jul,21,15:18:30,combo,sshd(pam_unix),5586,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 1658,Jul,22,04:07:46,combo,su(pam_unix),7106,session opened for user cyrus by (uid=0),bd216051,session opened for user cyrus by uid <*> 
@@ -1661,29 +1661,29 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1660,Jul,22,04:07:47,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
 1661,Jul,22,04:15:14,combo,su(pam_unix),11756,session opened for user news by (uid=0),73a099d7,session opened for user news by uid <*> 
 1662,Jul,22,04:15:14,combo,su(pam_unix),11756,session closed for user news,8ff7d7b9,session closed for user news 
-1663,Jul,22,09:27:24,combo,ftpd,12294,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1664,Jul,22,09:27:24,combo,ftpd,12290,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1665,Jul,22,09:27:24,combo,ftpd,12296,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1666,Jul,22,09:27:24,combo,ftpd,12297,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1667,Jul,22,09:27:24,combo,ftpd,12291,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1668,Jul,22,09:27:24,combo,ftpd,12293,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1669,Jul,22,09:27:24,combo,ftpd,12295,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1670,Jul,22,09:27:24,combo,ftpd,12292,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1671,Jul,22,09:27:24,combo,ftpd,12282,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1672,Jul,22,09:27:24,combo,ftpd,12288,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1673,Jul,22,09:27:24,combo,ftpd,12284,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1674,Jul,22,09:27:24,combo,ftpd,12279,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1675,Jul,22,09:27:24,combo,ftpd,12285,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1676,Jul,22,09:27:24,combo,ftpd,12286,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1677,Jul,22,09:27:24,combo,ftpd,12278,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1678,Jul,22,09:27:24,combo,ftpd,12277,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1679,Jul,22,09:27:24,combo,ftpd,12280,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1680,Jul,22,09:27:24,combo,ftpd,12289,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1681,Jul,22,09:27:24,combo,ftpd,12281,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1682,Jul,22,09:27:24,combo,ftpd,12283,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1683,Jul,22,09:27:24,combo,ftpd,12287,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1684,Jul,22,09:27:24,combo,ftpd,12298,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
-1685,Jul,22,09:27:24,combo,ftpd,12299,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
+1663,Jul,22,09:27:24,combo,ftpd,12294,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1664,Jul,22,09:27:24,combo,ftpd,12290,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1665,Jul,22,09:27:24,combo,ftpd,12296,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1666,Jul,22,09:27:24,combo,ftpd,12297,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1667,Jul,22,09:27:24,combo,ftpd,12291,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1668,Jul,22,09:27:24,combo,ftpd,12293,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1669,Jul,22,09:27:24,combo,ftpd,12295,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1670,Jul,22,09:27:24,combo,ftpd,12292,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1671,Jul,22,09:27:24,combo,ftpd,12282,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1672,Jul,22,09:27:24,combo,ftpd,12288,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1673,Jul,22,09:27:24,combo,ftpd,12284,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1674,Jul,22,09:27:24,combo,ftpd,12279,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1675,Jul,22,09:27:24,combo,ftpd,12285,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1676,Jul,22,09:27:24,combo,ftpd,12286,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1677,Jul,22,09:27:24,combo,ftpd,12278,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1678,Jul,22,09:27:24,combo,ftpd,12277,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1679,Jul,22,09:27:24,combo,ftpd,12280,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1680,Jul,22,09:27:24,combo,ftpd,12289,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1681,Jul,22,09:27:24,combo,ftpd,12281,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1682,Jul,22,09:27:24,combo,ftpd,12283,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1683,Jul,22,09:27:24,combo,ftpd,12287,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1684,Jul,22,09:27:24,combo,ftpd,12298,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1685,Jul,22,09:27:24,combo,ftpd,12299,connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
 1686,Jul,22,19:29:09,combo,ftpd,13152,connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
 1687,Jul,22,19:29:09,combo,ftpd,13150,connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
 1688,Jul,22,19:29:09,combo,ftpd,13147,connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> 
@@ -1746,8 +1746,8 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1745,Jul,24,02:38:22,combo,ftpd,16791,connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,3fc5ebb3,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> 
 1746,Jul,24,02:38:22,combo,ftpd,16793,connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,3fc5ebb3,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> 
 1747,Jul,24,02:38:22,combo,ftpd,16794,connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,3fc5ebb3,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> 
-1748,Jul,24,02:38:23,combo,ftpd,16781,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",5d6e49c9,<*> <*> <*> FROM <*> <*> <*> <*> <*> 
-1749,Jul,24,02:38:23,combo,ftpd,16782,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",5d6e49c9,<*> <*> <*> FROM <*> <*> <*> <*> <*> 
+1748,Jul,24,02:38:23,combo,ftpd,16781,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",8f29e828,ANONYMOUS <*> LOGIN FROM <*> <*> <*> <*> anonymous 
+1749,Jul,24,02:38:23,combo,ftpd,16782,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",8f29e828,ANONYMOUS <*> LOGIN FROM <*> <*> <*> <*> anonymous 
 1750,Jul,24,04:20:19,combo,su(pam_unix),17283,session opened for user cyrus by (uid=0),bd216051,session opened for user cyrus by uid <*> 
 1751,Jul,24,04:20:19,combo,su(pam_unix),17283,session closed for user cyrus,5821dde8,session closed for user cyrus 
 1752,Jul,24,04:20:21,combo,cups,,cupsd shutdown succeeded,b83e0c1a,<*> shutdown succeeded 
@@ -1824,12 +1824,12 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1823,Jul,25,14:56:13,combo,named,2306,notify question section contains no SOA,885b8046,notify question section contains no <*> 
 1824,Jul,25,15:50:04,combo,named,2306,notify question section contains no SOA,885b8046,notify question section contains no <*> 
 1825,Jul,25,16:29:20,combo,named,2306,notify question section contains no SOA,885b8046,notify question section contains no <*> 
-1826,Jul,25,23:23:13,combo,ftpd,26463,getpeername (ftpd): Transport endpoint is not connected,28a863b1,<*> <*> <*> <*> is <*> <*> 
-1827,Jul,25,23:23:13,combo,ftpd,26466,getpeername (ftpd): Transport endpoint is not connected,28a863b1,<*> <*> <*> <*> is <*> <*> 
-1828,Jul,25,23:23:13,combo,xinetd,26482,warning: can't get client address: Connection reset by peer,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1829,Jul,25,23:23:13,combo,ftpd,26482,getpeername (ftpd): Transport endpoint is not connected,28a863b1,<*> <*> <*> <*> is <*> <*> 
-1830,Jul,25,23:23:13,combo,xinetd,26484,warning: can't get client address: Connection reset by peer,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1831,Jul,25,23:23:13,combo,ftpd,26484,getpeername (ftpd): Transport endpoint is not connected,28a863b1,<*> <*> <*> <*> is <*> <*> 
+1826,Jul,25,23:23:13,combo,ftpd,26463,getpeername (ftpd): Transport endpoint is not connected,396329d3,<*> <*> Transport endpoint is not connected 
+1827,Jul,25,23:23:13,combo,ftpd,26466,getpeername (ftpd): Transport endpoint is not connected,396329d3,<*> <*> Transport endpoint is not connected 
+1828,Jul,25,23:23:13,combo,xinetd,26482,warning: can't get client address: Connection reset by peer,0da0cea1,<*> can <*> <*> <*> <*> <*> <*> by <*> 
+1829,Jul,25,23:23:13,combo,ftpd,26482,getpeername (ftpd): Transport endpoint is not connected,396329d3,<*> <*> Transport endpoint is not connected 
+1830,Jul,25,23:23:13,combo,xinetd,26484,warning: can't get client address: Connection reset by peer,0da0cea1,<*> can <*> <*> <*> <*> <*> <*> by <*> 
+1831,Jul,25,23:23:13,combo,ftpd,26484,getpeername (ftpd): Transport endpoint is not connected,396329d3,<*> <*> Transport endpoint is not connected 
 1832,Jul,25,23:24:09,combo,ftpd,26479,connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,99270985,connection from <*> <*> <*> <*> at Mon Jul <*> <*> <*> <*> <*> 
 1833,Jul,25,23:24:09,combo,ftpd,26478,connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,99270985,connection from <*> <*> <*> <*> at Mon Jul <*> <*> <*> <*> <*> 
 1834,Jul,25,23:24:09,combo,ftpd,26477,connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,99270985,connection from <*> <*> <*> <*> at Mon Jul <*> <*> <*> <*> <*> 
@@ -1854,29 +1854,29 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1853,Jul,26,04:05:24,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
 1854,Jul,26,04:11:23,combo,su(pam_unix),28514,session opened for user news by (uid=0),73a099d7,session opened for user news by uid <*> 
 1855,Jul,26,04:11:23,combo,su(pam_unix),28514,session closed for user news,8ff7d7b9,session closed for user news 
-1856,Jul,26,05:47:42,combo,ftpd,28699,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1857,Jul,26,05:47:42,combo,ftpd,28703,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1858,Jul,26,05:47:42,combo,ftpd,28700,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1859,Jul,26,05:47:42,combo,ftpd,28701,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1860,Jul,26,05:47:42,combo,ftpd,28702,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1861,Jul,26,05:47:42,combo,ftpd,28696,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1862,Jul,26,05:47:42,combo,ftpd,28694,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1863,Jul,26,05:47:42,combo,ftpd,28695,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1864,Jul,26,05:47:42,combo,ftpd,28697,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1865,Jul,26,05:47:42,combo,ftpd,28698,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1866,Jul,26,05:47:42,combo,ftpd,28693,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1867,Jul,26,05:47:42,combo,ftpd,28689,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1868,Jul,26,05:47:42,combo,ftpd,28690,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1869,Jul,26,05:47:42,combo,ftpd,28691,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1870,Jul,26,05:47:42,combo,ftpd,28686,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1871,Jul,26,05:47:42,combo,ftpd,28687,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1872,Jul,26,05:47:42,combo,ftpd,28688,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1873,Jul,26,05:47:42,combo,ftpd,28692,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1874,Jul,26,05:47:51,combo,ftpd,28705,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1875,Jul,26,05:47:51,combo,ftpd,28704,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1876,Jul,26,05:47:51,combo,ftpd,28706,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1877,Jul,26,05:47:51,combo,ftpd,28707,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
-1878,Jul,26,05:47:51,combo,ftpd,28708,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
+1856,Jul,26,05:47:42,combo,ftpd,28699,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1857,Jul,26,05:47:42,combo,ftpd,28703,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1858,Jul,26,05:47:42,combo,ftpd,28700,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1859,Jul,26,05:47:42,combo,ftpd,28701,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1860,Jul,26,05:47:42,combo,ftpd,28702,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1861,Jul,26,05:47:42,combo,ftpd,28696,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1862,Jul,26,05:47:42,combo,ftpd,28694,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1863,Jul,26,05:47:42,combo,ftpd,28695,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1864,Jul,26,05:47:42,combo,ftpd,28697,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1865,Jul,26,05:47:42,combo,ftpd,28698,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1866,Jul,26,05:47:42,combo,ftpd,28693,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1867,Jul,26,05:47:42,combo,ftpd,28689,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1868,Jul,26,05:47:42,combo,ftpd,28690,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1869,Jul,26,05:47:42,combo,ftpd,28691,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1870,Jul,26,05:47:42,combo,ftpd,28686,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1871,Jul,26,05:47:42,combo,ftpd,28687,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1872,Jul,26,05:47:42,combo,ftpd,28688,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1873,Jul,26,05:47:42,combo,ftpd,28692,connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1874,Jul,26,05:47:51,combo,ftpd,28705,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1875,Jul,26,05:47:51,combo,ftpd,28704,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1876,Jul,26,05:47:51,combo,ftpd,28706,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1877,Jul,26,05:47:51,combo,ftpd,28707,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
+1878,Jul,26,05:47:51,combo,ftpd,28708,connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> 
 1879,Jul,26,07:02:27,combo,sshd(pam_unix),28842,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 1880,Jul,26,07:02:35,combo,sshd(pam_unix),28844,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
 1881,Jul,26,07:02:37,combo,sshd(pam_unix),28846,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,e2c5a4ee,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> user root 
@@ -1905,97 +1905,97 @@ LineId,Month,Date,Time,Level,Component,PID,Content,EventId,EventTemplate
 1904,Jul,27,04:16:09,combo,logrotate,,ALERT exited abnormally with [1],0ddcb59f,ALERT exited abnormally with <*> 
 1905,Jul,27,04:21:39,combo,su(pam_unix),31373,session opened for user news by (uid=0),73a099d7,session opened for user news by uid <*> 
 1906,Jul,27,04:21:40,combo,su(pam_unix),31373,session closed for user news,8ff7d7b9,session closed for user news 
-1907,Jul,27,10:59:53,combo,ftpd,31985,connection from 218.38.58.3 () at Wed Jul 27 10:59:53 2005,5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> 
+1907,Jul,27,10:59:53,combo,ftpd,31985,connection from 218.38.58.3 () at Wed Jul 27 10:59:53 2005,749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> 
 1908,Jul,27,14:41:57,combo,syslogd 1.4.1,,restart.,56173140,restart 
 1909,Jul,27,14:41:57,combo,syslog,,syslogd startup succeeded,2bb55441,<*> startup succeeded 
-1910,Jul,27,14:41:57,combo,kernel,,"klogd 1.4.1, log source = /proc/kmsg started.",1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1911,Jul,27,14:41:57,combo,kernel,,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004,1bf280e6,<*> version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1910,Jul,27,14:41:57,combo,kernel,,"klogd 1.4.1, log source = /proc/kmsg started.",ffabca11,<*> <*> <*> <*> <*> <*> <*> <*> started 
+1911,Jul,27,14:41:57,combo,kernel,,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004,91548369,Linux version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> version <*> <*> <*> <*> <*> <*> Linux <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1912,Jul,27,14:41:57,combo,kernel,,BIOS-provided physical RAM map:,9120b078,BIOS <*> <*> <*> <*> 
 1913,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000000000000 - 00000000000a0000 (usable),9120b078,BIOS <*> <*> <*> <*> 
-1914,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved),9120b078,BIOS <*> <*> <*> <*> 
+1914,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved),d0d1adb8,BIOS <*> <*> <*> reserved 
 1915,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000000100000 - 0000000007eae000 (usable),9120b078,BIOS <*> <*> <*> <*> 
-1916,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved),9120b078,BIOS <*> <*> <*> <*> 
-1917,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved),9120b078,BIOS <*> <*> <*> <*> 
-1918,Jul,27,14:41:57,combo,kernel,,0MB HIGHMEM available.,e0afaf2b,<*> <*> <*> 
-1919,Jul,27,14:41:57,combo,kernel,,126MB LOWMEM available.,e0afaf2b,<*> <*> <*> 
+1916,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved),d0d1adb8,BIOS <*> <*> <*> reserved 
+1917,Jul,27,14:41:57,combo,kernel,,BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved),d0d1adb8,BIOS <*> <*> <*> reserved 
+1918,Jul,27,14:41:57,combo,kernel,,0MB HIGHMEM available.,48d2d567,<*> <*> available 
+1919,Jul,27,14:41:57,combo,kernel,,126MB LOWMEM available.,48d2d567,<*> <*> available 
 1920,Jul,27,14:41:57,combo,kernel,,zapping low mappings.,e0afaf2b,<*> <*> <*> 
 1921,Jul,27,14:41:57,combo,syslog,,klogd startup succeeded,2bb55441,<*> startup succeeded 
-1922,Jul,27,14:41:57,combo,kernel,,On node 0 totalpages: 32430,1ff03fa9,<*> node <*> <*> <*> 
-1923,Jul,27,14:41:57,combo,kernel,,"DMA zone: 4096 pages, LIFO batch:1",3908b381,<*> <*> <*> <*> <*> <*> <*> 
-1924,Jul,27,14:41:57,combo,kernel,,"Normal zone: 28334 pages, LIFO batch:6",3908b381,<*> <*> <*> <*> <*> <*> <*> 
+1922,Jul,27,14:41:57,combo,kernel,,On node 0 totalpages: 32430,13f9794c,On node <*> <*> <*> 
+1923,Jul,27,14:41:57,combo,kernel,,"DMA zone: 4096 pages, LIFO batch:1",1b020e8f,<*> zone <*> pages LIFO batch <*> 
+1924,Jul,27,14:41:57,combo,kernel,,"Normal zone: 28334 pages, LIFO batch:6",1b020e8f,<*> zone <*> pages LIFO batch <*> 
 1925,Jul,27,14:41:57,combo,irqbalance,,irqbalance startup succeeded,2bb55441,<*> startup succeeded 
-1926,Jul,27,14:41:57,combo,kernel,,"HighMem zone: 0 pages, LIFO batch:1",3908b381,<*> <*> <*> <*> <*> <*> <*> 
+1926,Jul,27,14:41:57,combo,kernel,,"HighMem zone: 0 pages, LIFO batch:1",1b020e8f,<*> zone <*> pages LIFO batch <*> 
 1927,Jul,27,14:41:57,combo,kernel,,DMI 2.3 present.,b5f6193c,<*> <*> <*> <*> 
-1928,Jul,27,14:41:57,combo,kernel,,ACPI disabled because your bios is from 2000 and too old,50fcbd41,<*> <*> <*> <*> bios is from <*> <*> <*> <*> 
-1929,Jul,27,14:41:57,combo,kernel,,You can enable it with acpi=force,3c7170cb,<*> <*> <*> <*> with <*> <*> 
+1928,Jul,27,14:41:57,combo,kernel,,ACPI disabled because your bios is from 2000 and too old,a80d6327,<*> disabled <*> <*> bios is from <*> and <*> <*> 
+1929,Jul,27,14:41:57,combo,kernel,,You can enable it with acpi=force,a5b2173f,<*> can <*> <*> <*> <*> <*> 
 1930,Jul,27,14:41:57,combo,kernel,,Built 1 zonelists,e0afaf2b,<*> <*> <*> 
-1931,Jul,27,14:41:57,combo,kernel,,Kernel command line: ro root=LABEL=/ rhgb quiet,f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> 
+1931,Jul,27,14:41:57,combo,kernel,,Kernel command line: ro root=LABEL=/ rhgb quiet,4adb297b,Kernel <*> <*> <*> <*> <*> <*> <*> 
 1932,Jul,27,14:41:57,combo,kernel,,mapped 4G/4G trampoline to ffff3000.,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-1933,Jul,27,14:41:57,combo,kernel,,Initializing CPU#0,c7e85a2d,<*> CPU <*> 
+1933,Jul,27,14:41:57,combo,kernel,,Initializing CPU#0,6c126600,Initializing CPU <*> 
 1934,Jul,27,14:41:57,combo,kernel,,"CPU 0 irqstacks, hard=02345000 soft=02344000",5fe6b70f,CPU <*> <*> <*> <*> <*> <*> 
 1935,Jul,27,14:41:57,combo,portmap,,portmap startup succeeded,2bb55441,<*> startup succeeded 
-1936,Jul,27,14:41:57,combo,kernel,,PID hash table entries: 512 (order 9: 4096 bytes),4a606f2e,<*> <*> table entries <*> <*> <*> <*> <*> 
+1936,Jul,27,14:41:57,combo,kernel,,PID hash table entries: 512 (order 9: 4096 bytes),37efae25,<*> hash table entries <*> order <*> <*> bytes 
 1937,Jul,27,14:41:57,combo,kernel,,Detected 731.219 MHz processor.,347334c7,<*> <*> <*> <*> <*> 
-1938,Jul,27,14:41:57,combo,rpc.statd,1618,Version 1.0.6 Starting,6396e046,Version <*> <*> <*> <*> 
-1939,Jul,27,14:41:57,combo,kernel,,Using tsc for high-res timesource,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1938,Jul,27,14:41:57,combo,rpc.statd,1618,Version 1.0.6 Starting,5a54012e,Version <*> <*> <*> Starting 
+1939,Jul,27,14:41:57,combo,kernel,,Using tsc for high-res timesource,74e23b30,Using <*> <*> <*> <*> <*> 
 1940,Jul,27,14:41:58,combo,nfslock,,rpc.statd startup succeeded,ab922256,<*> <*> startup succeeded 
 1941,Jul,27,14:41:58,combo,kernel,,Console: colour VGA+ 80x25,b5f6193c,<*> <*> <*> <*> 
-1942,Jul,27,14:41:58,combo,kernel,,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",24c2e161,<*> <*> <*> <*> <*> <*> code <*> <*> <*> <*> <*> <*> <*> <*> 
+1942,Jul,27,14:41:58,combo,kernel,,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",9ebe3735,<*> <*> <*> available <*> kernel <*> <*> reserved <*> <*> <*> <*> <*> <*> 
 1943,Jul,27,14:41:58,combo,kernel,,Calibrating delay loop... 1445.88 BogoMIPS,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-1944,Jul,27,14:41:58,combo,kernel,,Security Scaffold v1.0.0 initialized,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-1945,Jul,27,14:41:58,combo,kernel,,SELinux:  Initializing.,b5f8f0ab,<*> <*> 
-1946,Jul,27,14:41:58,combo,kernel,,SELinux:  Starting in permissive mode,40fa9f6f,<*> <*> in <*> <*> 
-1947,Jul,27,14:41:58,combo,kernel,,"There is already a security framework initialized, register_security failed.",fd049b1d,<*> is <*> <*> <*> <*> <*> <*> <*> failed 
-1948,Jul,27,14:41:58,combo,kernel,,Failure registering capabilities with the kernel,f7c1d3c8,<*> <*> <*> with <*> <*> 
-1949,Jul,27,14:41:58,combo,kernel,,selinux_register_security:  Registering secondary module capability,3908b381,<*> <*> <*> <*> <*> <*> <*> 
-1950,Jul,27,14:41:58,combo,kernel,,Capability LSM initialized,e0afaf2b,<*> <*> <*> 
+1944,Jul,27,14:41:58,combo,kernel,,Security Scaffold v1.0.0 initialized,33e24970,Security <*> <*> <*> <*> initialized 
+1945,Jul,27,14:41:58,combo,kernel,,SELinux:  Initializing.,2a2e948b,<*> Initializing 
+1946,Jul,27,14:41:58,combo,kernel,,SELinux:  Starting in permissive mode,b448a91c,<*> Starting <*> <*> <*> 
+1947,Jul,27,14:41:58,combo,kernel,,"There is already a security framework initialized, register_security failed.",3a36be66,<*> is <*> <*> security <*> initialized <*> security <*> 
+1948,Jul,27,14:41:58,combo,kernel,,Failure registering capabilities with the kernel,c610becb,<*> registering <*> <*> <*> kernel 
+1949,Jul,27,14:41:58,combo,kernel,,selinux_register_security:  Registering secondary module capability,1b8aeb46,<*> <*> security Registering <*> <*> <*> 
+1950,Jul,27,14:41:58,combo,kernel,,Capability LSM initialized,a6e97b64,<*> <*> initialized 
 1951,Jul,27,14:41:58,combo,rpcidmapd,,rpc.idmapd startup succeeded,ab922256,<*> <*> startup succeeded 
-1952,Jul,27,14:41:58,combo,kernel,,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",bf52428d,<*> cache <*> table entries <*> <*> <*> <*> <*> 
-1953,Jul,27,14:41:58,combo,kernel,,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",bf52428d,<*> cache <*> table entries <*> <*> <*> <*> <*> 
-1954,Jul,27,14:41:58,combo,kernel,,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",bf52428d,<*> cache <*> table entries <*> <*> <*> <*> <*> 
+1952,Jul,27,14:41:58,combo,kernel,,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",4c68286d,<*> cache hash table entries <*> order <*> <*> bytes 
+1953,Jul,27,14:41:58,combo,kernel,,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",4c68286d,<*> cache hash table entries <*> order <*> <*> bytes 
+1954,Jul,27,14:41:58,combo,kernel,,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",4c68286d,<*> cache hash table entries <*> order <*> <*> bytes 
 1955,Jul,27,14:41:58,combo,kernel,,"CPU: L1 I cache: 16K, L1 D cache: 16K",b20ee6a4,CPU <*> <*> cache <*> <*> <*> cache <*> 
 1956,Jul,27,14:41:58,combo,kernel,,CPU: L2 cache: 256K,26feb734,CPU <*> cache <*> 
-1957,Jul,27,14:41:58,combo,kernel,,Intel machine check architecture supported.,347334c7,<*> <*> <*> <*> <*> 
-1958,Jul,27,14:41:58,combo,kernel,,Intel machine check reporting enabled on CPU#0.,d5b85219,<*> <*> <*> <*> <*> <*> CPU <*> 
-1959,Jul,27,14:41:58,combo,kernel,,CPU: Intel Pentium III (Coppermine) stepping 06,5fe6b70f,CPU <*> <*> <*> <*> <*> <*> 
-1960,Jul,27,14:41:58,combo,kernel,,Enabling fast FPU save and restore... done.,3908b381,<*> <*> <*> <*> <*> <*> <*> 
+1957,Jul,27,14:41:58,combo,kernel,,Intel machine check architecture supported.,bf2db201,Intel <*> <*> <*> <*> 
+1958,Jul,27,14:41:58,combo,kernel,,Intel machine check reporting enabled on CPU#0.,1008dce6,Intel <*> <*> <*> <*> on CPU <*> 
+1959,Jul,27,14:41:58,combo,kernel,,CPU: Intel Pentium III (Coppermine) stepping 06,a74e17dc,CPU Intel <*> <*> <*> <*> <*> 
+1960,Jul,27,14:41:58,combo,kernel,,Enabling fast FPU save and restore... done.,fad77c9b,<*> <*> <*> <*> and <*> <*> 
 1961,Jul,27,14:41:58,combo,kernel,,Enabling unmasked SIMD FPU exception support... done.,3908b381,<*> <*> <*> <*> <*> <*> <*> 
 1962,Jul,27,14:41:58,combo,kernel,,Checking 'hlt' instruction... OK.,b5f6193c,<*> <*> <*> <*> 
-1963,Jul,27,14:41:58,combo,random,,Initializing random number generator:  succeeded,37b79eeb,<*> <*> <*> <*> succeeded 
-1964,Jul,27,14:41:58,combo,kernel,,POSIX conformance testing by UNIFIX,347334c7,<*> <*> <*> <*> <*> 
-1965,Jul,27,14:41:58,combo,kernel,,NET: Registered protocol family 16,347334c7,<*> <*> <*> <*> <*> 
-1966,Jul,27,14:41:58,combo,kernel,,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",995791d8,PCI PCI BIOS <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1967,Jul,27,14:41:58,combo,kernel,,PCI: Using configuration type 1,8d363427,PCI <*> <*> <*> <*> 
+1963,Jul,27,14:41:58,combo,random,,Initializing random number generator:  succeeded,ca5e19bc,Initializing <*> <*> <*> succeeded 
+1964,Jul,27,14:41:58,combo,kernel,,POSIX conformance testing by UNIFIX,c993ffaf,<*> <*> <*> by <*> 
+1965,Jul,27,14:41:58,combo,kernel,,NET: Registered protocol family 16,a4ccaff2,<*> Registered <*> <*> <*> 
+1966,Jul,27,14:41:58,combo,kernel,,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",997aeadf,PCI PCI BIOS <*> <*> <*> <*> at <*> <*> <*> <*> 
+1967,Jul,27,14:41:58,combo,kernel,,PCI: Using configuration type 1,09006874,PCI Using <*> <*> <*> 
 1968,Jul,27,14:41:58,combo,kernel,,mtrr: v2.0 (20020519),b5f6193c,<*> <*> <*> <*> 
 1969,Jul,27,14:41:58,combo,kernel,,ACPI: Subsystem revision 20040326,b5f6193c,<*> <*> <*> <*> 
-1970,Jul,27,14:41:58,combo,kernel,,ACPI: Interpreter disabled.,e0afaf2b,<*> <*> <*> 
-1971,Jul,27,14:41:58,combo,kernel,,Linux Plug and Play Support v0.97 (c) Adam Belay,70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1972,Jul,27,14:41:58,combo,rc,,Starting pcmcia:  succeeded,857302d1,<*> <*> succeeded 
-1973,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver usbfs,347334c7,<*> <*> <*> <*> <*> 
-1974,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver hub,347334c7,<*> <*> <*> <*> <*> 
-1975,Jul,27,14:41:58,combo,kernel,,ACPI: ACPI tables contain no PCI IRQ routing entries,d9a703ff,<*> <*> <*> <*> no PCI <*> <*> entries 
-1976,Jul,27,14:41:59,combo,kernel,,PCI: Invalid ACPI-PCI IRQ routing table,b7505487,PCI <*> <*> PCI <*> <*> table 
+1970,Jul,27,14:41:58,combo,kernel,,ACPI: Interpreter disabled.,1f415ac4,<*> <*> disabled 
+1971,Jul,27,14:41:58,combo,kernel,,Linux Plug and Play Support v0.97 (c) Adam Belay,94432355,Linux Plug and <*> <*> <*> <*> c <*> <*> 
+1972,Jul,27,14:41:58,combo,rc,,Starting pcmcia:  succeeded,bf6f1ee6,Starting <*> succeeded 
+1973,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver usbfs,fae6164d,<*> registered <*> driver <*> 
+1974,Jul,27,14:41:58,combo,kernel,,usbcore: registered new driver hub,fae6164d,<*> registered <*> driver <*> 
+1975,Jul,27,14:41:58,combo,kernel,,ACPI: ACPI tables contain no PCI IRQ routing entries,c1f868de,<*> <*> <*> <*> <*> PCI IRQ <*> entries 
+1976,Jul,27,14:41:59,combo,kernel,,PCI: Invalid ACPI-PCI IRQ routing table,7345d923,PCI <*> <*> PCI IRQ <*> table 
 1977,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware,7219d10d,PCI <*> PCI <*> 
 1978,Jul,27,14:41:59,combo,kernel,,PCI: Probing PCI hardware (bus 00),5afd6c98,PCI <*> PCI <*> <*> <*> 
 1979,Jul,27,14:41:59,combo,kernel,,Transparent bridge - 0000:00:1e.0,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-1980,Jul,27,14:41:59,combo,kernel,,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,e5e4e575,PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1981,Jul,27,14:41:59,combo,kernel,,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),805eb1c8,<*> BIOS version <*> <*> <*> <*> <*> version <*> <*> 
-1982,Jul,27,14:41:59,combo,kernel,,audit: initializing netlink socket (disabled),347334c7,<*> <*> <*> <*> <*> 
-1983,Jul,27,14:41:54,combo,sysctl,,kernel.core_uses_pid = 1,347334c7,<*> <*> <*> <*> <*> 
-1984,Jul,27,14:41:59,combo,hcid,1690,HCI daemon ver 2.4 started,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1980,Jul,27,14:41:59,combo,kernel,,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,b601f756,PCI Using IRQ <*> <*> <*> <*> <*> at <*> <*> <*> <*> 
+1981,Jul,27,14:41:59,combo,kernel,,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),4d386063,<*> BIOS version <*> <*> <*> <*> Driver version <*> <*> 
+1982,Jul,27,14:41:59,combo,kernel,,audit: initializing netlink socket (disabled),19a803eb,<*> initializing <*> <*> disabled 
+1983,Jul,27,14:41:54,combo,sysctl,,kernel.core_uses_pid = 1,13c84884,kernel <*> <*> <*> <*> 
+1984,Jul,27,14:41:59,combo,hcid,1690,HCI daemon ver 2.4 started,326514de,<*> <*> <*> <*> <*> started 
 1985,Jul,27,14:41:59,combo,bluetooth,,hcid startup succeeded,2bb55441,<*> startup succeeded 
-1986,Jul,27,14:41:59,combo,kernel,,audit(1122475266.4294965305:0): initialized,347334c7,<*> <*> <*> <*> <*> 
+1986,Jul,27,14:41:59,combo,kernel,,audit(1122475266.4294965305:0): initialized,1b26ba98,<*> <*> <*> <*> initialized 
 1987,Jul,27,14:41:54,combo,network,,Setting network parameters:  succeeded,abee0f7b,<*> <*> <*> succeeded 
 1988,Jul,27,14:41:59,combo,bluetooth,,sdpd startup succeeded,2bb55441,<*> startup succeeded 
-1989,Jul,27,14:41:59,combo,sdpd,1696,sdpd v1.5 started,b5f6193c,<*> <*> <*> <*> 
+1989,Jul,27,14:41:59,combo,sdpd,1696,sdpd v1.5 started,d72de21b,<*> <*> <*> started 
 1990,Jul,27,14:41:59,combo,kernel,,"Total HugeTLB memory allocated, 0",347334c7,<*> <*> <*> <*> <*> 
 1991,Jul,27,14:41:54,combo,network,,Bringing up loopback interface:  succeeded,37b79eeb,<*> <*> <*> <*> succeeded 
 1992,Jul,27,14:41:59,combo,kernel,,VFS: Disk quotas dquot_6.5.1,3908b381,<*> <*> <*> <*> <*> <*> <*> 
-1993,Jul,27,14:41:59,combo,kernel,,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",bf52428d,<*> cache <*> table entries <*> <*> <*> <*> <*> 
-1994,Jul,27,14:41:59,combo,kernel,,SELinux:  Registering netfilter hooks,b5f6193c,<*> <*> <*> <*> 
-1995,Jul,27,14:41:59,combo,kernel,,Initializing Cryptographic API,e0afaf2b,<*> <*> <*> 
-1996,Jul,27,14:41:59,combo,kernel,,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,23a7c487,pci <*> PCI <*> <*> PCI <*> version <*> <*> 
+1993,Jul,27,14:41:59,combo,kernel,,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",4c68286d,<*> cache hash table entries <*> order <*> <*> bytes 
+1994,Jul,27,14:41:59,combo,kernel,,SELinux:  Registering netfilter hooks,a8996bc7,<*> Registering <*> <*> 
+1995,Jul,27,14:41:59,combo,kernel,,Initializing Cryptographic API,1bc62b10,Initializing <*> <*> 
+1996,Jul,27,14:41:59,combo,kernel,,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,38e3bd88,pci <*> PCI <*> Plug PCI <*> version <*> <*> 
 1997,Jul,27,14:42:00,combo,kernel,,isapnp: Scanning for PnP cards...,347334c7,<*> <*> <*> <*> <*> 
-1998,Jul,27,14:42:00,combo,kernel,,isapnp: No Plug & Play device found,e5bf6eb0,<*> No <*> <*> device <*> 
-1999,Jul,27,14:42:00,combo,kernel,,Real Time Clock Driver v1.12,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-2000,Jul,27,14:42:00,combo,kernel,,Linux agpgart interface v0.100 (c) Dave Jones,f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> 
+1998,Jul,27,14:42:00,combo,kernel,,isapnp: No Plug & Play device found,90cbc714,<*> <*> Plug <*> device <*> 
+1999,Jul,27,14:42:00,combo,kernel,,Real Time Clock Driver v1.12,8e1f8e52,<*> <*> <*> Driver <*> <*> 
+2000,Jul,27,14:42:00,combo,kernel,,Linux agpgart interface v0.100 (c) Dave Jones,db61a330,Linux <*> <*> <*> <*> c <*> <*> 

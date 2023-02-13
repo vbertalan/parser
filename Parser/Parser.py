@@ -63,11 +63,23 @@ class LogParser:
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
 
+    def new_tokenizer(self, sentence):
+        new_sentence = []
+        new_word = ""
+        for char in sentence:
+            if char not in [" ", "="]:
+                new_word += char
+            elif len(new_word) > 0:
+                new_sentence.append(new_word)
+                new_word = ""
+        new_sentence.append(new_word)
+        return new_sentence
+
     def cluster_vectors(self):
         import hdbscan
         import umap
         
-        clusterer = hdbscan.HDBSCAN(min_cluster_size=200,min_samples=50,metric='euclidean',
+        clusterer = hdbscan.HDBSCAN(min_cluster_size=1,min_samples=1,metric='euclidean',
                                     allow_single_cluster=False,cluster_selection_method='leaf')
         #reducer = umap.UMAP(n_neighbors=2, n_components=1, spread=0.5, min_dist=0.0, metric='cosine')
 
@@ -77,6 +89,20 @@ class LogParser:
         self.cluster = clusterer.fit(self.vectors)
         self.cluster_num = clusterer.labels_.max()
         self.cluster_labels = clusterer.labels_
+
+    def cluster_vector_agglomerative(self):
+        from sklearn.cluster import AgglomerativeClustering
+        sk_clusterer = AgglomerativeClustering().fit(self.vectors)
+        self.cluster_labels = sk_clusterer.labels_
+
+    def cluster_vector_kmeans(self):
+        from sklearn.cluster import KMeans
+        ## Clusteriza com K-Means
+        num_clusters = 8
+        clustering_model = KMeans(n_clusters=num_clusters)
+        clustering_model.fit(self.vectors)
+        self.cluster_labels = clustering_model.labels_
+    
 
     def create_dict(self, df_sentences):        
 
@@ -206,7 +232,9 @@ class LogParser:
         self.load_data()
         self.preprocess_df()
         self.transform_dataset(self.df_log["Content"])
-        self.cluster_vectors()
+        #self.cluster_vectors()
+        #self.cluster_vector_agglomerative()
+        self.cluster_vector_kmeans()
         self.create_dict(self.df_log["Content"])
         self.set_types(self.word_dict, self.cluster_labels, self.threshold)
 
@@ -224,7 +252,8 @@ class LogParser:
         for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
             sentence_cluster = self.cluster_labels[idx]
             #sentence_tokens = word_tokenize(line["Content"])
-            sentence_tokens = tokenizer.tokenize(line["Content"])
+            #sentence_tokens = tokenizer.tokenize(line["Content"])
+            sentence_tokens = self.new_tokenizer(line["Content"])
             #sentence_tokens = self.check_english(line["Content"])
             new_sentence = ""
 

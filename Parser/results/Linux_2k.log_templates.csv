@@ -16,11 +16,11 @@ b2fad6b0,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> 
 e6c20963,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Fri Jun <*> <*> <*> <*> <*> ,7
 fbfb0b8c,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
 4f656034,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Sat Jun <*> <*> <*> <*> <*> ,15
-8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+dd20a6c8,<*> <*> <*> <*> <*> <*> <*> at <*> <*> <*> <*> <*> <*> <*> ,1
 b83e0c1a,<*> shutdown succeeded ,6
 2bb55441,<*> startup succeeded ,12
 56173140,restart ,7
-8f692131,connection from <*> <*> <*> <*> at Mon Jun <*> <*> <*> <*> <*> ,12
+74f97708,connection from <*> <*> <*> <*> at <*> Jun <*> <*> <*> <*> <*> ,12
 58fef8f6,<*> <*> <*> <*> from <*> <*> <*> <*> ,1
 7a2642d5,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> user root ,43
 334dac52,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,10
@@ -30,22 +30,25 @@ a6944e57,connection from <*> <*> <*> <*> at Fri Jun <*> <*> <*> <*> <*> ,13
 462c60b2,connection from <*> <*> <*> <*> at Sat Jun <*> <*> <*> <*> <*> ,31
 954770f6,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,28
 1982dd9d,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> <*> <*> <*> user root ,13
-95ecfd07,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> Permission denied in replay cache code ,8
-c7dfd3e0,<*> authentication failed ,23
+fae4c182,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,8
+b563d78c,<*> authentication <*> ,23
 cb2b99cc,Authentication <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
-dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> ,91
+dd686cb9,connection from <*> <*> <*> <*> at Fri Jul <*> <*> <*> <*> <*> ,68
 9f3fee03,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> ,10
 584d525c,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Sun Jul <*> <*> <*> <*> <*> ,46
 ea909337,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at at Sun Jul <*> <*> <*> <*> <*> ,23
-386cc6c8,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Mon Jul <*> <*> <*> <*> <*> ,23
-749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,100
-5c60d00d,connection from <*> <*> <*> <*> at Wed Jul <*> <*> <*> <*> <*> ,24
-b5f6193c,<*> <*> <*> <*> ,9
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,8
+ffa3a1d4,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at <*> Jul <*> <*> <*> <*> <*> ,23
+0ac79b3a,connection from <*> <*> <*> <*> at Tue Jul <*> <*> <*> <*> <*> ,46
+749a9269,connection from <*> <*> <*> <*> at <*> Jul <*> <*> <*> <*> <*> ,77
+d937ffaf,<*> <*> c <*> ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,4
 7610fe48,session opened for user <*> by <*> uid <*> ,1
+88551ff7,<*> LOGIN ON <*> ,1
 113bd753,session closed for user <*> ,1
-f61a3195,<*> device node <*> <*> ,8
-2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> ,87
+4514df1d,removing device node <*> <*> ,4
+bc6a1d72,creating device node <*> <*> ,4
+1604fa2c,connection from <*> <*> <*> <*> at Thu Jul <*> <*> <*> <*> <*> ,42
+2bd701f8,connection from <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> ,69
 9725deba,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sat Jul <*> <*> <*> <*> <*> ,23
 3fc5ebb3,connection from <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,120
 944c9921,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> net at Sun Jul <*> <*> <*> <*> <*> ,23
@@ -55,44 +58,70 @@ ede98f3c,authentication failure <*> uid <*> <*> <*> tty <*> <*> <*> ,1
 3397816c,connection from <*> <*> <*> <*> <*> <*> net at Sun Jul <*> <*> <*> <*> <*> ,46
 69700e37,connection from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> at Sun Jul <*> <*> <*> <*> <*> ,46
 99270985,connection from <*> <*> <*> <*> at Mon Jul <*> <*> <*> <*> <*> ,63
-5d6e49c9,<*> <*> <*> FROM <*> <*> <*> <*> <*> ,2
+8f29e828,ANONYMOUS <*> LOGIN FROM <*> <*> <*> <*> anonymous ,2
 885b8046,notify question section contains no <*> ,16
-28a863b1,<*> <*> <*> <*> is <*> <*> ,4
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-1bf280e6,<*> version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-9120b078,BIOS <*> <*> <*> <*> ,6
-e0afaf2b,<*> <*> <*> ,7
-1ff03fa9,<*> node <*> <*> <*> ,1
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,7
-50fcbd41,<*> <*> <*> <*> bios is from <*> <*> <*> <*> ,1
-3c7170cb,<*> <*> <*> <*> with <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,2
-c7e85a2d,<*> CPU <*> ,1
-5fe6b70f,CPU <*> <*> <*> <*> <*> <*> ,2
-4a606f2e,<*> <*> table entries <*> <*> <*> <*> <*> ,1
-347334c7,<*> <*> <*> <*> <*> ,11
-6396e046,Version <*> <*> <*> <*> ,1
+396329d3,<*> <*> Transport endpoint is not connected ,4
+0da0cea1,<*> can <*> <*> <*> <*> <*> <*> by <*> ,2
+ffabca11,<*> <*> <*> <*> <*> <*> <*> <*> started ,1
+91548369,Linux version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> version <*> <*> <*> <*> <*> <*> Linux <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+9120b078,BIOS <*> <*> <*> <*> ,3
+d0d1adb8,BIOS <*> <*> <*> reserved ,3
+48d2d567,<*> <*> available ,2
+e0afaf2b,<*> <*> <*> ,2
+13f9794c,On node <*> <*> <*> ,1
+1b020e8f,<*> zone <*> pages LIFO batch <*> ,3
+b5f6193c,<*> <*> <*> <*> ,5
+a80d6327,<*> disabled <*> <*> bios is from <*> and <*> <*> ,1
+a5b2173f,<*> can <*> <*> <*> <*> <*> ,1
+4adb297b,Kernel <*> <*> <*> <*> <*> <*> <*> ,1
+6c126600,Initializing CPU <*> ,1
+5fe6b70f,CPU <*> <*> <*> <*> <*> <*> ,1
+37efae25,<*> hash table entries <*> order <*> <*> bytes ,1
+347334c7,<*> <*> <*> <*> <*> ,3
+5a54012e,Version <*> <*> <*> Starting ,1
+74e23b30,Using <*> <*> <*> <*> <*> ,1
 ab922256,<*> <*> startup succeeded ,2
-24c2e161,<*> <*> <*> <*> <*> <*> code <*> <*> <*> <*> <*> <*> <*> <*> ,1
-b5f8f0ab,<*> <*> ,1
-40fa9f6f,<*> <*> in <*> <*> ,1
-fd049b1d,<*> is <*> <*> <*> <*> <*> <*> <*> failed ,1
-f7c1d3c8,<*> <*> <*> with <*> <*> ,1
-bf52428d,<*> cache <*> table entries <*> <*> <*> <*> <*> ,4
+9ebe3735,<*> <*> <*> available <*> kernel <*> <*> reserved <*> <*> <*> <*> <*> <*> ,1
+33e24970,Security <*> <*> <*> <*> initialized ,1
+2a2e948b,<*> Initializing ,1
+b448a91c,<*> Starting <*> <*> <*> ,1
+3a36be66,<*> is <*> <*> security <*> initialized <*> security <*> ,1
+c610becb,<*> registering <*> <*> <*> kernel ,1
+1b8aeb46,<*> <*> security Registering <*> <*> <*> ,1
+a6e97b64,<*> <*> initialized ,1
+4c68286d,<*> cache hash table entries <*> order <*> <*> bytes ,4
 b20ee6a4,CPU <*> <*> cache <*> <*> <*> cache <*> ,1
 26feb734,CPU <*> cache <*> ,1
-d5b85219,<*> <*> <*> <*> <*> <*> CPU <*> ,1
-37b79eeb,<*> <*> <*> <*> succeeded ,2
-995791d8,PCI PCI BIOS <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-8d363427,PCI <*> <*> <*> <*> ,1
-857302d1,<*> <*> succeeded ,1
-d9a703ff,<*> <*> <*> <*> no PCI <*> <*> entries ,1
-b7505487,PCI <*> <*> PCI <*> <*> table ,1
+bf2db201,Intel <*> <*> <*> <*> ,1
+1008dce6,Intel <*> <*> <*> <*> on CPU <*> ,1
+a74e17dc,CPU Intel <*> <*> <*> <*> <*> ,1
+fad77c9b,<*> <*> <*> <*> and <*> <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,2
+ca5e19bc,Initializing <*> <*> <*> succeeded ,1
+c993ffaf,<*> <*> <*> by <*> ,1
+a4ccaff2,<*> Registered <*> <*> <*> ,1
+997aeadf,PCI PCI BIOS <*> <*> <*> <*> at <*> <*> <*> <*> ,1
+09006874,PCI Using <*> <*> <*> ,1
+1f415ac4,<*> <*> disabled ,1
+94432355,Linux Plug and <*> <*> <*> <*> c <*> <*> ,1
+bf6f1ee6,Starting <*> succeeded ,1
+fae6164d,<*> registered <*> driver <*> ,2
+c1f868de,<*> <*> <*> <*> <*> PCI IRQ <*> entries ,1
+7345d923,PCI <*> <*> PCI IRQ <*> table ,1
 7219d10d,PCI <*> PCI <*> ,1
 5afd6c98,PCI <*> PCI <*> <*> <*> ,1
-e5e4e575,PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-805eb1c8,<*> BIOS version <*> <*> <*> <*> <*> version <*> <*> ,1
+b601f756,PCI Using IRQ <*> <*> <*> <*> <*> at <*> <*> <*> <*> ,1
+4d386063,<*> BIOS version <*> <*> <*> <*> Driver version <*> <*> ,1
+19a803eb,<*> initializing <*> <*> disabled ,1
+13c84884,kernel <*> <*> <*> <*> ,1
+326514de,<*> <*> <*> <*> <*> started ,1
+1b26ba98,<*> <*> <*> <*> initialized ,1
 abee0f7b,<*> <*> <*> succeeded ,1
-23a7c487,pci <*> PCI <*> <*> PCI <*> version <*> <*> ,1
-e5bf6eb0,<*> No <*> <*> device <*> ,1
+d72de21b,<*> <*> <*> started ,1
+37b79eeb,<*> <*> <*> <*> succeeded ,1
+a8996bc7,<*> Registering <*> <*> ,1
+1bc62b10,Initializing <*> <*> ,1
+38e3bd88,pci <*> PCI <*> Plug PCI <*> version <*> <*> ,1
+90cbc714,<*> <*> Plug <*> device <*> ,1
+8e1f8e52,<*> <*> <*> Driver <*> <*> ,1
+db61a330,Linux <*> <*> <*> <*> c <*> <*> ,1
