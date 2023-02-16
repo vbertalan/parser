@@ -1,104 +1,124 @@
 EventId,EventTemplate,Occurrences
-d219059b,proxy cse <*> <*> hk <*> open through proxy proxy cse <*> <*> hk <*> <*> ,457
-e9d5773a,proxy cse <*> <*> hk <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,110
-4dfcc3ea,proxy cse <*> <*> hk <*> close <*> bytes sent <*> bytes received lifetime <*> sec ,64
-763f1438,proxy cse <*> <*> hk <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> sec ,23
-4dc22ecc,proxy cse <*> <*> hk <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,93
-36e3e336,proxy cse <*> <*> hk <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> sec ,29
-9affbe6f,proxy cse <*> <*> hk <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,33
-06478458,proxy cse <*> <*> hk <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,56
-3543f89c,proxy cse <*> <*> hk <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> sec ,25
-61b75cd7,proxy cse <*> <*> hk <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,10
-e0700a0e,<*> <*> <*> <*> <*> open through proxy <*> cse <*> <*> hk <*> <*> ,2
-43d24ed8,proxy cse <*> <*> hk <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> <*> received lifetime <*> <*> ,4
-ad7ad3c9,<*> <*> com <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,95
-12847243,<*> <*> com <*> error <*> <*> <*> <*> <*> <*> <*> <*> ,28
-7c2606ed,<*> <*> com <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> ,1
-b1690f36,<*> <*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,1
-63ce4783,<*> <*> <*> <*> <*> open through proxy proxy cse <*> <*> hk <*> <*> ,14
-845cb03b,<*> <*> com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,317
-a5fd7ae9,<*> <*> <*> com <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,50
-cc159c98,<*> <*> <*> com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,68
-838ab33a,<*> <*> com <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,66
-63e53172,<*> <*> <*> <*> com <*> close <*> bytes sent <*> bytes <*> KB received lifetime <*> <*> ,1
-000c4623,<*> <*> com <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-ebb22c0c,<*> <*> <*> <*> <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,9
-a3bfd0e1,<*> <*> <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,5
-359b1515,<*> <*> <*> <*> <*> <*> <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> ,1
-ae1d40e7,proxy cse <*> <*> hk <*> close <*> bytes sent <*> bytes <*> KB received lifetime <*> <*> ,4
-792daa9d,<*> <*> <*> <*> <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-931605f6,<*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,7
-f6cfade6,<*> <*> <*> <*> open through proxy proxy cse <*> <*> hk <*> <*> ,27
-3fa6cfe5,<*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,59
-6f1524dd,<*> <*> <*> <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,7
-be498eed,<*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,14
-d4cb5032,<*> google com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,41
-ab766470,<*> google com <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,10
-77a3127c,<*> <*> <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> <*> received lifetime <*> <*> ,4
-9feb030c,<*> <*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,4
-4e0fc1a4,<*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,5
-d2d92f32,<*> <*> com hk <*> open through proxy proxy cse <*> <*> hk <*> <*> ,4
-64bf4066,<*> google com <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,9
-bdc947fb,<*> <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,18
-a665e5a0,<*> <*> <*> google com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,2
-11cae2a6,<*> <*> <*> <*> <*> <*> open through proxy proxy cse <*> <*> hk <*> <*> ,7
-1ed22f99,<*> google com hk <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,3
-e5dfe2f4,<*> <*> <*> com <*> close <*> bytes <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,2
-a695b59c,<*> <*> <*> google com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> <*> ,1
-9907c62b,<*> google com <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
-522b1707,<*> open <*> <*> com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,5
-3f7032ff,<*> open <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,5
-f4230f2a,<*> google com <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,7
-c88f7b12,<*> open <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,1
-448c8166,<*> google com hk <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,2
-db5cfb8a,<*> <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,3
-27ef6c36,<*> google <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,2
-e26faf3e,<*> com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,8
-ddcd2066,<*> google com hk <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,1
-88124041,<*> <*> <*> <*> com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,28
-210f88b5,<*> <*> <*> <*> com <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,4
-e8100886,<*> <*> <*> <*> <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,3
-c649e662,<*> google com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,12
-e7c058a6,<*> <*> <*> com <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,10
-0eb9205d,<*> <*> <*> google com <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,3
-430dc1fa,<*> <*> com <*> <*> open through proxy proxy cse <*> <*> hk <*> <*> ,2
-ed1222f5,<*> <*> com <*> <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,1
-ce0eaaf7,<*> <*> <*> <*> com <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,6
-bba0ee11,<*> <*> <*> <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,7
-955c6a33,<*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,3
-e9583410,<*> <*> com <*> <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,1
-ad7323b3,<*> <*> <*> <*> <*> close <*> bytes sent <*> bytes <*> KB received lifetime <*> <*> ,1
-ea197862,<*> <*> <*> google com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,4
-d2413187,<*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,1
-d28a4e83,<*> com <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,1
-9ea1ce99,<*> google com <*> close <*> bytes <*> KB sent <*> bytes <*> KB received lifetime <*> <*> <*> ,1
-0c3f1426,<*> <*> <*> <*> <*> <*> <*> open through proxy proxy cse <*> <*> hk <*> <*> ,1
-d4752d88,<*> <*> <*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,3
-0102e4aa,<*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,1
-69341297,<*> <*> <*> <*> <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> proxy cse <*> <*> hk error <*> ,4
-a0db2900,<*> google com <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> proxy cse <*> <*> hk error <*> ,3
-830397dd,<*> <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> proxy cse <*> <*> hk error <*> ,2
-06daad91,<*> <*> com <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> proxy cse <*> <*> hk error <*> ,11
-ae8310e7,<*> <*> <*> error <*> <*> <*> <*> <*> <*> <*> <*> ,2
-7db6ca76,<*> <*> <*> <*> <*> <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,2
-dde330d8,<*> <*> <*> open through proxy proxy cse <*> <*> hk <*> <*> ,1
-fb9844da,<*> <*> <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,2
-88617f50,<*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,1
-8f088bd6,<*> com <*> close <*> bytes <*> <*> KB sent <*> bytes received lifetime <*> <*> ,1
-12e8e2a5,<*> com <*> <*> <*> com <*> open through proxy proxy cse <*> <*> hk <*> <*> ,1
-aa83c4e3,<*> <*> <*> com <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
-317030f9,<*> <*> <*> <*> <*> <*> close <*> bytes sent <*> bytes received lifetime <*> <*> ,1
-101db412,<*> <*> <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,1
-c86b14c5,<*> <*> <*> <*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> KB received lifetime <*> <*> ,1
-ac7f578c,<*> <*> <*> <*> <*> <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> <*> received lifetime <*> <*> ,1
-f5b41f2e,<*> google <*> com <*> close <*> bytes sent <*> bytes <*> <*> KB received lifetime <*> <*> ,1
-f78b54c5,<*> <*> <*> com <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> ,1
-ded6e031,<*> <*> <*> com <*> error <*> <*> <*> <*> <*> <*> <*> <*> ,1
-700006ca,<*> <*> <*> com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> <*> ,1
-bcdcee71,<*> <*> <*> com <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> <*> error <*> ,4
-742a6281,<*> <*> <*> google com <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> <*> error <*> ,7
-6a2cd3b8,<*> google com <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> <*> error <*> ,5
-33fb4ac3,<*> <*> com <*> error <*> <*> <*> <*> proxy proxy cse <*> <*> hk <*> <*> <*> <*> <*> error <*> ,10
-0c229508,<*> <*> <*> google com <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> <*> ,1
-da250a54,<*> <*> <*> <*> error <*> <*> <*> through proxy proxy cse <*> <*> hk <*> Proxy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-c1fc0fc8,<*> <*> com <*> <*> close <*> bytes <*> <*> KB sent <*> bytes <*> <*> KB received lifetime <*> <*> ,1
+5556b1d7,proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,457
+b3e4e65e,"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01 ",23
+6c9b6152,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes received, lifetime <1 sec ",35
+229adcb0,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <1 sec ",21
+a650380e,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes <*> <*> received, lifetime <1 sec ",2
+9c34d239,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",103
+25c82b55,"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec ",29
+6bd2bd83,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <1 sec ",29
+c5acb2af,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> ",36
+602549e5,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes received, lifetime <*> ",19
+77e3751b,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> ",56
+6b3e9556,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <1 sec ",25
+f75a3ead,"proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <*> ",54
+7953f411,<*> open through proxy <*> <*> ,2
+b7c29be5,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes <*> KB) sent, <*> bytes <*> <*> received, lifetime <*> ",4
+edfc56a5,"get.sogou.com:80 close, <*> bytes sent, <*> bytes received, lifetime <1 sec ",3
+aaf5bbef,"<*> close, <*> bytes sent, 0 bytes received, lifetime <*> <*> ",1
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+50855127,<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy <*> the connection <*> ,3
+8d8ea3eb,"get.sogou.com:80 close, 651 bytes sent, <*> bytes received, lifetime <1 sec ",2
+304df38d,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes received, lifetime 00:01 ",14
+288a871b,"<*> close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",101
+6761b144,<*> open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,398
+e8ddc2a1,"<*> close, 0 bytes sent, 0 bytes received, lifetime <*> <*> ",3
+79d19551,"<*> close, <*> bytes sent, <*> bytes received, lifetime <1 sec ",7
+978a898f,"<*> close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> ",64
+09d94218,"<*> close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <1 sec ",1
+42f2e093,"<*> close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> <*> ",7
+ffa20f76,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> ",35
+1bc3d479,<*> error : A connection request was canceled before the completion. ,13
+6b7fb3ea,"<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403 ",8
+730c78a5,"<*> close, <*> bytes sent, 0 bytes received, lifetime <*> ",2
+cd0f5624,"proxy.cse.cuhk.edu.hk:5070 close, <*> bytes sent, <*> bytes <*> <*> received, lifetime <*> ",1
+f463e58c,oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion. ,11
+220653da,"get.sogou.com:80 close, <*> bytes sent, <*> bytes received, lifetime <*> ",1
+d822dcb0,"<*> close, 0 bytes sent, 0 bytes received, lifetime 00:11 ",8
+ab93c98d,"<*> close, 0 bytes sent, 0 bytes received, lifetime <*> ",45
+ad5a3f3d,"<*> close, <*> bytes <*> KB) sent, <*> bytes received, lifetime 04:00 ",2
+55c23b71,"<*> close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime 04:00 ",21
+7156ebe9,"clients6.google.com:443 close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> ",5
+a41fdcbd,"d.dropbox.com:443 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime 01:01 ",2
+6303062c,"clients6.google.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",12
+f95a22e0,"<*> close, <*> bytes <*> KB) sent, <*> bytes <*> MB) received, lifetime <*> ",5
+eee3c23f,d.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,5
+58d25d64,t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,20
+0f9d6082,"<*> close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> <*> ",1
+a6174ab0,"t12.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime <*> ",9
+230fab49,"<*> close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> ",16
+f1a9a3a0,video.5054399.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,2
+d4f193a3,"block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec ",12
+59698c96,"qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime <*> ",11
+68ca5545,"<*> close, <*> bytes sent, <*> bytes <*> KB) received, lifetime 04:00 ",2
+c80aa73d,clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,12
+c91842a5,block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,7
+262f8992,"get.sogou.com:80 close, <*> bytes sent, <*> bytes <*> <*> received, lifetime <*> ",1
+4ec7f545,"short.weixin.qq.com:80 close, <*> bytes sent, <*> bytes received, lifetime <1 sec ",7
+20d76219,"info.pinyin.sogou.com:80 close, <*> bytes sent, 607 bytes received, lifetime 00:30 ",2
+76a1e183,client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,8
+49935690,"client-cf.dropbox.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",6
+ef49256b,"client-cf.dropbox.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime 01:01 ",5
+c95d3cfb,"clients4.google.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",6
+c306da10,"mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403 ",6
+ff18bb0b,"<*> close, 0 bytes sent, 0 bytes received, lifetime <1 sec ",4
+c6ae5a5b,clients5.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,8
+72770db9,clients4.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,7
+67277028,<*> error : A connection <*> <*> <*> <*> the <*> ,4
+6bc4d418,"long.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime <*> ",5
+27700ba9,"long.open.weixin.qq.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",1
+918437d0,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> <*> ",3
+c02762a3,avatars3.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,4
+b72812bc,api.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,14
+ad592d25,collector.githubapp.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,6
+f902fa6b,"ping.pinyin.sogou.com:80 close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> ",1
+c4d6243b,"api.github.com:443 close, 0 bytes sent, 0 bytes received, lifetime <*> ",1
+0aa0361f,github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,4
+489bf28a,"play.google.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",7
+2dc49c4c,"api.github.com:443 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime 00:11 ",5
+d2ea054e,"api.github.com:443 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> ",3
+4ce868fe,"user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime <*> ",4
+f3851ce1,"clients6.google.com:443 close, <*> bytes sent, <*> bytes received, lifetime <*> <*> ",1
+0b79a270,"fonts.gstatic.com:443 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> ",5
+de967cc6,"<*> close, 328 bytes sent, <*> bytes <*> <*> received, lifetime <1 sec ",1
+26b88fec,"api.github.com:443 close, 781 bytes sent, 6147 bytes (6.00 KB) received, lifetime <*> ",1
+8012100c,"security.ie.sogou.com:80 close, <*> bytes sent, 184 bytes received, lifetime <1 sec ",5
+ae7c4f99,"api.github.com:443 close, 781 bytes sent, 6147 bytes (6.00 KB) received, lifetime 00:11 ",4
+f9887454,"<*> close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime <*> ",2
+36ef6718,"clients4.google.com:443 close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> ",4
+ebee0c9d,"d.dropbox.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",1
+efea8bb3,"api.github.com:443 close, 781 bytes sent, <*> bytes <*> KB) received, lifetime 00:11 ",1
+7d81c601,"<*> close, <*> bytes sent, <*> bytes <*> <*> received, lifetime <*> ",1
+4b298dcd,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001 ,16
+51e1c6ae,mtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001 ,1
+c91bbe41,clients4.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not <*> <*> error <*> ,1
+98e1ee14,bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not <*> <*> error <*> ,1
+d731b854,"play.google.com:443 close, <*> bytes <*> KB) sent, <*> bytes received, lifetime <*> ",1
+8613b46c,"short.weixin.qq.com:80 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <1 sec ",1
+309f501c,"ping.pinyin.sogou.com:80 close, <*> bytes sent, 166 bytes received, lifetime 00:30 ",1
+3cf226be,"<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code <*> ",3
+576f8ecc,"security.ie.sogou.com:80 close, <*> bytes sent, 184 bytes received, lifetime <*> ",2
+75896094,"<*> close, <*> bytes sent, <*> bytes received, lifetime 04:00 ",1
+55ec947b,"tc.dl.pinyin.sogoucdn.com:80 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime <*> ",1
+4d762f29,"tc.dl.pinyin.sogoucdn.com:80 close, <*> bytes sent, <*> bytes received, lifetime <*> ",1
+cdf800ff,r3---sn-i3b7kn7s.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS ,2
+cb7adba2,"fonts.gstatic.com:443 close, <*> bytes sent, <*> bytes received, lifetime <*> ",1
+73253cfc,"d.dropbox.com:443 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime 01:01 ",3
+988e1c23,"info.pinyin.sogou.com:80 close, <*> bytes <*> KB) sent, 607 bytes received, lifetime <*> ",1
+93db8e8f,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not <*> <*> error <*> ,1
+344eafa7,client-cf.dropbox.com:443 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+d1ffff3a,"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <1 sec ",4
+bbb5a90b,"get.sogou.com:80 close, <*> bytes sent, 328 bytes received, lifetime <1 sec ",1
+b17bdcee,"<*> close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime 01:01 ",1
+43aead83,"client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec ",3
+937b27ff,"tc.dl.pinyin.sogoucdn.com:80 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> <*> ",2
+748c89dc,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection <*> <*> with error <*> ,2
+450ddca3,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061 ,13
+f5785a05,bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061 ,10
+02c066a8,mtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection <*> <*> with error <*> ,1
+1190c1cb,"info.pinyin.sogou.com:80 close, <*> bytes <*> KB) sent, <*> bytes <*> KB) received, lifetime 00:30 ",1
+2d501724,"client-cf.dropbox.com:443 close, <*> bytes sent, <*> bytes <*> KB) received, lifetime <*> ",1
+3d5472bd,"get.sogou.com:80 close, 651 bytes sent, 328 bytes received, lifetime <*> ",1
+a7c683bf,"info.pinyin.sogou.com:80 close, <*> bytes sent, 166 bytes received, lifetime 00:30 ",2
+a3a49404,"ping.pinyin.sogou.com:80 close, <*> bytes sent, 166 bytes received, lifetime <*> ",1
+4ad34b9c,"clients4.google.com:443 close, <*> bytes sent, <*> bytes received, lifetime <*> ",1

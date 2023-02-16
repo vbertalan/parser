@@ -1,48 +1,74 @@
 EventId,EventTemplate,Occurrences
-68d3716e,Notification <*> <*> <*> ,37
-40dd2457,Received connection request <*> <*> <*> <*> <*> ,299
+3be752db,Notification time out: <*> ,1
+7b05832e,Received connection request <*> ,299
 c802547c,Send worker leaving thread ,262
 685f2871,Interrupted while waiting for message on queue ,314
-90a894c5,Connection broken for id <*> my id <*> error ,291
-8cfeed43,Interrupting <*> ,266
-89fe6910,Closed socket connection for client <*> <*> <*> <*> <*> which had <*> <*> ,44
-42946cb7,<*> <*> of <*> exception ,37
-a2a012f3,Client <*> <*> <*> session <*> <*> <*> <*> <*> <*> <*> ,3
-0afb8087,Client attempting to establish new session at <*> <*> <*> <*> <*> ,41
-7bda6300,Established session <*> with negotiated timeout <*> for client <*> <*> <*> <*> <*> ,50
-ff407f2f,Accepted socket connection from <*> <*> <*> <*> <*> ,48
-cb43f496,<*> Exception ,1
-157aa712,Connection request from old client <*> <*> <*> <*> <*> will be dropped if server is in r o mode ,39
-489cc563,Server <*> <*> <*> ,1
-cae81e1c,Cannot open channel to <*> at election address <*> <*> <*> <*> <*> ,86
-c41db7e0,Processed session termination for <*> <*> ,47
-f804196c,Expiring session <*> timeout of <*> exceeded ,40
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,19
-9e08cdfc,<*> ,6
-354f6fb5,<*> election <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-472fc492,<*> <*> <*> <*> <*> <*> <*> connection <*> <*> ,1
-d943c8f1,New election <*> <*> <*> <*> <*> <*> ,1
-ebbecbc2,Server <*> <*> <*> <*> <*> <*> ,1
-825331a5,<*> <*> ELECTION <*> <*> ,2
-167e1e8b,Notification <*> n <*> <*> n <*> <*> n <*> <*> n <*> <*> n <*> <*> n <*> <*> <*> <*> ,12
-d5eafef9,<*> <*> <*> to <*> ,4
-a2b4e5e4,Server <*> <*> <*> <*> <*> ,2
-6391fd5b,<*> client <*> ,3
-b03944b3,Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-754e5e63,Server <*> <*> <*> <*> ,4
-e2a2e392,Closed socket connection for client <*> <*> <*> <*> <*> <*> session established for client ,4
-62814cce,Exception <*> <*> of session <*> <*> to <*> <*> <*> <*> <*> <*> ,3
-fd867894,<*> <*> to <*> ,4
-fc566f04,<*> exception <*> <*> <*> <*> <*> open ,12
-1f195f35,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> n <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-e0afaf2b,<*> <*> <*> ,1
-503d8b49,<*> <*> to <*> <*> <*> <*> <*> <*> <*> ,2
-f1d88634,<*> <*> <*> <*> <*> <*> <*> server <*> <*> <*> <*> ,1
-695ad5f4,Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-2c73fb78,<*> <*> of <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-7d8a4c56,<*> of request <*> <*> ,1
-31a7e4be,<*> is <*> ,1
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+4651da20,"Connection broken for id 188978561024, my id 1, error  ",94
+1a7cc417,Interrupting SendWorker ,266
+b0bf952d,Closed socket connection for client <*> which had sessionid <*> ,44
+c33a72cc,caught end of stream exception ,37
+1a5f78da,Client attempting to <*> session <*> at <*> ,3
+e333df48,Client attempting to establish new session at <*> ,41
+6e72d8e5,Established session <*> with negotiated timeout 10000 for client <*> ,45
+f7c16424,Accepted socket connection from <*> ,48
 b5f8f0ab,<*> <*> ,1
-38ff61b3,<*> <*> <*> from <*> ,2
-80232ded,Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+7b852299,Established session <*> with negotiated timeout 20000 for client <*> ,5
+cf624f78,Connection request from old client <*> will be dropped if server is in r-o mode ,39
+0e1b5dd8,Server environment:user.dir / ,1
+328cba87,Cannot open channel to 2 at election address /10.10.34.12:3888 ,48
+42e72162,Processed session termination for sessionid: <*> ,47
+158fb6fe,Expiring session <*> timeout of 10000ms exceeded ,38
+8acdc231,******* GOODBYE <*> ******** ,19
+30045eee,LOOKING ,4
+a489f374,Cannot open channel to 3 at election address /10.10.34.13:3888 ,38
+2eb98c90,Notification time out: 60000 ,36
+a22eb639,<*> election <*> <*> <*> ,1
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+c05ab85e,FOLLOWING ,2
+ffe1a824,"New election. My id 1, proposed zxid 0x700000000 ",1
+927eb8c9,Server environment:host.name mesos-master-1 ,1
+d4fc6af3,FOLLOWING - LEADER ELECTION TOOK - 49 ,1
+cdb92f0e,"Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state) ",1
+3ea8dc74,FOLLOWING - LEADER ELECTION TOOK - 238 ,1
+dbcef350,autopurge.snapRetainCount set to 3 ,1
+7e56d707,Server environment:java.vendor Oracle Corporation ,2
+03abc19f,Revalidating client: 0x14f05578bd80018 ,1
+8b60dc88,"Server environment:zookeeper.version 3.4.5--1, built on 06/10/2013 17:26 GMT ",1
+7aab8e5d,Server environment:user.name zookeeper ,2
+e1f6e639,Revalidating client: 0x14f05578bd80013 ,1
+3c18bc3a,Server environment:os.name Linux ,2
+2c1277fe,Closed socket connection for client <*> <*> <*> <*> for <*> ,4
+4a655176,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running ,3
+ee54abbb,"Notification: 2 (n.leader), <*> (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LOOKING (my state) ",1
+e675672f,"Notification: 3 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0xb (n.peerEPoch), FOLLOWING (my state) ",1
+2ce4dcb4,tickTime set to 2000 ,1
+641dcc66,"Connection broken for id 3, my id <*> error  ",1
+669e7400,Unexpected exception causing shutdown while sock still open ,12
+d17492c7,"Connection broken for id 188978561024, my id 2, error  ",96
+9ab59bbd,Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode NodeExists for /home/curi/.zookeeper ,1
+bb330ab3,"Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LEADING (my state) ",1
+f804196c,Expiring session <*> timeout of <*> exceeded ,2
+665ada7e,Starting quorum peer ,1
+f30e5070,Snapshotting: 0x300000dcd to /var/lib/zookeeper/version-2/snapshot.300000dcd ,1
+9a058e14,autopurge.purgeInterval set to 0 ,3
+0348e66a,Snapshotting: 0x50000062e to /var/lib/zookeeper/version-2/snapshot.50000062e ,1
+5286a270,Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4 ,1
+cdbad630,Revalidating client: 0x24f0557806a001c ,1
+6811abc0,maxSessionTimeout set to -1 ,1
+ac322d9c,Server environment:java.class.path /etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar ,1
+c63748c8,Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000 ,1
+b5883522,"Notification: 2 (n.leader), <*> (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), <*> (n.peerEPoch), LEADING (my state) ",1
+347334c7,<*> <*> <*> <*> <*> ,1
+c10e69df,First is 0x0 ,1
+13c927c5,"Notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LEADING (my state) ",2
+5870b3f4,Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084 ,1
+37522af7,Sending DIFF ,1
+32d6d61e,Getting a snapshot from leader ,2
+1bfb5232,"Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state) ",2
+0ddcccf1,"Connection broken for id 188978561024, my id 3, error  ",99
+e40d8c8f,"Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LOOKING (my state) ",1
+ceede391,"Connection broken for id <*> my id 3, error  ",1
+a207932e,"Notification: 3 (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state) ",1
+1174ad74,minSessionTimeout set to -1 ,2
+dbc1f7d6,Server environment:java.home /usr/lib/jvm/java-7-openjdk-amd64/jre ,1
+1c96f429,"Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state) ",1

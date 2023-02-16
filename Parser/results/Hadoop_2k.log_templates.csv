@@ -1,97 +1,204 @@
 EventId,EventTemplate,Occurrences
-9f80afc3,<*> <*> for <*> <*> <*> <*> <*> ,1
-e0afaf2b,<*> <*> <*> ,3
-5386dfb6,<*> <*> <*> RM <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-40fa9f6f,<*> <*> in <*> <*> ,1
-88bdf145,<*> <*> org apache hadoop <*> <*> <*> <*> ,1
-5a464399,<*> <*> org apache hadoop <*> <*> <*> for <*> org apache hadoop <*> <*> <*> ,1
-16a6e156,<*> <*> org apache hadoop <*> <*> <*> job <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,3
-8ce68ee8,<*> <*> org apache hadoop <*> <*> <*> <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,1
-2348d95a,<*> <*> org apache hadoop <*> <*> <*> <*> <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,2
-cf62bb26,<*> <*> org apache hadoop <*> <*> <*> rm <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,7
-d4ab2c70,<*> job <*> <*> to <*> <*> <*> <*> <*> <*> ,1
-2a7102cc,<*> <*> org apache hadoop <*> <*> <*> job <*> <*> <*> for <*> org apache hadoop <*> <*> <*> <*> <*> ,1
-de711b3d,<*> <*> <*> hadoop <*> <*> ,1
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,5
-b5f6193c,<*> <*> <*> <*> ,18
-cb0edc5d,<*> job <*> for job <*> <*> to <*> ,1
-a9cfcc02,<*> <*> job <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-6f02caf8,<*> <*> for job job <*> <*> <*> <*> <*> <*> <*> ,1
-5be0227f,<*> <*> <*> for job job <*> <*> <*> ,1
-6d04c7a3,job <*> <*> <*> <*> <*> to <*> ,2
-b625d61e,<*> <*> <*> <*> <*> <*> <*> job job <*> <*> ,1
-5c15fcd7,<*> <*> <*> <*> for <*> <*> ,2
-21b1812a,<*> <*> org apache hadoop <*> <*> <*> <*> to <*> <*> ,1
-be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,6
-74c47965,<*> to org <*> <*> <*> org <*> <*> <*> org <*> <*> <*> ,1
-7c802186,<*> <*> <*> for <*> <*> <*> <*> <*> <*> ,1
-5271c4b7,<*> <*> <*> <*> <*> org apache hadoop <*> <*> <*> ,1
-1e3a45ff,<*> <*> <*> <*> <*> <*> org apache hadoop <*> <*> <*> <*> <*> to <*> <*> ,2
-1a65aaed,<*> <*> to <*> <*> ,1
-b1a6ef42,<*> <*> <*> <*> hadoop <*> <*> <*> <*> <*> hadoop <*> hadoop <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-7bbcdf4d,JOB <*> job <*> <*> ,1
-b5f8f0ab,<*> <*> ,3
-31a7e4be,<*> is <*> ,1
-6a26fb22,<*> to <*> <*> <*> sa <*> <*> <*> <*> <*> <*> ,1
-67efe6f2,<*> memory <*> <*> <*> ,3
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
-79c964b2,<*> <*> <*> <*> JOB <*> ,1
-30ce9523,<*> <*> <*> <*> <*> <*> to <*> ,1
-3c2dddc7,<*> <*> SA <*> <*> <*> <*> <*> to <*> <*> ,33
-1e1fdb00,<*> <*> <*> m <*> <*> <*> <*> <*> to <*> ,21
-2d870209,<*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,1
-af21af5c,attempt <*> <*> m <*> <*> <*> <*> <*> <*> to <*> ,33
-fceb2f54,attempt <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,1
-ac5a3084,<*> <*> <*> for <*> job <*> <*> <*> <*> <*> <*> <*> <*> <*> hadoop <*> <*> <*> <*> job <*> <*> job <*> <*> <*> <*> ,1
-5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,17
-b22ac606,<*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> memory <*> <*> <*> <*> <*> ,12
-7237e8de,Recalculating schedule headroom memory <*> <*> <*> ,131
-de52f663,Reduce slow start threshold not met <*> <*> ,130
-e5b86fa3,<*> <*> <*> <*> <*> <*> to <*> <*> ,2
-9011422d,<*> container container <*> <*> <*> <*> to attempt <*> <*> m <*> <*> ,10
-87da0f1a,<*> job <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> hadoop <*> <*> <*> <*> job <*> <*> job <*> ,1
-5a614a11,<*> job <*> <*> <*> <*> <*> <*> <*> <*> hadoop <*> <*> <*> <*> job <*> <*> job <*> ,1
-501e3b0a,<*> <*> <*> <*> <*> <*> <*> for <*> <*> for <*> <*> ,1
-5f357b09,<*> <*> <*> in <*> ,1
-67b7908f,<*> <*> <*> <*> CONTAINER <*> <*> <*> container container <*> <*> <*> <*> <*> attempt <*> <*> m <*> <*> ,13
-e8ff6c9b,<*> attempt <*> <*> m <*> <*> ,10
-ada71d94,<*> <*> <*> <*> <*> for <*> <*> <*> m <*> <*> <*> ,10
-f3d0d604,<*> attempt <*> <*> m <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-4ba2ccda,ATTEMPT START <*> <*> <*> m <*> ,10
-940b2296,<*> <*> <*> <*> <*> <*> <*> to <*> <*> ,4
-14346dcf,<*> attempt <*> <*> m <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-c988db7c,<*> <*> for job <*> <*> <*> <*> ,10
-1583c361,<*> <*> <*> <*> <*> <*> m <*> <*> for <*> <*> ,10
-4cccd43b,<*> <*> <*> <*> <*> <*> m <*> <*> <*> attempt <*> <*> m <*> <*> ,10
-516ada30,Progress of <*> attempt <*> <*> m <*> <*> is <*> <*> ,289
-d2a2425f,<*> <*> <*> SA <*> <*> <*> <*> <*> <*> ,8
-231bd924,<*> attempt <*> <*> m <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> SA <*> <*> <*> <*> <*> <*> ,7
-1f1c1bd8,<*> <*> container Container <*> container <*> <*> <*> <*> <*> <*> SA <*> <*> <*> <*> <*> <*> <*> <*> SA <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-844fcc1a,Container <*> <*> <*> <*> container <*> container <*> <*> <*> <*> ,1
-1de01adf,<*> <*> <*> <*> <*> <*> m <*> <*> ,1
-1d5ecfc9,attempt <*> <*> m <*> <*> <*> <*> <*> <*> to <*> CONTAINER <*> ,3
-1e768c46,<*> <*> <*> <*> m <*> <*> ,3
-f5274137,attempt <*> <*> m <*> <*> <*> <*> <*> <*> CONTAINER <*> to <*> ,1
-4d4c30b7,<*> <*> <*> attempt attempt <*> <*> m <*> <*> ,1
+0f0554d1,Created MRAppMaster for application appattempt_1445144423722_0020_000001 ,1
+bd75f24d,Executing with tokens: ,1
+59707e4e,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 20 cluster_timestamp: 1445144423722 } attemptId: 1 } keyId: -127633188) ",1
+e0afaf2b,<*> <*> <*> ,2
+f2a51a07,OutputCommitter <*> <*> <*> <*> ,1
+60e19f81,OutputCommitter <*> <*> ,1
+784ed797,Registering class <*> for class <*> ,9
+02ae6bf6,Default file system [hdfs://msra-sa-41:9000] ,3
+67caf82e,Emitting job history data to the timeline server is not enabled ,1
+b5f6193c,<*> <*> <*> <*> ,3
+8529553c,Scheduled snapshot period at 10 second(s). ,1
+3569ce41,MRAppMaster metrics system started ,1
+7ad59a1e,Adding job token for job_1445144423722_0020 to jobTokenSecretManager ,1
+af7b17aa,Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input; ,1
+4f753885,Input size for job job_1445144423722_0020 1256521728. Number of splits 10 ,1
+093a3b36,Number of reduces for job job_1445144423722_0020 1 ,1
+cdfbbda7,job_1445144423722_0020Job Transitioned from NEW to INITED ,1
+f3c77bae,"MRAppMaster launching normal, non-uberized, multi-container job job_1445144423722_0020. ",1
+15d40c86,Using callQueue class java.util.concurrent.LinkedBlockingQueue ,2
+862db6cb,Starting Socket Reader #1 for port 62260 ,1
+ad2ed6a3,Adding <*> <*> to <*> <*> ,1
+147a32ce,IPC Server Responder: starting ,2
+33493a0f,IPC Server listener on 62260: starting ,1
+670ef093,<*> to <*> <*> <*> ,1
+96d533c3,Http request log for http.requests.mapreduce is not defined ,1
+18388fc5,Added global filter 'safety' (class org.apache.hadoop.http.HttpServer2$QuotingInputFilter) ,1
+3c8c6d74,Added filter AM_PROXY_FILTER (class org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce ,1
+2895d6c4,Added filter AM_PROXY_FILTER (class org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static ,1
+3e2a31ca,adding <*> <*> <*> ,1
+f08ea52b,adding path spec: /ws/* ,1
+2f97fd60,Jetty bound to port 62267 ,1
+3e299cec,jetty-6.1.26 ,1
+fd867894,<*> <*> to <*> ,1
+1f280bf6,Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267 ,1
+5265b369,Web app /mapreduce started at 62267 ,1
+09276bc8,JOB_CREATE job_1445144423722_0020 ,1
+33c9493d,nodeBlacklistingEnabled:true ,1
+8b6d6c34,maxTaskFailuresPerNode is 3 ,1
+923d344d,blacklistDisablePercent is 33 ,1
+bf2f758e,Starting Socket Reader #1 for port 62270 ,1
+0bf4b15f,IPC Server listener on 62270: starting ,1
+347334c7,<*> <*> <*> <*> <*> ,2
+4ea38c08,queue: default ,1
+f5aa5708,Upper limit on the thread pool size is 500 ,1
+032f2a17,yarn.client.max-cached-nodemanagers-proxies : 0 ,1
+bd93a64f,job_1445144423722_0020Job Transitioned from INITED to SETUP ,1
+fe460c26,Processing the event EventType: JOB_SETUP ,1
+db271dc1,job_1445144423722_0020Job Transitioned from SETUP to RUNNING ,1
+e2475fb5,Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack ,15
+5afe8566,Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack ,18
+d1f87df6,task_1445144423722_0020_m_000000 Task Transitioned from NEW to SCHEDULED ,1
+ec5bd6a0,<*> Task Transitioned from NEW to SCHEDULED ,10
+574aca2a,<*> TaskAttempt Transitioned from NEW to UNASSIGNED ,12
+2186c393,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+a250f057,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from NEW to UNASSIGNED ,1
+b5f8f0ab,<*> <*> ,2
+a0a7e012,<*> <*> <*> for <*> <*> <*> <*> ,1
+4913c2e2,Before Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 <*> ,1
+4df3f889,getResources() for application_1445144423722_0020: ask 4 release 0 newContainers 0 finishedContainers 0 resourcelimit <*> <*> knownNMs 4 ,4
+c743e08b,"Recalculating schedule, headroom <*> <*> ",10
+05f5e2e7,Reduce slow start threshold not met. completedMapsForReduceSlowstart 1 ,130
+f7b53a40,Got allocated containers 1 ,9
+d7be5bfe,Resolved <*> to /default-rack ,2
+bfbc46fe,Assigned container <*> to <*> ,7
+867d0448,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 <*> ,2
+6b2b257f,The <*> file on the remote FS is <*> ,2
+55632d71,<*> <*> <*> <*> <*> <*> <*> for <*> <*> for <*> container ,1
+a56ac247,Size of containertokens_dob is 1 ,1
+3927c921,<*> shuffle <*> <*> <*> ,1
+3c62decf,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,8
+8d849d54,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> ,7
+ae4fec00,Launching attempt_1445144423722_0020_m_000000_0 ,1
+24c8d8a6,Opening proxy : <*> ,1
+bfb0db44,Shuffle port returned by ContainerManager for <*> : 13562 ,10
+c44a4440,TaskAttempt: <*> using containerId: <*> on NM: <*> ,1
+7e65b000,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING ,10
+40fe2af9,ATTEMPT_START task_1445144423722_0020_m_000000 ,1
+9363839e,task_1445144423722_0020_m_000000 Task Transitioned from SCHEDULED to RUNNING ,1
+fa614f6a,Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack ,4
+3ccebbc5,Assigned container <*> to attempt_1445144423722_0020_m_000001_0 ,1
+9e6540ee,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+e59b1ea6,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0 ,1
+461aac59,Launching attempt_1445144423722_0020_m_000001_0 ,1
+301fe861,Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368 ,4
+ea23446b,TaskAttempt: <*> using containerId: <*> on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368] ,2
+8bc3ba89,ATTEMPT_START task_1445144423722_0020_m_000001 ,1
+7b3bd79a,<*> Task Transitioned from SCHEDULED to RUNNING ,9
+6c85241f,Assigned container <*> to attempt_1445144423722_0020_m_000002_0 ,1
+a10980e6,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 RackLocal:3 ,1
+f95fd8d4,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,1
+6cb874a0,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0 ,1
+3d406bf9,Launching attempt_1445144423722_0020_m_000002_0 ,1
+b10a493d,ATTEMPT_START task_1445144423722_0020_m_000002 ,1
+aa456c48,Auth successful for job_1445144423722_0020 (auth:SIMPLE) ,10
+965c6fc9,JVM with ID : jvm_1445144423722_0020_m_000002 asked for a task ,1
+90c59d33,JVM with ID: jvm_1445144423722_0020_m_000002 given task: <*> ,1
+93e5c90a,"Recalculating schedule, headroom <memory:0, vCores:-27> ",121
+a0b41a52,JVM with ID : jvm_1445144423722_0020_m_000003 asked for a task ,1
+7a84b7dc,JVM with ID: jvm_1445144423722_0020_m_000003 given task: <*> ,1
+ba80185e,JVM with ID : jvm_1445144423722_0020_m_000004 asked for a task ,1
+45a01d76,JVM with ID: jvm_1445144423722_0020_m_000004 given task: <*> ,1
+7a65c0f6,Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : <*> ,46
+23597171,Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : <*> ,56
+8d320a0d,Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : <*> ,55
+c24232a0,Assigned container container_1445144423722_0020_01_000005 to attempt_1445144423722_0020_m_000003_0 ,1
+ce985ca7,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,2
+f9048a77,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0 ,1
+5f666da9,Launching attempt_1445144423722_0020_m_000003_0 ,1
+96a94cdf,Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109 ,6
+ebc4a604,TaskAttempt: <*> using containerId: <*> on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109] ,5
+6c287722,ATTEMPT_START task_1445144423722_0020_m_000003 ,1
+68df9e58,"getResources() for application_1445144423722_0020: ask 4 release 0 newContainers 0 finishedContainers 0 resourcelimit <memory:0, vCores:-27> knownNMs 4 ",3
+19b475da,JVM with ID : jvm_1445144423722_0020_m_000005 asked for a task ,1
+176bcc99,JVM with ID: jvm_1445144423722_0020_m_000005 given task: <*> ,1
+e29b5b2d,Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : <*> ,39
+9b9a1043,Got allocated containers 2 ,1
+f434488a,Launching attempt_1445144423722_0020_m_000004_0 ,1
+a3b0c676,Launching attempt_1445144423722_0020_m_000005_0 ,1
+18ae3a01,ATTEMPT_START task_1445144423722_0020_m_000004 ,1
+5bcd3af6,ATTEMPT_START task_1445144423722_0020_m_000005 ,1
+f1cc592d,"getResources() for application_1445144423722_0020: ask 4 release 0 newContainers 1 finishedContainers 0 resourcelimit <memory:0, vCores:-27> knownNMs 4 ",3
+7927f84d,After Scheduling: PendingReds:1 ScheduledMaps:3 ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
+46a8e4e6,Launching attempt_1445144423722_0020_m_000006_0 ,1
+2aedd11d,ATTEMPT_START task_1445144423722_0020_m_000006 ,1
+7a61135f,JVM with ID : jvm_1445144423722_0020_m_000007 asked for a task ,1
+c51d23f8,JVM with ID : jvm_1445144423722_0020_m_000006 asked for a task ,1
+b54d7c06,JVM with ID: jvm_1445144423722_0020_m_000007 given task: <*> ,1
+158d0caf,JVM with ID: jvm_1445144423722_0020_m_000006 given task: <*> ,1
+2449f868,JVM with ID : jvm_1445144423722_0020_m_000008 asked for a task ,1
+ac3af6d1,JVM with ID: jvm_1445144423722_0020_m_000008 given task: <*> ,1
+ba05635d,Progress of TaskAttempt <*> is : <*> ,93
+386ddca8,After Scheduling: PendingReds:1 ScheduledMaps:2 ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
+7bedc202,Launching attempt_1445144423722_0020_m_000007_0 ,1
+c3c98853,ATTEMPT_START task_1445144423722_0020_m_000007 ,1
+99e16b2c,JVM with ID : jvm_1445144423722_0020_m_000009 asked for a task ,1
+db4eb5a1,JVM with ID: jvm_1445144423722_0020_m_000009 given task: <*> ,1
+e42e2608,After Scheduling: PendingReds:1 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:9 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
+5d84aeba,Launching attempt_1445144423722_0020_m_000008_0 ,1
+384cc85c,Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:28345 ,2
+33ada103,TaskAttempt: <*> using containerId: <*> on NM: [MSRA-SA-39.fareast.corp.microsoft.com:28345] ,2
+bc085e5a,ATTEMPT_START task_1445144423722_0020_m_000008 ,1
+b6ec79db,After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:7 RackLocal:3 ,1
+bcfb435c,Launching attempt_1445144423722_0020_m_000009_0 ,1
+d756f17f,ATTEMPT_START task_1445144423722_0020_m_000009 ,1
+bdbdc048,"<*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <memory:1024, <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> map <*> <*> container <*> <*> <*> <*> <memory:1024, <*> <*> <*> <*> map <*> <*> <*> <*> ",1
+bd6ca7f8,After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+e2228ea0,getResources() for application_1445144423722_0020: ask 0 release 1 newContainers 0 finishedContainers 1 resourcelimit <*> <*> knownNMs 4 ,1
+7ffdb858,Received completed container container_1445144423722_0020_01_000012 ,1
+e37ad840,Container <*> <*> for <*> container <*> container_1445144423722_0020_01_000012 ,1
+05751bc3,JVM with ID : jvm_1445144423722_0020_m_000010 asked for a task ,1
+afcf082e,JVM with ID: jvm_1445144423722_0020_m_000010 given task: <*> ,1
+f2d18086,JVM with ID : jvm_1445144423722_0020_m_000011 asked for a task ,1
+c0b6d7b5,JVM with ID: jvm_1445144423722_0020_m_000011 given task: <*> ,1
+dd441120,Done acknowledgement from attempt_1445144423722_0020_m_000003_0 ,1
+335039cc,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP ,1
+f99ccc6e,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0 ,1
+c391b3c4,KILLING attempt_1445144423722_0020_m_000003_0 ,1
+0f0cc2ea,attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to <*> ,1
+672d1d77,Task succeeded with attempt attempt_1445144423722_0020_m_000003_0 ,1
+da26a1a0,<*> <*> Transitioned from RUNNING to <*> ,1
+84e79073,Num completed Tasks: 1 ,1
+153d578d,Before Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
 8acef5a8,Reduce slow start threshold <*> <*> <*> ,1
-0afa1cbe,<*> <*> <*> <*> <*> <*> <*> <*> m <*> ,1
-c8dffa5f,<*> <*> <*> attempt <*> <*> <*> <*> <*> m <*> ,1
-f456e105,<*> <*> container container <*> <*> <*> <*> ,1
-d045a83b,<*> <*> <*> attempt <*> <*> m <*> <*> Container <*> <*> <*> <*> ,1
-26a57d51,Address change detected Old <*> sa <*> <*> <*> <*> <*> <*> New <*> sa <*> <*> ,476
-28c7180f,Failed to renew lease for <*> <*> <*> <*> for <*> seconds Will retry shortly ,326
-74d6a117,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ERROR <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-5e5005bb,<*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-b2e627e0,Error <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-b618b75b,ERROR IN CONTACTING RM ,147
-7549d782,Retrying connect to server <*> sa <*> <*> Already tried <*> time s retry policy is <*> <*> <*> <*> <*> MILLISECONDS ,146
-5927ae6b,<*> <*> <*> <*> m <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> For <*> <*> <*> <*> <*> apache org hadoop <*> ,2
-288ccfa4,<*> <*> <*> <*> <*> <*> m <*> <*> Error <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> For <*> <*> <*> <*> <*> apache org hadoop <*> ,4
-a4c09171,attempt <*> <*> m <*> <*> <*> <*> <*> <*> CONTAINER <*> to <*> <*> <*> ,2
-49d6d324,<*> <*> <*> <*> attempt attempt <*> <*> m <*> <*> ,2
-b175d714,attempt <*> <*> m <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,2
-c9e5aae8,Error <*> <*> <*> org apache hadoop <*> <*> <*> <*> ,1
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-3db794ab,<*> <*> <*> <*> m <*> <*> to <*> <*> <*> <*> ,2
+f7e33318,All maps assigned. Ramping up all remaining reduces:1 ,1
+7c681e14,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
+8139b324,We launched 1 speculations. Sleeping 15000 milliseconds. ,1
+79c550a8,<*> <*> <*> <*> <*> task task_1445144423722_0020_m_000000 ,1
+070fb11b,Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+76b3125c,"getResources() for application_1445144423722_0020: ask <*> release 0 newContainers 0 finishedContainers 1 resourcelimit <memory:0, vCores:-27> knownNMs 4 ",1
+a8c8fd4a,Received completed container container_1445144423722_0020_01_000005 ,1
+3855ce30,After Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+4bf5fbb6,<*> <*> from <*> Container <*> <*> <*> <*> ,1
+de89528b,Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000 ,330
+b1140a3c,Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for <*> seconds. Will retry shortly ... ,326
+73e4f906,"Slow ReadProcessor read fields took 65020ms (threshold 30000ms); ack: seqno: -2 status: SUCCESS status: ERROR downstreamAckTimeNanos: 0, targets: [10.86.169.121:50010, 10.190.173.170:50010] ",1
+ff1832f7,DFSOutputStream ResponseProcessor exception for block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731 ,1
+bd3a4ce3,<*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+edc91701,DataStreamer Exception ,1
+69aad4aa,ERROR IN CONTACTING RM. ,147
+96a7bbba,Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030 ,146
+363de971,"Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries 10, sleepTime 1000 MILLISECONDS) ",146
+cec3779c,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ,2
+57f216be,Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ,2
+a6564f65,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP ,1
+84acbdc4,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0 ,1
+540f33f9,KILLING attempt_1445144423722_0020_m_000002_0 ,1
+d9c9dd3e,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ,1
+2626c8fa,Processing the event EventType: TASK_ABORT ,2
+3a4ace98,Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0 ,1
+e83ceee1,attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from <*> to <*> ,1
+7365af16,"Thread Thread[eventHandlingThread,5,main] threw an Exception. ",1
+ea593bd0,<*> failures on node MININT-FNANLI5.fareast.corp.microsoft.com ,2
+973cabff,Added <*> to list of failed maps ,2
+0e2eb45c,Before Scheduling: PendingReds:0 ScheduledMaps:2 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+e4c0ed37,Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ,2
+f006138e,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP ,1
+ac07336a,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0 ,1
+fdb20855,KILLING attempt_1445144423722_0020_m_000001_0 ,1
+519ef859,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ,1
+3b2d506a,Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0 ,1
+175131f7,attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from <*> to <*> ,1
+ab30fde3,Before Scheduling: PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1

@@ -1,45 +1,70 @@
 EventId,EventTemplate,Occurrences
-6d11bedf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*> ,1
-736de771,Component State <*> Component <*> <*> <*> <*> <*> <*> state <*> <*> ,11
-dab9f72a,<*> command <*> ,8
-ac0e0ac0,boot command <*> ,67
-2d5a8467,wait command <*> ,66
-4385a88a,Command has <*> <*> ,11
-a02d0496,<*> <*> node <*> <*> <*> node <*> <*> <*> <*> command <*> ,5
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-df42558c,<*> <*> node <*> <*> <*> node <*> ,1
-6b6165ad,<*> <*> ambient <*> ,5
-bcc60a21,<*> <*> <*> warning <*> ,2
-96047ed8,<*> <*> is no <*> <*> <*> domain <*> ,32
-12887502,NIFF node node <*> detected <*> <*> network connection on network <*> <*> <*> <*> via interface <*> ,2
-292fd32e,<*> An <*> domain <*> has <*> on <*> ,1
-5045c354,Fan speeds <*> <*> <*> <*> <*> ,79
-047362f0,Fan speeds <*> <*> <*> <*> <*> <*> ,11
-e0afaf2b,<*> <*> <*> ,2
-bab5ac0e,Link <*> ,13
-c1cd5f06,Link <*> <*> ,9
-b5f8f0ab,<*> <*> ,13
-5684aca9,Link <*> on <*> <*> <*> <*> <*> <*> <*> ,4
-a817f97b,<*> <*> domain <*> <*> is <*> ,12
-a7d063a2,<*> <*> domain <*> <*> <*> is no <*> <*> <*> node node <*> ,6
-028cea77,<*> <*> domain <*> domain is no <*> <*> <*> node node <*> ,16
-661898f7,<*> <*> domain <*> <*> is no <*> <*> <*> node node <*> ,9
-0ea52455,<*> <*> domain <*> is no <*> <*> <*> node node <*> ,4
-a08f0843,<*> <*> domain <*> domain <*> is no <*> <*> <*> node node <*> ,1
+a8a4e551,Component State Change: Component <*> is in the unavailable state (HWID <*> ,1
+23c3790b,Component State Change: Component \042alt0\042 is in the unavailable state (HWID <*> ,11
+e0afaf2b,<*> <*> <*> ,3
+e0852f66,risBoot (command 1903) ,1
+d807a2ab,<*> (command <*> ,2
+ac61cd68,boot (command <*> ,67
+cb0f5e54,wait (command <*> ,66
+61ffd280,halt (command 1982) ,1
+982384a5,halt (command 2221) ,1
+ed187d7e,halt (command 2992) ,1
+9aecb16e,Command has completed successfully ,10
+1b1e9dcd,Targeting <*> and <*> child of command <*> ,5
+62976de1,Targeting <*> and <*> <*> <*> ,1
+02a86cd5,Targeting <*> and <*> ,2
+ae0866e7,Targeting <*> <*> and <*> <*> ,1
+385889af,psu failure\ ambient 28 ,4
+8e247eed,psu failure\ ambient 31 ,1
+9d3232f1,Temperature (41C) exceeds warning threshold ,2
+faf36dd8,ClusterFileSystem: There is no server for ServerFileSystem domain <*> ,32
+7c93a5e4,NIFF: node <*> detected <*> <*> network connection on network 5.5.224.0 via interface alt0 ,2
+89b39645,<*> <*> ServerFileSystem domain <*> <*> <*> <*> <*> ,1
+a95e3bd1,Fan speeds ( 3552 3534 3375 **** 3515 3479 ) ,52
+220962e9,Fan speeds ( 3552 3534 3375 <*> 3515 3479 ) ,7
+bbbf8b60,Fan speeds ( 3552 3534 3391 **** 3515 3479 ) ,15
+578df3ca,Fan speeds ( 3552 3534 3391 <*> 3515 3479 ) ,1
+66311a07,Fan speeds ( 3552 3552 3391 **** 3515 3497 ) ,2
+8241456c,Fan speeds ( 3534 3534 3375 **** 3497 3479 ) ,10
+9110a3a3,Fan speeds ( 3534 3534 3375 <*> 3497 3479 ) ,3
+4385a88a,Command has <*> <*> ,1
+c293b754,power/control problem ,1
+c393ab1d,Link error ,13
+a5882550,Link in reset ,9
+47bf867e,Link ok ,13
+03900b93,Link error on broadcast tree Interconnect-0T00:00:2:1 ,1
+77cf1576,Link error on broadcast tree Interconnect-1T00:00:3:6 ,1
+3224cf30,Link error on broadcast tree Interconnect-1T00:00:2:0 ,2
+c2223bf7,ServerFileSystem: ServerFileSystem domain <*> is full ,9
+6715ee84,ServerFileSystem: ServerFileSystem domain root22_local is full ,3
+cb07b343,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-96 ,4
+8a4fc3f7,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*> ,32
 b3be2b82,running ,162
-9e08cdfc,<*> ,42
-e2b5b958,not responding ,61
+42e29531,blocked ,15
+e2b5b958,not responding ,60
 fe1280e2,configured out ,91
-1af1b6db,<*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> ,2
-e9169949,<*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> ,1
-f662d1b9,<*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> node <*> <*> <*> ,1
+0ef842dd,inconsistent nodesets <*> <*> <ok> <*> 0x1001fdfe <ok> <*> 0x1001fdfe <ok> <*> 0x1001fdfe <ok> ,1
+a12ddb12,active ,5
+95a51eeb,inconsistent nodesets <*> <*> <ok> <*> 0x000001fe <ok> <*> 0x000001fe <ok> <*> 0x000001fe <ok> ,1
+9e08cdfc,<*> ,3
+c9d5c92d,inconsistent nodesets <*> 0x000001fc <ok> <*> 0x000001fc <ok> <*> 0x000001fc <ok> <*> 0x000001fc <ok> <*> 0x000001fc <ok> <*> 0x000001fc <ok> <*> 0x000001fc <ok> <*> 0x0003fdfc <ok> <*> 0x0003fdfc <ok> <*> 0x0003fdfc <ok> <*> 0x0003fdfc <ok> <*> 0x0003fdfc <ok> <*> 0x0003fdfc <ok> ,1
+a3ad0ade,inconsistent nodesets <*> <*> <ok> <*> 0xfffffffe <ok> <*> 0xfffffffe <ok> <*> 0xfffffffe <ok> <*> 0xfffffffe <ok> ,1
 eb4ff194,normal ,206
 92362443,warning ,205
-7be267ac,ambient <*> ,292
-5a2e94cc,<*> event interval expired ,394
-0661bd5f,<*> command <*> <*> <*> out <*> <*> <*> <*> <*> <*> <*> <*> ,1
-fe69cbea,boot command <*> <*> <*> <*> <*> <*> ,1
+245bb0da,ambient 30 ,41
+c35aec7c,critical ,20
+a6ba57b0,ambient 31 ,32
+9ccdd6e2,ambient 29 ,34
+7be267ac,ambient <*> ,91
+2df7e57d,ambient 33 ,34
+b1ef0fdd,ambient 28 ,30
+59771dd4,ambient 27 ,30
+fa68cf3f,Linkerror event interval expired ,394
+9ab55438,risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed> ,1
+64579111,boot (command <*> <*> <*> <*> <*> <*> ,1
 8dc164b1,link errors remain current ,56
-0f43005c,NIFF node node <*> has detected an available network connection on network <*> <*> <*> <*> via interface <*> ,91
+6cdbcaaa,NIFF: node <*> has detected an available network connection on network 10.128.0.0 via interface ee0 ,45
+8cf4c54b,NIFF: node <*> has detected an available network connection on network 5.5.226.0 via interface alt0 ,10
+a3acb8c8,NIFF: node <*> has detected an available network connection on network <*> via interface alt0 ,8
+6df827f6,NIFF: node <*> has detected an available network connection on network <*> via interface <*> ,2
+2f901406,NIFF: node <*> has detected an available network connection on network 5.5.224.0 via interface alt0 ,26

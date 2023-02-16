@@ -16,7 +16,7 @@ from pathlib import Path
 #from nltk.tokenize import word_tokenize
 import py_stringmatching as sm
 import pickle
-import wordninja
+#import wordninja
 
 class LogParser:
     def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', st=0.4, rex=None, threshold = 0, filename=""):
@@ -98,7 +98,7 @@ class LogParser:
     def cluster_vector_kmeans(self):
         from sklearn.cluster import KMeans
         ## Clusteriza com K-Means
-        num_clusters = 8
+        num_clusters = 30
         clustering_model = KMeans(n_clusters=num_clusters)
         clustering_model.fit(self.vectors)
         self.cluster_labels = clustering_model.labels_
@@ -112,7 +112,8 @@ class LogParser:
         for id, row in df_sentences.iteritems():
             #sentence_tokens = word_tokenize(row)
             lowercase_row = row.lower()
-            sentence_tokens = tokenizer.tokenize(lowercase_row)
+            sentence_tokens = self.new_tokenizer(lowercase_row)
+            #sentence_tokens = tokenizer.tokenize(lowercase_row)
             sentence_cluster = self.cluster_labels[id]
             
             for token in sentence_tokens:
@@ -253,21 +254,28 @@ class LogParser:
             sentence_cluster = self.cluster_labels[idx]
             #sentence_tokens = word_tokenize(line["Content"])
             #sentence_tokens = tokenizer.tokenize(line["Content"])
-            sentence_tokens = self.new_tokenizer(line["Content"])
+            #print(type(sentence_tokens))
+            #print(sentence_tokens)
+            #print("************")
+            sentence_tokens = self.new_tokenizer(line["Content"]) #LINHA A CORRIGIR
+            #print(type(sentence_tokens))
+            #print(sentence_tokens)
             #sentence_tokens = self.check_english(line["Content"])
             new_sentence = ""
 
             for token in sentence_tokens:
                 lowercase_token = token.lower()
+                #print(lowercase_token)
                 query = self.word_dict.query("Cluster == @sentence_cluster & Token == @lowercase_token")
+                #print(query)
                 ## Checking dictionary of variables only
-                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
                 
                 ## Checking English vocabulary only
                 #new_token = "<*>" if (token.lower() not in english_words) else token
                 
                 ## Checking variables or English tokens
-                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
+                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
                 
                 new_sentence += new_token
                 new_sentence += " "

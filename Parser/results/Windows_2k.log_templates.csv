@@ -1,63 +1,77 @@
 EventId,EventTemplate,Occurrences
-a496207c,<*> Servicing <*> <*> <*> <*> <*> with <*> C Windows <*> <*> <*> windows <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
-d4636b47,Ending <*> <*> ,3
-068c07e1,Starting the <*> <*> <*> ,2
-12aff2aa,<*> service <*> <*> ,2
-b8dc53a6,<*> <*> <*> with Windows <*> <*> <*> ,2
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-147722d8,<*> <*> upload <*> all unsent reports ,2
-f2c4cd4d,<*> Failed to start upload with file pattern C Windows servicing <*> <*> <*> flags <*> <*> <*> E FAIL ,2
-a1298d3a,<*> Failed to start <*> <*> upload <*> <*> E FAIL ,2
-dbe6e729,<*> <*> <*> file <*> <*> upload with pattern C Windows servicing <*> all <*> flags <*> ,2
-8217a35f,<*> <*> Failed to upload all unsent reports <*> <*> E FAIL ,2
-8cff38db,<*> startup processing required <*> service was not <*> as <*> <*> <*> <*> reboot is <*> <*> ,2
-42f2a28d,<*> <*> to <*> startup processing was not required ,2
-99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-2b865a54,<*> <*> NT transaction seq <*> <*> <*> <*> ,3
-faa1efbd,<*> <*> NT transaction seq <*> <*> <*> <*> <*> ,3
-5c50b6c8,<*> <*> <*> <*> <*> <*> <*> <*> CSI <*> <*> ,3
-7d333f15,<*> <*> startup processing not required as <*> ,2
-209c5c9d,Startup processing <*> <*> <*> ,2
-d0989ed2,<*> CSI Store <*> <*> initialized ,3
-9336d106,Session <*> <*> initialized by client <*> ,609
-b26d53eb,Warning Unrecognized <*> attribute ,280
-b8f65317,Expecting attribute name <*> <*> CBS E MANIFEST INVALID ITEM ,224
-dd007c67,Failed to get next element <*> <*> CBS E MANIFEST INVALID ITEM ,224
-7fe16071,Failed to internally open package <*> <*> CBS E INVALID PACKAGE ,18
-86a39b53,Read out cached package applicability for package Package for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,542
-fa648ad3,Read out cached package applicability for package <*> <*> <*> <*> <*> Package <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-4889914f,Read out cached package applicability for package <*> <*> <*> <*> <*> Package <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,8
-a12dcfef,Read out cached package applicability for package <*> <*> <*> <*> Package <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
-74061c9e,Failed to <*> <*> <*> <*> <*> <*> <*> INVALID <*> ,2
-d1425c1d,Reboot <*> <*> <*> to <*> ,1
-5502159f,Scavenge <*> ,1
-b21bdf68,<*> <*> <*> <*> <*> <*> <*> <*> CSI Transaction <*> initialized <*> <*> <*> <*> <*> <*> <*> <*> with flags <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-f9f82bca,Scavenge <*> CSI Store ,1
-f6627081,<*> <*> <*> <*> <*> <*> not <*> <*> <*> <*> ,1
-3237387f,<*> Store <*> <*> <*> <*> scavenge <*> <*> scavenge ,1
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-b1e63dd4,Scavenge <*> <*> <*> ,1
-775f1453,<*> <*> <*> <*> <*> <*> <*> <*> CSI Transaction <*> <*> ,1
-00513eee,Reboot <*> <*> <*> ,1
-afe3fdae,<*> processing <*> <*> <*> ,1
-8d87f0ad,Ending the <*> <*> <*> ,1
-f80a1c76,Starting <*> <*> ,2
-a1dab5ab,Loading offline registry hive SOFTWARE into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SOFTWARE from path <*> Device <*> Windows <*> <*> SOFTWARE ,1
-0e5768dd,Loading offline registry hive SYSTEM into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SYSTEM from path <*> Device <*> Windows <*> <*> SYSTEM ,1
-1272912a,Loading offline registry hive SECURITY into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SECURITY from path <*> Device <*> Windows <*> <*> SECURITY ,1
-bac18051,Loading offline registry hive SAM into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SAM from path <*> Device <*> Windows <*> <*> SAM ,1
-d9ef5df3,Loading offline registry hive COMPONENTS into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> COMPONENTS from path <*> Device <*> Windows <*> <*> COMPONENTS ,1
-76491ee8,Loading offline registry hive DEFAULT into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> DEFAULT from path <*> Device <*> Windows <*> <*> DEFAULT ,1
-e3bbae73,Loading offline registry hive <*> dat into registry key <*> <*> <*> <*> <*> <*> Device <*> <*> default <*> dat from path <*> Device <*> <*> default <*> dat ,1
-99abee62,Loading offline registry hive schema dat into registry key <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> store <*> schema dat from path <*> Device <*> Windows <*> <*> store <*> schema dat ,1
-f50e00b4,Offline <*> is <*> <*> ,1
-8eca4c64,<*> <*> <*> <*> the <*> is not <*> ,1
-ba6e094e,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SOFTWARE ,1
-74a9f207,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SYSTEM ,1
-65ccab24,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SECURITY ,1
-f853fff8,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> SAM ,1
-46b3f116,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> COMPONENTS ,1
-20f2f725,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> DEFAULT ,1
-10248292,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> <*> default <*> dat ,1
-4b5ec1c5,Unloading offline registry hive <*> <*> <*> <*> <*> <*> Device <*> Windows <*> <*> store <*> schema dat ,1
+d0ffef56,Loaded Servicing Stack v6.1.7601.23505 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll ,2
+49e29e9f,00000001@2016/9/27:20:30:31.455 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fef9fb9b6d @0x7fef9f8358f @0xff83e97c @0xff83d799 @0xff83db2f) ,1
+4b176cd1,00000002@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa006ade @0x7fef9fd2984 @0x7fef9f83665 @0xff83e97c @0xff83d799) ,1
+6cbac335,00000003@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa1c8728 @0x7fefa1c8856 @0xff83e474 @0xff83d7de @0xff83db2f) ,1
+1e08fa9a,Ending TrustedInstaller initialization. ,2
+8178eb15,Starting the TrustedInstaller main loop. ,2
+fcb6b370,TrustedInstaller service starts successfully. ,2
+66a2fc4c,SQM: Initializing online with Windows opt-in: False ,2
+05bab142,SQM: Cleaning up report files older than 10 days. ,2
+5c624419,SQM: Requesting upload of all unsent reports. ,2
+63972926,"SQM: Failed to start upload with file pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: 0x2 [HRESULT 0x80004005 - E_FAIL] ",2
+42316ce0,SQM: Failed to start standard sample upload. [HRESULT 0x80004005 - E_FAIL] ,2
+33164d03,"SQM: Queued 0 file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6 ",2
+bb2465ae,SQM: Warning: Failed to upload all unsent reports. [HRESULT 0x80004005 - E_FAIL] ,2
+f8bfa561,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending. ",2
+56724272,NonStart: Checking to ensure startup processing was not required. ,2
+c8fbe014,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags 00000004, progress NULL, phase 0, pdwDisposition @0xb6fd90 ",1
+27efb802,"00000005 Creating NT transaction (seq 1), objectname [6]""(null)"" ",2
+48f6891f,"00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x214 ",1
+d00b39f2,00000007@2016/9/27:20:30:31.462 CSI perf trace: ,1
+22c3ee8e,"NonStart: Success, startup processing not required as expected. ",2
+aefbea77,Startup processing thread terminated normally ,2
+3899d273,00000008 CSI Store 4991456 (0x00000000004c29e0) initialized ,1
+25deade7,Session: <*> initialized by client WindowsUpdateAgent. ,608
+a034613f,Warning: Unrecognized packageExtended attribute. ,280
+4c6b5d26,Expecting attribute name [HRESULT 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM] ,224
+dfe63634,Failed to get next element [HRESULT 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM] ,224
+f8ae3198,Failed to internally open package. [HRESULT 0x800f0805 - CBS_E_INVALID_PACKAGE] ,18
+5b3e392d,"Read out cached package applicability for package: <*> ApplicableState: 112, CurrentState:112 ",405
+f3425d33,"Read out cached package applicability for package: <*> ApplicableState: 80, CurrentState:112 ",81
+9655fe18,"Read out cached package applicability for package: <*> ApplicableState: 80, CurrentState:0 ",26
+d09404fc,Read out cached package applicability for package: <*> ApplicableState: <*> CurrentState:0 ,14
+097f46d4,Read out cached package applicability for package: <*> ApplicableState: <*> <*> ,10
+51c17da0,"Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17681, ApplicableState: 112, CurrentState:0 ",2
+6f88cc1c,"Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.2.7601.16415, ApplicableState: 112, CurrentState:112 ",2
+d2b4129d,"Read out cached package applicability for package: <*> ApplicableState: 112, <*> ",6
+64259b3b,"Read out cached package applicability for package: <*> ApplicableState: 112, CurrentState:0 ",2
+81514e8e,"Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17388, ApplicableState: 112, CurrentState:0 ",2
+0361fa8b,"Read out cached package applicability for package: Microsoft-Windows-RDP-WinIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16398, ApplicableState: 112, CurrentState:112 ",2
+2723dfa0,"Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.18080, ApplicableState: 112, CurrentState:0 ",2
+6fc38ed3,"Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.17903, ApplicableState: 112, CurrentState:0 ",2
+c8e8a878,"Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16511, ApplicableState: 112, CurrentState:0 ",2
+060316ce,Failed to create backup log cab. [HRESULT 0x80070001 - ERROR_INVALID_FUNCTION] ,2
+a3a92716,Reboot mark refs incremented to: 1 ,1
+41e5c64c,Scavenge: Starts ,1
+4a66b57e,"00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]""TI6.0_0:0/"" ",1
+ad6b2df7,Scavenge: Begin CSI Store ,1
+34628623,0000000a Performing 1 operations; 1 are not lock/unlock and follow: ,1
+f57aad6d,"0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge. ",1
+e28b1e6c,0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching FALSE applyflags 7 ,1
+01854dff,"0000000d Creating NT transaction (seq 2), objectname [6]""(null)"" ",1
+8ef17bb4,"0000000e Created NT transaction (seq 2) result 0x00000000, handle @0xb8 ",1
+91c1b52e,0000000f@2016/9/27:20:40:54.786 CSI perf trace: ,1
+d94b6753,"Scavenge: Completed, disposition: 0X1 ",1
+f8de0c23,00000010@2016/9/27:20:40:54.787 CSI Transaction @0x47e9e0 destroyed ,1
+57698693,Reboot mark refs: 0 ,1
+58c1b1d5,Idle processing thread terminated normally ,1
+b77e8cdf,Ending the TrustedInstaller main loop. ,1
+fefaab8a,Starting TrustedInstaller finalization. ,1
+eefebf0d,Ending TrustedInstaller finalization. ,1
+37eb43bf,Starting TrustedInstaller initialization. ,1
+427c81ca,00000001@2016/9/28:16:00:46.160 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c39b6d @0x7fee5c0358f @0xffeee97c @0xffeed799 @0xffeedb2f) ,1
+1d69a4b6,00000002@2016/9/28:16:00:46.200 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c86ade @0x7fee5c52984 @0x7fee5c03665 @0xffeee97c @0xffeed799) ,1
+74afdfbc,00000003@2016/9/28:16:00:46.213 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fef9d98728 @0x7fef9d98856 @0xffeee474 @0xffeed7de @0xffeedb2f) ,1
+980c5451,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags 00000004, progress NULL, phase 0, pdwDisposition @0x116fa70 ",1
+b485f9c4,"00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x218 ",1
+e5fc7702,00000007@2016/9/28:16:00:46.260 CSI perf trace: ,1
+83768bc5,Loading offline registry hive: <*> into registry key <*> from path <*> ,8
+996cc9d9,Offline image is: read-only ,1
+dfff1695,"Disabling manifest caching, because the image is not writeable. ",1
+d0f39515,00000008@2016/9/28:16:00:46.635 PopulateComponentFamiliesKey - Begin ,1
+e0fb20ed,00000009@2016/9/28:16:01:03.072 PopulateComponentFamiliesKey - End ,1
+d55ee128,0000000a CSI Store 17159600 (0x000000000105d5b0) initialized ,1
+9bae4f45,Session: <*> initialized by client <*> ,1
+6c5123bf,Unloading offline registry hive: <*> ,8
+fc0c0883,0000000b CSI Store 3065408 (0x00000000002ec640) initialized ,1

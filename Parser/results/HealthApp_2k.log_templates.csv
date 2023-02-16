@@ -1,27 +1,107 @@
 EventId,EventTemplate,Occurrences
-b5f8f0ab,<*> <*> ,267
-347334c7,<*> <*> <*> <*> <*> ,292
-c5e64bf7,<*> action android intent action SCREEN <*> ,51
-e0afaf2b,<*> <*> <*> ,512
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,488
-d4ea0494,REPORT <*> <*> <*> <*> ,136
-b7fad337,screen <*> <*> <*> screen <*> ,1
-de6e3155,<*> action android intent action TIME TICK ,144
-ffb17eec,<*> time <*> <*> <*> <*> <*> ,5
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-6f15eb34,<*> <*> <*> time <*> <*> <*> <*> is <*> ,4
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,17
-b5f6193c,<*> <*> <*> <*> ,12
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
-fae9fcc5,<*> <*> <*> <*> is <*> ,4
-42a29d1b,<*> <*> is <*> <*> is <*> ,2
-31057b94,<*> <*> <*> <*> <*> is <*> ,2
-476988b0,<*> <*> <*> <*> <*> <*> <*> is <*> <*> is <*> ,2
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,8
-87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
-b78ab31e,<*> <*> is <*> ,8
-d5ef70c2,<*> <*> <*> <*> is <*> <*> <*> <*> <*> ,10
-01b12a9f,<*> <*> <*> is <*> ,10
-9e08cdfc,<*> ,11
-aa56dfbb,<*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> is <*> ,1
+621ffb6e,onStandStepChanged <*> ,128
+f75d64aa,<*> <*> 0 4 ,15
+29691865,onReceive action: android.intent.action.SCREEN_ON ,17
+50e8fc3f,processHandleBroadcastAction action:android.intent.action.SCREEN_ON ,17
+40b016a1,flush sensor data ,17
+f1d0c179,getTodayTotalDetailSteps <*> ,242
+69a87295,setTodayTotalDetailSteps <*> ,241
+f3d2c97e,calculateCaloriesWithCache totalCalories <*> ,122
+1ef891b1,calculateAltitudeWithCache totalAltitude 240 ,217
+e3c6f56b,REPORT : <*> <*> <*> 240 ,118
+5f9441e4,<*> 0 0 <*> ,5
+882504b1,<*> 1 0 4 ,59
+f10ad78b,<*> 2 0 4 ,42
+95a45ce8,onReceive action: android.intent.action.SCREEN_OFF ,17
+b5f8f0ab,<*> <*> ,6
+0f54a502,screen <*> <*> screen <*> ,1
+06a20828,processHandleBroadcastAction action:android.intent.action.TIME_TICK ,144
+ff5c1e54,<*> 0 0 0 ,67
+b3a781a7,<*> 4 0 4 ,1
+4485d338,flushTempCacheToDB by stand ,1
+da5f1c3a,Alarm uploadStaticsToDB totalSteps 7163Calories:153367Floor:240Distance:5112 ,1
+0a2f2891,writeDataToDB size 327 ,1
+5ed1e691,"upLoadOneMinuteDataToEngine time 25233975,0,93,0,20002 ",1
+4ed1f600,"upLoadOneMinuteDataToEngine time 25233976,0,1,0,20002 ",1
+3af1708b,"upLoadOneMinuteDataToEngine time 25233977,0,55,0,20002 ",1
+00c9c4ef,"upLoadOneMinuteDataToEngine time 25233978,0,5,0,20002 ",1
+1af7fa29,"upLoadOneMinuteDataToEngine time 25233979,0,46,0,20002 ",1
+b64b18e9,getBinderPackageName packageName com.huawei.health ,8
+c8921c43,"getAppContext() isAppValid health or wear, packageName com.huawei.health ",2
+ba3e3677,insertHiHealthData() checkAppType 0 appID 1 ,2
+ec2e0a7e,"insertHiHealthData() size 4,app 1,One Data Type 40002,packageName com.huawei.health,writeStatType 0 ",1
+2df86653,"saveHealthDetailData() deviceID 2,clientID 1,id 1 ",2
+84191a73,"saveStatData() type 40002,time 1513958400000,statClient 2,who is 1 ",1
+591b4a4b,"new date 20171223, type <*> <*> ",13
+868037ab,"saveStatData() type 40003,time 1513958400000,statClient 2,who is 1 ",1
+cc9be90a,"new date 20171223, type <*> 210654.54000000004 ",2
+3451faec,"saveHealthDetailData() saveOneDetailData fail hiHealthData 1513958400000,type 40003 ",1
+8f499828,"saveStatData() type 40005,time 1513958400000,statClient 2,who is 1 ",1
+c142fea8,"new date 20171223, type <*> 330.0 ",2
+16b8c056,"saveHealthDetailData() saveOneDetailData fail hiHealthData 1513958400000,type 40005 ",1
+bef7739e,"saveStatData() type 40004,time 1513958400000,statClient 2,who is 1 ",1
+f0417256,"bulkSaveDetailHiHealthData() size 4,totalTime 30 ",1
+7d72ac7c,startListenerChange subscribeList [1] ,2
+157df6ff,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode 4,errorMessage ERR_DATA_INSERT ",1
+567e91d1,insertHiHealthData() end totalTime 45 ,1
+5c66b642,uploadStaticsToDB() onResult type 4 obj true ,1
+8bbde467,uploadStaticsToDB failed message true ,1
+0a2a6531,checkInsertStatus stepSum or calorieSum is enough ,2
+4de25e7a,checkInsertStatus stepStatSum or calorieStatSum is enough ,2
+f8a5d30b,"stepSyncOrNot appSynTimes is 0, statsyncTimes is 0 ",2
+7589184b,"startInsertSportSync start auto sync,app is 1 ",2
+9057bff2,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0 ",2
+3b1cda86,"startInsertSportSync first 500 steps sync,do all sync ",2
+1d54cbc8,"startSync hiSyncOption HiSyncOption{syncAction 2, syncMethod 2, syncScope 0, syncDataType 20000, syncModel 2, pushAction 0},app 1 who 1 ",2
+4f3e4fcb,"insertHiHealthData() size 20,app 1,One Data Type 2,packageName com.huawei.health,writeStatType 0 ",1
+e0c92aad,needAutoSync autoSyncSwitch is open ,5
+e88f22b5,"initDataPrivacy the dataPrivacy switch is open, start push health data! ",5
+0a9eca61,initDataPrivacy the dataPrivacy is true ,5
+4a694a51,"initUserPrivacy the userPrivacy switch is open, start push user data! ",5
+495aabdf,initUserPrivacy the userPrivacy is true ,5
+9a7ed5cc,ifCanSync not! no cloud version ,5
+0bb7b96c,sendSyncFailedBroadcast ,5
+1028f585,"bulkSaveDetailHiHealthData() size 20,totalTime 34 ",1
+876ead2d,"saveRealTimeHealthDatasStat() size 1,totalTime 48 ",1
+62b80bee,insertHiHealthData() end totalTime 94 ,1
+7df5520f,InsertCallBack() onSuccess type 0 data true ,1
+472bde41,InsertEvent success begin:25233975 end:25233979 ,1
+f1ce9915,setWriteDBLastDataMinute 25233979 ,1
+34b63494,setWriteDBLastDataMinute success ,1
+b42c92a2,flush2DB result success ,1
+bb21f622,REPORT : <*> 5132 <*> 240 ,1
+ee758a6c,onStandStepChanged 3761 ,59
+0671c14f,calculateCaloriesWithCache totalCalories 130673 ,48
+d16284e8,REPORT : 7189 5132 153988 240 ,16
+865a00ec,<*> 0 0 5 ,83
+db9d758c,"timeStamp back,extendReportTimeStamp 1514039575000 ",1
+10db7216,startTimer start autoSync ,3
+70cf23c6,"startSync hiSyncOption HiSyncOption{syncAction 1, syncMethod 2, syncScope 0, syncDataType 20000, syncModel 2, pushAction 0},app 1 who 1 ",3
+677e592a,stepSyncOrNot appSynTimes is 0 ,3
+f082fbcb,"timeStamp back,extendReportTimeStamp 1514039977000 ",1
+d5a0deb9,"timeStamp back,extendReportTimeStamp 1514040836000 ",1
+833e5a8f,getTodaySportData mStepsRecordManager com.huawei.health.g.c@8a2a501 ,6
+26418364,"timeStamp back,extendReportTimeStamp 1514042082000 ",1
+f4c015ab,<*> <*> 0 0 ,1
+74f02d22,onStandStepChanged 3786 ,73
+cd84b156,calculateCaloriesWithCache totalCalories 131208 ,47
+0e7f3ec7,"timeStamp back,extendReportTimeStamp 1514042265000 ",1
+d5eb58a5,initEnviroument ,1
+9c25eeaf,getStepCounterStatus ,1
+06712065,getStepCounterStatus true ,1
+09daad8c,reStartStepCounter ,1
+ead92553,registersensorsuccess: true ,1
+0f6e8b91,clear() ,1
+9382824e,tryToRecordAsBasicStepData bWrite true ,1
+505f12a9,setBasicStandardSteps basicStandardStep 3786 restartSteps 0 ,1
+513ad684,setDiffTotalSteps 0 ,1
+a28f8c27,tryToReloadTodayBasicSteps1514044800223|3786|0|0 ,1
+e076f978,reload : 3786 restar 0 ,1
+ad46b501,calculateCaloriesWithCache totalCalories 0 ,24
+ba4d5ea4,calculateAltitudeWithCache totalAltitude 0 ,24
+8fed213c,REPORT : <*> <*> <*> <*> ,1
+93685af5,next day:steps0mLastReport7214 ,1
+c2e2102c,setGoalNotifiShownRecord 1514044800237 false ,1
+0b771890,closeNotification... ,1
+15ffdd21,deleteHealthNotification() ,1
+fe3f067a,<*> <*> new <*> <*> <*> <*> <*> <*> is <*> <*> is <*> ,1

@@ -1,103 +1,236 @@
 EventId,EventTemplate,Occurrences
-98163a8a,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> false <*> false <*> false <*> false ,1
-19be9de3,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,1
-fb731d3f,ready true policy <*> wakefulness <*> <*> <*> <*> <*> <*> true <*> false <*> false mode false manual <*> auto <*> adj <*> <*> <*> ,199
-78d0d727,<*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-347334c7,<*> <*> <*> <*> <*> ,70
-0ac95192,<*> <*> <*> false ,11
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,19
-004da029,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,1
-97e04d58,<*> <*> false <*> <*> <*> Translation <*> <*> ,52
-e0afaf2b,<*> <*> <*> ,139
-b94f9ef1,<*> caller <*> does not hold REAL GET TASKS limiting output ,118
-850e1980,<*> <*> <*> <*> <*> <*> <*> name android <*> <*> <*> <*> <*> <*> <*> ,8
-109a644b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Rect <*> <*> <*> <*> <*> Rect <*> <*> <*> <*> ,200
-9e08cdfc,<*> ,135
-d5997c1b,<*> surface Surface name <*> com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> android <*> <*> <*> <*> <*> com android server wm <*> <*> <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-070ec3be,<*> surface Surface name com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> android <*> <*> <*> <*> <*> com android server wm <*> <*> <*> ,1
-f8b4254e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,2
-67ce1993,<*> <*> <*> event <*> flags <*> uid <*> ,69
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,12
-77e806ae,<*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> com <*> <*> <*> <*> <*> <*> ,1
-b5f8f0ab,<*> <*> ,55
-08a18ede,<*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> ,1
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
-4060306b,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,10
-921c68bb,<*> <*> false ,34
-200af496,<*> <*> <*> <*> com <*> android <*> ,5
-722cb4e2,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,7
-8949213c,<*> <*> <*> <*> <*> <*> <*> name <*> <*> <*> <*> <*> <*> <*> ,11
-3e9f4e5f,<*> suspend blocker <*> <*> ,66
-51904032,HBM <*> <*> ,170
-eee15253,Animating brightness target <*> rate <*> ,85
-f37dfddc,<*> <*> <*> <*> true <*> false <*> <*> <*> true <*> false ,7
-f55dd443,<*> <*> <*> <*> true <*> false <*> <*> <*> false <*> false ,7
-a29b3eaf,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,8
-7726a014,<*> <*> <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-b039a2b5,<*> <*> <*> android <*> <*> <*> ,1
-31856bf9,<*> <*> <*> android <*> <*> <*> <*> <*> <*> com android server <*> <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,7
-be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
-f04d7c87,<*> <*> false <*> true <*> <*> true ,4
-b5f6193c,<*> <*> <*> <*> ,16
-00af6af0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,27
-0dbcf7f6,<*> <*> true <*> <*> <*> Translation <*> <*> ,13
-6fe5db1d,<*> surface Surface name com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> ,1
-87536ff2,<*> false ,20
-79b3ff45,<*> <*> <*> <*> <*> true <*> <*> <*> <*> <*> <*> <*> false ,1
-059443b0,<*> true ,182
-f7e71105,<*> <*> <*> <*> com android <*> <*> <*> <*> <*> <*> <*> com android <*> <*> <*> com android <*> ,2
-f850cf95,<*> not <*> <*> ,3
-252466ee,android <*> <*> <*> <*> <*> <*> ,3
-4419d4b3,<*> <*> <*> com android <*> <*> <*> <*> <*> ,2
-7587d1d7,<*> <*> <*> <*> <*> true ,1
-bf70b3b2,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false ,4
-8d87d878,<*> <*> <*> <*> true <*> true <*> true ,2
-ab281563,<*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-458bc788,<*> <*> <*> <*> <*> false <*> <*> <*> <*> <*> <*> <*> false ,1
-ac9ec8a7,<*> <*> <*> Surface <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false <*> <*> ,4
-be3753e6,<*> <*> <*> <*> false <*> false <*> true ,1
-99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,32
-87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
-4d9e8471,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,14
-1343c014,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
-600aa55c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,7
-c7543e5b,<*> <*> false <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> android <*> <*> <*> <*> <*> com android <*> <*> <*> <*> ,7
-a5969321,<*> <*> <*> com <*> <*> com <*> <*> <*> <*> ,10
-0cd58dcc,<*> surface Surface name com <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server <*> <*> <*> <*> com android server <*> <*> <*> <*> ,1
-6901ad83,<*> <*> <*> flags <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,2
-d94d4b63,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> uid <*> <*> <*> ,2
-df8ba77e,<*> <*> <*> <*> false ,6
-fb1c1457,<*> <*> true ,6
-d8443ae9,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> ,3
-f04f2a17,<*> <*> android <*> <*> <*> <*> ,5
-3bb34d30,<*> surface Surface name <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> ,14
-3d755abd,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> com android <*> <*> <*> <*> <*> <*> ,2
-49a1024a,<*> <*> com android <*> <*> <*> <*> <*> <*> <*> ,1
-e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-edf244c6,<*> <*> <*> <*> <*> <*> com <*> android <*> <*> <*> <*> com <*> <*> com <*> android <*> <*> <*> <*> <*> not <*> ,1
+05e3d80a,"<*> <*> <*> AppWindowToken{9f4ef63 token Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity <*> <*> false, <*> false, <*> false, <*> <*> ",1
+a07e3018,"acquire lock <*> flags 0x1, tag <*> <*> name <*> ws null, uid <*> pid <*> ",1
+ab82c491,"ready true,policy 3,wakefulness 1,wksummary <*> 0x1,bootcompleted true,boostinprogress false,waitmodeenable false,mode false,manual 38,auto -1,adj 0.0userId 0 ",3
+6f50b22a,Skipping AppWindowToken{df0798e token Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide ,2
+e7d98f02,visible is <*> ,3
+72c56c7b,mVisiblity.getValue is false ,5
+80ddba23,visible is <*> gt 0 ,2
+d2c1ab6f,"release:lock <*> flg 0x0, tag <*> <*> name <*> ws null, uid <*> pid <*> ",1
+cd920794,"updateClipping isOverlap:false, getTopPadding 333.0, Translation <*> ",39
+732e0663,updateDimmedActivatedHideSensitive overlap:false ,52
+f17a01fe,getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output ,24
+585503c5,"release:lock 189667585, flg 0x0, tag ""*launch*"", name android"", ws <*> uid 1000, pid 1702 ",5
+4b6c9d4e,"setSystemUiVisibility vis 40000500 mask <*> oldVal <*> newVal 40000500 diff <*> fullscreenStackVis 0 dockedStackVis 0, fullscreenStackBounds Rect(0, 0 - <*> <*> dockedStackBounds Rect(0, 0 - 0, 0) ",5
+d0e946a0,cancelAutohide ,15
+bcc966c7,"notifyUiVisibilityChanged:vis 0x40000500, SystemUiVisibility 0x40000500 ",5
+14c53413,Destroying surface Surface(name <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+51831f18,Destroying surface Surface(name <*> called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 <*> <*> <*> <*> <*> ,1
+64a16cc7,"release:lock <*> flg 0x0, tag <*> name android"", ws <*> uid 1000, pid 1702 ",1
+fa834cdb,"userActivityNoUpdateLocked: eventTime <*> event 0, flags <*> uid 1000 ",1
+2bd24dba,"ready true,policy 3,wakefulness 1,wksummary 0x1,uasummary 0x1,bootcompleted true,boostinprogress false,waitmodeenable false,mode false,manual 38,auto -1,adj 0.0userId 0 ",100
+324fdc6d,<*> <*> is <*> <*> <*> ,1
+81ec54ce,<*> <*> <*> <*> <*> to <*> u0 <*> ,1
+ee5d5f0d,startAnimation <*> ,2
+2498f96d,"release:lock <*> flg 0x0, tag <*> name android"", ws null, uid 1000, pid 1702 ",3
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
+a27db089,<*> <*> <*> <*> <*> 0 <*> ,3
+99eb1a5a,<*> <*> <*> <*> <*> <*> 0 <*> <*> <*> <*> ,3
+744442f4,"acquire lock <*> flags 0x1, tag ""RILJ_ACK_WL"", name com.android.phone, ws null, uid 1001, pid 2626 ",5
+4b9a6ca7,shouldBlockLocation running ... ,37
+00e5cd57,shouldBlockLocation ret:false ,33
+a2038a65,<*> calling app is <*> ,5
+6ec371bc,"release:lock <*> flg 0x0, tag ""RILJ_ACK_WL"", name com.android.phone"", ws null, uid 1001, pid 2626 ",4
+9be7425f,"release:lock <*> flg 0x0, tag ""AudioMix"", name audioserver"", ws null, uid 1041, pid 0 ",6
+6a0442a8,"ready true,policy 3,wakefulness 1,wksummary 0x0,uasummary 0x1,bootcompleted true,boostinprogress false,waitmodeenable false,mode false,manual 38,auto -1,adj 0.0userId 0 ",96
+65ae5dc9,"Releasing suspend blocker ""PowerManagerService.WakeLocks"". ",33
+83ec73db,HBM brightnessIn 38 ,85
+184aa364,HBM brightnessOut 38 ,85
+2a768b8b,"Animating brightness: target 38, rate 200 ",85
+7bbc1e07,"userActivityNoUpdateLocked: eventTime <*> event 2, flags 0x0, uid 1000 ",54
+0dd400c2,suspendAutohide ,23
+192155b5,interceptKeyTq keycode 4 interactive true keyguardActive false policyFlags 2b000002 down true canceled false ,3
+cb7cbef8,"interceptKeyBeforeQueueing: key 4 , result : 1 ",6
+e51238e3,"userActivityNoUpdateLocked: eventTime <*> event <*> flags 0x0, uid 1000 ",6
+d782ef74,resumeSuspendedAutohide ,10
+b4c39d93,interceptKeyTq keycode 4 interactive true keyguardActive false policyFlags 2b000002 down false canceled false ,3
+04eab568,querySoundEffectsEnabled... ,17
+68bcfcca,"acquire lock 189667585, flags 0x1, tag ""*launch*"", name android, ws <*> uid 1000, pid 1702 ",5
+2fc3ad08,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"". ",33
+ef5e9562,Skipping AppWindowToken{9f4ef63 token Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}} -- going to hide ,2
+6de420d6,"setSystemUiVisibility vis <*> mask <*> oldVal 40000500 newVal <*> diff <*> fullscreenStackVis 0 dockedStackVis 0, fullscreenStackBounds Rect(0, 0 - <*> <*> dockedStackBounds Rect(0, 0 - 0, 0) ",5
+50d5be69,"notifyUiVisibilityChanged:vis 0x508, SystemUiVisibility 0x508 ",2
+b5f6193c,<*> <*> <*> <*> ,1
+fd662f23,<*> x <*> y <*> ,2
+9e08cdfc,<*> ,9
+fbcacbe0,getRingtonePlayer... ,2
+3828b830,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings > ,3
+43ff6c41,"updateLightsLocked,mInCall false,mScreenOn true,ledNotification null?true ",4
+a3a88fbd,"updateLightsLocked,turn off notificationLight ",6
+41eae05b,"<*> previousNotificationEnd:0.0, <*> location:4, i:0, getTopPadding:333.0, <*> ",10
+6c529b85,<*> i:0 ,10
+b2437d83,"updateClipping isOverlap:true, getTopPadding 333.0, Translation <*> ",13
+58880d9c,updateDimmedActivatedHideSensitive overlap:true ,13
+fa9c23f4,"notifyUiVisibilityChanged:vis 0x40000600, SystemUiVisibility 0x40000600 ",3
+5b6c34b5,onExpandingStarted ,2
+9e7c9514,Destroying surface Surface(name <*> called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555 ,3
+694bd9a3,cancelPeek: false ,20
+1a37e030,"flingToHeight: vel <*> expand true, target <*> collapseSpeedUpFactor 1.0, expandBecauseOfFalsing false ",1
+b5f8f0ab,<*> <*> ,6
+6b301214,onExpandingFinished ,2
+2db6cce3,"updateClipping isOverlap:false, getTopPadding 333.0, Translation 0.0 ",13
+1efcc063,Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui ,2
+814a1cad,logNotificationVisibilityChanges runInThread start ,6
+bb76166c,onNotificationVisibilityChanged called ,6
+cb3cd013,logNotificationVisibilityChanges runInThread over ,6
+30704828,<*> <*> is null <*> <*> ,1
+35e17ae9,registerCallback not in UI. ,3
+ed9e057e,android.util.AndroidRuntimeException: Must execute in UI ,3
+457b0d87,*** <*> callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093 ,1
+d1f51f14,*** unregister callback for null ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
+25d4e859,"onInterceptTouchEvent MotionEvent { action <*> actionButton 0, id[0] 0, x[0] <*> y[0] <*> toolType[0] TOOL_TYPE_FINGER, buttonState 0, metaState 0, flags 0x0, edgeFlags 0x0, pointerCount 1, historySize 0, eventTime 261851646, downTime 261851646, deviceId 3, source 0x1002 }, mBlockTouches false ",1
+caeff527,"onInterceptTouchEvent MotionEvent { action <*> actionButton 0, id[0] 0, x[0] <*> y[0] <*> toolType[0] TOOL_TYPE_FINGER, buttonState 0, metaState 0, flags 0x0, edgeFlags 0x0, pointerCount 1, historySize 0, eventTime <*> downTime 261851646, deviceId 3, source 0x1002 }, mBlockTouches false ",1
+91e53142,playSoundEffect effectType: 0 ,10
+78d3c931,"animateCollapsePanels:flags 2, force true, delayed true, mExpandedVisible true ",2
+5d76433d,START u0 {act <*> flg <*> cmp com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid <*> on display 0 ,1
+fb52507e,"ActivityRecord info: <*> com.tencent.mobileqq.activity.SplashActivity}, euid: 0 ",2
+586c057c,onNotificationClick called ,2
+c776e594,"cancelNotification,index:0 ",3
+c2367279,"cancelNotification,cancelNotificationLocked,callingUid <*> <*> ",2
+a46f7114,"cancelNotificationLocked called,tell the app,reason 1 ",1
+1a2ea6c6,cancelNotificationLocked:0|com.tencent.mobileqq|121|null|10111 ,2
+0ba7e75d,"cancelNotificationLocked,remove com.tencent.mobileqq ",2
+44cab633,applyOptionsLocked: Unknown animationType 0 ,2
+b6724fda,"flingToHeight: vel 0.0, expand false, target 0.0, collapseSpeedUpFactor 1.0, expandBecauseOfFalsing false ",1
+81d979f0,"Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], <*> maxLayer:[21085], inRotation:[false], rot:[0] ",2
+b7272763,removeNotification:0|com.tencent.mobileqq|121|null|10111 ,2
+9b8aa711,"updateNotificationShade: total 0, active 0 ",6
+03cd8a4f,"animateCollapsePanels:flags 0, force false, delayed false, mExpandedVisible true ",1
+3f8c1790,The change in focus caused us to need to do a layout <*> ,12
+0fbe9412,setLightsOn(true) ,181
+96caf931,"setSystemUiVisibility vis 0 mask 1 oldVal <*> newVal <*> diff 0 fullscreenStackVis 0 dockedStackVis 0, fullscreenStackBounds Rect(0, 0 - 0, 0), dockedStackBounds Rect(0, 0 - 0, 0) ",4
+5fb2700a,removeNotificationChildren ,12
+c9d28349,"Skipping, withExcluded: false, tr.intent:Intent { flg 0x10804000 cmp com.android.systemui/.recents.RecentsActivity bnds [264,444][920,908] } ",14
+15d91fba,"Skipping, withExcluded: false, tr.intent:Intent { act android.intent.action.MAIN flg 0x10840000 cmp com.android.incallui/.InCallActivity (has extras) } ",14
+c8a4caa1,"Skipping, withExcluded: false, tr.intent:Intent { flg 0x18800000 cmp com.tencent.mm/.plugin.base.stub.WXEntryActivity (has extras) } ",14
+40bbae13,"Skipping, withExcluded: false, tr.intent:Intent { flg 0x10800000 cmp com.tencent.qqmusic/.business.lockscreen.LockScreenActivity (has extras) } ",7
+8e63efde,"Skipping, withExcluded: false, tr.intent:Intent { act com.android.contacts.action.CHOOSE_SUB dat tel:xxxxxxxxxxx flg 0x10808000 cmp com.android.contacts/.ChooseSubActivity (has extras) } ",7
+42159b1c,"Skipping, withExcluded: false, tr.intent:Intent { act android.intent.action.VIEW dat file:///storage/emulated/0/Tencent/QQfile_recv/b.apk typ application/vnd.android.package-archive flg 0x10800000 cmp com.android.packageinstaller/.PackageInstallerActivity (has extras) } ",7
+5ce2adb1,"getRecentTasks: num 20,flags 62,totalTasks 46 ",7
+7708df59,getRecentTasks: topActivity ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity} ,8
+99003772,"getRecentTasks: num 10,flags 62,totalTasks 46 ",7
+20c177e5,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 121 ",3
+d230e6d2,"cancelNotification,index:-1 ",20
+2cd58f2f,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 119 ",3
+720c266b,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 122 ",2
+098a13c5,makeExpandedInvisible: mExpandedVisible true ,3
+716d058d,closeQs ,12
+b832668b,instantCollapse ,9
+cbdf4887,disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings > ,3
+f1c5ca27,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 123 ",2
+f50765d1,getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output ,31
+b92f88d5,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 129 ",2
+72051c2b,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 135 ",2
+b0707630,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 140 ",2
+554ceca4,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 144 ",2
+b4f9a383,"cancelNotificationWithTag pid 28601,uid 10111,tag null,pkg com.tencent.mobileqq,id 193 ",2
+dba77879,"setSystemUiVisibility vis 0 mask 1 oldVal 40000500 newVal 40000500 diff 0 fullscreenStackVis 0 dockedStackVis 0, fullscreenStackBounds Rect(0, 0 - 0, 0), dockedStackBounds Rect(0, 0 - 0, 0) ",177
+6f2036db,*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093 ,1
+5dde78bb,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output ,1
+ef6bdf9b,Destroying surface Surface(name <*> called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.AppWindowToken.destroySurfaces:374 com.android.server.wm.AppWindowToken.notifyAppStopped:400 com.android.server.wm.WindowManagerService.notifyAppStopped:4869 com.android.server.am.ActivityStack.activityStoppedLocked:1393 com.android.server.am.ActivityManagerService.activityStopped:7690 ,5
+2633e754,getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output ,32
+5ed29b50,isMusicActive... ,12
+8538682e,<*> <*> calling <*> <*> pid <*> uid <*> ,1
+8ea06a89,"acquire lock <*> flags 0x1, tag <*> name android, ws null, uid 1000, pid 1702 ",2
+bebcb924,setWiredDeviceConnectionState type: <*> state: 0 ,2
+b4846e31,"acquire lock <*> flags 0x1, tag ""AudioMix"", name <*> ws null, uid 1041, pid 0 ",5
+4bfc29cb,getLastAudibleStreamVolume treamType: 0 ,1
+18a0f928,getRunningAppProcesses: caller 10091 does not hold REAL_GET_TASKS; limiting output ,18
+f5f53f6a,getLastAudibleStreamVolume treamType: <*> ,6
+60808ce2,getDevicesForStream streamType: 3 ,2
+9afb09f5,getLastAudibleStreamVolume treamType: 3 ,1
+4b1af65a,getLastAudibleStreamVolume treamType: 5 ,1
+b3288594,cleanUpApplicationRecord -- <*> ,6
+f365cc29,"cleanUpApplicationRecordLocked, pid: 12025, restart: false ",1
+404b350f,"cleanUpApplicationRecordLocked, reset pid: 12025, euid: 0 ",1
+24d4b89e,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested false ,6
+e98b5245,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount 0 ,6
+d0f6be91,setSpeakerphoneOn <*> <*> ,1
+f2ddb932,setSpeakerphoneOn <*> ,1
+57776685,"sending alarm <*> type 3 when <*> PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval 0,listenerTag time_tick ",1
+778141d5,Received TIME_TICK alarm; rescheduling ,3
+48fd1074,scheduleTimeTickEvent triggerAtTime 509202333 ,1
+c2310775,received broadcast android.intent.action.TIME_TICK ,3
+733da41c,handleTimeUpdate ,3
+71d5611e,Destroying surface Surface(name PopupWindow:9b04807) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555 ,5
+17c2ef9c,Destroying surface Surface(name PopupWindow:317e46) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555 ,6
+085c4fec,"sending alarm <*> type 3 when <*> <*> PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval 0,listenerTag null ",2
+0a465a29,"cleanUpApplicationRecordLocked, pid: 5784, restart: false ",1
+88c14504,"cleanUpApplicationRecordLocked, reset pid: 5784, euid: 0 ",1
+ebff4732,"cleanUpApplicationRecordLocked, pid: 23484, restart: false ",1
+41be141d,"cleanUpApplicationRecordLocked, reset pid: 23484, euid: 0 ",1
+b7b1f3a6,"cleanUpApplicationRecordLocked, pid: 5769, restart: false ",1
+cf573958,"cleanUpApplicationRecordLocked, reset pid: 5769, euid: 0 ",1
+01abf7f7,"sending alarm <*> type 3 when 509202333 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval 0,listenerTag time_tick ",1
+f6dda761,scheduleTimeTickEvent triggerAtTime 509262332 ,1
+a1181205,<*> PendingIntentRecord{e204f60 com.android.phone <*> changed <*> <*> ,1
+7485a35a,<*> to start <*> Intent { <*> <*> cmp <*> } <*> <*> <*> <*> ,1
+2cbe2d37,"acquire lock 120758482, flags 0x1, tag ""RILJ_ACK_WL"", name com.android.phone, ws null, uid 1001, pid 2626 ",5
+1d9d527b,"release:lock 120758482, flg 0x0, tag ""RILJ_ACK_WL"", name com.android.phone"", ws null, uid 1001, pid 2626 ",3
 b14682d9,<*> <*> false <*> <*> <*> <*> ,1
-7ce5c9a7,<*> com <*> <*> <*> <*> <*> <*> <*> ,1
-e658b9af,<*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-37d86ff7,<*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> name com <*> <*> <*> <*> <*> ,1
-c4dec2bc,<*> <*> <*> com <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> ,1
-68b1795a,<*> surface Surface name <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> <*> android <*> <*> <*> <*> ,3
-d5da9572,<*> <*> <*> <*> false <*> false <*> false ,5
-015bfb75,<*> surface Surface name com <*> <*> com <*> <*> <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server <*> <*> <*> <*> com android server <*> <*> <*> <*> ,2
-8b6794e1,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-65368943,<*> <*> <*> <*> com <*> <*> <*> <*> <*> ,2
-4ca23416,<*> <*> false <*> true <*> <*> false ,2
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-4991b3b1,<*> <*> <*> android <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> com <*> android <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-a8ddc107,<*> <*> <*> <*> com <*> android <*> <*> <*> <*> ,1
-d6e2dbe0,<*> <*> <*> com <*> android <*> com <*> android <*> <*> ,4
-cf4d9d0e,<*> <*> <*> com <*> android <*> <*> <*> ,2
-e06cdf2b,<*> surface Surface name com <*> android <*> com <*> android <*> <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server wm <*> <*> <*> com android server <*> <*> <*> <*> com android server <*> <*> <*> <*> ,2
-094a3fec,<*> <*> <*> android <*> <*> <*> <*> android <*> <*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-005df8b0,<*> <*> <*> <*> <*> <*> <*> com <*> <*> ,3
-b939b164,<*> <*> false <*> false <*> <*> <*> <*> <*> <*> ,1
-3e03cbc4,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-4afb4b06,<*> <*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-71a25d93,<*> <*> <*> <*> com <*> <*> <*> <*> <*> <*> ,1
-5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,4
+2944e600,<*> <*> <*> <*> service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService <*> <*> ,1
+00a8028a,"cleanUpApplicationRecordLocked, pid: 12236, restart: false ",1
+e345c604,"cleanUpApplicationRecordLocked, reset pid: 12236, euid: 0 ",1
+58727e5a,<*> <*> app <*> <*> <*> <*> <*> 0 ,1
+2ed7e4a2,<*> <*> <*> <*> service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService ,1
+56cc8626,Destroying surface Surface(name InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:517 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:291 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:233 com.android.server.wm.WindowManagerService$H.handleMessage:8670 android.os.Handler.dispatchMessage:105 ,3
+1a7f2ebc,interceptKeyTq keycode 3 interactive true keyguardActive false policyFlags 2b000002 down true canceled false ,4
+2f2425b3,"interceptKeyBeforeQueueing: key 3 , result : 1 ",8
+f037f8b2,"userActivityNoUpdateLocked: eventTime <*> event 0, flags 0x0, uid 1000 ",8
+af034a0d,interceptKeyTq keycode 3 interactive true keyguardActive false policyFlags 2b000002 down false canceled false ,4
+3a2effae,"animateCollapsePanels:flags 0, force false, delayed false, mExpandedVisible false ",5
+6b769658,"acquire lock 189667585, flags 0x1, tag ""*launch*"", name android, ws WorkSource{10057}, uid 1000, pid 1702 ",3
+90dd52fc,"Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21000], maxLayer:[21080], inRotation:[false], rot:[0] ",2
+1a2b0b64,"notifyUiVisibilityChanged:vis 0x708, SystemUiVisibility 0x708 ",3
+6f74319c,"setSystemUiVisibility vis <*> mask <*> oldVal <*> newVal <*> diff <*> fullscreenStackVis 0 dockedStackVis 0, fullscreenStackBounds Rect(0, 0 - <*> <*> dockedStackBounds Rect(0, 0 - 0, 0) ",9
+bf4a9541,"notifyUiVisibilityChanged:vis 0xc0000700, SystemUiVisibility 0xc0000700 ",3
+58c54e80,"release:lock 189667585, flg 0x0, tag ""*launch*"", name android"", ws WorkSource{10057}, uid 1000, pid 1702 ",3
+18019eef,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output ,8
+563f5c73,"cleanUpApplicationRecordLocked, pid: 13094, restart: false ",1
+40c8171a,"cleanUpApplicationRecordLocked, reset pid: 13094, euid: 0 ",1
+85ec505c,enqueueNotificationInternal: pkg com.tencent.mobileqq id 121 notification Notification(pri 1 contentView null vibrate <*> sound null tick defaults 0x0 flags <*> color 0x00000000 vis PRIVATE) ,1
+b394c08c,enqueueNotificationInternal: n.getKey 0|com.tencent.mobileqq|121|null|10111 ,1
+ac4086bb,getRingerMode... ,3
+2d908846,"updateLightsLocked,mInCall false,mScreenOn true,ledNotification null?false ",2
+af702220,addNotification key 0|com.tencent.mobileqq|121|null|10111 ,1
+30034f6b,mHeadsUpExistenceChangedRunnable ,4
+52596e5c,"updateNotificationShade: total 1, active 1 ",7
+4399d0e7,Marking notification as seen 0|com.tencent.mobileqq|121|null|10111 ,1
+0fab524b,onNotificationExpansionChanged called ,2
+027507c0,START u0 {act android.intent.action.MAIN cat [android.intent.category.LAUNCHER] flg 0x10200000 cmp <*> bnds <*> from uid 10057 on display 0 ,1
+3684ed56,ActivityRecord info: <*> <*> euid: 0 ,2
+b4f46917,notifyUiVisibilityChanged:vis <*> SystemUiVisibility <*> ,3
+214fbdb3,getRecentTasks: topActivity ComponentInfo{com.example.android.notepad/com.example.android.notepad.NoteEditor} ,4
+675a1d28,"ACTIVITY check resid: com.example.android.notepad, size 0 ",1
+1894dd80,"overlapAmount:220.0, previousNotificationEnd:0.0, newYTranslation:-220.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-553 ",3
+bc9e6e93,"state.clipTopAmount:204, i:0 ",3
+29381202,Destroying surface Surface(name <*> called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.AppWindowToken.destroySurfaces:374 <*> <*> <*> <*> ,1
+69bf0c61,"ACTIVITY check resid: com.example.android.notepad, size <*> ",1
+77671233,getTasks: caller 10020 does not hold REAL_GET_TASKS; limiting output ,4
+2f2662d6,START u0 {act android.intent.action.MAIN cat [android.intent.category.LAUNCHER] flg 0x10200000 cmp com.tencent.mobileqq/.activity.SplashActivity bnds <*> from uid 10057 on display 0 ,1
+7754f2e6,"cancelNotificationLocked called,tell the app,reason <*> ",1
+c2384c52,shouldBlockLocation ret:true ,4
+055e547a,getAllCellInfo is blocked by permission manager . callingPackage com.tencent.mobileqq ,3
+234caf52,<*> is <*> <*> <*> <*> <*> <*> ,1
+6fc2f6ec,"sending alarm <*> type 3 when 509262332 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval 0,listenerTag time_tick ",1
+2c64e916,scheduleTimeTickEvent triggerAtTime <*> ,1
+9d8e93a6,<*> treamType: 5 ,1
+94486f30,"<*> <*> false, <*> false, <*> 0, <*> 0, <*> 23 ",1
+a3aa7cb8,received broadcast <*> ,1
+61fbf050,ACTION_BATTERY_CHANGED <*> <*> <*> 0 ,1
+921c68bb,<*> <*> false ,1
+18005443,ACTION_BATTERY_CHANGED pluggedType: 0 ,1
+a29f0ee5,<*> changed pluggedType: 0 ,1
+689e828b,RefreshBatteryInfo isBatteryLow: 23 ,2
+a5e202ee,enqueueNotificationInternal: pkg <*> id <*> notification Notification(pri 1 contentView null vibrate <*> sound null tick defaults 0x0 flags <*> color 0x00000000 <*> <*> vis PRIVATE) ,1
+35cdafa6,enqueueNotificationInternal: n.getKey 0|com.tencent.mm|4097|null|10112 ,1
+f9adf32d,addNotification key 0|com.tencent.mm|4097|null|10112 ,1
+16c6f46d,Marking notification as seen 0|com.tencent.mm|4097|null|10112 ,1
+2fdf4fce,"onInterceptTouchEvent MotionEvent { action <*> actionButton 0, id[0] 0, x[0] <*> y[0] <*> toolType[0] TOOL_TYPE_FINGER, buttonState 0, metaState 0, flags 0x0, edgeFlags 0x0, pointerCount 1, historySize 0, eventTime 261991304, downTime 261991304, deviceId 3, source 0x1002 }, mBlockTouches false ",1
+d1366afe,"onInterceptTouchEvent MotionEvent { action <*> actionButton 0, id[0] 0, x[0] <*> y[0] <*> toolType[0] TOOL_TYPE_FINGER, buttonState 0, metaState 0, flags 0x0, edgeFlags 0x0, pointerCount 1, historySize 0, eventTime <*> downTime 261991304, deviceId 3, source 0x1002 }, mBlockTouches false ",1
+fdd022eb,START u0 <*> 0x24000000 cmp com.tencent.mm/.ui.LauncherUI (has extras)} from uid <*> on display 0 ,1
+fda58d83,<*> <*> from <*> <*> <*> <*> <*> Intent { flg 0x24000000 cmp com.tencent.mm/.ui.LauncherUI (has extras) } ,1
+b406a326,makeExpandedInvisible: mExpandedVisible false ,1
+f75893ce,getRecentTasks: topActivity ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI} ,2
