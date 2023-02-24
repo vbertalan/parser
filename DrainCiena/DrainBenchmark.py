@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from pathlib import Path
 import DrainCiena
 import sys
 import os
@@ -37,9 +36,9 @@ log_datafiles = {
     #     'depth': 4
     #     },
 
-    'Mac': {
+    'Ciena': {
         # Name of the log file
-        'log_file': 'Mac.log',
+        'log_file': 'Ciena_error_lines_20220701-20220715.txt',
 
         # With pre-defined log formats and structures of the lines
         #'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
