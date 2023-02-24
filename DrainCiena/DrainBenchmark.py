@@ -11,15 +11,30 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "logs"
-output_dir = "/result/"  # The output directory of parsing results
+input_dir = "DrainCiena/logs/"
+output_dir = "DrainCiena/result/"  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
+        # Name of the log file
         'log_file': 'HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+
+        # With pre-defined log formats and structures of the lines
+        #'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+
+        # Without pre-defined log formats
+        'log_format': '<Content>',
+
+        # In case we know the regex of the lines
+        #'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+
+        # If we do not know the regex of the lines
+        'regex': [],
+
+        # Similarity threshold
         'st': 0.5,
+
+        # Max depth of the parsing tree
         'depth': 4
         },
 }
@@ -29,17 +44,8 @@ for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
-    print(log_file)
-    test_path = Path("logs/HDFS_2k.log")
-    print(test_path.is_file())
-    print(os.getcwd())  
-
 
     parser = DrainCiena.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
-    
-    #empty_array = []
-    #parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex = empty_array, st=setting['st'])
-
     parser.parse(log_file)
     
     F1_measure, accuracy = evaluator.evaluate(
