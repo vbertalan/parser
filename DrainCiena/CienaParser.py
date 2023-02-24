@@ -62,7 +62,7 @@ log_datafiles = {
 }
 
 # For each of the log datasets, parse the file, and create two resulting files:
-# 1 - file_structured.csv, representing the parsed lines
+# 1 - file_structured.csv, representing the parsed lines, the log templates found, and the parameters replaced
 # 2 - file_templates.csv, representing the unique templates found after the parsing
 
 for dataset, setting in log_datafiles.items():
