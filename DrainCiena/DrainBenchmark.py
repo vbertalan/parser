@@ -38,6 +38,10 @@ log_datafiles = {
         },
 }
 
+# For each of the log datasets, parse the file, and create two resulting files:
+# 1 - file_structured.csv, representing the parsed lines
+# 2 - file_templates.csv, representing the unique templates found after the parsing
+
 for dataset, setting in log_datafiles.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))

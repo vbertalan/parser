@@ -1,17 +1,11 @@
-"""
-Description : This file implements the Drain algorithm for log parsing
-Author      : LogPAI team
-License     : MIT
-
-"""
-
-import regex as re
-import os
-import numpy as np
-import pandas as pd
-import hashlib
 from datetime import datetime
+import pandas as pd
+import regex as re
+import numpy as np
+import hashlib
 import sys
+import os
+
 #sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena/")
 
@@ -22,7 +16,7 @@ class Logcluster:
             logIDL = []
         self.logIDL = logIDL
 
-
+# Class to represent the node of the tree
 class Node:
     def __init__(self, childD=None, depth=0, digitOrtoken=None):
         if childD is None:
@@ -31,7 +25,7 @@ class Node:
         self.depth = depth
         self.digitOrtoken = digitOrtoken
 
-
+# Class to parse the logs
 class LogParser:
     def __init__(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4, 
                  maxChild=100, rex=[], keep_para=True):
@@ -101,7 +95,7 @@ class LogParser:
         currentDepth = 1
         for token in logClust.logTemplate:
 
-            #Add current log cluster to the leaf node
+            # Add current log cluster to the leaf node
             if currentDepth >= self.depth or currentDepth > seqLen:
                 if len(parentn.childD) == 0:
                     parentn.childD = [logClust]
@@ -109,7 +103,7 @@ class LogParser:
                     parentn.childD.append(logClust)
                 break
 
-            #If token not matched in this layer of existing tree. 
+            # If token not matched in this layer of existing tree. 
             if token not in parentn.childD:
                 if not self.hasNumbers(token):
                     if '<*>' in parentn.childD:
@@ -139,13 +133,13 @@ class LogParser:
                     else:
                         parentn = parentn.childD['<*>']
 
-            #If the token is matched
+            # If the token is matched
             else:
                 parentn = parentn.childD[token]
 
             currentDepth += 1
 
-    #seq1 is template
+    # seq1 is template
     def seqDist(self, seq1, seq2):
         assert len(seq1) == len(seq2)
         simTokens = 0
@@ -255,7 +249,7 @@ class LogParser:
         rootNode = Node()
         logCluL = []
 
-        ## CARREGA OS DADOS EM UM DATAFRAME
+        # Loads data to a dataframe
         self.load_data()
 
         count = 0
@@ -265,13 +259,13 @@ class LogParser:
             # logmessageL = filter(lambda x: x != '', re.split('[\s=:,]', self.preprocess(line['Content'])))
             matchCluster = self.treeSearch(rootNode, logmessageL)
 
-            #Match no existing log cluster
+            # Match no existing log cluster
             if matchCluster is None:
                 newCluster = Logcluster(logTemplate=logmessageL, logIDL=[logID])
                 logCluL.append(newCluster)
                 self.addSeqToPrefixTree(rootNode, newCluster)
 
-            #Add the new log message to the existing cluster
+            # Adds the new log message to the existing cluster
             else:
                 newTemplate = self.getTemplate(logmessageL, matchCluster.logTemplate)
                 matchCluster.logIDL.append(logID)
@@ -285,15 +279,6 @@ class LogParser:
 
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
-
-        ## PRINTANDO LOGCLUL
-        #with open(r'logparser/LOGCLUL.txt', 'w') as fp:
-        #    for item in logCluL:
-        #        # write each item on a new line
-        #        fp.write("%s\n" % item)
-        #print('TERMINOU DE PRINTAR LOGCLUL')
-        #print(logCluL)
-        #print(type(logCluL))
 
         self.outputResult(logCluL)
 
@@ -349,8 +334,7 @@ class LogParser:
         template_regex = re.sub(r"<.{1,5}>", "<*>", row["EventTemplate"])
         if "<*>" not in template_regex: return []
         template_regex = re.sub(r'([^A-Za-z0-9])', r'\\\1', template_regex)
-        
-        ## ALTERAR LINHA ABAIXO
+
         #template_regex = re.sub(r'\\ +', r'\s+', template_regex)
         template_regex = re.sub(r'\\\s+', '\\\s+', template_regex)
 
