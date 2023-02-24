@@ -13,7 +13,7 @@ import hashlib
 from datetime import datetime
 import sys
 #sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
-sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena")
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena/")
 
 class Logcluster:
     def __init__(self, logTemplate='', logIDL=None):
