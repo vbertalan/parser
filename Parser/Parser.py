@@ -11,6 +11,7 @@ import os
 import numpy as np
 import pandas as pd
 import hashlib
+from tqdm import tqdm
 from datetime import datetime
 from pathlib import Path
 #from nltk.tokenize import word_tokenize
@@ -109,7 +110,7 @@ class LogParser:
         values = pd.DataFrame(columns=['Token', 'Cluster', 'Frequence', 'Type'])
         tokenizer = sm.AlphanumericTokenizer()
 
-        for id, row in df_sentences.iteritems():
+        for id, row in tqdm(df_sentences.iteritems(), desc="Creating Dict", total=len(df_sentences)):
             #sentence_tokens = word_tokenize(row)
             lowercase_row = row.lower()
             sentence_tokens = self.new_tokenizer(lowercase_row)
@@ -131,7 +132,7 @@ class LogParser:
 
     def set_types(self, token_dict, cluster_labels, percentage):
 
-        for label in cluster_labels:
+        for label in tqdm(cluster_labels, desc="Setting Types", total=len(cluster_labels)):
             
             query = token_dict.query("Cluster == @label")
             max_frequence = query['Frequence'].max()
@@ -250,7 +251,7 @@ class LogParser:
             english_words = {word.strip().lower() for word in word_file}
 
         print('\n=== Parsing dataset ===')
-        for count, (idx, line) in enumerate(self.df_log.iterrows(), start=1):
+        for count, (idx, line) in tqdm(enumerate(self.df_log.iterrows(), start=1), desc="Parsing Lines", total=len(self.df_log)):
             sentence_cluster = self.cluster_labels[idx]
             #sentence_tokens = word_tokenize(line["Content"])
             #sentence_tokens = tokenizer.tokenize(line["Content"])

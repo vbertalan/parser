@@ -151,10 +151,9 @@ for dataset, setting in benchmark_settings.items():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
+    #parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
     
-    #empty_array = []
-    #parser = Drain.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex = empty_array, st=setting['st'])
+    parser = Drain.LogParser(log_format='<Content>', indir=indir, outdir=output_dir, rex = [], st=setting['st'])
 
     parser.parse(log_file)
     

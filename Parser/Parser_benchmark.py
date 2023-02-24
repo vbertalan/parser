@@ -161,9 +161,8 @@ for dataset, setting in benchmark_settings.items():
                                 outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.05, filename=log_file)
     '''
 
-    empty_array = []
-    parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, vecdir=vector_dir, rex=empty_array, threshold = 0.10, filename=log_file)
+    parser = Parser.LogParser(log_format='<Content>', indir=indir, 
+                                outdir=output_dir, vecdir=vector_dir, rex=[], threshold = 0.10, filename=log_file)
 
 
     parser.parse(log_file)    
