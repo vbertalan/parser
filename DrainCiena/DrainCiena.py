@@ -5,6 +5,9 @@ import numpy as np
 import hashlib
 import sys
 import os
+from time import sleep
+from tqdm import tqdm
+
 
 #sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena/")
@@ -252,8 +255,8 @@ class LogParser:
         # Loads data to a dataframe
         self.load_data()
 
-        count = 0
-        for idx, line in self.df_log.iterrows():
+        #count = 0
+        for idx, line in tqdm(self.df_log.iterrows(), desc="Parsing Progress", total=len(self.df_log)):
             logID = line['LineId']
             logmessageL = self.preprocess(line['Content']).strip().split()
             # logmessageL = filter(lambda x: x != '', re.split('[\s=:,]', self.preprocess(line['Content'])))
@@ -272,9 +275,9 @@ class LogParser:
                 if ' '.join(newTemplate) != ' '.join(matchCluster.logTemplate): 
                     matchCluster.logTemplate = newTemplate
 
-            count += 1
-            if count % 1000 == 0 or count == len(self.df_log):
-                print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
+            #count += 1
+            #if count % 1000 == 0 or count == len(self.df_log):
+            #    print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
 
 
         if not os.path.exists(self.savePath):
