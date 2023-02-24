@@ -1,13 +1,10 @@
 from datetime import datetime
+from tqdm import tqdm
 import pandas as pd
 import regex as re
-import numpy as np
 import hashlib
 import sys
 import os
-from time import sleep
-from tqdm import tqdm
-
 
 #sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena/")
@@ -255,11 +252,15 @@ class LogParser:
         # Loads data to a dataframe
         self.load_data()
 
-        #count = 0
         for idx, line in tqdm(self.df_log.iterrows(), desc="Parsing Progress", total=len(self.df_log)):
             logID = line['LineId']
+
+            # Doing tokenization by splits
             logmessageL = self.preprocess(line['Content']).strip().split()
+
+            # Pre-processing using regex splits
             # logmessageL = filter(lambda x: x != '', re.split('[\s=:,]', self.preprocess(line['Content'])))
+
             matchCluster = self.treeSearch(rootNode, logmessageL)
 
             # Match no existing log cluster
@@ -274,11 +275,6 @@ class LogParser:
                 matchCluster.logIDL.append(logID)
                 if ' '.join(newTemplate) != ' '.join(matchCluster.logTemplate): 
                     matchCluster.logTemplate = newTemplate
-
-            #count += 1
-            #if count % 1000 == 0 or count == len(self.df_log):
-            #    print('Processed {0:.1f}% of log lines.'.format(count * 100.0 / len(self.df_log)))
-
 
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
@@ -338,7 +334,6 @@ class LogParser:
         if "<*>" not in template_regex: return []
         template_regex = re.sub(r'([^A-Za-z0-9])', r'\\\1', template_regex)
 
-        #template_regex = re.sub(r'\\ +', r'\s+', template_regex)
         template_regex = re.sub(r'\\\s+', '\\\s+', template_regex)
 
         template_regex = "^" + template_regex.replace("\<\*\>", "(.*?)") + "$"
