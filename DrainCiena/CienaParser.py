@@ -4,12 +4,12 @@ import DrainMethod
 import sys
 import os
 
-# Path - Windows
+# Path - Windows - Set your path here, whether Windows or Linux
 #sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 # Path - Linux
 sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena")
 
-input_dir = "DrainCiena/logs/"
+input_dir = "DrainCiena/logs/" # The input directory of raw logs
 output_dir = "DrainCiena/result/"  # The output directory of parsing results
 
 log_datafiles = {
@@ -70,7 +70,7 @@ for dataset, setting in log_datafiles.items():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    parser = DrainCiena.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
+    parser = DrainMethod.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
     parser.parse(log_file)
 
     parsedresult=os.path.join(output_dir, log_file + '_structured.csv')   

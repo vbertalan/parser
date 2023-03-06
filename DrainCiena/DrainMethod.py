@@ -6,9 +6,12 @@ import hashlib
 import sys
 import os
 
-#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
-sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena/")
+## Path - Windows - Set your path here, whether Windows or Linux
+# sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+## Path - Linux
+sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena")
 
+## Class to represent log clusters inside tree leaves
 class Logcluster:
     def __init__(self, logTemplate='', logIDL=None):
         self.logTemplate = logTemplate
@@ -16,16 +19,23 @@ class Logcluster:
             logIDL = []
         self.logIDL = logIDL
 
-# Class to represent the node of the tree
+## Class to represent the node of the tree
 class Node:
     def __init__(self, childD=None, depth=0, digitOrtoken=None):
+        """
+        Attributes
+        ----------
+            childD : dictionary representing lengths, sequences and wildcards
+            depth : depth of all leaf nodes
+            digitOrtoken : variable to store the current token
+        """
         if childD is None:
             childD = dict()
         self.childD = childD
         self.depth = depth
         self.digitOrtoken = digitOrtoken
 
-# Class to parse the logs
+## Class to parse the logs
 class LogParser:
     def __init__(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4, 
                  maxChild=100, rex=[], keep_para=True):
@@ -51,9 +61,11 @@ class LogParser:
         self.rex = rex
         self.keep_para = keep_para
 
+    ## Method to check numbers inside a sequence
     def hasNumbers(self, s):
         return any(char.isdigit() for char in s)
 
+    ## Method to search for a sequence <<seq>> inside a node <<rn>> 
     def treeSearch(self, rn, seq):
         retLogClust = None
 
@@ -82,6 +94,7 @@ class LogParser:
 
         return retLogClust
 
+    ## Method to add the sequence to the prefix tree, if not found before
     def addSeqToPrefixTree(self, rn, logClust):
         seqLen = len(logClust.logTemplate)
         if seqLen not in rn.childD:
@@ -95,7 +108,7 @@ class LogParser:
         currentDepth = 1
         for token in logClust.logTemplate:
 
-            # Add current log cluster to the leaf node
+            ## Add current log cluster to the leaf node
             if currentDepth >= self.depth or currentDepth > seqLen:
                 if len(parentn.childD) == 0:
                     parentn.childD = [logClust]
@@ -103,7 +116,7 @@ class LogParser:
                     parentn.childD.append(logClust)
                 break
 
-            # If token not matched in this layer of existing tree. 
+            ## If token not matched in this layer of existing tree. 
             if token not in parentn.childD:
                 if not self.hasNumbers(token):
                     if '<*>' in parentn.childD:
@@ -133,13 +146,13 @@ class LogParser:
                     else:
                         parentn = parentn.childD['<*>']
 
-            # If the token is matched
+            ## If the token is matched
             else:
                 parentn = parentn.childD[token]
 
             currentDepth += 1
 
-    # seq1 is template
+    ## Method to measure the SimSeq between two sequences
     def seqDist(self, seq1, seq2):
         assert len(seq1) == len(seq2)
         simTokens = 0
@@ -156,7 +169,7 @@ class LogParser:
 
         return retVal, numOfPar
 
-
+    ## Method to check the maximum similarity threshold between leaves/log clusters
     def fastMatch(self, logClustL, seq):
         retLogClust = None
 
@@ -176,6 +189,7 @@ class LogParser:
 
         return retLogClust
 
+    ## Method to get the template of <<seq1>>
     def getTemplate(self, seq1, seq2):
         assert len(seq1) == len(seq2)
         retVal = []
@@ -191,6 +205,7 @@ class LogParser:
 
         return retVal
 
+    ## Method to output the result to a CSV file
     def outputResult(self, logClustL):
         log_templates = [0] * self.df_log.shape[0]
         log_templateids = [0] * self.df_log.shape[0]
@@ -221,7 +236,7 @@ class LogParser:
         df_event['Occurrences'] = df_event['EventTemplate'].map(occ_dict)
         df_event.to_csv(os.path.join(self.savePath, self.logName + '_templates.csv'), index=False, columns=["EventId", "EventTemplate", "Occurrences"])
 
-
+    ## Method to print the tree
     def printTree(self, node, dep):
         pStr = ''   
         for i in range(dep):
@@ -241,7 +256,7 @@ class LogParser:
         for child in node.childD:
             self.printTree(node.childD[child], dep+1)
 
-
+    ## Main method, parses the strings
     def parse(self, logName):
         print('Parsing file: ' + os.path.join(self.path, logName))
         start_time = datetime.now()
@@ -249,27 +264,27 @@ class LogParser:
         rootNode = Node()
         logCluL = []
 
-        # Loads data to a dataframe
+        ## Loads data to a dataframe
         self.load_data()
 
         for idx, line in tqdm(self.df_log.iterrows(), desc="Parsing Progress", total=len(self.df_log)):
             logID = line['LineId']
 
-            # Doing tokenization by splits
+            ## Doing tokenization by splits
             logmessageL = self.preprocess(line['Content']).strip().split()
 
-            # Pre-processing using regex splits
+            ## Pre-processing using regex splits
             # logmessageL = filter(lambda x: x != '', re.split('[\s=:,]', self.preprocess(line['Content'])))
 
             matchCluster = self.treeSearch(rootNode, logmessageL)
 
-            # Match no existing log cluster
+            ## Match no existing log cluster
             if matchCluster is None:
                 newCluster = Logcluster(logTemplate=logmessageL, logIDL=[logID])
                 logCluL.append(newCluster)
                 self.addSeqToPrefixTree(rootNode, newCluster)
 
-            # Adds the new log message to the existing cluster
+            ## Adds the new log message to the existing cluster
             else:
                 newTemplate = self.getTemplate(logmessageL, matchCluster.logTemplate)
                 matchCluster.logIDL.append(logID)
@@ -283,18 +298,19 @@ class LogParser:
 
         print('Parsing done. [Time taken: {!s}]'.format(datetime.now() - start_time))
 
+    ## Method to generate regex to split strings, and to load the log file to dataframe
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logName), regex, headers, self.log_format)
 
+    ## Method to preprocess file using regex
     def preprocess(self, line):
         for currentRex in self.rex:
             line = re.sub(currentRex, '<*>', line)
         return line
 
+    ## Method to transform log file to dataframe
     def log_to_dataframe(self, log_file, regex, headers, logformat):
-        """ Function to transform log file to dataframe 
-        """
         log_messages = []
         linecount = 0
         with open(log_file, 'r') as fin:
@@ -311,10 +327,8 @@ class LogParser:
         logdf['LineId'] = [i + 1 for i in range(linecount)]
         return logdf
 
-
+    ## Method to generate regular expression to split log messages
     def generate_logformat_regex(self, logformat):
-        """ Function to generate regular expression to split log messages
-        """
         headers = []
         splitters = re.split(r'(<[^<>]+>)', logformat)
         regex = ''
@@ -329,6 +343,7 @@ class LogParser:
         regex = re.compile('^' + regex + '$')
         return headers, regex
 
+    ## Method to get the list of parameters replaced by parsing 
     def get_parameter_list(self, row):
         template_regex = re.sub(r"<.{1,5}>", "<*>", row["EventTemplate"])
         if "<*>" not in template_regex: return []
