@@ -38,7 +38,7 @@ log_datafiles = {
 
     'Ciena': {
         # Name of the log file
-        'log_file': 'Ciena_error_lines_20220701-20220715.txt',
+        'log_file': 'unique_lines_sample_0.2_20220701-20220715.txt',
 
         # With pre-defined log formats and structures of the lines
         #'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
@@ -69,6 +69,7 @@ for dataset, setting in log_datafiles.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
+    print(log_file)
 
     parser = DrainMethod.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], depth=setting['depth'], st=setting['st'])
     parser.parse(log_file)
