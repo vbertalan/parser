@@ -53,10 +53,10 @@ log_datafiles = {
         'regex': [],
 
         # Similarity threshold
-        'st': 0.5,
+        'st': 0.2,
 
         # Max depth of the parsing tree
-        'depth': 4
+        'depth': 5
         },
 
 }
