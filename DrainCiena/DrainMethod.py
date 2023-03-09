@@ -7,9 +7,9 @@ import sys
 import os
 
 ## Path - Windows - Set your path here, whether Windows or Linux
-# sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 ## Path - Linux
-sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena")
+#sys.path.append("/home/vbertalan/Downloads/Parser/parser/DrainCiena")
 
 ## Class to represent log clusters inside tree leaves
 class Logcluster:
