@@ -8,7 +8,6 @@ from logparser.logparser.MoLFI import *
 import os
 import pandas as pd
 
-
 input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
 output_dir = 'logparser/results/MoLFI_result/'  # The output directory of parsing results
 
