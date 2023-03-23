@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('../')
-from logparser import Spell, evaluator
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+from logparser.logparser.utils import evaluator
+from logparser.logparser.Spell import *
 import os
 import pandas as pd
 
