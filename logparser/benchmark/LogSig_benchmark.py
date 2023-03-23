@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('../')
-from logparser import LogSig, evaluator
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+from logparser.logparser.utils import evaluator
+from logparser.logparser.LogSig import *
+#from logparser import LogSig, evaluator
 import os
 import pandas as pd
 
-input_dir = '../logs/' # The input directory of log file
-output_dir = 'LogSig_result/' # The output directory of parsing results
+input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
+output_dir = 'logparser/results/LogSig_result/'  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
@@ -124,7 +126,7 @@ benchmark_settings = {
 }
 
 bechmark_result = []
-for dataset, setting in benchmark_settings.iteritems():
+for dataset, setting in benchmark_settings.items():
     print('\n=== Evaluation on %s ==='%dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])

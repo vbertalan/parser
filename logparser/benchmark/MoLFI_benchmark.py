@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
 import sys
-sys.path.append('../')
-from logparser import MoLFI, evaluator
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+from logparser.logparser.utils import evaluator
+from logparser.logparser.MoLFI import *
+#from logparser import MoLFI, evaluator
 import os
 import pandas as pd
 
 
-input_dir = '../logs/' # The input directory of log file
-output_dir = 'MoLFI_result/' # The output directory of parsing results
+input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
+output_dir = 'logparser/results/MoLFI_result/'  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
