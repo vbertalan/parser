@@ -8,8 +8,8 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"  # The input directory of log file
-output_dir = 'logparser/results/AEL_result/'  # The output directory of parsing results
+input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser/logparser/logs"  # The input directory of log file
+output_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser/logparser/results/AEL_result/"  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
@@ -163,5 +163,4 @@ df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Acc
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
 filepath = Path('logparser/results/AEL_result/AEL_bechmark_result.csv') 
-#df_result.T.to_csv('Drain_bechmark_result.csv')
 df_result.T.to_csv(filepath)
