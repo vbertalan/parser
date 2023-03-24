@@ -168,7 +168,6 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-filepath = Path('logparser/results/Drain_result/Drain_bechmark_result.csv') 
-#df_result.T.to_csv('Drain_bechmark_result.csv')
+filepath = Path('logparser/results/Drain_bechmark_result.csv') 
 df_result.T.to_csv(filepath)
 

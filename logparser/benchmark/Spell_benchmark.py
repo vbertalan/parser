@@ -6,10 +6,11 @@ from logparser.logparser.utils import evaluator
 from logparser.logparser.Spell import *
 import os
 import pandas as pd
+from pathlib import Path
 
 
-input_dir = '../logs/'  # The input directory of log file
-output_dir = 'Spell_result/'  # The output directory of parsing results
+input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
+output_dir = 'logparser/results/Spell_result/'  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
@@ -146,4 +147,6 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-df_result.T.to_csv('Spell_bechmark_result.csv')
+filepath = Path('logparser/results/Spell_bechmark_result.csv') 
+df_result.T.to_csv(filepath)
+

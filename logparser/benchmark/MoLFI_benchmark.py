@@ -7,6 +7,7 @@ from logparser.logparser.MoLFI import *
 #from logparser import MoLFI, evaluator
 import os
 import pandas as pd
+from pathlib import Path
 
 input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
 output_dir = 'logparser/results/MoLFI_result/'  # The output directory of parsing results
@@ -129,4 +130,6 @@ print('\n=== Overall evaluation results ===')
 df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
-df_result.T.to_csv('MoLFI_bechmark_result.csv')
+filepath = Path('logparser/results/MoLFI_bechmark_result.csv') 
+df_result.T.to_csv(filepath)
+
