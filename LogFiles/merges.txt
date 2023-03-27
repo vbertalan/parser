@@ -6,7 +6,6 @@ e r
 i n
 Ġ 0
 o r
-č Ċ
 t i
 o n
 Ġ D
@@ -817,7 +816,7 @@ C K
 S creen
 l ed
 n d
-Ġ čĊ
+Ġ Ċ
 Ġ lock
 Ġ1 04
 ar m
