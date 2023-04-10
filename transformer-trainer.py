@@ -33,7 +33,7 @@ config = RobertaConfig(
     type_vocab_size=1,
 )
 
-tokenizer = RobertaTokenizerFast.from_pretrained("./LogFiles", max_len=512)
+tokenizer = RobertaTokenizerFast.from_pretrained("./NovoModelo", max_len=512)
 
 model = RobertaForMaskedLM(config=config)
 parametros = model.num_parameters()
