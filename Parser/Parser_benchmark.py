@@ -2,9 +2,9 @@
 
 import sys
 # Path - Windows
-#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 # Path - Linux
-sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
+#sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from fileinput import filename
 import evaluator
 import Parser
@@ -157,14 +157,14 @@ for dataset, setting in benchmark_settings.items():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-    '''
+
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
                                 outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.05, filename=log_file)
-    '''
 
+    '''
     parser = Parser.LogParser(log_format='<Content>', indir=indir, 
                                 outdir=output_dir, vecdir=vector_dir, rex=[], threshold = 0.10, filename=log_file)
-
+    '''
 
     parser.parse(log_file)    
     

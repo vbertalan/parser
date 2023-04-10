@@ -8,3 +8,8 @@ Parser/LogFiles/merges.txt
 Parser/LogFiles/pytorch_model.bin
 Parser/LogFiles/training_args.bin
 Parser/LogFiles/vocab.json
+LogFiles/config.json
+LogFiles/merges.txt
+LogFiles/pytorch_model.bin
+LogFiles/training_args.bin
+LogFiles/vocab.json
