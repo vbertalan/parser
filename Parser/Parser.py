@@ -58,9 +58,9 @@ class LogParser:
             self.vectors = pickle.load(open(path_to_file, 'rb'))
         else:
             from sentence_transformers import SentenceTransformer
-            #model = SentenceTransformer('all-MiniLM-L6-v2')
+            model = SentenceTransformer('all-MiniLM-L6-v2')
             #model = SentenceTransformer('all-mpnet-base-v2')
-            model = SentenceTransformer('./LogFiles/')
+            #model = SentenceTransformer('./LogFiles/')
             vectors = model.encode(raw_content)
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))

@@ -21,10 +21,8 @@ benchmark_settings = {
     'HDFS': {
         'log_file': 'HDFS/HDFS_2k.log',
         'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        #'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'regex': [],
-        'st': 0.5, ## std 0.5
-        'depth': 4
+        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+        #'regex': [],
         },
 
     # 'Hadoop': {
