@@ -59,8 +59,8 @@ class LogParser:
         else:
             from sentence_transformers import SentenceTransformer
             #model = SentenceTransformer('all-MiniLM-L6-v2')
-            model = SentenceTransformer('all-mpnet-base-v2')
-            #model = SentenceTransformer('./LogFiles/')
+            #model = SentenceTransformer('all-mpnet-base-v2')
+            model = SentenceTransformer('./LogFiles/')
             vectors = model.encode(raw_content)
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
@@ -271,13 +271,13 @@ class LogParser:
                 query = self.word_dict.query("Cluster == @sentence_cluster & Token == @lowercase_token")
                 #print(query)
                 ## Checking dictionary of variables only
-                new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
+                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE') else token            
                 
                 ## Checking English vocabulary only
                 #new_token = "<*>" if (token.lower() not in english_words) else token
                 
                 ## Checking variables or English tokens
-                #new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
+                new_token = "<*>" if (query["Type"].item() == 'VARIABLE' or token.lower() not in english_words) else token                           
                 
                 new_sentence += new_token
                 new_sentence += " "

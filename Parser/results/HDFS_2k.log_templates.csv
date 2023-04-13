@@ -1,118 +1,17 @@
 EventId,EventTemplate,Occurrences
-56dff95e,PacketResponder 1 for block blk <*> terminating ,108
-09df8337,PacketResponder 0 for block blk <*> terminating ,100
-dd06eb52,BLOCK NameSystem addStoredBlock blockMap updated is added to blk <*> size 67108864 ,294
-a1105f07,PacketResponder 2 for block blk <*> terminating ,103
-0fa8b47f,Received block blk <*> of size 67108864 from ,260
-7514de0e,Receiving block blk <*> src dest ,274
-c8401bf1,BLOCK NameSystem allocateBlock user root rand temporary task 200811092030 0001 m <*> 0 part <*> blk <*> ,5
-5616c83a,Verification succeeded for blk 4980916519894289629 ,1
-45af27a8,Received block blk <*> of size <*> from ,13
-7714db9e,BLOCK NameSystem addStoredBlock blockMap updated is added to blk <*> size <*> ,20
-a48092ef,Verification succeeded for blk 2827716238972737794 ,1
-112cd66a,Deleting block blk <*> file mnt hadoop dfs data current <*> blk <*> ,248
-6bc76cd3,Served block blk <*> to ,80
-b6539480,Got exception while serving blk <*> to ,80
-06850b6e,BLOCK NameSystem allocateBlock user root sortrand temporary task 200811092030 0002 r 000296 0 part 00296 blk 6620182933895093708 ,1
-114efb88,BLOCK NameSystem allocateBlock user root sortrand temporary task 200811092030 0002 r 000230 0 part 00230 blk 559204981722276126 ,1
-49c6acc1,BLOCK NameSystem allocateBlock user root sortrand temporary task 200811092030 0002 r 000169 0 part 00169 blk 7105305952901940477 ,1
-a8f71ada,BLOCK NameSystem allocateBlock user root sortrand temporary task 200811092030 0002 r 000318 0 part 00318 blk 207775976836691685 ,1
-b76a57c0,BLOCK NameSystem allocateBlock user root sortrand temporary task 200811092030 0002 r 000318 0 part 00318 blk 2096692261399680562 ,1
-72bb189f,Receiving block blk 3962600675982666210 src dest ,1
-204bd163,BLOCK NameSystem allocateBlock user root sortrand temporary task 200811092030 0002 r 000138 0 part 00138 blk 210021574616486609 ,1
-43c78b43,Verification succeeded for blk 1547954353065580372 ,1
-95fc9968,BLOCK NameSystem allocateBlock user root randtxt temporary task 200811092030 0003 m <*> 0 part <*> blk <*> ,15
-ab9ad8f1,Verification succeeded for blk 6996194389878584395 ,1
-6767ffaf,Receiving block blk 148513789886825227 src dest ,1
-280c7ba0,Receiving block blk 6398122733993275620 src dest ,1
-35c36014,BLOCK NameSystem delete blk <*> is added to invalidSet of ,224
-ebacead9,Verification succeeded for blk 3141363517520802396 ,1
-1cd756bd,Verification succeeded for blk 1383276859207001328 ,1
-7e49343e,Verification succeeded for blk 4117999745005013424 ,1
-7ed54214,Verification succeeded for blk 9188832735514090334 ,1
-4a723bc8,Received block blk 9188933731705791676 of size 67108864 from ,1
-bb3a2027,BLOCK NameSystem allocateBlock user root rand temporary task 200811101024 0001 m <*> 0 part <*> blk <*> ,10
-7bb02f82,Deleting block blk 6008397446568765070 file mnt hadoop dfs data current blk 6008397446568765070 ,1
-e2320a78,Deleting block blk 8145984793403459836 file mnt hadoop dfs data current blk 8145984793403459836 ,1
-008cd021,Received block blk 2063252936853409868 of size 67108864 from ,1
-d1ae3e4d,Verification succeeded for blk 774612454978154966 ,1
-e32e260b,Receiving block blk 102441832197223997 src dest ,1
-4f8608d8,BLOCK NameSystem allocateBlock user root randtxt2 temporary task 200811101024 0002 m <*> 0 part <*> blk <*> ,5
-7ff25fbf,Received block blk 469871968689793326 of size 67108864 from ,1
-49d8f132,Verification succeeded for blk 1649162819905816843 ,1
-ab6f25c3,Receiving block blk 6085274723649229095 src dest ,1
-f3ffe222,Receiving block blk 6988110707613820142 src dest ,1
-db1d5e2b,BLOCK NameSystem allocateBlock user root randtxt2 temporary task 200811101024 0002 m <*> <*> part <*> blk <*> ,1
-ec41fea8,Verification succeeded for blk 4984504651603069357 ,1
-ea1751ff,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000258 0 part 00258 blk 387577766066135394 ,1
-6e45f652,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000257 0 part 00257 blk 1732662141253491971 ,1
-d6376fc9,Received block blk 1828089683746536118 of size 67108864 from ,1
-8baf1181,Received block blk 3620767662957963389 of size 67108864 from ,1
-27e44c83,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000210 0 part 00210 blk 7667417209393167541 ,1
-63495432,Received block blk 6168484338203583997 of size 67108864 from ,1
-014ed9b0,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000116 0 part 00116 blk 6749232449432458524 ,1
-90f0243e,Verification succeeded for blk 7803343374223161433 ,1
-a9a0275a,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000315 0 part 00315 blk 463998587096565542 ,1
-33fccd18,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000152 0 part 00152 blk 7603795308074215276 ,1
-0c5dd14e,BLOCK NameSystem allocateBlock user root sortrand2 temporary task 200811101024 0003 r 000344 0 part 00344 blk 2004529166303428909 ,1
-87b809a2,Verification succeeded for blk 8507209254958698084 ,1
-693110a6,Verification succeeded for blk 2904134648927436267 ,1
-f83af42c,Verification succeeded for blk 1584196996810164915 ,1
-f6bed38b,Verification succeeded for blk 1150231966878829887 ,1
-2a55521e,Deleting block blk 4551689611865410817 file mnt hadoop dfs data current blk 4551689611865410817 ,1
-efc730c2,Deleting block blk 5905689738251144455 file mnt hadoop dfs data current blk 5905689738251144455 ,1
-9f08e172,Starting thread to transfer block blk 4292382298896622412 to ,1
-f0446d14,BLOCK ask to delete blk 5140072410813878235 ,1
-2b0a859b,BLOCK NameSystem allocateBlock user root <*> temporary task 200811101024 <*> m <*> 0 part <*> blk <*> ,12
-8934e6f8,Received block blk 5602895463700536678 of size 67108864 from ,1
-292f65d5,BLOCK NameSystem allocateBlock user root randtxt3 temporary task 200811101024 0007 m <*> 0 part <*> blk <*> ,7
-49ffdb88,Deleting block blk 5718504625725408070 file mnt hadoop dfs data current blk 5718504625725408070 ,1
-d9e5ffce,Deleting block blk 391507259220628397 file mnt hadoop dfs data current blk 391507259220628397 ,1
-539cdb42,Received block blk 231502148921342925 of size 67108864 from ,1
-2894607d,BLOCK ask to delete blk 8048594464172649365 ,1
-24acf0cc,Received block blk 8377763431920892140 of size 67108864 from ,1
-e7cecef1,Receiving block blk 3657751236932275338 src dest ,1
-dfcad492,Verification succeeded for blk 3894335463008345041 ,1
-0bea3ded,BLOCK NameSystem allocateBlock user root rand4 temporary task 200811101024 0009 m <*> 0 part <*> blk <*> ,7
-3735e108,Receiving block blk 7780461223860192433 src dest ,1
-f669127b,Received block blk 577659324269246113 of size 67108864 from ,1
-e43a729d,Received block blk 290874442865281380 of size 28497700 from ,1
-ed556712,Receiving block blk 1133573997287815203 src dest ,1
-d815165d,Receiving block blk 7727864185516010230 src dest ,1
-f2ee0d56,Received block blk 9013487557842539661 of size 28485342 from ,1
-dfd799b5,Verification succeeded for blk 6160667975382232149 ,1
-91c79419,Receiving block blk 1407935810673971357 src dest ,1
-0454f8f3,Deleting block blk 8167717961644709843 file mnt hadoop dfs data current blk 8167717961644709843 ,1
-9e779a7f,Received block blk 3922743468150895472 of size 67108864 from ,1
-e5c905f9,Deleting block blk 1379455396847512711 file mnt hadoop dfs data current blk 1379455396847512711 ,1
-68f6ff06,Deleting block blk 1368324087589035770 file mnt hadoop dfs data current blk 1368324087589035770 ,1
-daea69ad,Deleting block blk 8556592730481313831 file mnt hadoop dfs data current blk 8556592730481313831 ,1
-27c24065,Receiving block blk 9131004320470011870 src dest ,1
-bf0c7f55,Received block blk <*> <*> <*> of size 67108864 ,2
-463396bb,Received block blk 5348548743130215090 of size 67108864 from ,1
-ffa82967,Received block blk 997605125898553536 of size 67108864 from ,1
-5cb22428,Received block blk 4967370797322420259 of size 67108864 from ,1
-34874de7,BLOCK NameSystem allocateBlock user root randtxt5 temporary task 200811101024 0012 m <*> 0 part <*> blk <*> ,9
-80d4a844,<*> <*> <*> <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> blk <*> ,2
-3a5821c5,Received block blk 5406084276349645828 of size 67108864 from ,1
-ecfd733e,BLOCK NameSystem allocateBlock user root rand6 temporary task 200811101024 0013 m <*> 0 part <*> blk <*> ,11
-04e5a988,Verification succeeded for blk 8050165297538775793 ,1
-d2a5a4af,Receiving block blk 7389979618829759505 src dest ,1
-acc4a031,BLOCK NameSystem allocateBlock user root rand6 temporary task 200811101024 0013 m <*> <*> part <*> blk <*> ,1
-efcc5439,Receiving block blk 7713504868233504097 src dest ,1
-1a2d7e30,Receiving block blk 7996616083434301906 src dest ,1
-bd16fceb,Deleting block blk 6131345369657245178 file mnt hadoop dfs data current blk 6131345369657245178 ,1
-72cdab20,Deleting block blk 3575718350717794894 file mnt hadoop dfs data current blk 3575718350717794894 ,1
-2d91bb90,Deleting block blk 2489882700357182381 file mnt hadoop dfs data current blk 2489882700357182381 ,1
-8ed8cfd4,Deleting block blk 4513772639980123655 file mnt hadoop dfs data current blk 4513772639980123655 ,1
-a45126a4,Deleting block blk 7985460426680885040 file mnt hadoop dfs data current blk 7985460426680885040 ,1
-5e98654d,Received block blk 6502143621885580798 of size 67108864 from ,1
-07d992f3,BLOCK ask to replicate blk 7571492020523929240 to datanode s ,1
-b07a5d47,BLOCK NameSystem allocateBlock user root rand7 temporary task 200811101024 0014 m <*> 0 part <*> blk <*> ,9
-72db5ac2,BLOCK NameSystem allocateBlock user root rand8 temporary task 200811101024 0015 m <*> 0 part <*> blk <*> ,10
-2ab7364f,Receiving block blk 4967783186426171722 src dest ,1
-76e4e8ce,BLOCK ask to delete blk 9016567407076718172 blk 8695715290502978219 blk 7168328752988473716 blk 4355192005224403537 blk 3757501769775889193 blk 154600013573668394 blk 167132135416677587 blk 2654596473569751784 blk 5202581916713319258 ,1
-36804822,Receiving block blk 4820650745157199554 src dest ,1
-d277e9fb,Received block blk 9103049989653819836 of size 67108864 from ,1
-08562f7e,Verification succeeded for blk 8347949825960763812 ,1
-b87f0e98,Receiving block blk 5224756755359850354 src dest ,1
+7dda9b21,<*> <*> for block <*> terminating ,311
+d6ed54ca,<*> <*> <*> <*> <*> is added to <*> size <*> ,314
+111e7c64,Received block <*> of size <*> from <*> ,292
+1b57a4e1,Receiving block <*> <*> <*> <*> <*> ,292
+b5f6193c,<*> <*> <*> <*> ,115
+be1aa44d,Verification succeeded for <*> ,20
+a56cb794,Deleting block <*> file <*> ,263
+6c567c3a,<*> Served block <*> to <*> ,80
+8787237c,<*> exception while serving <*> to <*> ,80
+28c6594e,<*> <*> <*> is added to <*> of <*> ,224
+82880419,<*> Starting thread to transfer block <*> to <*> ,1
+141eefe6,<*> ask <*> to delete <*> ,2
+89f98a4d,Received block <*> <*> <*> <*> <*> of size <*> ,2
+04bc6cf5,<*> ask <*> to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+7037db7a,<*> ask <*> to replicate <*> to <*> <*> ,1
+789f1a0b,<*> ask <*> to delete <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
