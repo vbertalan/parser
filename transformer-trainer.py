@@ -19,6 +19,8 @@ tokenizer.enable_truncation(max_length=2521)
 ## Customize training
 tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens=[
     "<s>",
+    "<cls>",
+    "<bos>",
     "<pad>",
     "</s>",
     "<unk>",
