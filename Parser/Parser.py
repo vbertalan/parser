@@ -20,7 +20,7 @@ import pickle
 #import wordninja
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', st=0.4, rex=None, threshold = 0, filename=""):
+    def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', rex=None, threshold = 0, filename=""):
         """
         Attributes
         ----------
@@ -58,8 +58,8 @@ class LogParser:
             self.vectors = pickle.load(open(path_to_file, 'rb'))
         else:
             from sentence_transformers import SentenceTransformer
-            model = SentenceTransformer('all-MiniLM-L6-v2')
-            #model = SentenceTransformer('all-mpnet-base-v2')
+            #model = SentenceTransformer('all-MiniLM-L6-v2')
+            model = SentenceTransformer('all-mpnet-base-v2')
             #model = SentenceTransformer('./LogFiles/')
             vectors = model.encode(raw_content)
             self.vectors = vectors
