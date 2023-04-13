@@ -11,6 +11,7 @@ from pathlib import Path
 
 path = "sample-logs.txt"
 
+
 ## Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer()
 
