@@ -11,6 +11,9 @@ from pathlib import Path
 
 path = "sample-logs.txt"
 
+## Check if there is a GPU
+!nvidia-smi
+
 ## Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer()
 
