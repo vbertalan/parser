@@ -1,200 +1,104 @@
 EventId,EventTemplate,Occurrences
-ab882f42,2015-10-18 <*> INFO [main] <*> <*> MRAppMaster <*> <*> <*> ,1
-ba222959,2015-10-18 <*> INFO [main] <*> <*> <*> <*> ,1
-66ab5364,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-90742384,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: <*> <*> <*> ,1
-413ccd8a,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: <*> <*> <*> <*> <*> ,1
-62ce6b94,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: <*> is <*> ,1
-344052f6,"2015-10-18 18:01:50,556 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class <*> for class <*> ",4
-0249c3b4,"2015-10-18 18:01:50,572 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class <*> for class <*> ",3
-62b0158f,2015-10-18 <*> INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class <*> for class <*> ,2
-0746dea3,"2015-10-18 18:01:50,634 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000] ",1
-f21c4028,"2015-10-18 18:01:50,666 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000] ",1
-b2e6ae1c,"2015-10-18 18:01:50,713 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000] ",1
-dc744a82,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: <*> <*> <*> <*> to the <*> <*> is not <*> ,1
-43655e0f,2015-10-18 <*> INFO [main] <*> <*> <*> <*> <*> ,4
-b2ae8a8c,2015-10-18 <*> INFO [main] <*> <*> <*> <*> <*> <*> <*> ,2
-496e7a1d,2015-10-18 <*> INFO [main] <*> MRAppMaster <*> <*> <*> ,1
-483773ec,2015-10-18 <*> INFO <*> <*> <*> <*> <*> for job_1445144423722_0020 <*> <*> ,1
-e0c87e28,2015-10-18 <*> INFO [main] <*> Not <*> <*> <*> not <*> <*> <*> <*> <*> <*> <*> ,1
-f6283f87,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: <*> <*> for <*> <*> <*> <*> <*> <*> <*> ,1
-afd71896,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: <*> <*> <*> for <*> <*> 1 ,1
-18bf8469,2015-10-18 <*> INFO <*> org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from NEW to <*> ,1
-5a53eb5f,2015-10-18 <*> INFO <*> <*> <*> launching <*> <*> <*> <*> <*> ,1
-213aaccb,"2015-10-18 18:01:51,775 INFO [Socket Reader #1 for port 62260] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 62260 ",1
-a3b3d2ec,2015-10-18 <*> INFO [main] <*> <*> <*> <*> to the <*> ,1
-7b796c50,2015-10-18 <*> INFO <*> <*> <*> <*> <*> <*> ,1
-bf9cc12f,"2015-10-18 18:01:51,806 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting ",1
-c4d8301e,"2015-10-18 18:01:51,806 INFO [IPC Server listener on 62260] org.apache.hadoop.ipc.Server: IPC Server listener on 62260: starting ",1
-4ad0555a,2015-10-18 <*> INFO [main] <*> <*> to <*> <*> <*> ,1
-796d4711,2015-10-18 <*> INFO [main] <*> <*> <*> <*> for <*> is not <*> ,1
-4c8b98a2,"2015-10-18 18:01:51,916 INFO [main] org.apache.hadoop.http.HttpServer2: Added <*> filter <*> (class <*> ",1
-bf47303d,"2015-10-18 18:01:51,916 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context <*> ",2
-881f49c6,"2015-10-18 18:01:51,947 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: <*> ",2
-c2edeab2,"2015-10-18 18:01:51,963 INFO [main] org.apache.hadoop.http.HttpServer2: Jetty bound to port 62267 ",1
-f453c6a0,"2015-10-18 18:01:51,963 INFO [main] org.mortbay.log: jetty-6.1.26 ",1
-666fc5b4,2015-10-18 <*> INFO [main] <*> <*> <*> to <*> ,1
-b52e7b1e,"2015-10-18 18:01:52,728 INFO [main] org.mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267 ",1
-ca893d41,2015-10-18 <*> INFO <*> <*> <*> <*> <*> job_1445144423722_0020 ,1
-d61a6858,"2015-10-18 18:01:53,447 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: <*> ",1
-0c4cd321,"2015-10-18 18:01:53,447 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: <*> is <*> ",2
-8c7ed5d9,"2015-10-18 18:01:53,510 INFO [Socket Reader #1 for port 62270] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 62270 ",1
-3dbc3452,"2015-10-18 18:01:53,510 INFO [IPC Server listener on 62270] org.apache.hadoop.ipc.Server: IPC Server listener on 62270: starting ",1
-458353da,"2015-10-18 18:01:53,510 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting ",1
-4597dd1f,2015-10-18 <*> INFO <*> <*> <*> <*> <*> <*> <*> ,1
-51e7781d,2015-10-18 <*> INFO <*> <*> <*> <*> <*> ,1
-461e3a22,2015-10-18 <*> INFO [main] <*> <*> <*> ,1
-c894e62c,2015-10-18 <*> INFO [main] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: <*> <*> <*> <*> <*> <*> <*> is <*> ,1
-1d12ba53,2015-10-18 <*> INFO [main] <*> <*> : <*> ,1
-745e99c2,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from <*> to <*> ,1
-9b0ef076,2015-10-18 <*> INFO <*> <*> <*> <*> <*> the <*> <*> <*> ,1
-69ce2374,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1445144423722_0020Job Transitioned from <*> to RUNNING ,1
-ba5a9d5d,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack ,6
-6bb2b31e,"2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack ",6
-ffa2c971,"2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000000 Task Transitioned from NEW to SCHEDULED ",1
-0585c7e4,"2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack ",5
-f69f0929,"2015-10-18 18:01:53,869 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: <*> Task Transitioned from NEW to SCHEDULED ",5
-b57e2655,"2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack ",4
-ba157e87,"2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack ",4
-f9ed7aed,"2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: <*> Task Transitioned from NEW to SCHEDULED ",5
-b60af59a,"2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: <*> TaskAttempt Transitioned from NEW to UNASSIGNED ",11
-06e872d7,2015-10-18 <*> INFO <*> <*> <*> <*> ,2
-34b93865,2015-10-18 <*> INFO <*> org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: <*> <*> <*> for <*> <*> <*> <*> ,1
-3ad90828,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 <*> ,1
-ca3994f4,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1445144423722_0020: ask 4 release 0 newContainers 0 finishedContainers 0 resourcelimit <*> <*> knownNMs 4 ,4
-0e4ee4d7,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Recalculating schedule, headroom <*> <*> ",10
-e0e77a9b,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Reduce slow start threshold not met. completedMapsForReduceSlowstart 1 ,130
-878966e4,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Got allocated containers 1 ,9
-2b727f6b,2015-10-18 <*> INFO <*> <*> org.apache.hadoop.yarn.util.RackResolver: Resolved <*> to /default-rack ,1
-c91eba22,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container <*> to <*> ,7
-28c8592d,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 <*> ,2
-bf36205e,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved <*> to /default-rack ,1
-b6e34f02,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: The <*> file on the remote FS is <*> ,2
-91b9fbb0,2015-10-18 <*> INFO <*> event <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> <*> for launching container ,1
-24d7e54c,2015-10-18 <*> INFO <*> <*> <*> <*> <*> <*> <*> <*> 1 ,1
-4c06293e,2015-10-18 <*> INFO <*> <*> <*> <*> <*> shuffle <*> <*> <*> ,1
-9da7df5b,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: <*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED ,10
-890a53e6,2015-10-18 <*> INFO [ContainerLauncher #0] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> ,1
-6dec47a8,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Launching <*> ,10
-c6861274,2015-10-18 <*> INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : <*> ,1
-36cbc7be,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for <*> : 13562 ,10
-94d809c3,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: <*> using containerId: <*> on NM: <*> ,1
-4fb5bd0b,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: <*> TaskAttempt Transitioned from ASSIGNED to RUNNING ,10
-9d193677,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: ATTEMPT_START <*> ,8
-c7769301,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1445144423722_0020_m_000000 Task Transitioned from SCHEDULED to RUNNING ,1
-323c222a,2015-10-18 <*> INFO <*> <*> org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack ,2
-572a7a28,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack ,2
-717199b4,2015-10-18 <*> INFO [ContainerLauncher #1] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0 ,1
-56a9d26d,2015-10-18 <*> INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368 ,2
-eb32b9ed,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: <*> using containerId: <*> on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368] ,2
-7a855b95,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: <*> Task Transitioned from SCHEDULED to RUNNING ,9
-718f8bdf,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:0 RackLocal:3 ,1
-b652b700,2015-10-18 <*> INFO [ContainerLauncher #2] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0 ,1
-2f28ae9e,2015-10-18 <*> INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368 ,2
-ff7bd48b,2015-10-18 <*> INFO [Socket Reader #1 for port 62270] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1445144423722_0020 (auth:SIMPLE) ,10
-442de73f,"2015-10-18 18:02:02,510 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000002 asked for a task ",1
-41dffab5,"2015-10-18 18:02:02,510 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000002 given task: <*> ",1
-81ae16a0,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Recalculating schedule, headroom <memory:0, vCores:-27> ",121
-551582bc,"2015-10-18 18:02:05,870 INFO [IPC Server handler 27 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000003 asked for a task ",1
-6ebdc2a7,"2015-10-18 18:02:05,870 INFO [IPC Server handler 27 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000003 given task: <*> ",1
-fb8bbd67,"2015-10-18 18:02:12,855 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000004 asked for a task ",1
-492d3be6,"2015-10-18 18:02:12,855 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000004 given task: <*> ",1
-5d42550d,2015-10-18 <*> INFO [IPC Server handler <*> on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : <*> ,46
-d89efdc2,2015-10-18 <*> INFO [IPC Server handler <*> on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : <*> ,56
-bdb208c9,2015-10-18 <*> INFO [IPC Server handler <*> on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : <*> ,55
-6f72a6de,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container container_1445144423722_0020_01_000005 to <*> ,1
-743f8608,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,2
-e72690a1,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack ,8
-7145cc6f,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0 ,1
-ffff0ba9,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109 ,5
-7fab0973,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: <*> using containerId: <*> on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109] ,3
-f48a0fd6,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1445144423722_0020: ask 4 release 0 newContainers 0 finishedContainers 0 resourcelimit <memory:0, vCores:-27> knownNMs 4 ",3
-508498ae,"2015-10-18 18:02:50,560 INFO [IPC Server handler 9 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000005 asked for a task ",1
-4489144e,"2015-10-18 18:02:50,560 INFO [IPC Server handler 9 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000005 given task: <*> ",1
-5fb9f697,2015-10-18 <*> INFO [IPC Server handler <*> on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : <*> ,39
-2ece8c03,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Got allocated containers <*> ,1
-02c22bef,"2015-10-18 18:03:55,408 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container <*> to <*> ",2
-8cd0f9b8,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*> ,6
-b1486533,"2015-10-18 18:03:55,939 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: <*> using containerId: <*> on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109] ",2
-815f27d5,"2015-10-18 18:03:55,939 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: ATTEMPT_START <*> ",2
-f6e7d611,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1445144423722_0020: ask 4 release 0 newContainers 1 finishedContainers 0 resourcelimit <memory:0, vCores:-27> knownNMs 4 ",3
-7e4dd353,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:3 ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
-b77d4308,"2015-10-18 18:03:57,564 INFO [IPC Server handler 20 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000007 asked for a task ",1
-dfaa20ee,"2015-10-18 18:03:57,564 INFO [IPC Server handler 12 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000006 asked for a task ",1
-11ff641e,"2015-10-18 18:03:57,564 INFO [IPC Server handler 20 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000007 given task: <*> ",1
-c8e507d2,"2015-10-18 18:03:57,564 INFO [IPC Server handler 12 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000006 given task: <*> ",1
-b2607a36,"2015-10-18 18:03:58,611 INFO [IPC Server handler 20 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000008 asked for a task ",1
-14014d93,"2015-10-18 18:03:58,611 INFO [IPC Server handler 20 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000008 given task: <*> ",1
-1bd51e5b,2015-10-18 <*> INFO [IPC Server handler <*> on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt <*> is : <*> ,93
-02866153,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:2 ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
-beb06dfa,"2015-10-18 18:04:06,971 INFO [IPC Server handler 27 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000009 asked for a task ",1
-d357da5d,"2015-10-18 18:04:06,971 INFO [IPC Server handler 27 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000009 given task: <*> ",1
-271592f5,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:9 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> RackLocal:3 ,1
-f224b174,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:28345 ,2
-ab8ba8ac,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: <*> using containerId: <*> on NM: [MSRA-SA-39.fareast.corp.microsoft.com:28345] ,2
-ed69ae96,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 HostLocal:7 RackLocal:3 ,1
-bc880743,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: <*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <memory:1024, <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> map <*> <*> container <*> <*> <*> <*> <memory:1024, <*> <*> <*> <*> map <*> <*> <*> <*> ",1
-8560f072,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-9e263ef4,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1445144423722_0020: ask 0 release 1 newContainers 0 finishedContainers 1 resourcelimit <*> <*> knownNMs 4 ,1
-abd63f42,"2015-10-18 18:04:11,034 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Received completed container container_1445144423722_0020_01_000012 ",1
-2a04ceca,"2015-10-18 18:04:11,034 ERROR [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Container <*> event for <*> container <*> container_1445144423722_0020_01_000012 ",1
-7b1ed221,"2015-10-18 18:04:11,643 INFO [IPC Server handler 23 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000010 asked for a task ",1
-1f17c7ee,"2015-10-18 18:04:11,643 INFO [IPC Server handler 23 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000010 given task: <*> ",1
-9cd80003,"2015-10-18 18:04:12,143 INFO [IPC Server handler 10 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1445144423722_0020_m_000011 asked for a task ",1
-1a1006b0,"2015-10-18 18:04:12,143 INFO [IPC Server handler 10 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000011 given task: <*> ",1
-f4ba579d,2015-10-18 <*> INFO <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-538dee26,"2015-10-18 18:04:50,208 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP ",1
-57968e19,2015-10-18 <*> INFO [ContainerLauncher #0] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0 ,1
-9cc2460f,2015-10-18 <*> INFO [ContainerLauncher <*> org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: KILLING <*> ,3
-0289dbb7,2015-10-18 <*> INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109 ,1
-0ecb7322,"2015-10-18 18:04:50,755 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED ",1
-c1b52265,2015-10-18 <*> INFO [AsyncDispatcher event handler] <*> <*> <*> <*> <*> <*> ,1
-72db2bd8,2015-10-18 <*> INFO [AsyncDispatcher event handler] <*> <*> <*> Transitioned from RUNNING to <*> ,1
-771b7bb3,2015-10-18 <*> INFO <*> <*> <*> org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: <*> <*> <*> 1 ,1
-0ac40687,"2015-10-18 18:04:51,114 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ",1
-9b7f9bab,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Reduce slow start threshold <*> <*> <*> ,1
-63e194af,"2015-10-18 18:04:51,114 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ",1
-bf0e1a51,2015-10-18 <*> INFO <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-7515dd0f,2015-10-18 <*> INFO <*> <*> <*> <*> <*> <*> 1 <*> <*> <*> <*> ,1
-194ec2d2,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: <*> <*> <*> <*> <*> task task_1445144423722_0020_m_000000 ,1
-f1f679ed,2015-10-18 <*> INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: <*> TaskAttempt Transitioned from NEW to UNASSIGNED ,3
-2c710a8c,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-deb59ed2,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1445144423722_0020: ask <*> release 0 newContainers 0 finishedContainers 1 resourcelimit <memory:0, vCores:-27> knownNMs 4 ",1
-bb8e330e,"2015-10-18 18:04:52,552 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Received completed container container_1445144423722_0020_01_000005 ",1
-feb7edb7,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-751aa0ef,"2015-10-18 18:04:52,552 INFO <*> event <*> <*> <*> <*> <*> <*> Container <*> <*> <*> <*> ",1
-3c42ea46,2015-10-18 <*> WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000 ,327
-4521ceb4,2015-10-18 <*> WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for <*> seconds. Will retry shortly ... ,326
-9661ed55,2015-10-18 <*> WARN <*> for block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731] org.apache.hadoop.hdfs.DFSClient: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-4df9ef61,2015-10-18 <*> WARN <*> for block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731] org.apache.hadoop.hdfs.DFSClient: <*> <*> <*> for block <*> ,1
-15e53bf3,2015-10-18 <*> <*> <*> for <*> <*> block <*> <*> Error <*> for block <*> <*> <*> <*> <*> <*> <*> <*> ,1
-0c4da089,2015-10-18 <*> WARN <*> <*> <*> <*> <*> <*> org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000 ,1
-07899d4d,2015-10-18 <*> WARN <*> for <*> <*> block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731] org.apache.hadoop.hdfs.DFSClient: <*> <*> ,1
-e0a660bf,2015-10-18 <*> ERROR [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: ERROR IN CONTACTING RM. ,147
-0fdffde9,2015-10-18 <*> WARN [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030 ,146
-82ca3e1c,"2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries 10, sleepTime 1000 MILLISECONDS) ",146
-3761acbb,"2015-10-18 18:06:26,029 FATAL [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ",1
-94b1f752,"2015-10-18 18:06:26,029 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ",1
-5d209284,"2015-10-18 18:06:26,029 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ",1
-7a5cd599,"2015-10-18 18:06:26,029 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP ",1
-dd3cb2d2,2015-10-18 <*> INFO [ContainerLauncher #1] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0 ,1
-28d9bce3,"2015-10-18 18:06:26,123 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ",1
-42f673b9,2015-10-18 <*> INFO [CommitterEvent Processor #1] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: TASK_ABORT ,1
-96833e03,2015-10-18 <*> WARN <*> <*> <*> org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000 ,2
-1e505fa1,"2015-10-18 18:06:26,139 WARN [CommitterEvent Processor #1] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0 ",1
-0f7a5ce8,"2015-10-18 18:06:26,139 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED ",1
-9b154633,2015-10-18 <*> <*> <*> org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: <*> <*> <*> <*> <*> ,1
-196eac6b,2015-10-18 <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-0d3b9727,2015-10-18 <*> INFO [Thread-50] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: <*> failures on node MININT-FNANLI5.fareast.corp.microsoft.com ,2
-09bf41be,2015-10-18 <*> INFO [Thread-50] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Added <*> to list of failed maps ,2
-5c1ba89e,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:2 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
-5a53a655,"2015-10-18 18:06:28,217 FATAL [IPC Server handler 4 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ",1
-a172dcfa,"2015-10-18 18:06:28,217 INFO [IPC Server handler 4 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ",1
-35e81a2e,"2015-10-18 18:06:28,217 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost ",1
-62283eec,"2015-10-18 18:06:28,217 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP ",1
-25d8e60c,2015-10-18 <*> INFO [ContainerLauncher #2] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0 ,1
-1aab7b55,"2015-10-18 18:06:28,233 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP ",1
-0f0233e4,2015-10-18 <*> INFO [CommitterEvent Processor #2] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: TASK_ABORT ,1
-b76ea08a,"2015-10-18 18:06:28,248 WARN [CommitterEvent Processor #2] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0 ",1
-7ddce9e1,"2015-10-18 18:06:28,248 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED ",1
-cc645928,2015-10-18 <*> INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3 ,1
+970b997f,Created <*> for application <*> ,1
+8b6db5c9,Executing with <*> ,1
+87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+26a17c5e,Using <*> <*> ,1
+528e7a03,<*> set in <*> null ,1
+31a7e4be,<*> is <*> ,3
+784ed797,Registering class <*> for class <*> ,9
+83550b63,Default file system <*> ,3
+67caf82e,Emitting job history data to the timeline server is not enabled ,1
+b5f6193c,<*> <*> <*> <*> ,1
+14ea7c45,Scheduled snapshot period at <*> <*> ,1
+8f39c209,<*> metrics system started ,1
+5ac449d7,<*> <*> <*> for <*> <*> <*> ,1
+e32e507c,Not <*> <*> <*> not <*> too many <*> too much <*> ,1
+fc5bbd49,Input size for job <*> <*> Number of splits <*> ,1
+f16f2524,Number of reduces for job <*> <*> ,1
+3977555f,<*> Transitioned from NEW to <*> ,1
+f4ec830f,<*> launching <*> <*> <*> job <*> ,1
+64d5eb2d,Using <*> class <*> ,2
+ae4f2376,Starting Socket Reader <*> for port <*> ,2
+7e5843cd,Adding <*> <*> to the <*> ,1
+47d4120e,Instantiated <*> at <*> ,1
+6453f64c,IPC Server <*> starting ,2
+fe50a203,IPC Server listener on <*> starting ,2
+a2c5bd62,Logging to <*> via <*> ,1
+d2a085e4,<*> <*> <*> for <*> is <*> <*> ,1
+b5ffa3a3,Added <*> filter <*> <*> <*> ,1
+6830b1df,Added filter <*> <*> <*> to context <*> ,2
+3e2a31ca,adding <*> <*> <*> ,1
+21590192,adding path <*> <*> ,1
+ce6012ec,Jetty bound to port <*> ,1
+9e08cdfc,<*> ,2
+fd867894,<*> <*> to <*> ,1
+959f484d,Started <*> ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,2
+aae61ab5,Registered <*> <*> modules ,1
+b5f8f0ab,<*> <*> ,13
+670ef093,<*> to <*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,2
+a6d0e519,<*> default ,1
+203928fc,Upper limit on the thread pool size is <*> ,1
+39f9594e,<*> Transitioned from <*> to <*> ,1
+5ce0a509,Processing the event <*> <*> ,3
+38a54659,<*> Transitioned from <*> to RUNNING ,1
+18a10580,Resolved <*> to <*> ,39
+ec5bd6a0,<*> Task Transitioned from NEW to SCHEDULED ,11
+3f155b55,<*> <*> Transitioned from NEW to UNASSIGNED ,14
+a0a7e012,<*> <*> <*> for <*> <*> <*> <*> ,1
+dd48aa1f,Before <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+78edc0d4,<*> for <*> ask <*> release <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,12
+75aa7417,Recalculating <*> headroom <*> <*> ,131
+681e3ea1,Reduce slow start threshold not <*> <*> <*> ,130
+5182ebe1,Got allocated containers <*> ,10
+bfbc46fe,Assigned container <*> to <*> ,10
+e3ec901b,After <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,12
+6b2b257f,The <*> file on the remote FS is <*> ,1
+77e047cb,The <*> <*> <*> the <*> <*> is <*> ,1
+55632d71,<*> <*> <*> <*> <*> <*> <*> for <*> <*> for <*> container ,1
+347334c7,<*> <*> <*> <*> <*> ,2
+3927c921,<*> shuffle <*> <*> <*> ,1
+f702ae24,<*> <*> Transitioned from UNASSIGNED to ASSIGNED ,10
+db70aec9,Processing the event <*> <*> for container <*> <*> <*> ,13
+4e82a656,Launching <*> ,10
+be4e7b6c,Opening proxy <*> <*> ,13
+44ce823d,Shuffle port returned by <*> for <*> <*> <*> ,10
+f450e312,<*> <*> using <*> <*> on <*> <*> ,10
+4ef5b151,<*> <*> Transitioned from ASSIGNED to RUNNING ,10
+7b3bd79a,<*> Task Transitioned from SCHEDULED to RUNNING ,10
+03d035a5,Auth successful for <*> <*> ,10
+a754ccb5,<*> with ID <*> <*> asked for a task ,10
+0eb45716,<*> with <*> <*> given <*> <*> ,10
+d6b69686,Progress of <*> <*> is <*> <*> ,289
+0bf39f9c,Cannot assign container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Token <*> <*> <*> <*> <*> <*> <*> for a map as either container memory less than required <*> <*> or no pending map tasks <*> <*> true ,1
+3471c958,Received completed container <*> ,2
+9c9e8c51,Container <*> <*> for <*> container <*> <*> ,1
+d5208c0e,Done acknowledgement from <*> ,1
+da26a1a0,<*> <*> Transitioned from RUNNING to <*> ,3
+c3d08e3f,KILLING <*> ,3
+c89c3cc0,<*> <*> Transitioned from <*> to SUCCEEDED ,1
+e804345c,Task succeeded with attempt <*> ,1
+cedbc84b,<*> Task Transitioned from RUNNING to <*> ,1
+cd859682,Num completed <*> <*> ,1
+5a313b3e,Reduce slow start threshold <*> Scheduling <*> ,1
+733a3c36,All maps <*> Ramping up all remaining <*> ,1
+a438dc32,We launched <*> <*> Sleeping <*> <*> ,1
+f93e873b,<*> <*> <*> <*> <*> task <*> ,1
+8f6991d6,<*> <*> <*> <*> Container <*> <*> <*> <*> ,1
+f8f5781c,Address change <*> <*> <*> <*> <*> ,476
+5e7023b1,Failed to renew lease for <*> for <*> <*> Will retry shortly <*> ,326
+e79f75d2,Slow <*> read fields took <*> <*> <*> <*> <*> <*> <*> SUCCESS <*> ERROR <*> <*> <*> <*> <*> ,1
+68b0b63c,<*> <*> exception for block <*> ,1
+f908ec60,Error Recovery for block <*> in pipeline <*> <*> bad <*> <*> ,1
+cb43f496,<*> Exception ,1
+c7608954,ERROR IN CONTACTING <*> ,147
+65001976,Retrying connect to <*> <*> Already tried <*> <*> retry policy is <*> <*> <*> <*> <*> ,146
+d86cbb16,<*> <*> <*> exited <*> <*> No Route to Host from <*> to <*> failed on socket timeout <*> <*> No route to <*> no further <*> For more details <*> <*> ,2
+88af43e6,Diagnostics report from <*> <*> <*> No Route to Host from <*> to <*> failed on socket timeout <*> <*> No route to <*> no further <*> For more details <*> <*> ,4
+b74540a3,<*> <*> Transitioned from <*> to <*> ,2
+697a9f26,Task cleanup failed for attempt <*> ,2
+202ad17e,<*> <*> Transitioned from <*> to FAILED ,2
+58e26121,Thread <*> threw an <*> ,1
+0cf5cd4d,<*> failures on node <*> ,2
+973cabff,Added <*> to list of failed maps ,2

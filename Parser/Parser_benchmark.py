@@ -2,9 +2,9 @@
 
 import sys
 # Path - Windows
-#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+#sys.path.append("C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser")
 # Path - Linux
-sys.path.append("/home/vbertalan/Downloads/Parser/parser")
+#sys.path.append("/home/vbertalan/Downloads/Parser/parser")
 from fileinput import filename
 import evaluator
 import Parser
@@ -12,9 +12,13 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
-output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
-vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
+#input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
+#output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
+#vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
+
+input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
+output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
+vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\vectors" # The directory to save the vectorized files
 
 # Dictionary to load files
 benchmark_settings = {
@@ -29,7 +33,7 @@ benchmark_settings = {
         'log_file': 'Hadoop/Hadoop_2k.log',
         'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
         'regex': [r'(\d+\.){3}\d+'],
-        'threshold': 0.05      
+        'threshold': 0.1      
         },
 
     # 'Spark': {
