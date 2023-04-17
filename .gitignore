@@ -13,3 +13,6 @@ LogFiles/merges.txt
 LogFiles/pytorch_model.bin
 LogFiles/training_args.bin
 LogFiles/vocab.json
+NovoModelo/pytorch_model.bin
+.gitignore
+NovoModelo/training_args.bin

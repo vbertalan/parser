@@ -8,19 +8,19 @@ from transformers import RobertaForMaskedLM
 from transformers import RobertaConfig
 from tokenizers import ByteLevelBPETokenizer
 from pathlib import Path
+import os
 
-path = "sample-logs.txt"
+os.chdir("/home/vbertalan/Downloads/Raw Logs/")
+path = "Hadoop-full.txt"
 
-<<<<<<< HEAD
 ## Check if there is a GPU
-!nvidia-smi
-=======
->>>>>>> c993fc9ac2dca916e3a8938d02dfbd4cedf0229b
+#!nvidia-smi
 
 ## Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer()
 
-tokenizer.enable_truncation(max_length=2521)
+## para o arquivo de logs, 2521
+tokenizer.enable_truncation(max_length=512)
 
 ## Customize training
 tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens=[
@@ -33,7 +33,7 @@ tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens
     "<mask>",
 ])
 
-tokenizer.save_model("NovoModelo")
+tokenizer.save_model("HadoopConfigs")
 
 config = RobertaConfig(
     vocab_size=52_000,
@@ -43,7 +43,7 @@ config = RobertaConfig(
     type_vocab_size=1,
 )
 
-tokenizer = RobertaTokenizerFast.from_pretrained("./NovoModelo", max_len=512)
+tokenizer = RobertaTokenizerFast.from_pretrained("./HadoopConfigs", max_len=512)
 
 model = RobertaForMaskedLM(config=config)
 parametros = model.num_parameters()
@@ -60,7 +60,7 @@ data_collator = DataCollatorForLanguageModeling(
 )
 
 training_args = TrainingArguments(
-    output_dir="./LogFiles",
+    output_dir="./HadoopTransformer",
     overwrite_output_dir=True,
     num_train_epochs=1,
     per_gpu_train_batch_size=64,
@@ -77,4 +77,4 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.save_model("./NovoModelo")
+trainer.save_model("./HadoopTransformer")

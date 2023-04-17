@@ -2,9 +2,9 @@
 
 import sys
 # Path - Windows
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
 # Path - Linux
-#sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
+sys.path.append("/home/vbertalan/Downloads/Parser/parser")
 from fileinput import filename
 import evaluator
 import Parser
@@ -12,26 +12,25 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "Parser/logs" # The directory to get the logs
-output_dir = "Parser/results"  # The output directory of parsing results
-vector_dir = "Parser/vectors" # The directory to save the vectorized files
+input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
+output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
+vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
 
 # Dictionary to load files
 benchmark_settings = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        #'regex': [],
-        },
-
-    # 'Hadoop': {
-    #     'log_file': 'Hadoop/Hadoop_2k.log',
-    #     'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-    #     'regex': [r'(\d+\.){3}\d+'],
-    #     'st': 0.5,
-    #     'depth': 4        
+    # 'HDFS': {
+    #     'log_file': 'HDFS/HDFS_2k.log',
+    #     'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+    #     'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+    #     #'regex': [],
     #     },
+
+    'Hadoop': {
+        'log_file': 'Hadoop/Hadoop_2k.log',
+        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+        'regex': [r'(\d+\.){3}\d+'],
+        'threshold': 0.05      
+        },
 
     # 'Spark': {
     #     'log_file': 'Spark/Spark_2k.log',
@@ -155,9 +154,8 @@ for dataset, setting in benchmark_settings.items():
     indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
     log_file = os.path.basename(setting['log_file'])
 
-
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
-                                outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = 0.05, filename=log_file)
+                                outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = setting['threshold'], filename=log_file)
 
     '''
     parser = Parser.LogParser(log_format='<Content>', indir=indir, 
