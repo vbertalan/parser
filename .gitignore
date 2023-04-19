@@ -16,3 +16,10 @@ LogFiles/vocab.json
 NovoModelo/pytorch_model.bin
 .gitignore
 NovoModelo/training_args.bin
+error_lines_20220701-20220715.tar.gz
+lines_sampled_0.2_20220701-20220715.tar.gz
+Parser/logs/Ciena/error_lines_20220701-20220715.txt
+Parser/logs/Ciena/unique_lines_sample_0.2_20220701-20220715.txt
+Parser/logs/Ciena/ciena-full.txt
+Parser/logs/Ciena/ciena-mini.txt
+Parser/vectors/ciena-mini.txt_vectors.vec

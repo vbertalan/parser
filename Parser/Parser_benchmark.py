@@ -22,19 +22,34 @@ vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\
 
 # Dictionary to load files
 benchmark_settings = {
+      'Ciena-mini': {
+        'log_file': 'Ciena/ciena-mini.txt',
+        'log_format': '<Content>', 
+        'regex': [],
+        'threshold': 0.1,
+        'accuracy': 0     
+        },   
+   
+    #   'Ciena-full': {
+    #     'log_file': 'Ciena/ciena-full.txt',
+    #     'log_format': '<Content>', 
+    #     'regex': [],
+    #     'threshold': 0.1      
+    #     },   
+
+    # 'Hadoop': {
+    #     'log_file': 'Hadoop/Hadoop_2k.log',
+    #     'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+    #     'regex': [r'(\d+\.){3}\d+'],
+    #     'threshold': 0.1      
+    #     },
+
     # 'HDFS': {
     #     'log_file': 'HDFS/HDFS_2k.log',
     #     'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
     #     'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
     #     #'regex': [],
     #     },
-
-    'Hadoop': {
-        'log_file': 'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+'],
-        'threshold': 0.1      
-        },
 
     # 'Spark': {
     #     'log_file': 'Spark/Spark_2k.log',
@@ -151,6 +166,7 @@ benchmark_settings = {
 }
 
 benchmark_result = []
+test_accuracy = False
 
 ## Single threshold
 for dataset, setting in benchmark_settings.items():
@@ -160,19 +176,21 @@ for dataset, setting in benchmark_settings.items():
 
     parser = Parser.LogParser(log_format=setting['log_format'], indir=indir, 
                                 outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = setting['threshold'], filename=log_file)
+    parser.parse(log_file)  
 
-    '''
-    parser = Parser.LogParser(log_format='<Content>', indir=indir, 
-                                outdir=output_dir, vecdir=vector_dir, rex=[], threshold = 0.10, filename=log_file)
-    '''
+    if (setting['accuracy'] == 0):
+        ## REMOVER LINHA SE TESTANDO ACURÁCIA
+        parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
+        test_accuracy = True
+        print('\n=== Parsing finished ===')
+    else:
+        F1_measure, accuracy = evaluator.evaluate(
+                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
+                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
+                            )
+        benchmark_result.append([dataset, F1_measure, accuracy])
 
-    parser.parse(log_file)    
-    
-    F1_measure, accuracy = evaluator.evaluate(
-                           groundtruth=os.path.join(indir, log_file + '_structured.csv'),
-                           parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
-                           )
-    benchmark_result.append([dataset, F1_measure, accuracy])
+
     
 ## Testing different thresholds
 # for dataset, setting in benchmark_settings.items():
@@ -204,17 +222,12 @@ for dataset, setting in benchmark_settings.items():
 #     print("On dataset {}, the best threshold is {}!".format(dataset, best_threshold))
 #     benchmark_result.append([dataset, best_F1_measure, best_accuracy])
 
-
-
-print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
-df_result.set_index('Dataset', inplace=True)
-print(df_result)
-
-
-
-
-path_to_file = os.path.join(output_dir, 'Parser_benchmark_result.csv')
-filepath = Path(path_to_file)
-df_result.T.to_csv(filepath)
+if (test_accuracy):
+    print('\n=== Overall evaluation results ===')
+    df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
+    df_result.set_index('Dataset', inplace=True)
+    print(df_result)
+    path_to_file = os.path.join(output_dir, 'Parser_benchmark_result.csv')
+    filepath = Path(path_to_file)
+    df_result.T.to_csv(filepath)
 
