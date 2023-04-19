@@ -41,7 +41,8 @@ benchmark_settings = {
     #     'log_file': 'Hadoop/Hadoop_2k.log',
     #     'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
     #     'regex': [r'(\d+\.){3}\d+'],
-    #     'threshold': 0.1      
+    #     'threshold': 0.1,
+    #     'accuracy': 1      
     #     },
 
     # 'HDFS': {
@@ -179,11 +180,11 @@ for dataset, setting in benchmark_settings.items():
     parser.parse(log_file)  
 
     if (setting['accuracy'] == 0):
-        ## REMOVER LINHA SE TESTANDO ACURÁCIA
         parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
         test_accuracy = True
         print('\n=== Parsing finished ===')
     else:
+        print("Testing accuracy!")
         F1_measure, accuracy = evaluator.evaluate(
                             groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                             parsedresult=os.path.join(output_dir, log_file + '_structured.csv')

@@ -2,7 +2,7 @@ EventId,EventTemplate,Occurrences
 970b997f,Created <*> for application <*> ,1
 8b6db5c9,Executing with <*> ,1
 87bd080e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-26a17c5e,Using <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,3
 528e7a03,<*> set in <*> null ,1
 31a7e4be,<*> is <*> ,3
 784ed797,Registering class <*> for class <*> ,9
@@ -37,7 +37,6 @@ d9f54b8a,<*> <*> <*> <*> <*> <*> ,2
 aae61ab5,Registered <*> <*> modules ,1
 b5f8f0ab,<*> <*> ,13
 670ef093,<*> to <*> <*> <*> ,1
-e0afaf2b,<*> <*> <*> ,2
 a6d0e519,<*> default ,1
 203928fc,Upper limit on the thread pool size is <*> ,1
 39f9594e,<*> Transitioned from <*> to <*> ,1
@@ -54,10 +53,9 @@ dd48aa1f,Before <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
 5182ebe1,Got allocated containers <*> ,10
 bfbc46fe,Assigned container <*> to <*> ,10
 e3ec901b,After <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,12
-6b2b257f,The <*> file on the remote FS is <*> ,1
-77e047cb,The <*> <*> <*> the <*> <*> is <*> ,1
+6b2b257f,The <*> file on the remote FS is <*> ,2
 55632d71,<*> <*> <*> <*> <*> <*> <*> for <*> <*> for <*> container ,1
-347334c7,<*> <*> <*> <*> <*> ,2
+5b7569bd,Size of <*> is <*> ,1
 3927c921,<*> shuffle <*> <*> <*> ,1
 f702ae24,<*> <*> Transitioned from UNASSIGNED to ASSIGNED ,10
 db70aec9,Processing the event <*> <*> for container <*> <*> <*> ,13
@@ -85,7 +83,7 @@ cd859682,Num completed <*> <*> ,1
 733a3c36,All maps <*> Ramping up all remaining <*> ,1
 a438dc32,We launched <*> <*> Sleeping <*> <*> ,1
 f93e873b,<*> <*> <*> <*> <*> task <*> ,1
-8f6991d6,<*> <*> <*> <*> Container <*> <*> <*> <*> ,1
+459a230c,Diagnostics report from <*> Container killed by the <*> ,1
 f8f5781c,Address change <*> <*> <*> <*> <*> ,476
 5e7023b1,Failed to renew lease for <*> for <*> <*> Will retry shortly <*> ,326
 e79f75d2,Slow <*> read fields took <*> <*> <*> <*> <*> <*> <*> SUCCESS <*> ERROR <*> <*> <*> <*> <*> ,1
@@ -99,6 +97,7 @@ d86cbb16,<*> <*> <*> exited <*> <*> No Route to Host from <*> to <*> failed on s
 b74540a3,<*> <*> Transitioned from <*> to <*> ,2
 697a9f26,Task cleanup failed for attempt <*> ,2
 202ad17e,<*> <*> Transitioned from <*> to FAILED ,2
+347334c7,<*> <*> <*> <*> <*> ,1
 58e26121,Thread <*> threw an <*> ,1
 0cf5cd4d,<*> failures on node <*> ,2
 973cabff,Added <*> to list of failed maps ,2
