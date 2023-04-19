@@ -1,0 +1,127 @@
+EventId,EventTemplate,Occurrences
+11b0965a,<*> error <*> <*> null <*> has no keys ,30
+68f512b5,<*> line <*> <*> command not found ,5
+02811a8e,<*> cannot stat <*> No such file or directory ,2984
+203accb9,<*> <*> command not found ,2
+0616765b,<*> <*> <*> <*> No such file or directory ,6
+1d8e378b,<*> cannot access <*> No such file or directory ,22
+4fc7ccb6,<*> <*> Command not found ,2
+b5f6193c,<*> <*> <*> <*> ,13
+a625d315,<*> <*> No such file ,62
+aa4ade48,<*> <*> No such file or directory ,3521
+c80806ce,<*> cannot <*> <*> No such file or directory ,11
+d6e91fae,<*> no <*> <*> ,1
+156d178c,<*> <*> No such <*> <*> <*> ,1
+3dab19f7,<*> <*> <*> <*> file <*> <*> <*> not <*> ,2
+62dc12c7,<*> no such path <*> in HEAD ,1004
+1de49765,<*> <*> blame <*> <*> <*> Error code <*> <*> ,247
+ceea6d1c,<*> not a git repository <*> any parent <*> to <*> <*> <*> ,9
+f92a4af6,<*> not a git repository <*> any of <*> parent <*> <*> ,2
+bde62cf9,<*> cannot stat <*> <*> ,1
+fc79954d,<*> No such file or directory ,1
+ad4a9766,<*> <*> <*> <*> failed ,1
+710b49aa,<*> <*> <*> Execution of <*> failed with exit code <*> ,6
+bb9495ac,<*> <*> <*> No such file or directory ,3
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,9
+48d3a89c,<*> <*> <*> <*> returned <*> exit status ,1
+2d210e2a,<*> <*> <*> <*> Error <*> ,12
+ab8c2b65,<*> <*> Execution of <*> failed with exit code <*> ,6
+6a392684,<*> <*> <*> failed with exit code <*> ,2
+347334c7,<*> <*> <*> <*> <*> ,3
+13ec5b24,<*> <*> to <*> error <*> ,2
+33651235,<*> <*> <*> to error <*> ,2
+4cd2af99,<*> Command <*> <*> returned <*> exit status <*> ,9
+8b571cb5,<*> ERROR <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> exception ,8
+66a14e3e,Unable to <*> archive <*> Artifact instance has no attribute <*> ,5892
+614d1e66,<*> <*> <*> No such file or <*> <*> ,4
+40643b18,<*> No <*> <*> <*> <*> no <*> <*> ,1
+8acb5c29,<*> <*> file NOT <*> <*> <*> ,8
+d741f7d0,<*> to <*> <*> <*> <*> <*> <*> not <*> ,2
+d306357a,<*> <*> <*> <*> before <*> <*> not <*> <*> ,1
+b5f8f0ab,<*> <*> ,1
+649733a9,<*> <*> <*> command line <*> <*> <*> ,1
+ac9086df,<*> <*> syntax error before <*> ,7
+9cdf2383,<*> <*> syntax error before <*> token ,9
+a7d47815,<*> <*> <*> <*> <*> not <*> <*> ,2
+aadeb078,<*> <*> <*> <*> <*> <*> in <*> <*> ,3
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,6
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,12
+bc74706c,<*> <*> previous <*> of <*> <*> here ,1
+5184e0a7,<*> <*> previous declaration of <*> <*> here ,1
+472d9328,<*> invalid suffix <*> on integer constant ,30
+60d10529,<*> <*> enumerator value for <*> not integer constant ,18
+220f4111,<*> cannot stat <*> <*> <*> <*> <*> <*> <*> ,1
+9c727fef,<*> No <*> <*> ,1
+c8c51735,<*> line <*> <*> <*> not found ,1
+79e49f41,<*> <*> declaration of <*> <*> <*> <*> <*> <*> ,2
+af56f705,<*> <*> previous declaration <*> <*> here ,2
+c98842c7,<*> <*> declaration of <*> <*> <*> <*> <*> <*> <*> ,2
+8141df71,<*> <*> previous declaration <*> <*> <*> here ,2
+28fc6444,<*> cannot remove <*> No such file or directory ,1374
+8f78861f,<*> <*> <*> <*> <*> is not <*> ,5
+182c2971,<*> cannot overwrite directory <*> with <*> ,64
+2d13e9c7,<*> <*> previous <*> <*> <*> <*> <*> <*> ,5
+793e20ca,<*> cannot <*> <*> ,1
+13b46a52,error <*> from <*> ,1
+cd236ea3,<*> <*> <*> line <*> <*> <*> ,1
+7f5d341b,<*> is not <*> in <*> ,1
+d0465896,<*> <*> is not <*> in <*> ,1
+248e7e0e,<*> <*> section <*> <*> <*> overlaps previous sections ,23
+ebd6610f,<*> <*> No <*> to <*> <*> <*> <*> <*> <*> <*> ,1
+35a7fedb,<*> <*> <*> <*> <*> failed ,4
+1aab3f56,<*> <*> <*> Error <*> ,5
+f586c2f6,<*> cannot <*> <*> <*> <*> <*> ,6
+8d76339a,<*> error <*> <*> <*> ,3
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+7af0dadb,<*> <*> previous <*> declaration of <*> <*> here ,1
+a2f2548a,<*> no such <*> <*> in <*> ,1
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+bdb34393,Error <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+4535d991,<*> Failed to <*> <*> <*> <*> <*> <*> <*> Failed to <*> metadata <*> <*> not <*> metadata <*> <*> tag <*> <*> <*> <*> <*> tag <*> <*> from line <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+9e08cdfc,<*> ,1
+fd1a0593,<*> <*> Not a <*> <*> ,10
+9ac3628c,<*> <*> Directory not <*> <*> ,4
+44fd88f7,<*> Line <*> Column <*> AID Reference not <*> <*> ,23
+99132c43,<*> Line <*> Column <*> AID Reference not <*> <*> in <*> ,3
+91d00115,<*> <*> Cannot <*> No such file or directory ,1
+d8010481,<*> <*> with <*> status <*> to <*> <*> ,1
+092574b7,<*> From <*> <*> <*> exception <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> error code <*> <*> not <*> <*> <*> exception is <*> <*> not <*> <*> ,1
+3fc08904,failed to <*> <*> <*> <*> <*> ,1
+5364cee6,<*> file not <*> ,1
+725e6d6a,<*> <*> <*> <*> <*> <*> such file or <*> ,1
+0712b40f,<*> <*> <*> <*> not <*> in <*> <*> ,3
+406988dd,Error in <*> <*> of <*> <*> ,1
+df136159,<*> <*> <*> Cannot <*> No such file or directory ,4
+7c8cd0ea,<*> <*> Error is not <*> <*> <*> ,1
+cc723251,<*> Error is not <*> <*> <*> ,1
+ca0ae347,failed to <*> <*> ,1
+924ece91,Error <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+2d9388df,<*> <*> <*> <*> <*> <*> script unexpected failure of ,36
+9b21b622,<*> <*> <*> Failed writing body <*> <*> <*> ,36
+721fa450,<*> Giving up after <*> times of trying <*> ,36
+5e4fbece,<*> <*> Failed to <*> <*> ,1
+395b9dab,<*> <*> not in <*> <*> ,1
+b79d7fcd,Error <*> from <*> <*> <*> <*> <*> <*> <*> ,4
+9b190ee5,<*> line <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+254444ca,<*> <*> error <*> <*> tag <*> <*> not found ,1
+909f7d3f,<*> Failed to <*> <*> <*> <*> <*> <*> <*> Failed to <*> metadata <*> <*> not <*> metadata <*> <*> <*> <*> <*> <*> <*> <*> <*> not <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+551da210,<*> <*> <*> <*> FAILED ,1
+a63f99db,<*> <*> <*> <*> failed <*> <*> <*> ,1
+ec7cc804,<*> <*> <*> Failed <*> is <*> ,1
+9c23e03e,<*> <*> <*> <*> <*> to <*> <*> ,2
+e5b86fa3,<*> <*> <*> <*> <*> <*> to <*> <*> ,2
+6e8ed879,<*> <*> <*> Error <*> <*> <*> <*> <*> <*> ,2
+d347a144,<*> <*> <*> Error <*> <*> <*> <*> ,1
+e4ae3724,<*> <*> <*> <*> not found in <*> <*> ,4
+110927d9,Error <*> <*> <*> <*> <*> <*> file to <*> <*> ,1
+ad1e2431,Error in <*> <*> <*> <*> ,1
+44b1820f,<*> <*> <*> <*> not <*> <*> <*> ,1
+0502a916,<*> <*> <*> No such file or <*> ,2
+4d1ad628,<*> <*> <*> <*> not <*> <*> of <*> ,1
+aa417267,<*> <*> <*> <*> <*> Failed ,1
+0577cdad,<*> Failed to <*> <*> <*> <*> <*> <*> <*> Failed to <*> metadata <*> <*> not <*> metadata <*> no <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> tag <*> from line <*> <*> <*> tag <*> from line <*> <*> <*> tag <*> from line <*> <*> <*> tag <*> from line <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+c9f5fbf7,<*> no <*> <*> <*> of file ,1
+06c08771,<*> cannot <*> <*> Directory not <*> ,1
+43281ec0,<*> line <*> <*> <*> No such file or directory ,2
