@@ -10,8 +10,8 @@ from tokenizers import ByteLevelBPETokenizer
 from pathlib import Path
 import os
 
-os.chdir("/home/vbertalan/Downloads/Raw Logs/")
-path = "Hadoop-full.txt"
+#os.chdir("/home/vbertalan/Downloads/Raw Logs/")
+path = "sample-logs.txt"
 
 ## Check if there is a GPU
 #!nvidia-smi
@@ -33,7 +33,7 @@ tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens
     "<mask>",
 ])
 
-tokenizer.save_model("HadoopConfigs")
+tokenizer.save_model("NovoModelo")
 
 config = RobertaConfig(
     vocab_size=52_000,
@@ -43,7 +43,7 @@ config = RobertaConfig(
     type_vocab_size=1,
 )
 
-tokenizer = RobertaTokenizerFast.from_pretrained("./HadoopConfigs", max_len=512)
+tokenizer = RobertaTokenizerFast.from_pretrained("./NovoModelo", max_len=512)
 
 model = RobertaForMaskedLM(config=config)
 parametros = model.num_parameters()
@@ -60,7 +60,7 @@ data_collator = DataCollatorForLanguageModeling(
 )
 
 training_args = TrainingArguments(
-    output_dir="./HadoopTransformer",
+    output_dir="./LogFiles",
     overwrite_output_dir=True,
     num_train_epochs=1,
     per_gpu_train_batch_size=64,
@@ -77,4 +77,4 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.save_model("./HadoopTransformer")
+trainer.save_model("./LogFiles")
