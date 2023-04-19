@@ -9,7 +9,7 @@
 
 cd ~/$projects/teste
 module purge
-module load python/3.8.10 scipy-stack
+module load python/3.8.10
 source ~/.venv/bin/activate
 
 python transformer-trainer.py
