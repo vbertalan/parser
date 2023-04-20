@@ -23,3 +23,4 @@ Parser/logs/Ciena/unique_lines_sample_0.2_20220701-20220715.txt
 Parser/logs/Ciena/ciena-full.txt
 Parser/logs/Ciena/ciena-mini.txt
 Parser/vectors/ciena-mini.txt_vectors.vec
+Hadoop-Transformer/pytorch_model.bin

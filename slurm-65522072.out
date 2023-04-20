@@ -1,0 +1,93 @@
+/var/spool/slurmd/job65522072/slurm_script: line 10: cd: /home/vberta/home/vberta/projects/def-aloise/vberta/Parser/parser: No such file or directory
+
+
+
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+/project/6023391/vberta/Parser/parser/.venv/lib/python3.8/site-packages/transformers/data/datasets/language_modeling.py:121: FutureWarning: This dataset will be removed from the library soon, preprocessing should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_mlm.py
+  warnings.warn(
+Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
+Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
+Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
+/project/6023391/vberta/Parser/parser/.venv/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 2000
+  Num Epochs = 1
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 64
+  Gradient Accumulation steps = 1
+  Total optimization steps = 32
+  Number of trainable parameters = 83504416
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+wandb: Currently logged in as: vbertalan (vbertalan88). Use `wandb login --relogin` to force relogin
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+wandb: wandb version 0.15.0 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.14.1
+wandb: Run data is saved locally in /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run kind-waterfall-2
+wandb: ⭐️ View project at https://wandb.ai/vbertalan88/huggingface
+wandb: 🚀 View run at https://wandb.ai/vbertalan88/huggingface/runs/ygf3jrul
+O numero de parametros e 83504416
+  0%|          | 0/32 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  3%|▎         | 1/32 [00:03<01:39,  3.22s/it]  6%|▋         | 2/32 [00:03<00:52,  1.76s/it]  9%|▉         | 3/32 [00:04<00:33,  1.14s/it] 12%|█▎        | 4/32 [00:04<00:23,  1.17it/s] 16%|█▌        | 5/32 [00:05<00:18,  1.43it/s] 19%|█▉        | 6/32 [00:05<00:15,  1.65it/s] 22%|██▏       | 7/32 [00:06<00:13,  1.83it/s] 25%|██▌       | 8/32 [00:06<00:12,  1.97it/s] 28%|██▊       | 9/32 [00:07<00:11,  1.94it/s] 31%|███▏      | 10/32 [00:07<00:12,  1.74it/s] 34%|███▍      | 11/32 [00:08<00:11,  1.79it/s] 38%|███▊      | 12/32 [00:08<00:10,  1.94it/s] 41%|████      | 13/32 [00:09<00:09,  2.05it/s] 44%|████▍     | 14/32 [00:09<00:09,  1.80it/s] 47%|████▋     | 15/32 [00:10<00:11,  1.49it/s] 50%|█████     | 16/32 [00:11<00:09,  1.67it/s] 53%|█████▎    | 17/32 [00:11<00:08,  1.75it/s] 56%|█████▋    | 18/32 [00:12<00:07,  1.83it/s] 59%|█████▉    | 19/32 [00:12<00:06,  1.97it/s] 62%|██████▎   | 20/32 [00:13<00:05,  2.07it/s] 66%|██████▌   | 21/32 [00:13<00:06,  1.78it/s] 69%|██████▉   | 22/32 [00:14<00:05,  1.75it/s] 72%|███████▏  | 23/32 [00:15<00:05,  1.60it/s] 75%|███████▌  | 24/32 [00:15<00:04,  1.78it/s] 78%|███████▊  | 25/32 [00:16<00:03,  1.82it/s] 81%|████████▏ | 26/32 [00:16<00:03,  1.94it/s] 84%|████████▍ | 27/32 [00:17<00:02,  1.71it/s] 88%|████████▊ | 28/32 [00:17<00:02,  1.62it/s] 91%|█████████ | 29/32 [00:18<00:01,  1.79it/s] 94%|█████████▍| 30/32 [00:18<00:01,  1.83it/s] 97%|█████████▋| 31/32 [00:19<00:00,  1.97it/s]100%|██████████| 32/32 [00:19<00:00,  2.39it/s]
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+                                               100%|██████████| 32/32 [00:19<00:00,  2.39it/s]100%|██████████| 32/32 [00:19<00:00,  1.64it/s]
+Saving model checkpoint to ./LogFiles
+Configuration saved in ./LogFiles/config.json
+Model weights saved in ./LogFiles/pytorch_model.bin
+{'train_runtime': 30.925, 'train_samples_per_second': 64.673, 'train_steps_per_second': 1.035, 'train_loss': 7.944772243499756, 'epoch': 1.0}
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:                    train/epoch ▁
+wandb:              train/global_step ▁
+wandb:               train/total_flos ▁
+wandb:               train/train_loss ▁
+wandb:            train/train_runtime ▁
+wandb: train/train_samples_per_second ▁
+wandb:   train/train_steps_per_second ▁
+wandb: 
+wandb: Run summary:
+wandb:                    train/epoch 1.0
+wandb:              train/global_step 32
+wandb:               train/total_flos 46303449034752.0
+wandb:               train/train_loss 7.94477
+wandb:            train/train_runtime 30.925
+wandb: train/train_samples_per_second 64.673
+wandb:   train/train_steps_per_second 1.035
+wandb: 
+wandb: 🚀 View run kind-waterfall-2 at: https://wandb.ai/vbertalan88/huggingface/runs/ygf3jrul
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230419_181634-ygf3jrul/logs

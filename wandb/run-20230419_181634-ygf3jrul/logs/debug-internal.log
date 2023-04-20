@@ -1,0 +1,204 @@
+2023-04-19 18:16:34,662 INFO    StreamThr :29811 [internal.py:wandb_internal():86] W&B internal server running at pid: 29811, started at: 2023-04-19 18:16:34.659028
+2023-04-19 18:16:34,664 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: status
+2023-04-19 18:16:34,667 INFO    WriterThread:29811 [datastore.py:open_for_write():85] open: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/run-ygf3jrul.wandb
+2023-04-19 18:16:34,669 DEBUG   SenderThread:29811 [sender.py:send():375] send: header
+2023-04-19 18:16:34,861 DEBUG   SenderThread:29811 [sender.py:send():375] send: run
+2023-04-19 18:16:35,393 INFO    SenderThread:29811 [dir_watcher.py:__init__():219] watching files in: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files
+2023-04-19 18:16:35,393 INFO    SenderThread:29811 [sender.py:_start_run_threads():1124] run started: ygf3jrul with start time 1681953394.664067
+2023-04-19 18:16:35,393 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: summary_record
+2023-04-19 18:16:35,396 INFO    SenderThread:29811 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-19 18:16:35,396 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: check_version
+2023-04-19 18:16:35,397 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: check_version
+2023-04-19 18:16:35,499 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: run_start
+2023-04-19 18:16:35,505 DEBUG   HandlerThread:29811 [system_info.py:__init__():31] System info init
+2023-04-19 18:16:35,505 DEBUG   HandlerThread:29811 [system_info.py:__init__():46] System info init done
+2023-04-19 18:16:35,506 INFO    HandlerThread:29811 [system_monitor.py:start():181] Starting system monitor
+2023-04-19 18:16:35,506 INFO    SystemMonitor:29811 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-19 18:16:35,506 INFO    HandlerThread:29811 [system_monitor.py:probe():201] Collecting system info
+2023-04-19 18:16:35,506 INFO    SystemMonitor:29811 [interfaces.py:start():190] Started cpu monitoring
+2023-04-19 18:16:35,507 INFO    SystemMonitor:29811 [interfaces.py:start():190] Started disk monitoring
+2023-04-19 18:16:35,507 INFO    SystemMonitor:29811 [interfaces.py:start():190] Started gpu monitoring
+2023-04-19 18:16:35,508 INFO    SystemMonitor:29811 [interfaces.py:start():190] Started memory monitoring
+2023-04-19 18:16:35,509 INFO    SystemMonitor:29811 [interfaces.py:start():190] Started network monitoring
+2023-04-19 18:16:35,521 DEBUG   HandlerThread:29811 [system_info.py:probe():195] Probing system
+2023-04-19 18:16:35,528 DEBUG   HandlerThread:29811 [system_info.py:_probe_git():180] Probing git
+2023-04-19 18:16:35,548 DEBUG   HandlerThread:29811 [system_info.py:_probe_git():188] Probing git done
+2023-04-19 18:16:35,548 DEBUG   HandlerThread:29811 [system_info.py:probe():240] Probing system done
+2023-04-19 18:16:35,548 DEBUG   HandlerThread:29811 [system_monitor.py:probe():210] {'os': 'Linux-3.10.0-1160.80.1.el7.x86_64-x86_64-with-glibc2.2.5', 'python': '3.8.10', 'heartbeatAt': '2023-04-20T01:16:35.521945', 'startedAt': '2023-04-20T01:16:34.642216', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'transformer-trainer.py', 'codePath': 'transformer-trainer.py', 'git': {'remote': 'https://github.com/vbertalan/parser.git', 'commit': '25bb83d3f1efbcfac61b845eab4cd953d48900ac'}, 'email': 'vbertalan@gmail.com', 'root': '/project/6023391/vberta/Parser/parser', 'host': 'cdr296.int.cedar.computecanada.ca', 'username': 'vberta', 'executable': '/project/6023391/vberta/Parser/parser/.venv/bin/python', 'cpu_count': 24, 'cpu_count_logical': 24, 'cpu_freq': {'current': 2632.417333333333, 'min': 1200.0, 'max': 2900.0}, 'cpu_freq_per_core': [{'current': 2545.629, 'min': 1200.0, 'max': 2900.0}, {'current': 2841.04, 'min': 1200.0, 'max': 2900.0}, {'current': 2620.69, 'min': 1200.0, 'max': 2900.0}, {'current': 2700.317, 'min': 1200.0, 'max': 2900.0}, {'current': 2560.803, 'min': 1200.0, 'max': 2900.0}, {'current': 2676.818, 'min': 1200.0, 'max': 2900.0}, {'current': 2668.627, 'min': 1200.0, 'max': 2900.0}, {'current': 2661.108, 'min': 1200.0, 'max': 2900.0}, {'current': 2693.2, 'min': 1200.0, 'max': 2900.0}, {'current': 2665.136, 'min': 1200.0, 'max': 2900.0}, {'current': 2551.672, 'min': 1200.0, 'max': 2900.0}, {'current': 2600.146, 'min': 1200.0, 'max': 2900.0}, {'current': 2500.781, 'min': 1200.0, 'max': 2900.0}, {'current': 2520.788, 'min': 1200.0, 'max': 2900.0}, {'current': 2499.975, 'min': 1200.0, 'max': 2900.0}, {'current': 2886.291, 'min': 1200.0, 'max': 2900.0}, {'current': 2576.245, 'min': 1200.0, 'max': 2900.0}, {'current': 2700.048, 'min': 1200.0, 'max': 2900.0}, {'current': 2500.378, 'min': 1200.0, 'max': 2900.0}, {'current': 2695.886, 'min': 1200.0, 'max': 2900.0}, {'current': 2678.967, 'min': 1200.0, 'max': 2900.0}, {'current': 2569.799, 'min': 1200.0, 'max': 2900.0}, {'current': 2582.287, 'min': 1200.0, 'max': 2900.0}, {'current': 2512.866, 'min': 1200.0, 'max': 2900.0}], 'disk': {'total': 4.0, 'used': 2.511821746826172}, 'gpu': 'Tesla P100-PCIE-12GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla P100-PCIE-12GB', 'memory_total': 12884901888}], 'memory': {'total': 125.82308197021484}}
+2023-04-19 18:16:35,548 INFO    HandlerThread:29811 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-19 18:16:35,548 INFO    HandlerThread:29811 [system_monitor.py:probe():214] Publishing system info
+2023-04-19 18:16:35,548 DEBUG   HandlerThread:29811 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-19 18:16:35,551 DEBUG   HandlerThread:29811 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-19 18:16:35,567 INFO    HandlerThread:29811 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-19 18:16:35,730 DEBUG   SenderThread:29811 [sender.py:send():375] send: files
+2023-04-19 18:16:35,730 INFO    SenderThread:29811 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-19 18:16:35,739 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-19 18:16:35,739 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: stop_status
+2023-04-19 18:16:35,838 DEBUG   SenderThread:29811 [sender.py:send():375] send: telemetry
+2023-04-19 18:16:35,838 DEBUG   SenderThread:29811 [sender.py:send():375] send: config
+2023-04-19 18:16:35,839 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:35,840 DEBUG   SenderThread:29811 [sender.py:send():375] send: telemetry
+2023-04-19 18:16:35,840 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:35,840 WARNING SenderThread:29811 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-04-19 18:16:36,144 INFO    wandb-upload_0:29811 [upload_job.py:push():137] Uploaded file /tmp/tmp82lq1innwandb/0tt5l2l3-wandb-metadata.json
+2023-04-19 18:16:36,396 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_created():278] file/dir created: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/requirements.txt
+2023-04-19 18:16:36,396 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_created():278] file/dir created: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-summary.json
+2023-04-19 18:16:36,396 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_created():278] file/dir created: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-metadata.json
+2023-04-19 18:16:36,397 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_created():278] file/dir created: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:38,396 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:39,708 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: status_report
+2023-04-19 18:16:40,397 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:42,398 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:44,399 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:44,836 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: status_report
+2023-04-19 18:16:46,400 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:48,401 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:50,099 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: status_report
+2023-04-19 18:16:50,402 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:50,738 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-19 18:16:50,739 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: stop_status
+2023-04-19 18:16:52,403 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:54,404 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:55,229 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: status_report
+2023-04-19 18:16:55,239 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-19 18:16:55,242 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:55,243 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:55,243 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:55,243 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:55,244 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:55,244 DEBUG   SenderThread:29811 [sender.py:send():375] send: metric
+2023-04-19 18:16:55,244 DEBUG   SenderThread:29811 [sender.py:send():375] send: history
+2023-04-19 18:16:55,244 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: summary_record
+2023-04-19 18:16:55,246 INFO    SenderThread:29811 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-19 18:16:55,405 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-summary.json
+2023-04-19 18:16:56,157 DEBUG   SenderThread:29811 [sender.py:send():375] send: exit
+2023-04-19 18:16:56,157 INFO    SenderThread:29811 [sender.py:send_exit():598] handling exit code: 0
+2023-04-19 18:16:56,157 INFO    SenderThread:29811 [sender.py:send_exit():600] handling runtime: 20
+2023-04-19 18:16:56,158 INFO    SenderThread:29811 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-19 18:16:56,159 INFO    SenderThread:29811 [sender.py:send_exit():606] send defer
+2023-04-19 18:16:56,159 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,159 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-19 18:16:56,159 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,160 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-19 18:16:56,160 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 1
+2023-04-19 18:16:56,160 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,160 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-19 18:16:56,160 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,160 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-19 18:16:56,160 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 2
+2023-04-19 18:16:56,161 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,161 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-19 18:16:56,161 INFO    HandlerThread:29811 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-19 18:16:56,161 DEBUG   SystemMonitor:29811 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-19 18:16:56,162 DEBUG   SystemMonitor:29811 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-19 18:16:56,162 INFO    HandlerThread:29811 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-19 18:16:56,162 DEBUG   SystemMonitor:29811 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-19 18:16:56,162 INFO    HandlerThread:29811 [interfaces.py:finish():202] Joined disk monitor
+2023-04-19 18:16:56,250 INFO    HandlerThread:29811 [interfaces.py:finish():202] Joined gpu monitor
+2023-04-19 18:16:56,251 INFO    HandlerThread:29811 [interfaces.py:finish():202] Joined memory monitor
+2023-04-19 18:16:56,251 INFO    HandlerThread:29811 [interfaces.py:finish():202] Joined network monitor
+2023-04-19 18:16:56,251 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,251 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-19 18:16:56,252 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 3
+2023-04-19 18:16:56,252 DEBUG   SenderThread:29811 [sender.py:send():375] send: stats
+2023-04-19 18:16:56,252 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,252 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-19 18:16:56,253 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,253 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-19 18:16:56,253 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 4
+2023-04-19 18:16:56,253 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,253 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-19 18:16:56,254 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,254 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-19 18:16:56,254 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 5
+2023-04-19 18:16:56,254 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,254 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-19 18:16:56,255 DEBUG   SenderThread:29811 [sender.py:send():375] send: summary
+2023-04-19 18:16:56,257 INFO    SenderThread:29811 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-19 18:16:56,257 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,257 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-19 18:16:56,257 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 6
+2023-04-19 18:16:56,257 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,257 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-19 18:16:56,258 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,258 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-19 18:16:56,263 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: status_report
+2023-04-19 18:16:56,406 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-summary.json
+2023-04-19 18:16:56,407 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:56,532 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 7
+2023-04-19 18:16:56,532 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:56,532 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-19 18:16:56,533 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:56,533 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-19 18:16:57,157 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-19 18:16:57,407 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/config.yaml
+2023-04-19 18:16:57,408 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:59,266 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 8
+2023-04-19 18:16:59,266 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: poll_exit
+2023-04-19 18:16:59,266 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:59,267 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-19 18:16:59,267 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:59,267 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-19 18:16:59,384 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 9
+2023-04-19 18:16:59,385 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:16:59,385 DEBUG   SenderThread:29811 [sender.py:send():375] send: artifact
+2023-04-19 18:16:59,385 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-19 18:16:59,409 INFO    Thread-12 :29811 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:16:59,794 INFO    SenderThread:29811 [sender.py:send_artifact():1474] sent artifact job-https___github.com_vbertalan_parser.git_transformer-trainer.py - {'id': 'QXJ0aWZhY3Q6NDI4NTUyMTk1', 'digest': 'e1f86b652d920066cfc65ad28bcbd866', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_vbertalan_parser.git_transformer-trainer.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_vbertalan_parser.git_transformer-trainer.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYzMzExMDkw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDI4NTUyMTk1', 'versionIndex': 0}}, 'version': 'v0'}
+2023-04-19 18:16:59,794 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:16:59,794 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-19 18:16:59,794 INFO    SenderThread:29811 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-19 18:17:00,409 INFO    SenderThread:29811 [dir_watcher.py:finish():395] scan: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files
+2023-04-19 18:17:00,409 INFO    SenderThread:29811 [dir_watcher.py:finish():409] scan save: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/config.yaml config.yaml
+2023-04-19 18:17:00,410 INFO    SenderThread:29811 [dir_watcher.py:finish():409] scan save: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-summary.json wandb-summary.json
+2023-04-19 18:17:00,414 INFO    SenderThread:29811 [dir_watcher.py:finish():409] scan save: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/requirements.txt requirements.txt
+2023-04-19 18:17:00,418 INFO    SenderThread:29811 [dir_watcher.py:finish():409] scan save: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log output.log
+2023-04-19 18:17:00,423 INFO    SenderThread:29811 [dir_watcher.py:finish():409] scan save: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-metadata.json wandb-metadata.json
+2023-04-19 18:17:00,423 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 10
+2023-04-19 18:17:00,424 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:17:00,427 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-19 18:17:00,428 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:17:00,428 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-19 18:17:00,428 INFO    SenderThread:29811 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-19 18:17:00,791 INFO    wandb-upload_1:29811 [upload_job.py:push():137] Uploaded file /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/wandb-summary.json
+2023-04-19 18:17:00,821 INFO    wandb-upload_0:29811 [upload_job.py:push():137] Uploaded file /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/config.yaml
+2023-04-19 18:17:00,828 INFO    wandb-upload_2:29811 [upload_job.py:push():137] Uploaded file /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/requirements.txt
+2023-04-19 18:17:00,835 INFO    wandb-upload_3:29811 [upload_job.py:push():137] Uploaded file /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/files/output.log
+2023-04-19 18:17:01,035 INFO    Thread-11 :29811 [sender.py:transition_state():626] send defer: 11
+2023-04-19 18:17:01,035 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:17:01,036 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-19 18:17:01,036 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:17:01,036 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-19 18:17:01,036 INFO    SenderThread:29811 [file_pusher.py:join():173] waiting for file pusher
+2023-04-19 18:17:01,036 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 12
+2023-04-19 18:17:01,037 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:17:01,037 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-19 18:17:01,037 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:17:01,037 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-19 18:17:01,500 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 13
+2023-04-19 18:17:01,500 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:17:01,500 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-19 18:17:01,501 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:17:01,501 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-19 18:17:01,501 INFO    SenderThread:29811 [sender.py:transition_state():626] send defer: 14
+2023-04-19 18:17:01,502 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: defer
+2023-04-19 18:17:01,502 DEBUG   SenderThread:29811 [sender.py:send():375] send: final
+2023-04-19 18:17:01,502 INFO    HandlerThread:29811 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-19 18:17:01,502 DEBUG   SenderThread:29811 [sender.py:send():375] send: footer
+2023-04-19 18:17:01,502 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: defer
+2023-04-19 18:17:01,502 INFO    SenderThread:29811 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-19 18:17:01,503 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-19 18:17:01,503 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: poll_exit
+2023-04-19 18:17:01,504 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: server_info
+2023-04-19 18:17:01,504 DEBUG   SenderThread:29811 [sender.py:send_request():402] send_request: server_info
+2023-04-19 18:17:01,505 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-19 18:17:01,508 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-19 18:17:01,582 INFO    MainThread:29811 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-19 18:17:01,582 INFO    MainThread:29811 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-19 18:17:01,582 INFO    MainThread:29811 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-04-19 18:17:01,583 DEBUG   HandlerThread:29811 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-19 18:17:01,583 INFO    HandlerThread:29811 [handler.py:finish():845] shutting down handler
+2023-04-19 18:17:02,504 INFO    WriterThread:29811 [datastore.py:close():298] close: /project/6023391/vberta/Parser/parser/wandb/run-20230419_181634-ygf3jrul/run-ygf3jrul.wandb
+2023-04-19 18:17:02,582 INFO    SenderThread:29811 [sender.py:finish():1550] shutting down sender
+2023-04-19 18:17:02,582 INFO    SenderThread:29811 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-19 18:17:02,582 INFO    SenderThread:29811 [file_pusher.py:join():173] waiting for file pusher
