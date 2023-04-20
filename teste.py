@@ -1,3 +1,3 @@
 outFile = open('teste.txt', 'w')
-outFile.write('My first output file!')
+outFile.write('My NEW first output file!')
 outFile.close()
