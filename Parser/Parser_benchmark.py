@@ -181,10 +181,10 @@ for dataset, setting in benchmark_settings.items():
 
     if (setting['accuracy'] == 0):
         parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
-        test_accuracy = True
         print('\n=== Parsing finished ===')
     else:
         print("Testing accuracy!")
+        test_accuracy = True
         F1_measure, accuracy = evaluator.evaluate(
                             groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                             parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
