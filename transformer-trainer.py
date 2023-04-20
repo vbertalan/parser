@@ -12,6 +12,7 @@ import os
 
 path = Path("Parser/logs/Hadoop/Hadoop-full.txt")
 path = os.path.join(os.getcwd(), path)
+print(path)
 
 ## Check if there is a GPU
 #!nvidia-smi
