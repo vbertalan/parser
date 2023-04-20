@@ -1,92 +1,0 @@
-
-
-
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-/project/6023391/vberta/Parser/parser/.venv/lib/python3.8/site-packages/transformers/data/datasets/language_modeling.py:121: FutureWarning: This dataset will be removed from the library soon, preprocessing should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/main/examples/pytorch/language-modeling/run_mlm.py
-  warnings.warn(
-Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
-Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
-Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
-/project/6023391/vberta/Parser/parser/.venv/lib/python3.8/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-***** Running training *****
-  Num examples = 4000
-  Num Epochs = 1
-  Instantaneous batch size per device = 8
-  Total train batch size (w. parallel, distributed & accumulation) = 64
-  Gradient Accumulation steps = 1
-  Total optimization steps = 63
-  Number of trainable parameters = 83504416
-Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
-Using deprecated `--per_gpu_train_batch_size` argument which will be removed in a future version. Using `--per_device_train_batch_size` is preferred.
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-wandb: Currently logged in as: vbertalan (vbertalan88). Use `wandb login --relogin` to force relogin
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: | Waiting for wandb.init()...wandb: wandb version 0.15.0 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.14.1
-wandb: Run data is saved locally in /project/6023391/vberta/Parser/parser/wandb/run-20230419_174107-0n8hlgwr
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run young-universe-1
-wandb: ⭐️ View project at https://wandb.ai/vbertalan88/huggingface
-wandb: 🚀 View run at https://wandb.ai/vbertalan88/huggingface/runs/0n8hlgwr
-O numero de parametros e 83504416
-  0%|          | 0/63 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-  2%|▏         | 1/63 [00:02<02:48,  2.71s/it]  3%|▎         | 2/63 [00:03<01:27,  1.43s/it]  5%|▍         | 3/63 [00:03<00:59,  1.01it/s]  6%|▋         | 4/63 [00:04<00:56,  1.05it/s]  8%|▊         | 5/63 [00:05<00:45,  1.28it/s] 10%|▉         | 6/63 [00:05<00:38,  1.48it/s] 11%|█         | 7/63 [00:05<00:33,  1.68it/s] 13%|█▎        | 8/63 [00:06<00:30,  1.80it/s] 14%|█▍        | 9/63 [00:06<00:27,  1.93it/s] 16%|█▌        | 10/63 [00:07<00:26,  1.98it/s] 17%|█▋        | 11/63 [00:07<00:25,  2.03it/s] 19%|█▉        | 12/63 [00:08<00:24,  2.07it/s] 21%|██        | 13/63 [00:09<00:28,  1.77it/s] 22%|██▏       | 14/63 [00:09<00:30,  1.61it/s] 24%|██▍       | 15/63 [00:10<00:27,  1.73it/s] 25%|██▌       | 16/63 [00:10<00:27,  1.69it/s] 27%|██▋       | 17/63 [00:11<00:29,  1.56it/s] 29%|██▊       | 18/63 [00:12<00:26,  1.70it/s] 30%|███       | 19/63 [00:12<00:27,  1.57it/s] 32%|███▏      | 20/63 [00:13<00:25,  1.71it/s] 33%|███▎      | 21/63 [00:14<00:26,  1.57it/s] 35%|███▍      | 22/63 [00:14<00:27,  1.48it/s] 37%|███▋      | 23/63 [00:15<00:27,  1.43it/s] 38%|███▊      | 24/63 [00:16<00:27,  1.40it/s] 40%|███▉      | 25/63 [00:16<00:25,  1.51it/s] 41%|████▏     | 26/63 [00:17<00:22,  1.66it/s] 43%|████▎     | 27/63 [00:18<00:23,  1.54it/s] 44%|████▍     | 28/63 [00:18<00:20,  1.68it/s] 46%|████▌     | 29/63 [00:19<00:19,  1.74it/s] 48%|████▊     | 30/63 [00:19<00:17,  1.84it/s] 49%|████▉     | 31/63 [00:20<00:16,  1.92it/s] 51%|█████     | 32/63 [00:20<00:15,  1.98it/s] 52%|█████▏    | 33/63 [00:20<00:14,  2.06it/s] 54%|█████▍    | 34/63 [00:21<00:13,  2.08it/s] 56%|█████▌    | 35/63 [00:21<00:13,  2.10it/s] 57%|█████▋    | 36/63 [00:22<00:11,  2.26it/s] 59%|█████▊    | 37/63 [00:22<00:11,  2.22it/s] 60%|██████    | 38/63 [00:23<00:12,  2.02it/s] 62%|██████▏   | 39/63 [00:24<00:13,  1.74it/s] 63%|██████▎   | 40/63 [00:24<00:12,  1.84it/s] 65%|██████▌   | 41/63 [00:25<00:11,  1.92it/s] 67%|██████▋   | 42/63 [00:25<00:10,  1.97it/s] 68%|██████▊   | 43/63 [00:25<00:09,  2.02it/s] 70%|██████▉   | 44/63 [00:26<00:10,  1.75it/s] 71%|███████▏  | 45/63 [00:27<00:09,  1.85it/s] 73%|███████▎  | 46/63 [00:27<00:10,  1.65it/s] 75%|███████▍  | 47/63 [00:28<00:10,  1.55it/s] 76%|███████▌  | 48/63 [00:29<00:10,  1.48it/s] 78%|███████▊  | 49/63 [00:29<00:08,  1.62it/s] 79%|███████▉  | 50/63 [00:30<00:08,  1.56it/s] 81%|████████  | 51/63 [00:31<00:08,  1.46it/s] 83%|████████▎ | 52/63 [00:31<00:06,  1.61it/s] 84%|████████▍ | 53/63 [00:32<00:05,  1.69it/s] 86%|████████▌ | 54/63 [00:34<00:08,  1.03it/s] 87%|████████▋ | 55/63 [00:35<00:08,  1.06s/it] 89%|████████▉ | 56/63 [00:35<00:06,  1.13it/s] 90%|█████████ | 57/63 [00:36<00:04,  1.32it/s] 92%|█████████▏| 58/63 [00:37<00:03,  1.32it/s] 94%|█████████▎| 59/63 [00:37<00:03,  1.33it/s] 95%|█████████▌| 60/63 [00:38<00:02,  1.36it/s] 97%|█████████▋| 61/63 [00:39<00:01,  1.53it/s] 98%|█████████▊| 62/63 [00:39<00:00,  1.67it/s]100%|██████████| 63/63 [00:39<00:00,  1.88it/s]
-
-Training completed. Do not forget to share your model on huggingface.co/models =)
-
-
-                                               100%|██████████| 63/63 [00:39<00:00,  1.88it/s]100%|██████████| 63/63 [00:39<00:00,  1.58it/s]
-Saving model checkpoint to ./LogFiles
-Configuration saved in ./LogFiles/config.json
-Model weights saved in ./LogFiles/pytorch_model.bin
-{'train_runtime': 57.9886, 'train_samples_per_second': 68.979, 'train_steps_per_second': 1.086, 'train_loss': 7.281103224981399, 'epoch': 1.0}
-wandb: Waiting for W&B process to finish... (success).
-wandb: 
-wandb: Run history:
-wandb:                    train/epoch ▁
-wandb:              train/global_step ▁
-wandb:               train/total_flos ▁
-wandb:               train/train_loss ▁
-wandb:            train/train_runtime ▁
-wandb: train/train_samples_per_second ▁
-wandb:   train/train_steps_per_second ▁
-wandb: 
-wandb: Run summary:
-wandb:                    train/epoch 1.0
-wandb:              train/global_step 63
-wandb:               train/total_flos 98135791822848.0
-wandb:               train/train_loss 7.2811
-wandb:            train/train_runtime 57.9886
-wandb: train/train_samples_per_second 68.979
-wandb:   train/train_steps_per_second 1.086
-wandb: 
-wandb: 🚀 View run young-universe-1 at: https://wandb.ai/vbertalan88/huggingface/runs/0n8hlgwr
-wandb: Synced 5 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20230419_174107-0n8hlgwr/logs
