@@ -11,7 +11,7 @@ from pathlib import Path
 import os
 
 #os.chdir("/home/vbertalan/Downloads/Raw Logs/")
-path = "Parser/logs/Hadoop/Hadoop-full.log"
+path = "Parser/logs/Hadoop/Hadoop-full.txt"
 
 ## Check if there is a GPU
 #!nvidia-smi
