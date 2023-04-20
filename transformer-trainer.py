@@ -10,8 +10,8 @@ from tokenizers import ByteLevelBPETokenizer
 from pathlib import Path
 import os
 
-#os.chdir("/home/vbertalan/Downloads/Raw Logs/")
-path = "Parser/logs/Hadoop/Hadoop-full.txt"
+path = Path("Parser/logs/Hadoop/Hadoop-full.txt")
+path = os.path.join(os.getcwd(), path)
 
 ## Check if there is a GPU
 #!nvidia-smi
