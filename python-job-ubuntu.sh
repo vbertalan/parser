@@ -7,7 +7,8 @@
 #SBATCH --mail-user=<vbertalan@gmail.com>
 #SBATCH --mail-type=ALL
 
-cd $projects/Parser-CC/parser
+printf "$projects"
+cd $projects/Parser/parser
 source .venv/bin/activate
 
 python transformer-trainer.py

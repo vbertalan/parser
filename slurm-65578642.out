@@ -1,6 +1,0 @@
-/var/spool/slurmd/job65578642/slurm_script: line 10: cd: /home/vberta/home/vberta/projects/def-aloise/vberta/Parser/parser: No such file or directory
-/var/spool/slurmd/job65578642/slurm_script: line 11: .venv/bin/activate: No such file or directory
-Traceback (most recent call last):
-  File "transformer-trainer.py", line 3, in <module>
-    from transformers import DataCollatorForLanguageModeling
-ModuleNotFoundError: No module named 'transformers'
