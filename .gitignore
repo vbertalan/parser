@@ -24,3 +24,4 @@ Parser/logs/Ciena/ciena-full.txt
 Parser/logs/Ciena/ciena-mini.txt
 Parser/vectors/ciena-mini.txt_vectors.vec
 Hadoop-Transformer/pytorch_model.bin
+Parser/logs/Hadoop/Hadoop-full.txt
