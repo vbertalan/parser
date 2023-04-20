@@ -1,0 +1,165 @@
+{
+    "os": "Linux-3.10.0-1160.80.1.el7.x86_64-x86_64-with-glibc2.2.5",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-04-20T01:16:35.521945",
+    "startedAt": "2023-04-20T01:16:34.642216",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "transformer-trainer.py",
+    "codePath": "transformer-trainer.py",
+    "git": {
+        "remote": "https://github.com/vbertalan/parser.git",
+        "commit": "25bb83d3f1efbcfac61b845eab4cd953d48900ac"
+    },
+    "email": "vbertalan@gmail.com",
+    "root": "/project/6023391/vberta/Parser/parser",
+    "host": "cdr296.int.cedar.computecanada.ca",
+    "username": "vberta",
+    "executable": "/project/6023391/vberta/Parser/parser/.venv/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2632.417333333333,
+        "min": 1200.0,
+        "max": 2900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2545.629,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2841.04,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2620.69,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2700.317,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2560.803,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2676.818,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2668.627,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2661.108,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2693.2,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2665.136,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2551.672,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2600.146,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2500.781,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2520.788,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2499.975,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2886.291,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2576.245,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2700.048,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2500.378,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2695.886,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2678.967,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2569.799,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2582.287,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2512.866,
+            "min": 1200.0,
+            "max": 2900.0
+        }
+    ],
+    "disk": {
+        "total": 4.0,
+        "used": 2.511821746826172
+    },
+    "gpu": "Tesla P100-PCIE-12GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla P100-PCIE-12GB",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 125.82308197021484
+    }
+}

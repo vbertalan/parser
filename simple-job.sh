@@ -7,9 +7,7 @@
 #SBATCH --mail-user=<vbertalan@gmail.com>
 #SBATCH --mail-type=ALL
 
-cd ~/$projects/teste
-module purge
-module load python/3.8.10
-source ~/.venv/bin/activate
+cd $projects/Parser/parser
+source .venv/bin/activate
 
 python transformer-trainer.py

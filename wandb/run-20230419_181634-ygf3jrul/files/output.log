@@ -1,0 +1,16 @@
+
+  0%|          | 0/32 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+100%|██████████| 32/32 [00:19<00:00,  2.39it/s]
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|██████████| 32/32 [00:19<00:00,  1.64it/s]
+Saving model checkpoint to ./LogFiles
+Configuration saved in ./LogFiles/config.json
+{'train_runtime': 30.925, 'train_samples_per_second': 64.673, 'train_steps_per_second': 1.035, 'train_loss': 7.944772243499756, 'epoch': 1.0}
+Model weights saved in ./LogFiles/pytorch_model.bin
