@@ -42,3 +42,8 @@ Ciena-Mini-Transformer/config.json
 Ciena-Mini-Transformer/pytorch_model.bin
 Ciena-Mini-Transformer/training_args.bin
 Ciena-Mini-Tokenizer/merges.txt
+Parser/HadoopTransformer512/config.json
+Parser/HadoopTransformer512/merges.txt
+Parser/HadoopTransformer512/pytorch_model.bin
+Parser/HadoopTransformer512/training_args.bin
+Parser/HadoopTransformer512/vocab.json
