@@ -11,7 +11,7 @@ from pathlib import Path
 import os
 
 os.chdir('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser')
-path = "Ciena-mini.txt"
+path = "Ciena-full.txt"
 length = 668
 
 ## Check if there is a GPU
@@ -33,7 +33,7 @@ tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens
     "<mask>",
 ])
 
-tokenizer.save_model("Ciena-Mini-Tokenizer")
+tokenizer.save_model("Ciena-Full-Transformer")
 
 config = RobertaConfig(
     vocab_size=52_000,
@@ -43,7 +43,7 @@ config = RobertaConfig(
     type_vocab_size=1,
 )
 
-tokenizer = RobertaTokenizerFast.from_pretrained("./Ciena-Mini-Tokenizer", max_len=length)
+tokenizer = RobertaTokenizerFast.from_pretrained("./Ciena-Full-Transformer", max_len=length)
 
 model = RobertaForMaskedLM(config=config)
 parametros = model.num_parameters()
@@ -60,7 +60,7 @@ data_collator = DataCollatorForLanguageModeling(
 )
 
 training_args = TrainingArguments(
-    output_dir="./Ciena-Mini-Transformer",
+    output_dir="./Ciena-Full-Transformer",
     overwrite_output_dir=True,
     num_train_epochs=1,
     per_gpu_train_batch_size=64,
@@ -77,4 +77,4 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.save_model("./Ciena-Mini-Transformer")
+trainer.save_model("./Ciena-Full-Transformer")
