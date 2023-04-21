@@ -9,5 +9,6 @@
 
 cd /home/vberta/projects/def-aloise/vberta/Parser/parser
 source .venv/bin/activate
+cd /home/vberta/projects/def-aloise/vberta/Parser-CC/parser
 
 python transformer-trainer.py

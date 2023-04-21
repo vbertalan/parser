@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "transformer-trainer.py", line 26, in <module>
-    tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens=[
-  File "/project/6023391/vberta/Parser/parser/.venv/lib/python3.8/site-packages/tokenizers/implementations/byte_level_bpe.py", line 98, in train
-    self._tokenizer.train(files, trainer=trainer)
-Exception: No such file or directory (os error 2)

@@ -1,0 +1,26 @@
+
+  0%|          | 0/63 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 63/63 [00:38<00:00,  1.93it/s]
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|██████████| 63/63 [00:38<00:00,  1.64it/s]
+Saving model checkpoint to ./Hadoop-Transformer
+Configuration saved in ./Hadoop-Transformer/config.json
+Model weights saved in ./Hadoop-Transformer/pytorch_model.bin
+{'train_runtime': 50.4471, 'train_samples_per_second': 79.291, 'train_steps_per_second': 1.249, 'train_loss': 7.192334856305804, 'epoch': 1.0}

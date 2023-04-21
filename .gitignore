@@ -28,3 +28,4 @@ Hadoop-Model/pytorch_model.bin
 Hadoop-Model/config.json
 Hadoop-Transformer/pytorch_model.bin
 Parser/logs/Hadoop/Hadoop-full.txt
+Hadoop-full.txt

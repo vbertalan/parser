@@ -10,30 +10,6 @@ from tokenizers import ByteLevelBPETokenizer
 from pathlib import Path
 import os
 
-os.chdir('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser')
-path = "Hadoop-full.txt"
-
-## Check if there is a GPU
-#!nvidia-smi
-
-## Initialize a tokenizer
-tokenizer = ByteLevelBPETokenizer()
-
-## para o arquivo de logs, 2521
-tokenizer.enable_truncation(max_length=512)
-
-## Customize training
-tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens=[
-    "<s>",
-    "<cls>",
-    "<bos>",
-    "<pad>",
-    "</s>",
-    "<unk>",
-    "<mask>",
-])
-
-tokenizer.save_model("Hadoop-Tokenizer")
 
 config = RobertaConfig(
     vocab_size=52_000,
