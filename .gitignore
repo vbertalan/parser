@@ -29,3 +29,8 @@ Hadoop-Model/config.json
 Hadoop-Transformer/pytorch_model.bin
 Parser/logs/Hadoop/Hadoop-full.txt
 Hadoop-full.txt
+Hadoop-Tokenizer-512/merges.txt
+Hadoop-Tokenizer-512/vocab.json
+Hadoop-Transformer-512/config.json
+Hadoop-Transformer-512/pytorch_model.bin
+Hadoop-Transformer-512/training_args.bin

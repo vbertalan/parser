@@ -12,6 +12,7 @@ import os
 
 os.chdir('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser')
 path = "Hadoop-full.txt"
+length = 512
 
 ## Check if there is a GPU
 #!nvidia-smi
@@ -19,8 +20,7 @@ path = "Hadoop-full.txt"
 ## Initialize a tokenizer
 tokenizer = ByteLevelBPETokenizer()
 
-## para o arquivo de logs, 2521
-tokenizer.enable_truncation(max_length=512)
+tokenizer.enable_truncation(max_length=length)
 
 ## Customize training
 tokenizer.train(files=[path], vocab_size=52_000, min_frequency=2, special_tokens=[
@@ -37,13 +37,13 @@ tokenizer.save_model("Hadoop-Tokenizer")
 
 config = RobertaConfig(
     vocab_size=52_000,
-    max_position_embeddings=514,
+    max_position_embeddings=length,
     num_attention_heads=12,
     num_hidden_layers=6,
     type_vocab_size=1,
 )
 
-tokenizer = RobertaTokenizerFast.from_pretrained("./Hadoop-Tokenizer", max_len=512)
+tokenizer = RobertaTokenizerFast.from_pretrained("./Hadoop-Tokenizer", max_len=length)
 
 model = RobertaForMaskedLM(config=config)
 parametros = model.num_parameters()
