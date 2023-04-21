@@ -1,0 +1,59 @@
+
+  0%|          | 0/246 [00:00<?, ?it/s]You're using a RobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 246/246 [01:48<00:00,  2.58it/s]
+Training completed. Do not forget to share your model on huggingface.co/models =)
+100%|██████████| 246/246 [01:48<00:00,  2.28it/s]
+Saving model checkpoint to ./Ciena-Mini-Transformer
+Configuration saved in ./Ciena-Mini-Transformer/config.json
+{'train_runtime': 116.1013, 'train_samples_per_second': 135.313, 'train_steps_per_second': 2.119, 'train_loss': 3.613180269070757, 'epoch': 1.0}
+Model weights saved in ./Ciena-Mini-Transformer/pytorch_model.bin
