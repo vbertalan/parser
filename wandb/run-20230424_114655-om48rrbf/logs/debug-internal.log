@@ -10100,3 +10100,9 @@
 2023-04-24 14:55:28,158 DEBUG   HandlerThread:10759 [handler.py:handle_request():144] handle_request: stop_status
 2023-04-24 14:55:28,158 DEBUG   SenderThread:10759 [sender.py:send_request():402] send_request: stop_status
 2023-04-24 14:55:28,458 INFO    Thread-12 :10759 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser-CC/parser/wandb/run-20230424_114655-om48rrbf/files/output.log
+2023-04-24 14:55:30,797 DEBUG   HandlerThread:10759 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 14:55:31,460 INFO    Thread-12 :10759 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser-CC/parser/wandb/run-20230424_114655-om48rrbf/files/output.log
+2023-04-24 14:55:33,461 INFO    Thread-12 :10759 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser-CC/parser/wandb/run-20230424_114655-om48rrbf/files/output.log
+2023-04-24 14:55:35,463 INFO    Thread-12 :10759 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser-CC/parser/wandb/run-20230424_114655-om48rrbf/files/output.log
+2023-04-24 14:55:36,110 DEBUG   HandlerThread:10759 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 14:55:37,464 INFO    Thread-12 :10759 [dir_watcher.py:_on_file_modified():295] file/dir modified: /project/6023391/vberta/Parser-CC/parser/wandb/run-20230424_114655-om48rrbf/files/output.log
