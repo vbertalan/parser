@@ -35,20 +35,20 @@ benchmark_settings = {
     #     'accuracy': 0     
     #     },   
    
-    #   'Ciena-full': {
-    #     'log_file': 'Ciena/ciena-full.txt',
-    #     'log_format': '<Content>', 
-    #     'regex': [],
-    #     'threshold': 0.1      
-    #     },   
+      'Ciena-full': {
+        'log_file': 'Ciena/ciena-full.txt',
+        'log_format': '<Content>', 
+        'regex': [],
+        'threshold': 0.1      
+        },   
 
-    'Hadoop': {
-        'log_file': 'Hadoop/Hadoop_2k.log',
-        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-        'regex': [r'(\d+\.){3}\d+'],
-        'threshold': 0.1,
-        'accuracy': 1      
-        },
+    # 'Hadoop': {
+    #     'log_file': 'Hadoop/Hadoop_2k.log',
+    #     'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+    #     'regex': [r'(\d+\.){3}\d+'],
+    #     'threshold': 0.1,
+    #     'accuracy': 1      
+    #     },
 
     # 'HDFS': {
     #     'log_file': 'HDFS/HDFS_2k.log',
