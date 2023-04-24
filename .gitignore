@@ -47,3 +47,12 @@ Parser/HadoopTransformer512/merges.txt
 Parser/HadoopTransformer512/pytorch_model.bin
 Parser/HadoopTransformer512/training_args.bin
 Parser/HadoopTransformer512/vocab.json
+Ciena-Full-Transformer/merges.txt
+Ciena-Full-Transformer/vocab.json
+Ciena-Full-Transformer/checkpoint-10000/training_args.bin
+Ciena-Full-Transformer/checkpoint-10000/scheduler.pt
+Ciena-Full-Transformer/checkpoint-10000/trainer_state.json
+Ciena-Full-Transformer/checkpoint-10000/rng_state.pth
+Ciena-Full-Transformer/checkpoint-10000/pytorch_model.bin
+Ciena-Full-Transformer/checkpoint-10000/optimizer.pt
+Ciena-Full-Transformer/checkpoint-10000/config.json
