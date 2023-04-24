@@ -12,7 +12,7 @@ import os
 
 os.chdir('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser')
 path = "Ciena-full.txt"
-length = 668
+length = 512
 
 ## Check if there is a GPU
 #!nvidia-smi
