@@ -59,8 +59,8 @@ class LogParser:
         else:
             from sentence_transformers import SentenceTransformer
             #model = SentenceTransformer('all-MiniLM-L6-v2')
-            #model = SentenceTransformer('all-mpnet-base-v2')
-            model = SentenceTransformer('/home/vbertalan/Downloads/Parser/parser/Parser/HadoopTransformer512')
+            model = SentenceTransformer('all-mpnet-base-v2')
+            #model = SentenceTransformer('/home/vbertalan/Downloads/Parser/parser/Parser/HadoopTransformer512')
             vectors = model.encode(raw_content)
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
