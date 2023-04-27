@@ -28,7 +28,7 @@ vector_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/ve
 # Dictionary to load files
 benchmark_settings = {
       'Ciena-mini': {
-        'log_file': 'Ciena/ciena-mini.txt',
+        'log_file': 'Ciena/Ciena-mini.txt',
         'log_format': '<Content>', 
         'regex': [],
         'threshold': 0.1,
@@ -36,7 +36,7 @@ benchmark_settings = {
         },   
    
     #   'Ciena-full': {
-    #     'log_file': 'Ciena/ciena-full.txt',
+    #     'log_file': 'Ciena/Ciena-full.txt',
     #     'log_format': '<Content>', 
     #     'regex': [],
     #     'threshold': 0.1,

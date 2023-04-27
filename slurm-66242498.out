@@ -1,0 +1,13 @@
+
+=== Evaluation on Ciena-mini ===
+Parsing file: /home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/logs/Ciena/ciena-mini.txt
+Traceback (most recent call last):
+  File "Parser/Parser_benchmark.py", line 186, in <module>
+    parser.parse(log_file)  
+  File "/project/6023391/vberta/Parser/parser/Parser/Parser.py", line 233, in parse
+    self.load_data()
+  File "/project/6023391/vberta/Parser/parser/Parser/Parser.py", line 187, in load_data
+    self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logName), regex, headers, self.log_format)
+  File "/project/6023391/vberta/Parser/parser/Parser/Parser.py", line 199, in log_to_dataframe
+    with open(log_file, 'r') as fin:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/logs/Ciena/ciena-mini.txt'
