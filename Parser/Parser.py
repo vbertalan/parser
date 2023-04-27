@@ -246,7 +246,7 @@ class LogParser:
 
         tokenizer = sm.AlphanumericTokenizer()
 
-        with open('/home/vbertalan/Downloads/Parser/parser/Parser/create.txt') as word_file:
+        with open('Parser/create.txt') as word_file:
             english_words = {word.strip().lower() for word in word_file}
 
         print('\n=== Parsing dataset ===')
