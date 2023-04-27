@@ -14,10 +14,8 @@ import hashlib
 from tqdm import tqdm
 from datetime import datetime
 from pathlib import Path
-#from nltk.tokenize import word_tokenize
 import py_stringmatching as sm
 import pickle
-#import wordninja
 
 class LogParser:
     def __init__(self, log_format, indir='./', outdir='./result/', vecdir='./', rex=None, threshold = 0, filename=""):
@@ -59,8 +57,8 @@ class LogParser:
         else:
             from sentence_transformers import SentenceTransformer
             #model = SentenceTransformer('all-MiniLM-L6-v2')
-            model = SentenceTransformer('all-mpnet-base-v2')
-            #model = SentenceTransformer('/home/vbertalan/Downloads/Parser/parser/Parser/HadoopTransformer512')
+            #model = SentenceTransformer('all-mpnet-base-v2')
+            model = SentenceTransformer('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Ciena-Full-Transformer')
             vectors = model.encode(raw_content)
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
