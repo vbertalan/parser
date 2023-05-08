@@ -12,31 +12,31 @@ import os
 import pandas as pd
 from pathlib import Path
 
-#input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
-#output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
-#vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
+input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
+output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
+vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
 
 #input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
 #output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
 #vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\vectors" # The directory to save the vectorized files
 
-input_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/logs" # The directory to get the logs
-output_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/results"  # The output directory of parsing results
-vector_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/vectors" # The directory to save the vectorized files
+#input_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/logs" # The directory to get the logs
+#output_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/results"  # The output directory of parsing results
+#vector_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/vectors" # The directory to save the vectorized files
 
 
 # Dictionary to load files
 benchmark_settings = {
       'Ciena-mini': {
-        'log_file': 'Ciena/Ciena-mini.txt',
+        'log_file': 'Ciena/ciena-mini.txt',
         'log_format': '<Content>', 
         'regex': [],
-        'threshold': 0.1,
+        'threshold': 0.2,
         'accuracy': 0     
         },   
    
     #   'Ciena-full': {
-    #     'log_file': 'Ciena/Ciena-full.txt',
+    #     'log_file': 'Ciena/ciena-full.txt',
     #     'log_format': '<Content>', 
     #     'regex': [],
     #     'threshold': 0.1,

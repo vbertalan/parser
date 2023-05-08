@@ -57,8 +57,8 @@ class LogParser:
         else:
             from sentence_transformers import SentenceTransformer
             #model = SentenceTransformer('all-MiniLM-L6-v2')
-            #model = SentenceTransformer('all-mpnet-base-v2')
-            model = SentenceTransformer('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Ciena-Full-Transformer')
+            model = SentenceTransformer('all-mpnet-base-v2')
+            #model = SentenceTransformer('/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Ciena-Full-Transformer')
             vectors = model.encode(raw_content)
             self.vectors = vectors
             pickle.dump(vectors, open(path_to_file, 'wb'))
@@ -246,7 +246,7 @@ class LogParser:
 
         tokenizer = sm.AlphanumericTokenizer()
 
-        with open('Parser/create.txt') as word_file:
+        with open('/home/vbertalan/Downloads/Parser/parser/create.txt') as word_file:
             english_words = {word.strip().lower() for word in word_file}
 
         print('\n=== Parsing dataset ===')
