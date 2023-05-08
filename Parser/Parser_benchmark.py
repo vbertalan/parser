@@ -31,7 +31,7 @@ benchmark_settings = {
         'log_file': 'Ciena/ciena-mini.txt',
         'log_format': '<Content>', 
         'regex': [],
-        'threshold': 0.2,
+        'threshold': 0.3,
         'accuracy': 0     
         },   
    
