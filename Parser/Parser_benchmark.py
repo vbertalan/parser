@@ -12,9 +12,14 @@ import os
 import pandas as pd
 from pathlib import Path
 
-input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
-output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
-vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
+#input_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/logs" # The directory to get the logs
+#output_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/results"  # The output directory of parsing results
+#vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
+
+# Reads input and output folders
+input_dir = os.path.join(os.getcwd(), "logs") # The input directory of raw logs
+output_dir = os.path.join(os.getcwd(), "results")  # The output directory of parsing results
+vector_dir = os.path.join(os.getcwd(), "vectors")  # The vector directory of converted logs
 
 #input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
 #output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
@@ -27,13 +32,13 @@ vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The dire
 
 # Dictionary to load files
 benchmark_settings = {
-      'Ciena-mini': {
-        'log_file': 'Ciena/ciena-mini.txt',
-        'log_format': '<Content>', 
-        'regex': [],
-        'threshold': 0.3,
-        'accuracy': 0     
-        },   
+    #   'Ciena-mini': {
+    #     'log_file': 'Ciena/ciena-mini.txt',
+    #     'log_format': '<Content>', 
+    #     'regex': [],
+    #     'threshold': 0.3,
+    #     'accuracy': 0     
+    #     },   
    
     #   'Ciena-full': {
     #     'log_file': 'Ciena/ciena-full.txt',
@@ -43,132 +48,133 @@ benchmark_settings = {
     #     'accuracy': 0    
     #     },   
 
-    # 'Hadoop': {
-    #     'log_file': 'Hadoop/Hadoop_2k.log',
-    #     'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
-    #     'regex': [r'(\d+\.){3}\d+'],
-    #     'threshold': 0.1,
-    #     'accuracy': 1      
-    #     },
+    'Hadoop': {
+        'log_file': 'Hadoop/Hadoop_2k.log',
+        'log_format': '<Date> <Time> <Level> \[<Process>\] <Component>: <Content>', 
+        'regex': [r'(\d+\.){3}\d+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'HDFS': {
-    #     'log_file': 'HDFS/HDFS_2k.log',
-    #     'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-    #     'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-    #     #'regex': [],
-    #     },
+    'HDFS': {
+        'log_file': 'HDFS/HDFS_2k.log',
+        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
+        'threshold': 0.5,
+        'accuracy': 1      
+        },
 
-    # 'Spark': {
-    #     'log_file': 'Spark/Spark_2k.log',
-    #     'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
-    #     'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
-    #     'st': 0.5,
-    #     'depth': 4
-    #     },
+    'Spark': {
+        'log_file': 'Spark/Spark_2k.log',
+        'log_format': '<Date> <Time> <Level> <Component>: <Content>', 
+        'regex': [r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'Zookeeper': {
-    #     'log_file': 'Zookeeper/Zookeeper_2k.log',
-    #     'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-    #     'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-    #     'st': 0.5,
-    #     'depth': 4        
-    #     },
+    'Zookeeper': {
+        'log_file': 'Zookeeper/Zookeeper_2k.log',
+        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+        'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
+        'threshold': 0.1,
+        'accuracy': 1            
+        },
 
-    # 'BGL': {
-    #     'log_file': 'BGL/BGL_2k.log',
-    #     'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-    #     'regex': [r'core\.\d+'],
-    #     'st': 0.5,
-    #     'depth': 4        
-    #     },
+    'BGL': {
+        'log_file': 'BGL/BGL_2k.log',
+        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+        'regex': [r'core\.\d+'],
+        'threshold': 0.1,
+        'accuracy': 1           
+        },
 
-    # 'HPC': {
-    #     'log_file': 'HPC/HPC_2k.log',
-    #     'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-    #     'regex': [r'=\d+'],
-    #     'st': 0.5,
-    #     'depth': 4
-    #     },
+    'HPC': {
+        'log_file': 'HPC/HPC_2k.log',
+        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+        'regex': [r'=\d+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'Thunderbird': {
-    #     'log_file': 'Thunderbird/Thunderbird_2k.log',
-    #     'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
-    #     'regex': [r'(\d+\.){3}\d+'],
-    #     'st': 0.5,
-    #     'depth': 4        
-    #     },
+    'Thunderbird': {
+        'log_file': 'Thunderbird/Thunderbird_2k.log',
+        'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
+        'regex': [r'(\d+\.){3}\d+'],
+        'threshold': 0.1,
+        'accuracy': 1           
+        },
 
-    # 'Windows': {
-    #     'log_file': 'Windows/Windows_2k.log',
-    #     'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
-    #     'regex': [r'0x.*?\s'],
-    #     'st': 0.7,
-    #     'depth': 5      
-    #     },
+    'Windows': {
+        'log_file': 'Windows/Windows_2k.log',
+        'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
+        'regex': [r'0x.*?\s'],
+        'threshold': 0.1,
+        'accuracy': 1        
+        },
 
-    # 'Linux': {
-    #     'log_file': 'Linux/Linux_2k.log',
-    #     'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
-    #     'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}'],
-    #     'st': 0.39,
-    #     'depth': 6        
-    #     },
+    'Linux': {
+        'log_file': 'Linux/Linux_2k.log',
+        'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
+        'regex': [r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}'],
+        'threshold': 0.4,
+        'accuracy': 1          
+        },
 
-    # 'Andriod': {
-    #     'log_file': 'Andriod/Andriod_2k.log',
-    #     'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
-    #     'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
-    #     'st': 0.2,
-    #     'depth': 6   
-    #     },
+    'Andriod': {
+        'log_file': 'Andriod/Andriod_2k.log',
+        'log_format': '<Date> <Time>  <Pid>  <Tid> <Level> <Component>: <Content>',
+        'regex': [r'(/[\w-]+)+', r'([\w-]+\.){2,}[\w-]+', r'\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'HealthApp': {
-    #     'log_file': 'HealthApp/HealthApp_2k.log',
-    #     'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
-    #     'regex': [],
-    #     'st': 0.2,
-    #     'depth': 4
-    #     },
+    'HealthApp': {
+        'log_file': 'HealthApp/HealthApp_2k.log',
+        'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
+        'regex': [],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'Apache': {
-    #     'log_file': 'Apache/Apache_2k.log',
-    #     'log_format': '\[<Time>\] \[<Level>\] <Content>',
-    #     'regex': [r'(\d+\.){3}\d+'],
-    #     'st': 0.5,
-    #     'depth': 4        
-    #     },
+    'Apache': {
+        'log_file': 'Apache/Apache_2k.log',
+        'log_format': '\[<Time>\] \[<Level>\] <Content>',
+        'regex': [r'(\d+\.){3}\d+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'Proxifier': {
-    #     'log_file': 'Proxifier/Proxifier_2k.log',
-    #     'log_format': '\[<Time>\] <Program> - <Content>',
-    #     'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
-    #     'st': 0.6,
-    #     'depth': 3
-    #     },
+    'Proxifier': {
+        'log_file': 'Proxifier/Proxifier_2k.log',
+        'log_format': '\[<Time>\] <Program> - <Content>',
+        'regex': [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B'],
+        'threshold': 0.5,
+        'accuracy': 1      
+        },
 
-    # 'OpenSSH': {
-    #     'log_file': 'OpenSSH/OpenSSH_2k.log',
-    #     'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-    #     'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
-    #     'st': 0.6,
-    #     'depth': 5   
-    #     },
+    'OpenSSH': {
+        'log_file': 'OpenSSH/OpenSSH_2k.log',
+        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
+        'regex': [r'(\d+\.){3}\d+', r'([\w-]+\.){2,}[\w-]+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'OpenStack': {
-    #     'log_file': 'OpenStack/OpenStack_2k.log',
-    #     'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
-    #     'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
-    #     'st': 0.5,
-    #     'depth': 5
-    #     },
+    'OpenStack': {
+        'log_file': 'OpenStack/OpenStack_2k.log',
+        'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
+        'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
-    # 'Mac': {
-    #     'log_file': 'Mac/Mac_2k.log',
-    #     'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-    #     'regex': [r'([\w-]+\.){2,}[\w-]+'],
-    #     'st': 0.7,
-    #     'depth': 6   
-    #     },
+    'Mac': {
+        'log_file': 'Mac/Mac_2k.log',
+        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+        'regex': [r'([\w-]+\.){2,}[\w-]+'],
+        'threshold': 0.1,
+        'accuracy': 1      
+        },
 
 }
 
