@@ -1,55 +1,7 @@
 EventId,EventTemplate,Occurrences
-dcd81a8b,workerEnv.init() ok /etc/httpd/conf/workers2.properties ,569
-ba1ac85a,mod_jk child workerEnv in error state 6 ,369
-2ca4ae4b,jk2_init() Found child <*> in scoreboard slot <*> ,36
-5b67615d,jk2_init() Found child <*> in scoreboard slot 8 ,186
-043d2c73,jk2_init() Found child <*> in scoreboard slot 10 ,58
-52f341aa,jk2_init() Found child <*> in scoreboard slot 7 ,190
-bf631c35,mod_jk child workerEnv in error state 7 ,101
-d94d4e7f,jk2_init() Found child <*> in scoreboard slot 9 ,148
-ce448449,jk2_init() Found child <*> in scoreboard slot 6 ,179
-5bd2337b,[client <*> Directory index forbidden by rule: /var/www/html/ ,32
-5be047ca,jk2_init() Found child 1000 in scoreboard slot 10 ,1
-73659500,jk2_init() Found child <*> in scoreboard slot 11 ,12
-6cc47f33,mod_jk child workerEnv in error state 8 ,44
-3ce5f7d9,mod_jk child workerEnv in error state 10 ,5
-5f28c7e6,mod_jk child workerEnv in error state 9 ,20
-05175d34,jk2_init() Found child 1300 in scoreboard slot 10 ,1
-fb57886b,jk2_init() Can't find child 1566 in scoreboard ,1
-b7873ef1,jk2_init() Can't find child 1567 in scoreboard ,1
-7be07888,mod_jk child init 1 -2 ,12
-85143811,jk2_init() Found child 1790 in scoreboard slot 8 ,1
-52aaec82,jk2_init() Found child 1800 in scoreboard slot 10 ,1
-fb1954e9,jk2_init() Found child 1850 in scoreboard slot 8 ,1
-71be0af0,jk2_init() Found child 1887 in scoreboard slot 8 ,1
-c7700ccc,jk2_init() Found child 1885 in scoreboard slot 9 ,1
-ab835226,jk2_init() Found child 1888 in scoreboard slot 6 ,1
-043b4286,jk2_init() Found child 1886 in scoreboard slot 7 ,1
-d7887189,jk2_init() Found child 1899 in scoreboard slot 7 ,1
-022a196d,jk2_init() Found child 1900 in scoreboard slot 8 ,1
-1ad5a322,jk2_init() Found child 1898 in scoreboard slot 9 ,1
-a938bc17,jk2_init() Found child 1912 in scoreboard slot 9 ,1
-e198278f,jk2_init() Found child 1914 in scoreboard slot 8 ,1
-1da311ed,jk2_init() Found child 1950 in scoreboard slot 9 ,1
-e78372cc,jk2_init() Found child 1984 in scoreboard slot 10 ,1
-52c5a317,jk2_init() Found child 1990 in scoreboard slot 9 ,1
-7732c8e5,jk2_init() Found child 1999 in scoreboard slot 6 ,1
-35a99e18,jk2_init() Found child 2000 in scoreboard slot 7 ,1
-7d97cdd9,jk2_init() Found child 1998 in scoreboard slot 9 ,1
-13c202ca,jk2_init() Found child 2002 in scoreboard slot 8 ,1
-cb33be2c,jk2_init() Found child 2001 in scoreboard slot 9 ,1
-7a2a60ab,jk2_init() Found child 2005 in scoreboard slot 7 ,1
-62eedf23,jk2_init() Found child 2004 in scoreboard slot 6 ,1
-7dd82f71,jk2_init() Found child 2007 in scoreboard slot 8 ,1
-5995f5ae,jk2_init() Found child 2006 in scoreboard slot 9 ,1
-aa81bddc,jk2_init() Found child 2008 in scoreboard slot 6 ,1
-e0d891eb,jk2_init() Can't find child 2082 in scoreboard ,1
-2aad811d,jk2_init() Can't find child 2085 in scoreboard ,1
-6a41a4df,jk2_init() Can't find child 2086 in scoreboard ,1
-b089ba6d,jk2_init() Can't find child 2087 in scoreboard ,1
-966de1d3,jk2_init() Can't find child 5053 in scoreboard ,1
-b7940a90,jk2_init() Can't find child 5054 in scoreboard ,1
-68fecf61,jk2_init() Can't find child 5619 in scoreboard ,1
-c0902216,jk2_init() Can't find child 5620 in scoreboard ,1
-1504d20b,jk2_init() Can't find child 5621 in scoreboard ,1
-7531a9a3,jk2_init() Can't find child 5622 in scoreboard ,1
+becfcb9b,<*> ok <*> ,569
+aaadd073,<*> child <*> in error state <*> ,539
+30624b1a,<*> Found child <*> in scoreboard slot <*> ,836
+0bbf86a7,<*> <*> Directory index forbidden by <*> <*> ,32
+7d8ced35,<*> Can't find child <*> in scoreboard ,12
+3987fbae,<*> child init <*> <*> ,12

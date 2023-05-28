@@ -1,101 +1,44 @@
 EventId,EventTemplate,Occurrences
-affba946,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: <*> ",503
-67d75ad1,[instance: <*> VM Started (Lifecycle Event) ,22
-58cc054a,[instance: <*> VM Paused (Lifecycle Event) ,22
-5c7240c1,[instance: <*> During sync_power_state the instance has a pending task (spawning). Skip. ,43
-e67bf1ce,image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking ,82
-963563bc,"image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage ",82
-626503a8,Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,82
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1015
+ceb1c59b,<*> <*> VM Started <*> <*> ,22
+c6c5119d,<*> <*> VM Paused <*> <*> ,22
+f79c8566,<*> <*> During <*> the instance has a pending task <*> <*> ,43
+63041c33,image <*> at <*> checking ,82
+03025324,image <*> at <*> in <*> on this node <*> <*> <*> on other nodes sharing this instance storage ,82
+d04748b6,Active base <*> <*> ,82
 99d68af5,Creating event <*> for instance <*> ,22
-cc294eef,"10.11.10.1 ""POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1"" status: 200 len: 380 time: <*> ",22
-eb21b61e,[instance: <*> VM Resumed (Lifecycle Event) ,44
-044d7e17,[instance: <*> Instance spawned successfully. ,22
-fc06cb4f,[instance: <*> Took <*> seconds to spawn the instance on the hypervisor. ,22
-c04b4968,[instance: <*> Took <*> seconds to build instance. ,22
-cb1bb9eb,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: <*> time: <*> ",195
-3af6a170,Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us ,15
-f7ac35da,"Total usable vcpus: 16, total allocated vcpus: 1 ",9
-ca087cff,Final resource view: name cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram 64172MB used_ram 2560MB phys_disk 15GB used_disk 20GB total_vcpus 16 used_vcpus 1 pci_stats [] ,9
-378de412,Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us ,15
-04afbf8f,"<*> ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: <*> ",22
-45765671,"<*> ""GET /openstack/2013-10-17 HTTP/1.1"" status: 200 len: 157 time: <*> ",22
-bec3bc5f,"<*> ""GET /openstack/2013-10-17/vendor_data.json HTTP/1.1"" status: 200 len: 124 time: <*> ",44
-61f19381,"10.11.10.1 ""DELETE <*> HTTP/1.1"" status: 204 len: 203 time: <*> ",22
-41846f4e,"<*> ""GET /openstack/2013-10-17/user_data HTTP/1.1"" status: 404 len: 176 time: <*> ",20
-3f5a067a,[instance: <*> Terminating instance ,22
-6074f6ed,[instance: <*> Instance destroyed successfully. ,22
-8f41140a,"<*> ""GET /openstack/2013-10-17/meta_data.json HTTP/1.1"" status: 200 len: 967 time: <*> ",35
-bc142cc1,[instance: <*> Deleting instance files <*> ,21
-0b0635ab,[instance: <*> Deletion of <*> complete ,21
-05dc7bb2,[instance: <*> Took <*> seconds to destroy the instance on the hypervisor. ,21
-f3712667,[instance: <*> Took <*> seconds to deallocate network for instance. ,21
-f5f78671,Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,30
-b6b980e9,Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,30
-6dcb82df,Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,21
-dd859cc3,HTTP exception thrown: No instances found for any event ,21
-fa17dccd,"10.11.10.1 ""POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1"" status: 404 len: 296 time: <*> ",21
-48bdebe2,"10.11.10.1 <*> <*> HTTP/1.1"" status: <*> len: <*> time: <*> ",21
-4ae331b4,"[instance: <*> Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU ",21
-b1a8c892,"[instance: <*> Total memory: 64172 MB, used: 512.00 MB ",21
-6f589ed8,"[instance: <*> memory limit: 96258.00 MB, free: 95746.00 MB ",21
-33392f9c,"[instance: <*> Total disk: 15 GB, used: 0.00 GB ",21
-81920f77,"[instance: <*> disk limit not specified, defaulting to unlimited ",21
-38b31c15,"[instance: <*> Total vcpu: 16 VCPU, used: 0.00 VCPU ",21
-454ef372,"[instance: <*> vcpu limit not specified, defaulting to unlimited ",21
-0a1d8a32,[instance: <*> Claim successful ,21
-67132242,"10.11.10.1 ""GET <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",21
-c1706be6,[instance: <*> Creating image ,21
-91c3231e,[instance: <*> VM Stopped (Lifecycle Event) ,21
-521728d8,Successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'. ,2
-1f7cea88,"<*> ""GET /latest/meta-data/ HTTP/1.1"" status: 200 len: 328 time: <*> ",9
-a8265776,"10.11.21.123,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-672a8c7d,"10.11.21.123,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-95bf5428,"10.11.21.123,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-c59ea96f,"<*> ""GET /latest/meta-data/placement/ HTTP/1.1"" status: 200 len: 134 time: <*> ",4
-9c5b1530,<*> <*> <*> <*> for <*> cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us <*> 2017-05-16 <*> <*> 2017-05-16 <*> <*> <*> ,1
-78d7d09a,Base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742 ,9
-3fb42fa7,"10.11.21.126,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-8d2f5158,"10.11.21.126,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-9744267f,"10.11.21.126,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-9e5a6bea,"Total usable vcpus: 16, total allocated vcpus: 0 ",6
-c58dbe97,Final resource view: name cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram 64172MB used_ram 512MB phys_disk 15GB used_disk 0GB total_vcpus 16 used_vcpus 0 pci_stats [] ,6
-d6bbecba,"10.11.10.1 ""GET <*> <*> <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",1
-1c56e88b,The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList. ,5
-fcb1eb80,"10.11.21.129,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-d6a03a8a,"10.11.21.129,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-0bad5ce9,"10.11.21.129,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-723f2c3a,"<*> ""GET <*> <*> <*> <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",1
-e677974f,"<*> ""GET <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",2
-c88f76dd,"10.11.21.132,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: 200 len: 328 time: <*> ",1
-f80595e2,"10.11.21.132,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-03501b28,"10.11.21.132,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-b9392abb,"10.11.21.132,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-c62fdd51,"10.11.21.132,10.11.10.1 ""GET /latest/meta-data/placement/ HTTP/1.1"" status: 200 len: 134 time: <*> ",1
-b76619b2,"10.11.21.132,10.11.10.1 ""GET /latest/meta-data/placement/availability-zone HTTP/1.1"" status: 200 len: 120 time: <*> ",1
-3316ac23,"10.11.21.132,10.11.10.1 ""GET <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",5
-a178f235,"10.11.21.132,10.11.10.1 ""GET <*> HTTP/1.1"" status: 200 len: 130 time: <*> ",3
-8fd6a96b,"<*> ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",2
-421f363a,"<*> ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-5ed06cbe,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: 200 len: 328 time: <*> ",1
-a436ce6c,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-d27a90b6,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-2c2f761f,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-b5a9f7a8,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/placement/ HTTP/1.1"" status: 200 len: 134 time: <*> ",1
-7f622064,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/placement/availability-zone HTTP/1.1"" status: 200 len: 120 time: <*> ",1
-0ccd3f37,"10.11.21.135,10.11.10.1 ""GET <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",2
+428d2ad0,<*> <*> VM Resumed <*> <*> ,44
+203156b6,<*> <*> Instance spawned <*> ,22
+98f3e740,<*> <*> Took <*> seconds to spawn the instance on the <*> ,22
+588ff3f7,<*> <*> Took <*> seconds to build <*> ,22
+10894a10,Auditing locally available compute resources for node <*> ,15
+3369ec2d,Total usable <*> <*> total allocated <*> <*> ,15
+4d8a9e62,Final resource <*> name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,15
+56d801ab,<*> record updated for <*> ,15
+875d2ad6,<*> <*> Terminating instance ,22
+24ee4c75,<*> <*> Instance destroyed <*> ,22
+3afa46f3,<*> <*> Deleting instance files <*> ,21
+e1af2eb7,<*> <*> Deletion of <*> complete ,21
+96f0637f,<*> <*> Took <*> seconds to destroy the instance on the <*> ,21
+2c86d4c8,<*> <*> Took <*> seconds to deallocate network for <*> ,21
+6a6c9729,Unknown base <*> <*> ,30
+df93f62e,Removable base <*> <*> ,30
+4405285f,Removing base or swap <*> <*> ,21
+f6d4e86f,HTTP exception <*> No instances found for any event ,21
+f7f08c5e,<*> <*> Attempting <*> memory <*> <*> disk <*> <*> <*> <*> CPU ,21
+b70fdb57,<*> <*> Total <*> <*> <*> <*> <*> MB ,21
+ffbe0b78,<*> <*> memory <*> <*> <*> <*> <*> MB ,21
+4cf99c17,<*> <*> Total <*> <*> <*> <*> <*> GB ,21
+58c10499,<*> <*> disk limit not <*> defaulting to unlimited ,21
+067e80cb,<*> <*> Total <*> <*> <*> <*> <*> <*> ,21
+83c898a6,<*> <*> <*> limit not <*> defaulting to unlimited ,21
+aedb80a4,<*> <*> Claim successful ,21
+e1924c67,<*> <*> Creating image ,21
+c0fad8b2,<*> <*> VM Stopped <*> <*> ,21
+1aa9e27c,Successfully synced instances from host <*> ,2
+73758b07,<*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+92aed856,Base or swap file too young to <*> <*> ,9
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+11b3c859,The instance sync for host <*> did not <*> <*> its <*> ,5
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 fb118e27,<*> <*> instance <*> <*> <*> <*> <*> <*> the <*> <*> <*> <*> <*> the <*> ,1
-91490580,"10.11.21.136,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-cdddb0bc,"10.11.21.136,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-e68491cb,"10.11.21.136,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-5bdeb284,"<*> ""GET /latest/meta-data/placement/availability-zone HTTP/1.1"" status: 200 len: 120 time: <*> ",1
-cb85fd55,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: 200 len: 328 time: <*> ",1
-dc02bf19,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-01dcb79f,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-c4b5eb75,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-283ded3d,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/placement/ HTTP/1.1"" status: 200 len: 134 time: <*> ",1
-e55df68b,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/placement/availability-zone HTTP/1.1"" status: 200 len: 120 time: <*> ",1
-5a7ad4a0,"10.11.21.139,10.11.10.1 ""GET <*> HTTP/1.1"" status: 200 len: <*> time: <*> ",4
-122c5223,"10.11.21.139,10.11.10.1 ""GET <*> HTTP/1.1"" status: 200 len: 130 time: <*> ",1
-3ecbac0f,"10.11.21.143,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: <*> ",1
-ff73a89a,"10.11.21.143,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: 200 len: 119 time: <*> ",1
-e9b84ac5,"10.11.21.143,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: 200 len: 124 time: <*> ",1

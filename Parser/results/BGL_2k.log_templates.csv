@@ -1,177 +1,116 @@
 EventId,EventTemplate,Occurrences
 78f10049,instruction cache parity error corrected ,42
-c5c0dd84,<*> double-hummer alignment exceptions ,82
-d7b272e0,CE sym <*> at <*> mask <*> ,23
-b3ea9432,ciod: failed to read message prefix on control stream (CioStream socket to <*> ,3
-db7ea421,CE sym <*> at <*> mask 0x40 ,15
+81d8f6a5,<*> <*> alignment exceptions ,109
+d7b272e0,CE sym <*> at <*> mask <*> ,92
+9cd73db1,<*> failed to read message prefix on control stream <*> socket to <*> ,3
 20ef6802,generating <*> ,721
-a56aee9f,force load/store alignment...............0 ,2
-81324204,CE sym <*> at <*> mask 0x10 ,16
-fbf6f081,CE sym <*> at <*> mask 0x04 ,15
-2c98230f,ciod: <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-f9f5ec8a,ciod: LOGIN <*> failed: No such file or directory ,8
-feab042f,CE sym <*> at <*> mask 0x02 ,13
-ea2e3644,"1 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 1 ",3
-6126ed67,CE sym <*> at <*> mask 0x20 ,10
+e1df3e8d,force <*> <*> ,2
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+aa54bedd,<*> LOGIN <*> <*> No such file or directory ,13
+0d2b1f51,<*> ddr <*> detected and corrected on rank <*> symbol <*> bit <*> ,18
 b9b29cfb,data TLB error interrupt ,60
-4f2fb46c,ciod: <*> code <*> <*> <*> <*> <*> <*> ,1
+a69f0022,<*> <*> code <*> <*> <*> <*> <*> <*> ,1
 a15cb5bb,data storage interrupt ,30
-bca6f8df,instruction address: 0x00004ed8 ,20
-61a06d6d,data address: 0x00000002 ,8
-d48f3891,machine check: i-fetch......................0 ,5
-62e7f731,program interrupt: illegal instruction......0 ,5
-cfa46f1e,exception syndrome register: 0x00800000 ,5
-399b8dd3,data store interrupt caused by dcbf.........0 ,5
-29387b29,program interrupt: privileged instruction...0 ,5
-47fc6dfc,program interrupt: <*> <*> ,3
-e52860cb,program interrupt: imprecise exception......0 ,5
-7aeb157d,store operation.............................1 ,2
-d4315943,machine state register: 0x00002000 ,4
-0fa6c831,data store interrupt caused by icbi.........0 ,5
-a4c64e9c,"problem state (0 sup,1 usr).......0 ",3
+a21f0ffd,instruction <*> <*> ,21
+cefe6307,data <*> <*> ,8
+8854982e,machine <*> <*> ,5
+6e9f8705,program <*> illegal <*> ,8
+079dc0c5,exception syndrome <*> <*> ,6
+27b8933b,data store interrupt caused by <*> ,10
+522fa129,program <*> privileged <*> ,5
+d771fd2d,program <*> <*> <*> ,3
+fae8b819,program <*> imprecise <*> ,5
+c9986bbf,store <*> ,2
+bd44e681,machine state <*> <*> ,4
+7a9eff3a,problem state <*> <*> <*> ,3
 ee0f60b1,floating point <*> <*> ,4
-ebbea0f1,auxiliary processor.........................0 ,5
-6bdd2b8f,machine check enable..............0 ,2
-dcf9b506,floating pt ex mode 0 enable......0 ,3
+7e1a1d22,auxiliary <*> ,5
+318f592d,machine check <*> ,2
+5a33ca99,floating pt ex mode <*> <*> ,5
 539953ce,<*> interrupt <*> ,1
-04a60976,floating pt ex mode 1 enable......0 ,2
-7639d621,byte ordering exception.....................0 ,2
-27a16198,data address space................0 ,5
-06bd979f,core configuration register: 0x00002000 ,7
-8febb3f0,program interrupt: fp cr <*> ,1
+0431f365,byte ordering <*> ,2
+0b678451,data address <*> ,5
+785e477c,core configuration <*> <*> ,7
+6df21d95,program <*> fp cr <*> ,1
 12f6c958,<*> instruction cache <*> <*> ,2
-4a0f8450,program interrupt: fp cr field .............0 ,4
+18ac268d,program <*> fp cr field <*> ,4
 9fe5a8ae,<*> data <*> <*> <*> ,1
-73367124,icache prefetch depth....................0 ,1
-79620182,icache prefetch threshold................0 ,2
-f791d605,wait <*> enable.................0 ,1
-2de3043a,<*> <*> interrupt <*> ,1
-e0afaf2b,<*> <*> <*> ,1
+e0afaf2b,<*> <*> <*> ,4
+6a64a6a6,wait state <*> ,1
+70fcc78c,critical input interrupt <*> ,1
 b5f6193c,<*> <*> <*> <*> ,1
-122cc3cb,rts <*> error ,1
-1c63b023,debug wait enable.................0 ,2
-9be75ece,instruction address space.........0 ,1
-0e8cc671,disable store gathering..................0 ,3
-b1acd388,total of 1 ddr error(s) detected and corrected ,9
-a5d76567,"ciod: Error loading <*> invalid or missing program image, No such file or directory ",21
-ced612e8,ciod: Error <*> node map <*> file <*> No <*> <*> ,1
+8ca1a795,rts internal error ,1
+348a140d,debug wait <*> ,2
+2b5fee77,instruction address <*> ,1
+75baca0e,disable store <*> ,3
+2c819227,total of <*> ddr <*> detected and corrected ,13
+f598a2d2,<*> Error loading <*> invalid or missing program <*> No such file or directory ,21
+a2635661,<*> Error creating node map from file <*> No <*> <*> ,1
 e41db344,program interrupt ,3
-c8180127,program interrupt: illegal instruction......1 ,3
-02365463,instruction address: <*> ,1
-c4a98201,exception syndrome register: <*> ,1
 6dafd125,Node card is not <*> <*> ,6
-5fabe5cf,ciod: Error <*> node map <*> file <*> <*> file <*> ,1
-50d5c1f1,Ido chip status changed: FF:F2:9F:16:E2:23:00:0D:60:E9:1D:DC ip 10.0.0.151 v 9 t 4 status M Fri Jul 01 08:16:53 PDT 2005 ,1
+b9270674,<*> Error creating node map from file <*> <*> file <*> ,1
+0ba9161b,Ido chip status <*> <*> ip <*> v <*> t <*> status M Fri Jul <*> <*> PDT <*> ,1
 7703e507,<*> not <*> <*> <*> <*> node card ,6
-3aed4609,1146800 double-hummer alignment exceptions ,27
-ccca72c4,ciod: Missing or invalid <*> <*> <*> <*> <*> node map file <*> ,2
-5b134670,1 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected ,1
-87e0677b,ciod: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> node map file <*> ,2
-c934034b,ciod: Error <*> node map <*> file <*> <*> <*> <*> ,1
-54d16a50,rts panic! - stopping execution ,2
-c3208e09,ciod: Error <*> node map <*> file <*> Permission denied ,1
-81c686a6,"1 ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*> ",7
-cd3303c0,rts: kernel terminated for reason <*> bad message header: <*> <*> type <*> <*> <*> <*> <*> <*> <*> ,1
-d2ecf8f0,8 floating point alignment exceptions ,37
-3931c6a4,15 floating point alignment exceptions ,14
-3572a34d,"1 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 3 ",2
-2e1e5bf9,total of <*> ddr error(s) detected and corrected ,2
-c20f9db9,5 floating point alignment exceptions ,22
-368430a9,<*> floating point alignment exceptions ,33
-a66ed31b,New ido chip inserted into the database: FF:F2:9F:15:1F:72:00:0D:60:EA:E0:8D ip 10.7.0.13 v 9 t 2 ,1
-ba99146e,New ido chip inserted into the database: FF:F2:9F:16:BF:6C:00:0D:60:E9:40:93 ip 10.5.0.46 v 13 t 4 ,1
+ba1cfad8,<*> Missing or invalid <*> <*> line <*> of node map file <*> ,2
+1245604c,<*> torus receiver <*> input pipe <*> <*> <*> detected and corrected ,4
+ebb463e2,<*> <*> <*> <*> <*> <*> <*> <*> <*> line <*> of node map file <*> ,2
+79b56303,<*> Error creating node map from file <*> <*> <*> <*> ,1
+3359fffc,rts <*> <*> stopping execution ,2
+e13725b2,<*> Error creating node map from file <*> Permission denied ,1
+75a17954,<*> kernel terminated for reason <*> bad message <*> invalid <*> type <*> cpu <*> index <*> total <*> ,1
+368430a9,<*> floating point alignment exceptions ,121
+b9f18208,New ido chip inserted into the <*> <*> ip <*> v <*> t <*> ,3
 3e3305de,<*> is not <*> <*> ,1
-469d0792,Node card <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> active. Clock <*> is <*> Clock <*> is <*> <*> JTAG Reset is asserted. <*> JTAG Reset is not asserted. Temperature <*> is not active. No temperature <*> Temperature <*> Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK. ,1
-b9ab1268,Node card VPD check: U11 node in processor card slot <*> do not match. VPD ecid <*> found <*> ,5
-53856e30,New ido chip inserted into the database: FF:F2:9F:16:C4:C2:00:0D:60:E9:3B:3D ip 10.2.1.37 v 13 t 4 ,1
-f719c459,"idoproxydb hit ASSERT condition: ASSERT expression 0 Source file idotransportmgr.cpp Source line 1043 Function int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*) ",35
-7b98fe27,Node card <*> no <*> <*> active. Clock <*> is <*> Clock <*> is <*> <*> JTAG Reset is asserted. <*> JTAG Reset is asserted. Temperature <*> is not active. No temperature <*> Temperature <*> Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK. ,5
-e65602b6,Node card VPD check: U01 node in processor card slot <*> do not match. VPD ecid <*> found <*> ,4
-96456feb,Ido chip status changed: FF:F2:9F:16:EB:27:00:0D:60:E9:14:D8 ip 10.0.2.192 v 13 t 4 status M Thu Aug 04 15:29:45 PDT 2005 ,1
-9da2cf21,Ido chip status changed: FF:F2:9F:15:7E:6E:00:0D:60:EA:81:91 ip 10.0.1.155 v 13 t 1 status M Thu Aug 04 15:31:25 PDT 2005 ,1
+cdd8d586,Node card <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> Clock <*> is <*> Clock <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is not <*> Temperature <*> is not <*> No temperature <*> Temperature <*> Error Latch is <*> <*> is <*> <*> error latch is <*> <*> is <*> <*> error latch is <*> The <*> volt rail is <*> The <*> volt rail is <*> ,1
+e40ea26b,Node card <*> <*> <*> node in processor card slot <*> do not <*> <*> <*> <*> found <*> ,9
+120a3358,<*> hit ASSERT <*> ASSERT expression <*> Source file <*> Source line <*> Function int <*> <*> ,35
+30815189,Node card <*> no <*> <*> <*> Clock <*> is <*> Clock <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> Temperature <*> is not <*> No temperature <*> Temperature <*> Error Latch is <*> <*> IS NOT <*> <*> ERROR LATCH IS <*> <*> IS NOT <*> <*> ERROR LATCH IS <*> The <*> volt rail is <*> The <*> volt rail is <*> ,5
+b93956e4,Ido chip status <*> <*> ip <*> v <*> t <*> status M Thu Aug <*> <*> PDT <*> ,2
 be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-19f21906,Ido chip status changed: FF:F2:9F:16:DC:81:00:0D:60:E9:23:7E ip 10.6.1.207 v 13 t 4 status M Tue Aug 09 10:08:23 PDT 2005 ,1
-405f3418,rts <*> <*> <*> <*> <*> B C <*> X- <*> Y- Z+ Z- <*> B C X- Y- Z+ Z- ,1
-5830d404,1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected ,1
-510f15e3,"ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error ",15
-ce678bc6,ciod: LOGIN chdir(pwd) failed: No such file or directory ,2
-8679035b,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed ,9
-22291b32,rts: kernel terminated for reason <*> ,1
-95553118,rts: kernel terminated for reason 1004 ,5
-53a16943,ciod: generated 64 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm ,4
-bdbaf9bb,ciod: generated <*> core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm ,1
-01422889,ciod: generated 128 core files for program /home/germann2/BGL-demo/SPaSM_mpi ,8
-15493d9e,iar <*> dear <*> ,208
+f8eadc60,Ido chip status <*> <*> ip <*> v <*> t <*> status M Tue Aug <*> <*> PDT <*> ,1
+f9c7e392,rts <*> link training <*> <*> B C <*> <*> <*> <*> <*> <*> <*> B C <*> <*> <*> <*> ,1
+547e2a3c,<*> tree receiver <*> in <*> state <*> <*> <*> detected ,3
+d1b018ac,<*> Error loading <*> invalid or missing program <*> Exec format error ,17
+0e487ab5,<*> Error reading message prefix after <*> on <*> socket to <*> Link has been severed ,9
+abfec30d,<*> kernel terminated for reason <*> ,6
+d3e84f17,<*> generated <*> core files for program <*> ,30
+ae39ce9b,<*> <*> dear <*> ,208
 d2f5f36d,<*> Mount failed <*> <*> <*> <*> <*> <*> <*> ,2
-3a91c427,"3 ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*> ",1
-3e8c67d3,ciod: generated 64 core files for program <*> ,6
-04873f76,Lustre mount FAILED : <*> : point /p/gb1 ,9
-b6704775,"4 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 4 ",1
-e0420b20,1 torus receiver x+ input pipe error(s) (dcr 0x02ec) detected and corrected ,1
-f24248aa,ciod: <*> <*> <*> <*> <*> ,3
-44d0f9a9,ciod: <*> <*> <*> <*> <*> <*> message <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-74db6578,1 torus receiver y+ input pipe error(s) (dcr 0x02ee) detected and corrected ,1
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
-854071b2,Ido chip status changed: FF:F2:9F:15:7B:E0:00:0D:60:EA:84:1F ip 10.7.0.130 v 13 t 1 status M Sat Sep 17 07:49:04 PDT 2005 ,1
-4930d816,ciod: LOGIN chdir(/home/spelce1/UMT2K/umt2k/ckpt_umt2k_src/TEST/NEW_TEST) failed: No such file or directory ,2
-2383c6a1,rts: bad message header: expecting type 57 instead of type 3 (softheader <*> <*> 00000002 00000000) PSR0 00001f01 PSR1 00000000 PRXF 00000002 PIXF 00000007 ,1
-c17660ca,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.05) failed: No such file or directory ,2
-ceb36b75,ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.01) failed: No such file or directory ,2
-91145933,total of 4 ddr error(s) detected and corrected ,1
-df72c6b8,ciod: generated 128 core files for program <*> ,9
-d095b76f,critical input interrupt (unit 0x0b bit 0x06): warning for torus y+ wire ,1
-2761a7f0,"ciod: Error loading <*> invalid or missing program image, Permission denied ",19
-8d071cf8,ciod: generated <*> core files for program <*> ,2
-5f8c9a80,total of 2 ddr error(s) detected and corrected ,1
-84bf9918,"4 ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*> ",1
-05e8ab48,4 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected ,1
-7f72adfb,data cache search parity error detected. attempting to correct ,6
-b5f8f0ab,<*> <*> ,1
-d12b1516,"ciod: Error loading <*> invalid or missing program image, Exec format error ",2
-67e0799d,critical input interrupt (unit 0x0b bit 0x0b): warning for torus z- wire ,1
-ffce3b40,16 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected ,1
-64f67e61,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader <*> <*> 00000002 00000000) PSR0 00001f01 PSR1 00000000 PRXF 00000002 PIXF 00000007 ",2
-8b747f38,"4 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 1 ",1
-bfcf1a32,2354412 floating point alignment exceptions ,15
-9002629b,"2 ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*> ",1
-e5e5b987,5 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected ,1
-f6580469,3 <*> <*> error(s) <*> <*> detected and corrected ,1
-76467885,"2 ddr errors(s) detected and corrected on rank 0, symbol <*> bit 4 ",1
-102d23af,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader 00ce22e8 e6200003 00000002 00000000) PSR0 00001f01 PSR1 00000000 PRXF 00000002 PIXF 00000007 ",1
-61559256,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader 00ce22e8 e6200003 00000002 00000000) PSR0 20021f01 PSR1 00000000 PRXF 00000002 PIXF 00000007 ",1
-8fd4dd96,"critical input interrupt (unit 0x0b bit 0x0a): warning for torus z+ wire, suppressing further interrupts of same type ",2
-9e7aa6d4,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader <*> <*> 00000002 00000000) PSR0 20021f01 PSR1 00000000 PRXF 00000002 PIXF 00000007 ",1
-ae81d779,18507114 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 198 seconds ,1
-c7a8f0b5,26741629 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 268 seconds ,1
-eef6f71e,"ciod: Received signal 15, code 0, errno 0, address 0x000001b0 ",4
-f0594c97,Lustre mount FAILED : <*> : <*> : <*> ,2
-5ec49741,MACHINE CHECK DCR read timeout (mc e08x iar 0x00000000 lr 0xc00045a4) ,7
-2409d742,"ciod: Received signal 15, code 0, errno 0, address <*> ",8
-4dc726a2,ciod: Error reading message prefix on CioStream socket to <*> Connection <*> <*> ,2
-37caf7df,ciod: Error reading message prefix on CioStream socket to <*> Connection reset by peer ,4
-97fdf35a,ciod: Error reading message prefix on CioStream socket to <*> Link has been severed ,8
-3b3e11d3,"ciod: Received signal 15, code 0, errno 0, address 0x000001f2 ",4
+a9295050,Lustre mount FAILED <*> <*> <*> point <*> ,9
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,4
+f66f71ca,<*> <*> <*> <*> <*> <*> <*> message <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+62d29a4a,suppressing further interrupts of same type ,2
+6bf30409,Ido chip status <*> <*> ip <*> v <*> t <*> status M Sat Sep <*> <*> PDT <*> ,1
+e6297eb7,<*> bad message <*> expecting type <*> instead of type <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+0616765b,<*> <*> <*> <*> No such file or directory ,5
+5f30073a,critical input interrupt <*> <*> bit <*> warning for torus <*> <*> ,2
+c65a33f3,<*> Error loading <*> invalid or missing program <*> Permission denied ,19
+b33d7158,data cache search parity error <*> attempting to correct ,6
+d4f4a995,shutdown complete ,1
+e2f8844a,Error receiving packet on tree <*> expecting type <*> instead of type <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+b109796b,<*> <*> <*> <*> <*> <*> detected and corrected ,1
+b38b5a56,critical input interrupt <*> <*> bit <*> warning for torus <*> <*> suppressing further interrupts of same type ,2
+9d9eaa95,<*> torus sender <*> retransmission <*> <*> <*> detected and corrected over <*> seconds ,2
+a8bbc9a8,<*> Received signal <*> code <*> <*> <*> address <*> ,16
+ee163277,Lustre mount FAILED <*> <*> <*> <*> <*> <*> ,2
+4891c1bf,MACHINE CHECK <*> read timeout <*> <*> <*> <*> lr <*> ,7
+3dd12351,<*> Error reading message prefix on <*> socket to <*> Connection <*> <*> ,2
+918e64a2,<*> Error reading message prefix on <*> socket to <*> Connection reset by peer ,4
+d5fc3bea,<*> Error reading message prefix on <*> socket to <*> Link has been severed ,8
 f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
-addfd492,13 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 4562 seconds ,1
-5cb188be,ciod: LOGIN chdir(/g/g0/spelce1/Linpack_SWL) failed: No such file or directory ,2
-1b423593,0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr. ,51
-9ea72ae3,"<*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt. ",71
-81a0ab04,"1 ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds ",2
+bc88c775,<*> tree receiver <*> in <*> state <*> <*> <*> detected over <*> seconds ,2
+fbb18d93,<*> microseconds spent in the <*> signal handler during <*> <*> <*> microseconds was the maximum time for a single instance of a correctable <*> ,51
+cc626152,<*> total <*> <*> critical input <*> <*> microseconds total spent on critical input <*> <*> microseconds max time in a critical input <*> ,71
+44a088e5,<*> ddr <*> detected and corrected on rank <*> symbol <*> over <*> seconds ,7
 f5ed6c50,<*> <*> <*> Node <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-147b2e22,Kernel detected <*> integer alignment exceptions <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> <*> iar <*> dear <*> ,1
-97fbe7e2,1 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 244 seconds ,1
-eca97781,"<*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds ",3
-dab64618,total of 1 ddr error(s) detected and corrected over <*> seconds ,1
-79faa60d,minus normalized number..................0 ,1
-e6576a20,fraction rounded.........................0 ,1
-42274bf6,"critical input interrupt (unit 0x0b bit 0x17): warning for tree C1 wire, suppressing further interrupts of same type ",1
-3c658a91,size of scratchpad portion of L3.........0 (0M) ,1
-d1d3daf9,"Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> ",8
-cc30279b,total of <*> ddr error(s) detected and corrected over <*> seconds ,2
-a5311077,ciod: LOGIN <*> failed: <*> <*> ,1
-2d80d483,"2 ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds ",2
-794c0396,2 <*> <*> error(s) <*> <*> detected and corrected over <*> seconds ,1
-f5a027c4,total of 3 ddr error(s) detected and corrected over <*> seconds ,1
-e9ac1f23,ciod: Error loading <*> program <*> <*> <*> <*> <*> <*> ,1
-7962ab9e,<*> <*> ffffffff ffffffff ffffffff ,1
-a9d63b64,Machine State Register: <*> ,1
+8a294242,Kernel detected <*> integer alignment exceptions <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> ,9
+7e38291c,total of <*> ddr <*> detected and corrected over <*> seconds ,4
+eb4e6968,minus normalized <*> ,1
+6732d38d,fraction <*> ,1
+6b8c6970,critical input interrupt <*> <*> bit <*> warning for <*> <*> <*> suppressing further interrupts of same type ,1
+af175b02,size of scratchpad portion of <*> <*> ,1
+51ec08fe,<*> LOGIN <*> <*> <*> error ,1
+e9e95103,<*> <*> <*> <*> <*> <*> detected and corrected over <*> seconds ,1
+5ca47f8c,<*> Error loading <*> program <*> <*> <*> <*> <*> <*> ,1
+347334c7,<*> <*> <*> <*> <*> ,1
+0339a33e,Machine State <*> <*> ,1

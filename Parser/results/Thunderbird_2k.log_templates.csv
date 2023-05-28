@@ -1,222 +1,136 @@
 EventId,EventTemplate,Occurrences
 44d5e863,session closed for user root ,24
-13dbd7af,session opened for user root by (uid 0) ,19
-3ede7eda,(root) CMD (run-parts /etc/cron.hourly) ,14
-085066eb,data_thread() got not answer from any <*> datasource ,819
-92360b3d,"synchronized to 10.100.20.250, stratum 3 ",188
-e1eeada1,synchronized to <*> stratum 3 ,108
-a7590bb3,"synchronized to 10.100.16.250, stratum 3 ",84
-bc00924f,"synchronized to 10.100.18.250, stratum 3 ",86
-96841340,[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ******************** ,62
-b8b28b9c,"synchronized to 10.100.22.250, stratum 3 ",100
-1b538175,[ib_sm_sweep.c:1455]: No topology change ,62
-7624f32a,[ib_sm_sweep.c:1482]: No configuration change required ,62
-f248d1d4,Local disconnected: Connection closed. ,3
-7a4c3a67,connection lost: 'Connection closed.' ,3
-20f51c40,unable to qualify my own domain name (eadmin1) -- using short name ,2
-3dc13a47,"jA9J1UvC004306: from root, size 629060, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-45ec3c11,"jA9J1UvC004306: to root, ctladdr root (0/0), delay <*> xdelay 00:00:00, mailer relay, pri 659060, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-7bbe4b1e,unable to qualify my own domain name (badmin1) -- using short name ,2
-f7caef32,unable to qualify my own domain name (cadmin1) -- using short name ,2
-7475a350,unable to qualify my own domain name (dadmin1) -- using short name ,2
-eb591f1d,"jA9J1Wd7019391: from root, size 1594553, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-c6605cce,"jA9J1Wd7019391: to root, ctladdr root (0/0), delay 00:00:02, xdelay 00:00:00, mailer relay, pri 1624553, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-2c241f4f,"jA9J1WSU011176: from root, size 1593894, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-e6cad654,"jA9J1WSU011176: to root, ctladdr root (0/0), delay 00:00:03, xdelay 00:00:00, mailer relay, pri 1623894, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-cc424762,"jA9J1WFE024258: from root, size 1597080, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-c5912ed3,"jA9J1WFE024258: to root, ctladdr root (0/0), delay 00:00:03, xdelay 00:00:00, mailer relay, pri 1627080, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-9759f8df,unable to qualify my own domain name (aadmin1) -- using short name ,2
-b064a19d,DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1 ,5
-dfcc68c8,DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1 ,5
-25ab5d85,"jA9J1dQ7016560: from root, size <*> class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-52a27d93,"jA9J1dQ7016560: to root, ctladdr root (0/0), delay 00:00:02, xdelay 00:00:00, mailer relay, pri <*> relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-2c5b7115,DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases ,15
-f50d8476,<*> on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1 ,3
-9fc3480c,DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1 ,3
+3a482b3f,session opened for user root by <*> <*> ,19
+919c1764,<*> CMD <*> <*> ,19
+4f22c37d,<*> got not answer from any <*> <*> ,819
+aed6cd7b,synchronized to <*> stratum <*> ,568
+7bf84829,<*> <*> NEW SWEEP <*> ,62
+5c0a1279,<*> No topology change ,62
+daaee3b6,<*> No configuration change required ,62
+2a3daabc,Local <*> Connection <*> ,3
+29815e85,connection <*> <*> <*> ,3
+858117e8,unable to qualify my own domain name <*> <*> using short name ,10
+c92c8617,<*> from <*> size <*> class <*> <*> <*> <*> <*> relay <*> ,10
+5f5d9787,<*> to <*> <*> root <*> delay <*> <*> <*> mailer <*> pri <*> relay <*> <*> dsn <*> stat <*> Connection refused by <*> ,10
+5bd1ce68,<*> from <*> via <*> ,5
+0437c0fd,<*> on <*> to <*> via <*> ,8
+0e8029df,<*> from <*> via <*> network <*> no free leases ,15
+a6bbf444,<*> for <*> <*> from <*> via <*> ,3
 d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
-f54b2bf1,DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251. ,9
-dc7705ff,RRD_update <*> <*> illegal attempt to update using time <*> when last update time is <*> (minimum one second step) ,1
-2be5473e,<*> time <*> <*> <*> ,2
+fa835cb3,<*> for <*> <*> from <*> via <*> unknown lease <*> ,9
+4389c914,<*> <*> <*> illegal attempt to update using time <*> when last update time is <*> <*> one second <*> ,10
+28d4a7ce,kernel time sync disabled <*> ,1
 8cb77279,time <*> <*> <*> ,1
-463f24f7,RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step) ,7
-811f061c,Received SNMP packet(s) from #34# ,1
-aed6cd7b,synchronized to <*> stratum <*> ,2
-2f0b0a44,(root) CMD (/projects/tbird/temps/get_temps a) ,1
-9115ca3e,(root) CMD (/projects/tbird/temps/get_temps b) ,1
-53ecd543,(root) CMD (/projects/tbird/temps/get_temps c) ,1
-399b37c6,(root) CMD (/projects/tbird/temps/get_temps d) ,1
-149a2dd0,(root) CMD (/projects/tbird/temps/get_temps e) ,1
-85aeb4f5,My unqualified host name (eadmin1) unknown; sleeping for retry ,1
-e2247a64,My unqualified host name (aadmin1) unknown; sleeping for retry ,1
-c70507b9,My unqualified host name (badmin1) unknown; sleeping for retry ,1
-24a52a4f,My unqualified host name (cadmin1) unknown; sleeping for retry ,1
-d8088758,My unqualified host name (dadmin1) unknown; sleeping for retry ,1
-3b4092c6,CentOS-4 (Kernel Module GPG key) ,1
-1bfdec32,(supports S0 S4 S5) ,1
-56d2eb99,DSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000e) @ 0x0000000000000000 ,1
-6d53f506,FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0 ,1
-6778d75a,HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c ,1
-f6814e55,HPET id: 0xffffffff base: 0xfed00000 ,1
-360d5914,<*> <*> 0 <*> 0 <*> <*> <*> <*> ,1
-60475a1b,<*> <*> 0 <*> <*> <*> <*> <*> <*> ,1
-1cd6eaf3,IOAPIC <*> <*> <*> ,3
-49822c32,<*> used by override. ,3
+d5a8bece,Received SNMP <*> from <*> ,1
+4979fafd,kernel time sync enabled <*> ,1
+2c58f242,My unqualified host name <*> <*> sleeping for retry ,5
+f8974e8d,<*> <*> Module <*> <*> ,1
+b5f6193c,<*> <*> <*> <*> ,11
+b687caa0,<*> <*> DELL PE <*> <*> <*> <*> <*> <*> ,7
+347334c7,<*> <*> <*> <*> <*> ,2
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+a274738b,<*> used by <*> ,3
 331a934f,Interpreter enabled ,1
-ffc76c40,LAPIC (acpi_id[0x01] lapic_id[0x00] enabled) ,1
-ffe54408,LAPIC (acpi_id[0x02] lapic_id[0x06] enabled) ,1
-33a243ca,LAPIC (acpi_id[0x03] lapic_id[0x01] enabled) ,1
-0f4291ad,LAPIC (acpi_id[0x04] lapic_id[0x07] enabled) ,1
-cf6920d1,LAPIC_NMI (acpi_id[0x01] high edge lint[0x1]) ,1
-78e1e67a,LAPIC_NMI (acpi_id[0x02] high edge lint[0x1]) ,1
-9887b672,LAPIC_NMI (acpi_id[0x03] high edge lint[0x1]) ,1
-4c44efaa,LAPIC_NMI (acpi_id[0x04] high edge lint[0x1]) ,1
-7497c62f,Local APIC address 0xfee00000 ,1
-bfafe47e,MADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd724 ,1
-bc14c7a1,MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854 ,1
-2084f9bf,PCI Interrupt Link <*> (IRQs 3 4 5 6 7 10 11 12) <*> ,2
-34e7d9a5,PCI Interrupt Link <*> (IRQs 3 4 5 6 7 10 <*> 12) ,1
-cfd690e9,"PCI Interrupt Link <*> (IRQs 3 4 5 6 7 10 11 12) *0, disabled. ",5
+4930b6cd,<*> <*> high edge <*> ,4
+47bd3ca3,Local <*> address <*> ,1
+e11b3b26,PCI Interrupt Link <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+28fd89e7,PCI Interrupt Link <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+17f26d61,PCI Interrupt Link <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
 dddc12e6,PCI Interrupt Routing Table <*> ,10
 8d363427,PCI <*> <*> <*> <*> ,1
-0ca6ddfb,"PCI interrupt <*> -> GSI 16 (level, low) -> IRQ 169 ",4
-88fc75f7,"PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*> ",7
-96f9131f,Power Button (FF) [PWRF] ,1
-d7dd90ba,Processor [CPU0] (supports C1) ,1
-83833406,Processor [CPU1] (supports C1) ,1
-70cd6768,Processor [CPU2] (supports C1) ,1
-c8f9099e,Processor [CPU3] (supports C1) ,1
-be0117c0,RSDP (v000 DELL ) @ 0x00000000000fd650 ,1
-95cbc199,RSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd664 ,1
-0215bf5c,SPCR (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd7cc ,1
-825fbf83,Subsystem revision 20040816 ,1
-28e35479,Using IOAPIC for interrupt routing ,1
-6fe61299,Intel(R) Xeon(TM) CPU 3.60GHz stepping 03 ,1
-ee56f27e,L2 cache: 2048K ,5
-941c90b4,Physical Processor ID: 0 ,3
-79ca0f26,Physical Processor ID: 3 ,2
-894936cc,"Trace cache: 12K uops, L1 D cache: 16K ",5
-1797a828,colour VGA+ 80x25 ,1
-a5785489,mounted filesystem with ordered data mode. ,3
-bf97a59c,"sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $ ",1
-8146f258,"apic_id 8, version 32, address 0xfec00000, GSI 0-23 ",1
-9e3e8cde,"apic_id 9, version 32, address 0xfec80000, GSI 32-55 ",1
-5e8bbf63,"apic_id 10, version 32, address 0xfec83000, GSI 64-87 ",1
+45f18552,PCI interrupt <*> <*> <*> <*> <*> <*> <*> IRQ <*> ,11
+3ed7c86e,Power Button <*> <*> ,1
+ab490e36,Processor <*> <*> <*> ,4
+2dacc496,<*> <*> DELL <*> <*> <*> ,1
+e6ad81ec,Subsystem revision <*> ,1
+57de3c21,Using <*> for interrupt routing ,1
+73c01680,<*> <*> CPU <*> stepping <*> ,1
+e0afaf2b,<*> <*> <*> ,9
+f34753d2,Physical Processor <*> <*> ,5
+a358f434,Trace <*> <*> <*> <*> D <*> <*> ,5
+f031a67b,mounted filesystem with ordered data <*> ,3
+5fe9e8bd,<*> <*> <*> <*> ak Exp <*> ,1
+a5bee5cc,<*> <*> version <*> address <*> <*> <*> ,3
 1c956c85,<*> cache <*> <*> <*> <*> <*> <*> ,1
 837fabc6,PCI <*> <*> PCI <*> <*> <*> ,1
-fd755549,"root LABEL / initrd /x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console tty0 console ttyS0,19200 fastboot BOOT_IMAGE /x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr ",1
-d807aaeb,Registered protocol family 1 ,1
-297b9f6e,Registered protocol family 16 ,1
-556c6519,Registered protocol family 17 ,1
-0551d6df,Registered protocol family 2 ,1
-06657863,Using software bounce buffering for IO (SWIOTLB) ,1
+744959a3,root LABEL <*> <*> <*> console <*> console <*> <*> <*> <*> ,1
+05c66754,Registered protocol family <*> ,5
+2f5975d6,Using <*> <*> <*> for <*> <*> ,1
 52c4aca4,<*> PCI <*> <*> <*> ,1
-a6cfb553,Transparent bridge - 0000:00:1e.0 ,1
+94289a27,Transparent bridge <*> <*> ,1
 a1317829,Using <*> for <*> routing ,1
-46ffbc30,Using MMCONFIG at e0000000 ,1
-5653ab0c,Using configuration type 1 ,1
-0d87f7cd,Compressed image found at block 0 ,1
-9cfb795f,Disabled at runtime. ,1
-f62a680a,Initializing. ,1
-46cc777d,Registering netfilter hooks ,1
+26e5d9f7,Using <*> at <*> ,1
+f8c780de,<*> configuration <*> <*> ,1
+c4bae555,Compressed image found at block <*> ,1
+62d2a81f,Disabled at <*> ,1
+9e08cdfc,<*> ,2
+8a56fd24,Registering <*> hooks ,1
 f29b0c3b,Starting in permissive mode ,1
-8cad6829,Unregistering netfilter hooks ,1
-9b0e42af,Hash tables configured (established 262144 bind 65536) ,1
-683053e1,Direct-Access ANSI SCSI revision: 02 ,1
-a9426bea,Processor ANSI SCSI revision: 02 ,1
-fe6c6670,Disk quotas dquot_6.5.1 ,1
-e14fb1de,Mounted root (ext2 filesystem). ,1
-72051f61,MegaRAID Model: LD 0 RAID1 139G Rev: 516A ,1
-0f397b10,PE/PV Model: 1x2 SCSI BP Rev: 1.0 ,1
+4cf93d77,<*> <*> hooks ,1
+bc371e9f,Hash tables configured <*> <*> bind <*> ,1
+64e12ed9,<*> ANSI SCSI <*> <*> ,1
+77e2f1a4,Processor ANSI SCSI <*> <*> ,1
+f787a888,Disk quotas <*> ,1
+c0124fa6,Mounted root <*> <*> ,1
+1e774778,<*> <*> LD <*> <*> <*> <*> <*> ,1
+c2d1025f,<*> <*> <*> SCSI BP <*> <*> ,1
 d203b94f,initialized ,1
-d4088a36,initializing netlink socket (disabled) ,1
-8ea0df2a,passed. ,1
-5f7d2720,4.1.0-ioctl (2003-12-10) initialised: #36#@#37# ,1
-5b3df1a8,allocating divert_blk for eth0 ,1
-8de5c3e5,allocating divert_blk for eth1 ,1
-2af2734b,not allocating divert_blk for non-ethernet device lo ,1
-56f991ff,v2.0:USB HID core driver ,1
-5ff8c123,eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex ,1
+778bdbc3,initializing <*> socket <*> ,1
+0002e447,allocating <*> for <*> ,2
+c984cfde,not allocating <*> for <*> device <*> ,2
+cf438786,<*> HID core driver ,1
+94c4cd8d,<*> <*> <*> Link <*> <*> <*> <*> <*> <*> ,1
 2b70c70f,no floppy controllers found ,1
-2914aa05,RNG not detected ,1
-8126dc92,Wait for ready failed before probe ! ,6
+4106406c,<*> not detected ,1
+a9c2b964,Wait for ready failed before probe <*> ,6
 f55c7304,<*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> ,1
-8fd67d2f,Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda ,1
-047ac493,(C) 2000-2002 Netfilter core team ,4
+bbf55005,Unknown cmd <*> <*> <*> on <*> ,1
+a405ad24,<*> <*> <*> core team ,4
 f4ad6816,Installing public key data ,1
-c407f9ad,... autorun DONE. ,2
-f797019b,Autodetecting RAID arrays. ,2
-9bdd1fc2,autorun ... ,2
-0dbd8a90,"md driver 0.90.0 MAX_MD_DEVS 256, MD_SB_DISKS 27 ",1
-04570a0a,#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004) ,1
-184e4b02,#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004) ,1
-b3d0af38,fw version:[516A] bios version:[H418] ,1
-d21512eb,probe new device 0x1028:0x0013:0x1028:0x016c: bus 2:slot 14:func 0 ,1
-838213b2,PS/2 mouse device common for all mice ,1
-5ead3d05,v2.0 (20020519) ,1
-5c0c0bea,rpc.statd startup succeeded ,1
-5b53ada4,portmap startup succeeded ,1
-c1e11d2c,Starting ts_fixup: succeeded ,1
-6b3a62ce,Version 1.0.6 Starting ,1
-be4d434f,LSI Logic MegaRAID driver ,1
-34c18960,scanning scsi channel 0 [Phy 0] for non-raid devices ,1
-3d5f27bd,scanning scsi channel 1 [virtual] for logical drives ,1
+d6f217b2,<*> RAID <*> ,2
+b5f8f0ab,<*> <*> ,3
+dcfb42c0,md driver <*> <*> <*> <*> <*> ,1
+ccd6ba3c,<*> <*> <*> Fri Dec <*> <*> EST <*> ,1
+00c6ef39,<*> <*> <*> Mon Sep <*> <*> EDT <*> ,1
+3aea1469,fw <*> bios <*> ,1
+93bd1aaf,probe new device <*> bus <*> <*> <*> ,1
+825c190d,<*> mouse device common for all mice ,1
+2bb55441,<*> startup succeeded ,4
+bf6f1ee6,Starting <*> succeeded ,1
+90bfe9f4,Version <*> Starting ,1
+e6e9b6d6,LSI Logic <*> driver ,1
+d3b28dbb,scanning scsi channel <*> <*> <*> for <*> <*> ,1
+40d62b95,scanning scsi channel <*> <*> for <*> <*> ,1
 068d6505,<*> <*> cache <*> <*> ,1
-6bff8fc9,<*> <*> cache: <*> <*> ,1
-077715cd,sda1 sda2 sda3 sda4 ,1
 91cfea9b,Registering secondary module capability ,1
 92bb746c,<*> <*> <*> <*> <*> irq <*> ,2
-d9f8fb6f,syslog-ng startup succeeded ,1
-c718edec,syslog-ng version 1.6.7 starting ,1
-fcb82da3,Detected 3591.360 MHz processor. ,1
-4ddcdf14,Using 14.318180 MHz HPET timer. ,1
-35e12aaf,Using HPET based timekeeping. ,1
-6666a62a,Creating Topspin /dev entries: ,1
-45679c69,registered new driver hiddev ,1
+429d684b,<*> version <*> starting ,1
+63b0e45e,Detected <*> MHz <*> ,1
+cc2195c2,Using <*> MHz <*> <*> ,1
+f3317052,Creating Topspin <*> <*> ,1
+cdf783b4,registered new driver <*> ,3
 8173d448,registered new driver hub ,1
-8dd70d29,registered new driver usbfs ,1
-73f85921,registered new driver usbhid ,1
-2c434a54,probe of vesafb0 failed with error -6 ,1
-df7d6b61,"connection from ""#28#"" ",2
-94faf83f,"User #29#, coming from #30#, authenticated. ",2
-cf15242b,Now running on #29#'s privileges. ,2
-efe8f1ad,Mounting NFS filesystems: succeeded ,1
-4d0b55f5,Mounting other filesystems: failed ,1
-71a3ea78,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,33
-2ffb90a8,Warning: we failed to resolve data source name <*> <*> <*> ,1
-fb232548,RRD_update <*> <*> illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step) ,1
-1c6dbe34,RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step) ,1
-0879ac4a,RRD_update <*> illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step) ,1
-acdd08ef,Warning: we failed to resolve trusted host name dadmin3 dadmin4 ,1
-43c64af1,gmetad startup succeeded ,1
-b100b733,Registered protocol family 10 ,1
-e485728b,not allocating divert_blk for non-ethernet device sit0 ,1
+88b184e0,probe of <*> failed with error <*> ,1
+b3c24971,connection from <*> ,2
+8e5320e4,User <*> coming from <*> <*> ,2
+327c77e7,Now running on <*> <*> ,2
+d3cf1b31,Mounting NFS <*> succeeded ,1
+0f14cf71,Mounting other <*> failed ,1
+0c5bf427,<*> we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,33
+54dc7c17,<*> we failed to resolve data source name <*> <*> <*> ,1
+b3ef946c,<*> <*> illegal attempt to update using time <*> when last update time is <*> <*> one second <*> ,1
+b318a687,<*> we failed to resolve trusted host name <*> <*> ,1
 10a828d8,succeeded ,2
-9b2c26f4,Server listening on :: port 22. ,1
-8ede8fab,error: Bind to port 22 on 0.0.0.0 failed: Address already in use. ,1
-9ace8206,Cannot open file /dev/logsurfer for writing (No such file or directory) ,1
-c4f488ea,Changing permissions on special file /dev/logsurfer ,1
-9b727c70,xinetd <*> <*> ,1
-2d336973,Reading included configuration file: <*> [file <*> [line 15] ,4
-e3fefcad,Reading included configuration file: <*> [file <*> [line 18] ,2
-90020bf6,Reading included configuration file: <*> [file <*> [line 17] ,2
-f29eb2ef,Reading included configuration file: <*> [file <*> [line <*> ,2
-4206903c,Reading included configuration file: <*> [file <*> [line 14] ,2
-8e87fda3,Reading included configuration file: <*> [file <*> [line 13] ,5
-ac50a68b,Started working: 1 available service ,1
+6a41915d,Server listening on <*> port <*> ,1
+b9bb8887,<*> Bind to port <*> on <*> <*> Address already in <*> ,1
+8531e790,Cannot open file <*> for writing <*> such file or <*> ,1
+d865e61f,Changing permissions on special file <*> ,1
+56014da4,Reading included configuration <*> <*> <*> <*> <*> <*> ,17
+b6cd16ca,Started <*> <*> available service ,1
 8fe10bc2,removing chargen ,2
 0d2fcc54,removing daytime ,2
 09b29def,removing echo ,2
 45b6eb48,removing <*> ,8
 eb1342ed,removing time ,2
-ca99b16d,xinetd <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-f05042fa,"jA9JBVPb007417: from root, size 629060, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-eaf14401,"jA9JBVPb007417: to root, ctladdr root (0/0), delay 00:00:00, xdelay 00:00:00, mailer relay, pri 659060, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-b907ca86,"jA9JBWxH019649: from root, size <*> class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-c4f0de9c,"jA9JBWxH019649: to root, ctladdr root (0/0), delay 00:00:02, xdelay 00:00:00, mailer relay, pri <*> relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-8125dc50,"jA9JBWEr014256: from root, size 1593894, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-86a22b1e,"jA9JBWEr014256: to root, ctladdr root (0/0), delay 00:00:02, xdelay 00:00:00, mailer relay, pri 1623894, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-a059fd66,"jA9JBXgf022479: from root, size 1594553, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-ecae5380,"jA9JBXgf022479: to root, ctladdr root (0/0), delay 00:00:02, xdelay 00:00:00, mailer relay, pri 1624553, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-54215a09,"jA9JBXVI027337: from root, size 1597080, class 0, nrcpts 1, msgid <*> relay #7#@localhost ",1
-c55b2348,"jA9JBXVI027337: to root, ctladdr root (0/0), delay 00:00:02, xdelay 00:00:00, mailer relay, pri 1627080, relay [127.0.0.1] [127.0.0.1], dsn 4.0.0, stat Deferred: Connection refused by [127.0.0.1] ",1
-044c2e4f,"Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report ",1
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+aff78060,<*> <*> Temperature changed <*> Celsius to <*> Celsius since last report ,1

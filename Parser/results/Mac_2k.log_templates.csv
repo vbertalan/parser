@@ -1,350 +1,221 @@
 EventId,EventTemplate,Occurrences
-c296a3bf,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route 0x0 port 11 unplug 0 ,17
-16401b7b,Thermal pressure state: 1 Memory pressure state: 0 ,19
-9650bd56,<*> dealloc ,17
-794840ca,ARPT: <*> AirPort_Brcm43xx::syncPowerState: WWEN[enabled] ,12
-453abd34,ARPT: <*> AirPort_Brcm43xx::platformWoWEnable: WWEN[disable] ,16
-47180d25,mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF) ,2
-27c64577,"ARPT: <*> IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0, ",7
-9467c777,ARPT: <*> wl0: wl_update_tcpkeep_seq: Original Seq: <*> Ack: <*> Win size: 4096 ,6
-5c4d7602,ARPT: <*> ARPT: Wake Reason: Wake on Scan offload ,9
-d70fb411,__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2 ,16
-aeb9b32d,IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL ,15
-e3df55e8,"ARPT: <*> wl0: MDNS: 0 SRV Recs, 0 TXT Recs ",9
-a5ff81c7,AppleCamIn::systemWakeCall - messageType 0xE0000340 ,53
-cb10c7b1,setting hostname to <*> ,7
-e2d1e700,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. ",45
-25176ccc,CCIOReporterFormatter::addRegistryChildToChannelDictionary streams 7 ,7
-7c0e01fb,<*> <<<< <*> >>>> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-0ffb253b,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. ",35
-2066d10c,AirPort: Link Down on awdl0. Reason 1 (Unspecified). ,7
-856d870f,"PM response took <*> ms (54, powerd) ",6
-fa432f16,ARPT: <*> wl0: <*> <*> <*> <*> reason <*> <*> <*> <*> <*> <*> ,4
-e5a06e10,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000 ,7
-0e32eb9f,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. ",24
-79bea876,"IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true) ",11
-cf6388d2,<*> <*> network is <*> <*> <*> is <*> down ,1
-0c678ffb,CCFile::captureLogRun() Exiting CCFile::captureLogRun ,22
-759f8c47,<*> deny network-outbound /private/var/run/mDNSResponder ,29
-dea7468a,ARPT: <*> wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:c6b3:1ff:fecd:467f ,9
-fd985d7f,AirPort: Link Up on <*> ,4
-abe7566e,Sandbox: <*> deny(1) network-outbound /private/var/run/mDNSResponder ,29
-388eff67,ARPT: <*> AirPort_Brcm43xx::platformWoWEnable: WWEN[enable] ,12
-df0b132a,AirPort: Link Up on awdl0 ,9
-fc565610,AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds ,8
-4caf66b0,mDNS_DeregisterInterface: Frequent transitions for interface en0 <*> ,3
-2d412a0b,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries <*> ,11
-d8cd6231,ARPT: <*> wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*> Ack <*> Win size 278 ,8
-66081686,en0::IO80211Interface::postMessage bssid changed ,10
-89812b38,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. ",32
-20e6bd31,Thermal pressure state: 0 Memory pressure state: 0 ,20
-8aed37c4,AppleThunderboltNHIType2::waitForOk2Go2Sx - <*> 1 <*> 0 ,6
-804e065d,mDNS_RegisterInterface: Frequent transitions for interface en0 (FE80:0000:0000:0000:C6B3:01FF:FECD:467F) ,3
-13c9d6cc,AppleCamIn::wakeEventHandlerThread ,20
-c183dceb,ARPT: <*> wl0: setup_keepalive: Local port: <*> Remote port: <*> ,8
-26201e6a,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType 0 (null)/(null) opts (null) when <*> <*> +0000 confidence 1 from (null)/(null) (UABestAppSuggestionManager.m #319) ,7
-e24b5e70,en0: channel changed to 1 ,11
-3bdf6e63,ARPT: <*> AQM agg results 0x8001 len hi/lo: 0x0 <*> BAbitmap(0-3) 0 0 0 0 ,7
-3810ba2c,CCFile::captureLog Received Capture notice id: <*> reason AuthFail:sts:5_rsn:0 ,15
-9ffb7437,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED ,14
-3da35754,Unrecognized attribute value: t:AbchPersonItemType ,8
-4c77b6fa,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain com.apple.security.sos.error Code 1035 ""Account identity not set"" UserInfo {NSDescription Account identity not set} ",12
-8342fe5d,<*> <*> <*> : failed to <*> <*> <*> ,2
-3785bb98,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route 0x0 port 12 unplug 0 ,19
-5053028d,<*> : BTLE scanner Powered On ,8
-e6b01c30,button report: 0x8002be0 ,7
-0005a85a,<*> : BTLE <*> <*> <*> <*> <*> <*> <*> ,1
-9a2f8543,"<*> <*> <*> Error Domain NSOSStatusErrorDomain Code -50 ""query missing class name"" (paramErr: error in user parameter list) UserInfo {NSDescription query missing class name} ",4
-3f1db779,Location icon should now be in state 'Inactive' ,20
-362893a5,"ARPT: <*> wl0: setup_keepalive: interval 900, retry_interval 30, retry_count 10 ",9
-1a55c3b5,ARPT: <*> wl0: MDNS: <*> Addr: <*> ,4
-eb9d3922,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 <*> <*> ,9
-f4d1b976,"Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0 ",7
-d0282c1e,Captive: <*> en0: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
-f15d89b1,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. ",19
-21c4853a,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO ,6
-323a22ab,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record. ,17
-3b198f2a,<*> : <*> <*> <*> ,4
-fdd3b04f,Captive: CNPluginHandler en0: <*> ,4
-8bffdfae,tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: <*> Network is down ,3
-a9c4b6c8,AirPort: Link Down on <*> Reason 8 <*> <*> <*> <*> ,5
-54fa1bff,"USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3 ",12
-347334c7,<*> <*> <*> <*> <*> ,3
-1a65aaed,<*> <*> to <*> <*> ,4
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,7
-703eda3c,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01) ,8
-e94652df,en0: BSSID changed to 5c:50:15:36:bc:03 ,3
-4329e4e3,dnssd_clientstub ConnectToServer: connect()-> No of tries: 1 ,15
-cf533288,-[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID ,9
-42d98a51,RTC: Maintenance <*> <*> sleep <*> <*> ,5
-3bbd1cec,en0: channel changed to <*> ,6
-e9164d80,RTC: PowerByCalendarDate setting ignored ,11
-4666f0ef,Location icon should now be in state 'Active' ,17
-57baa1ee,dnssd_clientstub ConnectToServer: connect()-> No of tries: 2 ,15
-11b6d8bc,en0: <*> <*> <*> <*> to <*> ,5
-9400c576,en0: channel changed to 6 ,3
-1317ddae,ARPT: <*> wl0: setup_keepalive: Seq: <*> Ack: <*> Win size: 4096 ,8
-89026fbb,QQ(10018) deny mach-lookup com.apple.networking.captivenetworksupport ,6
-27b265e3,[HID] [MT] <*> entered ,5
-b5f8f0ab,<*> <*> ,9
-f59d7c30,<*> <*> <*> <*> <*> ms ,1
-d9c89939,dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:4 Err:-1 Errno:1 Operation not permitted ,13
-c5e7d24b,"pages <*> wire <*> act <*> inact 3, cleaned 0 spec <*> zf <*> throt 0, compr <*> xpmapped 40000 ",1
-1d5fb55e,<*> <*> <*> <*> <*> <*> <*> <*> not <*> <*> <*> <*> <*> <*> -- <*> <*> ,1
-64018f17,button report: 0x8002bdf ,6
-7d088b78,"<*> <*> <*> [lvl 2] <*> <*> Checking with <*> <*> <*> ticketStore <*> store <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"" lockFile <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"" locked NO > >> processor <*> delegate <*> isProcessing NO actionsCompleted 0 progress 0.00 errors 0 currentActionErrors 0 events 0 currentActionEvents 0 actionQueue ( ) > delegate (null) serverInfoStore <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/Servers""> errors 0 > ",1
-b06da5db,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950712080>. ,7
-3fd6d476,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*> ,10
-2557f515,Error returned from iconservicesagent: (null) ,13
-fcd80a5e,tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.434 error 22 ,8
-4c5ecc6a,"<*> <*> Error Domain NSOSStatusErrorDomain Code -50 ""query missing class name"" (paramErr: error in user parameter list) UserInfo {NSDescription query missing class name} ",5
-329f11c0,send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out. ,26
-f40c82c4,<*> <*> font data <*> in the <*> format <*> <*> the <*> <*> 1 Font Format <*> ,1
-aeb80e01,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950606790>. ,3
-1f1d7a54,"<*> scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring. ",11
-f6afe1eb,<*> authw <*> shield <*> ,3
-f4f0ff35,[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [text/html; charset UTF-8].] ,5
-a57b3584,"NETWORK: requery, 0, 0, 0, 0, <*> items, fQueryRetries, 0, fLastRetryTimestamp, <*> ",15
-080f6f7f,Previous sleep cause: 5 ,15
-991beca4,Wake reason: <*> <*> ,9
-0eb678b9,AppleThunderboltNHIType2::prePCIWake - power up complete - took <*> us ,5
-f40beb58,network changed: <*> <*> DNS! Proxy SMB ,7
-b5f6193c,<*> <*> <*> <*> ,12
-8ed76504,[HID] [ATC] <*> <*> Could not <*> <*> <*> from <*> <*> notification <*> ,2
-bc03b412,en0: BSSID changed to <*> ,5
-83c7d54c,<*> -- <*> Bluetooth <*> <*> <*> notification -- <*> ,1
-e01d929f,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x8000000000000000 to 0x4 ,8
-98d5638a,"2017-07-02 <*> <*> [lvl 2] <*> <*> Checking for updates for <*> using engine <*> ticketStore <*> store <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"" lockFile <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"" locked NO > >> processor <*> delegate <*> isProcessing NO actionsCompleted 0 progress 0.00 errors 0 currentActionErrors 0 events 0 currentActionEvents 0 actionQueue ( ) > delegate (null) serverInfoStore <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/Servers""> errors 0 > ",1
-fc40c4da,<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN <*> ,2
-a310e9af,"ARPT: <*> IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*> ",6
-d7042077,Bluetooth -- LE is supported - Disable LE meta event ,11
-466ed80d,<*> : <*> mode <*> to <*> ,2
-8c422b78,tcp_connection_handle_connect_conditions_bad <*> failed: 3 - No network route ,18
-f9ff097d,Captive: CNPluginHandler en0: Authenticated ,7
-1d623020,ARPT: <*> wl0: setup_keepalive: Local IP: <*> ,4
-45c92ee6,TBT W (2): 0x0040 [x] ,4
-11804d27,network changed: <*> Proxy ,3
-b6fbf777,mDNS_RegisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF) ,1
-b17b38c8,AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us ,10
+ee3e81a2,<*> <*> Thunderbolt HPD packet for route <*> port <*> unplug <*> ,36
+84fe619a,Thermal pressure <*> <*> Memory pressure <*> <*> ,39
+b5f8f0ab,<*> <*> ,40
+b5f6193c,<*> <*> <*> <*> ,115
+a4566ead,<*> Frequent transitions for interface <*> <*> ,9
+2b0a014b,<*> <*> <*> <*> <*> <*> Normal <*> <*> <*> <*> <*> ,18
+1206d53a,<*> <*> <*> <*> <*> <*> <*> <*> <*> Win <*> <*> ,6
+1203d492,<*> <*> <*> Wake <*> Wake on Scan offload ,9
+15d59477,<*> <*> unexpected switch value <*> ,16
+34558200,<*> Resuming AWDL ,15
+70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,29
+130ecca0,setting <*> to <*> ,7
+e59097b4,<*> <*> told me to run this <*> <*> but the start time isn't for <*> <*> <*> ,166
+538a12da,<*> streams <*> ,7
+30c46f3c,<*> <*> CRABS <*> <*> <*> Byte flume reports host <*> <*> ,3
+be7e9ffb,<*> Link Down on <*> Reason <*> <*> ,7
+5feff63a,PM response took <*> ms <*> <*> ,11
+2e170e59,<*> <*> <*> <*> <*> <*> <*> reason <*> <*> <*> <*> <*> <*> ,4
+cb2be503,<*> successfully changed <*> <*> from <*> to <*> ,15
+3fe27958,<*> Suspending <*> <*> ,11
+bee411dc,<*> <*> network <*> <*> <*> <*> <*> <*> <*> ,1
+4000d3f8,<*> Exiting <*> ,22
+964ad79f,<*> deny <*> <*> ,35
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,46
+4b423e87,<*> Link Up on <*> ,13
+347334c7,<*> <*> <*> <*> <*> ,51
+a0e45ae0,<*> <*> complete <*> took <*> milliseconds ,22
+9a5c2fed,<*> <*> retries <*> ,11
+7b01b081,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Win <*> <*> ,10
+6b4a72d6,<*> <*> changed ,10
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,15
+9e08cdfc,<*> ,66
+11bf8287,<*> <*> <*> <*> Local <*> <*> Remote <*> <*> ,8
+7c90690a,<*> <*> <*> <*> <*> <*> opts <*> when <*> <*> <*> confidence <*> from <*> <*> <*> ,14
+b042f28f,<*> channel changed to <*> ,20
+b32cbfac,<*> <*> <*> <*> results <*> len <*> <*> <*> <*> <*> <*> <*> <*> ,7
+8e4f4cc0,<*> Received Capture notice <*> <*> reason <*> ,20
+8f15bf8a,<*> Setting the AWDL operation mode from AUTO to SUSPENDED ,14
+b9579ad2,Unrecognized attribute <*> <*> ,8
+f7ca109a,<*> sync with device <*> Error Domain <*> Code <*> <*> identity not <*> <*> <*> Account identity not <*> ,12
+5968963a,<*> <*> <*> <*> failed to <*> <*> <*> ,2
+319d6a9d,<*> <*> <*> scanner Powered On ,8
+d2d784d7,button <*> <*> ,20
+15722179,<*> <*> <*> Error Domain <*> Code <*> <*> missing class <*> <*> error in user parameter <*> <*> <*> query missing class <*> ,4
+a7fa6f3e,Location icon should now be in state <*> ,37
+5987cc26,<*> <*> <*> <*> interval <*> <*> <*> <*> <*> ,11
+be73c004,Setting <*> <*> <*> <*> <*> <*> ,7
+4910795c,<*> <*> <*> <*> <*> making interface primary <*> indicates network not <*> ,3
+eba94363,<*> Setting the AWDL operation mode from SUSPENDED to AUTO ,6
+0ee0998e,<*> <*> Hashing of the primary key <*> Dropping the journal <*> ,17
+b63e88e2,<*> <*> <*> Evaluating ,4
+162abf92,<*> <*> <*> to <*> <*> <*> Network is down ,3
+a14c509b,<*> Link Down on <*> Reason <*> <*> <*> <*> <*> ,5
+e495eb39,<*> Identifier <*> <*> <*> <*> <*> <*> ,12
+d646c3fc,<*> <*> for <*> <*> ,2
+08b0b03c,<*> Failed to read <*> ,4
+ce58dbed,Saw change in network reachability <*> <*> ,4
+9d2ee03a,<*> <*> <*> Wake <*> <*> <*> ,8
+dc6ccaae,<*> <*> changed to <*> ,16
+20202d4a,<*> <*> <*> No of <*> <*> ,44
+f108263f,<*> <*> using process name <*> as bundle ID <*> is expected for daemons without bundle ID ,9
+ee5ac10c,<*> Maintenance <*> <*> sleep <*> <*> ,5
+bfd5d6bb,<*> <*> setting ignored ,11
+1961762a,<*> <*> <*> <*> <*> <*> <*> <*> Win <*> <*> ,8
+9b2fb7fd,<*> <*> <*> entered ,5
+fa3bfc7a,<*> <*> <*> took <*> ms ,1
+3c3314a6,<*> <*> <*> failed <*> <*> <*> <*> Operation not permitted ,13
+4215315e,pages <*> wire <*> act <*> inact <*> cleaned <*> spec <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+8a89fb66,<*> <*> <*> <*> <*> <*> <*> <*> not <*> to <*> <*> <*> <*> <*> <*> <*> ,1
+899de583,<*> <*> <*> <*> <*> <*> <*> <*> with <*> <*> <*> <*> <*> <*> <*> path <*> <*> <*> path <*> <*> NO <*> <*> <*> <*> delegate <*> <*> NO <*> <*> <*> <*> errors <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> delegate <*> <*> <*> path <*> errors <*> <*> ,1
+698d7874,<*> <*> Failed to composit image for descriptor <*> <*> ,20
+3d522395,Error returned from <*> <*> ,13
+aaafdb8e,<*> <*> <*> error <*> ,9
+b4df44f1,<*> <*> Error Domain <*> Code <*> <*> missing class <*> <*> error in user parameter <*> <*> <*> query missing class <*> ,5
+01d2c0b6,<*> pid <*> failed to act on a ping it dequeued before timing <*> ,26
+00af6af0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+eb46a62c,<*> <*> <*> shield <*> ,3
+c4f65807,<*> <*> to parse response to <*> because of <*> <*> <*> <*> ,5
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,21
+11988da8,Previous sleep <*> <*> ,15
+a31ed83d,Wake <*> <*> <*> ,9
+f7bafb2a,<*> <*> power up complete <*> took <*> us ,15
+69f0a3e3,network <*> <*> <*> <*> Proxy SMB ,8
+2d0288ea,<*> <*> <*> <*> <*> not <*> <*> <*> from <*> <*> <*> <*> ,2
+16d5992b,<*> <*> <*> Bluetooth <*> <*> <*> <*> <*> <*> ,1
+9918aedc,<*> <*> <*> <*> <*> <*> <*> <*> for <*> for <*> <*> <*> <*> <*> <*> <*> <*> path <*> <*> <*> path <*> <*> NO <*> <*> <*> <*> delegate <*> <*> NO <*> <*> <*> <*> errors <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> delegate <*> <*> <*> path <*> errors <*> <*> ,1
+d9e142af,<*> <*> <*> I <*> <*> <*> <*> <*> close video <*> <*> <*> ,4
+258ad3fe,Bluetooth <*> LE is supported <*> Disable LE meta event ,11
+0128d242,<*> <*> <*> <*> <*> to <*> ,2
+a3cf4da1,<*> <*> <*> <*> <*> No network route ,18
+f10fade5,<*> <*> <*> Authenticated ,7
+801d0d93,<*> <*> <*> <*> Local <*> <*> ,4
+0dc1a8bd,<*> W <*> <*> <*> ,4
+af7225ad,network <*> <*> Proxy ,3
 6bdfcbb9,ASL Sender Statistics ,9
-3bbabcd8,AppleCamIn::systemWakeCall - messageType <*> ,3
-547f387d,2017-07-02 <*> <*> [lvl 2] -[KSOutOfProcessFetcher(PrivateMethods) <*> KSOutOfProcessFetcher <*> <*> with <*> <*> <*> ,1
-212c1ac6,2017-07-02 <*> <*> [lvl 2] <*> <*> <*> <*> <*> <*> <*> <*> ,1
-79afb3eb,2017-07-02 <*> <*> [lvl 2] main() <*> fetching URL <*> <*> { URL: https://tools.google.com/service/update2?cup2hreq <*> <*> <*> to <*> ,1
-e458b3dc,"Path not allowed in target domain: type pid, path <*> error 147: The specified service did not ship in the requestor's bundle, origin /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc ",15
-55a091ea,<*> <<<< <*> >>>> <*> <*> <*> <*> <*> <*> <*> <*> - <*> <*> <*> <*> <*> to <*> ,4
-ceba11be,<*> itemasync_SetProperty signalled err -12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/Player/FigPlayer_Async.c line 2306 ,5
-d9c25f3e,KeychainGetICDPStatus: keychain: -25300 ,14
-a2518906,<*> connection <*> <*> connection from <*> <*> <*> ,1
-9383e5c0,Error in <*> -1856 ,2
-a21c6e84,ARPT: <*> wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on. ,9
-25f51c0e,"ARPT: <*> IOPMPowerSource Information: <*> SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0, ",3
-0c0ca677,ARPT: <*> wl0: MDNS: IPV6 Addr: fe80:0:0:0:c6b3:1ff:fecd:467f ,9
-4fa08319,Captive: <*> en0: <*> ,4
-cb045471,in6_unlink_ifa: IPv6 address <*> has no prefix ,9
-81f3642e,dnssd_clientstub ConnectToServer: connect()-> No of tries: 3 ,14
-c20b2d1d,ARPT: <*> wl0: MDNS: IPV6 Addr: <*> ,10
-c71b455b,"<*> failed with Error Error Domain NSURLErrorDomain Code <*> ""The request timed <*> UserInfo {NSUnderlyingError <*> {Error Domain kCFErrorDomainCFNetwork Code <*> ""The request timed <*> UserInfo {NSErrorFailingURLStringKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey <*> _kCFStreamErrorDomainKey <*> NSLocalizedDescription The request timed <*> NSErrorFailingURLStringKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey <*> _kCFStreamErrorCodeKey <*> NSLocalizedDescription The request timed <*> ",1
-fe8ff0ef,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType 0 (null)/(null) opts (null) when 2017-07-03 <*> +0000 confidence 1 from (null)/(null) (UABestAppSuggestionManager.m #319) ,4
-d11f773f,"<*> authw <*> 0, <*> <*> shield <*> <*> <*> ",2
-87b415c0,<*> <*> <*> [lvl 2] KSHelperReceiveAllData() KSHelperTool read 1926 bytes from stdin. ,2
-7c33952e,<*> FigAgglomeratorSetObjectForKey signalled err -16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/LegibleOutput/FigAgglomerator.c line 92 ,11
-b129290e,<*> : BTLE scanner Powered <*> ,4
-0c7c4509,"<*> failed with Error Error Domain NSURLErrorDomain Code -1009 ""The Internet connection appears to be offline."" UserInfo {NSUnderlyingError <*> {Error Domain kCFErrorDomainCFNetwork Code -1009 ""The Internet connection appears to be offline."" UserInfo {NSErrorFailingURLStringKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey 8, _kCFStreamErrorDomainKey 12, NSLocalizedDescription The Internet connection appears to be <*> NSErrorFailingURLStringKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey 12, _kCFStreamErrorCodeKey 8, NSLocalizedDescription The Internet connection appears to be <*> ",2
-89da4aee,ARPT: <*> AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0 ,7
+b2a683d9,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> with <*> <*> <*> ,1
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+30586906,<*> <*> <*> <*> <*> <*> <*> <*> URL <*> <*> <*> <*> <*> <*> <*> <*> to <*> ,2
+60b3beaf,Path not allowed in target <*> type <*> path <*> error <*> The specified service did not ship in the requestor's <*> origin <*> ,15
+4d9e8471,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+e529f7ca,<*> <*> signalled err <*> <*> <*> at <*> line <*> ,9
+e0afaf2b,<*> <*> <*> ,34
+6686f534,<*> connection <*> <*> connection <*> <*> <*> <*> ,1
+9c835b97,<*> in <*> <*> ,2
+4020af7f,<*> <*> <*> <*> <*> will stay <*> ,9
+81e8da0e,<*> <*> <*> Inactive ,4
+40170efa,<*> <*> address <*> has no prefix ,9
+4c1687a8,<*> failed with Error Error Domain <*> Code <*> <*> request timed <*> <*> <*> <*> <*> Domain <*> Code <*> <*> request timed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The request timed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The request timed <*> ,2
+96b0e336,<*> <*> <*> <*> <*> <*> shield <*> <*> <*> ,3
+9e452fa6,<*> <*> <*> <*> <*> <*> <*> read <*> bytes <*> <*> ,3
+ca01852a,<*> <*> signalled err <*> <*> <*> <*> at <*> line <*> ,11
+7714f5c1,<*> <*> <*> scanner Powered <*> ,4
+6b01dbc9,<*> failed with Error Error Domain <*> Code <*> <*> Internet connection appears to be <*> <*> <*> <*> <*> Domain <*> Code <*> <*> Internet connection appears to be <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The Internet connection appears to be <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The Internet connection appears to be <*> ,3
+be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,8
 830e5374,Received Capture Event ,15
-fa30e128,Sandbox: <*> deny(1) <*> <*> ,5
-ee92bd73,<*> <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification ,23
-34c5b8e6,AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds ,14
-997b99d2,<*> <*> <*> 0 ,3
-75db0359,############################## _getSysMsgList ,10
-994a8531,Configuration Notice: ASL Module <*> claims selected messages. Those messages may not appear in standard system log files or in the ASL database. ,2
-c3ac39de,Wake reason: <*> ,2
-11214e08,<*> : Scanning mode <*> <*> ,7
-bf1d910f,<*> : BTLE scanning <*> ,4
+aa3d6c90,<*> <*> Boss <*> <*> unexpected <*> notification ,23
+204adf68,<*> <*> ASL Module <*> <*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> <*> <*> <*> in <*> ASL <*> ,2
+3afe32e3,Wake <*> <*> ,2
+842661c9,<*> <*> Scanning <*> <*> <*> ,7
+90ec1a99,<*> <*> <*> scanning <*> ,4
 c1e46718,wake <*> <*> <*> <*> ,3
-58dbe44d,"ARPT: <*> wl0: setup_keepalive: interval <*> retry_interval 30, retry_count 10 ",2
-9f2c17e1,[HID] [MT] <*> Calling <*> <*> of <*> ,1
-ba29aeb3,button report: 0x80039B7 ,6
-c827636d,AppleCamIn::handleWakeEvent_gated ,15
-3dbe69c5,<*> <*> <*> <*> 1 ,3
-a210d72a,ARPT: <*> ARPT: Wake Reason: Wake on <*> <*> ,2
-eb5b64b9,"<*> <*> <*> <*> <*> <*> <*> <*> 0, <*> <*> <*> <*> <*> <*> ",2
-ed2b6473,<*> <*> <*> 1 ,3
-a0a7e012,<*> <*> <*> for <*> <*> <*> <*> ,1
-58ea7ae5,"2017-07-03 <*> <*> [lvl 2] <*> <*> Checking for <*> update with <*> <*> ticketStore <*> store <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"" lockFile <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"" locked NO > >> processor <*> delegate <*> isProcessing NO actionsCompleted 0 progress 0.00 errors 0 currentActionErrors 0 events 0 currentActionEvents 0 actionQueue ( ) > delegate (null) serverInfoStore <*> path ""/Users/xpc/Library/Google/GoogleSoftwareUpdate/Servers""> errors 0 > ",1
-3a08c57a,2017-07-03 <*> <*> [lvl 2] <*> <*> <*> <*> <*> <*> ,1
-ee3783ce,<*> itemasync_CopyProperty signalled err -12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/Player/FigPlayer_Async.c line 2092 ,4
-00fad08e,"Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 2000000 ssd 1 ",2
-a483361f,NETWORK: <*> <*> <*> <*> <*> <*> <*> 0 ,1
-680f95c6,"Unexpected payload found for message 9, dataLen 0 ",2
-db9a3773,CCFile::captureLog ,17
-8d36490c,en0: <*> <*> 1 <*> <*> <*> <*> 6 <*> 8 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-609d50cb,ARPT: <*> AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake ,12
-b2243a6f,<*> name did not <*> to <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,12
+b07c8628,<*> <*> <*> Wake <*> Wake on <*> <*> ,2
+8c194344,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+a0a7e012,<*> <*> <*> for <*> <*> <*> <*> ,4
+8708a7d8,<*> <*> <*> <*> <*> <*> <*> <*> for <*> <*> with <*> <*> <*> <*> <*> <*> path <*> <*> <*> path <*> <*> NO <*> <*> <*> <*> delegate <*> <*> NO <*> <*> <*> <*> errors <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> delegate <*> <*> <*> path <*> errors <*> <*> ,1
+4af24684,<*> <*> <*> <*> <*> <*> <*> Response <*> <*> <*> ,1
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
+dead5308,<*> no response from <*> <*> <*> <*> <*> ,4
+8c349806,<*> Supported channels <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+1170ad41,<*> <*> <*> System Wake <*> Full <*> Dark Wake <*> Maintenance wake ,12
+04ba3b19,<*> name <*> <*> <*> to <*> <*> ,1
 4c452e65,Service <*> with <*> <*> <*> ,1
 6b83781f,<*> <*> <*> <*> powered on ,1
-b490220a,CCFile::captureLogRun Skipping current file Dir file <*> Current File <*> ,31
-d3abe897,CCFile::copyFile fileName is <*> source <*> dest <*> <*> ,21
-bf61abf3,ARPT: <*> framerdy 0x0 bmccmd <*> framecnt 1024 ,1
-d4d15ab1,<IMMacNotificationCenterManager: <*> <*> Enabled: <*> ,1
+ca7a016c,<*> Skipping current file Dir file <*> Current File <*> ,31
+b4f8ecae,<*> fileName is <*> source <*> <*> <*> <*> ,21
 e085a422,<*> <*> <*> <*> <*> <*> <*> <*> on wake ,2
-8e1fefe3,ARPT: <*> wl0: setup_keepalive: Remote IP: <*> ,8
-90120130,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> <*> to complete, 5 reads > 1 sec. ",1
-f89589a1,network changed: <*> <*> <*> Proxy SMB ,1
-eeedd079,CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions ,9
-c3153f76,"<*> Owner: com.apple.iokit.IO80211Family, Name: <*> ",4
-c7ff1979,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> sec. to complete, <*> reads > 0.5 sec. ",2
-591a0ce4,network changed: <*> <*> <*> ,2
-119ba04e,ARPT: <*> framerdy 0x0 bmccmd 3 framecnt 1024 ,7
-10f0eba3,ARPT: <*> <*> ,6
-406ee431,<*> <<<< <*> >>>> <*> <*> <*> <*> <*> <*> <*> ,2
-298eb9f2,doSaveChannels@286: Will write to: <*> - AuthFail:sts:5_rsn:0.xml ,4
-6a8ce220,tcp_connection_destination_perform_socket_connect <*> connectx to <*> failed: <*> Network is <*> ,1
-cbcadb94,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! <*> <*> <*> ,1
-f23c80d0,"<*> <*> <*> Error Domain NSURLErrorDomain Code <*> ""The request timed <*> UserInfo {NSUnderlyingError <*> {Error Domain kCFErrorDomainCFNetwork Code <*> ""The request timed <*> UserInfo {NSErrorFailingURLStringKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorCodeKey <*> _kCFStreamErrorDomainKey <*> NSLocalizedDescription The request timed <*> NSErrorFailingURLStringKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorDomainKey <*> _kCFStreamErrorCodeKey <*> NSLocalizedDescription The request timed <*> ",1
-b1adb7d1,<*> <*> <*> <*> <*> time: <*> <*> <*> <*> <*> <*> <*> <*> time: <*> ms <*> <*> <*> <*> <*> time: <*> ms <*> <*> ,2
-0773c531,ASSERTION FAILED: dvcAddrRef ! ((void *)0) -[DriverServices getDeviceAddress:] line: 2789 ,4
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,4
-5c999386,jemmytest ,10
-27c1f8a5,<*> <*> <*> ms ,2
-c5850784,**** <*> -- calling <*> <*> -- <*> -- <*> -- <*> **** ,2
-1c16b3fe,<*> <*> -- <*> to <*> <*> <*> -- <*> -- <*> -- <*> <*> ,1
-110e9021,<*> -- Host <*> is <*> ,2
-f3b641a5,"polled file major 1, minor 0, blocksize 4096, pollers 5 ",3
-6c360b57,BuildActDeviceEntry <*> ,4
-1fc8a30a,"ARPT: <*> IOPMPowerSource Information: onSleep, SleepType: <*> 'ExternalConnected': No, 'TimeRemaining': <*> ",1
+9f5c91e6,<*> <*> <*> <*> Remote <*> <*> ,8
+ec095d47,<*> <*> <*> <*> <*> read of <*> bytes <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+95912055,<*> clearing out any previous subscriptions ,9
+6ed49f4a,network <*> <*> <*> <*> ,2
+d9730197,<*> <*> CRABS <*> <*> <*> Byte flume reports host <*> ,2
+9a8f8a46,<*> Will write <*> <*> <*> <*> ,6
+a6357193,<*> <*> <*> to <*> <*> <*> Network is <*> ,1
+b8539015,<*> <*> <*> Error Domain <*> Code <*> <*> request timed <*> <*> <*> <*> <*> Domain <*> Code <*> <*> request timed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The request timed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The request timed <*> ,1
+4709f928,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ms <*> <*> <*> <*> <*> <*> <*> ms <*> <*> ,2
+13dc8d72,<*> took <*> ms ,3
+3a46a81e,<*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+fae9fcc5,<*> <*> <*> <*> is <*> ,2
 01b12a9f,<*> <*> <*> is <*> ,1
-c3f41429,CCFile::captureLog Received Capture notice id: <*> reason <*> ,5
-ff1217fa,payload Data <*> <*> ,1
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,2
-23c816e5,"<*> <*> <*> <*> <*> <*> <*> <*> 0, <*> 0, <*> 0, <*> <*> ",1
-6f2139f4,"pages <*> wire <*> act <*> inact 0, cleaned 0 spec 0, zf 0, throt 0, compr <*> xpmapped 40000 ",1
-2b376c7d,<*> <*> to <*> <*> <*> ,2
-3c4f90ab,2017-07-03 <*> <*> [lvl 2] <*> performAction] <*> <*> update <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> path <*> url <*> <*> <*> <*> <*> <*> > <*> Using <*> <*> engine <*> > ,1
-24c67c31,KeychainGetICDPStatus: status: off ,8
-55846a6e,"NETWORK: requery, 0, 0, 0, 0, <*> items, fQueryRetries, <*> fLastRetryTimestamp, <*> ",2
-9ed0aa4e,ARPT: <*> AirPort_Brcm43xx::powerChange: System Sleep ,17
-67c8755e,tcp_connection_tls_session_error_callback_imp <*> <*> error <*> ,1
-3f39403d,"PM response took 1999 ms (54, powerd) ",3
-45582fba,network changed: <*> <*> <*> <*> ,1
-35694bd1,network changed: <*> ,1
-3bd5062f,en0: <*> <*> 1 <*> <*> <*> <*> 6 <*> 8 <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-6fc298fe,en0: BSSID changed to 5c:50:15:4c:18:13 ,5
-348b204e,<*> <*> <*> [lvl 2] <*> <*> <*> <*> <*> <*> for <*> with <*> <*> <*> <*> <*> and certificate <*> <*> and certificate <*> <*> and certificate <*> <*> and <*> <*> ,1
-f5a72952,<*> <*> <*> [lvl 2] <*> <*> <*> <*> ,1
-de726260,network changed: <*> <*> <*> SMB ,1
-d6afa96c,<*> <*> Type not <*> in <*> for <*> <*> ,4
-fd59bd1d,<*> <*> <*> <*> <*> connection from <*> <*> <*> <*> account <*> ,2
+6e961f82,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> path <*> url <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+62a644ff,<*> <*> off ,8
+3f20791b,<*> <*> <*> System Sleep ,17
+26e86ac3,network <*> <*> <*> <*> <*> ,1
+34e2903d,network <*> <*> ,1
+bd895ebb,<*> Supported channels <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+6a6d6254,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> with the <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,9
+430a598d,network <*> <*> <*> <*> SMB ,1
+e07b1b85,<*> <*> Type not found in <*> for <*> <*> ,4
+3cbf803d,<*> <*> <*> <*> <*> connection <*> <*> <*> <*> <*> account <*> ,2
 eaefd7ef,<*> Failed to <*> account with <*> <*> <*> Error Domain <*> Code <*> <*> ,2
-e0afaf2b,<*> <*> <*> ,11
-4ee719fe,"<*> <*> <*> [lvl 2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""https://tools.google.com/service/update2?cup2hreq <*> <*> ",1
-71ba63c1,<*> took 6 ms ,1
-d758e4c4,ARPT: <*> wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*> Ack <*> Win size <*> ,2
+4508523f,<*> <*> <*> <*> <*> <*> <*> <*> fetch <*> for <*> <*> <*> <*> ,3
+53951df8,<*> <*> posting <*> ,3
 8437ee24,<*> <*> is not <*> on ,3
-e11c9c91,NETWORK: <*> <*> <*> <*> <*> <*> <*> 1 ,1
-5feff63a,PM response took <*> ms <*> <*> ,2
-73dce460,Cocoa scripting error for <*> four character codes must be four characters long. ,71
-218bce18,<*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> in <*> <*> <*> <*> <*> is not <*> <*> type <*> ,1
-3713c687,<*> Class <*> is implemented in both /Library/QuickLook/iWork.qlgenerator/Contents/MacOS/iWork and /System/Library/PrivateFrameworks/OfficeImport.framework/Versions/A/OfficeImport. One of the two will be used. Which one is undefined. ,2
-ab37c17a,button report: <*> ,1
-6978c5c1,<*> is <*> for <*> <*> <*> <*> ,2
-8cd1f3d1,<*> <<<< <*> >>>> <*> <*> <*> <*> <*> - <*> <*> <*> ,1
-80a0b589,"<*> failed with Error Error Domain NSURLErrorDomain Code <*> ""The request timed <*> UserInfo {NSUnderlyingError <*> {Error Domain kCFErrorDomainCFNetwork Code <*> ""The request timed <*> UserInfo {NSErrorFailingURLStringKey https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey <*> _kCFStreamErrorDomainKey <*> NSLocalizedDescription The request timed <*> NSErrorFailingURLStringKey https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey <*> _kCFStreamErrorCodeKey <*> NSLocalizedDescription The request timed <*> ",1
-d076dc9c,NETWORK: <*> <*> <*> <*> <*> <*> <*> <*> ,2
-c34f681f,<*> to <*> <*> <*> - <*> <*> <*> powered <*> <*> ,1
-d5ec9e25,**** <*> -- Completed <*> on <*> -- <*> **** ,3
-4ca81a3b,<*> time: 0 <*> <*> <*> 0 ,2
-17c0fde1,<*> <*> - <*> - <*> ,1
-0016e5f6,<IMMacNotificationCenterManager: <*> <*> enabled: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-eb9aad97,"2017-07-05 <*> <*> [lvl 2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""https://tools.google.com/service/update2?cup2hreq <*> <*> ",1
-1ad3cc5a,2017-07-05 <*> <*> [lvl 2] main() <*> <*> <*> <*> <*> <*> { URL: https://tools.google.com/service/update2?cup2hreq <*> <*> <*> ,1
-69fc8d62,2017-07-05 <*> <*> [lvl 2] <*> performAction] <*> no updates to <*> ,1
-5f709c75,<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN 1742124257. ,2
-533635bf,<IMMacNotificationCenterManager: 0x7fdcc9d16380>: notification <*> <*> <*> <*> <*> <*> <*> ,1
-bee8cb32,<IMMacNotificationCenterManager: 0x7ff1b2d17980>: NC Disabled: NO ,3
-b17ca129,<IMMacNotificationCenterManager: 0x7ff1b2d17980>: <*> Enabled: NO ,1
-53ebc7ba,<IMMacNotificationCenterManager: <*> <*> Enabled: NO ,1
-1fbe81d0,en0: BSSID changed to 88:75:56:a0:95:ed ,3
-d92b11cf,doSaveChannels@286: Will write to: <*> - <*> ,2
-5e8eea8c,"ARPT: <*> IOPMPowerSource Information: <*> SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*> ",2
-9e08cdfc,<*> ,4
+1c9767ed,Cocoa scripting error for <*> four character codes must be four characters <*> ,71
+17f1c474,<*> <*> for <*> <*> of <*> <*> <*> <*> <*> in <*> <*> <*> <*> <*> <*> not <*> <*> type <*> ,1
+3dd88751,<*> <*> <*> is <*> in <*> <*> <*> <*> One <*> the <*> will <*> <*> <*> one is <*> ,2
+234caf52,<*> is <*> <*> <*> <*> <*> <*> ,2
+31600ea2,<*> <*> CRABS <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+68d02a36,<*> <*> <*> <*> <*> <*> <*> <*> <*> powered <*> <*> ,1
+c7e5d92d,<*> <*> <*> Completed <*> on <*> <*> <*> <*> ,3
+5d7d2a33,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+76e56e91,<*> <*> <*> <*> <*> <*> <*> <*> no <*> to <*> ,1
+47f9a20c,<*> <*> NC <*> NO ,5
+37ba6cb6,<*> <*> <*> <*> NO ,2
 1343c014,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-13d0b410,<*> <*> - <*> <*> <*> ,2
+a3d3ded9,<*> <*> <*> took <*> <*> ,2
 2795fab7,<*> Entered ,4
-ea80932b,"bitmap_size 0x7f0fc, previewSize 0x4028, writing <*> pages @ 0x97144 ",2
-fb1bd978,en0: <*> <*> <*> ,1
-d80bbf43,<*> <*> 1 <*> <*> <*> <*> ,3
-4b5a11fa,"2017-07-05 <*> <*> [lvl 2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: ""https://tools.google.com/service/update2?cup2hreq <*> <*> ",1
-f6bd6ff0,<IMMacNotificationCenterManager: 0x7fdcc9d16380>: <*> enabled: NO <*> <*> <*> ,1
-f43983f7,"<*> authw <*> 0, 0, <*> shield <*> <*> <*> ",1
+0242b455,<*> <*> <*> <*> <*> <*> pages <*> <*> ,2
+a1dde80d,<*> <*> <*> <*> <*> <*> <*> <*> <*> from <*> <*> <*> <*> ,1
+faa0c17a,<*> <*> <*> <*> NO <*> <*> <*> ,1
 5b76408f,<*> <*> Network is down <*> ,1
-286c9a01,<*> <*> CI46 - <*> <*> QQ.10018 <*> <*> ,4
-221b4fe8,<*> <*> <*> <*> name <*> <*> bundle ID <*> is <*> for <*> <*> bundle ID ,4
-5526c035,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 0 ,3
-ae719bd8,"<*> <*> <*> <*> ms <*> 0 <*> <*> 0, <*> <*> <*> <*> <*> 0, 0 <*> <*> <*> ms ",1
-b29d429e,<*> - <*> of <*> <*> <*> <*> of <*> <*> <*> <*> <*> ,1
-11dce002,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType 0 (null)/(null) opts (null) when 2017-07-06 <*> +0000 confidence 1 from (null)/(null) (UABestAppSuggestionManager.m #319) ,3
-05387479,"pages <*> wire <*> act <*> inact 0, cleaned 0 spec 3, zf <*> throt 0, compr <*> xpmapped 40000 ",1
-1f179642,**** <*> -- <*> <*> <*> <*> <*> **** ,1
-a272a6d0,**** <*> -- completed -- <*> <*> -- <*> **** ,2
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
-ab8d8224,2017-07-06 <*> <*> [lvl 2] <*> <*> <*> <*> <*> <*> <*> <*> ,1
-b73f8054,<*> <*> <*> <*> <*> of <*> <*> of <*> <*> <*> in <*> <*> <*> <*> not <*> for <*> <*> <*> system <*> <*> <*> the <*> <*> ,1
-d37f1959,<*> time: <*> ms ,1
-483becca,<*> 6 ms ,1
-d2e2e620,<*> <*> - <*> <*> ,1
-10da87f9,"pages <*> wire <*> act <*> inact <*> cleaned 0 spec <*> zf <*> throt 0, compr <*> xpmapped 40000 ",1
-4a7a1f3e,"Opened file <*> size <*> extents 3, maxio 2000000 ssd 1 ",1
-f8228748,<*> calling <*> ,1
-8210e6c7,"<*> <*> <*> Error Domain NSURLErrorDomain Code -1009 ""The Internet connection appears to be offline."" UserInfo {NSUnderlyingError <*> {Error Domain kCFErrorDomainCFNetwork Code -1009 ""The Internet connection appears to be offline."" UserInfo {NSErrorFailingURLStringKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorCodeKey 8, _kCFStreamErrorDomainKey 12, NSLocalizedDescription The Internet connection appears to be <*> NSErrorFailingURLStringKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, NSErrorFailingURLKey https://13957525385%40163.com@p28-contacts.icloud.com/874161398/principal/, _kCFStreamErrorDomainKey 12, _kCFStreamErrorCodeKey 8, NSLocalizedDescription The Internet connection appears to be <*> ",1
+700b609c,<*> <*> <*> <*> <*> <*> <*> bundle ID <*> is <*> for <*> <*> bundle ID ,4
+74d54b3f,<*> <*> <*> <*> ms <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ms ,1
+05446cf2,<*> <*> <*> completed <*> <*> <*> <*> <*> <*> ,2
+2f8e28ae,<*> <*> <*> <*> <*> of <*> <*> of <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+27c1f8a5,<*> <*> <*> ms ,1
+5271f0b0,<*> <*> ms ,1
+21c1b576,<*> <*> <*> Error Domain <*> Code <*> <*> Internet connection appears to be <*> <*> <*> <*> <*> Domain <*> Code <*> <*> Internet connection appears to be <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The Internet connection appears to be <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> The Internet connection appears to be <*> ,1
 211bc9ec,<*> to <*> <*> name <*> ,2
-9e6d3db1,<*> <*> <*> <*> Connection <*> ,1
-3bb705a9,<*> <*> <*> of <*> <*> <*> <*> <*> <*> <*> ,1
-9492b75f,2017-07-06 <*> <*> [lvl 2] main() <*> fetching URL <*> <*> { URL: https://tools.google.com/service/update2?cup2hreq <*> <*> <*> to <*> ,1
-f4b415e1,2017-07-06 <*> <*> [lvl 2] <*> performAction] <*> <*> no updates to <*> ,1
+af7bfdff,<*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> ,1
+61bbf274,<*> <*> <*> <*> <*> <*> <*> <*> <*> no <*> to <*> ,1
 ba13827c,<*> sleep <*> <*> <*> ,1
-6d822dfc,ChromeExistion main isUndetectWithCommand 1 ,2
 78f4a720,<*> <*> url <*> <*> <*> <*> ,1
-ddb80fc7,url <*> <*> ,1
+0368bc0d,url host <*> ,1
 1d6dc7a9,the url <*> <*> ,1
 e5b86fa3,<*> <*> <*> <*> <*> <*> to <*> <*> ,3
 b7800c57,Service <*> <*> to <*> <*> <*> from <*> <*> ,3
-abd0da9e,<*> <*> <*> [lvl 2] KSHelperReceiveAllData() KSHelperTool read 1999 bytes from stdin. ,1
-400a8b08,"2017-07-06 <*> <*> [lvl 2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""https://tools.google.com/service/update2?cup2hreq <*> <*> ",1
-02e24242,2017-07-06 <*> <*> [lvl 2] <*> <*> <*> <*> errors 0 ,1
-241e3845,2017-07-06 <*> <*> <*> <*> <*> ,1
+cfae5518,<*> <*> <*> <*> <*> <*> <*> <*> <*> errors <*> ,2
 3d332d1d,full wake <*> <*> <*> <*> <*> ,2
-c97686d2,"2017-07-06 <*> <*> [lvl 2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher <*> fetch from URL: ""https://tools.google.com/service/update2?cup2hreq <*> <*> ",1
-bd7e366c,"Page bounds {{0, 0}, {400, 400}} ",2
-e936a90d,Failed to <*> <*> <*> from <*> to <*> missing <*> <*> <*> <*> ,2
-f98cb1c3,<*> <*> <*> timed <*> <*> <*> <*> <*> <*> <*> <*> ,1
-cf5c05f8,<*> <*> <*> failed with <*> Error Domain <*> Code <*> <*> UserInfo <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> : Connection <*> <*> <*> <*> <*> : <*> <*> <*> : <*> <*> <*> : <*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+e51fe17b,<*> <*> <*> <*> <*> <*> <*> <*> <*> fetch from <*> <*> <*> <*> ,2
+07cd1872,<*> to <*> <*> <*> from <*> to <*> <*> <*> <*> <*> <*> ,2
+edbcf520,<*> <*> <*> <*> with <*> Error <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 7cba5429,<*> <*> <*> <*> <*> to <*> <*> <*> ,1
 36ca0df7,<*> <*> failed <*> ,1
-b18a7971,"<*> to <*> <*> <*> <*> <*> <*> <*> <*> (Names: <*> <*> )>"", <*> <*> <*> (Names: <*> )>"", <*> <*> <*> <*> (Names: <*> <*> )>"", <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> the <*> <*> to <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> in the <*> ",2
-c47be687,Configuration Notice: ASL Module <*> <*> output <*> <*> <*> ASL Module <*> Output <*> from ASL Module <*> <*> <*> <*> in ASL Module <*> ,1
-8d7e7891,<IMMacNotificationCenterManager: 0x7fdcc9d16380>: NC Disabled: NO ,2
-8473ffdb,"<*> <*> <*> [lvl 2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher <*> fetch from URL: ""https://tools.google.com/service/update2?cup2hreq <*> <*> ",1
-fbb7d999,<*> Owner: <*> Name: <*> ,1
-3dc842a6,Unrecognized <*> <*> ,2
-ad7600ed,<*> not <*> <*> name for <*> <*> <*> Request for <*> <*> ,1
-10dbe347,<*> <*> <*> [lvl 2] <*> performAction] <*> <*> update <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> path /Applications/Google <*> <*> <*> url <*> <*> <*> <*> <*> /Applications/Google <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> /Applications/Google <*> <*> <*> <*> <*> <*> <*> <*> <*> > <*> Using <*> <*> engine <*> > ,1
-1b39ef13,<*> <*> CI46 - <*> <*> <*> <*> <*> ,1
-11f0bfd6,"<*> failed with Error Error Domain NSURLErrorDomain Code -1009 ""The Internet connection appears to be offline."" UserInfo {NSUnderlyingError <*> {Error Domain kCFErrorDomainCFNetwork Code -1009 ""The Internet connection appears to be offline."" UserInfo {NSErrorFailingURLStringKey https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey 8, _kCFStreamErrorDomainKey 12, NSLocalizedDescription The Internet connection appears to be <*> NSErrorFailingURLStringKey https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey 12, _kCFStreamErrorCodeKey 8, NSLocalizedDescription The Internet connection appears to be <*> ",1
-e4b15ad9,<*> <*> <*> mach-lookup <*> ,1
-aa2cfb12,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> + <*> <*> <*> <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> 3 libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> libdispatch.dylib <*> <*> + <*> <*> <*> <*> <*> + <*> <*> <*> <*> <*> + <*> ,1
-269f0a63,<*> <*> <*> <*> <*> <*> <*> <*> <*> 1 <*> <*> to <*> <*> ,1
+f82fd4b3,Unable to simultaneously satisfy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> Will attempt to recover by breaking constraint <*> <*> Set the <*> <*> to YES to have <*> <*> automatically called when this <*> <*> break on <*> to catch this in the <*> ,2
+bc6454b2,<*> <*> ASL Module <*> <*> <*> <*> <*> <*> ASL Module <*> <*> <*> <*> ASL Module <*> <*> any <*> in ASL Module <*> ,1
+6a2fd680,<*> <*> <*> event <*> for <*> <*> <*> <*> for <*> <*> ,1
+c42f2cf0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> path <*> <*> <*> <*> url <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+403e6672,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+4e0cd1c4,<*> <*> <*> <*> <*> <*> <*> set <*> <*> in <*> to <*> <*> ,1
 f416c2ec,<*> <*> <*> failed <*> <*> ,1
-5f66f48e,<*> <*> <*> <*> for request <*> <*> <*> <*> <*> <*> ,1
-b32eb6d2,<*> <*> signalled err <*> <*> <*> <*> <*> at line <*> ,1
-2b2d468b,<*> <*> <*> <*> Unrecognized <*> <*> ,1
-4095ee60,<*> <*> <*> <*> Unrecognized <*> <*> Failed <*> <*> <*> ,1
-1501879f,<*> timed <*> <*> <*> ,1
-50e4bd4c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 0 ,1
-917fb86c,<*> Could not <*> <*> <*> <*> ,2
-be06fc11,"<*> to <*> <*> <*> <*> <*> <*> -&- <*> -&- <*> (Names: <*> )>"", <*> <*> -&- <*> -&- <*> (Names: <*> )>"", <*> <*> -&- <*> <*> <*> <*> <*> -&- <*> -&- <*> (Names: <*> )>"", <*> <*> -&- <*> -&- <*> (Names: <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> -&- <*> -&- <*> (Names: <*> <*> <*> the <*> <*> to <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> in the <*> ",1
-ac20949f,<*> <*> <*> [lvl 2] <*> <*> <*> <*> errors 0 ,1
-6145fc21,<*> <*> <*> [lvl 2] <*> <*> <*> to <*> <*> for <*> <*> <*> ,1
-6720b0eb,"<*> <*> <*> {{0, 0}, <*> <*> ",1
+59fdc351,<*> No <*> <*> for <*> <*> <*> <*> <*> <*> <*> ,1
+e471aee9,<*> <*> signalled err <*> <*> <*> codec <*> at line <*> ,1
+6a0ffacc,<*> <*> <*> <*> <*> codec <*> ,1
+cb59e4ea,<*> <*> <*> <*> <*> codec <*> Failed codec <*> <*> ,1
+f0471e53,<*> <*> not <*> <*> <*> <*> ,2
+7766ee50,Unable to simultaneously satisfy <*> <*> <*> h <*> v <*> <*> <*> <*> <*> <*> h <*> v <*> <*> <*> <*> <*> <*> h <*> v <*> <*> <*> h <*> v <*> <*> <*> <*> <*> <*> h <*> v <*> <*> <*> <*> <*> <*> Will attempt to recover by breaking constraint <*> h <*> v <*> <*> <*> <*> <*> Set the <*> <*> to YES to have <*> <*> automatically called when this <*> <*> break on <*> to catch this in the <*> ,1
+b0ac7007,<*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> for <*> <*> <*> ,1

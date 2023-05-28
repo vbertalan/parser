@@ -1,272 +1,32 @@
 EventId,EventTemplate,Occurrences
-c40c7ba6,"Registered signal handlers for [TERM, HUP, INT] ",1
-0931f191,"Changing view acls to: yarn,curi ",2
-0df5e91d,"Changing modify acls to: yarn,curi ",2
-7019315a,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi) ",2
-ef387f26,Slf4jLogger started ,1
-07da4dc6,Starting remoting ,1
-078e033f,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904] ,1
-204b035e,Successfully started service 'sparkExecutorActorSystem' on port 55904. ,1
-cf909642,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4 ,1
-00349e89,MemoryStore started with capacity 17.7 GB ,1
-b40f1306,Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069 ,1
+c113eba4,Registered signal handlers for <*> <*> <*> ,1
+70414626,Changing view acls <*> <*> ,2
+8149903b,Changing modify acls <*> <*> ,2
+a3ff580e,<*> authentication <*> ui acls <*> users with view <*> <*> <*> users with modify <*> <*> <*> ,2
+91d6421e,<*> started ,1
+a92c907f,Starting <*> ,1
+4d584075,<*> <*> listening on addresses <*> ,1
+17940bf6,Successfully started service <*> on port <*> ,2
+8b7e4067,Created local directory at <*> ,1
+73db29ad,<*> started with capacity <*> GB ,1
+8e8eda3c,Connecting to <*> <*> ,1
 4b6620a4,Successfully registered with driver ,1
-735bc1b6,Starting executor ID 5 on host mesos-slave-07 ,1
-7718f781,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984. ,1
-cb6c8534,Server created on 40984 ,1
-f879f45e,Trying to register BlockManager ,1
-f0913453,Registered BlockManager ,1
+31b92d9b,Starting executor ID <*> on host <*> ,1
+2fb81371,Server created on <*> ,1
+a4479384,Trying to register <*> ,1
+2cbce655,Registered <*> ,1
 12fd741a,Got assigned task <*> ,305
-b48eb4c4,Running task 0.0 in stage 0.0 (TID <*> ,1
-c43ebbb7,Running task 2.0 in stage 0.0 (TID <*> ,1
-fea90d49,Running task 1.0 in stage 0.0 (TID <*> ,1
-61b8ce89,Running task 3.0 in stage <*> (TID <*> ,29
-01df13bd,Running task 4.0 in stage <*> (TID <*> ,29
+21b970a3,Running task <*> in stage <*> <*> <*> ,305
 b3dbffba,Started reading broadcast variable <*> ,37
-fb861fa0,"Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB) ",8
-6fa22f06,Reading broadcast variable 9 took <*> ms ,1
-d7f676d1,"Block <*> stored as values in memory (estimated size <*> KB, free <*> KB) ",9
-ef02f24d,"Partition <*> not found, computing it ",75
-2ce35d19,Input split: <*> ,45
-1a372bdf,Reading broadcast variable <*> took <*> ms ,9
-36300dda,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id ",1
-87d6d666,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id ",1
-25a5912f,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap ",1
-7b17d821,"mapred.job.id is deprecated. Instead, use mapreduce.job.id ",1
-5876f423,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition ",1
-3faa658f,"Block <*> stored as bytes in memory (estimated size <*> B, free <*> KB) ",80
-ce35b04a,"Block <*> stored as values in memory (estimated size 384.0 B, free <*> KB) ",5
-ce4dd46a,Reading broadcast variable <*> took 16 ms ,3
-e4ba64b0,Times: total <*> boot <*> init <*> finish <*> ,11
-d6ec9ffa,"Times: total 38, boot <*> init <*> finish 0 ",28
-0c997ad1,"Times: total 42, boot <*> init <*> finish 0 ",9
-e07e6013,"Times: total 41, boot <*> init <*> finish 0 ",21
-e977a160,"Times: total 40, boot <*> init <*> finish 0 ",32
-cf60dd85,"Times: total 42, boot <*> init <*> finish 1 ",31
-b1823359,Finished task 3.0 in stage 0.0 (TID <*> <*> bytes result sent to driver ,1
-ddadb377,Finished task 1.0 in stage 0.0 (TID <*> <*> bytes result sent to driver ,1
-154c6d95,Finished task 2.0 in stage 0.0 (TID <*> <*> bytes result sent to driver ,1
-34f20433,Finished task 4.0 in stage 0.0 (TID <*> <*> bytes result sent to driver ,1
-46d9c5da,Finished task 0.0 in stage 0.0 (TID <*> <*> bytes result sent to driver ,1
-7a11f28d,Running task 0.0 in stage 1.0 (TID <*> ,1
-e6aad1b9,Running task 1.0 in stage 1.0 (TID <*> ,1
-fc67a695,Running task 2.0 in stage 1.0 (TID <*> ,1
-a2d7ce98,"Block <*> stored as bytes in memory (estimated size 5.8 KB, free <*> KB) ",7
-58d3c3b5,Reading broadcast variable 10 took <*> ms ,1
-fc989ecb,"Block <*> stored as values in memory (estimated size 9.6 KB, free <*> KB) ",5
-38953fa8,Found block rdd_2_0 locally ,17
-15a35288,Found block rdd_2_3 locally ,17
-029a9d8b,Found block rdd_2_4 locally ,17
-2607f1fc,Found block rdd_2_2 locally ,17
-415edaf1,Found block rdd_2_1 locally ,17
-d0f4248e,"Times: total 41, boot <*> init <*> finish 1 ",24
-8275e8d7,Finished task 4.0 in stage 1.0 (TID <*> <*> bytes result sent to driver ,1
-8d6f0edc,Finished task 1.0 in stage 1.0 (TID <*> <*> bytes result sent to driver ,1
-08046c90,Finished task 0.0 in stage 1.0 (TID <*> <*> bytes result sent to driver ,1
-9c01947a,Finished task 3.0 in stage 1.0 (TID <*> <*> bytes result sent to driver ,1
-c07319c6,Finished task 2.0 in stage 1.0 (TID <*> <*> bytes result sent to driver ,1
-9272f498,Running task 0.0 in stage 2.0 (TID <*> ,1
-52871585,Running task 1.0 in stage 2.0 (TID <*> ,1
-f0e73416,Running task 2.0 in stage 2.0 (TID <*> ,1
-fc24872c,"Block <*> stored as bytes in memory (estimated size 5.4 KB, free <*> KB) ",6
-5e064c0c,Reading broadcast variable 11 took 15 ms ,1
-80691743,"Block <*> stored as values in memory (estimated size 9.2 KB, free <*> KB) ",6
-956b468c,"Times: total 39, boot <*> init <*> finish 0 ",38
-663e3e1f,Finished task 4.0 in stage 2.0 (TID <*> 2087 bytes result sent to driver ,1
-6b148ead,Finished task 2.0 in stage 2.0 (TID <*> 2087 bytes result sent to driver ,1
-09695dce,Finished task 3.0 in stage 2.0 (TID <*> 2087 bytes result sent to driver ,1
-69e8fbdc,Finished task 1.0 in stage 2.0 (TID <*> 2087 bytes result sent to driver ,1
-3cd06eaa,Finished task 0.0 in stage 2.0 (TID <*> 2087 bytes result sent to driver ,1
-cbd4367e,Running task 0.0 in stage <*> (TID <*> ,22
-65572c2c,Running task <*> in stage 3.0 (TID <*> ,2
-9e50d341,Running task 3.0 in stage 3.0 (TID <*> ,1
-a9717ebd,"Block <*> stored as bytes in memory (estimated size 5.6 KB, free <*> KB) ",5
-2c738940,Reading broadcast variable 12 took <*> ms ,1
-11560ad4,"Block <*> stored as values in memory (estimated size 9.8 KB, free <*> KB) ",6
-5cf1164b,"Times: total 41, boot 19, init <*> finish 0 ",3
-e6401716,Finished task 4.0 in stage 3.0 (TID <*> 2667 bytes result sent to driver ,1
-678ef271,"Times: total 41, boot <*> init 25, finish 0 ",3
-07cd4fe6,Finished task 3.0 in stage 3.0 (TID <*> 2667 bytes result sent to driver ,1
-e5bae665,Finished task 1.0 in stage 3.0 (TID <*> 2667 bytes result sent to driver ,1
-21c0f16d,Finished task 2.0 in stage 3.0 (TID <*> 2667 bytes result sent to driver ,1
-60d5b095,Finished task 0.0 in stage 3.0 (TID <*> 2667 bytes result sent to driver ,1
-ee9f57b2,Running task <*> in stage 4.0 (TID <*> ,3
-02a1f9a1,Running task 4.0 in stage 4.0 (TID <*> ,1
-172e5e7a,"Block <*> stored as bytes in memory (estimated size 5.7 KB, free <*> KB) ",6
-a2f4dcda,"Block <*> stored as values in memory (estimated size 10.1 KB, free <*> KB) ",6
-2b0c5524,Found block <*> locally ,172
-1a013749,Finished task 0.0 in stage 4.0 (TID <*> <*> bytes result sent to driver ,1
-349b4dd7,Finished task 1.0 in stage 4.0 (TID <*> <*> bytes result sent to driver ,1
-0afd1fd0,Finished task 2.0 in stage 4.0 (TID <*> <*> bytes result sent to driver ,1
-616d1c10,Finished task 3.0 in stage 4.0 (TID <*> <*> bytes result sent to driver ,1
-78eee9ba,Finished task 4.0 in stage 4.0 (TID <*> <*> bytes result sent to driver ,1
-b73c89bb,Running task 1.0 in stage <*> (TID <*> ,21
-813b3586,Running task 2.0 in stage <*> (TID <*> ,22
-a1f8a4af,Reading broadcast variable <*> took 12 ms ,4
-2820c070,"Times: total 39, boot <*> init <*> finish 1 ",14
-18129efd,"Times: total 40, boot <*> init <*> finish 1 ",14
-876c2730,Finished task 0.0 in stage <*> (TID <*> <*> bytes result sent to driver ,10
-c62daaa9,Finished task 3.0 in stage <*> (TID <*> <*> bytes result sent to driver ,10
-c9ed5c7a,Finished task 2.0 in stage <*> (TID <*> <*> bytes result sent to driver ,10
-cc4ae1d6,Finished task 4.0 in stage <*> (TID <*> <*> bytes result sent to driver ,10
-89bdc900,Finished task 1.0 in stage <*> (TID <*> <*> bytes result sent to driver ,10
-ffab9620,Reading broadcast variable 15 took 15 ms ,1
-cd97a396,Finished task 0.0 in stage <*> (TID <*> 2087 bytes result sent to driver ,4
-18b15889,Finished task 3.0 in stage <*> (TID <*> 2087 bytes result sent to driver ,4
-0e9e6f79,Finished task 2.0 in stage <*> (TID <*> 2087 bytes result sent to driver ,4
-151f8ec6,Finished task 4.0 in stage <*> (TID <*> 2087 bytes result sent to driver ,4
-3d383a9a,Finished task 1.0 in stage <*> (TID <*> 2087 bytes result sent to driver ,4
-6f2dfde5,Reading broadcast variable 16 took <*> ms ,1
-e35533e1,"Times: total 38, boot 17, init 21, finish 0 ",1
-20ff7726,"Times: total 38, boot 18, init 20, finish 0 ",5
-1c6732bb,"Times: total 40, boot 19, init 21, finish 0 ",3
-b895b221,"Times: total 41, boot 17, init <*> finish 0 ",3
-68481897,Finished task 0.0 in stage <*> (TID <*> 2667 bytes result sent to driver ,5
-60baf113,Finished task 3.0 in stage <*> (TID <*> 2667 bytes result sent to driver ,5
-7c5b27cc,Finished task 4.0 in stage <*> (TID <*> 2667 bytes result sent to driver ,5
-2f42c5fb,Finished task 1.0 in stage <*> (TID <*> 2667 bytes result sent to driver ,5
-3a4eb20e,Finished task 2.0 in stage <*> (TID <*> 2667 bytes result sent to driver ,5
-41b9a44d,Reading broadcast variable <*> took 15 ms ,1
-ec6c9f32,Times: total <*> boot <*> init <*> finish 1 ,10
-4f579591,"Times: total 39, boot <*> init 17, finish 0 ",1
-830116b8,"Times: total 41, boot 20, init 21, finish 0 ",2
-95c4cc42,"Times: total 40, boot 20, init 20, finish 0 ",3
-6eb76dcd,Reading broadcast variable <*> took 11 ms ,7
-3142638b,Times: total <*> boot <*> init <*> finish 0 ,5
-ba14c5bc,Reading broadcast variable <*> took 10 ms ,4
-aa21eb9b,"Times: total 38, boot 19, init 19, finish 0 ",2
-ee81335d,"Times: total 39, boot 20, init 19, finish 0 ",2
-60c85c32,"Times: total 40, boot 17, init <*> finish 0 ",1
-755bc103,"Times: total 42, boot 18, init <*> finish 0 ",1
-54ca44fb,Reading broadcast variable <*> took 9 ms ,3
-2d9de5e0,"Times: total 41, boot <*> init 18, finish 0 ",2
-39e1dfae,"Times: total 39, boot 18, init 21, finish 0 ",3
-b18fc7b6,"Times: total 38, boot <*> init <*> finish 1 ",1
-cab7d37c,"Times: total 39, boot 21, init 18, finish 0 ",1
-6363a49f,"Times: total 41, boot 18, init <*> finish 0 ",2
-4d501530,"Times: total 40, boot 18, init <*> finish 0 ",2
-dc066c77,File Output Committer Algorithm version is 1 ,30
+40702cc8,Block <*> stored as bytes in memory <*> size <*> <*> free <*> <*> ,112
+1a372bdf,Reading broadcast variable <*> took <*> ms ,37
+e2f64f99,Block <*> stored as values in memory <*> size <*> <*> free <*> <*> ,37
+e0243440,Partition <*> not <*> computing it ,75
+ff9d7748,Input <*> <*> ,45
+0daee8e0,<*> is <*> <*> use <*> ,5
+da937413,<*> total <*> boot <*> init <*> finish <*> ,375
+e00d2269,Finished task <*> in stage <*> <*> <*> <*> bytes result sent to driver ,300
+2b0c5524,Found block <*> locally ,257
+dd093e24,File Output Committer Algorithm version is <*> ,30
 0ca0d2ad,Saved output of task <*> to <*> ,30
 4c0a756a,<*> Committed ,30
-2c918f3f,Finished task 3.0 in stage <*> (TID <*> 2364 bytes result sent to driver ,2
-f7cd8973,Finished task 4.0 in stage <*> (TID <*> 2364 bytes result sent to driver ,2
-413f4ce9,Finished task 1.0 in stage <*> (TID <*> 2364 bytes result sent to driver ,2
-8016bd8d,Finished task 2.0 in stage <*> (TID <*> 2364 bytes result sent to driver ,2
-1b70dc35,Finished task 0.0 in stage <*> (TID <*> 2364 bytes result sent to driver ,2
-627468ab,Running task <*> in stage 24.0 (TID <*> ,20
-75a55bec,Finished task <*> in stage <*> (TID <*> 2364 bytes result sent to driver ,20
-e9efda5c,Running task <*> in stage <*> (TID <*> ,2
-aaa27683,Running task <*> in stage 26.0 (TID <*> ,30
-80fefdb5,"Times: total 42, boot 25, init <*> finish 1 ",1
-3734e97d,Finished task 0.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-9ed1dc17,"Times: total 41, boot 21, init 20, finish 0 ",2
-ec6b2b3a,"Times: total 41, boot 20, init 20, finish 1 ",1
-b9c5740b,"Times: total 42, boot <*> init 19, finish 0 ",1
-fa06f282,"Times: total 42, boot 20, init 21, finish 1 ",2
-930c912c,Finished task 4.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-65fb5ed4,Finished task 2.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-35d0487a,Finished task 1.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-73caa73f,Finished task 3.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-ef61efda,"Times: total <*> boot 21, init <*> finish 5 ",1
-40d55994,"Times: total <*> boot <*> init 41, finish 5 ",4
-d358e5cb,Times: total <*> boot <*> init <*> finish 5 ,14
-a60d70a4,"Times: total <*> boot 19, init <*> finish 0 ",1
-d617bcc1,Finished task <*> in stage 26.0 (TID <*> <*> bytes result sent to driver ,31
-b162c106,"Times: total 41, boot <*> init 17, finish 0 ",1
-bbb71a9c,"Times: total 42, boot <*> init 19, finish 1 ",4
-d3621bfd,"Times: total <*> boot <*> init 40, finish <*> ",1
-6f849d86,"Times: total <*> boot <*> init 40, finish 5 ",4
-b541f0d2,"Times: total 42, boot 17, init <*> finish 1 ",2
-69a4fcb9,"Times: total 39, boot 20, init 18, finish 1 ",2
-9b2b6f7f,"Times: total 40, boot <*> init 18, finish 0 ",1
-9bc7aa95,"Times: total <*> boot <*> init 38, finish 5 ",3
-85ce5462,"Times: total <*> boot <*> init 19, finish 1 ",1
-3fc44e2e,"Times: total 38, boot 20, init 18, finish 0 ",1
-f68f9f0f,Running task 24.0 in stage <*> (TID <*> ,1
-8a72e6aa,"Times: total <*> boot 17, init <*> finish 5 ",1
-b2018b2f,Running task 26.0 in stage 26.0 (TID <*> ,1
-509277c2,Running task 27.0 in stage 26.0 (TID <*> ,1
-722dbb06,"Times: total 38, boot 21, init 17, finish 0 ",1
-96f78082,"Times: total 42, boot 20, init <*> finish 0 ",1
-84d0bb5e,Running task 28.0 in stage 26.0 (TID <*> ,1
-6e4f04c3,Running task 29.0 in stage 26.0 (TID <*> ,1
-43f7a034,"Times: total <*> boot <*> init 41, finish <*> ",1
-4e73f211,"Times: total 42, boot <*> init 17, finish 1 ",3
-b4d26682,Finished task 26.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-4768fee3,Finished task 27.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-4c705fb1,Finished task 28.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-2ea74226,Finished task 29.0 in stage 26.0 (TID <*> <*> bytes result sent to driver ,1
-e47ba0cb,"Times: total <*> boot <*> init 25, finish 5 ",1
-35bdd656,"Times: total <*> boot <*> init 42, finish 5 ",1
-15ea01ee,"Times: total <*> boot <*> init 39, finish 5 ",1
-655c1022,"Times: total 42, boot <*> init 18, finish 0 ",1
-8ff11c9b,"Times: total <*> boot 17, init 25, finish 1 ",1
-447789c3,"Times: total <*> boot 17, init <*> finish <*> ",1
-247daff0,"Times: total <*> boot 17, init 25, finish <*> ",1
-56871e96,Running task <*> in stage 27.0 (TID <*> ,34
-0ddec4ed,Finished task 0.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-de8b2ce7,Finished task 4.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-0a02fbc0,Finished task 2.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-0aaac752,Finished task 3.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-aaef6e2f,Finished task 1.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-2b9d4436,Finished task <*> in stage 27.0 (TID <*> <*> bytes result sent to driver ,30
-9a0cb5f9,"Times: total 40, boot <*> init 25, finish 0 ",3
-0a63a73f,"Times: total 40, boot <*> init 25, finish 1 ",2
-194e9778,Finished task <*> in stage 27.0 (TID <*> 2667 bytes result sent to driver ,1
-d9629249,"Times: total 42, boot 19, init <*> finish 1 ",2
-e03bb1b9,"Times: total 39, boot <*> init 25, finish 1 ",1
-5df04be6,"Times: total 42, boot <*> init 25, finish 1 ",4
-2592c760,"Times: total 40, boot 17, init <*> finish 1 ",1
-44c17e8c,"Times: total 41, boot 19, init 21, finish 1 ",3
-ef791026,"Times: total 41, boot <*> init 25, finish <*> ",1
-bd22bb00,Running task 26.0 in stage 27.0 (TID <*> ,1
-8db6d348,Running task 27.0 in stage 27.0 (TID <*> ,1
-8e4ad6a4,Running task 28.0 in stage 27.0 (TID <*> ,1
-9c669b19,Running task 29.0 in stage 27.0 (TID <*> ,1
-904d02a7,Finished task 27.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-4ad072c4,Finished task 28.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-7a224d6a,Finished task 26.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-358f621d,Finished task 29.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
-d7a82922,"Times: total 40, boot 20, init 19, finish 1 ",3
-dcfacf1f,"Times: total 39, boot 17, init 21, finish 1 ",1
-681a37fb,Running task <*> in stage 28.0 (TID <*> ,34
-4d195fa8,Finished task 4.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-4f4e7494,Finished task 2.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-45457a4e,Finished task 3.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-4c24da7a,Finished task 0.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-fcbe35aa,Finished task 1.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-da1d7620,Finished task <*> in stage 28.0 (TID <*> 2087 bytes result sent to driver ,31
-921071e1,"Times: total 40, boot 21, init 19, finish 0 ",1
-e55fd579,"Times: total 39, boot 19, init 20, finish 0 ",1
-0dc8077a,Running task 26.0 in stage 28.0 (TID <*> ,1
-5a5c54b8,Running task 27.0 in stage 28.0 (TID <*> ,1
-e232eef9,Running task 28.0 in stage 28.0 (TID <*> ,1
-c3019c04,Running task 29.0 in stage 28.0 (TID <*> ,1
-f972d9b1,"Times: total 41, boot 17, init <*> finish 1 ",1
-9edbe657,Finished task 26.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-ece3a6db,Finished task 27.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-add5e512,Finished task 28.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-4c1ab0b9,Finished task 29.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
-aae3f110,Running task <*> in stage 29.0 (TID <*> ,29
-6df16c3a,Finished task 3.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-01233d09,Finished task 4.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-9b6cfa08,Finished task 0.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-c416d8b6,Finished task 2.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-c42d9718,Finished task 1.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-bf4a9ad7,"Times: total 39, boot 18, init 20, finish 1 ",3
-9befe948,"Times: total <*> boot 25, init 17, finish 1 ",1
-af033bb8,Finished task <*> in stage 29.0 (TID <*> <*> bytes result sent to driver ,21
-fbab0c64,"Times: total 39, boot 19, init 19, finish 1 ",1
-cfc6a32f,"Times: total 41, boot 21, init 19, finish 1 ",1
-23ce8469,"Times: total 42, boot 18, init <*> finish 1 ",2
-6bfc5165,"Times: total 41, boot <*> init 25, finish 1 ",2
-f907c595,"Times: total 41, boot 18, init <*> finish 1 ",1
-fdda4542,Running task 26.0 in stage 29.0 (TID <*> ,1
-9d5f3244,Running task 27.0 in stage 29.0 (TID <*> ,1
-5293ba61,Running task 28.0 in stage 29.0 (TID <*> ,1
-d145acc7,Running task 29.0 in stage 29.0 (TID <*> ,1
-65d1fb4c,"Times: total 41, boot <*> init 17, finish 1 ",1
-23ad8cfe,Finished task 28.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-fe854285,Finished task 27.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-878f4eef,Finished task 26.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
-f208df58,Finished task 29.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1

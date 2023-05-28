@@ -2,7 +2,7 @@
 
 import sys
 # Path - Windows
-#sys.path.append("C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser")
+sys.path.append("C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser")
 # Path - Linux
 #sys.path.append("/home/vbertalan/Downloads/Parser/parser")
 from fileinput import filename
@@ -17,13 +17,13 @@ from pathlib import Path
 #vector_dir = "/home/vbertalan/Downloads/Parser/parser/Parser/vectors" # The directory to save the vectorized files
 
 # Reads input and output folders
-input_dir = os.path.join(os.getcwd(), "logs") # The input directory of raw logs
-output_dir = os.path.join(os.getcwd(), "results")  # The output directory of parsing results
-vector_dir = os.path.join(os.getcwd(), "vectors")  # The vector directory of converted logs
+#input_dir = os.path.join(os.getcwd(), "logs") # The input directory of raw logs
+#output_dir = os.path.join(os.getcwd(), "results")  # The output directory of parsing results
+#vector_dir = os.path.join(os.getcwd(), "vectors")  # The vector directory of converted logs
 
-#input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
-#output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
-#vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\vectors" # The directory to save the vectorized files
+input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
+output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
+vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\vectors" # The directory to save the vectorized files
 
 #input_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/logs" # The directory to get the logs
 #output_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/results"  # The output directory of parsing results

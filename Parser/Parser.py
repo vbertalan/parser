@@ -246,7 +246,10 @@ class LogParser:
 
         tokenizer = sm.AlphanumericTokenizer()
 
-        with open('/home/vbertalan/Downloads/Parser/parser/create.txt') as word_file:
+        create_path = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\create.txt"
+        #create_path = "/home/vbertalan/Downloads/Parser/parser/create.txt"
+
+        with open(create_path) as word_file:
             english_words = {word.strip().lower() for word in word_file}
 
         print('\n=== Parsing dataset ===')

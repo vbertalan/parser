@@ -1,171 +1,76 @@
 EventId,EventTemplate,Occurrences
-8f150943,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost <*> ,117
-dbfdf0fa,check pass; user unknown ,117
-86f0fa4f,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost 220-135-151-1.hinet-ip.hinet.net user root ,10
-a94a3cf3,session opened for user cyrus by (uid 0) ,43
+22e4b0e2,authentication <*> <*> uid <*> <*> <*> tty <*> <*> <*> <*> ,118
+269d02c9,check <*> user unknown ,117
+9673e740,authentication <*> <*> uid <*> <*> <*> tty <*> <*> <*> <*> <*> <*> ,372
+c0a857e0,session opened for user cyrus by <*> <*> ,43
 5821dde8,session closed for user cyrus ,43
-77b2679d,ALERT exited abnormally with [1] ,43
-d357477a,session opened for user news by (uid 0) ,43
+0ddcb59f,ALERT exited abnormally with <*> ,43
+b89c757e,session opened for user news by <*> <*> ,43
 8ff7d7b9,session closed for user news ,43
-1f0c7b4f,connection from <*> <*> at Fri Jun 17 <*> 2005 ,8
-742a4bb6,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost <*> user <*> ,21
-086f8c15,session opened for user test by (uid 509) ,36
+8a27b1ca,connection from <*> <*> at <*> Jun <*> <*> <*> ,30
+c693b0b3,session opened for user test by <*> <*> ,36
 58e532f7,session closed for user test ,36
-eebb32f8,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 <*> 2005 ,7
-8ede501d,connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 <*> 2005 ,15
-b3742ef2,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005 ,1
-ad3464aa,cupsd shutdown succeeded ,6
-4253878e,cupsd startup succeeded ,6
-b72a986d,restart. ,7
-aebc8262,connection from <*> () at <*> Jun <*> <*> 2005 ,12
+c51386cc,<*> <*> <*> <*> <*> <*> <*> <*> Sat <*> <*> <*> <*> ,1
+857302d1,<*> <*> succeeded ,7
+2bb55441,<*> startup succeeded ,13
+9e08cdfc,<*> ,7
+0aad5926,connection from <*> <*> at <*> <*> <*> <*> <*> ,132
 38ff61b3,<*> <*> <*> from <*> ,1
-4bceed77,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost n219076184117.netvigator.com user root ,23
-a2cd85df,connection from <*> () at Wed Jun 22 <*> 2005 ,23
-f5f28610,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost <*> user root ,225
-dee5e59e,connection from <*> () at Fri Jun 24 <*> 2005 ,13
-2184027d,connection from <*> () at Sat Jun <*> <*> 2005 ,31
-47b24ba1,connection from <*> () at Wed Jun 29 <*> 2005 ,53
-8be8451a,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code ,8
-c4147e80,Kerberos authentication failed ,23
-348153cc,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort ,15
-37619fe4,connection from 202.82.200.188 () at Fri Jul <*> <*> 2005 ,23
-028bba21,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 3 10:05:25 2005 ,23
-0e555130,connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul 3 23:16:09 2005 ,23
-8810b3f5,connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul 4 12:52:44 2005 ,23
-3ccac99c,connection from <*> () at Tue Jul <*> <*> 2005 ,46
-2f2fc9d2,connection from 211.72.151.162 () at <*> Jul <*> <*> 2005 ,23
-9c860b0c,*** info [mice.c(1766)]: ,1
-964567ba,imps2: Auto-detected intellimouse PS/2 ,1
-554552ec,session opened for user <*> by <*> 0) ,1
-bf9daaf3,ROOT LOGIN ON tty2 ,1
+a1f0bc4e,Authentication failed from <*> <*> Permission denied in replay cache code ,8
+c7dfd3e0,<*> authentication failed ,23
+0bbaa51d,Authentication failed from <*> <*> Software caused connection abort ,15
+de114afa,connection from <*> <*> at <*> Jul <*> <*> <*> ,462
+2da732a2,connection from <*> <*> at Sun Jul <*> <*> <*> ,239
+aa2d7533,connection from <*> <*> at Mon Jul <*> <*> <*> ,23
+e0afaf2b,<*> <*> <*> ,10
+b5f6193c,<*> <*> <*> <*> ,10
+175d0535,session opened for user <*> by <*> <*> ,1
 113bd753,session closed for user <*> ,1
-217546fd,removing device node '/udev/vcsa2' ,2
-94f49899,removing device node '/udev/vcs2' ,2
-b9c2e6b9,creating device node '/udev/vcs2' ,2
-a1a28720,creating device node '/udev/vcsa2' ,2
-572ba2ea,connection from 202.82.200.188 () at <*> Jul <*> <*> 2005 ,12
-b3cd45eb,connection from <*> () at <*> Jul <*> <*> 2005 ,61
-c67bcb17,connection from <*> () at Sat Jul 9 <*> 2005 ,46
-3b6602ea,connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul 9 <*> 2005 ,6
-840a9d13,connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul 9 22:53:22 2005 ,17
-738aff6f,connection from <*> () at Sun Jul <*> <*> 2005 ,74
-321dea22,connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005 ,11
-b5969827,connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005 ,12
-c9d0806b,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost 150.183.249.110 user root ,80
-fa908d90,authentication failure; logname uid 0 euid 0 tty <*> ruser rhost <*> ,1
+4aa2fef7,removing device node <*> ,4
+b7fdb4b0,creating device node <*> ,4
 108f1713,<*> <*> user ,1
-6f3a0584,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost 68.143.156.89.nw.nuvox.net user root ,10
-631a9afc,connection from <*> () at Fri Jul <*> <*> 2005 ,22
-bfc6fbc8,connection from <*> () at Sat Jul <*> <*> 2005 ,23
-7f80de5d,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 <*> 2005 ,7
-110d6dfd,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005 ,14
-b7b4ce2f,connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005 ,11
-a356665e,connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005 ,22
-b8bcd02f,connection from 218.146.61.230 () at Sun Jul 17 <*> 2005 ,1
-2ac06505,authentication failure; logname uid 0 euid 0 tty NODEVssh ruser rhost 61-220-159-99.hinet-ip.hinet.net user root ,3
-b41d3443,connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 <*> 2005 ,46
-2066b7c8,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005 ,18
-e4c08b9a,connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 <*> 2005 ,5
-e60af07a,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005 ,16
-6ad96783,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005 ,1
-269211d0,connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005 ,6
-514edef6,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 <*> 2005 ,1
-ef049222,connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005 ,22
-67c2924c,connection from 211.72.151.162 () at Mon Jul <*> <*> 2005 ,21
-4d8fd31a,connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005 ,22
-bf6abced,connection from 216.12.111.241 () at Thu Jul 21 <*> 2005 ,1
-4a066de5,connection from <*> () at Fri Jul 22 <*> 2005 ,23
-cf5342e4,connection from <*> () at Sun Jul 24 <*> 2005 ,23
-40ba154f,"ANONYMOUS FTP LOGIN FROM 84.102.20.2, (anonymous) ",2
-a9cb91d9,connection from <*> () at Mon Jul 25 <*> 2005 ,42
-12bbe65d,notify question section contains no SOA ,16
-508ac4d1,getpeername (ftpd): Transport endpoint is not connected ,4
-a1027a7f,warning: can't get client address: Connection reset by peer ,2
-2bb55441,<*> startup succeeded ,5
-d82fd666,"klogd 1.4.1, log source /proc/kmsg started. ",1
-1b53cdca,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004 ,1
-03e14414,BIOS-provided physical RAM map: ,1
-093bd9c2,BIOS-e820: 0000000000000000 - 00000000000a0000 (usable) ,1
-7f1d42c4,BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved) ,1
-84b525c8,BIOS-e820: 0000000000100000 - 0000000007eae000 (usable) ,1
-fbd807da,BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved) ,1
-88968916,BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved) ,1
-e37fd57b,0MB HIGHMEM available. ,1
-ccf234de,126MB LOWMEM available. ,1
-f717e92c,zapping low mappings. ,1
-6b303295,On node 0 totalpages: 32430 ,1
-92325b1b,"DMA zone: 4096 pages, LIFO batch:1 ",1
-c73852fd,"Normal zone: 28334 pages, LIFO batch:6 ",1
-711d7fff,irqbalance startup succeeded ,1
-1a7cde35,"HighMem zone: 0 pages, LIFO batch:1 ",1
-9f7659da,DMI 2.3 present. ,1
-806e7a94,ACPI disabled because your bios is from 2000 and too old ,1
-9d807b84,You can enable it with acpi force ,1
-3ca099d2,Built 1 zonelists ,1
-d4496eab,Kernel command line: ro root LABEL / rhgb quiet ,1
-7da767cb,mapped 4G/4G trampoline to ffff3000. ,1
-dc5c7198,Initializing CPU#0 ,1
-27c15cf7,"CPU 0 irqstacks, hard 02345000 soft 02344000 ",1
-8ffd70d7,PID hash table entries: 512 (order 9: 4096 bytes) ,1
-a72d95d3,Detected 731.219 MHz processor. ,1
-6b3a62ce,Version 1.0.6 Starting ,1
-97ed7085,Using tsc for high-res timesource ,1
-d15e4259,Console: colour VGA+ 80x25 ,1
-16c0d7db,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem) ",1
-f39c3a8c,Calibrating delay loop... 1445.88 BogoMIPS ,1
-e2cfc058,Security Scaffold v1.0.0 initialized ,1
-3cea3f9e,SELinux: Initializing. ,1
-1829bf69,SELinux: Starting in permissive mode ,1
-02c5c85b,"There is already a security framework initialized, register_security failed. ",1
-f6c001ce,Failure registering capabilities with the kernel ,1
-de3bf274,selinux_register_security: Registering secondary module capability ,1
-269bf089,Capability LSM initialized ,1
-e13ffb91,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes) ",1
-516d7fc4,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes) ",1
-fb8470d6,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes) ",1
-7578d6d6,"CPU: L1 I cache: 16K, L1 D cache: 16K ",1
-3f07a016,CPU: L2 cache: 256K ,1
-81d190a3,Intel machine check architecture supported. ,1
-478d1c56,Intel machine check reporting enabled on CPU#0. ,1
-87d53375,CPU: Intel Pentium III (Coppermine) stepping 06 ,1
-93072596,Enabling fast FPU save and restore... done. ,1
-74bdff60,Enabling unmasked SIMD FPU exception support... done. ,1
-858faf8a,Checking 'hlt' instruction... OK. ,1
-14751dbe,Initializing random number generator: succeeded ,1
-2d74ae89,POSIX conformance testing by UNIFIX ,1
-f7a80a7e,NET: Registered protocol family 16 ,1
-428cbdd4,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus 1 ",1
-f9d7c9fe,PCI: Using configuration type 1 ,1
-c91dbfa9,mtrr: v2.0 (20020519) ,1
-0ae2eff4,ACPI: Subsystem revision 20040326 ,1
-8b873570,ACPI: Interpreter disabled. ,1
-da88e325,Linux Plug and Play Support v0.97 (c) Adam Belay ,1
-ffaf2945,Starting pcmcia: succeeded ,1
-ac038188,usbcore: registered new driver usbfs ,1
-2a3c6bbd,usbcore: registered new driver hub ,1
-43c77b93,ACPI: ACPI tables contain no PCI IRQ routing entries ,1
-7d04f06f,PCI: Invalid ACPI-PCI IRQ routing table ,1
-cdb8ef44,PCI: Probing PCI hardware ,1
-9197ca29,PCI: Probing PCI hardware (bus 00) ,1
-a6cfb553,Transparent bridge - 0000:00:1e.0 ,1
-e334e4f3,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0 ,1
-df71ec8b,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac) ,1
-41ecd23a,audit: initializing netlink socket (disabled) ,1
-2f9742bf,kernel.core_uses_pid 1 ,1
-ba59784b,HCI daemon ver 2.4 started ,1
-7f1f098c,hcid startup succeeded ,1
-4cb83687,audit(1122475266.4294965305:0): initialized ,1
-b5f6193c,<*> <*> <*> <*> ,1
-5bd00b94,sdpd startup succeeded ,1
-dca34676,sdpd <*> <*> ,1
-292e1e28,"Total HugeTLB memory allocated, 0 ",1
-4328c629,Bringing up loopback interface: succeeded ,1
-88084b5c,VFS: Disk quotas dquot_6.5.1 ,1
-41f505bb,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes) ",1
-fd405317,SELinux: Registering netfilter hooks ,1
-bf516fd3,Initializing Cryptographic API ,1
-2e47ba0c,pci_hotplug: PCI Hot Plug PCI Core version: 0.5 ,1
-87fd7e0f,isapnp: Scanning for PnP cards... ,1
-e1a6b290,isapnp: No Plug & Play device found ,1
-273a93e3,Real Time Clock Driver v1.12 ,1
-eeb821cc,Linux agpgart interface v0.100 (c) Dave Jones ,1
+8ec1a1f1,connection from <*> <*> at Thu Jul <*> <*> <*> ,23
+605e256e,ANONYMOUS FTP LOGIN FROM <*> <*> ,2
+885b8046,notify question section contains no <*> ,16
+396329d3,<*> <*> Transport endpoint is not connected ,4
+c632524c,<*> <*> <*> <*> <*> Connection <*> <*> <*> ,2
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
+2e42235d,Linux version <*> <*> <*> version <*> <*> <*> <*> Linux <*> <*> Sat <*> <*> <*> <*> <*> ,1
+347334c7,<*> <*> <*> <*> <*> ,18
+bd85ed04,<*> <*> <*> <*> LIFO <*> ,3
+51931805,<*> <*> <*> <*> bios <*> <*> <*> and <*> <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
+30c60c2c,Kernel <*> <*> <*> <*> <*> <*> <*> <*> ,1
+b5f8f0ab,<*> <*> ,3
+9858360d,<*> hash table <*> <*> <*> <*> <*> <*> ,4
+72d72dc7,<*> <*> Starting ,1
+01fe13e5,<*> <*> <*> <*> kernel <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+43b6e054,Security <*> <*> initialized ,1
+b448a91c,<*> Starting <*> <*> <*> ,1
+e8128cd1,<*> <*> <*> <*> security <*> <*> <*> <*> ,1
+60ea0d38,<*> registering <*> <*> <*> <*> ,1
+29489a42,<*> Registering <*> <*> capability ,1
+039fa4e8,Capability <*> initialized ,1
+b2582bb9,<*> <*> hash table <*> <*> <*> <*> <*> <*> ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+bf2db201,Intel <*> <*> <*> <*> ,1
+0368b3ed,Intel <*> <*> <*> <*> <*> <*> ,1
+b0e9590a,<*> Intel <*> <*> <*> <*> <*> ,1
+fad77c9b,<*> <*> <*> <*> and <*> <*> ,1
+ca5e19bc,Initializing <*> <*> <*> succeeded ,1
+c217e6d8,<*> PCI BIOS <*> <*> <*> <*> <*> <*> <*> <*> ,1
+9edd0db2,<*> <*> and <*> <*> <*> <*> <*> <*> ,1
+b4d3e063,<*> <*> <*> <*> <*> PCI IRQ <*> <*> ,1
+d8e8c236,<*> <*> <*> IRQ <*> <*> ,1
+74984a7f,<*> <*> PCI <*> ,1
+e718913e,<*> <*> PCI <*> <*> <*> ,1
+e585c78b,<*> <*> IRQ <*> <*> <*> <*> <*> ,1
+de405941,<*> BIOS <*> <*> <*> <*> <*> <*> <*> ,1
+8f35f61d,<*> initializing <*> <*> <*> ,1
+8e280e1f,<*> initialized ,1
+abee0f7b,<*> <*> <*> succeeded ,1
+37b79eeb,<*> <*> <*> <*> succeeded ,1
+a8996bc7,<*> Registering <*> <*> ,1
+1bc62b10,Initializing <*> <*> ,1
+58e1fe42,<*> PCI <*> <*> PCI <*> <*> <*> ,1
+fbd225af,<*> <*> <*> <*> <*> device <*> ,1
