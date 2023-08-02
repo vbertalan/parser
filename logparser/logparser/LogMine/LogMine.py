@@ -3,8 +3,9 @@ Description : This file implements the LogMine algorithm for log parsing
 Author      : LogPAI team
 License     : MIT
 """
-
 import sys
+
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1/logparser/logparser/LogMine")
 import regex as re
 import os
 import alignment
