@@ -2,7 +2,7 @@
 
 
 import sys
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1")
 from logparser.logparser.utils import evaluator
 from logparser.logparser.LenMa import LenMa
 import os
@@ -10,8 +10,9 @@ import pandas as pd
 from pathlib import Path
 
 
-input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste/logparser/logs"
-output_dir = 'logparser/results/Lenma_result/'  # The output directory of parsing results
+
+input_dir = "logparser/logs"
+output_dir = "logparser/results/Lenma_result/"  # The output directory of parsing results
 
 benchmark_settings = {
     'HDFS': {
@@ -140,15 +141,15 @@ for dataset, setting in benchmark_settings.items():
     parser = LenMa.LogParser(log_format=setting['log_format'], indir=indir, outdir=output_dir, rex=setting['regex'], threshold=setting['threshold'])
     parser.parse(log_file)
     
-    F1_measure, accuracy = evaluator.evaluate(
+    precision, recall, f_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
-    bechmark_result.append([dataset, F1_measure, accuracy])
+    bechmark_result.append([dataset, precision, recall, f_measure, accuracy])
 
 
 print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
+df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'Precision', 'Recall', 'F1 Measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
 filepath = Path('logparser/results/Lenma_bechmark_result.csv') 

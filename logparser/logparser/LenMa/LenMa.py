@@ -4,8 +4,10 @@ Author: LogPAI team
 License: MIT
 """
 
-#from logparser.logparser.LenMa.templateminer import lenma_template
-from templateminer import lenma_template
+from logparser.logparser.LenMa.templateminer import lenma_template
+#import sys
+#sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1/logparser/logparser/LenMa")
+#from templateminer import lenma_template
 import pandas as pd
 import regex as re
 import os

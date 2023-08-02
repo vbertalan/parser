@@ -2,7 +2,7 @@
 
 import sys
 # Path - Windows
-sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/pyteste")
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1")
 # Path - Linux
 #sys.path.append("/home/vbertalan/Downloads/Parser/parser/")
 from logparser.logparser.utils import evaluator
@@ -157,15 +157,15 @@ for dataset, setting in benchmark_settings.items():
 
     parser.parse(log_file)
     
-    F1_measure, accuracy = evaluator.evaluate(
+    precision, recall, f_measure, accuracy = evaluator.evaluate(
                            groundtruth=os.path.join(indir, log_file + '_structured.csv'),
                            parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                            )
-    bechmark_result.append([dataset, F1_measure, accuracy])
+    bechmark_result.append([dataset, precision, recall, f_measure, accuracy])
 
 
 print('\n=== Overall evaluation results ===')
-df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
+df_result = pd.DataFrame(bechmark_result, columns=['Dataset', 'Precision', 'Recall', 'F1 Measure', 'Accuracy'])
 df_result.set_index('Dataset', inplace=True)
 print(df_result)
 filepath = Path('logparser/results/Drain_bechmark_result.csv') 
