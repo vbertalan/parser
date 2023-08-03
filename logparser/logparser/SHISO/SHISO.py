@@ -8,7 +8,8 @@ import re
 import os
 import time
 from nltk import ngrams
-from Queue import *
+#from Queue import *
+import queue
 import numpy as np
 import pandas as pd
 import hashlib
@@ -135,7 +136,7 @@ class LogParser:
             i += 1
 
 
-        for idx in xrange(i, len(largeSeq)):
+        for idx in range(i, len(largeSeq)):
             word2 = largeSeq[i]
             numerator += self.wordDist( '', word2 )
 
@@ -293,7 +294,8 @@ class LogParser:
 
     def outputResult(self, node):
         templateNo = 1
-        nodeQ = Queue()
+        #nodeQ = Queue()
+        nodeQ = queue.Queue()
         nodeQ.put(node)
 
         templates = [0] * self.df_log.shape[0]
@@ -405,7 +407,7 @@ class LogParser:
         regex = ''
         for k in range(len(splitters)):
             if k % 2 == 0:
-                splitter = re.sub(' +', '\s+', splitters[k])
+                splitter = re.sub(' +', '\\\s+', splitters[k])
                 regex += splitter
             else:
                 header = splitters[k].strip('<').strip('>')
