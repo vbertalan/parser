@@ -1,17 +1,17 @@
 LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
-1,03-17,16:13:38.811,1702,2395,D,WindowManager,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",ba53cf20,<*> <*> <*> <*> token <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1,03-17,16:13:38.811,1702,2395,D,WindowManager,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",bb8e3c32,<*> app <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 2,03-17,16:13:38.819,1702,8671,D,PowerManagerService,"acquire lock=<*>, flags=<*>, tag=""View Lock"", name=com.android.systemui, ws=null, uid=<*>, pid=<*>",60c833f6,acquire lock <*> flags <*> tag <*> <*> name <*> ws <*> uid <*> pid <*> 
 3,03-17,16:13:38.820,1702,8671,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 4,03-17,16:13:38.839,1702,2113,V,WindowManager,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide,8a11d6f0,Skipping <*> token <*> <*> <*> <*> <*> <*> going to hide 
-5,03-17,16:13:38.859,2227,2227,D,TextView,visible is system.time.showampm,e7d98f02,visible is <*> 
+5,03-17,16:13:38.859,2227,2227,D,TextView,visible is system.time.showampm,31a7e4be,<*> is <*> 
 6,03-17,16:13:38.861,2227,2227,D,TextView,mVisiblity.getValue is false,c0215a7d,<*> is false 
-7,03-17,16:13:38.869,2227,2227,D,TextView,visible is system.charge.show,e7d98f02,visible is <*> 
+7,03-17,16:13:38.869,2227,2227,D,TextView,visible is system.charge.show,31a7e4be,<*> is <*> 
 8,03-17,16:13:38.871,2227,2227,D,TextView,mVisiblity.getValue is false,c0215a7d,<*> is false 
-9,03-17,16:13:38.875,2227,2227,D,TextView,visible is system.call.count gt <*>,24cde421,visible is <*> <*> <*> 
+9,03-17,16:13:38.875,2227,2227,D,TextView,visible is system.call.count gt <*>,bd3db3ff,<*> is <*> <*> <*> 
 10,03-17,16:13:38.877,2227,2227,D,TextView,mVisiblity.getValue is false,c0215a7d,<*> is false 
-11,03-17,16:13:38.881,2227,2227,D,TextView,visible is system.message.count gt <*>,24cde421,visible is <*> <*> <*> 
+11,03-17,16:13:38.881,2227,2227,D,TextView,visible is system.message.count gt <*>,bd3db3ff,<*> is <*> <*> <*> 
 12,03-17,16:13:38.882,2227,2227,D,TextView,mVisiblity.getValue is false,c0215a7d,<*> is false 
-13,03-17,16:13:38.887,2227,2227,D,TextView,visible is system.ownerinfo.show,e7d98f02,visible is <*> 
+13,03-17,16:13:38.887,2227,2227,D,TextView,visible is system.ownerinfo.show,31a7e4be,<*> is <*> 
 14,03-17,16:13:38.888,2227,2227,D,TextView,mVisiblity.getValue is false,c0215a7d,<*> is false 
 15,03-17,16:13:38.905,1702,10454,D,PowerManagerService,"release:lock=<*>, flg=<*>, tag=""View Lock"", name=com.android.systemui"", ws=null, uid=<*>, pid=<*>",a4bae5a7,<*> <*> <*> <*> tag <*> <*> name <*> ws <*> uid <*> pid <*> 
 16,03-17,16:13:38.907,1702,10454,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -24,20 +24,20 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 23,03-17,16:13:38.954,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 24,03-17,16:13:38.955,2227,2227,I,PhoneStatusBar,cancelAutohide,9e08cdfc,<*> 
 25,03-17,16:13:38.955,2227,2227,I,PhoneStatusBar,"notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>",b5f6193c,<*> <*> <*> <*> 
-26,03-17,16:13:38.994,1702,27365,I,WindowManager,Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:<*> com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:<*> com.android.server.wm.Session.performDeferredDestroy:<*> android.view.IWindowSession$Stub.onTransact:<*> com.android.server.wm.Session.onTransact:<*> android.os.Binder.execTransact:<*> <bottom of call stack> <bottom of call stack>,23cc8cc4,Destroying surface <*> <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+26,03-17,16:13:38.994,1702,27365,I,WindowManager,Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:<*> com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:<*> com.android.server.wm.Session.performDeferredDestroy:<*> android.view.IWindowSession$Stub.onTransact:<*> com.android.server.wm.Session.onTransact:<*> android.os.Binder.execTransact:<*> <bottom of call stack> <bottom of call stack>,c1a4898a,Destroying surface <*> <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> call <*> <*> <*> call <*> 
 27,03-17,16:13:39.006,1702,2639,I,WindowManager,Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:<*> com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:<*> com.android.server.wm.WindowState.destroyOrSaveSurface:<*> com.android.server.wm.WindowManagerService.tryStartExitingAnimation:<*> com.android.server.wm.WindowManagerService.relayoutWindow:<*> com.android.server.wm.Session.relayout:<*> android.view.IWindowSession$Stub.onTransact:<*> com.android.server.wm.Session.onTransact:<*>,42f965f0,Destroying surface <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> 
 28,03-17,16:13:39.010,1702,2639,D,PowerManagerService,"release:lock=<*>, flg=<*>, tag=""WindowManager"", name=android"", ws=WorkSource{<*>}, uid=<*>, pid=<*>",c6945d16,<*> <*> <*> <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 29,03-17,16:13:39.011,1702,2639,D,PowerManagerService,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",67ce1993,<*> <*> <*> event <*> flags <*> uid <*> 
 30,03-17,16:13:39.011,1702,2639,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-31,03-17,16:13:39.069,1702,1815,I,WindowManager,"orientation change is complete, call stopFreezingDisplayLocked",6b8795f6,orientation change is <*> <*> <*> 
-32,03-17,16:13:39.070,1702,1815,I,WindowManager,Screen frozen for +1s0ms due to Window{<*> u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity},7cba5429,<*> <*> <*> <*> <*> to <*> <*> <*> 
+31,03-17,16:13:39.069,1702,1815,I,WindowManager,"orientation change is complete, call stopFreezingDisplayLocked",53aac43c,<*> <*> <*> <*> call <*> 
+32,03-17,16:13:39.070,1702,1815,I,WindowManager,Screen frozen for +1s0ms due to Window{<*> u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity},1c6545e7,<*> <*> for <*> <*> to <*> <*> <*> 
 33,03-17,16:13:39.070,1702,1815,D,WindowManager,startAnimation begin,b5f8f0ab,<*> <*> 
 34,03-17,16:13:39.079,1702,1815,D,WindowManager,startAnimation end,b5f8f0ab,<*> <*> 
 35,03-17,16:13:39.080,1702,1815,D,PowerManagerService,"release:lock=<*>, flg=<*>, tag=""SCREEN_FROZEN"", name=android"", ws=null, uid=<*>, pid=<*>",c6945d16,<*> <*> <*> <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 36,03-17,16:13:39.080,1702,1815,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 37,03-17,16:13:39.095,1702,8671,I,AlarmManager,remove(PendingIntent{<*>: PendingIntentRecord{<*> com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching,3908b381,<*> <*> <*> <*> <*> <*> <*> 
 38,03-17,16:13:39.207,1702,1815,I,WindowManager,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",b6505de7,<*> <*> last <*> user <*> <*> 
-39,03-17,16:13:39.207,1702,1815,I,WindowManager,"Application requested orientation <*>, got rotation <*> which has compatible metrics",ba4401e8,Application requested orientation <*> got rotation <*> which has compatible metrics 
+39,03-17,16:13:39.207,1702,1815,I,WindowManager,"Application requested orientation <*>, got rotation <*> which has compatible metrics",77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 40,03-17,16:13:40.142,1702,2618,D,PowerManagerService,"acquire lock=<*>, flags=<*>, tag=""RILJ_ACK_WL"", name=com.android.phone, ws=null, uid=<*>, pid=<*>",b774c78c,acquire lock <*> flags <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 41,03-17,16:13:40.143,1702,2618,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 42,03-17,16:13:40.146,1702,2555,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -198,20 +198,20 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 197,03-17,16:13:46.671,1702,17633,I,NotificationManager,onNotificationVisibilityChanged called,6e8ca25a,<*> called 
 198,03-17,16:13:46.672,2227,2318,I,PhoneStatusBar,logNotificationVisibilityChanges runInThread over,bb6009b8,<*> <*> over 
 199,03-17,16:13:46.764,2227,2794,E,KeyguardUpdateMonitor,isSimPinSecure mSimDatas is null or empty,324fdc6d,<*> <*> is <*> <*> <*> 
-200,03-17,16:13:46.765,2227,2794,W,KeyguardUpdateMonitor,registerCallback not in UI.,0be5b0e6,<*> not in <*> 
+200,03-17,16:13:46.765,2227,2794,W,KeyguardUpdateMonitor,registerCallback not in UI.,b5f6193c,<*> <*> <*> <*> 
 201,03-17,16:13:46.765,2227,2794,W,KeyguardUpdateMonitor,android.util.AndroidRuntimeException: Must execute in UI,21151038,<*> Must execute in UI 
 202,03-17,16:13:46.765,2227,2794,V,KeyguardUpdateMonitor,*** register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@<*>,347334c7,<*> <*> <*> <*> <*> 
-203,03-17,16:13:46.765,2227,2794,W,KeyguardUpdateMonitor,registerCallback not in UI.,0be5b0e6,<*> not in <*> 
+203,03-17,16:13:46.765,2227,2794,W,KeyguardUpdateMonitor,registerCallback not in UI.,b5f6193c,<*> <*> <*> <*> 
 204,03-17,16:13:46.765,2227,2794,W,KeyguardUpdateMonitor,android.util.AndroidRuntimeException: Must execute in UI,21151038,<*> Must execute in UI 
-205,03-17,16:13:46.765,2227,2794,V,KeyguardUpdateMonitor,*** unregister callback for null,347334c7,<*> <*> <*> <*> <*> 
+205,03-17,16:13:46.765,2227,2794,V,KeyguardUpdateMonitor,*** unregister callback for null,036a48da,<*> <*> <*> <*> null 
 206,03-17,16:13:46.778,2626,2839,D,PhoneInterfaceManager,[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>,d9f54b8a,<*> <*> <*> <*> <*> <*> 
 207,03-17,16:13:46.778,2626,2839,D,PhoneInterfaceManager,[PhoneIntfMgr] getDataEnabled: subId=<*> retVal=true,d9f54b8a,<*> <*> <*> <*> <*> <*> 
 208,03-17,16:13:47.012,1702,2105,D,PowerManagerService,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",67ce1993,<*> <*> <*> event <*> flags <*> uid <*> 
 209,03-17,16:13:47.013,1702,2105,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-210,03-17,16:13:47.016,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",8b65220d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false 
+210,03-17,16:13:47.016,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",5b7d1f4b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 211,03-17,16:13:47.038,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 212,03-17,16:13:47.038,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
-213,03-17,16:13:47.078,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",8b65220d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false 
+213,03-17,16:13:47.078,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",5b7d1f4b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 214,03-17,16:13:47.091,2227,2227,V,AudioManager,playSoundEffect   effectType: <*>,e0afaf2b,<*> <*> <*> 
 215,03-17,16:13:47.091,2227,2227,V,AudioManager,querySoundEffectsEnabled...,9e08cdfc,<*> 
 216,03-17,16:13:47.100,2227,2227,I,PhoneStatusBar,"animateCollapsePanels:flags=<*>, force=true, delayed=true, mExpandedVisible=true",2ac325f2,<*> <*> force <*> delayed <*> <*> true 
@@ -226,10 +226,10 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 225,03-17,16:13:47.138,1702,17622,D,PowerManagerService,"acquire lock=<*>, flags=<*>, tag=""*launch*"", name=android, ws=WorkSource{<*>}, uid=<*>, pid=<*>",b774c78c,acquire lock <*> flags <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 226,03-17,16:13:47.138,1702,17622,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 227,03-17,16:13:47.138,1702,17622,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
-228,03-17,16:13:47.149,1702,10454,I,NotificationManager,onNotificationClick called,6e8ca25a,<*> called 
+228,03-17,16:13:47.149,1702,10454,I,NotificationManager,onNotificationClick called,b5f8f0ab,<*> <*> 
 229,03-17,16:13:47.149,1702,1702,I,NotificationManager,"cancelNotification,index:<*>",9e08cdfc,<*> 
 230,03-17,16:13:47.150,1702,1702,I,NotificationManager,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>",e0afaf2b,<*> <*> <*> 
-231,03-17,16:13:47.150,1702,1702,I,NotificationManager,"cancelNotificationLocked called,tell the app,reason = <*>",b9e616cb,<*> <*> the <*> <*> 
+231,03-17,16:13:47.150,1702,1702,I,NotificationManager,"cancelNotificationLocked called,tell the app,reason = <*>",347334c7,<*> <*> <*> <*> <*> 
 232,03-17,16:13:47.150,1702,1702,I,NotificationManager,cancelNotificationLocked:<*>|com.tencent.mobileqq|<*>|null|<*>,9e08cdfc,<*> 
 233,03-17,16:13:47.150,1702,1702,I,NotificationManager,"cancelNotificationLocked,remove =com.tencent.mobileqq",b5f8f0ab,<*> <*> 
 234,03-17,16:13:47.150,1702,17633,E,ActivityManager,applyOptionsLocked: Unknown animationType=<*>,8eebf103,<*> Unknown <*> <*> 
@@ -241,7 +241,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 240,03-17,16:13:47.270,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 241,03-17,16:13:47.287,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 242,03-17,16:13:47.287,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
-243,03-17,16:13:47.289,1702,17633,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",fdbc45d2,Taking screenshot from Surface with <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+243,03-17,16:13:47.289,1702,17633,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 244,03-17,16:13:47.305,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 245,03-17,16:13:47.305,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 246,03-17,16:13:47.320,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
@@ -342,7 +342,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 341,03-17,16:13:47.713,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 342,03-17,16:13:47.735,2227,2227,V,PhoneStatusBar,setLightsOn(true),9e08cdfc,<*> 
 343,03-17,16:13:47.736,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-344,03-17,16:13:47.743,2227,2794,W,KeyguardUpdateMonitor,registerCallback not in UI.,0be5b0e6,<*> not in <*> 
+344,03-17,16:13:47.743,2227,2794,W,KeyguardUpdateMonitor,registerCallback not in UI.,b5f6193c,<*> <*> <*> <*> 
 345,03-17,16:13:47.743,2227,2794,W,KeyguardUpdateMonitor,android.util.AndroidRuntimeException: Must execute in UI,21151038,<*> Must execute in UI 
 346,03-17,16:13:47.743,2227,2794,V,KeyguardUpdateMonitor,*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@<*>,347334c7,<*> <*> <*> <*> <*> 
 347,03-17,16:13:47.810,2227,2227,V,PhoneStatusBar,setLightsOn(true),9e08cdfc,<*> 
@@ -361,7 +361,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 360,03-17,16:13:49.927,1702,2618,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 361,03-17,16:13:50.107,23650,23685,V,AudioManager,isMusicActive...,9e08cdfc,<*> 
 362,03-17,16:13:50.662,23650,23689,V,AudioManager,isMusicActive...,9e08cdfc,<*> 
-363,03-17,16:13:50.766,1702,3693,I,ActivityManager,"Start dump, calling from : pid=<*>, uid=<*>",43a68905,<*> <*> calling from <*> <*> <*> <*> <*> 
+363,03-17,16:13:50.766,1702,3693,I,ActivityManager,"Start dump, calling from : pid=<*>, uid=<*>",1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
 364,03-17,16:13:51.865,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 365,03-17,16:13:51.866,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 366,03-17,16:13:51.866,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
@@ -431,16 +431,16 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 430,03-17,16:13:58.796,1702,8303,D,PowerManagerService,"release:lock=<*>, flg=<*>, tag=""AudioMix"", name=audioserver"", ws=null, uid=<*>, pid=<*>",c6945d16,<*> <*> <*> <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 431,03-17,16:13:58.797,1702,8303,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 432,03-17,16:13:58.797,1702,8303,D,PowerManagerService,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",958d708a,Releasing suspend blocker <*> 
-433,03-17,16:14:00.001,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",d45dd5ed,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> <*> 
+433,03-17,16:14:00.001,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 434,03-17,16:14:00.002,1702,2096,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 435,03-17,16:14:00.002,1702,2096,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
-436,03-17,16:14:00.003,1702,1702,V,AlarmManager,Received TIME_TICK alarm; rescheduling,c413e44f,Received <*> <*> <*> 
+436,03-17,16:14:00.003,1702,1702,V,AlarmManager,Received TIME_TICK alarm; rescheduling,b5f6193c,<*> <*> <*> <*> 
 437,03-17,16:14:00.004,1702,1702,I,AlarmManager,scheduleTimeTickEvent triggerAtTime = <*>,e0afaf2b,<*> <*> <*> 
 438,03-17,16:14:00.022,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 439,03-17,16:14:00.022,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 440,03-17,16:14:00.039,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 441,03-17,16:14:00.039,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
-442,03-17,16:14:00.049,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.TIME_TICK,c8cd6688,received <*> <*> 
+442,03-17,16:14:00.049,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.TIME_TICK,a3aa7cb8,received broadcast <*> 
 443,03-17,16:14:00.050,2227,2227,D,KeyguardUpdateMonitor,handleTimeUpdate,9e08cdfc,<*> 
 444,03-17,16:14:00.349,1702,1702,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 445,03-17,16:14:00.349,1702,1702,D,PowerManagerService,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",958d708a,Releasing suspend blocker <*> 
@@ -778,10 +778,10 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 777,03-17,16:14:24.979,1702,14640,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 778,03-17,16:14:25.046,1702,2250,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 779,03-17,16:14:25.816,23650,23689,V,AudioManager,isMusicActive...,9e08cdfc,<*> 
-780,03-17,16:14:27.045,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> com.android.phone broadcastIntent}}},repeatInterval = <*>,listenerTag =null",5bcc6d1d,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> null 
+780,03-17,16:14:27.045,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> com.android.phone broadcastIntent}}},repeatInterval = <*>,listenerTag =null",4574ba06,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> null 
 781,03-17,16:14:27.047,1702,2096,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 782,03-17,16:14:27.047,1702,2096,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
-783,03-17,16:14:27.059,1702,17621,I,ActivityManager,Killing <*>:com.android.calendar/u0a13 (adj <*>): empty for 1810s,3908b381,<*> <*> <*> <*> <*> <*> <*> 
+783,03-17,16:14:27.059,1702,17621,I,ActivityManager,Killing <*>:com.android.calendar/u0a13 (adj <*>): empty for 1810s,595f8b52,<*> <*> <*> <*> <*> for <*> 
 784,03-17,16:14:27.075,1702,1702,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 785,03-17,16:14:27.075,1702,1702,D,PowerManagerService,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",958d708a,Releasing suspend blocker <*> 
 786,03-17,16:14:27.161,1702,17632,I,DisplayManagerService,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false,921c68bb,<*> <*> false 
@@ -853,16 +853,16 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 852,03-17,16:14:56.872,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 853,03-17,16:14:56.872,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 854,03-17,16:14:56.872,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
-855,03-17,16:15:00.001,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",d45dd5ed,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> <*> 
+855,03-17,16:15:00.001,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 856,03-17,16:15:00.004,1702,2096,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 857,03-17,16:15:00.004,1702,2096,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
-858,03-17,16:15:00.005,1702,1702,V,AlarmManager,Received TIME_TICK alarm; rescheduling,c413e44f,Received <*> <*> <*> 
+858,03-17,16:15:00.005,1702,1702,V,AlarmManager,Received TIME_TICK alarm; rescheduling,b5f6193c,<*> <*> <*> <*> 
 859,03-17,16:15:00.006,1702,1702,I,AlarmManager,scheduleTimeTickEvent triggerAtTime = <*>,e0afaf2b,<*> <*> <*> 
 860,03-17,16:15:00.026,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 861,03-17,16:15:00.026,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 862,03-17,16:15:00.050,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 863,03-17,16:15:00.050,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
-864,03-17,16:15:00.062,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.TIME_TICK,c8cd6688,received <*> <*> 
+864,03-17,16:15:00.062,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.TIME_TICK,a3aa7cb8,received broadcast <*> 
 865,03-17,16:15:00.064,2227,2227,D,KeyguardUpdateMonitor,handleTimeUpdate,9e08cdfc,<*> 
 866,03-17,16:15:00.099,1702,8671,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 867,03-17,16:15:00.354,1702,1702,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -914,7 +914,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 913,03-17,16:15:02.896,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 914,03-17,16:15:02.896,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 915,03-17,16:15:02.897,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
-916,03-17,16:15:03.502,1702,2639,W,ActivityManager,Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=<*>: not found,09308340,<*> to start <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+916,03-17,16:15:03.502,1702,2639,W,ActivityManager,Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=<*>: not found,03cfa71f,<*> to start service <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 917,03-17,16:15:05.340,1702,1737,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 918,03-17,16:15:05.340,1702,1737,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
 919,03-17,16:15:05.346,1702,3694,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
@@ -1009,7 +1009,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1008,03-17,16:15:19.986,1702,3693,I,DisplayManagerService,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>,e0afaf2b,<*> <*> <*> 
 1009,03-17,16:15:19.992,1702,2644,I,ActivityManager,Process com.tencent.mobileqq:qzone (pid <*>) has died,d9f54b8a,<*> <*> <*> <*> <*> <*> 
 1010,03-17,16:15:19.992,1702,2644,D,ActivityManager,cleanUpApplicationRecord -- <*>,e0afaf2b,<*> <*> <*> 
-1011,03-17,16:15:19.993,1702,2644,W,ActivityManager,Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms,f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> 
+1011,03-17,16:15:19.993,1702,2644,W,ActivityManager,Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms,3e5a403d,<*> <*> <*> <*> service <*> in <*> 
 1012,03-17,16:15:19.993,1702,2644,I,ActivityManager,"cleanUpApplicationRecordLocked, pid: <*>, restart: false",df8ba77e,<*> <*> <*> <*> false 
 1013,03-17,16:15:19.993,1702,2644,I,ActivityManager,"cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>",9d555061,<*> reset <*> <*> <*> <*> 
 1014,03-17,16:15:20.000,1702,14638,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
@@ -1023,8 +1023,8 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1022,03-17,16:15:20.963,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 1023,03-17,16:15:20.963,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 1024,03-17,16:15:20.963,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
-1025,03-17,16:15:20.995,1702,1765,I,ActivityManager,"new Process app=ProcessRecord{<*> <*>:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: <*>",1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1026,03-17,16:15:21.065,1702,1765,I,ActivityManager,Start proc <*>:com.tencent.mobileqq:qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1025,03-17,16:15:20.995,1702,1765,I,ActivityManager,"new Process app=ProcessRecord{<*> <*>:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: <*>",9fa6aebc,<*> <*> app <*> <*> <*> <*> <*> <*> 
+1026,03-17,16:15:21.065,1702,1765,I,ActivityManager,Start proc <*>:com.tencent.mobileqq:qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService,503a40de,Start <*> <*> for service <*> 
 1027,03-17,16:15:21.126,1702,2250,D,ActivityManager,"ActivityManagerService,attachApplication,callingPid = <*>",b5f8f0ab,<*> <*> 
 1028,03-17,16:15:21.207,1702,8289,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 1029,03-17,16:15:21.230,1702,2107,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
@@ -1123,7 +1123,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1122,03-17,16:15:26.375,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 1123,03-17,16:15:26.375,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 1124,03-17,16:15:26.375,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
-1125,03-17,16:15:26.376,1702,14640,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",fdbc45d2,Taking screenshot from Surface with <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1125,03-17,16:15:26.376,1702,14640,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1126,03-17,16:15:26.462,1702,8303,I,WindowManager,The change in focus caused us to need to do a layout begin,a784cefe,The change in focus caused us to need to do a layout begin 
 1127,03-17,16:15:26.462,1702,8303,I,WindowManager,The change in focus caused us to need to do a layout end,46a31510,The change in focus caused us to need to do a layout end 
 1128,03-17,16:15:26.466,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -1227,7 +1227,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1226,03-17,16:15:33.396,1702,1702,I,NotificationManager,"cancelNotification,index:-<*>",9e08cdfc,<*> 
 1227,03-17,16:15:33.398,1702,3137,I,NotificationManager,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =com.tencent.mobileqq,id =<*>",54bff1d6,<*> pid <*> <*> <*> <*> <*> 
 1228,03-17,16:15:33.398,1702,1702,I,NotificationManager,"cancelNotification,index:-<*>",9e08cdfc,<*> 
-1229,03-17,16:15:33.419,1702,8290,I,NotificationManager,enqueueNotificationInternal: pkg=com.tencent.mobileqq id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> vis=PRIVATE),e5707e9c,<*> <*> <*> <*> <*> notification <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1229,03-17,16:15:33.419,1702,8290,I,NotificationManager,enqueueNotificationInternal: pkg=com.tencent.mobileqq id=<*> notification=Notification(pri=<*> contentView=null vibrate=[<*>] sound=null tick defaults=<*> flags=<*> color=<*> vis=PRIVATE),9295a31d,<*> <*> <*> <*> <*> <*> <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1230,03-17,16:15:33.424,1702,1702,I,NotificationManager,enqueueNotificationInternal: n.getKey = <*>|com.tencent.mobileqq|<*>|null|<*>,e0afaf2b,<*> <*> <*> 
 1231,03-17,16:15:33.426,28601,29239,V,AudioManager,getRingerMode...,9e08cdfc,<*> 
 1232,03-17,16:15:33.427,1702,1702,I,NotificationManager,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false",b5f6193c,<*> <*> <*> <*> 
@@ -1240,8 +1240,8 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1239,03-17,16:15:33.529,2227,2227,I,PhoneStatusBar,removeNotificationChildren,9e08cdfc,<*> 
 1240,03-17,16:15:33.530,2227,2227,I,PhoneStatusBar,"updateNotificationShade: total=<*>, active=<*>",9f0871f1,<*> total <*> active <*> 
 1241,03-17,16:15:33.530,2227,2227,I,PhoneStatusBar,removeNotificationChildren,9e08cdfc,<*> 
-1242,03-17,16:15:33.530,1702,2113,I,NotificationManager,Marking notification as seen <*>|com.tencent.mobileqq|<*>|null|<*>,d0efa7c0,<*> notification <*> <*> <*> 
-1243,03-17,16:15:33.533,1702,17621,I,NotificationManager,onNotificationExpansionChanged called,6e8ca25a,<*> called 
+1242,03-17,16:15:33.530,1702,2113,I,NotificationManager,Marking notification as seen <*>|com.tencent.mobileqq|<*>|null|<*>,347334c7,<*> <*> <*> <*> <*> 
+1243,03-17,16:15:33.533,1702,17621,I,NotificationManager,onNotificationExpansionChanged called,b5f8f0ab,<*> <*> 
 1244,03-17,16:15:33.554,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 1245,03-17,16:15:33.554,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 1246,03-17,16:15:33.652,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
@@ -1265,7 +1265,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1264,03-17,16:15:36.937,1702,2113,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1265,03-17,16:15:36.938,1702,2113,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
 1266,03-17,16:15:37.011,1702,8303,I,WindowManager,"rotationForOrientationLw(orient=-<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",b6505de7,<*> <*> last <*> user <*> <*> 
-1267,03-17,16:15:37.011,1702,8303,I,WindowManager,"Application requested orientation -<*>, got rotation <*> which has compatible metrics",ba4401e8,Application requested orientation <*> got rotation <*> which has compatible metrics 
+1267,03-17,16:15:37.011,1702,8303,I,WindowManager,"Application requested orientation -<*>, got rotation <*> which has compatible metrics",77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1268,03-17,16:15:37.077,1702,14638,I,WindowManager,The change in focus caused us to need to do a layout begin,a784cefe,The change in focus caused us to need to do a layout begin 
 1269,03-17,16:15:37.077,1702,14638,I,WindowManager,The change in focus caused us to need to do a layout end,46a31510,The change in focus caused us to need to do a layout end 
 1270,03-17,16:15:37.078,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -1375,8 +1375,8 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1374,03-17,16:15:47.669,1702,2105,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1375,03-17,16:15:47.669,1702,2105,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
 1376,03-17,16:15:47.746,1702,17621,I,WindowManager,"rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED",b6505de7,<*> <*> last <*> user <*> <*> 
-1377,03-17,16:15:47.746,1702,17621,I,WindowManager,"Application requested orientation <*>, got rotation <*> which has compatible metrics",ba4401e8,Application requested orientation <*> got rotation <*> which has compatible metrics 
-1378,03-17,16:15:47.778,1702,8289,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",fdbc45d2,Taking screenshot from Surface with <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1377,03-17,16:15:47.746,1702,17621,I,WindowManager,"Application requested orientation <*>, got rotation <*> which has compatible metrics",77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1378,03-17,16:15:47.778,1702,8289,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1379,03-17,16:15:47.927,1702,8290,I,WindowManager,The change in focus caused us to need to do a layout begin,a784cefe,The change in focus caused us to need to do a layout begin 
 1380,03-17,16:15:47.927,1702,8290,I,WindowManager,The change in focus caused us to need to do a layout end,46a31510,The change in focus caused us to need to do a layout end 
 1381,03-17,16:15:47.932,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -1466,7 +1466,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1465,03-17,16:15:49.525,1702,27353,I,NotificationManager,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =com.tencent.mobileqq,id =<*>",54bff1d6,<*> pid <*> <*> <*> <*> <*> 
 1466,03-17,16:15:49.527,1702,1702,I,NotificationManager,"cancelNotification,index:<*>",9e08cdfc,<*> 
 1467,03-17,16:15:49.527,1702,1702,I,NotificationManager,"cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>",e0afaf2b,<*> <*> <*> 
-1468,03-17,16:15:49.527,1702,1702,I,NotificationManager,"cancelNotificationLocked called,tell the app,reason = <*>",b9e616cb,<*> <*> the <*> <*> 
+1468,03-17,16:15:49.527,1702,1702,I,NotificationManager,"cancelNotificationLocked called,tell the app,reason = <*>",347334c7,<*> <*> <*> <*> <*> 
 1469,03-17,16:15:49.528,1702,1702,I,NotificationManager,cancelNotificationLocked:<*>|com.tencent.mobileqq|<*>|null|<*>,9e08cdfc,<*> 
 1470,03-17,16:15:49.528,1702,2250,I,NotificationManager,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =com.tencent.mobileqq,id =<*>",54bff1d6,<*> pid <*> <*> <*> <*> <*> 
 1471,03-17,16:15:49.528,1702,1702,I,NotificationManager,"cancelNotificationLocked,remove =com.tencent.mobileqq",b5f8f0ab,<*> <*> 
@@ -1511,7 +1511,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1510,03-17,16:15:49.593,1702,17632,I,NotificationManager,"cancelNotificationWithTag pid <*>,uid = <*>,tag = null,pkg =com.tencent.mobileqq,id =<*>",54bff1d6,<*> pid <*> <*> <*> <*> <*> 
 1511,03-17,16:15:49.593,1702,1702,I,NotificationManager,"cancelNotification,index:-<*>",9e08cdfc,<*> 
 1512,03-17,16:15:49.595,2626,2808,I,PhoneInterfaceManager,shouldBlockLocation  ret:true,b5f8f0ab,<*> <*> 
-1513,03-17,16:15:49.595,2626,2808,D,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1513,03-17,16:15:49.595,2626,2808,D,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,71264682,<*> is blocked by permission manager <*> <*> <*> 
 1514,03-17,16:15:49.670,2227,2227,V,PhoneStatusBar,setLightsOn(true),9e08cdfc,<*> 
 1515,03-17,16:15:49.670,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1516,03-17,16:15:49.678,2227,2227,V,PhoneStatusBar,setLightsOn(true),9e08cdfc,<*> 
@@ -1535,7 +1535,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1534,03-17,16:15:51.057,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
 1535,03-17,16:15:51.183,2626,3066,W,PhoneInterfaceManager,shouldBlockLocation running ...,f40c901d,<*> running <*> 
 1536,03-17,16:15:51.189,2626,3066,I,PhoneInterfaceManager,shouldBlockLocation  ret:true,b5f8f0ab,<*> <*> 
-1537,03-17,16:15:51.189,2626,3066,D,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1537,03-17,16:15:51.189,2626,3066,D,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,71264682,<*> is blocked by permission manager <*> <*> <*> 
 1538,03-17,16:15:51.192,2626,2643,W,PhoneInterfaceManager,shouldBlockLocation running ...,f40c901d,<*> running <*> 
 1539,03-17,16:15:51.199,2626,2643,I,PhoneInterfaceManager,shouldBlockLocation  ret:true,b5f8f0ab,<*> <*> 
 1540,03-17,16:15:51.200,2626,2643,D,PhoneInterfaceManager,getCellLocation is blocked by permission manager uid:<*> pid:<*>,234caf52,<*> is <*> <*> <*> <*> <*> <*> 
@@ -1596,7 +1596,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1595,03-17,16:15:52.546,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1596,03-17,16:15:52.561,2626,2838,W,PhoneInterfaceManager,shouldBlockLocation running ...,f40c901d,<*> running <*> 
 1597,03-17,16:15:52.569,2626,2838,I,PhoneInterfaceManager,shouldBlockLocation  ret:true,b5f8f0ab,<*> <*> 
-1598,03-17,16:15:52.569,2626,2838,D,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1598,03-17,16:15:52.569,2626,2838,D,PhoneInterfaceManager,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,71264682,<*> is blocked by permission manager <*> <*> <*> 
 1599,03-17,16:15:53.082,1702,2105,D,PowerManagerService,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",67ce1993,<*> <*> <*> event <*> flags <*> uid <*> 
 1600,03-17,16:15:53.084,1702,2105,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1601,03-17,16:15:53.180,2227,2227,V,PhoneStatusBar,setLightsOn(true),9e08cdfc,<*> 
@@ -1685,16 +1685,16 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1684,03-17,16:15:59.790,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
 1685,03-17,16:15:59.850,1702,2105,D,PowerManagerService,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",67ce1993,<*> <*> <*> event <*> flags <*> uid <*> 
 1686,03-17,16:15:59.851,1702,2105,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1687,03-17,16:16:00.001,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",d45dd5ed,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> <*> 
+1687,03-17,16:16:00.001,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick",99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1688,03-17,16:16:00.003,1702,2096,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1689,03-17,16:16:00.003,1702,2096,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
-1690,03-17,16:16:00.005,1702,1702,V,AlarmManager,Received TIME_TICK alarm; rescheduling,c413e44f,Received <*> <*> <*> 
+1690,03-17,16:16:00.005,1702,1702,V,AlarmManager,Received TIME_TICK alarm; rescheduling,b5f6193c,<*> <*> <*> <*> 
 1691,03-17,16:16:00.005,1702,1702,I,AlarmManager,scheduleTimeTickEvent triggerAtTime = <*>,e0afaf2b,<*> <*> <*> 
 1692,03-17,16:16:00.031,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 1693,03-17,16:16:00.031,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
 1694,03-17,16:16:00.049,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 1695,03-17,16:16:00.049,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
-1696,03-17,16:16:00.058,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.TIME_TICK,c8cd6688,received <*> <*> 
+1696,03-17,16:16:00.058,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.TIME_TICK,a3aa7cb8,received broadcast <*> 
 1697,03-17,16:16:00.061,2227,2227,D,KeyguardUpdateMonitor,handleTimeUpdate,9e08cdfc,<*> 
 1698,03-17,16:16:00.090,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 1699,03-17,16:16:00.090,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
@@ -1775,7 +1775,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1774,03-17,16:16:02.802,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 1775,03-17,16:16:02.802,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
 1776,03-17,16:16:02.895,1702,1820,D,PowerManagerService,"updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>",77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1777,03-17,16:16:02.897,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.BATTERY_CHANGED,e0afaf2b,<*> <*> <*> 
+1777,03-17,16:16:02.897,2227,2227,D,KeyguardUpdateMonitor,received broadcast android.intent.action.BATTERY_CHANGED,a3aa7cb8,received broadcast <*> 
 1778,03-17,16:16:02.897,2227,2227,W,KeyguardUpdateMonitor,ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>,347334c7,<*> <*> <*> <*> <*> 
 1779,03-17,16:16:02.898,1702,1702,I,DeviceIdleController,updateChargingLocked: charging=false,921c68bb,<*> <*> false 
 1780,03-17,16:16:02.899,1702,1702,D,WifiService,"onReceive, action:android.intent.action.BATTERY_CHANGED",b5f8f0ab,<*> <*> 
@@ -1843,7 +1843,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1842,03-17,16:16:04.242,1702,3697,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 1843,03-17,16:16:04.242,2227,2227,V,PhoneStatusBar,setLightsOn(true),9e08cdfc,<*> 
 1844,03-17,16:16:04.243,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1845,03-17,16:16:04.291,1702,17632,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",fdbc45d2,Taking screenshot from Surface with <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1845,03-17,16:16:04.291,1702,17632,I,WindowManager,"Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[false], rot:[<*>]",256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1846,03-17,16:16:04.399,1702,1736,I,WindowManager,The change in focus caused us to need to do a layout begin,a784cefe,The change in focus caused us to need to do a layout begin 
 1847,03-17,16:16:04.399,1702,1736,I,WindowManager,The change in focus caused us to need to do a layout end,46a31510,The change in focus caused us to need to do a layout end 
 1848,03-17,16:16:04.408,2227,2227,I,PhoneStatusBar,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)",6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -1871,7 +1871,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1870,03-17,16:16:04.597,1702,2633,D,PowerManagerService,"release:lock=<*>, flg=<*>, tag=""*launch*"", name=android"", ws=WorkSource{<*>}, uid=<*>, pid=<*>",c6945d16,<*> <*> <*> <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 1871,03-17,16:16:04.598,1702,2633,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1872,03-17,16:16:04.598,1702,2633,D,PowerManagerService,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",958d708a,Releasing suspend blocker <*> 
-1873,03-17,16:16:04.598,1702,2644,I,NotificationManager,enqueueNotificationInternal: pkg=com.tencent.mm id=<*> notification=Notification(pri=<*> contentView=null vibrate=[] sound=null tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE),4705ec9d,<*> <*> <*> <*> <*> notification <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
+1873,03-17,16:16:04.598,1702,2644,I,NotificationManager,enqueueNotificationInternal: pkg=com.tencent.mm id=<*> notification=Notification(pri=<*> contentView=null vibrate=[] sound=null tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE),879384ed,<*> <*> <*> <*> <*> <*> <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1874,03-17,16:16:04.606,1702,1702,I,NotificationManager,enqueueNotificationInternal: n.getKey = <*>|com.tencent.mm|<*>|null|<*>,e0afaf2b,<*> <*> <*> 
 1875,03-17,16:16:04.609,1702,1702,I,NotificationManager,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false",b5f6193c,<*> <*> <*> <*> 
 1876,03-17,16:16:04.609,1702,1702,I,NotificationManager,"updateLightsLocked,turn off notificationLight",ba4b4838,<*> off <*> 
@@ -1883,10 +1883,10 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1882,03-17,16:16:04.772,2227,2227,I,PhoneStatusBar,removeNotificationChildren,9e08cdfc,<*> 
 1883,03-17,16:16:04.774,2227,2227,I,PhoneStatusBar,"updateNotificationShade: total=<*>, active=<*>",9f0871f1,<*> total <*> active <*> 
 1884,03-17,16:16:04.774,2227,2227,I,PhoneStatusBar,removeNotificationChildren,9e08cdfc,<*> 
-1885,03-17,16:16:04.774,1702,2107,I,NotificationManager,Marking notification as seen <*>|com.tencent.mm|<*>|null|<*>,d0efa7c0,<*> notification <*> <*> <*> 
+1885,03-17,16:16:04.774,1702,2107,I,NotificationManager,Marking notification as seen <*>|com.tencent.mm|<*>|null|<*>,347334c7,<*> <*> <*> <*> <*> 
 1886,03-17,16:16:04.790,1702,17621,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 1887,03-17,16:16:04.791,1702,3694,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
-1888,03-17,16:16:04.808,1702,27365,I,NotificationManager,onNotificationExpansionChanged called,6e8ca25a,<*> called 
+1888,03-17,16:16:04.808,1702,27365,I,NotificationManager,onNotificationExpansionChanged called,b5f8f0ab,<*> <*> 
 1889,03-17,16:16:04.816,1702,8303,I,WindowManager,Destroying surface Surface(name=com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:<*> com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:<*> com.android.server.wm.WindowState.destroyOrSaveSurface:<*> com.android.server.wm.AppWindowToken.destroySurfaces:<*> com.android.server.wm.AppWindowToken.notifyAppStopped:<*> com.android.server.wm.WindowManagerService.notifyAppStopped:<*> com.android.server.am.ActivityStack.activityStoppedLocked:<*> com.android.server.am.ActivityManagerService.activityStopped:<*>,42f965f0,Destroying surface <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> 
 1890,03-17,16:16:04.850,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 1891,03-17,16:16:04.850,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
@@ -1899,7 +1899,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1898,03-17,16:16:05.076,1702,2113,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 1899,03-17,16:16:05.079,1702,27365,W,ActivityManager,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
 1900,03-17,16:16:05.443,1702,2556,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 
-1901,03-17,16:16:05.512,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> com.android.phone broadcastIntent}}},repeatInterval = <*>,listenerTag =null",5bcc6d1d,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> null 
+1901,03-17,16:16:05.512,1702,2096,I,AlarmManager,"sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> com.android.phone broadcastIntent}}},repeatInterval = <*>,listenerTag =null",4574ba06,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> null 
 1902,03-17,16:16:05.514,1702,2096,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1903,03-17,16:16:05.514,1702,2096,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
 1904,03-17,16:16:05.528,1702,1702,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
@@ -1915,10 +1915,10 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1914,03-17,16:16:05.768,1702,14640,D,PowerManagerService,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",958d708a,Releasing suspend blocker <*> 
 1915,03-17,16:16:06.670,1702,2105,D,PowerManagerService,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>",67ce1993,<*> <*> <*> event <*> flags <*> uid <*> 
 1916,03-17,16:16:06.671,1702,2105,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
-1917,03-17,16:16:06.676,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",8b65220d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false 
+1917,03-17,16:16:06.676,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",5b7d1f4b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1918,03-17,16:16:06.688,2227,2227,I,StackScrollAlgorithm,"updateClipping isOverlap:false, getTopPadding=<*>.<*>, Translation=-<*>.<*>",68842378,<*> <*> <*> <*> Translation <*> 
 1919,03-17,16:16:06.689,2227,2227,I,StackScrollAlgorithm,updateDimmedActivatedHideSensitive overlap:false,b5f8f0ab,<*> <*> 
-1920,03-17,16:16:06.733,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",8b65220d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false 
+1920,03-17,16:16:06.733,2227,2227,I,PanelView,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>.<*>, y[<*>]=<*>.<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=false",5b7d1f4b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1921,03-17,16:16:06.733,1702,1820,I,DisplayPowerController,HBM brightnessIn =<*>,51904032,HBM <*> <*> 
 1922,03-17,16:16:06.734,1702,1820,I,DisplayPowerController,HBM brightnessOut =<*>,51904032,HBM <*> <*> 
 1923,03-17,16:16:06.734,1702,1820,D,DisplayPowerController,"Animating brightness: target=<*>, rate=<*>",63e01e22,Animating <*> target <*> rate <*> 
@@ -1961,7 +1961,7 @@ LineId,Date,Time,Pid,Tid,Level,Component,Content,EventId,EventTemplate
 1960,03-17,16:16:06.809,1702,3137,D,PowerManagerService,"acquire lock=<*>, flags=<*>, tag=""*launch*"", name=android, ws=WorkSource{<*>}, uid=<*>, pid=<*>",b774c78c,acquire lock <*> flags <*> tag <*> name <*> ws <*> uid <*> pid <*> 
 1961,03-17,16:16:06.809,1702,3137,D,PowerManagerService,"ready=true,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=<*>,auto=-<*>,adj=<*>.0userId=<*>",6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> 
 1962,03-17,16:16:06.809,1702,3137,D,PowerManagerService,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",e87e3e25,Acquiring suspend blocker <*> 
-1963,03-17,16:16:06.818,1702,1737,I,NotificationManager,onNotificationClick called,6e8ca25a,<*> called 
+1963,03-17,16:16:06.818,1702,1737,I,NotificationManager,onNotificationClick called,b5f8f0ab,<*> <*> 
 1964,03-17,16:16:06.819,1702,1702,I,NotificationManager,"cancelNotification,index:<*>",9e08cdfc,<*> 
 1965,03-17,16:16:06.872,1702,2639,E,ActivityManager,applyOptionsLocked: Unknown animationType=<*>,8eebf103,<*> Unknown <*> <*> 
 1966,03-17,16:16:06.955,1702,10454,W,ActivityManager,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,27f087f4,<*> caller <*> does not hold <*> limiting output 

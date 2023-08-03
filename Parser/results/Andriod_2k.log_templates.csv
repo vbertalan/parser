@@ -1,27 +1,27 @@
 EventId,EventTemplate,Occurrences
-ba53cf20,<*> <*> <*> <*> token <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+bb8e3c32,<*> app <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 60c833f6,acquire lock <*> flags <*> tag <*> <*> name <*> ws <*> uid <*> pid <*> ,1
 6e9a7275,ready <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,199
 8a11d6f0,Skipping <*> token <*> <*> <*> <*> <*> <*> going to hide ,4
-e7d98f02,visible is <*> ,3
+31a7e4be,<*> is <*> ,3
 c0215a7d,<*> is false ,5
-24cde421,visible is <*> <*> <*> ,2
+bd3db3ff,<*> is <*> <*> <*> ,2
 a4bae5a7,<*> <*> <*> <*> tag <*> <*> name <*> ws <*> uid <*> pid <*> ,1
 68842378,<*> <*> <*> <*> Translation <*> ,65
-b5f8f0ab,<*> <*> ,126
+b5f8f0ab,<*> <*> ,130
 27f087f4,<*> caller <*> does not hold <*> limiting output ,118
 c6945d16,<*> <*> <*> <*> tag <*> name <*> ws <*> uid <*> pid <*> ,25
 6e501209,<*> vis <*> mask <*> <*> <*> <*> <*> diff <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,200
 9e08cdfc,<*> ,343
-b5f6193c,<*> <*> <*> <*> ,26
-23cc8cc4,Destroying surface <*> <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+b5f6193c,<*> <*> <*> <*> ,32
+c1a4898a,Destroying surface <*> <*> <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> call <*> <*> <*> call <*> ,1
 42f965f0,Destroying surface <*> <*> called by <*> <*> <*> <*> <*> <*> <*> <*> ,24
 67ce1993,<*> <*> <*> event <*> flags <*> uid <*> ,69
-6b8795f6,orientation change is <*> <*> <*> ,1
-7cba5429,<*> <*> <*> <*> <*> to <*> <*> <*> ,1
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,17
+53aac43c,<*> <*> <*> <*> call <*> ,1
+1c6545e7,<*> <*> for <*> <*> to <*> <*> <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,16
 b6505de7,<*> <*> last <*> user <*> <*> ,3
-ba4401e8,Application requested orientation <*> got rotation <*> which has compatible metrics ,3
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
 b774c78c,acquire lock <*> flags <*> tag <*> name <*> ws <*> uid <*> pid <*> ,25
 f40c901d,<*> running <*> ,37
 a2038a65,<*> calling app is <*> ,5
@@ -34,26 +34,25 @@ a2038a65,<*> calling app is <*> ,5
 e87e3e25,Acquiring suspend blocker <*> ,33
 b10d7a10,<*> activity <*> <*> ,1
 0128d242,<*> <*> <*> <*> <*> to <*> ,1
-347334c7,<*> <*> <*> <*> <*> ,8
+347334c7,<*> <*> <*> <*> <*> ,11
 5015fe66,<*> <*> expand <*> alerts <*> back home recent clock <*> search <*> <*> ,6
 ba4b4838,<*> off <*> ,6
 87536ff2,<*> false ,20
 f8fafb29,<*> vel <*> expand <*> target <*> <*> <*> <*> false ,2
 fa40a622,Sending <*> broadcast <*> from system <*> pkg <*> ,2
 ca69a5dd,<*> <*> start ,6
-6e8ca25a,<*> called ,10
+6e8ca25a,<*> called ,6
 bb6009b8,<*> <*> over ,6
 324fdc6d,<*> <*> is <*> <*> <*> ,1
-0be5b0e6,<*> not in <*> ,3
 21151038,<*> Must execute in UI ,3
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,8
-8b65220d,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> false ,4
-e0afaf2b,<*> <*> <*> ,66
+036a48da,<*> <*> <*> <*> null ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,7
+5b7d1f4b,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+e0afaf2b,<*> <*> <*> ,65
 2ac325f2,<*> <*> force <*> delayed <*> <*> true ,3
 95e40ea7,START <*> <*> <*> <*> <*> <*> <*> <*> <*> from uid <*> on display <*> ,1
-b9e616cb,<*> <*> the <*> <*> ,2
 8eebf103,<*> Unknown <*> <*> ,2
-fdbc45d2,Taking screenshot from Surface with <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+256802d0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
 9f0871f1,<*> total <*> active <*> ,13
 a784cefe,The change in focus caused us to need to do a layout begin ,6
 46a31510,The change in focus caused us to need to do a layout end ,6
@@ -64,25 +63,25 @@ bb90447b,<*> <*> <*> <*> <*> act <*> dat <*> <*> <*> <*> <*> <*> <*> <*> ,7
 4518c80c,<*> num <*> <*> <*> ,14
 54bff1d6,<*> pid <*> <*> <*> <*> <*> ,20
 fb1c1457,<*> <*> true ,3
-43a68905,<*> <*> calling from <*> <*> <*> <*> <*> ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 df8ba77e,<*> <*> <*> <*> false ,6
 9d555061,<*> reset <*> <*> <*> <*> ,6
 921c68bb,<*> <*> false ,8
-d45dd5ed,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> <*> ,3
-c413e44f,Received <*> <*> <*> ,3
-c8cd6688,received <*> <*> ,3
-5bcc6d1d,sending alarm <*> type <*> when <*> <*> <*> <*> <*> <*> null ,2
-09308340,<*> to start <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+99c03aaf,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+a3aa7cb8,received broadcast <*> ,4
+4574ba06,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> null ,2
+595f8b52,<*> <*> <*> <*> <*> for <*> ,1
+03cfa71f,<*> to start service <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 b14682d9,<*> <*> false <*> <*> <*> <*> ,1
-f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
+3e5a403d,<*> <*> <*> <*> service <*> in <*> ,1
+9fa6aebc,<*> <*> app <*> <*> <*> <*> <*> <*> ,1
+503a40de,Start <*> <*> for service <*> ,1
 5f4ad19b,<*> <*> force <*> delayed <*> <*> false ,5
-e5707e9c,<*> <*> <*> <*> <*> notification <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-d0efa7c0,<*> notification <*> <*> <*> ,2
+9295a31d,<*> <*> <*> <*> <*> <*> <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 44a31d94,START <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> from uid <*> on display <*> ,2
 16a53d09,ACTIVITY <*> <*> <*> <*> <*> ,2
+71264682,<*> is blocked by permission manager <*> <*> <*> ,3
 234caf52,<*> is <*> <*> <*> <*> <*> <*> ,1
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-4705ec9d,<*> <*> <*> <*> <*> notification <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+879384ed,<*> <*> <*> <*> <*> <*> <*> <*> <*> null <*> <*> <*> null <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 742bfe3f,START <*> <*> <*> <*> <*> <*> <*> from uid <*> on display <*> ,1
 b17db058,<*> <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1

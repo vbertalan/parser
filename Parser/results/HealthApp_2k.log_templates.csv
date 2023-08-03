@@ -1,5 +1,5 @@
 EventId,EventTemplate,Occurrences
-b5f8f0ab,<*> <*> ,913
+b5f8f0ab,<*> <*> ,912
 b5f6193c,<*> <*> <*> <*> ,273
 e0afaf2b,<*> <*> <*> ,532
 40b016a1,flush sensor data ,17
@@ -41,5 +41,6 @@ b78ab31e,<*> <*> is <*> ,3
 059443b0,<*> true ,2
 fb1c1457,<*> <*> true ,1
 594152ff,reload <*> <*> <*> <*> ,1
+a8e355f8,next <*> ,1
 921c68bb,<*> <*> false ,1
 fe3f067a,<*> <*> new <*> <*> <*> <*> <*> <*> is <*> <*> is <*> ,1

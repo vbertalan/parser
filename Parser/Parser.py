@@ -14,7 +14,7 @@ import hashlib
 from tqdm import tqdm
 from datetime import datetime
 from pathlib import Path
-import py_stringmatching as sm
+#import py_stringmatching as sm
 import pickle
 
 class LogParser:
@@ -107,7 +107,7 @@ class LogParser:
     def create_dict(self, df_sentences):        
 
         values = pd.DataFrame(columns=['Token', 'Cluster', 'Frequence', 'Type'])
-        tokenizer = sm.AlphanumericTokenizer()
+        #tokenizer = sm.AlphanumericTokenizer()
 
         for id, row in tqdm(df_sentences.iteritems(), desc="Creating Dict", total=len(df_sentences)):
             #sentence_tokens = word_tokenize(row)
@@ -244,7 +244,7 @@ class LogParser:
         log_templates = []
         log_templateids = []
 
-        tokenizer = sm.AlphanumericTokenizer()
+        #tokenizer = sm.AlphanumericTokenizer()
 
         create_path = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\create.txt"
         #create_path = "/home/vbertalan/Downloads/Parser/parser/create.txt"

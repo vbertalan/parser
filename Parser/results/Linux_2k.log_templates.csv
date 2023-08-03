@@ -7,70 +7,64 @@ c0a857e0,session opened for user cyrus by <*> <*> ,43
 0ddcb59f,ALERT exited abnormally with <*> ,43
 b89c757e,session opened for user news by <*> <*> ,43
 8ff7d7b9,session closed for user news ,43
-8a27b1ca,connection from <*> <*> at <*> Jun <*> <*> <*> ,30
+0aad5926,connection from <*> <*> at <*> <*> <*> <*> <*> ,8
 c693b0b3,session opened for user test by <*> <*> ,36
 58e532f7,session closed for user test ,36
+8a27b1ca,connection from <*> <*> at <*> Jun <*> <*> <*> ,139
+05a79088,connection from <*> <*> at Sat Jun <*> <*> <*> ,15
 c51386cc,<*> <*> <*> <*> <*> <*> <*> <*> Sat <*> <*> <*> <*> ,1
-857302d1,<*> <*> succeeded ,7
+857302d1,<*> <*> succeeded ,8
 2bb55441,<*> startup succeeded ,13
 9e08cdfc,<*> ,7
-0aad5926,connection from <*> <*> at <*> <*> <*> <*> <*> ,132
 38ff61b3,<*> <*> <*> from <*> ,1
-a1f0bc4e,Authentication failed from <*> <*> Permission denied in replay cache code ,8
+becef1f9,Authentication failed from <*> <*> <*> <*> <*> <*> <*> <*> ,8
 c7dfd3e0,<*> authentication failed ,23
 0bbaa51d,Authentication failed from <*> <*> Software caused connection abort ,15
-de114afa,connection from <*> <*> at <*> Jul <*> <*> <*> ,462
-2da732a2,connection from <*> <*> at Sun Jul <*> <*> <*> ,239
-aa2d7533,connection from <*> <*> at Mon Jul <*> <*> <*> ,23
-e0afaf2b,<*> <*> <*> ,10
+de114afa,connection from <*> <*> at <*> Jul <*> <*> <*> ,508
+2da732a2,connection from <*> <*> at Sun Jul <*> <*> <*> ,216
+e0afaf2b,<*> <*> <*> ,11
 b5f6193c,<*> <*> <*> <*> ,10
 175d0535,session opened for user <*> by <*> <*> ,1
 113bd753,session closed for user <*> ,1
 4aa2fef7,removing device node <*> ,4
 b7fdb4b0,creating device node <*> ,4
+5a2eeb03,connection from <*> <*> at Sat Jul <*> <*> <*> ,23
 108f1713,<*> <*> user ,1
-8ec1a1f1,connection from <*> <*> at Thu Jul <*> <*> <*> ,23
 605e256e,ANONYMOUS FTP LOGIN FROM <*> <*> ,2
 885b8046,notify question section contains no <*> ,16
 396329d3,<*> <*> Transport endpoint is not connected ,4
 c632524c,<*> <*> <*> <*> <*> Connection <*> <*> <*> ,2
 d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
 2e42235d,Linux version <*> <*> <*> version <*> <*> <*> <*> Linux <*> <*> Sat <*> <*> <*> <*> <*> ,1
-347334c7,<*> <*> <*> <*> <*> ,18
+347334c7,<*> <*> <*> <*> <*> ,19
+69f5ceeb,On <*> <*> <*> <*> ,1
 bd85ed04,<*> <*> <*> <*> LIFO <*> ,3
-51931805,<*> <*> <*> <*> bios <*> <*> <*> and <*> <*> ,1
-3908b381,<*> <*> <*> <*> <*> <*> <*> ,4
+254d030a,<*> <*> <*> <*> bios <*> <*> <*> <*> <*> <*> ,1
+3908b381,<*> <*> <*> <*> <*> <*> <*> ,5
 30c60c2c,Kernel <*> <*> <*> <*> <*> <*> <*> <*> ,1
 b5f8f0ab,<*> <*> ,3
 9858360d,<*> hash table <*> <*> <*> <*> <*> <*> ,4
-72d72dc7,<*> <*> Starting ,1
 01fe13e5,<*> <*> <*> <*> kernel <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-43b6e054,Security <*> <*> initialized ,1
-b448a91c,<*> Starting <*> <*> <*> ,1
-e8128cd1,<*> <*> <*> <*> security <*> <*> <*> <*> ,1
+281fb7ea,<*> <*> <*> initialized ,1
+1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
 60ea0d38,<*> registering <*> <*> <*> <*> ,1
-29489a42,<*> Registering <*> <*> capability ,1
-039fa4e8,Capability <*> initialized ,1
+6ab39e40,<*> Registering <*> <*> <*> ,1
+a6e97b64,<*> <*> initialized ,1
 b2582bb9,<*> <*> hash table <*> <*> <*> <*> <*> <*> ,1
-1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-bf2db201,Intel <*> <*> <*> <*> ,1
-0368b3ed,Intel <*> <*> <*> <*> <*> <*> ,1
+cd67cab3,Intel machine check <*> <*> ,1
+582e2b96,Intel machine check <*> <*> on <*> ,1
 b0e9590a,<*> Intel <*> <*> <*> <*> <*> ,1
-fad77c9b,<*> <*> <*> <*> and <*> <*> ,1
-ca5e19bc,Initializing <*> <*> <*> succeeded ,1
-c217e6d8,<*> PCI BIOS <*> <*> <*> <*> <*> <*> <*> <*> ,1
-9edd0db2,<*> <*> and <*> <*> <*> <*> <*> <*> ,1
+37b79eeb,<*> <*> <*> <*> succeeded ,2
+94f568d6,<*> PCI <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
+2261cfd8,<*> Plug <*> <*> <*> <*> <*> <*> <*> ,1
 b4d3e063,<*> <*> <*> <*> <*> PCI IRQ <*> <*> ,1
 d8e8c236,<*> <*> <*> IRQ <*> <*> ,1
 74984a7f,<*> <*> PCI <*> ,1
 e718913e,<*> <*> PCI <*> <*> <*> ,1
 e585c78b,<*> <*> IRQ <*> <*> <*> <*> <*> ,1
-de405941,<*> BIOS <*> <*> <*> <*> <*> <*> <*> ,1
-8f35f61d,<*> initializing <*> <*> <*> ,1
+5ca47130,<*> BIOS version <*> <*> <*> <*> version <*> ,1
 8e280e1f,<*> initialized ,1
 abee0f7b,<*> <*> <*> succeeded ,1
-37b79eeb,<*> <*> <*> <*> succeeded ,1
 a8996bc7,<*> Registering <*> <*> ,1
-1bc62b10,Initializing <*> <*> ,1
-58e1fe42,<*> PCI <*> <*> PCI <*> <*> <*> ,1
-fbd225af,<*> <*> <*> <*> <*> device <*> ,1
+2ceec44e,<*> PCI <*> Plug PCI <*> <*> <*> ,1
+598888ab,<*> <*> Plug <*> <*> <*> <*> ,1

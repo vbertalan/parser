@@ -2,7 +2,7 @@
 
 import sys
 # Path - Windows
-sys.path.append("C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser")
+sys.path.append("C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1")
 # Path - Linux
 #sys.path.append("/home/vbertalan/Downloads/Parser/parser")
 from fileinput import filename
@@ -21,9 +21,13 @@ from pathlib import Path
 #output_dir = os.path.join(os.getcwd(), "results")  # The output directory of parsing results
 #vector_dir = os.path.join(os.getcwd(), "vectors")  # The vector directory of converted logs
 
-input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
-output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
-vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\vectors" # The directory to save the vectorized files
+#input_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\logs" # The directory to get the logs
+#output_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\results"  # The output directory of parsing results
+#vector_dir = "C:\\Users\\vbert\\OneDrive\\DOUTORADO Poly Mtl\\Projeto\\parser-1\\Parser\\vectors" # The directory to save the vectorized files
+
+input_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1/Parser/logs"  # The input directory of log file
+output_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1/Parser/results"  # The output directory of parsing results
+vector_dir = "C:/Users/vbert/OneDrive/DOUTORADO Poly Mtl/Projeto/parser-1/Parser/vectors" # The directory to save the vectorized files
 
 #input_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/logs" # The directory to get the logs
 #output_dir = "/home/vberta/projects/def-aloise/vberta/Parser-CC/parser/Parser/results"  # The output directory of parsing results
@@ -191,6 +195,7 @@ for dataset, setting in benchmark_settings.items():
                                 outdir=output_dir, vecdir=vector_dir, rex=setting['regex'], threshold = setting['threshold'], filename=log_file)
     parser.parse(log_file)  
 
+    '''
     if (setting['accuracy'] == 0):
         parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
         print('\n=== Parsing finished ===')
@@ -202,7 +207,21 @@ for dataset, setting in benchmark_settings.items():
                             parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
                             )
         benchmark_result.append([dataset, F1_measure, accuracy])
+    '''
 
+    precision, recall, f_measure, accuracy = evaluator.evaluate(
+                           groundtruth=os.path.join(indir, log_file + '_structured.csv'),
+                           parsedresult=os.path.join(output_dir, log_file + '_structured.csv')
+                           )
+    benchmark_result.append([dataset, precision, recall, f_measure, accuracy])
+
+print('\n=== Overall evaluation results ===')
+df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'Precision', 'Recall', 'F1 Measure', 'Accuracy'])
+df_result.set_index('Dataset', inplace=True)
+print(df_result)
+path_to_file = os.path.join(output_dir, 'Parser_benchmark_result.csv')
+filepath = Path(path_to_file)
+df_result.T.to_csv(filepath)
 
     
 ## Testing different thresholds
@@ -235,6 +254,7 @@ for dataset, setting in benchmark_settings.items():
 #     print("On dataset {}, the best threshold is {}!".format(dataset, best_threshold))
 #     benchmark_result.append([dataset, best_F1_measure, best_accuracy])
 
+'''
 if (test_accuracy):
     print('\n=== Overall evaluation results ===')
     df_result = pd.DataFrame(benchmark_result, columns=['Dataset', 'F1_measure', 'Accuracy'])
@@ -243,4 +263,5 @@ if (test_accuracy):
     path_to_file = os.path.join(output_dir, 'Parser_benchmark_result.csv')
     filepath = Path(path_to_file)
     df_result.T.to_csv(filepath)
+'''
 

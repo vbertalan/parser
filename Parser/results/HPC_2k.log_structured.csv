@@ -654,7 +654,7 @@ LineId,LogId,Node,Component,State,Time,Flag,Content,EventId,EventTemplate
 653,46615,node-181,node,status,1126168951,1,running,b3be2b82,running 
 654,56225,node-74,node,status,1126814969,1,running,b3be2b82,running 
 655,56504,node-55,node,status,1126815181,1,configured out,fe1280e2,configured out 
-656,58843,full,partition,status,1126818053,1,closing,9e08cdfc,<*> 
+656,58843,full,partition,status,1126818053,1,closing,993164b3,closing 
 657,56256,node-105,node,status,1126814969,0,running,b3be2b82,running 
 658,56261,node-110,node,status,1126814969,0,running,b3be2b82,running 
 659,56327,node-175,node,status,1126814970,0,running,b3be2b82,running 

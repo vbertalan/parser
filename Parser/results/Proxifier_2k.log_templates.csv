@@ -1,22 +1,21 @@
 EventId,EventTemplate,Occurrences
 7953f411,<*> open through proxy <*> <*> ,956
-99f708b2,<*> <*> <*> bytes <*> <*> bytes <*> lifetime <*> ,232
+99f708b2,<*> <*> <*> bytes <*> <*> bytes <*> lifetime <*> ,234
 504d8188,<*> <*> <*> bytes <*> <*> bytes <*> lifetime <*> <*> ,100
 51fbf047,<*> <*> <*> bytes <*> <*> bytes <*> <*> <*> lifetime <*> <*> ,35
 a315c8c9,<*> <*> <*> bytes <*> <*> <*> <*> bytes <*> <*> <*> lifetime <*> ,278
 6fc741c0,<*> <*> <*> bytes <*> <*> <*> <*> bytes <*> lifetime <*> <*> ,30
-62499642,<*> <*> <*> bytes <*> <*> bytes <*> <*> <*> lifetime <*> ,133
+62499642,<*> <*> <*> bytes <*> <*> bytes <*> <*> <*> lifetime <*> ,132
 62415f8a,<*> <*> <*> bytes <*> <*> <*> <*> bytes <*> lifetime <*> ,91
 17f3772b,<*> <*> <*> bytes <*> <*> <*> <*> bytes <*> <*> <*> lifetime <*> <*> ,25
-77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,3
+77da37e0,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
 d613eed4,<*> error <*> Could not connect <*> proxy <*> <*> Proxy <*> <*> <*> <*> ,3
 b38d5221,<*> error <*> A connection request was canceled before the <*> ,24
 5db92ffd,<*> error <*> Could not connect <*> proxy <*> <*> Proxy <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,17
+ba1ba23b,<*> error <*> <*> <*> <*> <*> <*> <*> <*> <*> ,5
 7935dda4,<*> <*> <*> bytes <*> <*> bytes <*> lifetime <*> sec ,20
-ba1ba23b,<*> error <*> <*> <*> <*> <*> <*> <*> <*> <*> ,4
-bb7d5637,<*> <*> <*> bytes <*> <*> bytes <*> <*> <*> ,2
 87522980,<*> error <*> Could not connect <*> proxy <*> <*> Could not <*> <*> error <*> ,18
-aced5053,<*> error <*> Could not connect to proxy <*> <*> Could not <*> <*> error <*> ,2
+5c564608,<*> error <*> <*> <*> <*> <*> proxy <*> <*> <*> <*> <*> <*> error <*> ,14
 70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 47006227,<*> error <*> Could not connect <*> proxy <*> <*> <*> <*> <*> <*> error <*> ,14
-4759216c,<*> error <*> Could not connect to proxy <*> <*> <*> <*> <*> <*> error <*> ,12
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1

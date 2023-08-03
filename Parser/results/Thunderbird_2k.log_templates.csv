@@ -16,16 +16,16 @@ c92c8617,<*> from <*> size <*> class <*> <*> <*> <*> <*> relay <*> ,10
 0437c0fd,<*> on <*> to <*> via <*> ,8
 0e8029df,<*> from <*> via <*> network <*> no free leases ,15
 a6bbf444,<*> for <*> <*> from <*> via <*> ,3
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
 fa835cb3,<*> for <*> <*> from <*> via <*> unknown lease <*> ,9
 4389c914,<*> <*> <*> illegal attempt to update using time <*> when last update time is <*> <*> one second <*> ,10
 28d4a7ce,kernel time sync disabled <*> ,1
-8cb77279,time <*> <*> <*> ,1
+9d1c8ad5,time reset <*> s ,1
 d5a8bece,Received SNMP <*> from <*> ,1
 4979fafd,kernel time sync enabled <*> ,1
 2c58f242,My unqualified host name <*> <*> sleeping for retry ,5
 f8974e8d,<*> <*> Module <*> <*> ,1
-b5f6193c,<*> <*> <*> <*> ,11
+b5f6193c,<*> <*> <*> <*> ,10
 b687caa0,<*> <*> DELL PE <*> <*> <*> <*> <*> <*> ,7
 347334c7,<*> <*> <*> <*> <*> ,2
 1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
@@ -55,12 +55,12 @@ a5bee5cc,<*> <*> version <*> address <*> <*> <*> ,3
 837fabc6,PCI <*> <*> PCI <*> <*> <*> ,1
 744959a3,root LABEL <*> <*> <*> console <*> console <*> <*> <*> <*> ,1
 05c66754,Registered protocol family <*> ,5
-2f5975d6,Using <*> <*> <*> for <*> <*> ,1
+c2c5ab4a,Using software bounce buffering for IO <*> ,1
 52c4aca4,<*> PCI <*> <*> <*> ,1
 94289a27,Transparent bridge <*> <*> ,1
 a1317829,Using <*> for <*> routing ,1
 26e5d9f7,Using <*> at <*> ,1
-f8c780de,<*> configuration <*> <*> ,1
+4158c1be,Using configuration type <*> ,1
 c4bae555,Compressed image found at block <*> ,1
 62d2a81f,Disabled at <*> ,1
 9e08cdfc,<*> ,2
@@ -77,13 +77,14 @@ c2d1025f,<*> <*> <*> SCSI BP <*> <*> ,1
 d203b94f,initialized ,1
 778bdbc3,initializing <*> socket <*> ,1
 0002e447,allocating <*> for <*> ,2
-c984cfde,not allocating <*> for <*> device <*> ,2
+5f64b8ed,not allocating <*> for <*> device lo ,1
 cf438786,<*> HID core driver ,1
-94c4cd8d,<*> <*> <*> Link <*> <*> <*> <*> <*> <*> ,1
+4adee04d,<*> <*> <*> <*> Network Connection ,2
+bbf1091b,<*> <*> NIC Link is Up <*> Mbps Full Duplex ,1
 2b70c70f,no floppy controllers found ,1
 4106406c,<*> not detected ,1
 a9c2b964,Wait for ready failed before probe <*> ,6
-f55c7304,<*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> ,1
+2286c542,Assuming <*> system bus speed for PIO <*> override with <*> xx ,1
 bbf55005,Unknown cmd <*> <*> <*> on <*> ,1
 a405ad24,<*> <*> <*> core team ,4
 f4ad6816,Installing public key data ,1
@@ -99,14 +100,15 @@ ccd6ba3c,<*> <*> <*> Fri Dec <*> <*> EST <*> ,1
 bf6f1ee6,Starting <*> succeeded ,1
 90bfe9f4,Version <*> Starting ,1
 e6e9b6d6,LSI Logic <*> driver ,1
-d3b28dbb,scanning scsi channel <*> <*> <*> for <*> <*> ,1
-40d62b95,scanning scsi channel <*> <*> for <*> <*> ,1
+2a28417c,scanning scsi channel <*> <*> <*> for <*> devices ,1
+0a499cfc,scanning scsi channel <*> <*> for logical drives ,1
 068d6505,<*> <*> cache <*> <*> ,1
 91cfea9b,Registering secondary module capability ,1
 92bb746c,<*> <*> <*> <*> <*> irq <*> ,2
 429d684b,<*> version <*> starting ,1
 63b0e45e,Detected <*> MHz <*> ,1
-cc2195c2,Using <*> MHz <*> <*> ,1
+b424dd92,Using <*> <*> <*> <*> ,1
+09f73f5a,Using <*> <*> <*> ,1
 f3317052,Creating Topspin <*> <*> ,1
 cdf783b4,registered new driver <*> ,3
 8173d448,registered new driver hub ,1
@@ -120,6 +122,7 @@ d3cf1b31,Mounting NFS <*> succeeded ,1
 54dc7c17,<*> we failed to resolve data source name <*> <*> <*> ,1
 b3ef946c,<*> <*> illegal attempt to update using time <*> when last update time is <*> <*> one second <*> ,1
 b318a687,<*> we failed to resolve trusted host name <*> <*> ,1
+c984cfde,not allocating <*> for <*> device <*> ,1
 10a828d8,succeeded ,2
 6a41915d,Server listening on <*> port <*> ,1
 b9bb8887,<*> Bind to port <*> on <*> <*> Address already in <*> ,1

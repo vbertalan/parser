@@ -6,7 +6,7 @@ d7b272e0,CE sym <*> at <*> mask <*> ,92
 20ef6802,generating <*> ,721
 e1df3e8d,force <*> <*> ,2
 70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-aa54bedd,<*> LOGIN <*> <*> No such file or directory ,13
+aa54bedd,<*> LOGIN <*> <*> No such file or directory ,18
 0d2b1f51,<*> ddr <*> detected and corrected on rank <*> symbol <*> bit <*> ,18
 b9b29cfb,data TLB error interrupt ,60
 a69f0022,<*> <*> code <*> <*> <*> <*> <*> <*> ,1
@@ -34,10 +34,10 @@ ee0f60b1,floating point <*> <*> ,4
 6df21d95,program <*> fp cr <*> ,1
 12f6c958,<*> instruction cache <*> <*> ,2
 18ac268d,program <*> fp cr field <*> ,4
-9fe5a8ae,<*> data <*> <*> <*> ,1
+909aa878,guaranteed data cache block <*> ,1
 e0afaf2b,<*> <*> <*> ,4
 6a64a6a6,wait state <*> ,1
-70fcc78c,critical input interrupt <*> ,1
+2de3043a,<*> <*> interrupt <*> ,1
 b5f6193c,<*> <*> <*> <*> ,1
 8ca1a795,rts internal error ,1
 348a140d,debug wait <*> ,2
@@ -45,29 +45,27 @@ b5f6193c,<*> <*> <*> <*> ,1
 75baca0e,disable store <*> ,3
 2c819227,total of <*> ddr <*> detected and corrected ,13
 f598a2d2,<*> Error loading <*> invalid or missing program <*> No such file or directory ,21
-a2635661,<*> Error creating node map from file <*> No <*> <*> ,1
+41e935c5,<*> Error <*> node map <*> file <*> No <*> <*> ,1
 e41db344,program interrupt ,3
 6dafd125,Node card is not <*> <*> ,6
-b9270674,<*> Error creating node map from file <*> <*> file <*> ,1
-0ba9161b,Ido chip status <*> <*> ip <*> v <*> t <*> status M Fri Jul <*> <*> PDT <*> ,1
+ec8f7bbd,<*> Error <*> node map <*> file <*> <*> file <*> ,1
+b527f87b,Ido chip status <*> <*> ip <*> v <*> t <*> status M <*> <*> <*> <*> PDT <*> ,5
 7703e507,<*> not <*> <*> <*> <*> node card ,6
-ba1cfad8,<*> Missing or invalid <*> <*> line <*> of node map file <*> ,2
+35185fcd,<*> Missing or invalid <*> <*> <*> <*> <*> node map file <*> ,2
 1245604c,<*> torus receiver <*> input pipe <*> <*> <*> detected and corrected ,4
-ebb463e2,<*> <*> <*> <*> <*> <*> <*> <*> <*> line <*> of node map file <*> ,2
-79b56303,<*> Error creating node map from file <*> <*> <*> <*> ,1
+18195df5,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> node map file <*> ,2
+15f24723,<*> Error <*> node map <*> file <*> <*> <*> <*> ,1
 3359fffc,rts <*> <*> stopping execution ,2
-e13725b2,<*> Error creating node map from file <*> Permission denied ,1
+1d28d08e,<*> Error <*> node map <*> file <*> Permission denied ,1
 75a17954,<*> kernel terminated for reason <*> bad message <*> invalid <*> type <*> cpu <*> index <*> total <*> ,1
 368430a9,<*> floating point alignment exceptions ,121
-b9f18208,New ido chip inserted into the <*> <*> ip <*> v <*> t <*> ,3
+5f41a452,<*> ido chip <*> <*> the <*> <*> ip <*> v <*> t <*> ,3
 3e3305de,<*> is not <*> <*> ,1
 cdd8d586,Node card <*> <*> <*> <*> <*> <*> <*> <*> <*> is <*> <*> Clock <*> is <*> Clock <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is not <*> Temperature <*> is not <*> No temperature <*> Temperature <*> Error Latch is <*> <*> is <*> <*> error latch is <*> <*> is <*> <*> error latch is <*> The <*> volt rail is <*> The <*> volt rail is <*> ,1
 e40ea26b,Node card <*> <*> <*> node in processor card slot <*> do not <*> <*> <*> <*> found <*> ,9
 120a3358,<*> hit ASSERT <*> ASSERT expression <*> Source file <*> Source line <*> Function int <*> <*> ,35
 30815189,Node card <*> no <*> <*> <*> Clock <*> is <*> Clock <*> is <*> <*> <*> Reset is <*> <*> <*> Reset is <*> Temperature <*> is not <*> No temperature <*> Temperature <*> Error Latch is <*> <*> IS NOT <*> <*> ERROR LATCH IS <*> <*> IS NOT <*> <*> ERROR LATCH IS <*> The <*> volt rail is <*> The <*> volt rail is <*> ,5
-b93956e4,Ido chip status <*> <*> ip <*> v <*> t <*> status M Thu Aug <*> <*> PDT <*> ,2
 be8b0a2c,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-f8eadc60,Ido chip status <*> <*> ip <*> v <*> t <*> status M Tue Aug <*> <*> PDT <*> ,1
 f9c7e392,rts <*> link training <*> <*> B C <*> <*> <*> <*> <*> <*> <*> B C <*> <*> <*> <*> ,1
 547e2a3c,<*> tree receiver <*> in <*> state <*> <*> <*> detected ,3
 d1b018ac,<*> Error loading <*> invalid or missing program <*> Exec format error ,17
@@ -77,13 +75,11 @@ d3e84f17,<*> generated <*> core files for program <*> ,30
 ae39ce9b,<*> <*> dear <*> ,208
 d2f5f36d,<*> Mount failed <*> <*> <*> <*> <*> <*> <*> ,2
 a9295050,Lustre mount FAILED <*> <*> <*> point <*> ,9
-d9f54b8a,<*> <*> <*> <*> <*> <*> ,4
+a28c3d7d,<*> <*> <*> the <*> <*> ,3
 f66f71ca,<*> <*> <*> <*> <*> <*> <*> message <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-62d29a4a,suppressing further interrupts of same type ,2
-6bf30409,Ido chip status <*> <*> ip <*> v <*> t <*> status M Sat Sep <*> <*> PDT <*> ,1
+d9f54b8a,<*> <*> <*> <*> <*> <*> ,3
 e6297eb7,<*> bad message <*> expecting type <*> instead of type <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-0616765b,<*> <*> <*> <*> No such file or directory ,5
-5f30073a,critical input interrupt <*> <*> bit <*> warning for torus <*> <*> ,2
+70f3a2d0,critical input interrupt <*> <*> bit <*> warning for torus <*> wire ,2
 c65a33f3,<*> Error loading <*> invalid or missing program <*> Permission denied ,19
 b33d7158,data cache search parity error <*> attempting to correct ,6
 d4f4a995,shutdown complete ,1
@@ -103,11 +99,11 @@ fbb18d93,<*> microseconds spent in the <*> signal handler during <*> <*> <*> mic
 cc626152,<*> total <*> <*> critical input <*> <*> microseconds total spent on critical input <*> <*> microseconds max time in a critical input <*> ,71
 44a088e5,<*> ddr <*> detected and corrected on rank <*> symbol <*> over <*> seconds ,7
 f5ed6c50,<*> <*> <*> Node <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
-8a294242,Kernel detected <*> integer alignment exceptions <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> ,9
+796fd538,<*> <*> <*> <*> alignment exceptions <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> <*> <*> <*> dear <*> ,9
 7e38291c,total of <*> ddr <*> detected and corrected over <*> seconds ,4
 eb4e6968,minus normalized <*> ,1
 6732d38d,fraction <*> ,1
-6b8c6970,critical input interrupt <*> <*> bit <*> warning for <*> <*> <*> suppressing further interrupts of same type ,1
+99059655,critical input interrupt <*> <*> bit <*> warning for tree <*> <*> suppressing further interrupts of same type ,1
 af175b02,size of scratchpad portion of <*> <*> ,1
 51ec08fe,<*> LOGIN <*> <*> <*> error ,1
 e9e95103,<*> <*> <*> <*> <*> <*> detected and corrected over <*> seconds ,1

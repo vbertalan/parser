@@ -1,17 +1,17 @@
 EventId,EventTemplate,Occurrences
 af872f2b,reverse mapping checking <*> for <*> <*> failed <*> POSSIBLE <*> <*> ,85
 6db91b72,Invalid user <*> from <*> ,64
-5c270c41,<*> invalid user <*> <*> ,85
+5c270c41,<*> invalid user <*> <*> ,88
 2dd9e4f5,<*> check <*> user unknown ,135
 8e8d3990,<*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> ,110
-4fe30679,Failed password for invalid user <*> from <*> port <*> <*> ,81
+4fe30679,Failed password for invalid user <*> from <*> port <*> <*> ,87
 14390d62,Connection closed by <*> <*> ,34
 7e2a5b3c,Received disconnect from <*> <*> Bye Bye <*> ,413
 5ea79f8b,<*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> user root ,369
 f753cb8f,Failed password for root from <*> port <*> <*> ,368
 4d958a91,<*> <*> <*> <*> <*> Failed password for root from <*> port <*> <*> ,2
 decaec86,<*> <*> <*> authentication <*> <*> <*> <*> ,3
-5d5969b8,PAM <*> more authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> user root ,2
+b17658b4,<*> <*> <*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> user root ,2
 14e460ee,PAM <*> ignoring max <*> <*> <*> <*> ,7
 19ac90a5,Did not receive identification string from <*> ,10
 3700ec17,Invalid user support from <*> ,6
@@ -25,22 +25,20 @@ ac4ec254,Failed <*> for invalid user <*> from <*> port <*> <*> ,3
 b3ae1bd7,<*> invalid user admin <*> ,21
 89775706,Failed <*> for invalid user admin from <*> port <*> <*> ,1
 77f39319,Failed password for invalid user admin from <*> port <*> <*> ,44
-89092531,PAM <*> more authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> ,8
+1370699b,<*> <*> <*> authentication <*> <*> uid <*> <*> <*> tty ssh <*> <*> <*> ,8
 f5b3b396,Failed password for ftp from <*> port <*> <*> ,3
 8d33386e,Invalid user matlab from <*> ,3
-8f0a013d,<*> invalid user matlab <*> ,3
 4cfaa2d7,<*> Received disconnect from <*> <*> No more user authentication methods <*> <*> ,45
 8f0a7dc4,Invalid user user from <*> ,4
 7487cfd7,<*> invalid user user <*> ,4
 2a47c3f8,Failed password for invalid user user from <*> port <*> <*> ,4
-ce56bcac,Failed password for <*> from <*> port <*> <*> ,4
-901622b6,Invalid user cisco from <*> ,2
+ce56bcac,Failed password for <*> from <*> port <*> <*> ,7
+e302a176,Invalid user butter from <*> ,1
 69012569,Invalid user oracle from <*> ,6
-947445e8,Failed password for invalid user oracle from <*> port <*> <*> ,6
-53ec0663,Failed password for git from <*> port <*> <*> ,3
 0964e94d,Invalid user deploy from <*> ,2
 7b0429b1,Accepted password for <*> from <*> port <*> <*> ,1
 1f3a124c,<*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 eb1a7bf5,Received disconnect from <*> <*> <*> <*> <*> ,1
 d9f54b8a,<*> <*> <*> <*> <*> <*> ,1
+25adf982,Invalid user boot from <*> ,1
 5178d99a,<*> <*> <*> Connection <*> by <*> <*> ,1

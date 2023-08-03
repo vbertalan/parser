@@ -458,7 +458,7 @@ LineId,Label,Timestamp,Date,User,Month,Day,Time,Location,Component,PID,Content,E
 457,-,1131566664,2005.11.09,cn205,Nov,9,12:04:24,cn205/cn205,ntpd,20490,"synchronized to <*>, stratum 3",aed6cd7b,synchronized to <*> stratum <*> 
 458,-,1131566665,2005.11.09,cn765,Nov,9,12:04:25,cn765/cn765,ntpd,27990,"synchronized to <*>, stratum 3",aed6cd7b,synchronized to <*> stratum <*> 
 459,-,1131566665,2005.11.09,tbird-admin1,Nov,9,12:04:25,local@tbird-admin1,ntpd,1815,kernel time sync disabled 0041,28d4a7ce,kernel time sync disabled <*> 
-460,-,1131566665,2005.11.09,tbird-admin1,Nov,9,12:04:25,local@tbird-admin1,ntpd,1815,time reset +0.182379 s,8cb77279,time <*> <*> <*> 
+460,-,1131566665,2005.11.09,tbird-admin1,Nov,9,12:04:25,local@tbird-admin1,ntpd,1815,time reset +0.182379 s,9d1c8ad5,time reset <*> s 
 461,-,1131566666,2005.11.09,bn10,Nov,9,12:04:26,bn10/bn10,ntpd,22328,"synchronized to <*>, stratum 3",aed6cd7b,synchronized to <*> stratum <*> 
 462,-,1131566666,2005.11.09,tbird-admin1,Nov,9,12:04:26,local@tbird-admin1,/apps/x86_64/system/ganglia-3.0.1/sbin/gmetad,1682,data_thread() got not answer from any [Thunderbird_A7] datasource,4f22c37d,<*> got not answer from any <*> <*> 
 463,-,1131566666,2005.11.09,tbird-admin1,Nov,9,12:04:26,local@tbird-admin1,/apps/x86_64/system/ganglia-3.0.1/sbin/gmetad,1682,data_thread() got not answer from any [Thunderbird_A8] datasource,4f22c37d,<*> got not answer from any <*> <*> 
@@ -1277,12 +1277,12 @@ LineId,Label,Timestamp,Date,User,Month,Day,Time,Location,Component,PID,Content,E
 1276,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,NET,,Registered protocol family 16,05c66754,Registered protocol family <*> 
 1277,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,NET,,Registered protocol family 17,05c66754,Registered protocol family <*> 
 1278,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,NET,,Registered protocol family 2,05c66754,Registered protocol family <*> 
-1279,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI-DMA,,Using software bounce buffering for IO (SWIOTLB),2f5975d6,Using <*> <*> <*> for <*> <*> 
+1279,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI-DMA,,Using software bounce buffering for IO (SWIOTLB),c2c5ab4a,Using software bounce buffering for IO <*> 
 1280,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI,,Probing PCI hardware (bus 00),52c4aca4,<*> PCI <*> <*> <*> 
 1281,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI,,Transparent bridge - 0000:00:1e.0,94289a27,Transparent bridge <*> <*> 
 1282,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI,,Using ACPI for IRQ routing,a1317829,Using <*> for <*> routing 
 1283,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI,,Using MMCONFIG at e0000000,26e5d9f7,Using <*> at <*> 
-1284,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI,,Using configuration type 1,f8c780de,<*> configuration <*> <*> 
+1284,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,PCI,,Using configuration type 1,4158c1be,Using configuration type <*> 
 1285,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,RAMDISK,,Compressed image found at block 0,c4bae555,Compressed image found at block <*> 
 1286,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,SELinux,,Disabled at runtime.,62d2a81f,Disabled at <*> 
 1287,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,SELinux,,Initializing.,9e08cdfc,<*> 
@@ -1302,11 +1302,11 @@ LineId,Label,Timestamp,Date,User,Month,Day,Time,Location,Component,PID,Content,E
 1301,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,device-mapper,,4.1.0-ioctl (2003-12-10) initialised: #36#@#37#,b5f6193c,<*> <*> <*> <*> 
 1302,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,divert,,allocating divert_blk for eth0,0002e447,allocating <*> for <*> 
 1303,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,divert,,allocating divert_blk for eth1,0002e447,allocating <*> for <*> 
-1304,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,divert,,not allocating divert_blk for non-ethernet device lo,c984cfde,not allocating <*> for <*> device <*> 
+1304,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,divert,,not allocating divert_blk for non-ethernet device lo,5f64b8ed,not allocating <*> for <*> device lo 
 1305,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,drivers/usb/input/hid-core.c,,v2.0:USB HID core driver,cf438786,<*> HID core driver 
-1306,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,e1000,,eth0: e1000_probe: Intel(R) PRO/1000 Network Connection,d9f54b8a,<*> <*> <*> <*> <*> <*> 
-1307,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,e1000,,eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex,94c4cd8d,<*> <*> <*> Link <*> <*> <*> <*> <*> <*> 
-1308,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,e1000,,eth1: e1000_probe: Intel(R) PRO/1000 Network Connection,d9f54b8a,<*> <*> <*> <*> <*> <*> 
+1306,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,e1000,,eth0: e1000_probe: Intel(R) PRO/1000 Network Connection,4adee04d,<*> <*> <*> <*> Network Connection 
+1307,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,e1000,,eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex,bbf1091b,<*> <*> NIC Link is Up <*> Mbps Full Duplex 
+1308,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,e1000,,eth1: e1000_probe: Intel(R) PRO/1000 Network Connection,4adee04d,<*> <*> <*> <*> Network Connection 
 1309,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,floppy0,,no floppy controllers found,2b70c70f,no floppy controllers found 
 1310,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,hw_random,,RNG not detected,4106406c,<*> not detected 
 1311,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ide0,,Wait for ready failed before probe !,a9c2b964,Wait for ready failed before probe <*> 
@@ -1315,7 +1315,7 @@ LineId,Label,Timestamp,Date,User,Month,Day,Time,Location,Component,PID,Content,E
 1314,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ide3,,Wait for ready failed before probe !,a9c2b964,Wait for ready failed before probe <*> 
 1315,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ide4,,Wait for ready failed before probe !,a9c2b964,Wait for ready failed before probe <*> 
 1316,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ide5,,Wait for ready failed before probe !,a9c2b964,Wait for ready failed before probe <*> 
-1317,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ide,,Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,f55c7304,<*> <*> <*> <*> <*> for <*> <*> <*> <*> <*> <*> 
+1317,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ide,,Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,2286c542,Assuming <*> system bus speed for PIO <*> override with <*> xx 
 1318,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ioctl32(fdisk:515),,Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda,bbf55005,Unknown cmd <*> <*> <*> on <*> 
 1319,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ip_tables,,(C) 2000-2002 Netfilter core team,a405ad24,<*> <*> <*> core team 
 1320,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ip_tables,,(C) 2000-2002 Netfilter core team,a405ad24,<*> <*> <*> core team 
@@ -1340,8 +1340,8 @@ LineId,Label,Timestamp,Date,User,Month,Day,Time,Location,Component,PID,Content,E
 1339,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,rc,,Starting ts_fixup: succeeded,bf6f1ee6,Starting <*> succeeded 
 1340,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,rpc.statd,1637,Version 1.0.6 Starting,90bfe9f4,Version <*> Starting 
 1341,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,scsi0 ,,LSI Logic MegaRAID driver,e6e9b6d6,LSI Logic <*> driver 
-1342,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,scsi,0,scanning scsi channel 0 [Phy 0] for non-raid devices,d3b28dbb,scanning scsi channel <*> <*> <*> for <*> <*> 
-1343,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,scsi,0,scanning scsi channel 1 [virtual] for logical drives,40d62b95,scanning scsi channel <*> <*> for <*> <*> 
+1342,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,scsi,0,scanning scsi channel 0 [Phy 0] for non-raid devices,2a28417c,scanning scsi channel <*> <*> <*> for <*> devices 
+1343,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,scsi,0,scanning scsi channel 1 [virtual] for logical drives,0a499cfc,scanning scsi channel <*> <*> for logical drives 
 1344,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,sda,,asking for cache data failed,068d6505,<*> <*> cache <*> <*> 
 1345,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,sda,,assuming drive cache: write through,347334c7,<*> <*> <*> <*> <*> 
 1346,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,sda,,sda1 sda2 sda3 sda4,b5f6193c,<*> <*> <*> <*> 
@@ -1351,8 +1351,8 @@ LineId,Label,Timestamp,Date,User,Month,Day,Time,Location,Component,PID,Content,E
 1350,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,syslog-ng,,syslog-ng startup succeeded,2bb55441,<*> startup succeeded 
 1351,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,syslog-ng,1605,syslog-ng version 1.6.7 starting,429d684b,<*> version <*> starting 
 1352,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,time.c,,Detected 3591.360 MHz processor.,63b0e45e,Detected <*> MHz <*> 
-1353,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,time.c,,Using 14.318180 MHz HPET timer.,cc2195c2,Using <*> MHz <*> <*> 
-1354,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,time.c,,Using HPET based timekeeping.,b5f6193c,<*> <*> <*> <*> 
+1353,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,time.c,,Using 14.318180 MHz HPET timer.,b424dd92,Using <*> <*> <*> <*> 
+1354,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,time.c,,Using HPET based timekeeping.,09f73f5a,Using <*> <*> <*> 
 1355,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,ts_fixup,,Creating Topspin /dev entries:,f3317052,Creating Topspin <*> <*> 
 1356,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,usbcore,,registered new driver hiddev,cdf783b4,registered new driver <*> 
 1357,-,1131567043,2005.11.09,tbird-admin1,Nov,9,12:10:43,local@tbird-admin1,usbcore,,registered new driver hub,8173d448,registered new driver hub 

@@ -1799,7 +1799,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1798,20171224-0:0:0:235,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=0,e0afaf2b,<*> <*> <*> 
 1799,20171224-0:0:0:235,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=0,e0afaf2b,<*> <*> <*> 
 1800,20171224-0:0:0:236,Step_StandReportReceiver,30002312,REPORT : 0 0 0 0,5633db58,REPORT <*> <*> <*> <*> <*> 
-1801,20171224-0:0:0:237,Step_HGNH,30002312,next day:steps0mLastReport7214,b5f8f0ab,<*> <*> 
+1801,20171224-0:0:0:237,Step_HGNH,30002312,next day:steps0mLastReport7214,a8e355f8,next <*> 
 1802,20171224-0:0:0:237,Step_SPUtils,30002312,setGoalNotifiShownRecord 1514044800237 false,921c68bb,<*> <*> false 
 1803,20171224-0:0:0:240,Step_HGNH,30002312,closeNotification...,9e08cdfc,<*> 
 1804,20171224-0:0:0:240,Step_NotificationUtil,30002312,deleteHealthNotification(),9e08cdfc,<*> 

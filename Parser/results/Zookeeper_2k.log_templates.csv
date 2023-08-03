@@ -7,11 +7,11 @@ c802547c,Send worker leaving thread ,262
 8cfeed43,Interrupting <*> ,266
 73eda035,Closed socket connection for client <*> which had <*> <*> ,44
 c33a72cc,caught end of stream exception ,37
-1a5f78da,Client attempting to <*> session <*> at <*> ,3
+356162e2,Client attempting to renew session <*> at <*> ,3
 e333df48,Client attempting to establish new session at <*> ,41
 7c6d317a,Established session <*> with negotiated timeout <*> for client <*> ,50
 f7c16424,Accepted socket connection from <*> ,48
-b5f8f0ab,<*> <*> ,1
+b5f8f0ab,<*> <*> ,2
 f26871fa,Connection request from old client <*> will be dropped if server is in <*> mode ,39
 588c59ff,Server <*> <*> ,4
 5a79ddd8,Cannot open channel to <*> at election address <*> ,86
@@ -22,10 +22,10 @@ f804196c,Expiring session <*> timeout of <*> exceeded ,40
 a22eb639,<*> election <*> <*> <*> ,1
 70556bd7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 c05ab85e,FOLLOWING ,2
-608b8453,New <*> My id <*> proposed <*> <*> ,1
+f90df12f,<*> <*> <*> <*> <*> <*> <*> <*> ,1
 94c3dae9,FOLLOWING <*> LEADER ELECTION TOOK <*> <*> ,2
 ca207cee,<*> <*> <*> <*> <*> <*> <*> LEADING <*> <*> <*> <*> <*> LOOKING <*> <*> ,1
-e0c47f7f,<*> set to <*> ,5
+e0c47f7f,<*> set to <*> ,8
 6f633e33,Server <*> Oracle Corporation ,2
 693b3693,Revalidating <*> <*> ,3
 f457e40d,Server <*> <*> built on <*> <*> GMT ,1
@@ -41,12 +41,10 @@ eedc00df,<*> <*> <*> <*> <*> <*> <*> LOOKING <*> <*> <*> <*> <*> LEADING <*> <*>
 665ada7e,Starting quorum peer ,1
 fd867894,<*> <*> to <*> ,2
 558d1235,Follower <*> <*> <*> info <*> <*> ,1
-b5f6193c,<*> <*> <*> <*> ,3
-36fffe4c,Have quorum of <*> starting up and setting last processed <*> <*> ,1
+e39149bc,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,1
 f33c0416,<*> <*> <*> <*> <*> <*> <*> FOLLOWING <*> <*> <*> <*> <*> LEADING <*> <*> ,1
 347334c7,<*> <*> <*> <*> <*> ,1
-c5f099c9,First is <*> ,1
+e0afaf2b,<*> <*> <*> ,1
 d3a00dd9,Reading snapshot <*> ,1
-37522af7,Sending DIFF ,1
 32d6d61e,Getting a snapshot from leader ,2
 be22db7c,<*> <*> <*> <*> <*> <*> <*> FOLLOWING <*> <*> <*> <*> <*> FOLLOWING <*> <*> ,1
